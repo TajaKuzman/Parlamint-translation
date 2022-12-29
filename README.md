@@ -1,6 +1,7 @@
 # Machine translating the ParlaMint output
 
 Tasks:
+- analyse various MT models on a sample data (ParlaMint-sample-sentence-tokenized.txt): see [code in Kaggle](https://www.kaggle.com/code/tajakuz/simple-machine-translation-with-various-mt-systems), results in the spreadsheet *ParlaMint_MT_Comparison-all-models.xlsx*
 - extract data to be translated based on the Parlamint format: see code in *1-Prepare-and-translate-data.ipynb*
 - use OPUSMT through EasyNMT/Hugging Face to machine translate the output - see code in *1-Prepare-and-translate-data.ipynb*
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments - see code in *2-Word_alignments.ipynb*. I've ran this script in Google Colab, because you need sudo to install eflomal (which I don't have in the virtual machine).
