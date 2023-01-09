@@ -6,6 +6,22 @@ Tasks:
 - use OPUSMT through EasyNMT to machine translate the output - see code in *1-Prepare-and-translate-data.ipynb*
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments - see code in *2-Word_alignments.ipynb*. I've ran this script in Google Colab, because you need sudo to install eflomal (which I don't have in the virtual machine).
 
+**Questions:**
+- are all corpora in one language only?
+- which language is in the Belgian corpus?
+- I've checked for all corpora which OPUS-MT models we can use. There exist more or less specific models for all except Hungarian, for which we can use multilingual model. The main problem is Norwegian, which is not stated under multilingual or any other model. This language is covered by eTranslation and Google Translate, should we use one of those, or just the multilingual model?
+
+Workflow:
+- we extract the sequence of tokens of each sentence with the corresponding NE annotations and lemmas of PERS Nes, we merge the tokens and translate the sentence. We disregard any XLM elements inside the sentence.
+- we apply the stanza tokenization over the translation (if multiple sentences come out, **we merge the tokens back into one sentence - what does this mean, how?**)
+- we perform word alignment, **we transfer the NE annotations to the translated sentence - how - should we use the same tags as in the original (B-PER, I-PER, ...), should we mark all other words with 0?** , we transfer the PERS NE lemmas to the translation
+- we apply POS and LEMMA processors over the data. The conllu is to contain (tokenize, pos, lemma), the conllu is to be have the PERS lemmas transferred, all NE annotations are to be transferred as annotations as well (MISC column).
+- for each original ana file, we release a conllu file with the same name and with the number of sentences equal to the number of sentences in the ana file, each conllu sentence is to have the original sentence ID
+- word alignment in both directions is to be shared as a metadatum in each sentence header (# align_s = 1-1 2-2... and #align_t = 1-1 2-2...)
+- metadata translation: **we want to translate all the text contents of non-s elements - does this include the gap elements; can I get a list of all elements somewhere?**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš. **Should I perform word alignment on it as well?**
+
+To do:
+- check that I do not extract anything else than "wc" or "p" tag out of the sentence (no gap tags etc.)
 
 ## Sample analysis
 
