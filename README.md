@@ -6,22 +6,46 @@ Tasks:
 - use OPUSMT through EasyNMT to machine translate the output - see code in *1-Prepare-and-translate-data.ipynb*
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments - see code in *2-Word_alignments.ipynb*. I've ran this script in Google Colab, because you need sudo to install eflomal (which I don't have in the virtual machine).
 
+Workflow:
+1. Extract information from the CONLL-U
+2. Translate
+3. Tokenize English translations with Stanza
+4. Word alignment, substitute English NE translations with lemmas from the source, get information on NE annotations for each translated word from the source annotations
+5. Linguistically process English translation with Stanza (lemmas, POS)
+6. Parse CONLL-u file and add additional information (sentence ids, alignments, NER annotations)
+
+Workflow (more details):
+1. Extract from each sentence in the CONLL-u file:
+	- sent_id (in metadata) (# sent_id = ParlaMint-SI_2014-08-01-SDZ7-Redna-01.seg1.1)
+	- "text" (in metadata): to be feed into the MT system (# text = Spoštovani, prosim, da zasedete svoja mesta.)
+	- tokenized text (punctuation separated from words by space): by iterating through the tokens in the sentence - create a list of tokens and join them into a string (["Spoštovani", "prosim", ",", "da"] -> "Spoštovani prosim , da)
+	- list of NE annotations (same length as the tokens) - we want NE annotations for all tokens, with the information on the lemma and index if the NE is not "0": ["O", "O", "O", {4: "PER-I", "Borut"}]
+2. Translate
+3. Word alignment:
+	- We apply the stanza tokenization over the translation; use tokenize_no_ssplit to avoid splitting sentences in multiple sentences.
+	- Perform word alignment.
+	- Save forward and reverse alignment information for each sentence (2 additional columns).
+	- Transfer NE annotations to the translated sentence based on the alignment: add a column with information to which English token this information should go to (e.g. [{3: "B-PER", 5:"I-LOC"}])
+	- Substitute translated NE words with lemmas based on the annotation, save new translation to a new column.
+4. Linguistic processing of translated text:
+	- We use Stanza to get POS and lemmas. Send in the "pre-tokenized text" (created in previous steps).
+	- Transform the result into CONLL-u (which should contain tokens, lemmas, pos). Parse the CONLL-u file and add: 1) sentence_id as metadata 2) forward and reverse alignment as metadata (# align_s = 1-1 2-2... and #align_t = 1-1 2-2...), 3) based on alignment, add NER information to each token (misc = {NER:} field)
+	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
+
 **Questions:**
-- are all corpora in one language only?
-- which language is in the Belgian corpus?
 - I've checked for all corpora which OPUS-MT models we can use. There exist more or less specific models for all except Hungarian, for which we can use multilingual model. The main problem is Norwegian, which is not stated under multilingual or any other model. This language is covered by eTranslation and Google Translate, should we use one of those, or just the multilingual model?
 
-Workflow:
+Workflow (Nikola's description):
 - we extract the sequence of tokens of each sentence with the corresponding NE annotations and lemmas of PERS Nes, we merge the tokens and translate the sentence. We disregard any XLM elements inside the sentence.
-- we apply the stanza tokenization over the translation (if multiple sentences come out, **we merge the tokens back into one sentence - what does this mean, how?**)
-- we perform word alignment, **we transfer the NE annotations to the translated sentence - how - should we use the same tags as in the original (B-PER, I-PER, ...), should we mark all other words with 0?** , we transfer the PERS NE lemmas to the translation
+- we apply the stanza tokenization over the translation (if multiple sentences come out, we merge the tokens back into one sentence) - we just need a list of tokens; use tokenize_no_ssplit da se izogneš razdeljevanju na stavke. Then for applying stanza for POS, we will send in the "pre-tokenized text"
+- we perform word alignment, we transfer the NE annotations to the translated sentence, we transfer the PERS NE lemmas to the translation
 - we apply POS and LEMMA processors over the data. The conllu is to contain (tokenize, pos, lemma), the conllu is to be have the PERS lemmas transferred, all NE annotations are to be transferred as annotations as well (MISC column).
 - for each original ana file, we release a conllu file with the same name and with the number of sentences equal to the number of sentences in the ana file, each conllu sentence is to have the original sentence ID
 - word alignment in both directions is to be shared as a metadatum in each sentence header (# align_s = 1-1 2-2... and #align_t = 1-1 2-2...)
 - metadata translation: **we want to translate all the text contents of non-s elements - does this include the gap elements; can I get a list of all elements somewhere?**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš. **Should I perform word alignment on it as well?**
 
-To do:
-- check that I do not extract anything else than "wc" or "p" tag out of the sentence (no gap tags etc.)
+Pazi, da v CONLL-u obstajajo tudi "multiword" besede, kjer so v CONLLU v eni vrstici multiword besede z indexom 1-2, in v naslednjih dveh oba dela besede - za vsak jezik lahko v documentationu za Universal Dependencies pogledaš v razdelku "Tokenization and Word Segmentation", ali obstajajo multi-word besede. Če obstajajo, lahko filtriraš ven besede, ki imajo v indexu "-".
+
 
 ## Sample analysis
 
