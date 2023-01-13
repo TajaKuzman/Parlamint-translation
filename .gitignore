@@ -7,3 +7,11 @@
 /ParlaMint-SI/ParlaMint-SI.conllu
 /eflomal
 /results/SI
+/ParlaMint-CZ/ParlaMint-CZ.conllu
+ParlaMint-CZ/ParlaMint-CZ.conllu.zip
+results/CZ/ParlaMint-CZ-extracted-source-data.csv
+.gitignore
+results/CZ/ParlaMint-CZ-sample-model-comparison.csv
+.gitignore
+results/CZ/ParlaMint-CZ-final-dataframe.csv
+.gitignore
