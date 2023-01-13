@@ -1,6 +1,6 @@
 # text = 3 .
 # sent_id = 0
-1	3	3	NUM	LS	_	0	_	_	start_char=0|end_char=1|ner=S-CARDINAL
+1	3	3	NUM	LS	_	0	_	_	start_char=0|end_char=1|ner=O
 2	.	.	PUNCT	.	_	1	_	_	start_char=2|end_char=3|ner=O
 
 # text = Draft meeting order of Members in the Chamber of Procedure of the Chamber of Members
@@ -11,12 +11,12 @@
 4	of	of	ADP	IN	_	3	_	_	start_char=24|end_char=26|ner=O
 5	Members	Member	PROPN	NNPS	Number=Plur	4	_	_	start_char=27|end_char=34|ner=O
 6	in	in	ADP	IN	_	5	_	_	start_char=35|end_char=37|ner=O
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=38|end_char=41|ner=B-LAW
-8	Chamber	Chamber	PROPN	NNP	Number=Sing	7	_	_	start_char=42|end_char=49|ner=I-LAW
-9	of	of	ADP	IN	_	8	_	_	start_char=50|end_char=52|ner=I-LAW
-10	Procedure	Procedure	PROPN	NNP	Number=Sing	9	_	_	start_char=53|end_char=62|ner=E-LAW
-11	of	of	ADP	IN	_	10	_	_	start_char=63|end_char=65|ner=O
-12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=66|end_char=69|ner=B-ORG
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=38|end_char=41|ner=O
+8	Chamber	Chamber	PROPN	NNP	Number=Sing	7	_	_	start_char=42|end_char=49|ner=B-ORG
+9	of	of	ADP	IN	_	8	_	_	start_char=50|end_char=52|ner=I-ORG
+10	Procedure	Procedure	PROPN	NNP	Number=Sing	9	_	_	start_char=53|end_char=62|ner=I-ORG
+11	of	of	ADP	IN	_	10	_	_	start_char=63|end_char=65|ner=I-ORG
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=66|end_char=69|ner=I-ORG
 13	Chamber	Chamber	PROPN	NNP	Number=Sing	12	_	_	start_char=70|end_char=77|ner=I-ORG
 14	of	of	ADP	IN	_	13	_	_	start_char=78|end_char=80|ner=I-ORG
 15	Members	Member	PROPN	NNPS	Number=Plur	14	_	_	start_char=81|end_char=88|ner=E-ORG
@@ -25,22 +25,22 @@
 # sent_id = 2
 1	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	0	_	_	start_char=89|end_char=98|ner=O
 2	to	to	ADP	IN	_	1	_	_	start_char=99|end_char=101|ner=O
-3	Paragraph	paragraph	NOUN	NN	Number=Sing	2	_	_	start_char=102|end_char=111|ner=B-LAW
-4	52	52	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=112|end_char=114|ner=I-LAW
-5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=115|end_char=116|ner=I-LAW
-6	a	a	NUM	LS	_	5	_	_	start_char=117|end_char=118|ner=I-LAW
-7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=119|end_char=120|ner=I-LAW
-8	1	1	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=121|end_char=122|ner=I-LAW
-9	of	of	ADP	IN	_	8	_	_	start_char=123|end_char=125|ner=I-LAW
-10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=126|end_char=129|ner=I-LAW
-11	Rules	rule	NOUN	NNS	Number=Plur	10	_	_	start_char=130|end_char=135|ner=I-LAW
-12	of	of	ADP	IN	_	11	_	_	start_char=136|end_char=138|ner=I-LAW
-13	Procedure	procedure	NOUN	NN	Number=Sing	12	_	_	start_char=139|end_char=148|ner=E-LAW
+3	Paragraph	paragraph	NOUN	NN	Number=Sing	2	_	_	start_char=102|end_char=111|ner=O
+4	52	52	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=112|end_char=114|ner=O
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=115|end_char=116|ner=O
+6	a	a	NUM	LS	_	5	_	_	start_char=117|end_char=118|ner=O
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=119|end_char=120|ner=O
+8	1	1	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=121|end_char=122|ner=O
+9	of	of	ADP	IN	_	8	_	_	start_char=123|end_char=125|ner=O
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=126|end_char=129|ner=O
+11	Rules	rule	NOUN	NNS	Number=Plur	10	_	_	start_char=130|end_char=135|ner=B-ORG
+12	of	of	ADP	IN	_	11	_	_	start_char=136|end_char=138|ner=I-ORG
+13	Procedure	procedure	NOUN	NN	Number=Sing	12	_	_	start_char=139|end_char=148|ner=E-ORG
 14	,	,	PUNCT	,	_	13	_	_	start_char=149|end_char=150|ner=O
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=151|end_char=154|ner=B-LAW
-16	Chamber	Chamber	PROPN	NNP	Number=Sing	15	_	_	start_char=155|end_char=162|ner=I-LAW
-17	of	of	ADP	IN	_	16	_	_	start_char=163|end_char=165|ner=I-LAW
-18	Parliament	Parliament	PROPN	NNP	Number=Sing	17	_	_	start_char=166|end_char=176|ner=E-LAW
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=151|end_char=154|ner=O
+16	Chamber	Chamber	PROPN	NNP	Number=Sing	15	_	_	start_char=155|end_char=162|ner=B-ORG
+17	of	of	ADP	IN	_	16	_	_	start_char=163|end_char=165|ner=I-ORG
+18	Parliament	Parliament	PROPN	NNP	Number=Sing	17	_	_	start_char=166|end_char=176|ner=E-ORG
 19	approves	approve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=177|end_char=185|ner=O
 20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=186|end_char=189|ner=O
 21	meeting	meeting	NOUN	NN	Number=Sing	20	_	_	start_char=190|end_char=197|ner=O
@@ -48,15 +48,15 @@
 23	of	of	ADP	IN	_	22	_	_	start_char=204|end_char=206|ner=O
 24	Members	Member	PROPN	NNPS	Number=Plur	23	_	_	start_char=207|end_char=214|ner=O
 25	in	in	ADP	IN	_	24	_	_	start_char=215|end_char=217|ner=O
-26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=218|end_char=221|ner=B-LAW
-27	Chamber	Chamber	PROPN	NNP	Number=Sing	26	_	_	start_char=222|end_char=229|ner=I-LAW
-28	of	of	ADP	IN	_	27	_	_	start_char=230|end_char=232|ner=I-LAW
-29	Procedure	Procedure	PROPN	NNP	Number=Sing	28	_	_	start_char=233|end_char=242|ner=I-LAW
-30	of	of	ADP	IN	_	29	_	_	start_char=243|end_char=245|ner=I-LAW
-31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=246|end_char=249|ner=I-LAW
-32	Chamber	Chamber	PROPN	NNP	Number=Sing	31	_	_	start_char=250|end_char=257|ner=I-LAW
-33	of	of	ADP	IN	_	32	_	_	start_char=258|end_char=260|ner=I-LAW
-34	Members	Member	PROPN	NNPS	Number=Plur	33	_	_	start_char=261|end_char=268|ner=E-LAW
+26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=218|end_char=221|ner=O
+27	Chamber	Chamber	PROPN	NNP	Number=Sing	26	_	_	start_char=222|end_char=229|ner=B-ORG
+28	of	of	ADP	IN	_	27	_	_	start_char=230|end_char=232|ner=I-ORG
+29	Procedure	Procedure	PROPN	NNP	Number=Sing	28	_	_	start_char=233|end_char=242|ner=I-ORG
+30	of	of	ADP	IN	_	29	_	_	start_char=243|end_char=245|ner=I-ORG
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=246|end_char=249|ner=I-ORG
+32	Chamber	Chamber	PROPN	NNP	Number=Sing	31	_	_	start_char=250|end_char=257|ner=I-ORG
+33	of	of	ADP	IN	_	32	_	_	start_char=258|end_char=260|ner=I-ORG
+34	Members	Member	PROPN	NNPS	Number=Plur	33	_	_	start_char=261|end_char=268|ner=E-ORG
 35	and	and	CCONJ	CC	_	34	_	_	start_char=269|end_char=272|ner=O
 36	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	35	_	_	start_char=273|end_char=276|ner=O
 37	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	36	_	_	start_char=277|end_char=281|ner=O
@@ -95,9 +95,9 @@
 6	President	President	PROPN	NNP	Number=Sing	5	_	_	start_char=419|end_char=428|ner=O
 7	of	of	ADP	IN	_	6	_	_	start_char=429|end_char=431|ner=O
 8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=432|end_char=435|ner=O
-9	ODS	ODS	PROPN	NNP	Number=Sing	8	_	_	start_char=436|end_char=439|ner=S-ORG
-10	Zbyněk	Zbyněk	PROPN	NNP	Number=Sing	9	_	_	start_char=440|end_char=446|ner=B-PERSON
-11	Stanjura	Stanjura	PROPN	NNP	Number=Sing	10	_	_	start_char=447|end_char=455|ner=E-PERSON
+9	ODS	ODS	PROPN	NNP	Number=Sing	8	_	_	start_char=436|end_char=439|ner=B-ORG
+10	Zbyněk	Zbyněk	PROPN	NNP	Number=Sing	9	_	_	start_char=440|end_char=446|ner=I-ORG
+11	Stanjura	Stanjura	PROPN	NNP	Number=Sing	10	_	_	start_char=447|end_char=455|ner=E-ORG
 12	.	.	PUNCT	.	_	11	_	_	start_char=456|end_char=457|ner=O
 
 # text = Thank you for your word .
@@ -119,7 +119,7 @@
 6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=500|end_char=503|ner=O
 7	still	still	ADV	RB	_	6	_	_	start_char=504|end_char=509|ner=O
 8	proposing	propose	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=510|end_char=519|ner=O
-9	three	three	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=520|end_char=525|ner=S-CARDINAL
+9	three	three	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=520|end_char=525|ner=O
 10	changes	change	NOUN	NNS	Number=Plur	9	_	_	start_char=526|end_char=533|ner=O
 11	within	within	ADP	IN	_	10	_	_	start_char=534|end_char=540|ner=O
 12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=541|end_char=544|ner=O
@@ -158,34 +158,34 @@
 6	,	,	PUNCT	,	_	5	_	_	start_char=647|end_char=648|ner=O
 7	that	that	SCONJ	IN	_	6	_	_	start_char=649|end_char=653|ner=O
 8	Mr	Mr	PROPN	NNP	Number=Sing	7	_	_	start_char=654|end_char=656|ner=O
-9	Svoboda	Svoboda	PROPN	NNP	Number=Sing	8	_	_	start_char=657|end_char=664|ner=S-PERSON
+9	Svoboda	Svoboda	PROPN	NNP	Number=Sing	8	_	_	start_char=657|end_char=664|ner=S-PER
 10	,	,	PUNCT	,	_	9	_	_	start_char=665|end_char=666|ner=O
 11	Mr	Mr	PROPN	NNP	Number=Sing	10	_	_	start_char=667|end_char=669|ner=O
-12	Swoboda	Swoboda	PROPN	NNP	Number=Sing	11	_	_	start_char=670|end_char=677|ner=S-PERSON
+12	Swoboda	Swoboda	PROPN	NNP	Number=Sing	11	_	_	start_char=670|end_char=677|ner=S-PER
 13	,	,	PUNCT	,	_	12	_	_	start_char=678|end_char=679|ner=O
 14	on	on	ADP	IN	_	13	_	_	start_char=680|end_char=682|ner=O
 15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=683|end_char=686|ner=O
 16	spot	spot	NOUN	NN	Number=Sing	15	_	_	start_char=687|end_char=691|ner=O
-17	162	162	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=692|end_char=695|ner=S-CARDINAL
+17	162	162	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=692|end_char=695|ner=O
 18	,	,	PUNCT	,	_	17	_	_	start_char=696|end_char=697|ner=O
 19	instead	instead	ADV	RB	_	18	_	_	start_char=698|end_char=705|ner=O
 20	of	of	ADP	IN	_	19	_	_	start_char=706|end_char=708|ner=O
 21	Mr	Mr	PROPN	NNP	Number=Sing	20	_	_	start_char=709|end_char=711|ner=O
-22	Zahradník	Zahradník	PROPN	NNP	Number=Sing	21	_	_	start_char=712|end_char=721|ner=S-PERSON
+22	Zahradník	Zahradník	PROPN	NNP	Number=Sing	21	_	_	start_char=712|end_char=721|ner=S-PER
 23	,	,	PUNCT	,	_	22	_	_	start_char=722|end_char=723|ner=O
 24	and	and	CCONJ	CC	_	23	_	_	start_char=724|end_char=727|ner=O
 25	on	on	ADP	IN	_	24	_	_	start_char=728|end_char=730|ner=O
 26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=731|end_char=734|ner=O
 27	spot	spot	NOUN	NN	Number=Sing	26	_	_	start_char=735|end_char=739|ner=O
-28	167	167	NUM	CD	NumForm=Digit|NumType=Card	27	_	_	start_char=740|end_char=743|ner=S-CARDINAL
+28	167	167	NUM	CD	NumForm=Digit|NumType=Card	27	_	_	start_char=740|end_char=743|ner=O
 29	,	,	PUNCT	,	_	28	_	_	start_char=744|end_char=745|ner=O
 30	Mr	Mr	PROPN	NNP	Number=Sing	29	_	_	start_char=746|end_char=748|ner=O
-31	Pospíšil	Pospíšil	PROPN	NNP	Number=Sing	30	_	_	start_char=749|end_char=757|ner=S-PERSON
+31	Pospíšil	Pospíšil	PROPN	NNP	Number=Sing	30	_	_	start_char=749|end_char=757|ner=S-PER
 32	,	,	PUNCT	,	_	31	_	_	start_char=758|end_char=759|ner=O
 33	instead	instead	ADV	RB	_	32	_	_	start_char=760|end_char=767|ner=O
 34	of	of	ADP	IN	_	33	_	_	start_char=768|end_char=770|ner=O
 35	Mr	Mr	PROPN	NNP	Number=Sing	34	_	_	start_char=771|end_char=773|ner=O
-36	Svoboda	Svoboda	PROPN	NNP	Number=Sing	35	_	_	start_char=774|end_char=781|ner=S-PERSON
+36	Svoboda	Svoboda	PROPN	NNP	Number=Sing	35	_	_	start_char=774|end_char=781|ner=S-PER
 37	.	.	PUNCT	.	_	36	_	_	start_char=782|end_char=783|ner=O
 
 # text = Thank you and I 'm sorry for the complication that we changed for the last minute .
@@ -203,9 +203,9 @@
 11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	_	_	start_char=835|end_char=837|ner=O
 12	changed	change	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	11	_	_	start_char=838|end_char=845|ner=O
 13	for	for	ADP	IN	_	12	_	_	start_char=846|end_char=849|ner=O
-14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=850|end_char=853|ner=B-TIME
-15	last	last	ADJ	JJ	Degree=Pos	14	_	_	start_char=854|end_char=858|ner=I-TIME
-16	minute	minute	NOUN	NN	Number=Sing	15	_	_	start_char=859|end_char=865|ner=E-TIME
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=850|end_char=853|ner=O
+15	last	last	ADJ	JJ	Degree=Pos	14	_	_	start_char=854|end_char=858|ner=O
+16	minute	minute	NOUN	NN	Number=Sing	15	_	_	start_char=859|end_char=865|ner=O
 17	.	.	PUNCT	.	_	16	_	_	start_char=866|end_char=867|ner=O
 
 # text = Yes , thank you .
@@ -291,7 +291,7 @@
 24	drafted	draft	VERB	VBN	Tense=Past|VerbForm=Part	23	_	_	start_char=1189|end_char=1196|ner=O
 25	by	by	ADP	IN	_	24	_	_	start_char=1197|end_char=1199|ner=O
 26	Mr	Mr	PROPN	NNP	Number=Sing	25	_	_	start_char=1200|end_char=1202|ner=O
-27	Stanjura	Stanjura	PROPN	NNP	Number=Sing	26	_	_	start_char=1203|end_char=1211|ner=S-PERSON
+27	Stanjura	Stanjura	PROPN	NNP	Number=Sing	26	_	_	start_char=1203|end_char=1211|ner=S-PER
 28	's	's	PART	POS	_	27	_	_	start_char=1212|end_char=1214|ner=O
 29	proposal	proposal	NOUN	NN	Number=Sing	28	_	_	start_char=1215|end_char=1223|ner=O
 30	,	,	PUNCT	,	_	29	_	_	start_char=1224|end_char=1225|ner=O
@@ -349,8 +349,8 @@
 4	read	read	VERB	VB	VerbForm=Inf	3	_	_	start_char=1444|end_char=1448|ner=O
 5	:	:	PUNCT	:	_	4	_	_	start_char=1449|end_char=1450|ner=O
 6	"	"	PUNCT	``	_	5	_	_	start_char=1451|end_char=1452|ner=O
-7	The	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=1453|end_char=1456|ner=B-ORG
-8	Parliament	Parliament	PROPN	NNP	Number=Sing	7	_	_	start_char=1457|end_char=1467|ner=I-ORG
+7	The	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=1453|end_char=1456|ner=O
+8	Parliament	Parliament	PROPN	NNP	Number=Sing	7	_	_	start_char=1457|end_char=1467|ner=B-ORG
 9	of	of	ADP	IN	_	8	_	_	start_char=1468|end_char=1470|ner=I-ORG
 10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=1471|end_char=1474|ner=I-ORG
 11	Member	Member	PROPN	NNP	Number=Sing	10	_	_	start_char=1475|end_char=1481|ner=I-ORG
@@ -363,16 +363,16 @@
 18	of	of	ADP	IN	_	17	_	_	start_char=1521|end_char=1523|ner=O
 19	Members	Member	PROPN	NNPS	Number=Plur	18	_	_	start_char=1524|end_char=1531|ner=O
 20	in	in	ADP	IN	_	19	_	_	start_char=1532|end_char=1534|ner=O
-21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=1535|end_char=1538|ner=B-LAW
-22	Chamber	Chamber	PROPN	NNP	Number=Sing	21	_	_	start_char=1539|end_char=1546|ner=I-LAW
-23	of	of	ADP	IN	_	22	_	_	start_char=1547|end_char=1549|ner=I-LAW
-24	Procedure	Procedure	PROPN	NNP	Number=Sing	23	_	_	start_char=1550|end_char=1559|ner=I-LAW
-25	of	of	ADP	IN	_	24	_	_	start_char=1560|end_char=1562|ner=I-LAW
-26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=1563|end_char=1566|ner=I-LAW
-27	Chamber	Chamber	PROPN	NNP	Number=Sing	26	_	_	start_char=1567|end_char=1574|ner=I-LAW
-28	of	of	ADP	IN	_	27	_	_	start_char=1575|end_char=1577|ner=I-LAW
-29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=1578|end_char=1581|ner=I-LAW
-30	Parliament	Parliament	PROPN	NNP	Number=Sing	29	_	_	start_char=1582|end_char=1592|ner=E-LAW
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=1535|end_char=1538|ner=O
+22	Chamber	Chamber	PROPN	NNP	Number=Sing	21	_	_	start_char=1539|end_char=1546|ner=B-ORG
+23	of	of	ADP	IN	_	22	_	_	start_char=1547|end_char=1549|ner=I-ORG
+24	Procedure	Procedure	PROPN	NNP	Number=Sing	23	_	_	start_char=1550|end_char=1559|ner=I-ORG
+25	of	of	ADP	IN	_	24	_	_	start_char=1560|end_char=1562|ner=I-ORG
+26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=1563|end_char=1566|ner=I-ORG
+27	Chamber	Chamber	PROPN	NNP	Number=Sing	26	_	_	start_char=1567|end_char=1574|ner=I-ORG
+28	of	of	ADP	IN	_	27	_	_	start_char=1575|end_char=1577|ner=I-ORG
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=1578|end_char=1581|ner=I-ORG
+30	Parliament	Parliament	PROPN	NNP	Number=Sing	29	_	_	start_char=1582|end_char=1592|ner=E-ORG
 31	in	in	ADP	IN	_	30	_	_	start_char=1593|end_char=1595|ner=O
 32	accordance	accordance	NOUN	NN	Number=Sing	31	_	_	start_char=1596|end_char=1606|ner=O
 33	with	with	ADP	IN	_	32	_	_	start_char=1607|end_char=1611|ner=O
@@ -383,7 +383,7 @@
 38	amended	amend	VERB	VBN	Tense=Past|VerbForm=Part	37	_	_	start_char=1635|end_char=1642|ner=O
 39	by	by	ADP	IN	_	38	_	_	start_char=1643|end_char=1645|ner=O
 40	Mr	Mr	PROPN	NNP	Number=Sing	39	_	_	start_char=1646|end_char=1648|ner=O
-41	Stanjura	Stanjura	PROPN	NNP	Number=Sing	40	_	_	start_char=1649|end_char=1657|ner=S-PERSON
+41	Stanjura	Stanjura	PROPN	NNP	Number=Sing	40	_	_	start_char=1649|end_char=1657|ner=S-PER
 42	's	's	PART	POS	_	41	_	_	start_char=1658|end_char=1660|ner=O
 43	amendment	amendment	NOUN	NN	Number=Sing	42	_	_	start_char=1661|end_char=1670|ner=O
 44	.	.	PUNCT	.	_	43	_	_	start_char=1671|end_char=1672|ner=O
@@ -432,16 +432,16 @@
 2	vote	vote	NOUN	NN	Number=Sing	1	_	_	start_char=1807|end_char=1811|ner=O
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=1812|end_char=1814|ner=O
 4	number	number	NOUN	NN	Number=Sing	3	_	_	start_char=1815|end_char=1821|ner=O
-5	five	five	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=1822|end_char=1826|ner=S-CARDINAL
+5	five	five	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=1822|end_char=1826|ner=O
 6	.	.	PUNCT	.	_	5	_	_	start_char=1827|end_char=1828|ner=O
 
 # text = Reported 190 , for 183 , against no one .
 # sent_id = 21
 1	Reported	report	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=1829|end_char=1837|ner=O
-2	190	190	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1838|end_char=1841|ner=S-CARDINAL
+2	190	190	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1838|end_char=1841|ner=O
 3	,	,	PUNCT	,	_	2	_	_	start_char=1842|end_char=1843|ner=O
 4	for	for	ADP	IN	_	3	_	_	start_char=1844|end_char=1847|ner=O
-5	183	183	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=1848|end_char=1851|ner=S-CARDINAL
+5	183	183	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=1848|end_char=1851|ner=O
 6	,	,	PUNCT	,	_	5	_	_	start_char=1852|end_char=1853|ner=O
 7	against	against	ADP	IN	_	6	_	_	start_char=1854|end_char=1861|ner=O
 8	no	no	DET	DT	_	7	_	_	start_char=1862|end_char=1864|ner=O
@@ -477,11 +477,11 @@
 16	that	that	SCONJ	IN	_	15	_	_	start_char=1974|end_char=1978|ner=O
 17	at	at	ADP	IN	_	16	_	_	start_char=1979|end_char=1981|ner=O
 18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=1982|end_char=1985|ner=O
-19	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	18	_	_	start_char=1986|end_char=1991|ner=S-ORDINAL
+19	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	18	_	_	start_char=1986|end_char=1991|ner=O
 20	meeting	meeting	NOUN	NN	Number=Sing	19	_	_	start_char=1992|end_char=1999|ner=O
 21	of	of	ADP	IN	_	20	_	_	start_char=2000|end_char=2002|ner=O
-22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=2003|end_char=2006|ner=B-ORG
-23	Chamber	Chamber	PROPN	NNP	Number=Sing	22	_	_	start_char=2007|end_char=2014|ner=I-ORG
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=2003|end_char=2006|ner=O
+23	Chamber	Chamber	PROPN	NNP	Number=Sing	22	_	_	start_char=2007|end_char=2014|ner=B-ORG
 24	of	of	ADP	IN	_	23	_	_	start_char=2015|end_char=2017|ner=I-ORG
 25	Deputies	Deputy	PROPN	NNPS	Number=Plur	24	_	_	start_char=2018|end_char=2026|ner=E-ORG
 26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	_	_	start_char=2027|end_char=2030|ner=O
@@ -497,7 +497,7 @@
 # text = Mr Kalousek .
 # sent_id = 24
 1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	start_char=2079|end_char=2081|ner=O
-2	Kalousek	Kalousek	PROPN	NNP	Number=Sing	1	_	_	start_char=2082|end_char=2090|ner=S-PERSON
+2	Kalousek	Kalousek	PROPN	NNP	Number=Sing	1	_	_	start_char=2082|end_char=2090|ner=S-PER
 3	.	.	PUNCT	.	_	2	_	_	start_char=2091|end_char=2092|ner=O
 
 # text = Still within this point ?
@@ -538,7 +538,7 @@
 11	floor	floor	NOUN	NN	Number=Sing	10	_	_	start_char=2203|end_char=2208|ner=O
 12	to	to	ADP	IN	_	11	_	_	start_char=2209|end_char=2211|ner=O
 13	President	President	PROPN	NNP	Number=Sing	12	_	_	start_char=2212|end_char=2221|ner=O
-14	Kalousek	Kalousek	PROPN	NNP	Number=Sing	13	_	_	start_char=2222|end_char=2230|ner=S-PERSON
+14	Kalousek	Kalousek	PROPN	NNP	Number=Sing	13	_	_	start_char=2222|end_char=2230|ner=S-PER
 15	.	.	PUNCT	.	_	14	_	_	start_char=2231|end_char=2232|ner=O
 
 # text = Please , you have the floor .
@@ -575,15 +575,15 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=2343|end_char=2346|ner=O
 21	MEP	MEP	PROPN	NNP	Number=Sing	20	_	_	start_char=2347|end_char=2350|ner=S-ORG
 22	's	's	PART	POS	_	21	_	_	start_char=2351|end_char=2353|ner=O
-23	TOP	top	ADJ	JJ	Degree=Pos	22	_	_	start_char=2354|end_char=2357|ner=B-ORG
-24	09	09	NUM	CD	NumForm=Digit|NumType=Card	23	_	_	start_char=2358|end_char=2360|ner=E-ORG
+23	TOP	top	ADJ	JJ	Degree=Pos	22	_	_	start_char=2354|end_char=2357|ner=B-MISC
+24	09	09	NUM	CD	NumForm=Digit|NumType=Card	23	_	_	start_char=2358|end_char=2360|ner=E-MISC
 25	club	club	NOUN	NN	Number=Sing	24	_	_	start_char=2361|end_char=2365|ner=O
 26	,	,	PUNCT	,	_	25	_	_	start_char=2366|end_char=2367|ner=O
 27	for	for	ADP	IN	_	26	_	_	start_char=2368|end_char=2371|ner=O
 28	a	a	DET	DT	Definite=Ind|PronType=Art	27	_	_	start_char=2372|end_char=2373|ner=O
-29	two	two	NUM	CD	NumForm=Word|NumType=Card	28	_	_	start_char=2374|end_char=2377|ner=B-TIME
-30	-	-	PUNCT	HYPH	_	29	_	_	start_char=2378|end_char=2379|ner=I-TIME
-31	hour	hour	NOUN	NN	Number=Sing	30	_	_	start_char=2380|end_char=2384|ner=E-TIME
+29	two	two	NUM	CD	NumForm=Word|NumType=Card	28	_	_	start_char=2374|end_char=2377|ner=O
+30	-	-	PUNCT	HYPH	_	29	_	_	start_char=2378|end_char=2379|ner=O
+31	hour	hour	NOUN	NN	Number=Sing	30	_	_	start_char=2380|end_char=2384|ner=O
 32	stay	stay	NOUN	NN	Number=Sing	31	_	_	start_char=2385|end_char=2389|ner=O
 33	at	at	ADP	IN	_	32	_	_	start_char=2390|end_char=2392|ner=O
 34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	start_char=2393|end_char=2396|ner=O
@@ -602,8 +602,8 @@
 4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=2449|end_char=2452|ner=O
 5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=2453|end_char=2456|ner=O
 6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=2457|end_char=2460|ner=O
-7	two	two	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=2461|end_char=2464|ner=B-TIME
-8	hours	hour	NOUN	NNS	Number=Plur	7	_	_	start_char=2465|end_char=2470|ner=E-TIME
+7	two	two	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=2461|end_char=2464|ner=O
+8	hours	hour	NOUN	NNS	Number=Plur	7	_	_	start_char=2465|end_char=2470|ner=O
 9	?	?	PUNCT	.	_	8	_	_	start_char=2471|end_char=2472|ner=O
 
 # text = I am afraid that this will not be entirely possible , because the rule that has been observed is that every MP club has the right to a two - hour recess without a vote .
@@ -636,9 +636,9 @@
 26	right	right	NOUN	NN	Number=Sing	25	_	_	start_char=2597|end_char=2602|ner=O
 27	to	to	ADP	IN	_	26	_	_	start_char=2603|end_char=2605|ner=O
 28	a	a	DET	DT	Definite=Ind|PronType=Art	27	_	_	start_char=2606|end_char=2607|ner=O
-29	two	two	NUM	CD	NumForm=Word|NumType=Card	28	_	_	start_char=2608|end_char=2611|ner=B-TIME
-30	-	-	PUNCT	HYPH	_	29	_	_	start_char=2612|end_char=2613|ner=I-TIME
-31	hour	hour	NOUN	NN	Number=Sing	30	_	_	start_char=2614|end_char=2618|ner=E-TIME
+29	two	two	NUM	CD	NumForm=Word|NumType=Card	28	_	_	start_char=2608|end_char=2611|ner=O
+30	-	-	PUNCT	HYPH	_	29	_	_	start_char=2612|end_char=2613|ner=O
+31	hour	hour	NOUN	NN	Number=Sing	30	_	_	start_char=2614|end_char=2618|ner=O
 32	recess	recess	NOUN	NN	Number=Sing	31	_	_	start_char=2619|end_char=2625|ner=O
 33	without	without	ADP	IN	_	32	_	_	start_char=2626|end_char=2633|ner=O
 34	a	a	DET	DT	Definite=Ind|PronType=Art	33	_	_	start_char=2634|end_char=2635|ner=O
@@ -652,8 +652,8 @@
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=2651|end_char=2655|ner=O
 4	exhausted	exhaust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=2656|end_char=2665|ner=O
 5	for	for	ADP	IN	_	4	_	_	start_char=2666|end_char=2669|ner=O
-6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=2670|end_char=2672|ner=B-TIME
-7	hour	hour	NOUN	NN	Number=Sing	6	_	_	start_char=2673|end_char=2677|ner=E-TIME
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=2670|end_char=2672|ner=O
+7	hour	hour	NOUN	NN	Number=Sing	6	_	_	start_char=2673|end_char=2677|ner=O
 8	.	.	PUNCT	.	_	7	_	_	start_char=2678|end_char=2679|ner=O
 
 # text = I 'll take it .
@@ -670,16 +670,16 @@
 2	,	,	PUNCT	,	_	1	_	_	start_char=2699|end_char=2700|ner=O
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=2701|end_char=2702|ner=O
 4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=2703|end_char=2707|ner=O
-5	40	40	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=2708|end_char=2710|ner=B-TIME
-6	minutes	minute	NOUN	NNS	Number=Plur	5	_	_	start_char=2711|end_char=2718|ner=E-TIME
+5	40	40	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=2708|end_char=2710|ner=O
+6	minutes	minute	NOUN	NNS	Number=Plur	5	_	_	start_char=2711|end_char=2718|ner=O
 7	,	,	PUNCT	,	_	6	_	_	start_char=2719|end_char=2720|ner=O
 8	so	so	ADV	RB	_	7	_	_	start_char=2721|end_char=2723|ner=O
 9	within	within	ADP	IN	_	8	_	_	start_char=2724|end_char=2730|ner=O
-10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=2731|end_char=2733|ner=B-TIME
-11	hour	hour	NOUN	NN	Number=Sing	10	_	_	start_char=2734|end_char=2738|ner=I-TIME
-12	of	of	ADP	IN	_	11	_	_	start_char=2739|end_char=2741|ner=I-TIME
-13	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=2742|end_char=2748|ner=I-TIME
-14	minutes	minute	NOUN	NNS	Number=Plur	13	_	_	start_char=2749|end_char=2756|ner=E-TIME
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=2731|end_char=2733|ner=O
+11	hour	hour	NOUN	NN	Number=Sing	10	_	_	start_char=2734|end_char=2738|ner=O
+12	of	of	ADP	IN	_	11	_	_	start_char=2739|end_char=2741|ner=O
+13	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=2742|end_char=2748|ner=O
+14	minutes	minute	NOUN	NNS	Number=Plur	13	_	_	start_char=2749|end_char=2756|ner=O
 15	.	.	PUNCT	.	_	14	_	_	start_char=2757|end_char=2758|ner=O
 
 # text = Thank you .
@@ -695,10 +695,10 @@
 
 # text = One hour 20 minutes .
 # sent_id = 38
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=2778|end_char=2781|ner=B-TIME
-2	hour	hour	NOUN	NN	Number=Sing	1	_	_	start_char=2782|end_char=2786|ner=I-TIME
-3	20	20	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=2787|end_char=2789|ner=I-TIME
-4	minutes	minute	NOUN	NNS	Number=Plur	3	_	_	start_char=2790|end_char=2797|ner=E-TIME
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=2778|end_char=2781|ner=O
+2	hour	hour	NOUN	NN	Number=Sing	1	_	_	start_char=2782|end_char=2786|ner=O
+3	20	20	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=2787|end_char=2789|ner=O
+4	minutes	minute	NOUN	NNS	Number=Plur	3	_	_	start_char=2790|end_char=2797|ner=O
 5	.	.	PUNCT	.	_	4	_	_	start_char=2798|end_char=2799|ner=O
 
 # text = I will , of course , agree with this , just to simplify the situation , I will ask if there is any other proposal for a break from another Member 's Club , so that we can connect , if necessary , the relevant breaks .
@@ -732,8 +732,8 @@
 27	a	a	DET	DT	Definite=Ind|PronType=Art	26	_	_	start_char=2918|end_char=2919|ner=O
 28	break	break	NOUN	NN	Number=Sing	27	_	_	start_char=2920|end_char=2925|ner=O
 29	from	from	ADP	IN	_	28	_	_	start_char=2926|end_char=2930|ner=O
-30	another	another	DET	DT	_	29	_	_	start_char=2931|end_char=2938|ner=B-ORG
-31	Member	member	NOUN	NN	Number=Sing	30	_	_	start_char=2939|end_char=2945|ner=I-ORG
+30	another	another	DET	DT	_	29	_	_	start_char=2931|end_char=2938|ner=O
+31	Member	member	NOUN	NN	Number=Sing	30	_	_	start_char=2939|end_char=2945|ner=B-ORG
 32	's	's	PART	POS	_	31	_	_	start_char=2946|end_char=2948|ner=I-ORG
 33	Club	Club	PROPN	NNP	Number=Sing	32	_	_	start_char=2949|end_char=2953|ner=E-ORG
 34	,	,	PUNCT	,	_	33	_	_	start_char=2954|end_char=2955|ner=O
@@ -782,13 +782,13 @@
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=3101|end_char=3103|ner=O
 4	'll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=3104|end_char=3107|ner=O
 5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=3108|end_char=3110|ner=O
-6	up	up	ADP	IN	_	5	_	_	start_char=3111|end_char=3113|ner=B-TIME
-7	to	to	ADP	IN	_	6	_	_	start_char=3114|end_char=3116|ner=I-TIME
-8	15	15	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=3117|end_char=3119|ner=I-TIME
-9	hours	hour	NOUN	NNS	Number=Plur	8	_	_	start_char=3120|end_char=3125|ner=I-TIME
-10	in	in	ADP	IN	_	9	_	_	start_char=3126|end_char=3128|ner=I-TIME
-11	50	50	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=3129|end_char=3131|ner=I-TIME
-12	minutes	minute	NOUN	NNS	Number=Plur	11	_	_	start_char=3132|end_char=3139|ner=E-TIME
+6	up	up	ADP	IN	_	5	_	_	start_char=3111|end_char=3113|ner=O
+7	to	to	ADP	IN	_	6	_	_	start_char=3114|end_char=3116|ner=O
+8	15	15	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=3117|end_char=3119|ner=O
+9	hours	hour	NOUN	NNS	Number=Plur	8	_	_	start_char=3120|end_char=3125|ner=O
+10	in	in	ADP	IN	_	9	_	_	start_char=3126|end_char=3128|ner=O
+11	50	50	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=3129|end_char=3131|ner=O
+12	minutes	minute	NOUN	NNS	Number=Plur	11	_	_	start_char=3132|end_char=3139|ner=O
 13	.	.	PUNCT	.	_	12	_	_	start_char=3140|end_char=3141|ner=O
 
 # text = Excuse me , if you do n't mind , before we break up , Mr. Chairman of the Kováčik Club .
@@ -810,8 +810,8 @@
 15	Mr.	Mr.	PROPN	NNP	Number=Sing	14	_	_	start_char=3196|end_char=3199|ner=O
 16	Chairman	Chairman	PROPN	NNP	Number=Sing	15	_	_	start_char=3200|end_char=3208|ner=O
 17	of	of	ADP	IN	_	16	_	_	start_char=3209|end_char=3211|ner=O
-18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=3212|end_char=3215|ner=B-ORG
-19	Kováčik	Kováčik	PROPN	NNP	Number=Sing	18	_	_	start_char=3216|end_char=3223|ner=I-ORG
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=3212|end_char=3215|ner=O
+19	Kováčik	Kováčik	PROPN	NNP	Number=Sing	18	_	_	start_char=3216|end_char=3223|ner=B-ORG
 20	Club	Club	PROPN	NNP	Number=Sing	19	_	_	start_char=3224|end_char=3228|ner=E-ORG
 21	.	.	PUNCT	.	_	20	_	_	start_char=3229|end_char=3230|ner=O
 
@@ -842,10 +842,10 @@
 
 # text = Emissary club TOP 09 to the club room .
 # sent_id = 45
-1	Emissary	emissary	NOUN	NN	Number=Sing	0	_	_	start_char=3329|end_char=3337|ner=B-ORG
-2	club	club	NOUN	NN	Number=Sing	1	_	_	start_char=3338|end_char=3342|ner=E-ORG
-3	TOP	top	NOUN	NN	Number=Sing	2	_	_	start_char=3343|end_char=3346|ner=B-PRODUCT
-4	09	09	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=3347|end_char=3349|ner=E-PRODUCT
+1	Emissary	emissary	NOUN	NN	Number=Sing	0	_	_	start_char=3329|end_char=3337|ner=O
+2	club	club	NOUN	NN	Number=Sing	1	_	_	start_char=3338|end_char=3342|ner=O
+3	TOP	top	NOUN	NN	Number=Sing	2	_	_	start_char=3343|end_char=3346|ner=O
+4	09	09	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=3347|end_char=3349|ner=O
 5	to	to	ADP	IN	_	4	_	_	start_char=3350|end_char=3352|ner=O
 6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=3353|end_char=3356|ner=O
 7	club	club	NOUN	NN	Number=Sing	6	_	_	start_char=3357|end_char=3361|ner=O
@@ -855,7 +855,7 @@
 # text = President Sklenák .
 # sent_id = 46
 1	President	President	PROPN	NNP	Number=Sing	0	_	_	start_char=3369|end_char=3378|ner=O
-2	Sklenák	Sklenák	PROPN	NNP	Number=Sing	1	_	_	start_char=3379|end_char=3386|ner=S-PERSON
+2	Sklenák	Sklenák	PROPN	NNP	Number=Sing	1	_	_	start_char=3379|end_char=3386|ner=S-PER
 3	.	.	PUNCT	.	_	2	_	_	start_char=3387|end_char=3388|ner=O
 
 # text = Please .
@@ -876,9 +876,9 @@
 9	club	club	NOUN	NN	Number=Sing	8	_	_	start_char=3447|end_char=3451|ner=O
 10	space	space	NOUN	NN	Number=Sing	9	_	_	start_char=3452|end_char=3457|ner=O
 11	at	at	ADP	IN	_	10	_	_	start_char=3458|end_char=3460|ner=O
-12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=3461|end_char=3464|ner=B-FAC
-13	Chamber	Chamber	PROPN	NNP	Number=Sing	12	_	_	start_char=3465|end_char=3472|ner=I-FAC
-14	1	1	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=3473|end_char=3474|ner=E-FAC
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=3461|end_char=3464|ner=O
+13	Chamber	Chamber	PROPN	NNP	Number=Sing	12	_	_	start_char=3465|end_char=3472|ner=B-MISC
+14	1	1	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=3473|end_char=3474|ner=E-MISC
 15	.	.	PUNCT	.	_	14	_	_	start_char=3475|end_char=3476|ner=O
 
 # text = After a slight clarification - if President Kalousek asked for an hour of twenty minutes , it will be within 15 hours 30 minutes .
@@ -890,23 +890,23 @@
 5	-	-	PUNCT	,	_	4	_	_	start_char=3506|end_char=3507|ner=O
 6	if	if	SCONJ	IN	_	5	_	_	start_char=3508|end_char=3510|ner=O
 7	President	President	PROPN	NNP	Number=Sing	6	_	_	start_char=3511|end_char=3520|ner=O
-8	Kalousek	Kalousek	PROPN	NNP	Number=Sing	7	_	_	start_char=3521|end_char=3529|ner=S-PERSON
+8	Kalousek	Kalousek	PROPN	NNP	Number=Sing	7	_	_	start_char=3521|end_char=3529|ner=S-PER
 9	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=3530|end_char=3535|ner=O
 10	for	for	ADP	IN	_	9	_	_	start_char=3536|end_char=3539|ner=O
-11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=3540|end_char=3542|ner=B-TIME
-12	hour	hour	NOUN	NN	Number=Sing	11	_	_	start_char=3543|end_char=3547|ner=I-TIME
-13	of	of	ADP	IN	_	12	_	_	start_char=3548|end_char=3550|ner=I-TIME
-14	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	13	_	_	start_char=3551|end_char=3557|ner=I-TIME
-15	minutes	minute	NOUN	NNS	Number=Plur	14	_	_	start_char=3558|end_char=3565|ner=E-TIME
+11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=3540|end_char=3542|ner=O
+12	hour	hour	NOUN	NN	Number=Sing	11	_	_	start_char=3543|end_char=3547|ner=O
+13	of	of	ADP	IN	_	12	_	_	start_char=3548|end_char=3550|ner=O
+14	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	13	_	_	start_char=3551|end_char=3557|ner=O
+15	minutes	minute	NOUN	NNS	Number=Plur	14	_	_	start_char=3558|end_char=3565|ner=O
 16	,	,	PUNCT	,	_	15	_	_	start_char=3566|end_char=3567|ner=O
 17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=3568|end_char=3570|ner=O
 18	will	will	AUX	MD	VerbForm=Fin	17	_	_	start_char=3571|end_char=3575|ner=O
 19	be	be	AUX	VB	VerbForm=Inf	18	_	_	start_char=3576|end_char=3578|ner=O
 20	within	within	ADP	IN	_	19	_	_	start_char=3579|end_char=3585|ner=O
-21	15	15	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	start_char=3586|end_char=3588|ner=B-TIME
-22	hours	hour	NOUN	NNS	Number=Plur	21	_	_	start_char=3589|end_char=3594|ner=I-TIME
-23	30	30	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	start_char=3595|end_char=3597|ner=I-TIME
-24	minutes	minute	NOUN	NNS	Number=Plur	23	_	_	start_char=3598|end_char=3605|ner=E-TIME
+21	15	15	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	start_char=3586|end_char=3588|ner=O
+22	hours	hour	NOUN	NNS	Number=Plur	21	_	_	start_char=3589|end_char=3594|ner=O
+23	30	30	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	start_char=3595|end_char=3597|ner=O
+24	minutes	minute	NOUN	NNS	Number=Plur	23	_	_	start_char=3598|end_char=3605|ner=O
 25	.	.	PUNCT	.	_	24	_	_	start_char=3606|end_char=3607|ner=O
 
 # text = So I interrupt the House meeting by 3:30 p.m.
@@ -918,8 +918,8 @@
 5	House	House	PROPN	NNP	Number=Sing	4	_	_	start_char=3627|end_char=3632|ner=S-ORG
 6	meeting	meeting	NOUN	NN	Number=Sing	5	_	_	start_char=3633|end_char=3640|ner=O
 7	by	by	ADP	IN	_	6	_	_	start_char=3641|end_char=3643|ner=O
-8	3:30	3:30	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=3644|end_char=3648|ner=B-TIME
-9	p.m.	p.m.	NOUN	NN	Number=Sing	8	_	_	start_char=3649|end_char=3653|ner=E-TIME
+8	3:30	3:30	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=3644|end_char=3648|ner=O
+9	p.m.	p.m.	NOUN	NN	Number=Sing	8	_	_	start_char=3649|end_char=3653|ner=O
 
 # text = Ladies and gentlemen , the time allocated to the meeting of the MEP 's TOP 09 club is over , and I therefore ask you to take your seats in the Chamber of Commerce , and we will continue .
 # sent_id = 51
@@ -937,8 +937,8 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=3714|end_char=3717|ner=O
 13	MEP	MEP	PROPN	NNP	Number=Sing	12	_	_	start_char=3718|end_char=3721|ner=S-ORG
 14	's	's	PART	POS	_	13	_	_	start_char=3722|end_char=3724|ner=O
-15	TOP	TOP	PROPN	NNP	Number=Sing	14	_	_	start_char=3725|end_char=3728|ner=B-ORG
-16	09	09	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=3729|end_char=3731|ner=E-ORG
+15	TOP	TOP	PROPN	NNP	Number=Sing	14	_	_	start_char=3725|end_char=3728|ner=B-MISC
+16	09	09	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=3729|end_char=3731|ner=E-MISC
 17	club	club	NOUN	NN	Number=Sing	16	_	_	start_char=3732|end_char=3736|ner=O
 18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=3737|end_char=3739|ner=O
 19	over	over	ADV	RB	_	18	_	_	start_char=3740|end_char=3744|ner=O
@@ -953,8 +953,8 @@
 28	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	27	_	_	start_char=3779|end_char=3783|ner=O
 29	seats	seat	NOUN	NNS	Number=Plur	28	_	_	start_char=3784|end_char=3789|ner=O
 30	in	in	ADP	IN	_	29	_	_	start_char=3790|end_char=3792|ner=O
-31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=3793|end_char=3796|ner=B-ORG
-32	Chamber	Chamber	PROPN	NNP	Number=Sing	31	_	_	start_char=3797|end_char=3804|ner=I-ORG
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=3793|end_char=3796|ner=O
+32	Chamber	Chamber	PROPN	NNP	Number=Sing	31	_	_	start_char=3797|end_char=3804|ner=B-ORG
 33	of	of	ADP	IN	_	32	_	_	start_char=3805|end_char=3807|ner=I-ORG
 34	Commerce	Commerce	PROPN	NNP	Number=Sing	33	_	_	start_char=3808|end_char=3816|ner=E-ORG
 35	,	,	PUNCT	,	_	34	_	_	start_char=3817|end_char=3818|ner=O

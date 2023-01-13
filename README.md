@@ -28,7 +28,7 @@ Workflow (more details):
 	- Save forward and reverse alignment information for each sentence (2 additional columns).
 	- Substitute translated NE words with lemmas based on the annotation, save new translation to a new column.
 4. Linguistic processing of translated text:
-	- We use Stanza to get POS, lemmas and NER. Send in the "pre-tokenized text" (created in previous steps).
+	- We use Stanza to get POS, lemmas and NER (the 4 tag package: conll03). Send in the "pre-tokenized text" (created in previous steps).
 	- Transform the result into CONLL-u (which should contain tokens, lemmas, pos). Parse the CONLL-u file and add:
 		1) sentence_id as metadata
 		2) forward and reverse alignment as metadata (# align_s = 1-1 2-2... and #align_t = 1-1 2-2...),
@@ -36,12 +36,12 @@ Workflow (more details):
 		4) source text ("source")
 		5) improved translated text (#text metadata): based on SpaceAfter information, remove spaces around punctuation
 		6) Delete startchar and endchar information from ["misc"] metadata element
+		7) Change the NER tags so that they correspond to the source NER tags: "S-" to "B-", "E-" to "I-"
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
 This is now implemented, the sample file is in "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu"
 
 Some remarks:
-- Stanza NER annotations are different that the annotations in the original conllu files (different NE categories)
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
 **Questions:**
