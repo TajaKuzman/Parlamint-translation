@@ -39,7 +39,7 @@ Workflow (more details):
 		7) Change the NER tags so that they correspond to the source NER tags: "S-" to "B-", "E-" to "I-"
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
-This is now implemented, the sample file is in "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu"
+This is now implemented, the sample file is in "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu" - with the initial NER tags; "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu-another-ner-package" with the corrected NER tags (and a specific NER package).
 
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
