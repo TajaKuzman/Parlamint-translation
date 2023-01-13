@@ -41,8 +41,8 @@ Workflow (more details):
 This is now implemented, the sample file is in "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu"
 
 Some remarks:
-	- Stanza NER annotations are different that the annotations in the original conllu files (different NE categories)
-	- Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
+- Stanza NER annotations are different that the annotations in the original conllu files (different NE categories)
+- Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
 **Questions:**
 - I've checked for all corpora which OPUS-MT models we can use. There exist more or less specific models for all except Hungarian, for which we can use multilingual model. The main problem is Norwegian, which is not stated under multilingual or any other model. This language is covered by eTranslation and Google Translate, should we use one of those, or just the multilingual model?
