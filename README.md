@@ -34,9 +34,10 @@ Workflow (more details):
 		2) forward and reverse alignment as metadata (# align_s = 1-1 2-2... and #align_t = 1-1 2-2...),
 		3) based on alignment, add SpaceAfter information - I add this information only if "SpaceAfter" is "No" (as it is in the original texts)
 		4) source text ("source")
-		5) improved translated text (#text metadata): based on SpaceAfter information, remove spaces around punctuation
-		6) Delete startchar and endchar information from ["misc"] metadata element
-		7) Change the NER tags so that they correspond to the source NER tags: "S-" to "B-", "E-" to "I-"
+		5) original translated text (before improvements - #initial_translation metadata)
+		6) improved translated text (#text metadata): based on SpaceAfter information, remove spaces around punctuation
+		7) Delete startchar and endchar information from ["misc"] metadata element
+		8) Change the NER tags so that they correspond to the source NER tags: "S-" to "B-", "E-" to "I-"
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
 This is now implemented, the sample file is in "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu" - with the initial NER tags; "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu-another-ner-package" with the corrected NER tags (and a specific NER package).

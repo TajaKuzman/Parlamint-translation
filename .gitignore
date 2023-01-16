@@ -15,3 +15,6 @@ results/CZ/ParlaMint-CZ-sample-model-comparison.csv
 .gitignore
 results/CZ/ParlaMint-CZ-final-dataframe.csv
 .gitignore
+results/CZ/ParlaMint-CZ-translated.csv
+results/CZ/temp
+results/CZ/ParlaMint-CZ-translated.csv
