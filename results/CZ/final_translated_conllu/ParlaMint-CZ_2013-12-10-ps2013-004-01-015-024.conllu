@@ -1,0 +1,1698 @@
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u1.p1.s1
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = 24.
+# initial_translation = 24.
+# text = 24.
+1	24	24	NUM	LS	NumType=Card	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u1.p1.s2
+# align_s = 0-0 1-1 2-1 4-2 6-2 7-3 8-4 10-5 11-6 12-5 13-6 15-7 16-8 17-10 18-11 19-13 20-14 21-15 22-16 23-17 24-18 25-19 26-20 27-21 28-22 29-24 30-25 31-26 32-27 33-28
+# align_t = 0-0 1-2 2-6 3-7 4-8 5-10 6-13 7-15 8-16 10-17 11-18 12-18 13-19 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-27 22-28 24-29 25-30 26-31 27-32 28-33 
+# source = Vládní návrh zákona, kterým se mění zákon č. 191/2012 Sb., o evropské občanské iniciativě /sněmovní tisk 28/ - prvé čtení podle § 90 odst. 2
+# initial_translation = Government bill amending Act No. 191/2012 Coll., on the European citizens' initiative /German press 28/ - first reading pursuant to § 90 para. 2
+# text = Government bill amending Act No. 191/2012 Coll., on the European citizens' initiative /German press 28/ - first reading pursuant to § 90 para. 2
+1	Government	government	NOUN	NN	Number=Sing	0	_	_	NER=O
+2	bill	bill	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	amending	amending	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	Act	Act	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	4	_	_	NER=O
+6	191/2012	191/2012	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	NER=O
+7	Coll.	Coll.	PROPN	NNP	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	NER=O
+9	on	on	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	European	European	ADJ	JJ	Degree=Pos	10	_	_	NER=B-MISC
+12	citizens	citizen	NOUN	NNS	Number=Plur	11	_	_	NER=O|SpaceAfter=No
+13	'	's	PART	POS	_	12	_	_	NER=O
+14	initiative	initiative	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	/	/	SYM	,	_	14	_	_	NER=O|SpaceAfter=No
+16	German	German	ADJ	JJ	Degree=Pos	15	_	_	NER=B-MISC
+17	press	press	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	28	28	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	NER=O|SpaceAfter=No
+19	/	/	PUNCT	,	_	18	_	_	NER=O
+20	-	-	PUNCT	HYPH	_	19	_	_	NER=O
+21	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	20	_	_	NER=O
+22	reading	reading	NOUN	NN	Number=Sing	21	_	_	NER=O
+23	pursuant	pursuant	ADV	RB	_	22	_	_	NER=O
+24	to	to	ADP	IN	_	23	_	_	NER=O
+25	§	§	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	90	90	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	NER=O
+27	para	para	NOUN	NN	Number=Sing	26	_	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	NER=O
+29	2	2	NUM	CD	NumForm=Digit|NumType=Card	28	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u1.p2.s1
+# align_s = 0-1 2-1 3-2 4-3 5-4 6-6 7-8 8-10 9-13 10-14 11-16 12-18 13-21 14-22 15-24 16-26 17-27 18-28
+# align_t = 1-0 2-2 3-4 4-5 5-4 6-6 8-7 10-8 13-9 14-9 15-10 16-11 18-12 21-13 22-14 24-15 26-16 27-17 28-18 
+# source = Prosím, aby předložený návrh za navrhovatele uvedl místopředseda vlády a ministr vnitra v demisi Martin Pecina.
+# initial_translation = I ask that the proposal submitted for the plaintiffs be mentioned by the Deputy Prime Minister and the Minister of the Interior in the resignation of Martin Pecina.
+# text = I ask that the proposal submitted for the plaintiffs be mentioned by the Deputy Prime Minister and the Minister of the Interior in the resignation of Martin Pecina.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	that	that	SCONJ	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	proposal	proposal	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	submitted	submit	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	NER=O
+7	for	for	ADP	IN	_	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	plaintiffs	plaintiff	NOUN	NNS	Number=Plur	8	_	_	NER=O
+10	be	be	AUX	VB	Mood=Ind|VerbForm=Fin	9	_	_	NER=O
+11	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	NER=O
+12	by	by	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	Deputy	deputy	PROPN	NNP	Number=Sing	13	_	_	NER=O
+15	Prime	Prime	ADJ	NNP	Degree=Pos	14	_	_	NER=O
+16	Minister	Minister	PROPN	NNP	Number=Sing	15	_	_	NER=O
+17	and	and	CCONJ	CC	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	Minister	Minister	PROPN	NNP	Number=Sing	18	_	_	NER=O
+20	of	of	ADP	IN	_	19	_	_	NER=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	NER=O
+22	Interior	Interior	PROPN	NNP	Number=Sing	21	_	_	NER=B-ORG
+23	in	in	ADP	IN	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	resignation	resignation	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	of	of	ADP	IN	_	25	_	_	NER=O
+27	Martin	Martin	PROPN	NNP	Number=Sing	26	_	_	NER=B-PER
+28	Pecina	Pecina	PROPN	NNP	Number=Sing	27	_	_	NER=I-PER|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u1.p2.s2
+# align_s = 0-0 1-0 2-1 3-3 4-5 5-6
+# align_t = 0-1 1-2 2-3 3-3 5-4 6-5 
+# source = Pane ministře, máte slovo.
+# initial_translation = Minister, you have the floor.
+# text = Minister, you have the floor.
+1	Minister	minister	NOUN	NN	Number=Sing	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	NER=O
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	floor	floor	NOUN	NN	Number=Sing	5	_	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p1.s1
+# align_s = 0-0 1-2 2-3 3-4 4-5
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-4 
+# source = Děkuji, pane předsedající.
+# initial_translation = Thank you, Mr President.
+# text = Thank you, Mr President.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	Mr	Mr	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	President	President	PROPN	NNP	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p1.s2
+# align_s = 0-0 4-0 5-1 6-2 7-3 8-4 9-5 12-5 13-6 14-7 15-9 16-11 17-11 19-12 21-12 22-13 23-14 24-15 25-16 26-15 27-16 30-17 31-19 32-20 33-22 34-23
+# align_t = 0-0 1-4 2-6 3-7 4-8 5-9 6-13 7-14 9-15 10-16 11-17 12-21 13-22 14-23 15-24 16-27 17-30 19-31 20-32 21-32 22-33 23-34 
+# source = Vážené paní poslankyně, vážení páni poslanci, dovolte mi, abych stručně uvedl vládní návrh zákona, kterým se mění zákon číslo 191/2012 Sb., o evropské občanské iniciativě.
+# initial_translation = Ladies and gentlemen, let me briefly mention the Government's bill amending Act No. 191/2012 Coll. on the European citizens' initiative.
+# text = Ladies and gentlemen, let me briefly mention the Government's bill amending Act No. 191/2012 Coll. on the European citizens' initiative.
+1	Ladies	lady	NOUN	NNS	Number=Plur	0	_	_	NER=O
+2	and	and	CCONJ	CC	_	1	_	_	NER=O
+3	gentlemen	gentleman	NOUN	NNS	Number=Plur	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	NER=O
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	NER=O
+7	briefly	briefly	ADV	RB	_	6	_	_	NER=O
+8	mention	mention	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	Government	government	NOUN	NN	Number=Sing	9	_	_	NER=O|SpaceAfter=No
+11	's	's	PART	POS	_	10	_	_	NER=O
+12	bill	bill	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	amending	amend	VERB	VBG	VerbForm=Ger	12	_	_	NER=O
+14	Act	Act	PROPN	NNP	Number=Sing	13	_	_	NER=O
+15	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	14	_	_	NER=O
+16	191/2012	191/2012	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	NER=O
+17	Coll.	coll.	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	on	on	ADP	IN	_	17	_	_	NER=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	NER=O
+20	European	European	ADJ	JJ	Degree=Pos	19	_	_	NER=B-MISC
+21	citizens	citizen	NOUN	NNS	Number=Plur	20	_	_	NER=O|SpaceAfter=No
+22	'	's	PART	POS	_	21	_	_	NER=O
+23	initiative	initiative	NOUN	NN	Number=Sing	22	_	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p2.s1
+# align_s = 0-5 1-5 4-0 5-3 7-6 8-8 9-9 10-10 11-11 12-12 13-13 14-15 16-16 17-17 18-16 19-17 21-18 22-19 23-20 24-21 25-22 26-23 27-24 28-26 30-27 31-28 32-29
+# align_t = 0-4 2-5 4-0 5-1 6-7 8-8 9-9 10-10 11-11 12-12 13-13 15-14 16-16 17-19 18-21 19-22 20-23 21-24 22-25 23-26 24-27 26-28 27-30 28-31 29-32 
+# source = Návrh zákona má v prvé řadě za cíl přizpůsobit svou terminologii a kontrolní postupy zákonu číslo 255/2012 Sb., o kontrole, který nabývá účinnosti 1. ledna 2014.
+# initial_translation = First of all, the bill aims to adapt its terminology and control procedures to Act No.255/2012 Coll., on control, which takes effect on 1 January 2014.
+# text = First of all, the bill aims to adapt its terminology and control procedures to Act No.255/2012 Coll., on control, which takes effect on 1 January 2014.
+1	First	first	ADV	RB	NumType=Ord	0	_	_	NER=O
+2	of	of	ADP	IN	_	1	_	_	NER=O
+3	all	all	DET	DT	_	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	bill	bill	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	aims	aim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	to	to	PART	TO	_	7	_	_	NER=O
+9	adapt	adapt	VERB	VB	VerbForm=Inf	8	_	_	NER=O
+10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	NER=O
+11	terminology	terminology	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	and	and	CCONJ	CC	_	11	_	_	NER=O
+13	control	control	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	procedures	procedure	NOUN	NNS	Number=Plur	13	_	_	NER=O
+15	to	to	ADP	IN	_	14	_	_	NER=O
+16	Act	act	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	No.255/2012	No.255/2012	PROPN	NNP	Number=Sing	16	_	_	NER=B-MISC
+18	Coll.	coll.	NOUN	NN	Number=Sing	17	_	_	NER=I-MISC|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	NER=O
+20	on	on	ADP	IN	_	19	_	_	NER=O
+21	control	control	NOUN	NN	Number=Sing	20	_	_	NER=O|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	NER=O
+23	which	which	PRON	WDT	PronType=Rel	22	_	_	NER=O
+24	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	NER=O
+25	effect	effect	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	on	on	ADP	IN	_	25	_	_	NER=O
+27	1	1	NUM	CD	NumForm=Digit|NumType=Card	26	_	_	NER=O
+28	January	January	PROPN	NNP	Number=Sing	27	_	_	NER=O
+29	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	28	_	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p2.s2
+# align_s = 0-1 1-2 2-3 3-5 4-6 5-9 6-10 7-13 8-14 9-15 10-18 11-19 12-21 13-22
+# align_t = 1-0 2-1 3-2 5-3 6-4 9-5 10-6 13-7 14-8 15-9 18-10 19-11 20-11 21-12 22-13 
+# source = Druhým cílem je dílčí modifikace ověřovací procedury prohlášení o podpoře evropské občanské iniciativy.
+# initial_translation = The second objective is the partial modification of the verification procedure of the declaration of support for the European citizens' initiative.
+# text = The second objective is the partial modification of the verification procedure of the declaration of support for the European citizens' initiative.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	1	_	_	NER=O
+3	objective	objective	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	partial	partial	ADJ	JJ	Degree=Pos	5	_	_	NER=O
+7	modification	modification	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	of	of	ADP	IN	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	verification	verification	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	procedure	procedure	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	declaration	declaration	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	of	of	ADP	IN	_	14	_	_	NER=O
+16	support	support	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	for	for	ADP	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	European	European	ADJ	JJ	Degree=Pos	18	_	_	NER=B-MISC
+20	citizens	citizen	NOUN	NNS	Number=Plur	19	_	_	NER=O|SpaceAfter=No
+21	'	's	PART	POS	_	20	_	_	NER=O
+22	initiative	initiative	NOUN	NN	Number=Sing	21	_	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p2.s3
+# align_s = 0-1 1-3 2-5 3-7 7-20 8-22 9-23 10-8 11-10 12-12 13-13 14-14 15-17 16-19 19-55 20-56 21-54 22-57 23-59 24-60 25-61 26-60 27-61 28-62 29-64 30-66 31-67 32-70 33-68 34-69 35-25 36-26 37-27 38-28 39-29 40-30 41-32 42-34 43-33 44-35 45-38 46-39 47-36 48-37 51-38 52-44 53-41 54-42 55-43 56-45 57-46 58-50 59-51 60-49 61-47 62-48 63-71
+# align_t = 1-0 3-1 5-2 7-3 8-10 10-11 12-12 13-13 14-14 17-15 18-15 19-16 20-7 22-8 23-9 24-17 25-35 26-36 27-37 28-38 29-39 30-40 32-41 33-43 34-42 35-44 37-48 38-45 39-46 42-54 43-55 44-59 45-56 46-57 47-61 48-62 49-53 50-51 51-59 54-60 55-19 56-20 57-22 59-23 60-24 61-25 62-28 64-29 65-29 66-30 67-31 68-33 69-34 70-32 71-63 
+# source = Ministerstvu vnitra jakožto orgánu, který je v České republice pověřený ověřováním prohlášení o podpoře občanské iniciativy, se na základě zpřesnění výkladu nařízení číslo 211/2011 o občanské iniciativě na úrovni Evropské unie umožňuje přístup k dalším údajům ze základního registru obyvatel z informačního systému evidence obyvatel, z informačního systému evidence občanských průkazů a z informačního systému evidence cestovních dokladů.
+# initial_translation = The Ministry of Interior, as the body responsible for verifying the declaration of support for the citizens' initiative in the Czech Republic, allows access to other data from the basic population register from the population information system, the civil identification system and the travel document registration information system to be specified on the interpretation of Regulation No. 211/2011 on the citizens' initiative at European Union level.
+# text = The Ministry of Interior, as the body responsible for verifying the declaration of support for the citizens' initiative in the Czech Republic, allows access to other data from the basic population register from the population information system, the civil identification system and the travel document registration information system to be specified on the interpretation of Regulation No. 211/2011 on the citizens' initiative at European Union level.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	Ministry	Ministry	PROPN	NNP	Number=Sing	1	_	_	NER=B-ORG
+3	of	of	ADP	IN	_	2	_	_	NER=I-ORG
+4	Interior	Interior	PROPN	NNP	Number=Sing	3	_	_	NER=I-ORG|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	as	as	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	body	body	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	responsible	responsible	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	for	for	SCONJ	IN	_	9	_	_	NER=O
+11	verifying	verify	VERB	VBG	VerbForm=Ger	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	declaration	declaration	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	support	support	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	for	for	ADP	IN	_	15	_	_	NER=O
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	NER=O
+18	citizens	citizen	NOUN	NNS	Number=Plur	17	_	_	NER=O|SpaceAfter=No
+19	'	's	PART	POS	_	18	_	_	NER=O
+20	initiative	initiative	NOUN	NN	Number=Sing	19	_	_	NER=O
+21	in	in	ADP	IN	_	20	_	_	NER=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	NER=O
+23	Czech	Czech	ADJ	NNP	Degree=Pos	22	_	_	NER=B-LOC
+24	Republic	Republic	PROPN	NNP	Number=Sing	23	_	_	NER=I-LOC|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	NER=O
+26	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	NER=O
+27	access	access	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	to	to	ADP	IN	_	27	_	_	NER=O
+29	other	other	ADJ	JJ	Degree=Pos	28	_	_	NER=O
+30	data	datum	NOUN	NNS	Number=Plur	29	_	_	NER=O
+31	from	from	ADP	IN	_	30	_	_	NER=O
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	NER=O
+33	basic	basic	ADJ	JJ	Degree=Pos	32	_	_	NER=O
+34	population	population	NOUN	NN	Number=Sing	33	_	_	NER=O
+35	register	register	NOUN	NN	Number=Sing	34	_	_	NER=O
+36	from	from	ADP	IN	_	35	_	_	NER=O
+37	the	the	DET	DT	Definite=Def|PronType=Art	36	_	_	NER=O
+38	population	population	NOUN	NN	Number=Sing	37	_	_	NER=O
+39	information	information	NOUN	NN	Number=Sing	38	_	_	NER=O
+40	system	system	NOUN	NN	Number=Sing	39	_	_	NER=O|SpaceAfter=No
+41	,	,	PUNCT	,	_	40	_	_	NER=O
+42	the	the	DET	DT	Definite=Def|PronType=Art	41	_	_	NER=O
+43	civil	civil	ADJ	JJ	Degree=Pos	42	_	_	NER=O
+44	identification	identification	NOUN	NN	Number=Sing	43	_	_	NER=O
+45	system	system	NOUN	NN	Number=Sing	44	_	_	NER=O
+46	and	and	CCONJ	CC	_	45	_	_	NER=O
+47	the	the	DET	DT	Definite=Def|PronType=Art	46	_	_	NER=O
+48	travel	travel	NOUN	NN	Number=Sing	47	_	_	NER=O
+49	document	document	NOUN	NN	Number=Sing	48	_	_	NER=O
+50	registration	registration	NOUN	NN	Number=Sing	49	_	_	NER=O
+51	information	information	NOUN	NN	Number=Sing	50	_	_	NER=O
+52	system	system	NOUN	NN	Number=Sing	51	_	_	NER=O
+53	to	to	PART	TO	_	52	_	_	NER=O
+54	be	be	AUX	VB	VerbForm=Inf	53	_	_	NER=O
+55	specified	specify	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	54	_	_	NER=O
+56	on	on	ADP	IN	_	55	_	_	NER=O
+57	the	the	DET	DT	Definite=Def|PronType=Art	56	_	_	NER=O
+58	interpretation	interpretation	NOUN	NN	Number=Sing	57	_	_	NER=O
+59	of	of	ADP	IN	_	58	_	_	NER=O
+60	Regulation	regulation	NOUN	NN	Number=Sing	59	_	_	NER=B-MISC
+61	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	60	_	_	NER=I-MISC
+62	211/2011	211/2011	NUM	CD	NumForm=Digit|NumType=Card	61	_	_	NER=I-MISC
+63	on	on	ADP	IN	_	62	_	_	NER=O
+64	the	the	DET	DT	Definite=Def|PronType=Art	63	_	_	NER=O
+65	citizens	citizen	NOUN	NNS	Number=Plur	64	_	_	NER=O|SpaceAfter=No
+66	'	's	PART	POS	_	65	_	_	NER=O
+67	initiative	initiative	NOUN	NN	Number=Sing	66	_	_	NER=O
+68	at	at	ADP	IN	_	67	_	_	NER=O
+69	European	European	ADJ	NNP	Degree=Pos	68	_	_	NER=B-ORG
+70	Union	Union	PROPN	NNP	Number=Sing	69	_	_	NER=I-ORG
+71	level	level	NOUN	NN	Number=Sing	70	_	_	NER=O|SpaceAfter=No
+72	.	.	PUNCT	.	_	71	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p2.s4
+# align_s = 0-0 1-1 3-2 5-3 6-4 7-5 8-6 9-7 10-8 11-10 12-11 13-12 14-15 15-17 16-18
+# align_t = 0-0 1-1 2-3 3-5 4-6 5-7 6-8 7-9 8-10 10-11 11-12 12-13 15-14 16-14 17-15 18-16 
+# source = Jedná se o údaje, které jsou zcela nezbytné k ověření prohlášení o podpoře občanské iniciativy.
+# initial_translation = These are data which are strictly necessary to verify the declaration of support for the citizens' initiative.
+# text = These are data which are strictly necessary to verify the declaration of support for the citizens' initiative.
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	0	_	_	NER=O
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	data	datum	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	which	which	PRON	WDT	PronType=Rel	3	_	_	NER=O
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	strictly	strictly	ADV	RB	_	5	_	_	NER=O
+7	necessary	necessary	ADJ	JJ	Degree=Pos	6	_	_	NER=O
+8	to	to	PART	TO	_	7	_	_	NER=O
+9	verify	verify	VERB	VB	VerbForm=Inf	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	declaration	declaration	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	support	support	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	for	for	ADP	IN	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	citizens	citizen	NOUN	NNS	Number=Plur	15	_	_	NER=O|SpaceAfter=No
+17	'	's	PART	POS	_	16	_	_	NER=O
+18	initiative	initiative	NOUN	NN	Number=Sing	17	_	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p3.s1
+# align_s = 0-1 1-1 2-2 3-6 4-7 5-9 6-0 7-1 8-1 9-2 13-1 14-4 15-4 16-9 18-16 19-18 20-18 23-18 24-13 27-8 28-10 29-11 30-12 31-15 32-17 33-18 34-20 35-21 36-22 37-23
+# align_t = 1-1 2-2 3-5 6-3 7-4 8-27 9-28 11-29 12-30 15-31 17-31 18-33 20-34 21-35 22-36 23-37 
+# source = Předmětný návrh zákona již byl v rámci vládního návrhu zákona, kterým se mění některé zákony v působnosti Ministerstva vnitra v souvislosti s přijetím kontrolního řádu, projednán v prvém čtení Poslaneckou sněmovnou v minulém volebním období.
+# initial_translation = The draft law in question has already been discussed in the first reading of the Chamber of Deputies during the previous parliamentary term.
+# text = The draft law in question has already been discussed in the first reading of the Chamber of Deputies during the previous parliamentary term.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	draft	draft	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	law	law	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	in	in	ADP	IN	_	3	_	_	NER=O
+5	question	question	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	already	already	ADV	RB	_	6	_	_	NER=O
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	_	_	NER=O
+9	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	NER=O
+10	in	in	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	11	_	_	NER=O
+13	reading	reading	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	Chamber	Chamber	PROPN	NNP	Number=Sing	15	_	_	NER=B-ORG
+17	of	of	ADP	IN	_	16	_	_	NER=I-ORG
+18	Deputies	Deputy	PROPN	NNPS	Number=Plur	17	_	_	NER=I-ORG
+19	during	during	ADP	IN	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	previous	previous	ADJ	JJ	Degree=Pos	20	_	_	NER=O
+22	parliamentary	parliamentary	ADJ	JJ	Degree=Pos	21	_	_	NER=O
+23	term	term	NOUN	NN	Number=Sing	22	_	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p3.s2
+# align_s = 1-1 2-3 3-6 5-7 6-8 7-9 9-11 10-13
+# align_t = 0-1 3-2 6-3 7-4 8-6 9-7 10-8 11-8 12-9 13-10 
+# source = Z důvodu rozpuštění Sněmovny k jeho dalšímu projednání již nedošlo.
+# initial_translation = Due to the dissolution of the House no further discussion has taken place.
+# text = Due to the dissolution of the House no further discussion has taken place.
+1	Due	due	ADP	IN	_	0	_	_	NER=O
+2	to	to	ADP	IN	_	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	dissolution	dissolution	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	of	of	ADP	IN	_	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	House	House	PROPN	NNP	Number=Sing	6	_	_	NER=B-ORG
+8	no	no	DET	DT	_	7	_	_	NER=O
+9	further	further	ADJ	JJR	Degree=Cmp	8	_	_	NER=O
+10	discussion	discussion	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	NER=O
+12	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	NER=O
+13	place	place	NOUN	NN	Number=Sing	12	_	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p4.s1
+# align_s = 0-0 1-1 2-3 3-4 4-7 5-8 6-9 7-10 8-12 9-14 10-15 11-16 12-17 13-18 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-28 22-29 23-30 24-31 25-32 26-34 28-35 29-36 30-37 31-38 32-40 33-43 34-44 35-45 36-46 37-48 38-49 39-50 40-53 41-55 42-56 43-57 44-58 45-60 47-61 48-62 49-63 54-64 55-65 56-66 57-67 58-69 59-70 60-71 61-74
+# align_t = 0-0 1-1 3-2 4-3 7-4 8-5 9-6 10-7 12-8 14-9 15-10 16-11 17-12 18-13 20-14 21-15 22-16 23-17 24-18 25-19 26-20 28-21 29-22 30-23 31-24 32-25 34-26 35-28 36-29 37-30 38-31 40-32 43-33 44-34 45-35 46-36 48-37 49-38 50-39 53-40 54-40 55-41 56-42 57-43 58-44 59-44 60-45 61-47 62-48 63-49 64-54 65-55 66-56 68-57 69-58 70-59 71-60 72-59 73-60 74-61 
+# source = S ohledem na cíle návrhu zákona, tedy sjednocení jeho terminologie a postupu s kontrolním řádem, který, jak jsem již uvedl, nabývá účinnosti 1. ledna 2014, a zajištění potřebných prostředků k posuzování prohlášení o podpoře občanské iniciativy, přičemž občanské iniciativy jsou již organizovány, je třeba, aby navrhovaný zákon nabyl účinnosti co nejdříve.
+# initial_translation = In view of the objectives of the draft law, namely the harmonisation of its terminology and procedure with the control order, which, as I have already said, takes effect on 1 January 2014, and the provision of the necessary means to assess the declaration of support for the citizens' initiative, with citizens' initiatives already organised, the proposed law should become effective as soon as possible.
+# text = In view of the objectives of the draft law, namely the harmonisation of its terminology and procedure with the control order, which, as I have already said, takes effect on 1 January 2014, and the provision of the necessary means to assess the declaration of support for the citizens' initiative, with citizens' initiatives already organised, the proposed law should become effective as soon as possible.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	view	view	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	of	of	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	objectives	objective	NOUN	NNS	Number=Plur	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	draft	draft	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	law	law	NOUN	NN	Number=Sing	8	_	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	NER=O
+11	namely	namely	ADV	RB	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	harmonisation	harmonisation	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	NER=O
+16	terminology	terminology	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	and	and	CCONJ	CC	_	16	_	_	NER=O
+18	procedure	procedure	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	with	with	ADP	IN	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	control	control	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	order	order	NOUN	NN	Number=Sing	21	_	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	NER=O
+24	which	which	PRON	WDT	PronType=Rel	23	_	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	NER=O
+26	as	as	SCONJ	IN	_	25	_	_	NER=O
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	_	_	NER=O
+28	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	_	_	NER=O
+29	already	already	ADV	RB	_	28	_	_	NER=O
+30	said	say	VERB	VBN	Tense=Past|VerbForm=Part	29	_	_	NER=O|SpaceAfter=No
+31	,	,	PUNCT	,	_	30	_	_	NER=O
+32	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	_	_	NER=O
+33	effect	effect	NOUN	NN	Number=Sing	32	_	_	NER=O
+34	on	on	ADP	IN	_	33	_	_	NER=O
+35	1	1	NUM	CD	NumForm=Digit|NumType=Card	34	_	_	NER=O
+36	January	January	PROPN	NNP	Number=Sing	35	_	_	NER=O
+37	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	36	_	_	NER=O|SpaceAfter=No
+38	,	,	PUNCT	,	_	37	_	_	NER=O
+39	and	and	CCONJ	CC	_	38	_	_	NER=O
+40	the	the	DET	DT	Definite=Def|PronType=Art	39	_	_	NER=O
+41	provision	provision	NOUN	NN	Number=Sing	40	_	_	NER=O
+42	of	of	ADP	IN	_	41	_	_	NER=O
+43	the	the	DET	DT	Definite=Def|PronType=Art	42	_	_	NER=O
+44	necessary	necessary	ADJ	JJ	Degree=Pos	43	_	_	NER=O
+45	means	means	NOUN	NNS	Number=Plur	44	_	_	NER=O
+46	to	to	PART	TO	_	45	_	_	NER=O
+47	assess	assess	VERB	VB	VerbForm=Inf	46	_	_	NER=O
+48	the	the	DET	DT	Definite=Def|PronType=Art	47	_	_	NER=O
+49	declaration	declaration	NOUN	NN	Number=Sing	48	_	_	NER=O
+50	of	of	ADP	IN	_	49	_	_	NER=O
+51	support	support	NOUN	NN	Number=Sing	50	_	_	NER=O
+52	for	for	ADP	IN	_	51	_	_	NER=O
+53	the	the	DET	DT	Definite=Def|PronType=Art	52	_	_	NER=O
+54	citizens	citizen	NOUN	NNS	Number=Plur	53	_	_	NER=O|SpaceAfter=No
+55	'	's	PART	POS	_	54	_	_	NER=O
+56	initiative	initiative	NOUN	NN	Number=Sing	55	_	_	NER=O|SpaceAfter=No
+57	,	,	PUNCT	,	_	56	_	_	NER=O
+58	with	with	SCONJ	IN	_	57	_	_	NER=O
+59	citizens	citizen	NOUN	NNS	Number=Plur	58	_	_	NER=O|SpaceAfter=No
+60	'	's	PART	POS	_	59	_	_	NER=O
+61	initiatives	initiative	NOUN	NNS	Number=Plur	60	_	_	NER=O
+62	already	already	ADV	RB	_	61	_	_	NER=O
+63	organised	organised	VERB	VBN	Tense=Past|VerbForm=Part	62	_	_	NER=O|SpaceAfter=No
+64	,	,	PUNCT	,	_	63	_	_	NER=O
+65	the	the	DET	DT	Definite=Def|PronType=Art	64	_	_	NER=O
+66	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	65	_	_	NER=O
+67	law	law	NOUN	NN	Number=Sing	66	_	_	NER=O
+68	should	should	AUX	MD	VerbForm=Fin	67	_	_	NER=O
+69	become	become	VERB	VB	VerbForm=Inf	68	_	_	NER=O
+70	effective	effective	ADJ	JJ	Degree=Pos	69	_	_	NER=O
+71	as	as	ADV	RB	_	70	_	_	NER=O
+72	soon	soon	ADV	RB	Degree=Pos	71	_	_	NER=O
+73	as	as	SCONJ	IN	_	72	_	_	NER=O
+74	possible	possible	ADJ	JJ	Degree=Pos	73	_	_	NER=O|SpaceAfter=No
+75	.	.	PUNCT	.	_	74	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p4.s2
+# align_s = 0-0 1-1 2-2 3-5 4-7 5-10 6-12 7-13 9-15 10-16 11-17 12-17 13-14 15-18 16-19 17-20 18-21
+# align_t = 0-0 1-1 2-2 5-3 7-4 10-5 12-6 14-7 15-9 16-10 17-12 18-15 19-16 20-17 21-18 
+# source = Z tohoto důvodu vláda navrhuje Poslanecké sněmovně vyslovit i s tímto návrhem zákona souhlas již v prvním čtení.
+# initial_translation = For this reason, the government is proposing to the Chamber of Deputies to agree with this bill at first reading.
+# text = For this reason, the government is proposing to the Chamber of Deputies to agree with this bill at first reading.
+1	For	for	ADP	IN	_	0	_	_	NER=O
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	NER=O
+3	reason	reason	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	government	government	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	proposing	propose	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	NER=O
+9	to	to	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	Chamber	Chamber	PROPN	NNP	Number=Sing	10	_	_	NER=B-ORG
+12	of	of	ADP	IN	_	11	_	_	NER=I-ORG
+13	Deputies	Deputy	PROPN	NNPS	Number=Plur	12	_	_	NER=I-ORG
+14	to	to	PART	TO	_	13	_	_	NER=O
+15	agree	agree	VERB	VB	VerbForm=Inf	14	_	_	NER=O
+16	with	with	ADP	IN	_	15	_	_	NER=O
+17	this	this	DET	DT	Number=Sing|PronType=Dem	16	_	_	NER=O
+18	bill	bill	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	at	at	ADP	IN	_	18	_	_	NER=O
+20	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	19	_	_	NER=O
+21	reading	reading	NOUN	NN	Number=Sing	20	_	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p5.s1
+# align_s = 0-0 1-2 2-4 3-5
+# align_t = 0-0 1-0 2-1 3-2 4-2 5-3 
+# source = Děkuji za pozornost.
+# initial_translation = Thank you for your attention.
+# text = Thank you for your attention.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	_	_	NER=O
+5	attention	attention	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u3.p1.s1
+# align_s = 0-0 1-1 2-3 3-4 4-5 5-6 6-9 7-10 8-12 9-15 10-16 11-17 12-18 13-19 14-20 16-21 17-23 18-24 19-22 20-26 21-27 22-28 23-29 24-30
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-4 6-5 9-6 10-7 12-8 15-9 16-10 17-11 18-12 19-13 20-14 21-15 22-16 23-17 24-18 25-19 26-20 27-21 28-22 29-23 30-24 
+# source = Děkuji panu ministru Martinu Pecinovi a nyní požádám předsedu kontrolního výboru pana poslance Vladimíra Koníčka, aby nám navrhl zpravodaje pro prvé čtení.
+# initial_translation = Thank you to Minister Martin Pecin and I will now ask the chairman of the Supervisory Committee of Mr Vladimír Koniček to propose to us the rapporteur for first reading.
+# text = Thank you to Minister Martin Pecin and I will now ask the chairman of the Supervisory Committee of Mr Vladimír Koníček to propose to us the rapporteur for first reading.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	to	to	ADP	IN	_	2	_	_	NER=O
+4	Minister	Minister	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	Martin	Martin	PROPN	NNP	Number=Sing	4	_	_	NER=B-PER
+6	Pecin	Pecin	PROPN	NNP	Number=Sing	5	_	_	NER=I-PER
+7	and	and	CCONJ	CC	_	6	_	_	NER=O
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	NER=O
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	NER=O
+10	now	now	ADV	RB	_	9	_	_	NER=O
+11	ask	ask	VERB	VB	VerbForm=Inf	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	chairman	chairman	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	Supervisory	supervisory	ADJ	NNP	Degree=Pos	15	_	_	NER=B-ORG
+17	Committee	Committee	PROPN	NNP	Number=Sing	16	_	_	NER=I-ORG
+18	of	of	ADP	IN	_	17	_	_	NER=O
+19	Mr	Mr	PROPN	NNP	Number=Sing	18	_	_	NER=O
+20	Vladimír	Vladimír	PROPN	NNP	Number=Sing	19	_	_	NER=B-PER
+21	Koníček	Koníček	PROPN	NNP	Number=Sing	20	_	_	NER=I-PER
+22	to	to	PART	TO	_	21	_	_	NER=O
+23	propose	propose	VERB	VB	VerbForm=Inf	22	_	_	NER=O
+24	to	to	ADP	IN	_	23	_	_	NER=O
+25	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	24	_	_	NER=O
+26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	NER=O
+27	rapporteur	rapporteur	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	for	for	ADP	IN	_	27	_	_	NER=O
+29	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	28	_	_	NER=O
+30	reading	reading	NOUN	NN	Number=Sing	29	_	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u3.p1.s2
+# align_s = 0-1 1-0 2-2 3-4 4-6 5-7
+# align_t = 0-0 1-1 2-2 3-3 4-3 6-4 7-5 
+# source = Pane předsedo, máte slovo.
+# initial_translation = Prime Minister, you have the floor.
+# text = Prime Minister, you have the floor.
+1	Prime	Prime	ADJ	NNP	Degree=Pos	0	_	_	NER=O
+2	Minister	Minister	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	NER=O
+5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	floor	floor	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u4.p1.s1
+# align_s = 1-0 2-1 3-4 4-7 5-8 6-9 7-10 9-11 10-12 11-13
+# align_t = 0-1 1-2 2-2 3-2 4-3 7-4 8-5 9-6 10-8 11-9 12-10 13-11 
+# source = Vážený pane místopředsedo, dovoluji si navrhnout pana poslance Vladimíra Koníčka.
+# initial_translation = Mr Vice-President, I would like to propose Mr Vladimír Koniček.
+# text = Mr Vice-President, I would like to propose Mr Vladimír Koníček.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	Vice	Vice	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	_	_	NER=O|SpaceAfter=No
+4	President	President	PROPN	NNP	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	NER=O
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	NER=O
+8	like	like	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	to	to	PART	TO	_	8	_	_	NER=O
+10	propose	propose	VERB	VB	VerbForm=Inf	9	_	_	NER=O
+11	Mr	Mr	PROPN	NNP	Number=Sing	10	_	_	NER=O
+12	Vladimír	Vladimír	PROPN	NNP	Number=Sing	11	_	_	NER=B-PER
+13	Koníček	Koníček	PROPN	NNP	Number=Sing	12	_	_	NER=I-PER|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p1.s1
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = Dobře.
+# initial_translation = Okay.
+# text = Okay.
+1	Okay	okay	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p1.s2
+# align_s = 0-0 1-1 3-5 4-6 5-7 6-8
+# align_t = 0-0 3-1 4-2 5-3 6-4 7-5 8-6 
+# source = Takže rozhodneme v hlasování číslo 37.
+# initial_translation = So we're going to vote number 37.
+# text = So we're going to vote number 37.
+1	So	so	ADV	RB	_	0	_	_	NER=O
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	NER=O
+5	to	to	PART	TO	_	4	_	_	NER=O
+6	vote	vote	VERB	VB	VerbForm=Inf	5	_	_	NER=O
+7	number	number	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	37	37	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p1.s3
+# align_s = 0-1 3-2 4-3 5-5 9-7 10-8 11-9 12-10 13-11 14-12 16-13 17-14 18-15 19-16
+# align_t = 0-0 1-1 2-3 3-4 5-5 7-9 8-10 9-11 10-12 11-13 12-14 13-16 14-17 15-18 16-19 
+# source = Ptám se, kdo je pro to, aby zpravodajem pro prvé čtení byl pan poslanec Vladimír Koníček.
+# initial_translation = I ask who is in favour of the rapporteur for first reading being Mr Vladimir Koníček.
+# text = I ask who is in favour of the rapporteur for first reading being Mr Vladimír Koníček.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	who	who	PRON	WP	PronType=Int	2	_	_	NER=O
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	in	in	ADP	IN	_	4	_	_	NER=O
+6	favour	favour	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	of	of	ADP	IN	_	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	rapporteur	rapporteur	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	10	_	_	NER=O
+12	reading	reading	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	being	be	AUX	VBG	VerbForm=Ger	12	_	_	NER=O
+14	Mr	Mr	PROPN	NNP	Number=Sing	13	_	_	NER=O
+15	Vladimír	Vladimír	PROPN	NNP	Number=Sing	14	_	_	NER=B-PER
+16	Koníček	Koníček	PROPN	NNP	Number=Sing	15	_	_	NER=I-PER|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p1.s4
+# align_s = 0-0 1-1 2-2 3-4
+# align_t = 0-0 1-1 2-2 4-3 
+# source = Kdo je proti?
+# initial_translation = Who's against it?
+# text = Who's against it?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	against	against	ADP	IN	_	2	_	_	NER=O
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p1.s5
+# align_s = 0-0 1-1 2-2
+# align_t = 0-0 1-1 2-2 
+# source = Děkuji vám.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p2.s1
+# align_s = 0-0 1-1 2-2 3-3 4-4 7-5 8-6 9-7 10-8 11-9 12-10 13-12
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-7 6-8 7-9 8-10 9-11 10-12 11-12 12-13 
+# source = Hlasování pořadové číslo 37, z přítomných 173 pro 123, proti nikdo.
+# initial_translation = Voting order number 37, 173 for 123, against no one.
+# text = Voting order number 37, 173 for 123, against no one.
+1	Voting	voting	NOUN	NN	Number=Sing	0	_	_	NER=O
+2	order	order	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	number	number	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	37	37	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	173	173	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	NER=O
+7	for	for	ADP	IN	_	6	_	_	NER=O
+8	123	123	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	against	against	ADP	IN	_	9	_	_	NER=O
+11	no	no	DET	DT	_	10	_	_	NER=O
+12	one	one	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p2.s2
+# align_s = 0-1 1-2 2-3 3-4
+# align_t = 1-0 2-1 3-2 4-3 
+# source = Návrh byl přijat.
+# initial_translation = The motion was accepted.
+# text = The motion was accepted.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	motion	motion	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	NER=O
+4	accepted	accept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p2.s3
+# align_s = 0-0 1-1 2-2 4-3 5-4 6-5 7-6 8-7 9-8
+# align_t = 0-0 1-1 2-2 3-4 4-5 5-6 6-7 7-8 8-9 
+# source = Pan Vladimír Koníček se stal zpravodajem pro prvé čtení.
+# initial_translation = Mr Vladimir Koníček became rapporteur for first reading.
+# text = Mr Vladimír Koníček became rapporteur for first reading.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	Vladimír	Vladimír	PROPN	NNP	Number=Sing	1	_	_	NER=B-PER
+3	Koníček	Koníček	PROPN	NNP	Number=Sing	2	_	_	NER=I-PER
+4	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	NER=O
+5	rapporteur	rapporteur	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	for	for	ADP	IN	_	5	_	_	NER=O
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	_	_	NER=O
+8	reading	reading	NOUN	NN	Number=Sing	7	_	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p3.s1
+# align_s = 0-0 2-1 3-2 5-5 6-6 7-8 8-10 9-11 10-12
+# align_t = 0-0 1-2 2-3 3-4 5-5 6-6 8-7 9-6 10-8 11-9 12-10 
+# source = Ale ještě před ním pan předseda klubu ODS Zbyněk Stanjura.
+# initial_translation = But before him, the chairman of the ODS Club Zbyněk Stanjura.
+# text = But before him, the chairman of the ODS Club Zbyněk Stanjura.
+1	But	but	CCONJ	CC	_	0	_	_	NER=O
+2	before	before	ADP	IN	_	1	_	_	NER=O
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	chairman	chairman	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	of	of	ADP	IN	_	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	ODS	ODS	PROPN	NNP	Number=Sing	8	_	_	NER=B-ORG
+10	Club	Club	PROPN	NNP	Number=Sing	9	_	_	NER=I-ORG
+11	Zbyněk	Zbyněk	PROPN	NNP	Number=Sing	10	_	_	NER=I-ORG
+12	Stanjura	Stanjura	PROPN	NNP	Number=Sing	11	_	_	NER=I-ORG|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p3.s2
+# align_s = 0-0 1-1 2-2 3-4 4-6 5-7
+# align_t = 0-0 1-1 2-2 3-3 4-3 6-4 7-5 
+# source = Pane předsedo, máte slovo.
+# initial_translation = Prime Minister, you have the floor.
+# text = Prime Minister, you have the floor.
+1	Prime	Prime	ADJ	NNP	Degree=Pos	0	_	_	NER=O
+2	Minister	Minister	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	NER=O
+5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	floor	floor	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u6.p1.s1
+# align_s = 0-0 1-2 2-4 3-5
+# align_t = 0-0 1-0 2-1 4-2 5-3 
+# source = Děkuji za slovo.
+# initial_translation = Thank you for the floor.
+# text = Thank you for the floor.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	floor	floor	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u6.p1.s2
+# align_s = 0-0 1-1 2-2 3-5 4-7 5-8 6-8 7-9 10-10 11-11 12-12 13-13 14-14 15-16 16-18 17-19 18-21 19-22
+# align_t = 0-0 1-1 2-2 4-3 5-3 7-4 8-5 9-7 10-10 11-11 12-12 13-13 14-14 16-15 18-16 19-17 21-18 22-19 
+# source = Já bych chtěl jménem dvou poslaneckých klubů, a to ODS a TOP 09, vetovat projednávání v devadesátce.
+# initial_translation = I would like, on behalf of two MPs, ODS and TOP 09, to veto the negotiations in the '90s.
+# text = I would like, on behalf of two MPs, ODS and TOP 09, to veto the negotiations in the '90s.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	on	on	ADP	IN	_	4	_	_	NER=O
+6	behalf	behalf	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	of	of	ADP	IN	_	6	_	_	NER=O
+8	two	two	NUM	CD	NumForm=Word|NumType=Card	7	_	_	NER=O
+9	MPs	mp	NOUN	NNS	Number=Plur	8	_	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	NER=O
+11	ODS	ODS	PROPN	NNP	Number=Sing	10	_	_	NER=B-ORG
+12	and	and	CCONJ	CC	_	11	_	_	NER=O
+13	TOP	TOP	PROPN	NNP	Number=Sing	12	_	_	NER=B-MISC
+14	09	09	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=I-MISC|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	NER=O
+16	to	to	PART	TO	_	15	_	_	NER=O
+17	veto	veto	VERB	VB	VerbForm=Inf	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	negotiations	negotiation	NOUN	NNS	Number=Plur	18	_	_	NER=O
+20	in	in	ADP	IN	_	19	_	_	NER=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	NER=O
+22	'90s	'90	NOUN	NNS	Number=Plur	21	_	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u6.p1.s3
+# align_s = 0-0 1-2
+# align_t = 0-0 1-0 2-1 
+# source = Děkuji.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u7.p1.s1
+# align_s = 0-0 1-1 2-4 3-5 4-7 5-9
+# align_t = 0-0 1-0 2-1 4-2 5-3 7-4 8-3 9-5 
+# source = Děkuji panu předsedovi klubu ODS.
+# initial_translation = Thank you to the chairman of the ODS Club.
+# text = Thank you to the chairman of the ODS Club.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	to	to	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	chairman	chairman	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	ODS	ODS	PROPN	NNP	Number=Sing	7	_	_	NER=B-ORG
+9	Club	Club	PROPN	NNP	Number=Sing	8	_	_	NER=I-ORG|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u7.p1.s2
+# align_s = 1-1 2-2 3-3 4-0 5-5 7-6 8-8 10-10 11-12 12-13 13-14 14-15 15-16 16-18 17-21 18-22 19-23
+# align_t = 0-0 1-1 2-2 3-3 5-5 6-7 7-9 8-8 10-10 12-11 13-12 14-13 15-14 16-15 18-16 21-17 22-18 23-19 
+# source = Pan kolega Miroslav Kalousek mi potvrdil, že je to souhlas dvou klubů, takže budeme postupovat standardním způsobem.
+# initial_translation = My colleague Miroslav Kalousek has confirmed that this is the agreement of two clubs, so we will proceed in the standard way.
+# text = My colleague Miroslav Kalousek has confirmed that this is the agreement of two clubs, so we will proceed in the standard way.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	NER=O
+2	colleague	colleague	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	Miroslav	Miroslav	PROPN	NNP	Number=Sing	2	_	_	NER=B-PER
+4	Kalousek	Kalousek	PROPN	NNP	Number=Sing	3	_	_	NER=I-PER
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	confirmed	confirm	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	NER=O
+7	that	that	SCONJ	IN	_	6	_	_	NER=O
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	NER=O
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	agreement	agreement	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	two	two	NUM	CD	NumForm=Word|NumType=Card	12	_	_	NER=O
+14	clubs	club	NOUN	NNS	Number=Plur	13	_	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	NER=O
+16	so	so	ADV	RB	_	15	_	_	NER=O
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	_	_	NER=O
+18	will	will	AUX	MD	VerbForm=Fin	17	_	_	NER=O
+19	proceed	proceed	VERB	VB	VerbForm=Inf	18	_	_	NER=O
+20	in	in	ADP	IN	_	19	_	_	NER=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	NER=O
+22	standard	standard	ADJ	JJ	Degree=Pos	21	_	_	NER=O
+23	way	way	NOUN	NN	Number=Sing	22	_	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u7.p2.s1
+# align_s = 0-0 1-1 2-2 3-4 4-6 5-7 6-8 7-9 8-10 9-11
+# align_t = 0-0 1-1 2-2 3-3 4-3 6-4 7-5 8-6 9-7 10-8 11-9 
+# source = Pane zpravodaji, máte slovo ke své zpravodajské zprávě.
+# initial_translation = Mr rapporteur, you have the floor on your intelligence report.
+# text = Mr rapporteur, you have the floor on your intelligence report.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	rapporteur	rapporteur	NOUN	NN	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	NER=O
+5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	floor	floor	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	on	on	ADP	IN	_	7	_	_	NER=O
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	_	_	NER=O
+10	intelligence	intelligence	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	report	report	NOUN	NN	Number=Sing	10	_	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u8.p1.s1
+# align_s = 1-0 2-1 3-4 4-5 7-6 8-7 9-8 10-10 11-12 12-14 13-14 15-15 17-15 18-16 19-17 21-18 22-19 23-18 24-19 26-20 27-21 28-23 29-24 30-26 31-27
+# align_t = 0-0 1-2 2-2 3-2 4-3 5-4 6-7 7-8 8-9 10-10 12-11 14-13 15-17 16-18 17-19 18-21 19-24 20-26 21-27 23-28 24-29 25-29 26-30 27-31 
+# source = Vážený pane místopředsedo, vážené paní kolegyně a kolegové, vláda předložila návrh zákona, kterým se mění zákon č. 191/2012 Sb., o evropské občanské iniciativě.
+# initial_translation = Dear Vice-President, ladies and gentlemen, the Government has tabled a bill amending Law No. 191/2012 Coll., on the European citizens' initiative.
+# text = Dear Vice-President, ladies and gentlemen, the Government has tabled a bill amending Law No. 191/2012 Coll., on the European citizens' initiative.
+1	Dear	dear	ADJ	JJ	Degree=Pos	0	_	_	NER=O
+2	Vice	vice	NOUN	NN	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	_	_	NER=O|SpaceAfter=No
+4	President	President	PROPN	NNP	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	ladies	lady	NOUN	NNS	Number=Plur	5	_	_	NER=O
+7	and	and	CCONJ	CC	_	6	_	_	NER=O
+8	gentlemen	gentleman	NOUN	NNS	Number=Plur	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	Government	government	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	NER=O
+13	tabled	tab	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	NER=O
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	NER=O
+15	bill	bill	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	amending	amend	VERB	VBG	VerbForm=Ger	15	_	_	NER=O
+17	Law	Law	PROPN	NNP	Number=Sing	16	_	_	NER=B-MISC
+18	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	17	_	_	NER=I-MISC
+19	191/2012	191/2012	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	NER=I-MISC
+20	Coll.	coll.	NOUN	NN	Number=Sing	19	_	_	NER=O|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	NER=O
+22	on	on	ADP	IN	_	21	_	_	NER=O
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	NER=O
+24	European	European	ADJ	JJ	Degree=Pos	23	_	_	NER=B-MISC
+25	citizens	citizen	NOUN	NNS	Number=Plur	24	_	_	NER=O|SpaceAfter=No
+26	'	's	PART	POS	_	25	_	_	NER=O
+27	initiative	initiative	NOUN	NN	Number=Sing	26	_	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u8.p1.s2
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 7-7 9-8 10-10 11-11 12-12 13-14 14-16 15-18 16-21 17-23 18-24 19-25 20-26 23-27 24-28 25-29 26-31 27-32 28-33 29-34 30-35 31-38 32-40 33-41 34-42 35-43 36-45 37-46 38-47 39-49 40-51 41-52 42-53
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-8 8-9 10-10 11-11 12-12 14-13 16-14 18-15 21-16 23-17 24-18 25-19 26-20 27-23 28-24 29-25 31-26 32-27 33-28 34-29 35-30 38-31 40-32 41-33 42-34 43-35 45-36 46-37 47-38 49-39 51-40 52-41 53-42 
+# source = Návrh má jenom dva články, z toho ten druhý je účinnost a první upravuje přístup Ministerstva vnitra k registrům, a to k základnímu registru obyvatel, k informačnímu systému evidence obyvatel, k evidenci občanských průkazů a evidenci cestovních dokladů.
+# initial_translation = The proposal has only two articles, the other one is effective and the first one regulates the access of the Ministry of Interior to registers, the basic register of residents, the information system for the registration of residents, the registration of civil documents and the registration of travel documents.
+# text = The proposal has only two articles, the other one is effective and the first one regulates the access of the Ministry of Interior to registers, the basic register of residents, the information system for the registration of residents, the registration of civil documents and the registration of travel documents.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	proposal	proposal	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	only	only	ADV	RB	_	3	_	_	NER=O
+5	two	two	NUM	CD	NumForm=Word|NumType=Card	4	_	_	NER=O
+6	articles	article	NOUN	NNS	Number=Plur	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	other	other	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	one	one	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	NER=O
+12	effective	effective	ADJ	JJ	Degree=Pos	11	_	_	NER=O
+13	and	and	CCONJ	CC	_	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	14	_	_	NER=O
+16	one	one	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	regulates	regulate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	access	access	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	of	of	ADP	IN	_	19	_	_	NER=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	NER=O
+22	Ministry	Ministry	PROPN	NNP	Number=Sing	21	_	_	NER=B-ORG
+23	of	of	ADP	IN	_	22	_	_	NER=I-ORG
+24	Interior	Interior	PROPN	NNP	Number=Sing	23	_	_	NER=I-ORG
+25	to	to	PART	TO	_	24	_	_	NER=O
+26	registers	register	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	NER=O|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	_	_	NER=O
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	NER=O
+29	basic	basic	ADJ	JJ	Degree=Pos	28	_	_	NER=O
+30	register	register	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	of	of	ADP	IN	_	30	_	_	NER=O
+32	residents	resident	NOUN	NNS	Number=Plur	31	_	_	NER=O|SpaceAfter=No
+33	,	,	PUNCT	,	_	32	_	_	NER=O
+34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	NER=O
+35	information	information	NOUN	NN	Number=Sing	34	_	_	NER=O
+36	system	system	NOUN	NN	Number=Sing	35	_	_	NER=O
+37	for	for	ADP	IN	_	36	_	_	NER=O
+38	the	the	DET	DT	Definite=Def|PronType=Art	37	_	_	NER=O
+39	registration	registration	NOUN	NN	Number=Sing	38	_	_	NER=O
+40	of	of	ADP	IN	_	39	_	_	NER=O
+41	residents	resident	NOUN	NNS	Number=Plur	40	_	_	NER=O|SpaceAfter=No
+42	,	,	PUNCT	,	_	41	_	_	NER=O
+43	the	the	DET	DT	Definite=Def|PronType=Art	42	_	_	NER=O
+44	registration	registration	NOUN	NN	Number=Sing	43	_	_	NER=O
+45	of	of	ADP	IN	_	44	_	_	NER=O
+46	civil	civil	ADJ	JJ	Degree=Pos	45	_	_	NER=O
+47	documents	document	NOUN	NNS	Number=Plur	46	_	_	NER=O
+48	and	and	CCONJ	CC	_	47	_	_	NER=O
+49	the	the	DET	DT	Definite=Def|PronType=Art	48	_	_	NER=O
+50	registration	registration	NOUN	NN	Number=Sing	49	_	_	NER=O
+51	of	of	ADP	IN	_	50	_	_	NER=O
+52	travel	travel	NOUN	NN	Number=Sing	51	_	_	NER=O
+53	documents	document	NOUN	NNS	Number=Plur	52	_	_	NER=O|SpaceAfter=No
+54	.	.	PUNCT	.	_	53	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u8.p1.s3
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-9 6-6 7-7 8-11 9-12 11-13 12-16 13-20 14-21 15-22 16-23 17-24
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-6 7-7 9-5 11-8 12-9 13-11 16-12 20-13 21-14 22-15 23-16 24-17 
+# source = Celý návrh je kratší než vystoupení pana ministra a já ho doporučuji postoupit výborům k dalšímu projednání.
+# initial_translation = The whole proposal is shorter than the Minister's speech, and I recommend that he refer it to the committees for further consideration.
+# text = The whole proposal is shorter than the Minister's speech, and I recommend that he refer it to the committees for further consideration.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	whole	whole	ADJ	JJ	Degree=Pos	1	_	_	NER=O
+3	proposal	proposal	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	shorter	short	ADJ	JJR	Degree=Cmp	4	_	_	NER=O
+6	than	than	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	Minister	Minister	PROPN	NNP	Number=Sing	7	_	_	NER=O|SpaceAfter=No
+9	's	's	PART	POS	_	8	_	_	NER=O
+10	speech	speech	NOUN	NN	Number=Sing	9	_	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	NER=O
+12	and	and	CCONJ	CC	_	11	_	_	NER=O
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	NER=O
+14	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	NER=O
+15	that	that	SCONJ	IN	_	14	_	_	NER=O
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	NER=O
+17	refer	refer	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin	16	_	_	NER=O
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	NER=O
+19	to	to	ADP	IN	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	committees	committee	NOUN	NNS	Number=Plur	20	_	_	NER=O
+22	for	for	ADP	IN	_	21	_	_	NER=O
+23	further	further	ADJ	JJ	Degree=Cmp	22	_	_	NER=O
+24	consideration	consideration	NOUN	NN	Number=Sing	23	_	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u9.p1.s1
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-7 6-8 8-9 9-10 10-12 11-13 12-14 14-15 15-16 18-17 19-18 20-19 21-20 22-22 23-25
+# align_t = 1-0 2-1 3-2 4-3 5-4 7-5 8-6 9-8 10-9 12-10 13-11 14-12 15-14 16-15 17-18 18-19 19-20 20-21 22-22 25-23 
+# source = Děkuji panu zpravodaji a otevírám obecnou rozpravu, do které nemám žádnou přihlášku, a ptám se, kdo se hlásí z místa.
+# initial_translation = I thank the rapporteur and open a general debate in which I have no application and ask who is applying from the point of view.
+# text = I thank the rapporteur and open a general debate in which I have no application and ask who is applying from the point of view.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	rapporteur	rapporteur	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	and	and	CCONJ	CC	_	4	_	_	NER=O
+6	open	open	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	NER=O
+8	general	general	ADJ	JJ	Degree=Pos	7	_	_	NER=O
+9	debate	debate	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	in	in	ADP	IN	_	9	_	_	NER=O
+11	which	which	PRON	WDT	PronType=Rel	10	_	_	NER=O
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	NER=O
+13	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	NER=O
+14	no	no	DET	DT	_	13	_	_	NER=O
+15	application	application	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	and	and	CCONJ	CC	_	15	_	_	NER=O
+17	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	NER=O
+18	who	who	PRON	WP	PronType=Int	17	_	_	NER=O
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	NER=O
+20	applying	apply	VERB	VBG	Tense=Pres|VerbForm=Part	19	_	_	NER=O
+21	from	from	ADP	IN	_	20	_	_	NER=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	NER=O
+23	point	point	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	of	of	ADP	IN	_	23	_	_	NER=O
+25	view	view	NOUN	NN	Number=Sing	24	_	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u9.p1.s2
+# align_s = 1-0 2-3 3-4 4-5 5-6
+# align_t = 0-1 3-2 4-3 5-4 6-5 
+# source = Pan ministr vnitra Martin Pecina.
+# initial_translation = Minister of the Interior Martin Pecina.
+# text = Minister of the Interior Martin Pecina.
+1	Minister	Minister	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	of	of	ADP	IN	_	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	Interior	Interior	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	Martin	Martin	PROPN	NNP	Number=Sing	4	_	_	NER=B-PER
+6	Pecina	Pecina	PROPN	NNP	Number=Sing	5	_	_	NER=I-PER|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u9.p1.s3
+# align_s = 0-0 1-1 2-2 3-2 4-3 5-5 6-7 7-8 8-10 9-11 10-12
+# align_t = 0-0 1-1 2-3 3-4 4-5 5-5 7-6 8-7 10-8 11-9 12-10 
+# source = Prosím, pane ministře, máte slovo v obecné rozpravě.
+# initial_translation = Please, Minister, you have the floor in the general debate.
+# text = Please, Minister, you have the floor in the general debate.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	Minister	minister	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	NER=O
+6	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	floor	floor	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	in	in	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	general	general	ADJ	JJ	Degree=Pos	10	_	_	NER=O
+12	debate	debate	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u10.p1.s1
+# align_s = 0-0 1-2 2-3 3-4 4-7
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-3 6-3 7-4 
+# source = Děkuji, pane místopředsedo.
+# initial_translation = Thank you, Mr. Vice-President.
+# text = Thank you, Mr. Vice-President.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	Vice	Vice	PROPN	NNP	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	NER=O|SpaceAfter=No
+7	President	President	PROPN	NNP	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u10.p1.s2
+# align_s = 0-0 1-1 2-2 3-4 4-5 5-7 6-11 7-12 8-13 9-14 10-15
+# align_t = 0-0 1-1 2-2 4-3 5-4 6-4 7-5 10-6 11-6 12-7 13-8 14-9 15-10 
+# source = Já bych chtěl požádat o zkrácení lhůt na 30 dní.
+# initial_translation = I would like to ask for a reduction in the time limit to 30 days.
+# text = I would like to ask for a reduction in the time limit to 30 days.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	NER=O
+4	to	to	PART	TO	_	3	_	_	NER=O
+5	ask	ask	VERB	VB	VerbForm=Inf	4	_	_	NER=O
+6	for	for	ADP	IN	_	5	_	_	NER=O
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	NER=O
+8	reduction	reduction	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	in	in	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	time	time	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	limit	limit	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	to	to	ADP	IN	_	12	_	_	NER=O
+14	30	30	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O
+15	days	day	NOUN	NNS	Number=Plur	14	_	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p1.s1
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = Ano.
+# initial_translation = Yes.
+# text = Yes.
+1	Yes	yes	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p1.s2
+# align_s = 3-2 4-4 5-8 6-9 7-10 8-13 9-14 10-15 11-16
+# align_t = 1-2 2-3 4-4 7-5 8-5 9-6 10-7 11-1 12-0 13-8 14-9 15-10 16-11 
+# source = Padl tedy návrh na zkrácení lhůty k projednání na 30 dnů.
+# initial_translation = The proposal for a reduction of the time limit for discussion therefore fell to 30 days.
+# text = The proposal for a reduction of the time limit for discussion therefore fell to 30 days.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	proposal	proposal	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	NER=O
+5	reduction	reduction	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	time	time	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	limit	limit	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	discussion	discussion	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	therefore	therefore	ADV	RB	_	11	_	_	NER=O
+13	fell	fall	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	NER=O
+14	to	to	ADP	IN	_	13	_	_	NER=O
+15	30	30	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	NER=O
+16	days	day	NOUN	NNS	Number=Plur	15	_	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p1.s3
+# align_s = 1-0 2-1 3-4 4-5
+# align_t = 0-1 1-2 4-3 5-4 
+# source = Má někdo další návrh?
+# initial_translation = Anyone else have a suggestion?
+# text = Anyone else have a suggestion?
+1	Anyone	anyone	PRON	NN	Number=Sing	0	_	_	NER=O
+2	else	else	ADJ	JJ	Degree=Pos	1	_	_	NER=O
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	NER=O
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	NER=O
+5	suggestion	suggestion	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p1.s4
+# align_s = 0-2 1-3 2-4 3-5
+# align_t = 2-0 3-1 4-2 5-3 
+# source = Není tomu tak.
+# initial_translation = It's not like that.
+# text = It's not like that.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	not	not	PART	RB	_	2	_	_	NER=O
+4	like	like	ADP	IN	_	3	_	_	NER=O
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p1.s5
+# align_s = 0-0 1-1 2-6 3-7 4-9 6-10 7-11 8-12 9-13 10-14 11-15 12-17 13-18 14-20 15-23 16-24 17-25 18-26
+# align_t = 0-0 1-1 6-2 7-3 9-4 10-6 11-7 12-8 13-9 14-10 15-11 17-12 18-13 20-14 23-15 24-16 25-17 26-18 
+# source = Protože nepadl návrh na vrácení, ani zamítnutí, budeme se zabývat návrhem na přikázání výborům k projednání.
+# initial_translation = Since there has not been a motion for a return or rejection, we will consider the proposal for a commandment to the committees for discussion.
+# text = Since there has not been a motion for a return or rejection, we will consider the proposal for a commandment to the committees for discussion.
+1	Since	since	SCONJ	IN	_	0	_	_	NER=O
+2	there	there	PRON	EX	_	1	_	_	NER=O
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	not	not	PART	RB	_	3	_	_	NER=O
+5	been	be	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	NER=O
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	NER=O
+7	motion	motion	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	for	for	ADP	IN	_	7	_	_	NER=O
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	NER=O
+10	return	return	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	or	or	CCONJ	CC	_	10	_	_	NER=O
+12	rejection	rejection	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	_	_	NER=O
+15	will	will	AUX	MD	VerbForm=Fin	14	_	_	NER=O
+16	consider	consider	VERB	VB	VerbForm=Inf	15	_	_	NER=O
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	NER=O
+18	proposal	proposal	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	for	for	ADP	IN	_	18	_	_	NER=O
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	NER=O
+21	commandment	commandment	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	to	to	ADP	IN	_	21	_	_	NER=O
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	NER=O
+24	committees	committee	NOUN	NNS	Number=Plur	23	_	_	NER=O
+25	for	for	ADP	IN	_	24	_	_	NER=O
+26	discussion	discussion	NOUN	NN	Number=Sing	25	_	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p2.s1
+# align_s = 0-1 1-2 2-4 3-6 4-7 5-8 6-10 7-11 8-14 9-15 10-16
+# align_t = 1-0 2-1 4-2 6-3 7-4 8-5 9-4 10-6 11-7 14-8 15-9 16-10 
+# source = Organizační výbor navrhl přikázat předložený návrh k projednání kontrolnímu výboru.
+# initial_translation = The Organizing Committee has proposed to order the proposal submitted for discussion to the Supervisory Committee.
+# text = The Organizing Committee has proposed to order the proposal submitted for discussion to the Supervisory Committee.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	Organizing	Organizing	PROPN	NNP	Number=Sing	1	_	_	NER=B-ORG
+3	Committee	Committee	PROPN	NNP	Number=Sing	2	_	_	NER=I-ORG
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	NER=O
+6	to	to	PART	TO	_	5	_	_	NER=O
+7	order	order	VERB	VB	VerbForm=Inf	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	proposal	proposal	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	submitted	submit	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	NER=O
+11	for	for	ADP	IN	_	10	_	_	NER=O
+12	discussion	discussion	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	to	to	ADP	IN	_	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	Supervisory	Supervisory	PROPN	NNP	Number=Sing	14	_	_	NER=B-ORG
+16	Committee	Committee	PROPN	NNP	Number=Sing	15	_	_	NER=I-ORG|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p2.s2
+# align_s = 0-0 1-1 2-2 3-5 4-6
+# align_t = 0-0 1-1 2-2 5-3 6-4 
+# source = Má někdo jiný návrh?
+# initial_translation = Does anyone else have a suggestion?
+# text = Does anyone else have a suggestion?
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	anyone	anyone	PRON	NN	Number=Sing	1	_	_	NER=O
+3	else	else	ADJ	JJ	Degree=Pos	2	_	_	NER=O
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	NER=O
+6	suggestion	suggestion	NOUN	NN	Number=Sing	5	_	_	NER=O|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p2.s3
+# align_s = 0-2 1-3
+# align_t = 1-0 2-0 3-1 
+# source = Nevidím.
+# initial_translation = I can't see.
+# text = I can't see.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	can't	can't	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p3.s1
+# align_s = 0-0 1-2 2-3 3-4 4-6 5-7 6-8 7-9 8-10 9-11 10-13 11-14
+# align_t = 0-0 2-1 3-2 4-3 6-4 7-5 8-6 9-7 10-8 11-9 13-10 14-11 
+# source = Budeme tedy hlasovat v hlasování číslo 38, které jsem zahájil.
+# initial_translation = We will therefore vote in the vote number 38, which I have begun.
+# text = We will therefore vote in the vote number 38, which I have begun.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	therefore	therefore	ADV	RB	_	2	_	_	NER=O
+4	vote	vote	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	in	in	ADP	IN	_	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	vote	vote	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	number	number	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	38	38	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	NER=O
+11	which	which	PRON	WDT	PronType=Rel	10	_	_	NER=O
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	NER=O
+13	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	NER=O
+14	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p3.s2
+# align_s = 0-0 1-1 2-2 3-4 4-6 5-7 6-10 7-11 8-12
+# align_t = 0-0 1-1 2-2 4-3 6-4 7-5 10-6 11-7 12-8 
+# source = Kdo je pro přikázání tohoto tisku kontrolnímu výboru?
+# initial_translation = Who is for the commandment of this press to the inspection committee?
+# text = Who is for the commandment of this press to the inspection committee?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	commandment	commandment	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	NER=O
+8	press	press	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	to	to	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	inspection	inspection	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	committee	committee	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p3.s3
+# align_s = 0-0 1-1 2-2 3-4
+# align_t = 0-0 1-1 2-2 4-3 
+# source = Kdo je proti?
+# initial_translation = Who's against it?
+# text = Who's against it?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	against	against	ADP	IN	_	2	_	_	NER=O
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p3.s4
+# align_s = 0-0 1-2
+# align_t = 0-0 1-0 2-1 
+# source = Děkuji.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p4.s1
+# align_s = 0-0 1-2 3-3 5-4 6-5 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-15
+# align_t = 0-0 2-1 3-2 4-5 5-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-13 15-14 
+# source = V hlasování číslo pořadové číslo 38 z přítomných 172 133 pro, proti nikdo.
+# initial_translation = In the vote number 38 of the present 172 133 pros, against no one.
+# text = In the vote number 38 of the present 172 133 pros, against no one.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	NER=O
+3	vote	vote	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	number	number	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	38	38	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	present	present	ADJ	JJ	Degree=Pos	7	_	_	NER=O
+9	172	172	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	NER=O
+10	133	133	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	NER=O
+11	pros	pro	NOUN	NNS	Number=Plur	10	_	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	NER=O
+13	against	against	ADP	IN	_	12	_	_	NER=O
+14	no	no	DET	DT	_	13	_	_	NER=O
+15	one	one	NOUN	NN	Number=Sing	14	_	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p4.s2
+# align_s = 0-1 1-2 2-3 3-4
+# align_t = 1-0 2-1 3-2 4-3 
+# source = Návrh byl přijat.
+# initial_translation = The motion was accepted.
+# text = The motion was accepted.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	motion	motion	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	NER=O
+4	accepted	accept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p5.s1
+# align_s = 0-0 1-1 2-2 3-4 4-7 6-8 7-9 8-10 9-12 12-13 14-15 15-16 17-22 18-23 19-24 20-18 21-19 22-21 23-27 24-28 25-29 26-31 27-33 28-35 30-36 31-37 32-38 33-40
+# align_t = 0-0 1-1 2-2 4-3 7-4 8-6 9-7 10-8 12-9 13-12 14-13 15-14 16-15 17-16 18-20 19-21 21-22 22-17 24-18 26-19 27-23 28-24 31-26 33-27 35-28 36-30 37-31 38-32 40-33 
+# source = V tomto ohledu tedy musím ještě upozornit, že návrh, který předložil pan ministr Pecina, podle jednacího řádu předkládají pouze poslanci, takže budu muset otevřít rozpravu, pokud někdo vystoupí.
+# initial_translation = In this respect, therefore, I must point out that the proposal tabled by Minister Pecina is submitted only by Members under the Rules of Procedure, so I will have to open the debate if anyone comes forward.
+# text = In this respect, therefore, I must point out that the proposal tabled by Minister Pecina is submitted only by Members under the Rules of Procedure, so I will have to open the debate if anyone comes forward.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	NER=O
+3	respect	respect	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	therefore	therefore	ADV	RB	_	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	NER=O
+8	must	must	AUX	MD	VerbForm=Fin	7	_	_	NER=O
+9	point	point	VERB	VB	VerbForm=Inf	8	_	_	NER=O
+10	out	out	ADP	RP	_	9	_	_	NER=O
+11	that	that	SCONJ	IN	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	proposal	proposal	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	tabled	tab	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	NER=O
+15	by	by	ADP	IN	_	14	_	_	NER=O
+16	Minister	Minister	PROPN	NNP	Number=Sing	15	_	_	NER=O
+17	Pecina	Pecina	PROPN	NNP	Number=Sing	16	_	_	NER=B-PER
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	NER=O
+19	submitted	submit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	_	_	NER=O
+20	only	only	ADV	RB	_	19	_	_	NER=O
+21	by	by	ADP	IN	_	20	_	_	NER=O
+22	Members	Member	PROPN	NNPS	Number=Plur	21	_	_	NER=O
+23	under	under	ADP	IN	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	Rules	rule	NOUN	NNS	Number=Plur	24	_	_	NER=B-ORG
+26	of	of	ADP	IN	_	25	_	_	NER=I-ORG
+27	Procedure	Procedure	PROPN	NNP	Number=Sing	26	_	_	NER=I-ORG|SpaceAfter=No
+28	,	,	PUNCT	,	_	27	_	_	NER=O
+29	so	so	ADV	RB	_	28	_	_	NER=O
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	_	_	NER=O
+31	will	will	AUX	MD	VerbForm=Fin	30	_	_	NER=O
+32	have	have	VERB	VB	VerbForm=Inf	31	_	_	NER=O
+33	to	to	PART	TO	_	32	_	_	NER=O
+34	open	open	VERB	VB	VerbForm=Inf	33	_	_	NER=O
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	NER=O
+36	debate	debate	NOUN	NN	Number=Sing	35	_	_	NER=O
+37	if	if	SCONJ	IN	_	36	_	_	NER=O
+38	anyone	anyone	PRON	NN	Number=Sing	37	_	_	NER=O
+39	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	_	_	NER=O
+40	forward	forward	ADV	RB	_	39	_	_	NER=O|SpaceAfter=No
+41	.	.	PUNCT	.	_	40	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p5.s2
+# align_s = 1-3 2-1 3-6 4-7 5-8 6-5 7-9 8-10 9-12 10-14 11-13 12-15 13-16 14-20 15-22 16-18 17-21 18-24
+# align_t = 1-2 2-0 3-1 5-6 6-3 7-4 8-5 9-7 10-8 13-11 14-10 15-12 16-13 18-16 22-15 23-16 24-18 
+# source = Pan ministr asi s přednostním právem vystoupí a otevře mi znovu rozpravu, protože to jinak neumím zařídit.
+# initial_translation = I think the Minister will speak with priority rights and open up the debate again, because I can't do it any other way.
+# text = I think the Minister will speak with priority rights and open up the debate again, because I can't do it any other way.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	Minister	minister	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	will	will	AUX	MD	VerbForm=Fin	4	_	_	NER=O
+6	speak	speak	VERB	VB	VerbForm=Inf	5	_	_	NER=O
+7	with	with	ADP	IN	_	6	_	_	NER=O
+8	priority	priority	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	rights	rights	NOUN	NNS	Number=Plur	8	_	_	NER=O
+10	and	and	CCONJ	CC	_	9	_	_	NER=O
+11	open	open	VERB	VB	VerbForm=Inf	10	_	_	NER=O
+12	up	up	ADP	RP	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	debate	debate	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	again	again	ADV	RB	_	14	_	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	NER=O
+17	because	because	SCONJ	IN	_	16	_	_	NER=O
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	NER=O
+19	can't	can't	AUX	MD	VerbForm=Fin	18	_	_	NER=O
+20	do	do	VERB	VB	VerbForm=Inf	19	_	_	NER=O
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	_	_	NER=O
+22	any	any	DET	DT	_	21	_	_	NER=O
+23	other	other	ADJ	JJ	Degree=Pos	22	_	_	NER=O
+24	way	way	NOUN	NN	Number=Sing	23	_	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p5.s3
+# align_s = 0-0 1-1 2-2
+# align_t = 0-0 1-1 2-2 
+# source = Pane ministře.
+# initial_translation = Mr. Secretary.
+# text = Mr. Secretary.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	Secretary	Secretary	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u12.p1.s1
+# align_s = 0-0 1-2 2-3 3-4 4-7
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-3 6-3 7-4 
+# source = Děkuji, pane místopředsedo.
+# initial_translation = Thank you, Mr. Vice-President.
+# text = Thank you, Mr. Vice-President.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	Vice	Vice	PROPN	NNP	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	NER=O|SpaceAfter=No
+7	President	President	PROPN	NNP	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u13.p1.s1
+# align_s = 0-0 1-2
+# align_t = 0-0 1-0 2-1 
+# source = Děkuji.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u13.p1.s2
+# align_s = 0-3 2-4 3-1 4-5 6-7 7-8 8-9 9-10 10-12 11-13 12-14 13-15
+# align_t = 1-3 3-0 4-2 5-4 6-5 7-6 8-7 9-8 10-9 12-10 13-11 14-12 15-13 
+# source = Byla znovu otevřena rozprava a pan zpravodaj se hlásí do rozpravy znovu otevřené.
+# initial_translation = The debate has been reopened and the rapporteur is reporting to the debate again open.
+# text = The debate has been reopened and the rapporteur is reporting to the debate again open.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	debate	debate	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	NER=O
+5	reopened	reopen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	NER=O
+6	and	and	CCONJ	CC	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	rapporteur	rapporteur	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	NER=O
+10	reporting	report	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	NER=O
+11	to	to	ADP	IN	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	debate	debate	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	again	again	ADV	RB	_	13	_	_	NER=O
+15	open	open	ADJ	JJ	Degree=Pos	14	_	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u14.p1.s1
+# align_s = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 8-8 9-9 10-10 11-11 12-12
+# align_t = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 8-8 9-9 10-10 11-11 12-12 
+# source = Vážený pane předsedající, já bych tedy navrhl zkrácení na 30 dnů.
+# initial_translation = Mr President, I would therefore propose a reduction to 30 days.
+# text = Mr President, I would therefore propose a reduction to 30 days.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	President	President	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	NER=O
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	NER=O
+6	therefore	therefore	ADV	RB	_	5	_	_	NER=O
+7	propose	propose	VERB	VB	VerbForm=Inf	6	_	_	NER=O
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	NER=O
+9	reduction	reduction	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	to	to	ADP	IN	_	9	_	_	NER=O
+11	30	30	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	NER=O
+12	days	day	NOUN	NNS	Number=Plur	11	_	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p1.s1
+# align_s = 0-0 1-1 2-2 3-4
+# align_t = 0-0 1-1 2-2 3-2 4-3 
+# source = Ano, děkuji.
+# initial_translation = Yes, thank you.
+# text = Yes, thank you.
+1	Yes	yes	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p1.s2
+# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 6-7
+# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 7-6 
+# source = Budeme tedy hlasovat o tomto návrhu.
+# initial_translation = We will therefore vote on this proposal.
+# text = We will therefore vote on this proposal.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	therefore	therefore	ADV	RB	_	2	_	_	NER=O
+4	vote	vote	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	on	on	ADP	IN	_	4	_	_	NER=O
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	NER=O
+7	proposal	proposal	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p1.s3
+# align_s = 0-0 1-1 2-2 3-3 4-5 6-7 7-8 8-10 9-11 10-12 15-13 16-17 17-15 18-18
+# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 7-6 8-7 10-8 11-9 12-10 13-15 14-16 15-17 17-16 18-18 
+# source = Pokud nemá nikdo jiný zájem o vystoupení ve znovuotevřené rozpravě, není tomu tak, tak rozpravu končím.
+# initial_translation = If no one else is interested in speaking in a reopened debate, I am ending the debate.
+# text = If no one else is interested in speaking in a reopened debate, I am ending the debate.
+1	If	if	SCONJ	IN	_	0	_	_	NER=O
+2	no	no	DET	DT	_	1	_	_	NER=O
+3	one	one	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	else	else	ADJ	JJ	Degree=Pos	3	_	_	NER=O
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	interested	interested	ADJ	JJ	Degree=Pos	5	_	_	NER=O
+7	in	in	SCONJ	IN	_	6	_	_	NER=O
+8	speaking	speak	VERB	VBG	VerbForm=Ger	7	_	_	NER=O
+9	in	in	ADP	IN	_	8	_	_	NER=O
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	NER=O
+11	reopened	reopen	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	NER=O
+12	debate	debate	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	NER=O
+15	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	NER=O
+16	ending	end	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	NER=O
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	NER=O
+18	debate	debate	NOUN	NN	Number=Sing	17	_	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p2.s1
+# align_s = 0-0 1-2 2-3 4-4 5-6 6-9 7-10 8-11 9-12 10-13 11-14 12-15 15-16 16-18 17-20 18-21 19-22 20-23 21-24 22-25 23-27 24-28 25-29 26-31 29-32 30-33 31-35 32-36
+# align_t = 0-0 2-1 3-2 4-4 6-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-15 18-16 20-17 21-18 22-19 23-20 24-21 26-22 27-23 28-24 29-25 30-26 31-27 32-29 33-30 35-31 36-32 
+# source = Budeme tedy hlasovat ještě o zkrácení lhůty k projednání na 30 dnů, a to v hlasování pořadové číslo 39, které jsem zahájil, a ptám se, kdo je pro.
+# initial_translation = We will therefore vote on a reduction of the deadline for discussion to 30 days, in the vote on order number 39, which I have begun, and I ask who is in favour.
+# text = We will therefore vote on a reduction of the deadline for discussion to 30 days, in the vote on order number 39, which I have begun, and I ask who is in favour.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	therefore	therefore	ADV	RB	_	2	_	_	NER=O
+4	vote	vote	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	on	on	ADP	IN	_	4	_	_	NER=O
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	NER=O
+7	reduction	reduction	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	of	of	ADP	IN	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	deadline	deadline	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	for	for	ADP	IN	_	10	_	_	NER=O
+12	discussion	discussion	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	to	to	ADP	IN	_	12	_	_	NER=O
+14	30	30	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O
+15	days	day	NOUN	NNS	Number=Plur	14	_	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	NER=O
+17	in	in	ADP	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	vote	vote	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	on	on	ADP	IN	_	19	_	_	NER=O
+21	order	order	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	number	number	NOUN	NN	Number=Sing	21	_	_	NER=O
+23	39	39	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	NER=O
+25	which	which	PRON	WDT	PronType=Rel	24	_	_	NER=O
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	_	_	NER=O
+27	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	_	_	NER=O
+28	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	27	_	_	NER=O|SpaceAfter=No
+29	,	,	PUNCT	,	_	28	_	_	NER=O
+30	and	and	CCONJ	CC	_	29	_	_	NER=O
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	_	_	NER=O
+32	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	_	_	NER=O
+33	who	who	PRON	WP	PronType=Int	32	_	_	NER=O
+34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	_	_	NER=O
+35	in	in	ADP	IN	_	34	_	_	NER=O
+36	favour	favour	NOUN	NN	Number=Sing	35	_	_	NER=O|SpaceAfter=No
+37	.	.	PUNCT	.	_	36	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p2.s2
+# align_s = 0-0 1-1 2-2 3-4
+# align_t = 0-0 1-1 2-2 4-3 
+# source = Kdo je proti?
+# initial_translation = Who's against it?
+# text = Who's against it?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	against	against	ADP	IN	_	2	_	_	NER=O
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p2.s3
+# align_s = 0-0 1-1 2-2
+# align_t = 0-0 1-1 2-2 
+# source = Děkuji vám.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p3.s1
+# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 6-8 7-7 8-9 9-10 10-11 11-12 12-13 13-14
+# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 7-7 8-6 9-8 10-9 11-10 12-11 13-12 14-13 
+# source = V hlasování pořadové číslo 39 z přítomných 173 pro 110, proti 18.
+# initial_translation = In the vote order number 39 of 173 present for 110, against 18.
+# text = In the vote order number 39 of 173 present for 110, against 18.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	NER=O
+3	vote	vote	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	order	order	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	number	number	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	39	39	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	NER=O
+7	of	of	ADP	IN	_	6	_	_	NER=O
+8	173	173	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	NER=O
+9	present	present	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	110	110	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	NER=O
+13	against	against	ADP	IN	_	12	_	_	NER=O
+14	18	18	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p3.s2
+# align_s = 0-1 1-2 2-3 3-4
+# align_t = 1-0 2-1 3-2 4-3 
+# source = Návrh byl přijat.
+# initial_translation = The motion was accepted.
+# text = The motion was accepted.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	motion	motion	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	NER=O
+4	accepted	accept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p4.s1
+# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-13 11-14 12-17 13-18 14-20 15-22 16-23 17-24 18-25 19-26 20-27
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 12-9 13-10 14-11 16-12 17-12 18-13 19-13 20-14 22-15 23-16 24-17 25-18 26-19 27-20 
+# source = Konstatuji, že tento návrh byl přikázán k projednání kontrolnímu výboru a lhůta k projednání byla zkrácena na 30 dnů.
+# initial_translation = I note that this proposal has been ordered for discussion by the Supervisory Committee and the time limit for the hearing has been reduced to 30 days.
+# text = I note that this proposal has been ordered for discussion by the Supervisory Committee and the time limit for the hearing has been reduced to 30 days.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	note	note	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	that	that	SCONJ	IN	_	2	_	_	NER=O
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	NER=O
+5	proposal	proposal	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	NER=O
+8	ordered	order	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	NER=O
+9	for	for	ADP	IN	_	8	_	_	NER=O
+10	discussion	discussion	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	by	by	ADP	IN	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	Supervisory	Supervisory	PROPN	NNP	Number=Sing	12	_	_	NER=B-ORG
+14	Committee	Committee	PROPN	NNP	Number=Sing	13	_	_	NER=I-ORG
+15	and	and	CCONJ	CC	_	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	time	time	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	limit	limit	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	for	for	ADP	IN	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	hearing	hearing	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	NER=O
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	22	_	_	NER=O
+24	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	_	_	NER=O
+25	to	to	ADP	IN	_	24	_	_	NER=O
+26	30	30	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	NER=O
+27	days	day	NOUN	NNS	Number=Plur	26	_	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p4.s2
+# align_s = 0-0 1-1 2-4 3-7 4-8 5-9 6-10 7-13 8-14 9-15 10-16 11-17 12-18
+# align_t = 0-0 1-0 3-1 4-2 7-3 8-4 9-5 10-5 11-6 13-7 14-8 15-9 16-10 17-11 18-12 
+# source = Děkuji panu ministrovi vnitra, děkuji panu zpravodaji a končím tento bod.
+# initial_translation = Thank you to the Minister of the Interior, thank you to the rapporteur and end this point.
+# text = Thank you to the Minister of the Interior, thank you to the rapporteur and end this point.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	to	to	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	Minister	minister	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	Interior	Interior	PROPN	NNP	Number=Sing	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	NER=O
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	NER=O
+12	to	to	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	rapporteur	rapporteur	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	and	and	CCONJ	CC	_	14	_	_	NER=O
+16	end	end	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	NER=O
+17	this	this	DET	DT	Number=Sing|PronType=Dem	16	_	_	NER=O
+18	point	point	NOUN	NN	Number=Sing	17	_	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p5.s1
+# align_s = 0-1 1-2 2-4 3-6 4-7 5-8 6-9
+# align_t = 1-0 2-1 4-2 6-3 7-4 8-5 9-6 
+# source = Dalším bodem dnešní schůze je bod číslo
+# initial_translation = The next item in today's meeting is point number
+# text = The next item in today's meeting is point number
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	next	next	ADJ	JJ	Degree=Pos	1	_	_	NER=O
+3	item	item	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	in	in	ADP	IN	_	3	_	_	NER=O
+5	today	today	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	's	's	PART	POS	_	5	_	_	NER=O
+7	meeting	meeting	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	point	point	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	number	number	NOUN	NN	Number=Sing	9	_	_	NER=O
+

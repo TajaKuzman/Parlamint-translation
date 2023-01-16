@@ -1,0 +1,1615 @@
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u1.p1.s1
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = 38.
+# initial_translation = 38.
+# text = 38.
+1	38	38	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u1.p1.s2
+# align_s = 0-1 1-2 2-0 3-3 4-4 5-4 6-5 7-6 8-8 9-9 10-10 11-8 12-9 13-11 14-13 15-14 17-15 18-16 19-15 20-16 22-17 23-18 24-19 25-20 26-21 27-22 28-22 29-22 30-23 31-24 32-25 33-26 34-27
+# align_t = 0-2 1-0 2-1 3-3 4-5 5-6 6-7 8-8 9-9 10-10 11-13 13-14 14-15 15-19 16-20 17-22 18-23 19-24 20-25 21-27 22-28 23-30 24-31 25-32 26-33 27-34 
+# source = Dotační programy zemědělství pro rok 2014 poskytované podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů /sněmovní tisk 35/
+# initial_translation = Agriculture subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended /German press 35/
+# text = Agriculture subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended /German press 35/
+1	Agriculture	Agriculture	NOUN	NN	Number=Sing	0	_	_	NER=O
+2	subsidy	subsidy	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	programmes	programme	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	for	for	ADP	IN	_	3	_	_	NER=O
+5	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	NER=O
+6	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	NER=O
+7	pursuant	pursuant	ADJ	JJ	Degree=Pos	6	_	_	NER=O
+8	to	to	ADP	IN	_	7	_	_	NER=O
+9	Sections	section	NOUN	NNS	Number=Plur	8	_	_	NER=O
+10	2	2	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	NER=O
+11	and	and	CCONJ	CC	_	10	_	_	NER=O
+12	2d	2d	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	NER=O
+13	of	of	ADP	IN	_	12	_	_	NER=O
+14	Act	act	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	14	_	_	NER=O
+16	252/1997	252/1997	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	NER=O
+17	Coll.	coll.	NOUN	NN	Number=Sing	16	_	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	on	on	ADP	IN	_	18	_	_	NER=O
+20	Agriculture	Agriculture	NOUN	NN	Number=Sing	19	_	_	NER=O|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	NER=O
+22	as	as	ADP	IN	_	21	_	_	NER=O
+23	amended	amend	VERB	VBN	Tense=Past|VerbForm=Part	22	_	_	NER=O
+24	/	/	SYM	,	_	23	_	_	NER=O|SpaceAfter=No
+25	German	German	ADJ	JJ	Degree=Pos	24	_	_	NER=B-MISC
+26	press	press	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	35	35	NUM	CD	NumForm=Digit|NumType=Card	26	_	_	NER=O|SpaceAfter=No
+28	/	/	PUNCT	,	_	27	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u1.p2.s1
+# align_s = 0-0 1-1 2-4 3-7 4-9 5-10 6-12 7-14 8-15 9-16
+# align_t = 0-0 1-1 4-2 7-3 9-4 10-5 12-6 14-7 15-8 16-9 
+# source = Tento materiál uvede ministr zemědělství v demisi Miroslav Toman.
+# initial_translation = This material will be presented by the Minister of Agriculture in the resignation of Miroslav Toman.
+# text = This material will be presented by the Minister of Agriculture in the resignation of Miroslav Toman.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	NER=O
+2	material	material	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	NER=O
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	NER=O
+5	presented	present	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	NER=O
+6	by	by	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	Minister	Minister	PROPN	NNP	Number=Sing	7	_	_	NER=B-ORG
+9	of	of	ADP	IN	_	8	_	_	NER=I-ORG
+10	Agriculture	Agriculture	PROPN	NNP	Number=Sing	9	_	_	NER=I-ORG
+11	in	in	ADP	IN	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	resignation	resignation	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	Miroslav	Miroslav	PROPN	NNP	Number=Sing	14	_	_	NER=B-PER
+16	Toman	Toman	PROPN	NNP	Number=Sing	15	_	_	NER=I-PER|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u1.p2.s2
+# align_s = 1-0 3-1 4-3 5-4 6-7 8-8 9-18 10-19 12-10 13-11 14-12 15-13 16-14 17-16 18-20
+# align_t = 0-1 1-3 3-4 4-5 7-6 8-8 9-11 10-12 11-13 12-14 13-15 14-16 16-17 17-7 18-9 19-10 20-18 
+# source = Ještě než se ujme slova, zkontroluji, jestli je zde pan kolega Velebný, který je zpravodajem.
+# initial_translation = Before taking the floor, I'll check if my colleague Velebný, who is the rapporteur, is here.
+# text = Before taking the floor, I'll check if my colleague Velebný, who is the rapporteur, is here.
+1	Before	before	SCONJ	IN	_	0	_	_	NER=O
+2	taking	take	VERB	VBG	VerbForm=Ger	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	floor	floor	NOUN	NN	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	NER=O|SpaceAfter=No
+7	'll	will	AUX	MD	VerbForm=Fin	6	_	_	NER=O
+8	check	check	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	if	if	SCONJ	IN	_	8	_	_	NER=O
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	NER=O
+11	colleague	colleague	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	Velebný	Velebný	PROPN	NNP	Number=Sing	11	_	_	NER=B-PER|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	who	who	PRON	WP	PronType=Rel	13	_	_	NER=O
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	rapporteur	rapporteur	NOUN	NN	Number=Sing	16	_	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	NER=O
+20	here	here	ADV	RB	PronType=Dem	19	_	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u1.p2.s3
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-9
+# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 9-6 
+# source = Pane ministře, prosím máte slovo.
+# initial_translation = Mr. Secretary, please take your word for it.
+# text = Mr. Secretary, please take your word for it.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	Secretary	Secretary	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	please	please	INTJ	UH	_	3	_	_	NER=O
+5	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	NER=O
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	_	_	NER=O
+7	word	word	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	for	for	ADP	IN	_	7	_	_	NER=O
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p1.s1
+# align_s = 0-0 1-0 2-1
+# align_t = 0-0 1-2 
+# source = Dobrý den.
+# initial_translation = Hello.
+# text = Hello.
+1	Hello	hello	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p1.s2
+# align_s = 1-0 2-1 3-2 4-3 6-4 7-2 8-3 10-4 11-5 12-6 15-7 18-8 19-9 20-11 21-15 22-16 23-14 24-12 25-13 26-13 27-17 28-18 29-19 30-20 31-21 32-19 33-20 34-22 35-24 36-25 38-26 39-27 40-26 41-27 42-28 43-29 44-30 45-31
+# align_t = 0-1 1-2 2-3 3-8 4-10 5-11 6-12 7-13 8-18 9-15 10-16 11-19 12-20 13-22 14-23 15-25 16-26 17-27 18-28 19-29 20-30 21-31 22-34 24-35 25-36 26-40 27-41 28-42 29-43 30-44 31-45 
+# source = Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, dovolte, abych vás v krátkosti seznámil s dotačními programy zemědělství pro rok 2014 poskytovanými podle § 2 a § 2d zákona č. 252/1997 Sb, o zemědělství.
+# initial_translation = Mr President, honourable Members, let me briefly introduce you to the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture.
+# text = Mr President, honourable Members, let me briefly introduce you to the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	President	President	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	honourable	honourable	ADJ	JJ	Degree=Pos	3	_	_	NER=O
+5	Members	Member	PROPN	NNPS	Number=Plur	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	NER=O
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	NER=O
+9	briefly	briefly	ADV	RB	_	8	_	_	NER=O
+10	introduce	introduce	VERB	VB	VerbForm=Inf	9	_	_	NER=O
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	NER=O
+12	to	to	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O
+15	agricultural	agricultural	ADJ	JJ	Degree=Pos	14	_	_	NER=O
+16	subsidy	subsidy	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	programmes	programme	NOUN	NNS	Number=Plur	16	_	_	NER=O
+18	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	NER=O
+19	under	under	ADP	IN	_	18	_	_	NER=O
+20	Sections	section	NOUN	NNS	Number=Plur	19	_	_	NER=O
+21	2	2	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	NER=O
+22	and	and	CCONJ	CC	_	21	_	_	NER=O
+23	2d	2d	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	NER=O
+24	of	of	ADP	IN	_	23	_	_	NER=O
+25	Act	act	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	25	_	_	NER=O
+27	252/1997	252/1997	NUM	CD	NumForm=Digit|NumType=Card	26	_	_	NER=O
+28	Coll.	coll.	NOUN	NN	Number=Sing	27	_	_	NER=O|SpaceAfter=No
+29	,	,	PUNCT	,	_	28	_	_	NER=O
+30	on	on	ADP	IN	_	29	_	_	NER=O
+31	Agriculture	Agriculture	NOUN	NN	Number=Sing	30	_	_	NER=O|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p2.s1
+# align_s = 0-1 1-2 2-3 3-4 4-4 5-6 6-7 7-8 8-9 9-10 10-11 11-14 13-13 14-15 15-16 16-17 18-18 19-20 20-21 21-22 22-23 23-24 24-25 25-26 26-27 27-28 28-29 29-30 30-31 31-33 32-35 33-36 36-37 37-38 38-39 40-40 41-41 42-42 43-43 44-44 45-45 49-46 50-47 51-48 52-49 53-50 54-51
+# align_t = 1-0 2-1 3-2 4-4 5-5 6-5 7-6 8-7 9-8 10-9 11-10 12-12 13-13 14-11 15-14 16-15 17-16 18-18 20-19 21-20 22-21 23-22 24-23 25-24 26-25 27-26 28-27 29-28 30-29 31-30 32-30 33-31 35-32 36-33 37-34 38-37 39-38 40-40 41-41 42-42 43-43 44-44 45-45 46-49 47-50 48-51 49-52 50-53 51-54 
+# source = Dotační programy na rok 2014 vycházejí z výše citovaného zákona, zákona o zemědělství, který stanoví, že stát přispívá k udržování výrobního potenciálu v zemědělství a jeho podílu na rozvoji venkovského prostoru tím, že provádí opatření v rámci programů určených k podpoře aktivit, které jsou financovány výhradně z národních zdrojů.
+# initial_translation = The grant programmes for 2014 are based on the abovementioned Act, the Agriculture Act, which provides that the State contributes to maintaining production potential in agriculture and its contribution to the development of rural areas by implementing measures under programmes intended to support activities financed exclusively from national resources.
+# text = The grant programmes for 2014 are based on the abovementioned Act, the Agriculture Act, which provides that the State contributes to maintaining production potential in agriculture and its contribution to the development of rural areas by implementing measures under programmes intended to support activities financed exclusively from national resources.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	grant	grant	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	programmes	programme	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	for	for	ADP	IN	_	3	_	_	NER=O
+5	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	NER=O
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	NER=O
+8	on	on	ADP	IN	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	abovementioned	abovemention	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	NER=O
+11	Act	Act	PROPN	NNP	Number=Sing	10	_	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	Agriculture	Agriculture	PROPN	NNP	Number=Sing	13	_	_	NER=B-MISC
+15	Act	Act	PROPN	NNP	Number=Sing	14	_	_	NER=I-MISC|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	NER=O
+17	which	which	PRON	WDT	PronType=Rel	16	_	_	NER=O
+18	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	NER=O
+19	that	that	SCONJ	IN	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	State	State	PROPN	NNP	Number=Sing	20	_	_	NER=O
+22	contributes	contribute	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	NER=O
+23	to	to	SCONJ	IN	_	22	_	_	NER=O
+24	maintaining	maintain	VERB	VBG	VerbForm=Ger	23	_	_	NER=O
+25	production	production	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	potential	potential	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	in	in	ADP	IN	_	26	_	_	NER=O
+28	agriculture	agriculture	NOUN	NN	Number=Sing	27	_	_	NER=O
+29	and	and	CCONJ	CC	_	28	_	_	NER=O
+30	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	_	_	NER=O
+31	contribution	contribution	NOUN	NN	Number=Sing	30	_	_	NER=O
+32	to	to	ADP	IN	_	31	_	_	NER=O
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	NER=O
+34	development	development	NOUN	NN	Number=Sing	33	_	_	NER=O
+35	of	of	ADP	IN	_	34	_	_	NER=O
+36	rural	rural	ADJ	JJ	Degree=Pos	35	_	_	NER=O
+37	areas	area	NOUN	NNS	Number=Plur	36	_	_	NER=O
+38	by	by	SCONJ	IN	_	37	_	_	NER=O
+39	implementing	implement	VERB	VBG	VerbForm=Ger	38	_	_	NER=O
+40	measures	measure	NOUN	NNS	Number=Plur	39	_	_	NER=O
+41	under	under	ADP	IN	_	40	_	_	NER=O
+42	programmes	programme	NOUN	NNS	Number=Plur	41	_	_	NER=O
+43	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	42	_	_	NER=O
+44	to	to	PART	TO	_	43	_	_	NER=O
+45	support	support	VERB	VB	VerbForm=Inf	44	_	_	NER=O
+46	activities	activity	NOUN	NNS	Number=Plur	45	_	_	NER=O
+47	financed	finance	VERB	VBN	Tense=Past|VerbForm=Part	46	_	_	NER=O
+48	exclusively	exclusively	ADV	RB	_	47	_	_	NER=O
+49	from	from	ADP	IN	_	48	_	_	NER=O
+50	national	national	ADJ	JJ	Degree=Pos	49	_	_	NER=O
+51	resources	resource	NOUN	NNS	Number=Plur	50	_	_	NER=O|SpaceAfter=No
+52	.	.	PUNCT	.	_	51	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p3.s1
+# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 6-7 7-7 8-8 9-12 10-10 11-13 12-15 13-16 14-18 15-21 16-22 18-23 19-24 20-25 22-39 23-40 24-41 25-37 26-50 27-51 28-52 29-27 30-29 31-32 32-35 33-36 34-44 36-48 37-49 38-53
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-7 8-8 10-10 12-9 13-11 15-12 16-13 18-14 19-15 22-16 23-18 24-19 25-20 27-29 29-30 32-31 35-32 36-33 37-25 39-22 40-23 41-24 42-34 44-34 45-34 47-35 48-36 49-37 50-26 51-27 52-28 53-38 
+# source = Předkládaný materiál obsahuje dotační programy pro rok 2014, jejichž účel včetně rozsahu finančních prostředků podle § 2d odst. 1 zákona o zemědělství schvaluje pro každý rok Poslanecká sněmovna Parlamentu České republiky současně se státním rozpočtem.
+# initial_translation = The submitted material contains subsidy programmes for 2014, the purpose of which includes the extent of the funds referred to in § 2d para. The Chamber of Deputies of the Parliament of the Czech Republic approves the Act on Agriculture at the same time as the State Budget for each year.
+# text = The submitted material contains subsidy programmes for 2014, the purpose of which includes the extent of the funds referred to in § 2d para. The Chamber of Deputies of the Parliament of the Czech Republic approves the Act on Agriculture at the same time as the State Budget for each year.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	submitted	submit	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	NER=O
+3	material	material	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	subsidy	subsidy	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	programmes	programme	NOUN	NNS	Number=Plur	5	_	_	NER=O
+7	for	for	ADP	IN	_	6	_	_	NER=O
+8	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	purpose	purpose	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	which	which	PRON	WDT	PronType=Rel	12	_	_	NER=O
+14	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	extent	extent	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	of	of	ADP	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	funds	fund	NOUN	NNS	Number=Plur	18	_	_	NER=O
+20	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	NER=O
+21	to	to	ADP	IN	_	20	_	_	NER=O
+22	in	in	ADP	IN	_	21	_	_	NER=O
+23	§	§	PROPN	NNP	Number=Sing	22	_	_	NER=O
+24	2d	2d	NOUN	NN	Number=Sing	23	_	_	NER=O
+25	para	para	X	FW	_	24	_	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	NER=O
+27	The	the	DET	DT	Definite=Def|PronType=Art	26	_	_	NER=O
+28	Chamber	Chamber	PROPN	NNP	Number=Sing	27	_	_	NER=B-ORG
+29	of	of	ADP	IN	_	28	_	_	NER=I-ORG
+30	Deputies	Deputy	PROPN	NNPS	Number=Plur	29	_	_	NER=I-ORG
+31	of	of	ADP	IN	_	30	_	_	NER=I-ORG
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	NER=I-ORG
+33	Parliament	Parliament	PROPN	NNP	Number=Sing	32	_	_	NER=I-ORG
+34	of	of	ADP	IN	_	33	_	_	NER=I-ORG
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	NER=I-ORG
+36	Czech	Czech	ADJ	NNP	Degree=Pos	35	_	_	NER=B-LOC
+37	Republic	Republic	PROPN	NNP	Number=Sing	36	_	_	NER=I-LOC
+38	approves	approve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	NER=O
+39	the	the	DET	DT	Definite=Def|PronType=Art	38	_	_	NER=O
+40	Act	Act	PROPN	NNP	Number=Sing	39	_	_	NER=B-ORG
+41	on	on	ADP	IN	_	40	_	_	NER=I-ORG
+42	Agriculture	Agriculture	PROPN	NNP	Number=Sing	41	_	_	NER=I-ORG
+43	at	at	ADP	IN	_	42	_	_	NER=O
+44	the	the	DET	DT	Definite=Def|PronType=Art	43	_	_	NER=O
+45	same	same	ADJ	JJ	Degree=Pos	44	_	_	NER=O
+46	time	time	NOUN	NN	Number=Sing	45	_	_	NER=O
+47	as	as	ADP	IN	_	46	_	_	NER=O
+48	the	the	DET	DT	Definite=Def|PronType=Art	47	_	_	NER=O
+49	State	State	PROPN	NNP	Number=Sing	48	_	_	NER=B-MISC
+50	Budget	Budget	PROPN	NNP	Number=Sing	49	_	_	NER=I-MISC
+51	for	for	ADP	IN	_	50	_	_	NER=O
+52	each	each	DET	DT	_	51	_	_	NER=O
+53	year	year	NOUN	NN	Number=Sing	52	_	_	NER=O|SpaceAfter=No
+54	.	.	PUNCT	.	_	53	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p3.s2
+# align_s = 0-1 1-2 2-3 3-4 4-4 5-6 6-7 7-8 8-9 9-10 13-11 14-13 15-14 16-15
+# align_t = 1-0 2-1 3-2 4-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-14 14-15 15-16 
+# source = Dotační programy na rok 2014 navazují na již osvědčené programy, které byly založeny předešlými vládami.
+# initial_translation = The grant programmes for 2014 are linked to already proven programmes established by previous governments.
+# text = The grant programmes for 2014 are linked to already proven programmes established by previous governments.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	grant	grant	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	programmes	programme	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	for	for	ADP	IN	_	3	_	_	NER=O
+5	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	NER=O
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	linked	link	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	NER=O
+8	to	to	ADP	IN	_	7	_	_	NER=O
+9	already	already	ADV	RB	_	8	_	_	NER=O
+10	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	NER=O
+11	programmes	programme	NOUN	NNS	Number=Plur	10	_	_	NER=O
+12	established	establish	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	NER=O
+13	by	by	ADP	IN	_	12	_	_	NER=O
+14	previous	previous	ADJ	JJ	Degree=Pos	13	_	_	NER=O
+15	governments	government	NOUN	NNS	Number=Plur	14	_	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p3.s3
+# align_s = 0-0 1-1 2-2 3-3 4-4 6-5 7-8 8-9
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 8-7 9-8 
+# source = Tyto programy byly analyzovány a byly shledány efektivními.
+# initial_translation = These programmes were analysed and found to be effective.
+# text = These programmes were analysed and found to be effective.
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	NER=O
+2	programmes	programme	NOUN	NNS	Number=Plur	1	_	_	NER=O
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	NER=O
+4	analysed	analyse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O
+5	and	and	CCONJ	CC	_	4	_	_	NER=O
+6	found	find	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	NER=O
+7	to	to	PART	TO	_	6	_	_	NER=O
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	NER=O
+9	effective	effective	ADJ	JJ	Degree=Pos	8	_	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p4.s1
+# align_s = 0-1 1-2 2-3 3-4 4-7 6-8 7-9 8-10 9-11 10-14 12-15 13-16 14-19 15-21 16-22 18-23 19-24 20-26 22-33 23-29 24-34
+# align_t = 1-0 2-1 3-2 5-4 7-5 8-6 9-7 10-8 11-9 14-10 15-12 16-13 19-14 21-15 22-16 23-18 24-19 26-20 29-21 30-22 33-23 34-24 
+# source = Dotační programy jsou podle § 2d odst. 2 výše uvedeného zákona prováděny ministrem zemědělství a jsou administrovány na základě jím vydaných zásad.
+# initial_translation = The subsidy programmes are in accordance with § 2d para. 2 of the above Act implemented by the Minister of Agriculture and administered on the basis of the principles which it has issued.
+# text = The subsidy programmes are in accordance with § 2d para. 2 of the above Act implemented by the Minister of Agriculture and administered on the basis of the principles which it has issued.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	subsidy	subsidy	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	programmes	programme	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	in	in	ADP	IN	_	4	_	_	NER=O
+6	accordance	accordance	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	with	with	ADP	IN	_	6	_	_	NER=O
+8	§	§	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	2d	2d	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	para	para	NOUN	NN	Number=Sing	9	_	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	NER=O
+12	2	2	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	NER=O
+13	of	of	ADP	IN	_	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	above	above	ADJ	JJ	Degree=Pos	14	_	_	NER=O
+16	Act	act	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	implemented	implement	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	NER=O
+18	by	by	ADP	IN	_	17	_	_	NER=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	NER=O
+20	Minister	Minister	PROPN	NNP	Number=Sing	19	_	_	NER=B-ORG
+21	of	of	ADP	IN	_	20	_	_	NER=I-ORG
+22	Agriculture	Agriculture	PROPN	NNP	Number=Sing	21	_	_	NER=I-ORG
+23	and	and	CCONJ	CC	_	22	_	_	NER=O
+24	administered	administer	VERB	VBN	Tense=Past|VerbForm=Part	23	_	_	NER=O
+25	on	on	ADP	IN	_	24	_	_	NER=O
+26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	NER=O
+27	basis	basis	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	of	of	ADP	IN	_	27	_	_	NER=O
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	NER=O
+30	principles	principle	NOUN	NNS	Number=Plur	29	_	_	NER=O
+31	which	which	PRON	WDT	PronType=Rel	30	_	_	NER=O
+32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	_	_	NER=O
+33	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	_	_	NER=O
+34	issued	issue	VERB	VBN	Tense=Past|VerbForm=Part	33	_	_	NER=O|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p4.s2
+# align_s = 0-1 1-2 2-3 3-4 5-7 6-5 7-6 8-7 9-8 10-9 11-11 12-14 13-15 14-16 15-17
+# align_t = 1-0 2-1 3-3 4-5 5-6 6-7 7-8 8-9 9-10 11-11 14-12 15-13 16-14 17-15 
+# source = Programy jsou vysloveně účelové, slouží k podpoře restrukturalizace a zvýšení konkurenceschopnosti českého agrárního sektoru.
+# initial_translation = The programmes are specifically intended to support restructuring and increase the competitiveness of the Czech agrarian sector.
+# text = The programmes are specifically intended to support restructuring and increase the competitiveness of the Czech agrarian sector.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	programmes	programme	NOUN	NNS	Number=Plur	1	_	_	NER=O
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	specifically	specifically	ADV	RB	_	3	_	_	NER=O
+5	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	NER=O
+6	to	to	PART	TO	_	5	_	_	NER=O
+7	support	support	VERB	VB	VerbForm=Inf	6	_	_	NER=O
+8	restructuring	restructuring	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	and	and	CCONJ	CC	_	8	_	_	NER=O
+10	increase	increase	VERB	VB	VerbForm=Inf	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	competitiveness	competitiveness	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	of	of	ADP	IN	_	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	Czech	Czech	ADJ	JJ	Degree=Pos	14	_	_	NER=B-MISC
+16	agrarian	agrarian	ADJ	JJ	Degree=Pos	15	_	_	NER=O
+17	sector	sector	NOUN	NN	Number=Sing	16	_	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p4.s3
+# align_s = 0-4 1-5 2-7 3-10 4-12 5-13 6-2 7-3 8-0 9-1 10-14
+# align_t = 0-8 1-9 2-6 3-7 4-0 6-1 7-2 10-3 12-4 13-5 14-10 
+# source = V předloženém návrhu výše přidělených prostředků je preferována živočišná výroba.
+# initial_translation = Animal production is preferred in the submitted proposal for the amount of allocated resources.
+# text = Animal production is preferred in the submitted proposal for the amount of allocated resources.
+1	Animal	Animal	NOUN	NN	Number=Sing	0	_	_	NER=O
+2	production	production	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	preferred	prefer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O
+5	in	in	ADP	IN	_	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	submitted	submit	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	NER=O
+8	proposal	proposal	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	for	for	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	amount	amount	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	allocated	allocate	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	NER=O
+14	resources	resource	NOUN	NNS	Number=Plur	13	_	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p4.s4
+# align_s = 0-0 1-1 2-5 3-7 4-8 5-9 6-10 7-11 8-12 9-12 10-13 11-14 12-15 13-16 14-17 15-18 16-19 17-20 18-21 19-23 20-24
+# align_t = 0-0 1-1 2-0 4-1 5-2 7-3 8-4 9-5 10-6 11-7 12-9 13-10 14-11 15-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 23-19 24-20 
+# source = Důvodem je snaha bránit nepříznivému vývoji v některých odvětvích živočišné výroby, jež je nezbytná pro zachování zaměstnanosti na venkově.
+# initial_translation = This is because of the efforts to prevent adverse developments in certain livestock sectors, which are necessary to maintain employment in rural areas.
+# text = This is because of the efforts to prevent adverse developments in certain livestock sectors, which are necessary to maintain employment in rural areas.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	NER=O
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	because	because	ADP	IN	_	2	_	_	NER=O
+4	of	of	ADP	IN	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	efforts	effort	NOUN	NNS	Number=Plur	5	_	_	NER=O
+7	to	to	PART	TO	_	6	_	_	NER=O
+8	prevent	prevent	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	adverse	adverse	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	developments	development	NOUN	NNS	Number=Plur	9	_	_	NER=O
+11	in	in	ADP	IN	_	10	_	_	NER=O
+12	certain	certain	ADJ	JJ	Degree=Pos	11	_	_	NER=O
+13	livestock	livestock	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	sectors	sector	NOUN	NNS	Number=Plur	13	_	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	NER=O
+16	which	which	PRON	WDT	PronType=Rel	15	_	_	NER=O
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	NER=O
+18	necessary	necessary	ADJ	JJ	Degree=Pos	17	_	_	NER=O
+19	to	to	PART	TO	_	18	_	_	NER=O
+20	maintain	maintain	VERB	VB	VerbForm=Inf	19	_	_	NER=O
+21	employment	employment	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	in	in	ADP	IN	_	21	_	_	NER=O
+23	rural	rural	ADJ	JJ	Degree=Pos	22	_	_	NER=O
+24	areas	area	NOUN	NNS	Number=Plur	23	_	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p5.s1
+# align_s = 0-0 1-1 3-2 4-3 6-4 7-5 8-6 10-23 12-22 14-15 15-16 16-17 17-18 18-8 19-9 20-14 21-10 22-11 23-13 24-24
+# align_t = 0-0 1-1 2-2 3-4 4-6 5-7 6-8 8-18 9-19 10-21 11-22 13-23 14-20 15-14 16-15 17-16 19-17 20-11 22-12 23-10 24-24 
+# source = V souladu se zněním § 2d odst. 1 zákona o zemědělství je u každého programu uveden účel a navrhovaný rozsah finančních prostředků.
+# initial_translation = In accordance with § 2d para. The purpose and scope of the financing proposed for each programme is specified in the Agriculture Act.
+# text = In accordance with § 2d para. The purpose and scope of the financing proposed for each programme is specified in the Agriculture Act.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	accordance	accordance	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	with	with	ADP	IN	_	2	_	_	NER=O
+4	§	§	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	2d	2d	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	para	para	X	FW	_	5	_	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	NER=O
+8	The	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	purpose	purpose	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	and	and	CCONJ	CC	_	9	_	_	NER=O
+11	scope	scope	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	financing	financing	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	NER=O
+16	for	for	ADP	IN	_	15	_	_	NER=O
+17	each	each	DET	DT	_	16	_	_	NER=O
+18	programme	programme	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	NER=O
+20	specified	specify	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	_	_	NER=O
+21	in	in	ADP	IN	_	20	_	_	NER=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	NER=O
+23	Agriculture	Agriculture	PROPN	NNP	Number=Sing	22	_	_	NER=B-MISC
+24	Act	Act	PROPN	NNP	Number=Sing	23	_	_	NER=I-MISC|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p5.s2
+# align_s = 1-1 2-2 3-4 4-6 5-7 6-8 7-11 8-12
+# align_t = 1-1 2-0 4-3 6-4 7-5 8-6 11-7 12-8 
+# source = Dále je uvedena forma dotace a zdůvodnění podpory.
+# initial_translation = There is also a form of subsidy and justification for the aid.
+# text = There is also a form of subsidy and justification for the aid.
+1	There	there	PRON	EX	_	0	_	_	NER=O
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	also	also	ADV	RB	_	2	_	_	NER=O
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	NER=O
+5	form	form	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	subsidy	subsidy	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	and	and	CCONJ	CC	_	7	_	_	NER=O
+9	justification	justification	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	aid	aid	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p5.s3
+# align_s = 0-1 1-2 2-2 3-2 4-3 5-5 6-6 7-7 8-8 9-8 10-9 11-18 12-19 13-10 14-11 16-12 17-13 18-14 19-15 20-20 21-21 22-22
+# align_t = 1-0 2-1 3-4 5-5 6-6 7-7 8-9 9-10 10-13 11-14 12-16 13-17 14-18 15-19 18-11 19-12 20-20 21-21 22-22 
+# source = Návrh finančních prostředků určených na dotační programy pro rok 2014 je státním rozpočtem stanoven ve výši 1 531 303 tis. korun.
+# initial_translation = The draft funding for the grant programmes for 2014 is set at 1 531 303 thousand by the State budget. Crowns.
+# text = The draft funding for the grant programmes for 2014 is set at 1 531 303 thousand by the State budget. Crowns.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	draft	draft	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	funding	funding	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	for	for	ADP	IN	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	grant	grant	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	programmes	programme	NOUN	NNS	Number=Plur	6	_	_	NER=O
+8	for	for	ADP	IN	_	7	_	_	NER=O
+9	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	NER=O
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	NER=O
+11	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	NER=O
+12	at	at	ADP	IN	_	11	_	_	NER=O
+13	1	1	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	NER=O
+14	531	531	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O
+15	303	303	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	NER=O
+16	thousand	thousand	NUM	CD	NumForm=Word|NumType=Card	15	_	_	NER=O
+17	by	by	ADP	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	State	State	PROPN	NNP	Number=Sing	18	_	_	NER=O
+20	budget	budget	NOUN	NN	Number=Sing	19	_	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	NER=O
+22	Crowns	crown	NOUN	NNS	Number=Plur	21	_	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p6.s1
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 7-5 8-6 9-8 10-11 11-12 12-13 13-16 14-17 15-18 16-19 17-20 19-22 20-23 21-24 22-25 23-27 24-28
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 8-9 11-10 12-11 13-12 16-13 17-14 18-15 19-16 20-15 21-18 22-19 23-20 24-21 25-22 27-23 28-24 
+# source = Dotační programy předkládané podle § 2 a § 2d zákona o zemědělství neodporují mezinárodním dohodám a smlouvám, kterými je Česká republika vázána.
+# initial_translation = The subsidy programmes submitted under Sections 2 and 2d of the Act on Agriculture do not contradict international agreements and agreements by which the Czech Republic is bound.
+# text = The subsidy programmes submitted under Sections 2 and 2d of the Act on Agriculture do not contradict international agreements and agreements by which the Czech Republic is bound.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	subsidy	subsidy	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	programmes	programme	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	submitted	submit	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	NER=O
+5	under	under	ADP	IN	_	4	_	_	NER=O
+6	Sections	Section	PROPN	NNPS	Number=Plur	5	_	_	NER=B-MISC
+7	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	NER=I-MISC
+8	and	and	CCONJ	CC	_	7	_	_	NER=O
+9	2d	2d	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	NER=O
+10	of	of	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	Act	act	NOUN	NN	Number=Sing	11	_	_	NER=B-ORG
+13	on	on	ADP	IN	_	12	_	_	NER=I-ORG
+14	Agriculture	Agriculture	PROPN	NNP	Number=Sing	13	_	_	NER=I-ORG
+15	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	NER=O
+16	not	not	PART	RB	_	15	_	_	NER=O
+17	contradict	contradict	VERB	VB	VerbForm=Inf	16	_	_	NER=O
+18	international	international	ADJ	JJ	Degree=Pos	17	_	_	NER=O
+19	agreements	agreement	NOUN	NNS	Number=Plur	18	_	_	NER=O
+20	and	and	CCONJ	CC	_	19	_	_	NER=O
+21	agreements	agreement	NOUN	NNS	Number=Plur	20	_	_	NER=O
+22	by	by	ADP	IN	_	21	_	_	NER=O
+23	which	which	PRON	WDT	PronType=Rel	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	Czech	Czech	ADJ	NNP	Degree=Pos	24	_	_	NER=B-LOC
+26	Republic	Republic	PROPN	NNP	Number=Sing	25	_	_	NER=I-LOC
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	NER=O
+28	bound	bind	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	_	_	NER=O|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p6.s2
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-12 11-15 12-18 13-20 14-21 15-22 16-23 17-24 19-25 20-26 21-27 22-28 23-31 24-32 25-33 26-34
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-9 12-10 15-11 18-12 20-13 21-14 22-15 23-16 24-17 25-19 26-20 27-21 28-22 31-23 32-24 33-25 34-26 
+# source = Podmínky pro podávání žádostí, rozhodování a přiznávání dotací budou upraveny zásadami Ministerstva zemědělství v souladu s § 2d odst. 2 zákona o zemědělství.
+# initial_translation = The conditions for submitting applications, deciding and granting subsidies will be governed by the principles of the Ministry of Agriculture in accordance with § 2d para. 2 of the Act on Agriculture.
+# text = The conditions for submitting applications, deciding and granting subsidies will be governed by the principles of the Ministry of Agriculture in accordance with § 2d para. 2 of the Act on Agriculture.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	conditions	condition	NOUN	NNS	Number=Plur	1	_	_	NER=O
+3	for	for	SCONJ	IN	_	2	_	_	NER=O
+4	submitting	submit	VERB	VBG	VerbForm=Ger	3	_	_	NER=O
+5	applications	application	NOUN	NNS	Number=Plur	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	deciding	decide	VERB	VBG	VerbForm=Ger	6	_	_	NER=O
+8	and	and	CCONJ	CC	_	7	_	_	NER=O
+9	granting	grant	VERB	VBG	VerbForm=Ger	8	_	_	NER=O
+10	subsidies	subsidy	NOUN	NNS	Number=Plur	9	_	_	NER=O
+11	will	will	AUX	MD	VerbForm=Fin	10	_	_	NER=O
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	NER=O
+13	governed	govern	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	NER=O
+14	by	by	ADP	IN	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	principles	principle	NOUN	NNS	Number=Plur	15	_	_	NER=O
+17	of	of	ADP	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	Ministry	Ministry	PROPN	NNP	Number=Sing	18	_	_	NER=B-ORG
+20	of	of	ADP	IN	_	19	_	_	NER=I-ORG
+21	Agriculture	Agriculture	PROPN	NNP	Number=Sing	20	_	_	NER=I-ORG
+22	in	in	ADP	IN	_	21	_	_	NER=O
+23	accordance	accordance	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	with	with	ADP	IN	_	23	_	_	NER=O
+25	§	§	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	2d	2d	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	para	para	NOUN	NN	Number=Sing	26	_	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	NER=O
+29	2	2	NUM	CD	NumForm=Digit|NumType=Card	28	_	_	NER=O
+30	of	of	ADP	IN	_	29	_	_	NER=O
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	NER=O
+32	Act	act	NOUN	NN	Number=Sing	31	_	_	NER=B-ORG
+33	on	on	ADP	IN	_	32	_	_	NER=I-ORG
+34	Agriculture	Agriculture	NOUN	NN	Number=Sing	33	_	_	NER=I-ORG|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p7.s1
+# align_s = 0-1 1-3 2-4 3-5 4-6 5-7 6-8 7-8 8-9 9-18 10-19 12-20 13-21 14-10 15-13 16-16 17-17 18-22
+# align_t = 1-0 3-1 4-2 5-3 6-4 7-5 8-7 9-8 10-14 13-15 16-16 17-17 18-9 19-10 20-12 21-13 22-18 
+# source = Návrh dotačních programů v zemědělství pro rok 2014 byl dne 13. listopadu 2013 schválen vládou České republiky.
+# initial_translation = The proposal for grant programmes in agriculture for 2014 was approved by the Government of the Czech Republic on 13 November 2013.
+# text = The proposal for grant programmes in agriculture for 2014 was approved by the Government of the Czech Republic on 13 November 2013.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	proposal	proposal	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	grant	grant	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	programmes	programme	NOUN	NNS	Number=Plur	4	_	_	NER=O
+6	in	in	ADP	IN	_	5	_	_	NER=O
+7	agriculture	agriculture	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	for	for	ADP	IN	_	7	_	_	NER=O
+9	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	NER=O
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	NER=O
+11	approved	approve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	NER=O
+12	by	by	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	Government	Government	PROPN	NNP	Number=Sing	13	_	_	NER=O
+15	of	of	ADP	IN	_	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	Czech	Czech	ADJ	NNP	Degree=Pos	16	_	_	NER=B-LOC
+18	Republic	Republic	PROPN	NNP	Number=Sing	17	_	_	NER=I-LOC
+19	on	on	ADP	IN	_	18	_	_	NER=O
+20	13	13	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	NER=O
+21	November	November	PROPN	NNP	Number=Sing	20	_	_	NER=O
+22	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	21	_	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p7.s2
+# align_s = 0-1 1-2 2-5 3-7 4-8 5-10 6-12 7-13 8-14 9-15 11-16 12-17 13-18 14-19 15-20 16-21 17-22 18-23 19-24 20-25 21-26 22-27 23-28 24-29 25-32 26-34 27-37 28-38 29-36 30-39
+# align_t = 1-0 2-1 5-2 7-3 8-4 10-5 12-6 13-7 14-8 15-9 16-11 17-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 25-20 26-21 27-22 28-23 29-24 32-25 34-26 36-29 37-27 38-28 39-30 
+# source = Zemědělský výbor Poslanecké sněmovny projednal návrh dotačních programů dne 11. prosince tohoto roku na své druhé schůzi, přičemž doporučil svým usnesením číslo 7 Poslanecké sněmovně tento dokument schválit.
+# initial_translation = The Agricultural Committee of the Chamber of Deputies discussed the proposal for subsidy programmes on 11 December this year at its second meeting, recommending by its resolution number 7 to the Chamber of Deputies to approve this document.
+# text = The Agricultural Committee of the Chamber of Deputies discussed the proposal for subsidy programmes on 11 December this year at its second meeting, recommending by its resolution number 7 to the Chamber of Deputies to approve this document.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	Agricultural	agricultural	ADJ	NNP	Degree=Pos	1	_	_	NER=B-ORG
+3	Committee	Committee	PROPN	NNP	Number=Sing	2	_	_	NER=I-ORG
+4	of	of	ADP	IN	_	3	_	_	NER=I-ORG
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=I-ORG
+6	Chamber	Chamber	PROPN	NNP	Number=Sing	5	_	_	NER=I-ORG
+7	of	of	ADP	IN	_	6	_	_	NER=I-ORG
+8	Deputies	Deputy	PROPN	NNPS	Number=Plur	7	_	_	NER=I-ORG
+9	discussed	discuss	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	proposal	proposal	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	for	for	ADP	IN	_	11	_	_	NER=O
+13	subsidy	subsidy	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	programmes	programme	NOUN	NNS	Number=Plur	13	_	_	NER=O
+15	on	on	ADP	IN	_	14	_	_	NER=O
+16	11	11	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	NER=O
+17	December	December	PROPN	NNP	Number=Sing	16	_	_	NER=O
+18	this	this	DET	DT	Number=Sing|PronType=Dem	17	_	_	NER=O
+19	year	year	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	at	at	ADP	IN	_	19	_	_	NER=O
+21	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	_	_	NER=O
+22	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	21	_	_	NER=O
+23	meeting	meeting	NOUN	NN	Number=Sing	22	_	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	NER=O
+25	recommending	recommend	VERB	VBG	VerbForm=Ger	24	_	_	NER=O
+26	by	by	ADP	IN	_	25	_	_	NER=O
+27	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	_	_	NER=O
+28	resolution	resolution	NOUN	NN	Number=Sing	27	_	_	NER=O
+29	number	number	NOUN	NN	Number=Sing	28	_	_	NER=O
+30	7	7	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	NER=O
+31	to	to	ADP	IN	_	30	_	_	NER=O
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	NER=O
+33	Chamber	Chamber	PROPN	NNP	Number=Sing	32	_	_	NER=B-ORG
+34	of	of	ADP	IN	_	33	_	_	NER=I-ORG
+35	Deputies	Deputy	PROPN	NNPS	Number=Plur	34	_	_	NER=I-ORG
+36	to	to	PART	TO	_	35	_	_	NER=O
+37	approve	approve	VERB	VB	VerbForm=Inf	36	_	_	NER=O
+38	this	this	DET	DT	Number=Sing|PronType=Dem	37	_	_	NER=O
+39	document	document	NOUN	NN	Number=Sing	38	_	_	NER=O|SpaceAfter=No
+40	.	.	PUNCT	.	_	39	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p8.s1
+# align_s = 0-0 1-3 2-2 3-4 5-5 6-7 7-8 8-13 9-14 10-12 11-9 12-11 13-11 14-15 15-19 16-18 17-23 18-22 19-24 20-25 22-26 23-28 24-29 25-30 26-31 27-32 28-33
+# align_t = 0-0 2-2 3-1 4-3 5-5 7-6 8-7 9-11 11-13 12-10 13-8 14-9 15-14 18-16 19-15 22-18 23-17 24-19 25-20 26-22 28-23 29-24 30-25 31-26 32-27 33-28 
+# source = Závěrem mi dovolte konstatovat, že návrh rozpočtu dotačních programů zemědělství pro rok 2014 odpovídá možnostem rozpočtu kapitoly ministerstva, přičemž se snaží zachovat kontinuitu s předešlými roky.
+# initial_translation = Finally, let me state that the draft budget for the 2014 agricultural subsidy programmes corresponds to the budget options of the Ministry chapter, while trying to maintain continuity with previous years.
+# text = Finally, let me state that the draft budget for the 2014 agricultural subsidy programmes corresponds to the budget options of the Ministry chapter, while trying to maintain continuity with previous years.
+1	Finally	finally	ADV	RB	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	NER=O
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	NER=O
+5	state	state	VERB	VB	VerbForm=Inf	4	_	_	NER=O
+6	that	that	SCONJ	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	draft	draft	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	budget	budget	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	NER=O
+13	agricultural	agricultural	ADJ	JJ	Degree=Pos	12	_	_	NER=O
+14	subsidy	subsidy	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	programmes	programme	NOUN	NNS	Number=Plur	14	_	_	NER=O
+16	corresponds	correspond	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	NER=O
+17	to	to	ADP	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	budget	budget	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	options	option	NOUN	NNS	Number=Plur	19	_	_	NER=O
+21	of	of	ADP	IN	_	20	_	_	NER=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	NER=O
+23	Ministry	Ministry	PROPN	NNP	Number=Sing	22	_	_	NER=B-ORG
+24	chapter	chapter	NOUN	NN	Number=Sing	23	_	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	NER=O
+26	while	while	SCONJ	IN	_	25	_	_	NER=O
+27	trying	try	VERB	VBG	VerbForm=Ger	26	_	_	NER=O
+28	to	to	PART	TO	_	27	_	_	NER=O
+29	maintain	maintain	VERB	VB	VerbForm=Inf	28	_	_	NER=O
+30	continuity	continuity	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	with	with	ADP	IN	_	30	_	_	NER=O
+32	previous	previous	ADJ	JJ	Degree=Pos	31	_	_	NER=O
+33	years	year	NOUN	NNS	Number=Plur	32	_	_	NER=O|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p9.s1
+# align_s = 1-0 2-1 3-2 4-3 8-3 9-4 10-5 11-6 12-9 13-10 14-12 15-11 16-13 17-14 18-17 19-18 20-19 21-17 22-15 23-16 24-16 25-20 26-21 27-22 28-23 29-24 30-22 31-23 32-25 33-27 34-28 36-29 37-30 38-29 39-30 41-31 42-32 43-33 44-34 45-35 46-36 47-36 48-36 49-37 50-38 52-39 53-42 54-43 55-46 56-48 57-51 58-54 59-55 60-56
+# align_t = 0-1 1-2 2-3 3-4 4-8 5-10 6-11 9-12 10-13 11-15 12-14 13-16 14-17 15-22 16-24 17-21 18-19 19-24 20-25 21-26 22-27 23-28 24-29 25-32 27-33 28-34 29-38 30-39 31-41 32-42 33-43 34-44 35-46 36-47 37-49 38-51 39-52 42-53 43-54 46-55 48-56 51-57 54-58 55-59 56-60 
+# source = Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, dovoluji si vás požádat o schválení materiálu Dotační programy zemědělství pro rok 2014 poskytované podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů, ve znění doporučeném zemědělským výborem Poslanecké sněmovny Parlamentu České republiky.
+# initial_translation = Mr President, ladies and gentlemen, I would like to ask you to approve the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as recommended by the Agricultural Committee of the Chamber of Deputies of the Parliament of the Czech Republic.
+# text = Mr President, ladies and gentlemen, I would like to ask you to approve the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as recommended by the Agricultural Committee of the Chamber of Deputies of the Parliament of the Czech Republic.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	President	President	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	ladies	lady	NOUN	NNS	Number=Plur	3	_	_	NER=O
+5	and	and	CCONJ	CC	_	4	_	_	NER=O
+6	gentlemen	gentleman	NOUN	NNS	Number=Plur	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	NER=O
+9	would	would	AUX	MD	VerbForm=Fin	8	_	_	NER=O
+10	like	like	VERB	VB	VerbForm=Inf	9	_	_	NER=O
+11	to	to	PART	TO	_	10	_	_	NER=O
+12	ask	ask	VERB	VB	VerbForm=Inf	11	_	_	NER=O
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	NER=O
+14	to	to	PART	TO	_	13	_	_	NER=O
+15	approve	approve	VERB	VB	VerbForm=Inf	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	NER=O
+18	agricultural	agricultural	ADJ	JJ	Degree=Pos	17	_	_	NER=O
+19	subsidy	subsidy	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	programmes	programme	NOUN	NNS	Number=Plur	19	_	_	NER=O
+21	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	NER=O
+22	under	under	ADP	IN	_	21	_	_	NER=O
+23	Sections	section	NOUN	NNS	Number=Plur	22	_	_	NER=B-MISC
+24	2	2	NUM	CD	NumForm=Digit|NumType=Card	23	_	_	NER=I-MISC
+25	and	and	CCONJ	CC	_	24	_	_	NER=O
+26	2d	2d	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	NER=O
+27	of	of	ADP	IN	_	26	_	_	NER=O
+28	Act	act	NOUN	NN	Number=Sing	27	_	_	NER=O
+29	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	28	_	_	NER=O
+30	252/1997	252/1997	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	NER=O
+31	Coll.	coll.	NOUN	NN	Number=Sing	30	_	_	NER=O|SpaceAfter=No
+32	,	,	PUNCT	,	_	31	_	_	NER=O
+33	on	on	ADP	IN	_	32	_	_	NER=O
+34	Agriculture	Agriculture	NOUN	NN	Number=Sing	33	_	_	NER=O|SpaceAfter=No
+35	,	,	PUNCT	,	_	34	_	_	NER=O
+36	as	as	SCONJ	IN	_	35	_	_	NER=O
+37	amended	amend	VERB	VBN	Tense=Past|VerbForm=Part	36	_	_	NER=O|SpaceAfter=No
+38	,	,	PUNCT	,	_	37	_	_	NER=O
+39	as	as	SCONJ	IN	_	38	_	_	NER=O
+40	recommended	recommend	VERB	VBN	Tense=Past|VerbForm=Part	39	_	_	NER=O
+41	by	by	ADP	IN	_	40	_	_	NER=O
+42	the	the	DET	DT	Definite=Def|PronType=Art	41	_	_	NER=O
+43	Agricultural	agricultural	ADJ	NNP	Degree=Pos	42	_	_	NER=B-ORG
+44	Committee	Committee	PROPN	NNP	Number=Sing	43	_	_	NER=I-ORG
+45	of	of	ADP	IN	_	44	_	_	NER=I-ORG
+46	the	the	DET	DT	Definite=Def|PronType=Art	45	_	_	NER=I-ORG
+47	Chamber	Chamber	PROPN	NNP	Number=Sing	46	_	_	NER=I-ORG
+48	of	of	ADP	IN	_	47	_	_	NER=I-ORG
+49	Deputies	Deputy	PROPN	NNPS	Number=Plur	48	_	_	NER=I-ORG
+50	of	of	ADP	IN	_	49	_	_	NER=I-ORG
+51	the	the	DET	DT	Definite=Def|PronType=Art	50	_	_	NER=I-ORG
+52	Parliament	Parliament	PROPN	NNP	Number=Sing	51	_	_	NER=I-ORG
+53	of	of	ADP	IN	_	52	_	_	NER=O
+54	the	the	DET	DT	Definite=Def|PronType=Art	53	_	_	NER=O
+55	Czech	Czech	ADJ	NNP	Degree=Pos	54	_	_	NER=B-LOC
+56	Republic	Republic	PROPN	NNP	Number=Sing	55	_	_	NER=I-LOC|SpaceAfter=No
+57	.	.	PUNCT	.	_	56	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p10.s1
+# align_s = 0-0 1-2 2-4 3-5
+# align_t = 0-0 1-0 2-1 3-2 4-2 5-3 
+# source = Děkuji za pozornost.
+# initial_translation = Thank you for your attention.
+# text = Thank you for your attention.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	_	_	NER=O
+5	attention	attention	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u3.p1.s1
+# align_s = 0-1 1-2 2-3 3-5 4-7 5-8 6-10 7-12 9-13 10-14 11-15 12-16 13-18 14-20 15-21 17-22 18-23 19-24 21-25 22-26 23-27 24-28 25-29 28-30
+# align_t = 1-0 2-1 3-2 5-3 7-4 8-5 10-6 11-7 12-8 13-9 14-10 15-11 16-12 18-13 20-14 21-15 22-17 23-18 24-19 25-21 26-22 27-23 28-24 29-25 30-28 
+# source = Děkuji panu ministru zemědělství Miroslavu Tomanovi a konstatuji, že tento sněmovní tisk projednal zemědělský výbor, jehož usnesení je k dispozici jako sněmovní tisk 35/1.
+# initial_translation = I thank the Minister of Agriculture, Miroslav Toman, and I note that this House press has discussed the agricultural committee whose resolution is available as House press 35/1.
+# text = I thank the Minister of Agriculture, Miroslav Toman, and I note that this House press has discussed the agricultural committee whose resolution is available as House press 35/1.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	Minister	Minister	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	of	of	ADP	IN	_	4	_	_	NER=O
+6	Agriculture	Agriculture	PROPN	NNP	Number=Sing	5	_	_	NER=B-ORG|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	Miroslav	Miroslav	PROPN	NNP	Number=Sing	7	_	_	NER=B-PER
+9	Toman	Toman	PROPN	NNP	Number=Sing	8	_	_	NER=I-PER|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	NER=O
+11	and	and	CCONJ	CC	_	10	_	_	NER=O
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	NER=O
+13	note	note	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	NER=O
+14	that	that	SCONJ	IN	_	13	_	_	NER=O
+15	this	this	DET	DT	Number=Sing|PronType=Dem	14	_	_	NER=O
+16	House	House	PROPN	NNP	Number=Sing	15	_	_	NER=B-ORG
+17	press	press	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	NER=O
+19	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	agricultural	agricultural	ADJ	JJ	Degree=Pos	20	_	_	NER=O
+22	committee	committee	NOUN	NN	Number=Sing	21	_	_	NER=O
+23	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	22	_	_	NER=O
+24	resolution	resolution	NOUN	NN	Number=Sing	23	_	_	NER=O
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	NER=O
+26	available	available	ADJ	JJ	Degree=Pos	25	_	_	NER=O
+27	as	as	ADP	IN	_	26	_	_	NER=O
+28	House	House	PROPN	NNP	Number=Sing	27	_	_	NER=B-ORG
+29	press	press	NOUN	NN	Number=Sing	28	_	_	NER=O
+30	35/1	35/1	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u3.p1.s2
+# align_s = 0-2 1-1 2-4 3-7 4-8 5-9 6-10 8-11 9-12 10-13 11-14 12-15 13-17 14-16 15-18 16-20 17-22 18-25 19-28 20-30 21-31
+# align_t = 0-0 1-1 2-0 4-2 7-3 8-4 9-5 10-6 11-8 12-9 13-10 14-11 15-12 16-14 17-13 18-15 20-16 22-17 25-18 28-19 30-20 31-21 
+# source = Žádám tedy zpravodaje výboru pana poslance Velebného, aby nás seznámil s usnesením výboru a přednesl návrh usnesení Poslanecké sněmovny.
+# initial_translation = I therefore ask the rapporteur of the committee of Mr Velebný to inform us of the committee resolution and to present the motion for a resolution of the Chamber of Deputies.
+# text = I therefore ask the rapporteur of the committee of Mr Velebný to inform us of the committee resolution and to present the motion for a resolution of the Chamber of Deputies.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	therefore	therefore	ADV	RB	_	1	_	_	NER=O
+3	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	rapporteur	rapporteur	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	committee	committee	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	of	of	ADP	IN	_	8	_	_	NER=O
+10	Mr	Mr	PROPN	NNP	Number=Sing	9	_	_	NER=O
+11	Velebný	Velebný	PROPN	NNP	Number=Sing	10	_	_	NER=B-PER
+12	to	to	PART	TO	_	11	_	_	NER=O
+13	inform	inform	VERB	VB	VerbForm=Inf	12	_	_	NER=O
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	_	_	NER=O
+15	of	of	ADP	IN	_	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	committee	committee	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	resolution	resolution	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	and	and	CCONJ	CC	_	18	_	_	NER=O
+20	to	to	PART	TO	_	19	_	_	NER=O
+21	present	present	VERB	VB	VerbForm=Inf	20	_	_	NER=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	NER=O
+23	motion	motion	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	for	for	ADP	IN	_	23	_	_	NER=O
+25	a	a	DET	DT	Definite=Ind|PronType=Art	24	_	_	NER=O
+26	resolution	resolution	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	of	of	ADP	IN	_	26	_	_	NER=O
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	NER=O
+29	Chamber	Chamber	PROPN	NNP	Number=Sing	28	_	_	NER=B-ORG
+30	of	of	ADP	IN	_	29	_	_	NER=I-ORG
+31	Deputies	Deputy	PROPN	NNPS	Number=Plur	30	_	_	NER=I-ORG|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u3.p1.s3
+# align_s = 0-0 1-1 2-2 3-4 4-6 5-7
+# align_t = 0-0 1-1 2-2 3-3 4-3 6-4 7-5 
+# source = Pane zpravodaji, máte slovo.
+# initial_translation = Mr. rapporteur, you have the floor.
+# text = Mr. rapporteur, you have the floor.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	rapporteur	rapporteur	NOUN	NN	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	NER=O
+5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	floor	floor	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u4.p1.s1
+# align_s = 0-0 1-2 2-4 3-5
+# align_t = 0-0 1-0 2-1 4-2 5-3 
+# source = Děkuji za slovo.
+# initial_translation = Thank you for the floor.
+# text = Thank you for the floor.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	floor	floor	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u4.p1.s2
+# align_s = 0-0 1-1 2-2 4-3 5-5 6-6 7-7 10-8 11-9 12-10 14-11 16-11 19-13 20-18 21-19 22-19 23-20 24-21 25-23 26-24 27-25 28-26 29-27 30-28 31-30 32-29 33-32 34-34 35-35 36-37 37-38 38-41 40-42 41-43 43-44 44-45
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-9 8-10 9-11 10-12 11-16 12-18 13-19 15-21 16-17 18-20 19-22 20-23 21-24 23-25 24-26 25-27 26-28 27-29 28-30 29-32 30-31 33-33 34-34 37-36 39-35 40-37 41-38 42-40 43-41 44-43 45-44 
+# source = Pane předsedající, vážená vládo, vážené kolegyně, vážení kolegové, vzhledem k tomu, že vás pan ministr podrobně seznámil s tímto sněmovním tiskem číslo 35, tak vás seznámím pouze s usnesením zemědělského výboru ze 2. schůze č. 7.
+# initial_translation = Mr President, Prime Minister, ladies and gentlemen, given that the Minister has informed you in detail about this House's press number 35, I will only introduce you to the resolution of the Committee on Agriculture of 2nd Session No. 7.
+# text = Mr President, Prime Minister, ladies and gentlemen, given that the Minister has informed you in detail about this House's press number 35, I will only introduce you to the resolution of the Committee on Agriculture of 2nd Session No. 7.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	President	President	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	Prime	Prime	ADJ	NNP	Degree=Pos	3	_	_	NER=O
+5	Minister	Minister	PROPN	NNP	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	ladies	lady	NOUN	NNS	Number=Plur	6	_	_	NER=O
+8	and	and	CCONJ	CC	_	7	_	_	NER=O
+9	gentlemen	gentleman	NOUN	NNS	Number=Plur	8	_	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	NER=O
+11	given	give	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	NER=O
+12	that	that	SCONJ	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	Minister	minister	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	NER=O
+16	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	NER=O
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	NER=O
+18	in	in	ADP	IN	_	17	_	_	NER=O
+19	detail	detail	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	about	about	ADP	IN	_	19	_	_	NER=O
+21	this	this	DET	DT	Number=Sing|PronType=Dem	20	_	_	NER=O
+22	House	House	PROPN	NNP	Number=Sing	21	_	_	NER=B-ORG|SpaceAfter=No
+23	's	's	PART	POS	_	22	_	_	NER=O
+24	press	press	NOUN	NN	Number=Sing	23	_	_	NER=O
+25	number	number	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	35	35	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	NER=O|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	_	_	NER=O
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	_	_	NER=O
+29	will	will	AUX	MD	VerbForm=Fin	28	_	_	NER=O
+30	only	only	ADV	RB	_	29	_	_	NER=O
+31	introduce	introduce	VERB	VB	VerbForm=Inf	30	_	_	NER=O
+32	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	31	_	_	NER=O
+33	to	to	ADP	IN	_	32	_	_	NER=O
+34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	NER=O
+35	resolution	resolution	NOUN	NN	Number=Sing	34	_	_	NER=O
+36	of	of	ADP	IN	_	35	_	_	NER=O
+37	the	the	DET	DT	Definite=Def|PronType=Art	36	_	_	NER=O
+38	Committee	Committee	PROPN	NNP	Number=Sing	37	_	_	NER=B-MISC
+39	on	on	ADP	IN	_	38	_	_	NER=I-MISC
+40	Agriculture	Agriculture	PROPN	NNP	Number=Sing	39	_	_	NER=I-MISC
+41	of	of	ADP	IN	_	40	_	_	NER=I-MISC
+42	2nd	2nd	ADJ	NNP	Degree=Pos|NumType=Ord	41	_	_	NER=I-MISC
+43	Session	Session	PROPN	NNP	Number=Sing	42	_	_	NER=I-MISC
+44	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	43	_	_	NER=O
+45	7	7	NUM	CD	NumForm=Digit|NumType=Card	44	_	_	NER=O|SpaceAfter=No
+46	.	.	PUNCT	.	_	45	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u4.p2.s1
+# align_s = 0-0 1-1 2-2 3-4 4-79 5-80 6-80 7-81 8-82 9-84 10-85 11-86 12-84 13-85 14-87 15-89 16-90 18-17 19-18 20-91 21-92 23-93 24-20 25-21 26-22 27-23 28-24 29-24 30-24 31-25 32-26 33-27 34-28 35-29 36-30 37-31 38-32 39-33 40-35 41-36 42-39 43-41 44-42 45-44 46-45 47-48 48-49 49-50 50-52 51-53 52-54 53-55 54-57 55-57 56-59 57-60 58-61 59-62 60-63 61-65 62-66 63-69 64-71 65-73 67-74 68-75 69-77 70-78 71-4 72-5 73-6 74-6 75-7 76-8 77-10 78-11 79-12 80-10 81-11 82-13 83-15 84-16 86-17 87-18 88-91 89-92 92-94 93-95 94-22 95-23 96-24 97-98 98-98 99-99 100-101 101-102 102-103 103-104 105-107 106-108 107-109 108-110 109-105 110-111
+# align_t = 0-0 1-69 2-70 4-71 5-4 6-6 7-7 8-8 10-9 11-10 12-11 13-14 15-15 16-16 17-20 18-21 19-23 20-24 21-25 22-26 23-28 24-29 25-31 26-32 27-33 28-34 29-35 30-36 31-37 32-38 33-39 35-40 36-41 39-42 41-43 42-44 44-45 45-46 48-47 49-48 50-49 52-50 53-51 54-52 55-53 56-54 57-55 59-56 60-57 61-58 62-59 63-60 65-61 66-62 69-63 71-64 73-65 74-67 75-68 76-69 77-69 78-74 79-72 80-6 81-75 82-76 84-77 85-78 86-79 87-82 89-83 90-84 91-88 92-89 93-91 94-92 95-93 96-94 97-96 98-97 99-99 101-100 102-101 103-102 104-103 105-109 106-104 107-105 108-106 109-107 110-108 111-110 
+# source = K Dotačním programům zemědělství pro rok 2014 poskytovaným podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů, jak jsem konstatoval, sněmovní tisk 35, zemědělský výbor Poslanecké sněmovny po úvodním slově prvního náměstka ministra zemědělství Stanislava Kozáka a zpravodajské zprávě poslance Ladislava Velebného a po rozpravě doporučuje Poslanecké sněmovně Parlamentu, aby Dotační programy zemědělství pro rok 2014 poskytované podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů, sněmovní tisk 35, po obecné a podrobné rozpravě schválila.
+# initial_translation = The grant programmes of agriculture for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as I said, House Press 35, the Agricultural Committee of the Chamber of Deputies after the opening words of the First Deputy Minister of Agriculture Stanislav Kozák and the report by Mr Ladislav Velebný and after the debate recommends to the Chamber of Deputies of Parliament that the Farming subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, the House Press 35, approved the general and detailed debate.
+# text = The grant programmes of agriculture for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as I said, House Press 35, the Agricultural Committee of the Chamber of Deputies after the opening words of the First Deputy Minister of Agriculture Stanislav Kozák and the report by Mr Ladislav Velebný and after the debate recommends to the Chamber of Deputies of Parliament that the Farming subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, the House Press 35, approved the general and detailed debate.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	grant	grant	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	programmes	programme	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	of	of	ADP	IN	_	3	_	_	NER=O
+5	agriculture	agriculture	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	for	for	ADP	IN	_	5	_	_	NER=O
+7	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	NER=O
+8	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	NER=O
+9	pursuant	pursuant	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	to	to	ADP	IN	_	9	_	_	NER=O
+11	Sections	section	NOUN	NNS	Number=Plur	10	_	_	NER=O
+12	2	2	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	NER=O
+13	and	and	CCONJ	CC	_	12	_	_	NER=O
+14	2d	2d	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O
+15	of	of	ADP	IN	_	14	_	_	NER=O
+16	Act	act	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	16	_	_	NER=O
+18	252/1997	252/1997	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	NER=O
+19	Coll.	coll.	NOUN	NN	Number=Sing	18	_	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	NER=O
+21	on	on	ADP	IN	_	20	_	_	NER=O
+22	Agriculture	Agriculture	NOUN	NN	Number=Sing	21	_	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	NER=O
+24	as	as	SCONJ	IN	_	23	_	_	NER=O
+25	amended	amend	VERB	VBN	Tense=Past|VerbForm=Part	24	_	_	NER=O|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	_	_	NER=O
+27	as	as	SCONJ	IN	_	26	_	_	NER=O
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	_	_	NER=O
+29	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	28	_	_	NER=O|SpaceAfter=No
+30	,	,	PUNCT	,	_	29	_	_	NER=O
+31	House	House	PROPN	NNP	Number=Sing	30	_	_	NER=B-ORG
+32	Press	Press	PROPN	NNP	Number=Sing	31	_	_	NER=I-ORG
+33	35	35	NUM	CD	NumForm=Digit|NumType=Card	32	_	_	NER=I-ORG|SpaceAfter=No
+34	,	,	PUNCT	,	_	33	_	_	NER=O
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	NER=O
+36	Agricultural	agricultural	ADJ	NNP	Degree=Pos	35	_	_	NER=B-ORG
+37	Committee	Committee	PROPN	NNP	Number=Sing	36	_	_	NER=I-ORG
+38	of	of	ADP	IN	_	37	_	_	NER=I-ORG
+39	the	the	DET	DT	Definite=Def|PronType=Art	38	_	_	NER=I-ORG
+40	Chamber	Chamber	PROPN	NNP	Number=Sing	39	_	_	NER=I-ORG
+41	of	of	ADP	IN	_	40	_	_	NER=I-ORG
+42	Deputies	Deputy	PROPN	NNPS	Number=Plur	41	_	_	NER=I-ORG
+43	after	after	ADP	IN	_	42	_	_	NER=O
+44	the	the	DET	DT	Definite=Def|PronType=Art	43	_	_	NER=O
+45	opening	open	VERB	VBG	VerbForm=Ger	44	_	_	NER=O
+46	words	word	NOUN	NNS	Number=Plur	45	_	_	NER=O
+47	of	of	ADP	IN	_	46	_	_	NER=O
+48	the	the	DET	DT	Definite=Def|PronType=Art	47	_	_	NER=O
+49	First	first	ADJ	NNP	Degree=Pos|NumType=Ord	48	_	_	NER=O
+50	Deputy	deputy	PROPN	NNP	Number=Sing	49	_	_	NER=O
+51	Minister	Minister	PROPN	NNP	Number=Sing	50	_	_	NER=O
+52	of	of	ADP	IN	_	51	_	_	NER=O
+53	Agriculture	Agriculture	PROPN	NNP	Number=Sing	52	_	_	NER=O
+54	Stanislav	Stanislav	PROPN	NNP	Number=Sing	53	_	_	NER=B-PER
+55	Kozák	Kozák	PROPN	NNP	Number=Sing	54	_	_	NER=I-PER
+56	and	and	CCONJ	CC	_	55	_	_	NER=O
+57	the	the	DET	DT	Definite=Def|PronType=Art	56	_	_	NER=O
+58	report	report	NOUN	NN	Number=Sing	57	_	_	NER=O
+59	by	by	ADP	IN	_	58	_	_	NER=O
+60	Mr	Mr	PROPN	NNP	Number=Sing	59	_	_	NER=O
+61	Ladislav	Ladislav	PROPN	NNP	Number=Sing	60	_	_	NER=B-PER
+62	Velebný	Velebný	PROPN	NNP	Number=Sing	61	_	_	NER=I-PER
+63	and	and	CCONJ	CC	_	62	_	_	NER=O
+64	after	after	SCONJ	IN	_	63	_	_	NER=O
+65	the	the	DET	DT	Definite=Def|PronType=Art	64	_	_	NER=O
+66	debate	debate	NOUN	NN	Number=Sing	65	_	_	NER=O
+67	recommends	recommend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	_	_	NER=O
+68	to	to	ADP	IN	_	67	_	_	NER=O
+69	the	the	DET	DT	Definite=Def|PronType=Art	68	_	_	NER=O
+70	Chamber	Chamber	PROPN	NNP	Number=Sing	69	_	_	NER=B-ORG
+71	of	of	ADP	IN	_	70	_	_	NER=I-ORG
+72	Deputies	Deputy	PROPN	NNPS	Number=Plur	71	_	_	NER=I-ORG
+73	of	of	ADP	IN	_	72	_	_	NER=I-ORG
+74	Parliament	Parliament	PROPN	NNP	Number=Sing	73	_	_	NER=I-ORG
+75	that	that	SCONJ	IN	_	74	_	_	NER=O
+76	the	the	DET	DT	Definite=Def|PronType=Art	75	_	_	NER=O
+77	Farming	farming	NOUN	NN	Number=Sing	76	_	_	NER=O
+78	subsidy	subsidy	NOUN	NN	Number=Sing	77	_	_	NER=O
+79	programmes	programme	NOUN	NNS	Number=Plur	78	_	_	NER=O
+80	for	for	ADP	IN	_	79	_	_	NER=O
+81	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	80	_	_	NER=O
+82	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part	81	_	_	NER=O
+83	pursuant	pursuant	ADJ	JJ	Degree=Pos	82	_	_	NER=O
+84	to	to	ADP	IN	_	83	_	_	NER=O
+85	Sections	section	NOUN	NNS	Number=Plur	84	_	_	NER=O
+86	2	2	NUM	CD	NumForm=Digit|NumType=Card	85	_	_	NER=O
+87	and	and	CCONJ	CC	_	86	_	_	NER=O
+88	2d	2d	NUM	CD	NumForm=Digit|NumType=Card	87	_	_	NER=O
+89	of	of	ADP	IN	_	88	_	_	NER=O
+90	Act	act	NOUN	NN	Number=Sing	89	_	_	NER=O
+91	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	90	_	_	NER=O
+92	252/1997	252/1997	NUM	CD	NumForm=Digit|NumType=Card	91	_	_	NER=O
+93	Coll.	coll.	NOUN	NN	Number=Sing	92	_	_	NER=O|SpaceAfter=No
+94	,	,	PUNCT	,	_	93	_	_	NER=O
+95	on	on	ADP	IN	_	94	_	_	NER=O
+96	Agriculture	Agriculture	NOUN	NN	Number=Sing	95	_	_	NER=O|SpaceAfter=No
+97	,	,	PUNCT	,	_	96	_	_	NER=O
+98	as	as	SCONJ	IN	_	97	_	_	NER=O
+99	amended	amend	VERB	VBN	Tense=Past|VerbForm=Part	98	_	_	NER=O|SpaceAfter=No
+100	,	,	PUNCT	,	_	99	_	_	NER=O
+101	the	the	DET	DT	Definite=Def|PronType=Art	100	_	_	NER=O
+102	House	House	PROPN	NNP	Number=Sing	101	_	_	NER=B-ORG
+103	Press	Press	PROPN	NNP	Number=Sing	102	_	_	NER=I-ORG
+104	35	35	NUM	CD	NumForm=Digit|NumType=Card	103	_	_	NER=I-ORG|SpaceAfter=No
+105	,	,	PUNCT	,	_	104	_	_	NER=O
+106	approved	approve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	105	_	_	NER=O
+107	the	the	DET	DT	Definite=Def|PronType=Art	106	_	_	NER=O
+108	general	general	ADJ	JJ	Degree=Pos	107	_	_	NER=O
+109	and	and	CCONJ	CC	_	108	_	_	NER=O
+110	detailed	detailed	ADJ	JJ	Degree=Pos	109	_	_	NER=O
+111	debate	debate	NOUN	NN	Number=Sing	110	_	_	NER=O|SpaceAfter=No
+112	.	.	PUNCT	.	_	111	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u5.p1.s1
+# align_s = 0-0 1-1 2-4 3-5 4-8 5-10 6-11 8-12 9-13 10-14 11-15 12-16 14-17 15-18 16-21
+# align_t = 0-0 1-0 2-1 3-1 4-2 5-3 8-4 10-5 11-6 12-8 13-9 14-10 15-11 16-13 17-14 18-15 21-16 
+# source = Děkuji panu zpravodaji a zahajuji všeobecnou rozpravu, do které mám přihlášeného pana poslance Petra Bendla.
+# initial_translation = Thank you to the rapporteur and I am opening a general debate in which I have Mr Peter Bendl signed up.
+# text = Thank you to the rapporteur and I am opening a general debate in which I have Mr Petr Bendl signed up.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	to	to	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	rapporteur	rapporteur	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	and	and	CCONJ	CC	_	5	_	_	NER=O
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	NER=O
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	opening	open	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	NER=O
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	NER=O
+11	general	general	ADJ	JJ	Degree=Pos	10	_	_	NER=O
+12	debate	debate	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	in	in	ADP	IN	_	12	_	_	NER=O
+14	which	which	PRON	WDT	PronType=Rel	13	_	_	NER=O
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	NER=O
+16	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	NER=O
+17	Mr	Mr	PROPN	NNP	Number=Sing	16	_	_	NER=O
+18	Petr	Petr	PROPN	NNP	Number=Sing	17	_	_	NER=B-PER
+19	Bendl	Bendl	PROPN	NNP	Number=Sing	18	_	_	NER=I-PER
+20	signed	sign	VERB	VBD	Tense=Past|VerbForm=Part	19	_	_	NER=O
+21	up	up	ADP	RP	_	20	_	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u5.p1.s2
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-8 7-9
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-5 8-6 9-7 
+# source = Prosím, pane poslanče, máte slovo.
+# initial_translation = Please, Mr. Ambassador, you have the floor.
+# text = Please, Mr. Ambassador, you have the floor.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	2	_	_	NER=O
+4	Ambassador	Ambassador	PROPN	NNP	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	NER=O
+7	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	floor	floor	NOUN	NN	Number=Sing	8	_	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s1
+# align_s = 0-0 1-2 2-4 3-5 4-6 5-7 6-8
+# align_t = 0-0 1-0 2-1 4-2 5-3 6-4 7-5 8-6 
+# source = Děkuji za slovo, pane předsedající.
+# initial_translation = Thank you for the floor, Mr President.
+# text = Thank you for the floor, Mr President.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	floor	floor	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	Mr	Mr	PROPN	NNP	Number=Sing	6	_	_	NER=O
+8	President	President	PROPN	NNP	Number=Sing	7	_	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s2
+# align_s = 0-0 1-2 3-3 4-5 5-8 6-9 7-10 8-11 11-12 12-16 13-18 14-21 15-24 16-25 17-28 18-13 19-15 21-26 22-27 26-28 27-29 28-30 29-34 32-35 33-31 34-32 35-36 36-38 37-39 38-40 39-42 41-43 42-44 43-45
+# align_t = 0-0 1-3 3-3 5-4 7-2 8-5 9-6 10-8 11-9 12-11 15-12 16-12 18-13 21-14 24-15 25-16 26-21 27-22 28-26 29-27 30-28 31-33 32-34 34-31 35-34 36-35 38-36 39-37 40-38 42-39 44-42 45-43 
+# source = Já to už nechci hrotit, protože už jsem to tu říkal několikrát, jen zopakuji: Prioritou tohoto materiálu je místo toho, abyste pomohli zemědělcům řešit problematiky, které souvisejí se suchem, podporujete několikanásobně vyšší výdaje do oblasti poradenství.
+# initial_translation = I don't want to push it anymore, because I've said this a few times before, I'm just going to repeat: instead of helping farmers deal with drought-related issues, you support several times the cost of counseling.
+# text = I don't want to push it anymore, because I've said this a few times before, I'm just going to repeat: instead of helping farmers deal with drought-related issues, you support several times the cost of counseling.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O|SpaceAfter=No
+3	n't	not	PART	RB	_	2	_	_	NER=O
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	to	to	PART	TO	_	4	_	_	NER=O
+6	push	push	VERB	VB	VerbForm=Inf	5	_	_	NER=O
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	NER=O
+8	anymore	anymore	ADV	RB	_	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	because	because	SCONJ	IN	_	9	_	_	NER=O
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	NER=O|SpaceAfter=No
+12	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	NER=O
+13	said	say	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	NER=O
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	_	_	NER=O
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	NER=O
+16	few	few	ADJ	JJ	Degree=Pos	15	_	_	NER=O
+17	times	time	NOUN	NNS	Number=Plur	16	_	_	NER=O
+18	before	before	ADV	RB	_	17	_	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	NER=O
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	NER=O|SpaceAfter=No
+21	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	NER=O
+22	just	just	ADV	RB	_	21	_	_	NER=O
+23	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	22	_	_	NER=O
+24	to	to	PART	TO	_	23	_	_	NER=O
+25	repeat	repeat	VERB	VB	VerbForm=Inf	24	_	_	NER=O|SpaceAfter=No
+26	:	:	PUNCT	:	_	25	_	_	NER=O
+27	instead	instead	SCONJ	RB	_	26	_	_	NER=O
+28	of	of	SCONJ	IN	_	27	_	_	NER=O
+29	helping	help	VERB	VBG	VerbForm=Ger	28	_	_	NER=O
+30	farmers	farmer	NOUN	NNS	Number=Plur	29	_	_	NER=O
+31	deal	deal	VERB	VB	VerbForm=Inf	30	_	_	NER=O
+32	with	with	ADP	IN	_	31	_	_	NER=O
+33	drought	drought	NOUN	NN	Number=Sing	32	_	_	NER=O|SpaceAfter=No
+34	-	-	PUNCT	HYPH	_	33	_	_	NER=O|SpaceAfter=No
+35	related	related	ADJ	JJ	Degree=Pos	34	_	_	NER=O
+36	issues	issue	NOUN	NNS	Number=Plur	35	_	_	NER=O|SpaceAfter=No
+37	,	,	PUNCT	,	_	36	_	_	NER=O
+38	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	37	_	_	NER=O
+39	support	support	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	38	_	_	NER=O
+40	several	several	ADJ	JJ	Degree=Pos	39	_	_	NER=O
+41	times	time	NOUN	NNS	Number=Plur	40	_	_	NER=O
+42	the	the	DET	DT	Definite=Def|PronType=Art	41	_	_	NER=O
+43	cost	cost	NOUN	NN	Number=Sing	42	_	_	NER=O
+44	of	of	ADP	IN	_	43	_	_	NER=O
+45	counseling	counseling	NOUN	NN	Number=Sing	44	_	_	NER=O|SpaceAfter=No
+46	.	.	PUNCT	.	_	45	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s3
+# align_s = 1-6 2-1 3-2 4-4 5-7
+# align_t = 0-1 1-2 2-3 4-4 5-0 6-1 7-5 
+# source = S tím není možné souhlasit.
+# initial_translation = It's impossible to agree with that.
+# text = It's impossible to agree with that.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	impossible	impossible	ADJ	JJ	Degree=Pos	2	_	_	NER=O
+4	to	to	PART	TO	_	3	_	_	NER=O
+5	agree	agree	VERB	VB	VerbForm=Inf	4	_	_	NER=O
+6	with	with	ADP	IN	_	5	_	_	NER=O
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s4
+# align_s = 0-0 1-3 2-4 3-5 4-6 5-7 6-9 7-10 8-11 9-12 10-13 11-14 12-16 13-18
+# align_t = 0-0 3-1 4-2 5-3 6-4 7-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-12 18-13 
+# source = Dáváte 70 milionů do poradenství a 20 milionů na kapkové závlahy a podobně.
+# initial_translation = You put $70 million in counseling and $20 million in drip irrigation and stuff like that.
+# text = You put $70 million in counseling and $20 million in drip irrigation and stuff like that.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	NER=O
+2	put	put	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	$	$	SYM	$	_	2	_	_	NER=O|SpaceAfter=No
+4	70	70	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	NER=O
+5	million	million	NUM	CD	NumForm=Word|NumType=Card	4	_	_	NER=O
+6	in	in	ADP	IN	_	5	_	_	NER=O
+7	counseling	counseling	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	and	and	CCONJ	CC	_	7	_	_	NER=O
+9	$	$	SYM	$	_	8	_	_	NER=O|SpaceAfter=No
+10	20	20	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	NER=O
+11	million	million	NUM	CD	NumForm=Word|NumType=Card	10	_	_	NER=O
+12	in	in	ADP	IN	_	11	_	_	NER=O
+13	drip	drip	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	irrigation	irrigation	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	and	and	CCONJ	CC	_	14	_	_	NER=O
+16	stuff	stuff	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	like	like	ADP	IN	_	16	_	_	NER=O
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s5
+# align_s = 0-1 1-2 2-3 3-4 4-6 6-7 7-8 8-9 9-10
+# align_t = 1-0 2-1 3-2 4-3 6-4 7-6 8-7 9-8 10-9 
+# source = Prostě rezignujete na řešení problematiky, která trápí zemědělce.
+# initial_translation = You just resign to solving the problem that troubles farmers.
+# text = You just resign to solving the problem that troubles farmers.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	NER=O
+2	just	just	ADV	RB	_	1	_	_	NER=O
+3	resign	resign	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	to	to	SCONJ	IN	_	3	_	_	NER=O
+5	solving	solve	VERB	VBG	VerbForm=Ger	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	problem	problem	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	NER=O
+9	troubles	trouble	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	NER=O
+10	farmers	farmer	NOUN	NNS	Number=Plur	9	_	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s6
+# align_s = 0-2 1-3 3-4 5-5 6-2 7-6
+# align_t = 2-0 3-1 4-3 5-5 6-7 
+# source = Nic víc se k tomu říct nedá.
+# initial_translation = There's nothing more to say.
+# text = There's nothing more to say.
+1	There	there	PRON	EX	_	0	_	_	NER=O|SpaceAfter=No
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	nothing	nothing	PRON	NN	Number=Sing	2	_	_	NER=O
+4	more	more	ADJ	JJR	Degree=Cmp	3	_	_	NER=O
+5	to	to	PART	TO	_	4	_	_	NER=O
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s1
+# align_s = 0-1 2-2 3-3 4-4
+# align_t = 1-0 2-2 3-3 4-4 
+# source = Děkuji panu poslanci Bendlovi.
+# initial_translation = I thank Mr Bendl.
+# text = I thank Mr Bendl.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	Mr	Mr	PROPN	NNP	Number=Sing	2	_	_	NER=O
+4	Bendl	Bendl	PROPN	NNP	Number=Sing	3	_	_	NER=B-PER|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s2
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-7
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 
+# source = Kdo dál se hlásí do rozpravy?
+# initial_translation = Who else is reporting for the debate?
+# text = Who else is reporting for the debate?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O
+2	else	else	ADV	RB	Degree=Pos	1	_	_	NER=O
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	reporting	report	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	NER=O
+5	for	for	ADP	IN	_	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	debate	debate	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s3
+# align_s = 0-3 1-4 3-11 4-12 5-8 6-13
+# align_t = 1-0 2-1 3-0 4-1 5-2 6-4 8-5 11-3 12-4 13-6 
+# source = Nevidím nikoho, všeobecnou rozpravu končím.
+# initial_translation = I don't see anyone. I'm done with the general debate.
+# text = I don't see anyone. I'm done with the general debate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O|SpaceAfter=No
+3	n't	not	PART	RB	_	2	_	_	NER=O
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	anyone	anyone	PRON	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	NER=O|SpaceAfter=No
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	done	done	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	with	with	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	general	general	ADJ	JJ	Degree=Pos	11	_	_	NER=O
+13	debate	debate	NOUN	NN	Number=Sing	12	_	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s4
+# align_s = 0-2 1-3 2-5 3-7 4-8
+# align_t = 0-0 2-0 3-1 5-2 7-3 8-4 
+# source = Přistoupíme k rozpravě podrobné.
+# initial_translation = We will proceed to the debate in detail.
+# text = We will proceed to the debate in detail.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	proceed	proceed	VERB	VB	VerbForm=Inf	2	_	_	NER=O
+4	to	to	ADP	IN	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	debate	debate	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	in	in	ADP	IN	_	6	_	_	NER=O
+8	detail	detail	NOUN	NN	Number=Sing	7	_	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s5
+# align_s = 0-3 1-6 2-7 3-4 4-5 5-8
+# align_t = 0-0 1-2 4-3 5-4 8-5 
+# source = Nemám do ní žádnou přihlášku.
+# initial_translation = I don't have an application for it.
+# text = I don't have an application for it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O|SpaceAfter=No
+3	n't	not	PART	RB	_	2	_	_	NER=O
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	NER=O
+6	application	application	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	for	for	ADP	IN	_	6	_	_	NER=O
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s6
+# align_s = 0-0 2-0 3-1 4-3 5-4
+# align_t = 0-2 1-3 3-4 4-5 
+# source = Hlásí se někdo z místa?
+# initial_translation = Anyone from the scene?
+# text = Anyone from the scene?
+1	Anyone	anyone	PRON	NN	Number=Sing	0	_	_	NER=O
+2	from	from	ADP	IN	_	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	scene	scene	NOUN	NN	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s7
+# align_s = 0-2 1-3 2-4 3-5
+# align_t = 1-0 3-1 4-2 5-3 
+# source = Není tomu tak.
+# initial_translation = It's not like that.
+# text = It's not like that.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	not	not	PART	RB	_	2	_	_	NER=O
+4	like	like	ADP	IN	_	3	_	_	NER=O
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s8
+# align_s = 0-3 1-2 2-5 4-6 7-7 8-9 9-11 10-12 11-14 14-15 15-16 16-18 17-19 18-20
+# align_t = 2-1 3-0 5-2 6-4 7-7 9-8 11-9 12-10 14-11 15-14 16-15 18-16 19-17 20-18 
+# source = Požádám tedy zpravodaje, aby se přihlásil k návrhu na usnesení, který přednesl ve všeobecné rozpravě.
+# initial_translation = I will therefore ask the rapporteur to sign up for the motion for a resolution tabled in the general debate.
+# text = I will therefore ask the rapporteur to sign up for the motion for a resolution tabled in the general debate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	therefore	therefore	ADV	RB	_	2	_	_	NER=O
+4	ask	ask	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	rapporteur	rapporteur	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	to	to	PART	TO	_	6	_	_	NER=O
+8	sign	sign	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	up	up	ADP	RP	_	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	motion	motion	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	for	for	ADP	IN	_	12	_	_	NER=O
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	NER=O
+15	resolution	resolution	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	tabled	tab	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	NER=O
+17	in	in	ADP	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	general	general	ADJ	JJ	Degree=Pos	18	_	_	NER=O
+20	debate	debate	NOUN	NN	Number=Sing	19	_	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s9
+# align_s = 0-0 1-1 2-1 3-2 4-3
+# align_t = 0-0 1-1 2-3 3-4 
+# source = Prosím, pane zpravodaji.
+# initial_translation = Please, rapporteur.
+# text = Please, rapporteur.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	rapporteur	rapporteur	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u8.p1.s1
+# align_s = 1-2 2-0 3-3 4-4 5-5 6-6
+# align_t = 0-2 1-2 2-1 3-3 4-4 5-5 6-6 
+# source = Ještě jednou děkuji, pane předsedající.
+# initial_translation = Thank you again, Mr President.
+# text = Thank you again, Mr President.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	again	again	ADV	RB	_	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	Mr	Mr	PROPN	NNP	Number=Sing	4	_	_	NER=O
+6	President	President	PROPN	NNP	Number=Sing	5	_	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u8.p1.s2
+# align_s = 0-2 2-3 3-5 4-6 5-7 6-8 7-9 8-10 9-11 10-12 11-14 12-15 13-16
+# align_t = 2-0 3-2 4-2 5-3 6-4 7-5 8-6 9-7 10-8 11-9 12-10 14-11 15-12 16-13 
+# source = Pouze se přihlásím k tomu usnesení, jak jsem navrhl v obecné rozpravě.
+# initial_translation = I will merely sign up for this resolution, as I proposed in the general debate.
+# text = I will merely sign up for this resolution, as I proposed in the general debate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	merely	merely	ADV	RB	_	2	_	_	NER=O
+4	sign	sign	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	up	up	ADP	RP	_	4	_	_	NER=O
+6	for	for	ADP	IN	_	5	_	_	NER=O
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	NER=O
+8	resolution	resolution	NOUN	NN	Number=Sing	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	as	as	SCONJ	IN	_	9	_	_	NER=O
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	NER=O
+12	proposed	propose	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	_	_	NER=O
+13	in	in	ADP	IN	_	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	general	general	ADJ	JJ	Degree=Pos	14	_	_	NER=O
+16	debate	debate	NOUN	NN	Number=Sing	15	_	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p1.s1
+# align_s = 0-0 1-2
+# align_t = 0-0 1-0 2-1 
+# source = Děkuji.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p1.s2
+# align_s = 0-1 1-3 2-4 3-5 4-8 5-9 6-10 7-12 8-13 9-14 10-15 11-16 12-17 13-19 14-20 15-21 16-23 19-24 20-25 21-27 22-30 23-33 24-34 25-38 26-39 27-37 28-31 29-36 30-36 31-40
+# align_t = 1-0 3-1 4-2 5-3 8-4 9-5 10-6 12-7 13-8 14-9 15-10 16-11 18-12 19-13 20-14 21-15 22-16 23-17 24-19 25-20 27-21 30-22 33-23 34-24 36-26 37-27 38-29 39-30 40-31 
+# source = Usnesení bylo uvedeno, rozhodneme o něm hlasováním číslo 133, které jsem zahájil, a ptám se, kdo je pro návrh usnesení k dotačním programům zemědělství pro rok 2014.
+# initial_translation = The resolution has been mentioned, we will decide on it by voting number 133, which I have launched, and I ask who is in favour of the motion for a resolution on the 2014 agricultural subsidy programmes.
+# text = The resolution has been mentioned, we will decide on it by voting number 133, which I have launched, and I ask who is in favour of the motion for a resolution on the 2014 agricultural subsidy programmes.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	resolution	resolution	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	NER=O
+5	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	_	_	NER=O
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	NER=O
+9	decide	decide	VERB	VB	VerbForm=Inf	8	_	_	NER=O
+10	on	on	ADP	IN	_	9	_	_	NER=O
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	NER=O
+12	by	by	ADP	IN	_	11	_	_	NER=O
+13	voting	voting	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	number	number	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	133	133	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	NER=O
+17	which	which	PRON	WDT	PronType=Rel	16	_	_	NER=O
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	NER=O
+19	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	_	_	NER=O
+20	launched	launch	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	NER=O|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	NER=O
+22	and	and	CCONJ	CC	_	21	_	_	NER=O
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	_	_	NER=O
+24	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	_	_	NER=O
+25	who	who	PRON	WP	PronType=Int	24	_	_	NER=O
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	NER=O
+27	in	in	ADP	IN	_	26	_	_	NER=O
+28	favour	favour	NOUN	NN	Number=Sing	27	_	_	NER=O
+29	of	of	ADP	IN	_	28	_	_	NER=O
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	NER=O
+31	motion	motion	NOUN	NN	Number=Sing	30	_	_	NER=O
+32	for	for	ADP	IN	_	31	_	_	NER=O
+33	a	a	DET	DT	Definite=Ind|PronType=Art	32	_	_	NER=O
+34	resolution	resolution	NOUN	NN	Number=Sing	33	_	_	NER=O
+35	on	on	ADP	IN	_	34	_	_	NER=O
+36	the	the	DET	DT	Definite=Def|PronType=Art	35	_	_	NER=O
+37	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	36	_	_	NER=O
+38	agricultural	agricultural	ADJ	JJ	Degree=Pos	37	_	_	NER=O
+39	subsidy	subsidy	NOUN	NN	Number=Sing	38	_	_	NER=O
+40	programmes	programme	NOUN	NNS	Number=Plur	39	_	_	NER=O|SpaceAfter=No
+41	.	.	PUNCT	.	_	40	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p1.s3
+# align_s = 0-0 1-1 2-2 3-4
+# align_t = 0-0 1-1 2-2 4-3 
+# source = Kdo je proti?
+# initial_translation = Who's against it?
+# text = Who's against it?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	against	against	ADP	IN	_	2	_	_	NER=O
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p1.s4
+# align_s = 0-0 1-1 2-2
+# align_t = 0-0 1-1 2-2 
+# source = Děkuji vám.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p2.s1
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-14 15-15 16-16 17-17
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-8 8-9 9-10 10-11 11-12 12-13 14-14 15-15 16-16 17-17 
+# source = V hlasování pořadové číslo 133 z přítomných 169 pro 133, proti 9, návrh byl přijat.
+# initial_translation = In voting order number 133 of 169 for 133, against 9, the proposal was adopted.
+# text = In voting order number 133 of 169 for 133, against 9, the proposal was adopted.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	voting	voting	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	order	order	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	number	number	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	133	133	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	169	169	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	NER=O
+8	for	for	ADP	IN	_	7	_	_	NER=O
+9	133	133	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	NER=O
+11	against	against	ADP	IN	_	10	_	_	NER=O
+12	9	9	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	proposal	proposal	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	NER=O
+17	adopted	adopt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p2.s2
+# align_s = 0-1 2-2 3-4 4-7 5-9 6-10 7-11
+# align_t = 0-0 1-1 2-2 4-3 7-4 9-5 10-6 11-7 
+# source = Konstatuji, že návrh usnesení byl schválen.
+# initial_translation = I note that the motion for a resolution has been approved.
+# text = I note that the motion for a resolution has been approved.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	note	note	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	that	that	SCONJ	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	motion	motion	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	for	for	ADP	IN	_	5	_	_	NER=O
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	NER=O
+8	resolution	resolution	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	NER=O
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	_	_	NER=O
+11	approved	approve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p3.s1
+# align_s = 0-0 1-1 2-4 3-5 4-6 5-7 6-10 7-11 8-12 9-14 11-15 12-16
+# align_t = 0-0 1-0 2-1 4-2 5-3 6-4 7-4 8-5 9-5 10-6 11-7 12-8 14-9 15-11 16-12 
+# source = Děkuji panu ministrovi, děkuji panu zpravodaji a končím bod číslo 38.
+# initial_translation = Thank you to the Minister, thank you to the rapporteur and end with paragraph 38.
+# text = Thank you to the Minister, thank you to the rapporteur and end with paragraph 38.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	to	to	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	Minister	minister	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	NER=O
+9	to	to	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	rapporteur	rapporteur	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	and	and	CCONJ	CC	_	11	_	_	NER=O
+13	end	end	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	NER=O
+14	with	with	ADP	IN	_	13	_	_	NER=O
+15	paragraph	paragraph	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	38	38	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p4.s1
+# align_s = 0-3 2-6 3-8 4-13 5-14
+# align_t = 3-0 4-1 6-2 8-3 13-4 14-5 
+# source = Pokračovat podle pořadu budeme bodem číslo
+# initial_translation = We're gonna continue with the show, we're gonna be a point number.
+# text = We're gonna continue with the show, we're gonna be a point number.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	NER=O|SpaceAfter=No
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	gonna	gonna	ADV	RB	_	2	_	_	NER=O
+4	continue	continue	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	with	with	ADP	IN	_	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	show	show	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	NER=O
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	_	_	NER=O|SpaceAfter=No
+10	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	NER=O
+11	gonna	gonna	ADV	RB	_	10	_	_	NER=O
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	NER=O
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	NER=O
+14	point	point	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	number	number	NOUN	NN	Number=Sing	14	_	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	NER=O
+

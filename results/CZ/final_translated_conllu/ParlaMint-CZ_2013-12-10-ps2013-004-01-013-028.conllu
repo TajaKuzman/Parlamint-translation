@@ -1,0 +1,2685 @@
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u1.p1.s1
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = 28.
+# initial_translation = 28.
+# text = 28.
+1	28	28	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u1.p1.s2
+# align_s = 0-0 1-1 2-1 4-2 6-2 7-3 8-4 10-5 11-6 12-5 13-6 15-7 16-8 17-11 18-9 19-12 20-13 21-14 22-14 23-14 24-15 25-16 26-17 27-18 28-19 29-20 30-21 31-22 32-23 33-25 34-26 35-27 36-28 37-29
+# align_t = 0-0 1-2 2-6 3-7 4-8 5-12 6-13 7-15 8-16 9-18 11-17 12-19 13-21 14-22 15-24 16-25 17-26 18-27 19-28 20-29 21-30 22-31 23-32 25-33 26-34 27-35 28-36 29-37 
+# source = Vládní návrh zákona, kterým se mění zákon č. 170/2002 Sb., o válečných veteránech, ve znění pozdějších předpisů /sněmovní tisk 32/ - prvé čtení podle § 90 odst. 2
+# initial_translation = Government bill amending Act No. 170/2002 Coll., on veterans of war, as amended /house print 32/ - first reading pursuant to § 90 para. 2
+# text = Government bill amending Act No. 170/2002 Coll., on veterans of war, as amended /house print 32/ - first reading pursuant to § 90 para. 2
+1	Government	government	NOUN	NN	Number=Sing	0	_	_	NER=O
+2	bill	bill	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	amending	amending	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	Act	Act	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	4	_	_	NER=O
+6	170/2002	170/2002	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	NER=O
+7	Coll.	coll.	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	NER=O
+9	on	on	ADP	IN	_	8	_	_	NER=O
+10	veterans	veteran	NOUN	NNS	Number=Plur	9	_	_	NER=O
+11	of	of	ADP	IN	_	10	_	_	NER=O
+12	war	war	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	as	as	ADP	IN	_	13	_	_	NER=O
+15	amended	amend	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	NER=O
+16	/	/	SYM	,	_	15	_	_	NER=O|SpaceAfter=No
+17	house	house	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	print	print	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	32	32	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	NER=O|SpaceAfter=No
+20	/	/	PUNCT	,	_	19	_	_	NER=O
+21	-	-	PUNCT	HYPH	_	20	_	_	NER=O
+22	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	21	_	_	NER=O
+23	reading	reading	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	pursuant	pursuant	ADV	RB	_	23	_	_	NER=O
+25	to	to	ADP	IN	_	24	_	_	NER=O
+26	§	§	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	90	90	NUM	CD	NumForm=Digit|NumType=Card	26	_	_	NER=O
+28	para	para	NOUN	NN	Number=Sing	27	_	_	NER=O|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	NER=O
+30	2	2	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u1.p2.s1
+# align_s = 0-1 2-1 3-2 4-3 5-4 6-7 7-9 9-10 10-12 11-14 12-15 13-16 14-17 15-18 16-20 17-21 18-23 19-24
+# align_t = 1-0 2-1 3-4 4-5 7-6 9-7 10-9 12-10 14-11 15-12 16-13 17-14 18-15 20-16 21-17 23-18 24-19 
+# source = Prosím, aby předložený návrh za navrhovatele uvedl pan ministr obrany Vlastimil Picek, a uděluji mu slovo.
+# initial_translation = I ask that the motion put forward for the plaintiffs by the Minister of Defence Vlastimil Picek, and I give him my word.
+# text = I ask that the motion put forward for the plaintiffs by the Minister of Defence Vlastimil Picek, and I give him my word.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	that	that	SCONJ	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	motion	motion	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	put	put	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	NER=O
+7	forward	forward	ADV	RB	_	6	_	_	NER=O
+8	for	for	ADP	IN	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	plaintiffs	plaintiff	NOUN	NNS	Number=Plur	9	_	_	NER=O
+11	by	by	ADP	IN	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	Minister	Minister	PROPN	NNP	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	Defence	Defence	PROPN	NNP	Number=Sing	14	_	_	NER=O
+16	Vlastimil	Vlastimil	PROPN	NNP	Number=Sing	15	_	_	NER=B-PER
+17	Picek	Picek	PROPN	NNP	Number=Sing	16	_	_	NER=I-PER|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	and	and	CCONJ	CC	_	18	_	_	NER=O
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	NER=O
+21	give	give	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	NER=O
+22	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	_	_	NER=O
+23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	_	_	NER=O
+24	word	word	NOUN	NN	Number=Sing	23	_	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u1.p2.s2
+# align_s = 0-0 2-1 3-2 4-3
+# align_t = 0-0 1-1 2-3 3-4 
+# source = Prosím, pane ministře.
+# initial_translation = Please, Minister.
+# text = Please, Minister.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	Minister	minister	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p1.s1
+# align_s = 0-0 1-2 2-4 3-5
+# align_t = 0-0 1-0 2-1 4-2 5-3 
+# source = Děkuji za slovo.
+# initial_translation = Thank you for the floor.
+# text = Thank you for the floor.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O
+3	for	for	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	floor	floor	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p1.s2
+# align_s = 1-0 2-1 3-2 4-3 7-2 8-3 9-4 10-5 11-6 12-7 13-8 16-9 17-10 18-11 19-12 20-13 22-15 23-16 26-17 27-20 28-22 29-23 31-24 32-25 33-24 34-25 36-26 37-27 38-28 39-29 40-30 41-31 43-33 44-34 45-37 46-38 47-39 48-40 49-41 50-42
+# align_t = 0-1 1-2 2-3 3-4 4-8 5-10 6-11 7-12 8-13 9-15 10-17 11-18 12-19 13-20 15-22 16-23 17-26 20-27 22-28 23-29 24-33 25-34 26-36 27-37 28-38 29-39 30-40 31-41 32-42 33-43 34-44 37-45 38-46 39-47 40-48 41-49 42-50 
+# source = Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, dovolte mi, abych zde v prvním čtení představil hlavní změny, které přináší novela zákona č. 170/2002 Sb., o válečných veteránech, jež vám byla rozeslána jako sněmovní tisk číslo 32.
+# initial_translation = Mr President, ladies and gentlemen, let me present here at first reading the main changes brought by the amendment to Act No. 170/2002 Coll., on war veterans, which have been sent to you as House press number 32.
+# text = Mr President, ladies and gentlemen, let me present here at first reading the main changes brought by the amendment to Act No. 170/2002 Coll., on war veterans, which have been sent to you as House press number 32.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	President	President	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	ladies	lady	NOUN	NNS	Number=Plur	3	_	_	NER=O
+5	and	and	CCONJ	CC	_	4	_	_	NER=O
+6	gentlemen	gentleman	NOUN	NNS	Number=Plur	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	NER=O
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	NER=O
+10	present	present	VERB	VB	VerbForm=Inf	9	_	_	NER=O
+11	here	here	ADV	RB	PronType=Dem	10	_	_	NER=O
+12	at	at	ADP	IN	_	11	_	_	NER=O
+13	first	first	ADV	RB	NumType=Ord	12	_	_	NER=O
+14	reading	read	VERB	VBG	VerbForm=Ger	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	main	main	ADJ	JJ	Degree=Pos	15	_	_	NER=O
+17	changes	change	NOUN	NNS	Number=Plur	16	_	_	NER=O
+18	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	NER=O
+19	by	by	ADP	IN	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	amendment	amendment	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	to	to	ADP	IN	_	21	_	_	NER=O
+23	Act	act	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	23	_	_	NER=O
+25	170/2002	170/2002	NUM	CD	NumForm=Digit|NumType=Card	24	_	_	NER=O
+26	Coll.	coll.	NOUN	NN	Number=Sing	25	_	_	NER=O|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	_	_	NER=O
+28	on	on	ADP	IN	_	27	_	_	NER=O
+29	war	war	NOUN	NN	Number=Sing	28	_	_	NER=O
+30	veterans	veteran	NOUN	NNS	Number=Plur	29	_	_	NER=O|SpaceAfter=No
+31	,	,	PUNCT	,	_	30	_	_	NER=O
+32	which	which	PRON	WDT	PronType=Rel	31	_	_	NER=O
+33	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	_	_	NER=O
+34	been	be	AUX	VBN	Tense=Past|VerbForm=Part	33	_	_	NER=O
+35	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	_	_	NER=O
+36	to	to	ADP	IN	_	35	_	_	NER=O
+37	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	36	_	_	NER=O
+38	as	as	ADP	IN	_	37	_	_	NER=O
+39	House	House	PROPN	NNP	Number=Sing	38	_	_	NER=B-ORG
+40	press	press	NOUN	NN	Number=Sing	39	_	_	NER=O
+41	number	number	NOUN	NN	Number=Sing	40	_	_	NER=O
+42	32	32	NUM	CD	NumForm=Digit|NumType=Card	41	_	_	NER=O|SpaceAfter=No
+43	.	.	PUNCT	.	_	42	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s1
+# align_s = 0-5 1-6 3-0 4-1 5-8 6-10 7-11 8-13 9-14 10-15 11-16 12-19 13-20 17-23 19-24 20-25 21-26 22-27 23-28
+# align_t = 0-3 2-4 5-0 6-1 7-2 8-5 9-5 10-6 11-7 13-8 14-9 16-11 19-12 20-13 21-14 22-15 23-16 24-19 25-20 26-21 27-22 28-23 
+# source = Novela chce v první řadě zpřísnit a sjednotit podmínky pro získání statusu válečného veterána tak, aby byla zachována jeho morální hodnota.
+# initial_translation = First of all, the amendment wants to tighten up and unify the conditions for the status of a war veteran so as to preserve his moral value.
+# text = First of all, the amendment wants to tighten up and unify the conditions for the status of a war veteran so as to preserve his moral value.
+1	First	first	ADV	RB	NumType=Ord	0	_	_	NER=O
+2	of	of	ADP	IN	_	1	_	_	NER=O
+3	all	all	DET	DT	_	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	amendment	amendment	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	to	to	PART	TO	_	7	_	_	NER=O
+9	tighten	tighten	VERB	VB	VerbForm=Inf	8	_	_	NER=O
+10	up	up	ADP	RP	_	9	_	_	NER=O
+11	and	and	CCONJ	CC	_	10	_	_	NER=O
+12	unify	unify	VERB	VB	VerbForm=Inf	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	conditions	condition	NOUN	NNS	Number=Plur	13	_	_	NER=O
+15	for	for	ADP	IN	_	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	status	status	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	of	of	ADP	IN	_	17	_	_	NER=O
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	NER=O
+20	war	war	NOUN	NN	Number=Sing	19	_	_	NER=O
+21	veteran	veteran	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	so	so	SCONJ	IN	_	21	_	_	NER=O
+23	as	as	SCONJ	IN	_	22	_	_	NER=O
+24	to	to	PART	TO	_	23	_	_	NER=O
+25	preserve	preserve	VERB	VB	VerbForm=Inf	24	_	_	NER=O
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	_	_	NER=O
+27	moral	moral	ADJ	JJ	Degree=Pos	26	_	_	NER=O
+28	value	value	NOUN	NN	Number=Sing	27	_	_	NER=O|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s2
+# align_s = 1-0 2-1 3-4 4-5 5-8 6-10 7-11 8-12 9-15 10-14 11-17 12-18 13-20 14-21 15-23 16-24 17-25 18-26 20-27 21-28 22-30 23-31 24-32 25-34 26-36 27-37 28-38
+# align_t = 0-1 2-2 3-3 5-4 8-5 9-5 10-6 11-7 12-8 13-9 14-10 15-11 17-11 18-12 20-13 23-14 24-15 26-18 27-19 28-20 29-21 30-22 31-23 32-24 34-25 36-26 37-27 38-28 
+# source = Ke zpřísnění dojde v důsledku rozlišení vojenských misí dle míry jejich nebezpečnosti a nastavení odlišného časového úseku výkonu služby, který bude nutný k získání statusu válečného veterána.
+# initial_translation = Tightening will occur as a result of the distinction between military missions according to their level of hazard and the setting of a different period of service that will be necessary to obtain the status of war veteran.
+# text = Tightening will occur as a result of the distinction between military missions according to their level of hazard and the setting of a different period of service that will be necessary to obtain the status of war veteran.
+1	Tightening	tighten	VERB	VBG	VerbForm=Ger	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	occur	occur	VERB	VB	VerbForm=Inf	2	_	_	NER=O
+4	as	as	ADP	IN	_	3	_	_	NER=O
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	NER=O
+6	result	result	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	of	of	ADP	IN	_	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	distinction	distinction	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	between	between	ADP	IN	_	9	_	_	NER=O
+11	military	military	ADJ	JJ	Degree=Pos	10	_	_	NER=O
+12	missions	mission	NOUN	NNS	Number=Plur	11	_	_	NER=O
+13	according	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	12	_	_	NER=O
+14	to	to	ADP	IN	_	13	_	_	NER=O
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	_	_	NER=O
+16	level	level	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	of	of	ADP	IN	_	16	_	_	NER=O
+18	hazard	hazard	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	and	and	CCONJ	CC	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	setting	setting	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	of	of	ADP	IN	_	21	_	_	NER=O
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	NER=O
+24	different	different	ADJ	JJ	Degree=Pos	23	_	_	NER=O
+25	period	period	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	of	of	ADP	IN	_	25	_	_	NER=O
+27	service	service	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	that	that	PRON	WDT	PronType=Rel	27	_	_	NER=O
+29	will	will	AUX	MD	VerbForm=Fin	28	_	_	NER=O
+30	be	be	AUX	VB	VerbForm=Inf	29	_	_	NER=O
+31	necessary	necessary	ADJ	JJ	Degree=Pos	30	_	_	NER=O
+32	to	to	PART	TO	_	31	_	_	NER=O
+33	obtain	obtain	VERB	VB	VerbForm=Inf	32	_	_	NER=O
+34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	NER=O
+35	status	status	NOUN	NN	Number=Sing	34	_	_	NER=O
+36	of	of	ADP	IN	_	35	_	_	NER=O
+37	war	war	NOUN	NN	Number=Sing	36	_	_	NER=O
+38	veteran	veteran	NOUN	NN	Number=Sing	37	_	_	NER=O|SpaceAfter=No
+39	.	.	PUNCT	.	_	38	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s3
+# align_s = 0-0 1-2 2-4 4-5 5-7 6-8 7-10 8-12 9-13 10-16 13-17 14-18 15-19 16-20 17-22 18-23 19-24 20-26 21-28 22-29 23-30 24-31 25-33 26-34 27-36 28-37 29-38 30-39 31-40 33-41 34-43 35-46 36-47 37-48 38-49 39-50 40-51 41-52 42-53 44-54 46-55 47-57 48-59 49-62 50-65 51-66 53-68 54-69 55-70 56-71 57-74 58-75
+# align_t = 0-0 2-1 4-2 5-3 6-4 7-5 8-6 10-7 12-8 13-9 15-10 16-10 17-13 18-14 19-15 20-16 22-17 23-18 24-19 26-20 28-21 29-22 30-23 31-24 33-25 34-26 36-27 37-28 38-29 39-30 40-31 41-32 42-33 43-34 45-35 46-35 47-36 48-37 49-38 50-39 51-40 52-41 53-42 54-44 55-45 56-46 57-47 59-48 62-49 65-50 66-51 68-53 69-54 70-55 71-56 74-57 75-58 
+# source = Nově bude nastaveno, že je nutný výkon služby nepřetržitě alespoň po dobu 90 kalendářních dnů v zahraniční misi v místě ozbrojeného konfliktu nebo v místě s výrazně zhoršenou bezpečnostní situací nebo po dobu celkem alespoň 360 kalendářních dnů v jiných zahraničních misích, které se uskutečnily na základě rozhodnutí mezinárodní organizace, jejímž je Česká republika členem.
+# initial_translation = Newly it will be set that it is necessary to perform the service continuously for at least 90 calendar days in a foreign mission in a place of armed conflict or in a place with a significantly impaired security situation or for a total of at least 360 calendar days in other foreign missions which took place on the basis of a decision of an international organisation of which the Czech Republic is a member.
+# text = Newly it will be set that it is necessary to perform the service continuously for at least 90 calendar days in a foreign mission in a place of armed conflict or in a place with a significantly impaired security situation or for a total of at least 360 calendar days in other foreign missions which took place on the basis of a decision of an international organisation of which the Czech Republic is a member.
+1	Newly	newly	ADV	RB	_	0	_	_	NER=O
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	NER=O
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	NER=O
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	NER=O
+5	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	NER=O
+6	that	that	SCONJ	IN	_	5	_	_	NER=O
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	NER=O
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	necessary	necessary	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	to	to	PART	TO	_	9	_	_	NER=O
+11	perform	perform	VERB	VB	VerbForm=Inf	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	service	service	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	continuously	continuously	ADV	RB	_	13	_	_	NER=O
+15	for	for	ADP	IN	_	14	_	_	NER=O
+16	at	at	ADP	IN	_	15	_	_	NER=O
+17	least	least	ADJ	JJS	Degree=Sup	16	_	_	NER=O
+18	90	90	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	NER=O
+19	calendar	calendar	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	days	day	NOUN	NNS	Number=Plur	19	_	_	NER=O
+21	in	in	ADP	IN	_	20	_	_	NER=O
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	NER=O
+23	foreign	foreign	ADJ	JJ	Degree=Pos	22	_	_	NER=O
+24	mission	mission	NOUN	NN	Number=Sing	23	_	_	NER=O
+25	in	in	ADP	IN	_	24	_	_	NER=O
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	NER=O
+27	place	place	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	of	of	ADP	IN	_	27	_	_	NER=O
+29	armed	armed	ADJ	JJ	Degree=Pos	28	_	_	NER=O
+30	conflict	conflict	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	or	or	CCONJ	CC	_	30	_	_	NER=O
+32	in	in	ADP	IN	_	31	_	_	NER=O
+33	a	a	DET	DT	Definite=Ind|PronType=Art	32	_	_	NER=O
+34	place	place	NOUN	NN	Number=Sing	33	_	_	NER=O
+35	with	with	ADP	IN	_	34	_	_	NER=O
+36	a	a	DET	DT	Definite=Ind|PronType=Art	35	_	_	NER=O
+37	significantly	significantly	ADV	RB	_	36	_	_	NER=O
+38	impaired	impaired	ADJ	JJ	Degree=Pos	37	_	_	NER=O
+39	security	security	NOUN	NN	Number=Sing	38	_	_	NER=O
+40	situation	situation	NOUN	NN	Number=Sing	39	_	_	NER=O
+41	or	or	CCONJ	CC	_	40	_	_	NER=O
+42	for	for	ADP	IN	_	41	_	_	NER=O
+43	a	a	DET	DT	Definite=Ind|PronType=Art	42	_	_	NER=O
+44	total	total	NOUN	NN	Number=Sing	43	_	_	NER=O
+45	of	of	ADP	IN	_	44	_	_	NER=O
+46	at	at	ADP	IN	_	45	_	_	NER=O
+47	least	least	ADJ	JJS	Degree=Sup	46	_	_	NER=O
+48	360	360	NUM	CD	NumForm=Digit|NumType=Card	47	_	_	NER=O
+49	calendar	calendar	NOUN	NN	Number=Sing	48	_	_	NER=O
+50	days	day	NOUN	NNS	Number=Plur	49	_	_	NER=O
+51	in	in	ADP	IN	_	50	_	_	NER=O
+52	other	other	ADJ	JJ	Degree=Pos	51	_	_	NER=O
+53	foreign	foreign	ADJ	JJ	Degree=Pos	52	_	_	NER=O
+54	missions	mission	NOUN	NNS	Number=Plur	53	_	_	NER=O
+55	which	which	PRON	WDT	PronType=Rel	54	_	_	NER=O
+56	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	55	_	_	NER=O
+57	place	place	NOUN	NN	Number=Sing	56	_	_	NER=O
+58	on	on	ADP	IN	_	57	_	_	NER=O
+59	the	the	DET	DT	Definite=Def|PronType=Art	58	_	_	NER=O
+60	basis	basis	NOUN	NN	Number=Sing	59	_	_	NER=O
+61	of	of	ADP	IN	_	60	_	_	NER=O
+62	a	a	DET	DT	Definite=Ind|PronType=Art	61	_	_	NER=O
+63	decision	decision	NOUN	NN	Number=Sing	62	_	_	NER=O
+64	of	of	ADP	IN	_	63	_	_	NER=O
+65	an	a	DET	DT	Definite=Ind|PronType=Art	64	_	_	NER=O
+66	international	international	ADJ	JJ	Degree=Pos	65	_	_	NER=O
+67	organisation	organisation	NOUN	NN	Number=Sing	66	_	_	NER=O
+68	of	of	ADP	IN	_	67	_	_	NER=O
+69	which	which	PRON	WDT	PronType=Rel	68	_	_	NER=O
+70	the	the	DET	DT	Definite=Def|PronType=Art	69	_	_	NER=O
+71	Czech	Czech	ADJ	NNP	Degree=Pos	70	_	_	NER=B-LOC
+72	Republic	Republic	PROPN	NNP	Number=Sing	71	_	_	NER=I-LOC
+73	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	_	_	NER=O
+74	a	a	DET	DT	Definite=Ind|PronType=Art	73	_	_	NER=O
+75	member	member	NOUN	NN	Number=Sing	74	_	_	NER=O|SpaceAfter=No
+76	.	.	PUNCT	.	_	75	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s4
+# align_s = 0-3 1-4 2-5 3-6 4-7 5-8 6-11 8-12 9-13 10-14 11-16 13-17 14-18
+# align_t = 3-0 4-1 5-2 6-3 7-4 8-5 11-8 12-8 13-9 14-10 16-12 17-13 18-14 
+# source = Nejkratší započitatelná doba podle tohoto usnesení však činí nejméně 90 dnů nepřetržitého výkonu služby.
+# initial_translation = However, the shortest estimated period under this resolution shall be at least 90 days of continuous service.
+# text = However, the shortest estimated period under this resolution shall be at least 90 days of continuous service.
+1	However	however	ADV	RB	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	shortest	short	ADJ	JJS	Degree=Sup	3	_	_	NER=O
+5	estimated	estimate	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	NER=O
+6	period	period	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	under	under	ADP	IN	_	6	_	_	NER=O
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	NER=O
+9	resolution	resolution	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	shall	shall	AUX	MD	VerbForm=Fin	9	_	_	NER=O
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	NER=O
+12	at	at	ADP	IN	_	11	_	_	NER=O
+13	least	least	ADJ	JJS	Degree=Sup	12	_	_	NER=O
+14	90	90	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O
+15	days	day	NOUN	NNS	Number=Plur	14	_	_	NER=O
+16	of	of	ADP	IN	_	15	_	_	NER=O
+17	continuous	continuous	ADJ	JJ	Degree=Pos	16	_	_	NER=O
+18	service	service	NOUN	NN	Number=Sing	17	_	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s5
+# align_s = 0-0 1-1 2-3 3-4 4-6 5-4 6-8 7-9 9-11 10-14 11-12 12-16 13-18 14-21 15-22 16-23 17-27 18-25 19-30 20-31 21-33 23-34 24-35 25-36 26-37 27-38 28-41 29-44 30-45 31-47 32-48 33-50 34-52 35-53 36-54 37-55 39-57 40-59 41-62 42-63 43-64 44-67 45-68 46-70 47-71 48-72 49-73
+# align_t = 0-0 1-1 3-2 4-3 6-4 7-5 8-6 9-7 10-8 11-9 12-11 16-12 18-13 21-14 22-15 23-16 25-18 27-17 31-20 33-21 34-23 35-24 36-25 37-26 38-27 40-28 41-28 44-29 45-30 47-31 48-32 50-33 52-34 53-35 54-36 55-37 56-39 59-40 62-41 63-42 64-43 67-44 68-41 69-43 70-46 71-47 72-48 73-49 
+# source = Jednotlivé body bude možno vzájemně sčítat, přičemž je nově zaveden institut odstranění tvrdosti zákona, na jehož základě bude možno reflektovat i některé výjimečné situace, když například doba výkonu služby v místě ozbrojeného konfliktu je kratší z důvodu zranění vojáka nebo z důvodů předčasného ukončení mise atp.
+# initial_translation = Individual points can be added to each other, while a new institute is introduced to eliminate the hardness of the law, on the basis of which it will be possible to reflect some exceptional situations, when, for example, the duration of the service at the place of armed conflict is shorter due to the injury of the soldier or due to the premature termination of the mission atp.
+# text = Individual points can be added to each other, while a new institute is introduced to eliminate the hardness of the law, on the basis of which it will be possible to reflect some exceptional situations, when, for example, the duration of the service at the place of armed conflict is shorter due to the injury of the soldier or due to the premature termination of the mission atp.
+1	Individual	individual	ADJ	JJ	Degree=Pos	0	_	_	NER=O
+2	points	point	NOUN	NNS	Number=Plur	1	_	_	NER=O
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	NER=O
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	NER=O
+5	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	NER=O
+6	to	to	ADP	IN	_	5	_	_	NER=O
+7	each	each	DET	DT	_	6	_	_	NER=O
+8	other	other	ADJ	JJ	Degree=Pos	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	while	while	SCONJ	IN	_	9	_	_	NER=O
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	NER=O
+12	new	new	ADJ	JJ	Degree=Pos	11	_	_	NER=O
+13	institute	institute	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	NER=O
+15	introduced	introduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	NER=O
+16	to	to	PART	TO	_	15	_	_	NER=O
+17	eliminate	eliminate	VERB	VB	VerbForm=Inf	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	hardness	hardness	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	of	of	ADP	IN	_	19	_	_	NER=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	NER=O
+22	law	law	NOUN	NN	Number=Sing	21	_	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	NER=O
+24	on	on	ADP	IN	_	23	_	_	NER=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	NER=O
+26	basis	basis	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	of	of	ADP	IN	_	26	_	_	NER=O
+28	which	which	PRON	WDT	PronType=Rel	27	_	_	NER=O
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	_	_	NER=O
+30	will	will	AUX	MD	VerbForm=Fin	29	_	_	NER=O
+31	be	be	AUX	VB	VerbForm=Inf	30	_	_	NER=O
+32	possible	possible	ADJ	JJ	Degree=Pos	31	_	_	NER=O
+33	to	to	PART	TO	_	32	_	_	NER=O
+34	reflect	reflect	VERB	VB	VerbForm=Inf	33	_	_	NER=O
+35	some	some	DET	DT	_	34	_	_	NER=O
+36	exceptional	exceptional	ADJ	JJ	Degree=Pos	35	_	_	NER=O
+37	situations	situation	NOUN	NNS	Number=Plur	36	_	_	NER=O|SpaceAfter=No
+38	,	,	PUNCT	,	_	37	_	_	NER=O
+39	when	when	SCONJ	WRB	PronType=Int	38	_	_	NER=O|SpaceAfter=No
+40	,	,	PUNCT	,	_	39	_	_	NER=O
+41	for	for	ADP	IN	_	40	_	_	NER=O
+42	example	example	NOUN	NN	Number=Sing	41	_	_	NER=O|SpaceAfter=No
+43	,	,	PUNCT	,	_	42	_	_	NER=O
+44	the	the	DET	DT	Definite=Def|PronType=Art	43	_	_	NER=O
+45	duration	duration	NOUN	NN	Number=Sing	44	_	_	NER=O
+46	of	of	ADP	IN	_	45	_	_	NER=O
+47	the	the	DET	DT	Definite=Def|PronType=Art	46	_	_	NER=O
+48	service	service	NOUN	NN	Number=Sing	47	_	_	NER=O
+49	at	at	ADP	IN	_	48	_	_	NER=O
+50	the	the	DET	DT	Definite=Def|PronType=Art	49	_	_	NER=O
+51	place	place	NOUN	NN	Number=Sing	50	_	_	NER=O
+52	of	of	ADP	IN	_	51	_	_	NER=O
+53	armed	armed	ADJ	JJ	Degree=Pos	52	_	_	NER=O
+54	conflict	conflict	NOUN	NN	Number=Sing	53	_	_	NER=O
+55	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	_	_	NER=O
+56	shorter	short	ADJ	JJR	Degree=Cmp	55	_	_	NER=O
+57	due	due	ADP	IN	_	56	_	_	NER=O
+58	to	to	ADP	IN	_	57	_	_	NER=O
+59	the	the	DET	DT	Definite=Def|PronType=Art	58	_	_	NER=O
+60	injury	injury	NOUN	NN	Number=Sing	59	_	_	NER=O
+61	of	of	ADP	IN	_	60	_	_	NER=O
+62	the	the	DET	DT	Definite=Def|PronType=Art	61	_	_	NER=O
+63	soldier	soldier	NOUN	NN	Number=Sing	62	_	_	NER=O
+64	or	or	CCONJ	CC	_	63	_	_	NER=O
+65	due	due	ADP	IN	_	64	_	_	NER=O
+66	to	to	ADP	IN	_	65	_	_	NER=O
+67	the	the	DET	DT	Definite=Def|PronType=Art	66	_	_	NER=O
+68	premature	premature	ADJ	JJ	Degree=Pos	67	_	_	NER=O
+69	termination	termination	NOUN	NN	Number=Sing	68	_	_	NER=O
+70	of	of	ADP	IN	_	69	_	_	NER=O
+71	the	the	DET	DT	Definite=Def|PronType=Art	70	_	_	NER=O
+72	mission	mission	NOUN	NN	Number=Sing	71	_	_	NER=O
+73	atp	atp	NOUN	NN	Number=Sing	72	_	_	NER=O|SpaceAfter=No
+74	.	.	PUNCT	.	_	73	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p3.s1
+# align_s = 0-3 1-4 2-1 3-5 4-8 5-9 6-10 7-12 8-13 9-14 10-15 11-16 12-20 13-21 14-24 15-18 16-19 17-21 18-27 19-29 21-30 22-31 23-32 24-33 25-34 26-35 27-38 29-39 31-41 32-42 33-44 34-45 35-46 36-47 37-48 38-49 40-50 41-52 42-54 43-57 44-58 45-59 46-61 47-62 48-63 49-64 50-65
+# align_t = 1-2 3-0 4-1 5-3 8-4 9-5 10-6 12-7 13-8 14-9 15-10 16-11 18-15 19-16 20-12 21-13 24-14 26-17 27-18 29-19 30-20 31-22 32-23 33-24 34-25 35-26 38-27 39-29 40-30 41-31 42-32 44-33 45-34 46-35 47-36 48-37 49-38 50-40 52-41 54-42 56-43 57-43 58-44 59-45 61-46 62-47 63-48 64-49 65-50 
+# source = Zpřísnění je navíc vedeno snahou o odstranění stávajícího nerovného stavu, kdy pro novodobé veterány je dostačující účast v misi po dobu 30 dnů, zatímco druhováleční veteráni, kteří se mnohdy účastnili bojových střetů přímo ve válečných operacích, museli splňovat podmínku nejméně 90 dnů nepřetržité aktivní bojové činnosti.
+# initial_translation = In addition, tightening is driven by an effort to eliminate the current unequal condition, where it is sufficient for modern-day veterans to participate in the mission for 30 days, while second-year veterans who have often participated in combat conflicts directly in war operations had to meet the condition of at least 90 days of continuous active combat activity.
+# text = In addition, tightening is driven by an effort to eliminate the current unequal condition, where it is sufficient for modern-day veterans to participate in the mission for 30 days, while second-year veterans who have often participated in combat conflicts directly in war operations had to meet the condition of at least 90 days of continuous active combat activity.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	addition	addition	NOUN	NN	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	tightening	tightening	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	NER=O
+7	by	by	ADP	IN	_	6	_	_	NER=O
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	NER=O
+9	effort	effort	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	to	to	PART	TO	_	9	_	_	NER=O
+11	eliminate	eliminate	VERB	VB	VerbForm=Inf	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	current	current	ADJ	JJ	Degree=Pos	12	_	_	NER=O
+14	unequal	unequal	ADJ	JJ	Degree=Pos	13	_	_	NER=O
+15	condition	condition	NOUN	NN	Number=Sing	14	_	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	NER=O
+17	where	where	SCONJ	WRB	PronType=Rel	16	_	_	NER=O
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	NER=O
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	NER=O
+20	sufficient	sufficient	ADJ	JJ	Degree=Pos	19	_	_	NER=O
+21	for	for	ADP	IN	_	20	_	_	NER=O
+22	modern	modern	ADJ	JJ	Degree=Pos	21	_	_	NER=O|SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	22	_	_	NER=O|SpaceAfter=No
+24	day	day	NOUN	NN	Number=Sing	23	_	_	NER=O
+25	veterans	veteran	NOUN	NNS	Number=Plur	24	_	_	NER=O
+26	to	to	PART	TO	_	25	_	_	NER=O
+27	participate	participate	VERB	VB	VerbForm=Inf	26	_	_	NER=O
+28	in	in	ADP	IN	_	27	_	_	NER=O
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	NER=O
+30	mission	mission	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	for	for	ADP	IN	_	30	_	_	NER=O
+32	30	30	NUM	CD	NumForm=Digit|NumType=Card	31	_	_	NER=O
+33	days	day	NOUN	NNS	Number=Plur	32	_	_	NER=O|SpaceAfter=No
+34	,	,	PUNCT	,	_	33	_	_	NER=O
+35	while	while	SCONJ	IN	_	34	_	_	NER=O
+36	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	35	_	_	NER=O|SpaceAfter=No
+37	-	-	PUNCT	HYPH	_	36	_	_	NER=O|SpaceAfter=No
+38	year	year	NOUN	NN	Number=Sing	37	_	_	NER=O
+39	veterans	veteran	NOUN	NNS	Number=Plur	38	_	_	NER=O
+40	who	who	PRON	WP	PronType=Rel	39	_	_	NER=O
+41	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	_	_	NER=O
+42	often	often	ADV	RB	_	41	_	_	NER=O
+43	participated	participate	VERB	VBN	Tense=Past|VerbForm=Part	42	_	_	NER=O
+44	in	in	ADP	IN	_	43	_	_	NER=O
+45	combat	combat	NOUN	NN	Number=Sing	44	_	_	NER=O
+46	conflicts	conflict	NOUN	NNS	Number=Plur	45	_	_	NER=O
+47	directly	directly	ADV	RB	_	46	_	_	NER=O
+48	in	in	ADP	IN	_	47	_	_	NER=O
+49	war	war	NOUN	NN	Number=Sing	48	_	_	NER=O
+50	operations	operation	NOUN	NNS	Number=Plur	49	_	_	NER=O
+51	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	50	_	_	NER=O
+52	to	to	PART	TO	_	51	_	_	NER=O
+53	meet	meet	VERB	VB	VerbForm=Inf	52	_	_	NER=O
+54	the	the	DET	DT	Definite=Def|PronType=Art	53	_	_	NER=O
+55	condition	condition	NOUN	NN	Number=Sing	54	_	_	NER=O
+56	of	of	ADP	IN	_	55	_	_	NER=O
+57	at	at	ADP	IN	_	56	_	_	NER=O
+58	least	least	ADJ	JJS	Degree=Sup	57	_	_	NER=O
+59	90	90	NUM	CD	NumForm=Digit|NumType=Card	58	_	_	NER=O
+60	days	day	NOUN	NNS	Number=Plur	59	_	_	NER=O
+61	of	of	ADP	IN	_	60	_	_	NER=O
+62	continuous	continuous	ADJ	JJ	Degree=Pos	61	_	_	NER=O
+63	active	active	ADJ	JJ	Degree=Pos	62	_	_	NER=O
+64	combat	combat	NOUN	NN	Number=Sing	63	_	_	NER=O
+65	activity	activity	NOUN	NN	Number=Sing	64	_	_	NER=O|SpaceAfter=No
+66	.	.	PUNCT	.	_	65	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p4.s1
+# align_s = 0-0 1-1 2-2 3-3 4-5 5-7 6-9 7-10 8-11 9-13 10-15 11-16 12-17
+# align_t = 0-0 1-1 2-2 3-3 5-4 7-5 9-6 10-7 11-8 13-9 15-10 16-11 17-12 
+# source = Dalším cílem je rovněž rozšíření okruhu osob oprávněných získat status válečného veterána.
+# initial_translation = Another objective is also to extend the circle of persons entitled to the status of war veteran.
+# text = Another objective is also to extend the circle of persons entitled to the status of war veteran.
+1	Another	another	DET	DT	_	0	_	_	NER=O
+2	objective	objective	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	also	also	ADV	RB	_	3	_	_	NER=O
+5	to	to	PART	TO	_	4	_	_	NER=O
+6	extend	extend	VERB	VB	VerbForm=Inf	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	circle	circle	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	of	of	ADP	IN	_	8	_	_	NER=O
+10	persons	person	NOUN	NNS	Number=Plur	9	_	_	NER=O
+11	entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	NER=O
+12	to	to	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	status	status	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	of	of	ADP	IN	_	14	_	_	NER=O
+16	war	war	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	veteran	veteran	NOUN	NN	Number=Sing	16	_	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p4.s2
+# align_s = 0-0 1-1 2-2 3-3 4-5 5-6 6-9 7-10 8-11 11-12 12-15 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-26 23-27 24-30 25-31 26-33 27-36 28-37 29-38 30-39 32-41 33-45 34-46
+# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 9-6 10-7 11-8 12-11 15-12 16-12 17-14 18-15 19-16 20-17 21-18 22-19 23-20 24-21 25-22 26-22 27-23 30-24 31-25 33-26 36-27 37-28 38-29 39-30 41-32 44-33 45-33 46-34 
+# source = Ten budou moci získat všichni příslušníci bezpečnostních sborů, to je příslušníci Hasičského záchranného sboru, Celní správy a další, a nejen příslušníci Armády a Policie České republiky, jak tomu bylo doposud.
+# initial_translation = This will be available to all members of the Security Corps, members of the Fire Rescue Corps, Customs Administration and others, and not only members of the Army and the Police of the Czech Republic, as has been the case so far.
+# text = This will be available to all members of the Security Corps, members of the Fire Rescue Corps, Customs Administration and others, and not only members of the Army and the Police of the Czech Republic, as has been the case so far.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	NER=O
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	NER=O
+4	available	available	ADJ	JJ	Degree=Pos	3	_	_	NER=O
+5	to	to	ADP	IN	_	4	_	_	NER=O
+6	all	all	DET	DT	_	5	_	_	NER=O
+7	members	member	NOUN	NNS	Number=Plur	6	_	_	NER=O
+8	of	of	ADP	IN	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	Security	Security	PROPN	NNP	Number=Sing	9	_	_	NER=B-ORG
+11	Corps	Corps	PROPN	NNP	Number=Sing	10	_	_	NER=I-ORG|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	NER=O
+13	members	member	NOUN	NNS	Number=Plur	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	Fire	Fire	PROPN	NNP	Number=Sing	15	_	_	NER=B-ORG
+17	Rescue	Rescue	PROPN	NNP	Number=Sing	16	_	_	NER=I-ORG
+18	Corps	Corps	PROPN	NNP	Number=Sing	17	_	_	NER=I-ORG|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	NER=I-ORG
+20	Customs	custom	PROPN	NNPS	Number=Plur	19	_	_	NER=I-ORG
+21	Administration	Administration	PROPN	NNP	Number=Sing	20	_	_	NER=I-ORG
+22	and	and	CCONJ	CC	_	21	_	_	NER=O
+23	others	other	NOUN	NNS	Number=Plur	22	_	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	NER=O
+25	and	and	CCONJ	CC	_	24	_	_	NER=O
+26	not	not	PART	RB	_	25	_	_	NER=O
+27	only	only	ADV	RB	_	26	_	_	NER=O
+28	members	member	NOUN	NNS	Number=Plur	27	_	_	NER=O
+29	of	of	ADP	IN	_	28	_	_	NER=O
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	NER=O
+31	Army	Army	PROPN	NNP	Number=Sing	30	_	_	NER=B-ORG
+32	and	and	CCONJ	CC	_	31	_	_	NER=O
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	NER=O
+34	Police	Police	PROPN	NNP	Number=Sing	33	_	_	NER=O
+35	of	of	ADP	IN	_	34	_	_	NER=O
+36	the	the	DET	DT	Definite=Def|PronType=Art	35	_	_	NER=O
+37	Czech	Czech	ADJ	NNP	Degree=Pos	36	_	_	NER=B-LOC
+38	Republic	Republic	PROPN	NNP	Number=Sing	37	_	_	NER=I-LOC|SpaceAfter=No
+39	,	,	PUNCT	,	_	38	_	_	NER=O
+40	as	as	SCONJ	IN	_	39	_	_	NER=O
+41	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	_	_	NER=O
+42	been	be	AUX	VBN	Tense=Past|VerbForm=Part	41	_	_	NER=O
+43	the	the	DET	DT	Definite=Def|PronType=Art	42	_	_	NER=O
+44	case	case	NOUN	NN	Number=Sing	43	_	_	NER=O
+45	so	so	ADV	RB	_	44	_	_	NER=O
+46	far	far	ADV	RB	Degree=Pos	45	_	_	NER=O|SpaceAfter=No
+47	.	.	PUNCT	.	_	46	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s1
+# align_s = 0-1 1-5 2-4 3-7 4-9 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-18 13-19 15-20 16-24 17-25 18-28 20-29 21-30 22-31 23-32 24-34 25-35 26-37 27-38 28-39 29-40 30-41 31-43 32-44 33-46 34-47
+# align_t = 1-0 2-1 4-2 7-3 9-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 18-12 19-13 20-14 21-15 24-16 25-17 28-18 29-20 30-21 32-22 33-23 34-24 35-25 36-26 37-26 38-27 39-28 40-29 41-29 42-30 43-31 44-32 46-33 47-34 
+# source = Dále je cílem rozšíření okruhu oprávněných osob též o osoby civilní, resp. o zaměstnance organizačních složek státu, kteří jsou vysíláni do misí a jsou také vystaveni nebezpečí ohrožení či ztráty života.
+# initial_translation = In addition, the aim is to extend the scope of authorised persons also to persons civilian, respectively. staff members of the organisational units of the State who are being sent to missions and who are also at risk of endangering or losing their lives.
+# text = In addition, the aim is to extend the scope of authorised persons also to persons civilian, respectively. staff members of the organisational units of the State who are being sent to missions and who are also at risk of endangering or losing their lives.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	addition	addition	NOUN	NN	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	aim	aim	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	to	to	PART	TO	_	6	_	_	NER=O
+8	extend	extend	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	scope	scope	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	of	of	ADP	IN	_	10	_	_	NER=O
+12	authorised	authorise	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	NER=O
+13	persons	person	NOUN	NNS	Number=Plur	12	_	_	NER=O
+14	also	also	ADV	RB	_	13	_	_	NER=O
+15	to	to	ADP	IN	_	14	_	_	NER=O
+16	persons	person	NOUN	NNS	Number=Plur	15	_	_	NER=O
+17	civilian	civilian	ADJ	JJ	Degree=Pos	16	_	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	respectively	respectively	ADV	RB	_	18	_	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	NER=O
+21	staff	staff	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	members	member	NOUN	NNS	Number=Plur	21	_	_	NER=O
+23	of	of	ADP	IN	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	organisational	organisational	ADJ	JJ	Degree=Pos	24	_	_	NER=O
+26	units	unit	NOUN	NNS	Number=Plur	25	_	_	NER=O
+27	of	of	ADP	IN	_	26	_	_	NER=O
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	NER=O
+29	State	State	PROPN	NNP	Number=Sing	28	_	_	NER=O
+30	who	who	PRON	WP	PronType=Rel	29	_	_	NER=O
+31	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	_	_	NER=O
+32	being	be	AUX	VBG	VerbForm=Ger	31	_	_	NER=O
+33	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	_	_	NER=O
+34	to	to	ADP	IN	_	33	_	_	NER=O
+35	missions	mission	NOUN	NNS	Number=Plur	34	_	_	NER=O
+36	and	and	CCONJ	CC	_	35	_	_	NER=O
+37	who	who	PRON	WP	PronType=Rel	36	_	_	NER=O
+38	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	NER=O
+39	also	also	ADV	RB	_	38	_	_	NER=O
+40	at	at	ADP	IN	_	39	_	_	NER=O
+41	risk	risk	NOUN	NN	Number=Sing	40	_	_	NER=O
+42	of	of	SCONJ	IN	_	41	_	_	NER=O
+43	endangering	endanger	VERB	VBG	VerbForm=Ger	42	_	_	NER=O
+44	or	or	CCONJ	CC	_	43	_	_	NER=O
+45	losing	lose	VERB	VBG	VerbForm=Ger	44	_	_	NER=O
+46	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	_	_	NER=O
+47	lives	life	NOUN	NNS	Number=Plur	46	_	_	NER=O|SpaceAfter=No
+48	.	.	PUNCT	.	_	47	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s2
+# align_s = 1-13 2-14 3-12 4-1 5-3 6-5 7-7 8-8 9-9 10-10 11-15
+# align_t = 1-4 3-5 5-6 7-7 8-8 9-9 10-10 11-1 12-3 13-1 14-2 15-11 
+# source = Nově bude upravena také možnost využití kapacit domova pro válečné veterány.
+# initial_translation = The possibility of using the capacity of home for war veterans will also be adapted.
+# text = The possibility of using the capacity of home for war veterans will also be adapted.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	possibility	possibility	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	of	of	SCONJ	IN	_	2	_	_	NER=O
+4	using	use	VERB	VBG	VerbForm=Ger	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	capacity	capacity	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	of	of	ADP	IN	_	6	_	_	NER=O
+8	home	home	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	for	for	ADP	IN	_	8	_	_	NER=O
+10	war	war	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	veterans	veteran	NOUN	NNS	Number=Plur	10	_	_	NER=O
+12	will	will	AUX	MD	VerbForm=Fin	11	_	_	NER=O
+13	also	also	ADV	RB	_	12	_	_	NER=O
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	NER=O
+15	adapted	adapt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s3
+# align_s = 0-1 1-2 3-3 5-5 6-6 7-7 8-9 9-10 10-13 11-15 12-16 13-18 15-20 16-17 17-19 19-22 20-23 21-24 23-25 24-26 25-27 26-28 28-29 29-30 31-31 32-32 33-33
+# align_t = 1-0 2-1 3-3 4-4 5-5 6-6 7-7 10-9 13-10 15-11 16-12 18-13 19-17 20-18 22-19 23-20 24-21 25-23 26-24 27-25 28-27 29-30 31-31 32-32 33-33 
+# source = Je navrhováno, aby ve výjimečných případech mohlo ministerstvo na dočasnou dobu přijmout do domova i další, takzvanou třetí osobu, které by byl pobyt v domově poskytován za plnou úhradu.
+# initial_translation = It is proposed that, in exceptional cases, the Ministry may, for a temporary period, accept another so-called third party who would be provided for a full remuneration.
+# text = It is proposed that, in exceptional cases, the Ministry may, for a temporary period, accept another so-called third party who would be provided for a full remuneration.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	NER=O
+4	that	that	SCONJ	IN	_	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	in	in	ADP	IN	_	5	_	_	NER=O
+7	exceptional	exceptional	ADJ	JJ	Degree=Pos	6	_	_	NER=O
+8	cases	case	NOUN	NNS	Number=Plur	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	Ministry	Ministry	PROPN	NNP	Number=Sing	10	_	_	NER=O
+12	may	may	AUX	MD	VerbForm=Fin	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	for	for	ADP	IN	_	13	_	_	NER=O
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	NER=O
+16	temporary	temporary	ADJ	JJ	Degree=Pos	15	_	_	NER=O
+17	period	period	NOUN	NN	Number=Sing	16	_	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	accept	accept	VERB	VB	VerbForm=Inf	18	_	_	NER=O
+20	another	another	DET	DT	_	19	_	_	NER=O
+21	so	so	ADV	RB	_	20	_	_	NER=O|SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	21	_	_	NER=O|SpaceAfter=No
+23	called	call	VERB	VBN	Tense=Past|VerbForm=Part	22	_	_	NER=O
+24	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	23	_	_	NER=O
+25	party	party	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	who	who	PRON	WP	PronType=Rel	25	_	_	NER=O
+27	would	would	AUX	MD	VerbForm=Fin	26	_	_	NER=O
+28	be	be	AUX	VB	VerbForm=Inf	27	_	_	NER=O
+29	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	_	_	NER=O
+30	for	for	ADP	IN	_	29	_	_	NER=O
+31	a	a	DET	DT	Definite=Ind|PronType=Art	30	_	_	NER=O
+32	full	full	ADJ	JJ	Degree=Pos	31	_	_	NER=O
+33	remuneration	remuneration	NOUN	NN	Number=Sing	32	_	_	NER=O|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s4
+# align_s = 1-0 2-4 4-5 5-6 6-7 7-8 8-9 9-13 10-14 11-15 12-16 13-10 14-12 15-17 16-18 20-20 21-21 22-24 23-25 24-26 25-27 26-31 27-32 28-33 29-36 30-37 31-38 32-39 33-40 34-42 35-43
+# align_t = 0-1 3-0 4-2 5-4 6-5 7-6 8-7 9-8 10-13 12-14 13-9 14-10 15-11 16-12 17-15 18-16 19-19 20-20 21-21 24-23 26-24 27-25 29-23 32-27 33-28 36-29 37-30 39-31 40-33 42-34 43-35 
+# source = Je však navrhováno, aby válečný veterán měl před touto další osobou vždy přednost a aby bylo v případě potřeby uvolnění lůžka pro veterána možno jednostranně této další osobě ukončit pobyt v domově.
+# initial_translation = However, it is proposed that the war veteran should always take precedence over this other person and that, if necessary, the release of the veteran's bed may be unilaterally terminated by that other person's stay in the home.
+# text = However, it is proposed that the war veteran should always take precedence over this other person and that, if necessary, the release of the veteran's bed may be unilaterally terminated by that other person's stay in the home.
+1	However	however	ADV	RB	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	NER=O
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	NER=O
+6	that	that	SCONJ	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	war	war	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	veteran	veteran	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	should	should	AUX	MD	VerbForm=Fin	9	_	_	NER=O
+11	always	always	ADV	RB	_	10	_	_	NER=O
+12	take	take	VERB	VB	VerbForm=Inf	11	_	_	NER=O
+13	precedence	precedence	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	over	over	ADP	IN	_	13	_	_	NER=O
+15	this	this	DET	DT	Number=Sing|PronType=Dem	14	_	_	NER=O
+16	other	other	ADJ	JJ	Degree=Pos	15	_	_	NER=O
+17	person	person	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	and	and	CCONJ	CC	_	17	_	_	NER=O
+19	that	that	SCONJ	IN	_	18	_	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	NER=O
+21	if	if	SCONJ	IN	_	20	_	_	NER=O
+22	necessary	necessary	ADJ	JJ	Degree=Pos	21	_	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	release	release	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	of	of	ADP	IN	_	25	_	_	NER=O
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	NER=O
+28	veteran	veteran	NOUN	NN	Number=Sing	27	_	_	NER=O|SpaceAfter=No
+29	's	's	PART	POS	_	28	_	_	NER=O
+30	bed	bed	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	may	may	AUX	MD	VerbForm=Fin	30	_	_	NER=O
+32	be	be	AUX	VB	VerbForm=Inf	31	_	_	NER=O
+33	unilaterally	unilaterally	ADV	RB	_	32	_	_	NER=O
+34	terminated	terminate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	_	_	NER=O
+35	by	by	ADP	IN	_	34	_	_	NER=O
+36	that	that	DET	DT	Number=Sing|PronType=Dem	35	_	_	NER=O
+37	other	other	ADJ	JJ	Degree=Pos	36	_	_	NER=O
+38	person	person	NOUN	NN	Number=Sing	37	_	_	NER=O|SpaceAfter=No
+39	's	's	PART	POS	_	38	_	_	NER=O
+40	stay	stay	NOUN	NN	Number=Sing	39	_	_	NER=O
+41	in	in	ADP	IN	_	40	_	_	NER=O
+42	the	the	DET	DT	Definite=Def|PronType=Art	41	_	_	NER=O
+43	home	home	NOUN	NN	Number=Sing	42	_	_	NER=O|SpaceAfter=No
+44	.	.	PUNCT	.	_	43	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p6.s1
+# align_s = 0-1 1-1 2-2 3-3 4-6 5-8 7-9 8-11 9-12 10-13 11-14 12-17 13-18 14-20 15-21 16-15 17-16 18-25 19-23 20-24 22-26 24-27 25-29 26-30 27-31
+# align_t = 0-0 1-1 2-2 3-3 6-4 8-5 9-7 11-8 12-9 13-10 14-11 15-16 16-17 17-12 18-13 20-14 21-15 23-19 24-20 25-18 26-22 27-24 29-25 30-26 31-27 
+# source = Návrh zákona byl předložen Poslanecké sněmovně již v minulém volebním období a v květnu tohoto roku byl projednán výborem pro obranu, který ho doporučil ke schválení.
+# initial_translation = The bill was submitted to the Chamber of Deputies in the previous parliamentary term and was discussed in May of this year by the Defence Committee which recommended it for approval.
+# text = The bill was submitted to the Chamber of Deputies in the previous parliamentary term and was discussed in May of this year by the Defence Committee which recommended it for approval.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	bill	bill	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	NER=O
+4	submitted	submit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O
+5	to	to	ADP	IN	_	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	Chamber	Chamber	PROPN	NNP	Number=Sing	6	_	_	NER=B-ORG
+8	of	of	ADP	IN	_	7	_	_	NER=I-ORG
+9	Deputies	Deputy	PROPN	NNPS	Number=Plur	8	_	_	NER=I-ORG
+10	in	in	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	previous	previous	ADJ	JJ	Degree=Pos	11	_	_	NER=O
+13	parliamentary	parliamentary	ADJ	JJ	Degree=Pos	12	_	_	NER=O
+14	term	term	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	and	and	CCONJ	CC	_	14	_	_	NER=O
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	NER=O
+17	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	NER=O
+18	in	in	ADP	IN	_	17	_	_	NER=O
+19	May	May	PROPN	NNP	Number=Sing	18	_	_	NER=O
+20	of	of	ADP	IN	_	19	_	_	NER=O
+21	this	this	DET	DT	Number=Sing|PronType=Dem	20	_	_	NER=O
+22	year	year	NOUN	NN	Number=Sing	21	_	_	NER=O
+23	by	by	ADP	IN	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	Defence	Defence	PROPN	NNP	Number=Sing	24	_	_	NER=B-ORG
+26	Committee	Committee	PROPN	NNP	Number=Sing	25	_	_	NER=I-ORG
+27	which	which	PRON	WDT	PronType=Rel	26	_	_	NER=O
+28	recommended	recommend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	_	_	NER=O
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	_	_	NER=O
+30	for	for	ADP	IN	_	29	_	_	NER=O
+31	approval	approval	NOUN	NN	Number=Sing	30	_	_	NER=O|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p6.s2
+# align_s = 0-3 1-4 3-7 4-10 5-11 6-14 7-17 8-19 9-8 10-20
+# align_t = 0-2 3-0 4-1 6-3 7-3 8-9 9-4 11-5 14-6 17-7 19-8 20-10 
+# source = Legislativní proces však nebyl v důsledku rozpuštění Poslanecké sněmovny dokončen.
+# initial_translation = However, the legislative process has not been completed as a result of the dissolution of the Chamber of Deputies.
+# text = However, the legislative process has not been completed as a result of the dissolution of the Chamber of Deputies.
+1	However	however	ADV	RB	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	legislative	legislative	ADJ	JJ	Degree=Pos	3	_	_	NER=O
+5	process	process	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	not	not	PART	RB	_	6	_	_	NER=O
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	_	_	NER=O
+9	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	NER=O
+10	as	as	ADP	IN	_	9	_	_	NER=O
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	NER=O
+12	result	result	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	of	of	ADP	IN	_	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	dissolution	dissolution	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	of	of	ADP	IN	_	15	_	_	NER=O
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	NER=O
+18	Chamber	Chamber	PROPN	NNP	Number=Sing	17	_	_	NER=B-ORG
+19	of	of	ADP	IN	_	18	_	_	NER=I-ORG
+20	Deputies	Deputy	PROPN	NNPS	Number=Plur	19	_	_	NER=I-ORG|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p6.s3
+# align_s = 0-0 1-3 2-2 3-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-13 15-14 17-15 18-16 19-17 20-18 21-19 22-20
+# align_t = 0-0 1-1 2-2 4-3 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13 13-14 14-15 15-17 16-18 17-19 18-20 19-21 20-22 
+# source = Nyní je zákon poté, co jej 6. 11. 2013 projednala svým usnesením č. 836 vláda, předkládán znovu.
+# initial_translation = Now the law is after it 6. 11. 2013 discussed its resolution No. 836 government, presented again.
+# text = Now the law is after it 6. 11. 2013 discussed its resolution No. 836 government, presented again.
+1	Now	now	ADV	RB	_	0	_	_	NER=O
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	NER=O
+3	law	law	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	after	after	ADP	IN	_	4	_	_	NER=O
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	NER=O
+7	6	6	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+9	11	11	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	NER=O
+11	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	NER=O
+12	discussed	discuss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	_	_	NER=O
+13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	NER=O
+14	resolution	resolution	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	14	_	_	NER=O
+16	836	836	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	NER=O
+17	government	government	NOUN	NN	Number=Sing	16	_	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	presented	present	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	NER=O
+20	again	again	ADV	RB	_	19	_	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p7.s1
+# align_s = 1-0 2-1 3-2 4-3 8-4 9-5 10-6 11-7 12-9 13-11 14-12 15-13 16-15 17-20 18-16 19-17 20-23 21-25 22-26 23-27 24-30 25-31 26-32 27-33 28-34 29-35
+# align_t = 0-1 1-2 2-3 3-4 4-8 5-9 6-10 7-11 8-11 9-12 10-13 11-13 12-14 14-15 15-16 16-18 17-19 20-17 23-20 24-20 25-21 26-22 28-24 29-23 30-24 31-25 32-26 33-27 34-28 35-29 
+# source = Vážený pane předsedající, vážené paní poslankyně, vážení poslanci, děkuji za pozornost a žádám o projednání tohoto zákona klasicky, nikoliv podle § 90 v prvním čtení.
+# initial_translation = Mr President, ladies and gentlemen, thank you for your attention and I call for this law to be discussed in a classic manner, not in accordance with Section 90 at first reading.
+# text = Mr President, ladies and gentlemen, thank you for your attention and I call for this law to be discussed in a classic manner, not in accordance with Section 90 at first reading.
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	NER=O
+2	President	President	PROPN	NNP	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	ladies	lady	NOUN	NNS	Number=Plur	3	_	_	NER=O
+5	and	and	CCONJ	CC	_	4	_	_	NER=O
+6	gentlemen	gentleman	NOUN	NNS	Number=Plur	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	_	_	NER=O
+12	attention	attention	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	and	and	CCONJ	CC	_	12	_	_	NER=O
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	NER=O
+15	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	NER=O
+16	for	for	SCONJ	IN	_	15	_	_	NER=O
+17	this	this	DET	DT	Number=Sing|PronType=Dem	16	_	_	NER=O
+18	law	law	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	to	to	PART	TO	_	18	_	_	NER=O
+20	be	be	AUX	VB	VerbForm=Inf	19	_	_	NER=O
+21	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	_	_	NER=O
+22	in	in	ADP	IN	_	21	_	_	NER=O
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	NER=O
+24	classic	classic	ADJ	JJ	Degree=Pos	23	_	_	NER=O
+25	manner	manner	NOUN	NN	Number=Sing	24	_	_	NER=O|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	_	_	NER=O
+27	not	not	PART	RB	_	26	_	_	NER=O
+28	in	in	ADP	IN	_	27	_	_	NER=O
+29	accordance	accordance	NOUN	NN	Number=Sing	28	_	_	NER=O
+30	with	with	ADP	IN	_	29	_	_	NER=O
+31	Section	section	NOUN	NN	Number=Sing	30	_	_	NER=B-MISC
+32	90	90	NUM	CD	NumForm=Digit|NumType=Card	31	_	_	NER=I-MISC
+33	at	at	ADP	IN	_	32	_	_	NER=O
+34	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	33	_	_	NER=O
+35	reading	reading	NOUN	NN	Number=Sing	34	_	_	NER=O|SpaceAfter=No
+36	.	.	PUNCT	.	_	35	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p7.s2
+# align_s = 1-1 2-3 3-4 4-5
+# align_t = 1-1 3-2 4-3 5-4 
+# source = To je nějaký omyl.
+# initial_translation = There's been a mistake.
+# text = There's been a mistake.
+1	There	there	PRON	EX	_	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	NER=O
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	NER=O
+5	mistake	mistake	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p7.s3
+# align_s = 0-0 1-2
+# align_t = 0-0 1-0 2-1 
+# source = Děkuji.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u3.p1.s1
+# align_s = 0-2 2-3 3-4 4-5 6-6 11-7 12-9 14-10 15-13 16-14 17-15 18-18 19-19 20-20 21-21
+# align_t = 1-5 2-0 3-2 4-3 5-4 6-6 7-11 9-12 10-14 13-15 14-16 15-17 18-18 19-19 20-20 21-21 
+# source = Děkuji panu ministru Vlastimilu Pickovi i za to, že nám zjednodušil situaci, že nebudeme postupovat podle § 90 odst.
+# initial_translation = I also thank Minister Vlastimil Pick for simplifying the situation that we will not proceed in accordance with § 90 para.
+# text = I also thank Minister Vlastimil Pick for simplifying the situation that we will not proceed in accordance with § 90 para.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	also	also	ADV	RB	_	1	_	_	NER=O
+3	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	Minister	Minister	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	Vlastimil	Vlastimil	PROPN	NNP	Number=Sing	4	_	_	NER=B-PER
+6	Pick	pick	PROPN	NNP	Number=Sing	5	_	_	NER=I-PER
+7	for	for	SCONJ	IN	_	6	_	_	NER=O
+8	simplifying	simplify	VERB	VBG	VerbForm=Ger	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	situation	situation	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	that	that	PRON	WDT	PronType=Rel	10	_	_	NER=O
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	_	_	NER=O
+13	will	will	AUX	MD	VerbForm=Fin	12	_	_	NER=O
+14	not	not	PART	RB	_	13	_	_	NER=O
+15	proceed	proceed	VERB	VB	VerbForm=Inf	14	_	_	NER=O
+16	in	in	ADP	IN	_	15	_	_	NER=O
+17	accordance	accordance	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	with	with	ADP	IN	_	17	_	_	NER=O
+19	§	§	PROPN	NNP	Number=Sing	18	_	_	NER=O
+20	90	90	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	NER=O
+21	para	para	NOUN	NN	Number=Sing	20	_	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u3.p1.s2
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = 2.
+# initial_translation = 2.
+# text = 2.
+1	2	2	NUM	LS	_	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u3.p1.s3
+# align_s = 0-0 1-3 2-4 3-5 4-6 5-10 6-8 7-9 8-12 9-13 10-14 11-15 12-16 13-18 14-19 15-17 16-21 17-22 18-23 19-24 20-25
+# align_t = 0-0 3-1 4-2 5-3 6-4 8-6 9-7 10-5 12-8 13-9 14-10 15-11 17-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 25-20 
+# source = A nyní požádám pana předsedu výboru pro obranu poslance Davida Kádnera, aby nám navrhl zpravodaje pro prvé čtení.
+# initial_translation = And I will now ask the President of the Defence Committee, Mr David Kadner, to propose to us the rapporteur for first reading.
+# text = And I will now ask the President of the Defence Committee, Mr David Kádner, to propose to us the rapporteur for first reading.
+1	And	and	CCONJ	CC	_	0	_	_	NER=O
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	NER=O
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	NER=O
+4	now	now	ADV	RB	_	3	_	_	NER=O
+5	ask	ask	VERB	VB	VerbForm=Inf	4	_	_	NER=O
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	NER=O
+7	President	President	PROPN	NNP	Number=Sing	6	_	_	NER=O
+8	of	of	ADP	IN	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	Defence	Defence	PROPN	NNP	Number=Sing	9	_	_	NER=B-ORG
+11	Committee	Committee	PROPN	NNP	Number=Sing	10	_	_	NER=I-ORG|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	NER=O
+13	Mr	Mr	PROPN	NNP	Number=Sing	12	_	_	NER=O
+14	David	David	PROPN	NNP	Number=Sing	13	_	_	NER=B-PER
+15	Kádner	Kádner	PROPN	NNP	Number=Sing	14	_	_	NER=I-PER|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	NER=O
+17	to	to	PART	TO	_	16	_	_	NER=O
+18	propose	propose	VERB	VB	VerbForm=Inf	17	_	_	NER=O
+19	to	to	ADP	IN	_	18	_	_	NER=O
+20	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	19	_	_	NER=O
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	NER=O
+22	rapporteur	rapporteur	NOUN	NN	Number=Sing	21	_	_	NER=O
+23	for	for	ADP	IN	_	22	_	_	NER=O
+24	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	23	_	_	NER=O
+25	reading	reading	NOUN	NN	Number=Sing	24	_	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u3.p1.s4
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-8 7-9
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-5 8-6 9-7 
+# source = Prosím, pane předsedo, máte slovo.
+# initial_translation = Please, Mr. Chairman, you have the floor.
+# text = Please, Mr. Chairman, you have the floor.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	2	_	_	NER=O
+4	Chairman	Chairman	PROPN	NNP	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	NER=O
+7	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	floor	floor	NOUN	NN	Number=Sing	8	_	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u4.p1.s1
+# align_s = 0-0 1-2 4-3 5-0 6-2 7-4 8-5 9-6 10-7 11-8 12-9 14-10 15-12 16-16 17-15 18-19 19-21 21-22 22-23
+# align_t = 0-0 1-2 2-5 3-4 4-7 5-8 6-9 7-10 8-11 9-12 10-14 12-15 15-17 16-16 19-18 20-19 21-20 22-21 23-22 
+# source = Dobrý den, ještě jednou dobrý den, tak na sněmovní tisk č. 32 za výbor obrany navrhuji pana poslance Klučku.
+# initial_translation = Hello, hello again, so to House Press No. 32 on behalf of the Defence Committee, I propose to Mr Klujka.
+# text = Hello, hello again, so to House Press No. 32 on behalf of the Defence Committee, I propose to Mr Klučka.
+1	Hello	hello	INTJ	UH	_	0	_	_	NER=B-PER|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	hello	hello	INTJ	UH	_	2	_	_	NER=O
+4	again	again	ADV	RB	_	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	so	so	ADV	RB	_	5	_	_	NER=O
+7	to	to	ADP	IN	_	6	_	_	NER=O
+8	House	House	PROPN	NNP	Number=Sing	7	_	_	NER=B-ORG
+9	Press	Press	PROPN	NNP	Number=Sing	8	_	_	NER=I-ORG
+10	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	9	_	_	NER=O
+11	32	32	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	NER=O
+12	on	on	ADP	IN	_	11	_	_	NER=O
+13	behalf	behalf	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	Defence	Defence	PROPN	NNP	Number=Sing	15	_	_	NER=B-ORG
+17	Committee	Committee	PROPN	NNP	Number=Sing	16	_	_	NER=I-ORG|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	NER=O
+20	propose	propose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	_	_	NER=O
+21	to	to	ADP	IN	_	20	_	_	NER=O
+22	Mr	Mr	PROPN	NNP	Number=Sing	21	_	_	NER=O
+23	Klučka	Klučka	PROPN	NNP	Number=Sing	22	_	_	NER=B-PER|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u5.p1.s1
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = Koho?
+# initial_translation = Who?
+# text = Who?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u6.p1.s1
+# align_s = 0-0 1-1
+# align_t = 0-0 1-1 
+# source = Klučku.
+# initial_translation = Boy.
+# text = kluček.
+1	kluček	kluček	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p1.s1
+# align_s = 0-0 1-1 2-2 3-3
+# align_t = 0-0 1-1 2-2 3-3 
+# source = Klučku, ano.
+# initial_translation = Boy, yes.
+# text = kluček, yes.
+1	kluček	kluček	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	yes	yes	INTJ	UH	_	2	_	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p1.s2
+# align_s = 0-0 2-2 3-3 4-4 5-1 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-14 15-15 16-16 17-17 18-19 21-20 22-21 23-23 29-25 30-26 32-27 33-28 34-29 35-31 36-32 37-35 38-36 39-37
+# align_t = 0-0 1-5 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13 14-14 15-15 16-16 17-17 18-18 19-19 20-21 21-22 23-23 25-29 26-30 27-32 28-33 29-34 31-35 32-36 35-37 36-38 37-39 
+# source = Prosím, o tomto návrhu rozhodneme v hlasování pořadové číslo 33, které jsem právě zahájil, a ptám se, kdo je pro to, aby pan kolega Klučka se stal zpravodajem pro prvé čtení tisku 32.
+# initial_translation = Please decide on this proposal in voting order number 33, which I have just begun, and I ask who is in favour of Mr Klučka becoming rapporteur for the first reading of the press 32.
+# text = Please decide on this proposal in voting order number 33, which I have just begun, and I ask who is in favour of Mr Klučka becoming rapporteur for the first reading of the press 32.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O
+2	decide	decide	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	NER=O
+3	on	on	ADP	IN	_	2	_	_	NER=O
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	NER=O
+5	proposal	proposal	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	in	in	ADP	IN	_	5	_	_	NER=O
+7	voting	voting	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	order	order	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	number	number	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	33	33	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	NER=O
+12	which	which	PRON	WDT	PronType=Rel	11	_	_	NER=O
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	NER=O
+14	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	NER=O
+15	just	just	ADV	RB	_	14	_	_	NER=O
+16	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	NER=O
+18	and	and	CCONJ	CC	_	17	_	_	NER=O
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	NER=O
+20	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	_	_	NER=O
+21	who	who	PRON	WP	PronType=Int	20	_	_	NER=O
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	NER=O
+23	in	in	ADP	IN	_	22	_	_	NER=O
+24	favour	favour	NOUN	NN	Number=Sing	23	_	_	NER=O
+25	of	of	SCONJ	IN	_	24	_	_	NER=O
+26	Mr	Mr	PROPN	NNP	Number=Sing	25	_	_	NER=O
+27	Klučka	Klučka	PROPN	NNP	Number=Sing	26	_	_	NER=B-PER
+28	becoming	become	VERB	VBG	VerbForm=Ger	27	_	_	NER=O
+29	rapporteur	rapporteur	NOUN	NN	Number=Sing	28	_	_	NER=O
+30	for	for	ADP	IN	_	29	_	_	NER=O
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	NER=O
+32	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	31	_	_	NER=O
+33	reading	reading	NOUN	NN	Number=Sing	32	_	_	NER=O
+34	of	of	ADP	IN	_	33	_	_	NER=O
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	NER=O
+36	press	press	NOUN	NN	Number=Sing	35	_	_	NER=O
+37	32	32	NUM	CD	NumForm=Digit|NumType=Card	36	_	_	NER=O|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p1.s3
+# align_s = 0-0 1-1 2-2 3-4
+# align_t = 0-0 1-1 2-2 4-3 
+# source = Kdo je proti?
+# initial_translation = Who's against it?
+# text = Who's against it?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	against	against	ADP	IN	_	2	_	_	NER=O
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p1.s4
+# align_s = 0-0 1-1 2-2
+# align_t = 0-0 1-1 2-2 
+# source = Děkuji vám.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p2.s1
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-9 8-10 9-11 10-12 11-13 12-14 13-16
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 9-7 10-8 11-9 12-10 13-11 14-12 15-12 16-13 
+# source = Hlasování pořadové číslo 33, z přítomných 174 pro 134, proti nikdo.
+# initial_translation = Voting order number 33, from the presence of 174 for 134, against no one.
+# text = Voting order number 33, from the presence of 174 for 134, against no one.
+1	Voting	voting	NOUN	NN	Number=Sing	0	_	_	NER=O
+2	order	order	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	number	number	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	33	33	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	from	from	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	presence	presence	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	of	of	ADP	IN	_	8	_	_	NER=O
+10	174	174	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	NER=O
+11	for	for	ADP	IN	_	10	_	_	NER=O
+12	134	134	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	against	against	ADP	IN	_	13	_	_	NER=O
+15	no	no	DET	DT	_	14	_	_	NER=O
+16	one	one	NOUN	NN	Number=Sing	15	_	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p3.s1
+# align_s = 0-0 1-1 3-3 4-4 5-5 6-6 7-8 8-9 9-10 10-11 11-12 12-13 14-17 15-19 16-21 17-22
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 8-7 9-8 10-9 11-10 12-11 13-12 16-13 17-14 19-15 21-16 22-17 
+# source = Prosím, pan kolega Klučka se ujme své zpravodajské zprávy a poté zaujme místo u stolku zpravodajů.
+# initial_translation = Please, my colleague Klučka will take up his intelligence report and then take up a position at the rapporteur's desk.
+# text = Please, my colleague Klučka will take up his intelligence report and then take up a position at the rapporteur's desk.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	NER=O
+4	colleague	colleague	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	Klučka	Klučka	PROPN	NNP	Number=Sing	4	_	_	NER=B-PER
+6	will	will	AUX	MD	VerbForm=Fin	5	_	_	NER=O
+7	take	take	VERB	VB	VerbForm=Inf	6	_	_	NER=O
+8	up	up	ADP	RP	_	7	_	_	NER=O
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	NER=O
+10	intelligence	intelligence	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	report	report	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	and	and	CCONJ	CC	_	11	_	_	NER=O
+13	then	then	ADV	RB	PronType=Dem	12	_	_	NER=O
+14	take	take	VERB	VB	VerbForm=Inf	13	_	_	NER=O
+15	up	up	ADP	RP	_	14	_	_	NER=O
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	NER=O
+17	position	position	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	at	at	ADP	IN	_	17	_	_	NER=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	NER=O
+20	rapporteur	rapporteur	NOUN	NN	Number=Sing	19	_	_	NER=O|SpaceAfter=No
+21	's	's	PART	POS	_	20	_	_	NER=O
+22	desk	desk	NOUN	NN	Number=Sing	21	_	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p3.s2
+# align_s = 0-0 1-1 2-1 3-2 4-3 5-5 6-7 7-8
+# align_t = 0-0 1-1 2-3 3-4 4-5 5-5 7-6 8-7 
+# source = Prosím, pane zpravodaji, máte slovo.
+# initial_translation = Please, rapporteur, you have the floor.
+# text = Please, rapporteur, you have the floor.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	rapporteur	rapporteur	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	NER=O
+6	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	floor	floor	NOUN	NN	Number=Sing	7	_	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p1.s1
+# align_s = 0-0 1-2 2-3 3-4 4-7
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-3 6-3 7-4 
+# source = Děkuji, pane místopředsedo.
+# initial_translation = Thank you, Mr. Vice-President.
+# text = Thank you, Mr. Vice-President.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	Vice	Vice	PROPN	NNP	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	NER=O|SpaceAfter=No
+7	President	President	PROPN	NNP	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p1.s2
+# align_s = 0-0 1-1 2-4 5-5 6-6 7-7 8-9 9-10 10-12 12-13 13-15 14-15 15-16 16-17 17-20 18-21 19-22 20-24 21-23 22-25 23-26 24-27 25-28 26-29 27-30
+# align_t = 0-0 1-1 4-2 5-3 6-6 7-7 8-8 9-9 12-10 13-12 14-13 15-14 16-15 17-16 20-17 21-18 22-19 23-21 24-20 25-22 26-23 27-24 28-25 29-26 30-27 
+# source = Vážení členové vlády, kolegyně, kolegové, chtěl bych konstatovat, že návrh zákona byl rozeslán poslancům jako tisk 32 dne 29. 11. 2013.
+# initial_translation = Dear Members of the Government, colleagues, I would like to say that the bill was sent out to Members as press on 32 29. 11. 2013.
+# text = Dear Members of the Government, colleagues, I would like to say that the bill was sent out to Members as press on 32 29. 11. 2013.
+1	Dear	dear	ADJ	JJ	Degree=Pos	0	_	_	NER=O
+2	Members	Member	PROPN	NNPS	Number=Plur	1	_	_	NER=O
+3	of	of	ADP	IN	_	2	_	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	NER=O
+5	Government	government	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	NER=O
+7	colleagues	colleague	NOUN	NNS	Number=Plur	6	_	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	NER=O
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	NER=O
+10	would	would	AUX	MD	VerbForm=Fin	9	_	_	NER=O
+11	like	like	VERB	VB	VerbForm=Inf	10	_	_	NER=O
+12	to	to	PART	TO	_	11	_	_	NER=O
+13	say	say	VERB	VB	VerbForm=Inf	12	_	_	NER=O
+14	that	that	SCONJ	IN	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	bill	bill	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	NER=O
+18	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	_	_	NER=O
+19	out	out	ADP	RP	_	18	_	_	NER=O
+20	to	to	ADP	IN	_	19	_	_	NER=O
+21	Members	Member	PROPN	NNPS	Number=Plur	20	_	_	NER=O
+22	as	as	ADP	IN	_	21	_	_	NER=O
+23	press	press	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	on	on	ADP	IN	_	23	_	_	NER=O
+25	32	32	NUM	CD	NumForm=Digit|NumType=Card	24	_	_	NER=O
+26	29	29	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	NER=O
+28	11	11	NUM	CD	NumForm=Digit|NumType=Card	27	_	_	NER=O|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	NER=O
+30	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p1.s3
+# align_s = 0-0 1-1 2-2 4-5 5-7 6-10 7-12 8-14 9-14 10-15 12-16 13-19 14-21 15-22 16-18 18-20 20-23 21-25 22-26 23-27 24-29 25-30 26-31 27-32 28-33 29-35 30-36 32-37 33-38 34-37 35-38 37-39 38-40 39-41 40-43 41-46 42-48 43-49
+# align_t = 0-0 1-1 2-2 3-3 5-4 6-4 7-5 10-6 12-7 13-8 14-9 15-10 16-12 17-13 18-16 20-18 21-14 22-15 23-20 25-21 26-22 27-23 29-24 30-25 31-26 32-27 33-28 35-29 36-30 37-34 38-35 39-37 40-38 41-39 43-40 46-41 48-42 49-43 
+# source = V té době ještě navrhovatel navrhoval Sněmovně projednání návrhu zákona tak, aby s ním Sněmovna vyslovila souhlas již v prvém čtení podle § 90 odst. 2 zákona č. 90/1995 Sb., o jednacím řádu Poslanecké sněmovny.
+# initial_translation = At that time, the petitioner also proposed to the House to discuss the bill so that the House would agree with it in the first reading according to § 90 para. 2 of Act No. 90/1995 Coll., on Rules of Procedure of the Chamber of Deputies.
+# text = At that time, the petitioner also proposed to the House to discuss the bill so that the House would agree with it in the first reading according to § 90 para. 2 of Act No. 90/1995 Coll., on Rules of Procedure of the Chamber of Deputies.
+1	At	at	ADP	IN	_	0	_	_	NER=O
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	NER=O
+3	time	time	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	petitioner	petitioner	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	also	also	ADV	RB	_	6	_	_	NER=O
+8	proposed	propose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	NER=O
+9	to	to	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	House	House	PROPN	NNP	Number=Sing	10	_	_	NER=B-ORG
+12	to	to	PART	TO	_	11	_	_	NER=O
+13	discuss	discuss	VERB	VB	VerbForm=Inf	12	_	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	NER=O
+15	bill	bill	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	so	so	SCONJ	IN	_	15	_	_	NER=O
+17	that	that	SCONJ	IN	_	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	House	House	PROPN	NNP	Number=Sing	18	_	_	NER=B-ORG
+20	would	would	AUX	MD	VerbForm=Fin	19	_	_	NER=O
+21	agree	agree	VERB	VB	VerbForm=Inf	20	_	_	NER=O
+22	with	with	ADP	IN	_	21	_	_	NER=O
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	NER=O
+24	in	in	ADP	IN	_	23	_	_	NER=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	NER=O
+26	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	25	_	_	NER=O
+27	reading	reading	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	according	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	27	_	_	NER=O
+29	to	to	ADP	IN	_	28	_	_	NER=O
+30	§	§	SYM	$	_	29	_	_	NER=O
+31	90	90	NUM	CD	NumForm=Digit|NumType=Card	30	_	_	NER=O
+32	para	para	NOUN	NN	Number=Sing	31	_	_	NER=O|SpaceAfter=No
+33	.	.	PUNCT	.	_	32	_	_	NER=O
+34	2	2	NUM	CD	NumForm=Digit|NumType=Card	33	_	_	NER=O
+35	of	of	ADP	IN	_	34	_	_	NER=O
+36	Act	act	NOUN	NN	Number=Sing	35	_	_	NER=O
+37	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	36	_	_	NER=O
+38	90/1995	90/1995	NUM	CD	NumForm=Digit|NumType=Card	37	_	_	NER=O
+39	Coll.	coll.	NOUN	NN	Number=Sing	38	_	_	NER=O|SpaceAfter=No
+40	,	,	PUNCT	,	_	39	_	_	NER=O
+41	on	on	ADP	IN	_	40	_	_	NER=O
+42	Rules	rule	NOUN	NNS	Number=Plur	41	_	_	NER=B-ORG
+43	of	of	ADP	IN	_	42	_	_	NER=I-ORG
+44	Procedure	Procedure	PROPN	NNP	Number=Sing	43	_	_	NER=I-ORG
+45	of	of	ADP	IN	_	44	_	_	NER=I-ORG
+46	the	the	DET	DT	Definite=Def|PronType=Art	45	_	_	NER=I-ORG
+47	Chamber	Chamber	PROPN	NNP	Number=Sing	46	_	_	NER=I-ORG
+48	of	of	ADP	IN	_	47	_	_	NER=I-ORG
+49	Deputies	Deputy	PROPN	NNPS	Number=Plur	48	_	_	NER=I-ORG|SpaceAfter=No
+50	.	.	PUNCT	.	_	49	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p1.s4
+# align_s = 1-1 2-3 3-7 4-8 5-9 6-10 7-11 8-12 9-13 10-14 12-15 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-27 23-30 24-31 25-32 26-33 27-34
+# align_t = 0-0 1-1 3-2 5-3 7-3 8-4 9-5 11-6 12-7 13-9 14-10 15-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 23-20 24-21 27-22 30-23 31-24 32-25 33-26 34-27 
+# source = Pan ministr jako navrhovatel tuto věc před chvilkou vymezil a řekl, že se má jednat o řádné projednání, to znamená postoupení zákona do druhého čtení.
+# initial_translation = The Minister, as the plaintiff, defined this matter a moment ago and said that this should be a proper discussion, that is, a referral of the law to second reading.
+# text = The Minister, as the plaintiff, defined this matter a moment ago and said that this should be a proper discussion, that is, a referral of the law to second reading.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	Minister	minister	NOUN	NN	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	as	as	ADP	IN	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	plaintiff	plaintiff	NOUN	NN	Number=Sing	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	defined	define	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	NER=O
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	NER=O
+10	matter	matter	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	NER=O
+12	moment	moment	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	ago	ago	ADV	RB	_	12	_	_	NER=O
+14	and	and	CCONJ	CC	_	13	_	_	NER=O
+15	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	NER=O
+16	that	that	SCONJ	IN	_	15	_	_	NER=O
+17	this	this	PRON	DT	Number=Sing|PronType=Dem	16	_	_	NER=O
+18	should	should	AUX	MD	VerbForm=Fin	17	_	_	NER=O
+19	be	be	AUX	VB	VerbForm=Inf	18	_	_	NER=O
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	NER=O
+21	proper	proper	ADJ	JJ	Degree=Pos	20	_	_	NER=O
+22	discussion	discussion	NOUN	NN	Number=Sing	21	_	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	NER=O
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	23	_	_	NER=O
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	NER=O|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	_	_	NER=O
+27	a	a	DET	DT	Definite=Ind|PronType=Art	26	_	_	NER=O
+28	referral	referral	NOUN	NN	Number=Sing	27	_	_	NER=O
+29	of	of	ADP	IN	_	28	_	_	NER=O
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	NER=O
+31	law	law	NOUN	NN	Number=Sing	30	_	_	NER=O
+32	to	to	ADP	IN	_	31	_	_	NER=O
+33	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	32	_	_	NER=O
+34	reading	reading	NOUN	NN	Number=Sing	33	_	_	NER=O|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p2.s1
+# align_s = 0-1 1-2 2-5 3-6 4-7 5-8 6-9 7-11 8-12 9-13 10-15 11-17 12-18 13-19 14-20 15-21 17-22 19-23 20-24 21-26 22-27 23-28 24-29 25-30 26-31 27-32 28-33 29-34
+# align_t = 1-0 2-1 5-2 6-3 7-4 8-5 9-6 11-7 12-8 13-9 15-10 17-11 18-12 19-13 20-14 21-15 22-17 23-19 24-20 26-21 27-22 28-23 29-24 30-25 31-26 32-27 33-28 34-29 
+# source = Současné znění zákona je velmi benevolentní a podmínky pro získání statusu válečného veterána, který je, či by měl být velmi prestižním oceněním, jsou nastaveny velmi mírně.
+# initial_translation = The current wording of the law is very benevolent and the conditions for obtaining the status of war veteran, which is or should be a very prestigious award, are set very slightly.
+# text = The current wording of the law is very benevolent and the conditions for obtaining the status of war veteran, which is or should be a very prestigious award, are set very slightly.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	current	current	ADJ	JJ	Degree=Pos	1	_	_	NER=O
+3	wording	wording	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	of	of	ADP	IN	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	law	law	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	very	very	ADV	RB	_	7	_	_	NER=O
+9	benevolent	benevolent	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	and	and	CCONJ	CC	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	conditions	condition	NOUN	NNS	Number=Plur	11	_	_	NER=O
+13	for	for	SCONJ	IN	_	12	_	_	NER=O
+14	obtaining	obtain	VERB	VBG	VerbForm=Ger	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	status	status	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	of	of	ADP	IN	_	16	_	_	NER=O
+18	war	war	NOUN	NN	Number=Sing	17	_	_	NER=O
+19	veteran	veteran	NOUN	NN	Number=Sing	18	_	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	NER=O
+21	which	which	PRON	WDT	PronType=Rel	20	_	_	NER=O
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	NER=O
+23	or	or	CCONJ	CC	_	22	_	_	NER=O
+24	should	should	AUX	MD	VerbForm=Fin	23	_	_	NER=O
+25	be	be	AUX	VB	VerbForm=Inf	24	_	_	NER=O
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	NER=O
+27	very	very	ADV	RB	_	26	_	_	NER=O
+28	prestigious	prestigious	ADJ	JJ	Degree=Pos	27	_	_	NER=O
+29	award	award	NOUN	NN	Number=Sing	28	_	_	NER=O|SpaceAfter=No
+30	,	,	PUNCT	,	_	29	_	_	NER=O
+31	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	_	_	NER=O
+32	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	_	_	NER=O
+33	very	very	ADV	RB	_	32	_	_	NER=O
+34	slightly	slightly	ADV	RB	_	33	_	_	NER=O|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p2.s2
+# align_s = 0-2 3-5 8-4 9-5 10-6 11-7 12-8 13-9 14-12 15-15 16-16 18-25 19-26 20-28 21-29 22-30 23-32 24-33 25-35 26-36 27-37 28-38 29-40 30-42 31-43 32-18 33-19 34-22 35-24 36-20 37-21 38-44
+# align_t = 0-0 1-1 2-0 3-5 4-8 5-9 6-10 7-11 8-12 9-13 12-14 15-15 16-16 17-17 18-32 19-33 20-36 21-37 22-34 24-35 25-18 26-19 28-20 29-21 30-22 32-23 33-24 35-25 36-26 37-27 38-28 40-29 42-30 43-31 44-38 
+# source = Důsledkem toho by mohlo být, že právě tato prestiž, či morální hodnota statusu válečného veterána by s ohledem na enormní množství osob splňujících mírně nastavené podmínky pro vznik tohoto postavení mohla být v budoucnu zcela devalvována.
+# initial_translation = As a result, this prestige, or moral value of the status of a war veteran, could be completely devalued in the future in view of the enormous number of persons meeting the slightly set conditions for the emergence of this position.
+# text = As a result, this prestige, or moral value of the status of a war veteran, could be completely devalued in the future in view of the enormous number of persons meeting the slightly set conditions for the emergence of this position.
+1	As	as	ADP	IN	_	0	_	_	NER=O
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	NER=O
+3	result	result	NOUN	NN	Number=Sing	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	NER=O
+6	prestige	prestige	NOUN	NN	Number=Sing	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	or	or	CCONJ	CC	_	7	_	_	NER=O
+9	moral	moral	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	value	value	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	of	of	ADP	IN	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	status	status	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	NER=O
+16	war	war	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	veteran	veteran	NOUN	NN	Number=Sing	16	_	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	could	could	AUX	MD	VerbForm=Fin	18	_	_	NER=O
+20	be	be	AUX	VB	VerbForm=Inf	19	_	_	NER=O
+21	completely	completely	ADV	RB	_	20	_	_	NER=O
+22	devalued	devalue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	_	_	NER=O
+23	in	in	ADP	IN	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	future	future	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	in	in	ADP	IN	_	25	_	_	NER=O
+27	view	view	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	of	of	ADP	IN	_	27	_	_	NER=O
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	NER=O
+30	enormous	enormous	ADJ	JJ	Degree=Pos	29	_	_	NER=O
+31	number	number	NOUN	NN	Number=Sing	30	_	_	NER=O
+32	of	of	ADP	IN	_	31	_	_	NER=O
+33	persons	person	NOUN	NNS	Number=Plur	32	_	_	NER=O
+34	meeting	meet	VERB	VBG	VerbForm=Ger	33	_	_	NER=O
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	NER=O
+36	slightly	slightly	ADV	RB	_	35	_	_	NER=O
+37	set	set	VERB	VBN	Tense=Past|VerbForm=Part	36	_	_	NER=O
+38	conditions	condition	NOUN	NNS	Number=Plur	37	_	_	NER=O
+39	for	for	ADP	IN	_	38	_	_	NER=O
+40	the	the	DET	DT	Definite=Def|PronType=Art	39	_	_	NER=O
+41	emergence	emergence	NOUN	NN	Number=Sing	40	_	_	NER=O
+42	of	of	ADP	IN	_	41	_	_	NER=O
+43	this	this	DET	DT	Number=Sing|PronType=Dem	42	_	_	NER=O
+44	position	position	NOUN	NN	Number=Sing	43	_	_	NER=O|SpaceAfter=No
+45	.	.	PUNCT	.	_	44	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p2.s3
+# align_s = 0-0 1-10 2-10 3-9 4-1 5-3 6-4 7-7 8-8 9-11 11-13 12-15 13-16 14-17 15-20 16-21 17-22 18-24 19-27 20-28 21-29 22-31 23-33 24-34 25-35 26-36 27-37 29-38 30-39 31-40 32-41 33-42 34-43 35-44 36-45 37-46 38-47 39-48 40-49 41-50 42-51 43-54 44-55 45-58 46-59 47-60 48-61 49-62 50-63 53-64 54-65 55-67 56-68 57-69 58-71 59-73 60-75 61-76 62-77 63-78 64-79 65-80 66-81 68-82 69-83 70-84 71-85 72-86 73-87 74-88 75-89 76-90 77-92 78-93 79-95 80-96 81-97 82-98
+# align_t = 0-0 1-4 3-5 4-6 7-7 8-8 9-3 10-1 11-2 12-9 13-11 14-12 15-12 16-13 17-14 20-15 21-16 22-17 24-18 27-19 28-20 29-21 31-22 33-23 34-24 35-25 36-26 37-27 38-29 39-30 40-31 41-32 42-33 43-34 44-35 45-36 46-37 47-38 48-39 49-40 50-41 51-42 54-43 55-44 58-45 59-46 60-47 61-48 62-49 63-50 64-53 65-54 67-55 68-56 69-57 71-58 73-59 75-60 76-61 77-62 78-63 79-64 80-65 81-66 82-68 83-69 84-70 85-71 86-72 87-73 88-74 89-75 90-76 92-77 93-78 95-79 96-80 97-81 98-82 
+# source = V současné době jsou navíc státní občané České republiky vysíláni do zahraničí nejen jako příslušníci ozbrojených sil nebo Policie České republiky za účelem obrany nebo vynucení míru, k obraně a obnově demokracie, svobod a demokratických hodnot, ale také jako zaměstnanci organizačních složek státu či jiných bezpečnostních sborů, a to za účelem poskytování pomoci při rekonstrukci struktur státní správy a hospodářství v nestabilních oblastech v zahraničí nebo do pozorovatelských misí v určených oblastech s vyšším rizikem újmy na zdraví.
+# initial_translation = In addition, state citizens of the Czech Republic are currently being sent abroad not only as members of the armed forces or the Police of the Czech Republic for the purpose of defending or forcing peace, defending and restoring democracy, freedoms and democratic values, but also as employees of the organisational units of the state or other security forces, in order to provide assistance in the reconstruction of structures of state administration and economy in unstable areas abroad or in observation missions in designated areas with a higher risk of injury to health.
+# text = In addition, state citizens of the Czech Republic are currently being sent abroad not only as members of the armed forces or the Police of the Czech Republic for the purpose of defending or forcing peace, defending and restoring democracy, freedoms and democratic values, but also as employees of the organisational units of the state or other security forces, in order to provide assistance in the reconstruction of structures of state administration and economy in unstable areas abroad or in observation missions in designated areas with a higher risk of injury to health.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	addition	addition	NOUN	NN	Number=Sing	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	state	state	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	citizens	citizen	NOUN	NNS	Number=Plur	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	Czech	Czech	ADJ	NNP	Degree=Pos	7	_	_	NER=B-LOC
+9	Republic	Republic	PROPN	NNP	Number=Sing	8	_	_	NER=I-LOC
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	NER=O
+11	currently	currently	ADV	RB	_	10	_	_	NER=O
+12	being	be	AUX	VBG	VerbForm=Ger	11	_	_	NER=O
+13	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	NER=O
+14	abroad	abroad	ADV	RB	_	13	_	_	NER=O
+15	not	not	PART	RB	_	14	_	_	NER=O
+16	only	only	ADV	RB	_	15	_	_	NER=O
+17	as	as	ADP	IN	_	16	_	_	NER=O
+18	members	member	NOUN	NNS	Number=Plur	17	_	_	NER=O
+19	of	of	ADP	IN	_	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	armed	armed	ADJ	JJ	Degree=Pos	20	_	_	NER=O
+22	forces	force	NOUN	NNS	Number=Plur	21	_	_	NER=O
+23	or	or	CCONJ	CC	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	Police	Police	PROPN	NNP	Number=Sing	24	_	_	NER=B-ORG
+26	of	of	ADP	IN	_	25	_	_	NER=I-ORG
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	NER=I-ORG
+28	Czech	Czech	ADJ	NNP	Degree=Pos	27	_	_	NER=B-LOC
+29	Republic	Republic	PROPN	NNP	Number=Sing	28	_	_	NER=I-LOC
+30	for	for	ADP	IN	_	29	_	_	NER=O
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	NER=O
+32	purpose	purpose	NOUN	NN	Number=Sing	31	_	_	NER=O
+33	of	of	SCONJ	IN	_	32	_	_	NER=O
+34	defending	defend	VERB	VBG	VerbForm=Ger	33	_	_	NER=O
+35	or	or	CCONJ	CC	_	34	_	_	NER=O
+36	forcing	force	VERB	VBG	VerbForm=Ger	35	_	_	NER=O
+37	peace	peace	NOUN	NN	Number=Sing	36	_	_	NER=O|SpaceAfter=No
+38	,	,	PUNCT	,	_	37	_	_	NER=O
+39	defending	defend	VERB	VBG	VerbForm=Ger	38	_	_	NER=O
+40	and	and	CCONJ	CC	_	39	_	_	NER=O
+41	restoring	restore	VERB	VBG	VerbForm=Ger	40	_	_	NER=O
+42	democracy	democracy	NOUN	NN	Number=Sing	41	_	_	NER=O|SpaceAfter=No
+43	,	,	PUNCT	,	_	42	_	_	NER=O
+44	freedoms	freedom	NOUN	NNS	Number=Plur	43	_	_	NER=O
+45	and	and	CCONJ	CC	_	44	_	_	NER=O
+46	democratic	democratic	ADJ	JJ	Degree=Pos	45	_	_	NER=O
+47	values	value	NOUN	NNS	Number=Plur	46	_	_	NER=O|SpaceAfter=No
+48	,	,	PUNCT	,	_	47	_	_	NER=O
+49	but	but	CCONJ	CC	_	48	_	_	NER=O
+50	also	also	ADV	RB	_	49	_	_	NER=O
+51	as	as	ADP	IN	_	50	_	_	NER=O
+52	employees	employee	NOUN	NNS	Number=Plur	51	_	_	NER=O
+53	of	of	ADP	IN	_	52	_	_	NER=O
+54	the	the	DET	DT	Definite=Def|PronType=Art	53	_	_	NER=O
+55	organisational	organisational	ADJ	JJ	Degree=Pos	54	_	_	NER=O
+56	units	unit	NOUN	NNS	Number=Plur	55	_	_	NER=O
+57	of	of	ADP	IN	_	56	_	_	NER=O
+58	the	the	DET	DT	Definite=Def|PronType=Art	57	_	_	NER=O
+59	state	state	NOUN	NN	Number=Sing	58	_	_	NER=O
+60	or	or	CCONJ	CC	_	59	_	_	NER=O
+61	other	other	ADJ	JJ	Degree=Pos	60	_	_	NER=O
+62	security	security	NOUN	NN	Number=Sing	61	_	_	NER=O
+63	forces	force	NOUN	NNS	Number=Plur	62	_	_	NER=O|SpaceAfter=No
+64	,	,	PUNCT	,	_	63	_	_	NER=O
+65	in	in	SCONJ	IN	_	64	_	_	NER=O
+66	order	order	NOUN	NN	Number=Sing	65	_	_	NER=O
+67	to	to	PART	TO	_	66	_	_	NER=O
+68	provide	provide	VERB	VB	VerbForm=Inf	67	_	_	NER=O
+69	assistance	assistance	NOUN	NN	Number=Sing	68	_	_	NER=O
+70	in	in	ADP	IN	_	69	_	_	NER=O
+71	the	the	DET	DT	Definite=Def|PronType=Art	70	_	_	NER=O
+72	reconstruction	reconstruction	NOUN	NN	Number=Sing	71	_	_	NER=O
+73	of	of	ADP	IN	_	72	_	_	NER=O
+74	structures	structure	NOUN	NNS	Number=Plur	73	_	_	NER=O
+75	of	of	ADP	IN	_	74	_	_	NER=O
+76	state	state	NOUN	NN	Number=Sing	75	_	_	NER=O
+77	administration	administration	NOUN	NN	Number=Sing	76	_	_	NER=O
+78	and	and	CCONJ	CC	_	77	_	_	NER=O
+79	economy	economy	NOUN	NN	Number=Sing	78	_	_	NER=O
+80	in	in	ADP	IN	_	79	_	_	NER=O
+81	unstable	unstable	ADJ	JJ	Degree=Pos	80	_	_	NER=O
+82	areas	area	NOUN	NNS	Number=Plur	81	_	_	NER=O
+83	abroad	abroad	ADV	RB	_	82	_	_	NER=O
+84	or	or	CCONJ	CC	_	83	_	_	NER=O
+85	in	in	ADP	IN	_	84	_	_	NER=O
+86	observation	observation	NOUN	NN	Number=Sing	85	_	_	NER=O
+87	missions	mission	NOUN	NNS	Number=Plur	86	_	_	NER=O
+88	in	in	ADP	IN	_	87	_	_	NER=O
+89	designated	designate	VERB	VBN	Tense=Past|VerbForm=Part	88	_	_	NER=O
+90	areas	area	NOUN	NNS	Number=Plur	89	_	_	NER=O
+91	with	with	ADP	IN	_	90	_	_	NER=O
+92	a	a	DET	DT	Definite=Ind|PronType=Art	91	_	_	NER=O
+93	higher	high	ADJ	JJR	Degree=Cmp	92	_	_	NER=O
+94	risk	risk	NOUN	NN	Number=Sing	93	_	_	NER=O
+95	of	of	ADP	IN	_	94	_	_	NER=O
+96	injury	injury	NOUN	NN	Number=Sing	95	_	_	NER=O
+97	to	to	ADP	IN	_	96	_	_	NER=O
+98	health	health	NOUN	NN	Number=Sing	97	_	_	NER=O|SpaceAfter=No
+99	.	.	PUNCT	.	_	98	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p3.s1
+# align_s = 0-1 1-2 2-7 4-5 5-6 6-8 7-9 8-10 9-11 10-12 11-13 13-14 14-15 15-16 16-17 17-19 18-20 20-22 21-25 22-26 24-27 25-28 26-30 27-31 28-32 29-34 30-37 31-38 32-39 33-41 34-43 35-45 36-46 37-48 38-49 39-50 40-51 41-53 42-54 43-56 44-57 45-58 48-59 49-60 51-61 52-62 53-63 54-64
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-5 8-6 9-7 10-8 11-9 12-10 13-11 14-13 15-14 16-15 17-16 19-17 20-18 21-19 22-20 25-21 26-22 27-24 28-25 30-26 31-27 32-28 34-29 37-30 38-31 39-32 41-33 43-34 45-35 46-36 47-37 48-37 49-38 50-39 51-40 53-41 54-42 56-43 57-44 58-45 59-47 60-49 61-51 62-52 63-53 64-54 
+# source = Původním cílem zákona o válečných veteránech, který nabyl účinnosti dne 30. dubna 2002, bylo morálně ocenit státní občany České republiky, kteří splňovali podmínky pro získání postavení válečného veterána, podporovat činnost občanských sdružení sdružujících válečné veterány a poskytovat jim péči a za tím účelem zřizovat domovy péče o válečné veterány.
+# initial_translation = The original aim of the War Veterans Act, which took effect on 30 April 2002, was to morally appreciate the citizens of the Czech Republic who fulfilled the conditions for obtaining the status of a war veteran, to support the activities of civil associations bringing together war veterans and to provide them with care and to establish homes for war veterans.
+# text = The original aim of the War Veterans Act, which took effect on 30 April 2002, was to morally appreciate the citizens of the Czech Republic who fulfilled the conditions for obtaining the status of a war veteran, to support the activities of civil associations bringing together war veterans and to provide them with care and to establish homes for war veterans.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	original	original	ADJ	JJ	Degree=Pos	1	_	_	NER=O
+3	aim	aim	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	of	of	ADP	IN	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	War	War	PROPN	NNP	Number=Sing	5	_	_	NER=B-MISC
+7	Veterans	Veteran	PROPN	NNPS	Number=Plur	6	_	_	NER=I-MISC
+8	Act	Act	PROPN	NNP	Number=Sing	7	_	_	NER=I-MISC|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	which	which	PRON	WDT	PronType=Rel	9	_	_	NER=O
+11	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	NER=O
+12	effect	effect	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	on	on	ADP	IN	_	12	_	_	NER=O
+14	30	30	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	NER=O
+15	April	April	PROPN	NNP	Number=Sing	14	_	_	NER=O
+16	2002	2002	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	NER=O
+18	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	NER=O
+19	to	to	PART	TO	_	18	_	_	NER=O
+20	morally	morally	ADV	RB	_	19	_	_	NER=O
+21	appreciate	appreciate	VERB	VB	VerbForm=Inf	20	_	_	NER=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	NER=O
+23	citizens	citizen	NOUN	NNS	Number=Plur	22	_	_	NER=O
+24	of	of	ADP	IN	_	23	_	_	NER=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	NER=O
+26	Czech	Czech	ADJ	NNP	Degree=Pos	25	_	_	NER=B-LOC
+27	Republic	Republic	PROPN	NNP	Number=Sing	26	_	_	NER=I-LOC
+28	who	who	PRON	WP	PronType=Rel	27	_	_	NER=O
+29	fulfilled	fulfil	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	_	_	NER=O
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	NER=O
+31	conditions	condition	NOUN	NNS	Number=Plur	30	_	_	NER=O
+32	for	for	SCONJ	IN	_	31	_	_	NER=O
+33	obtaining	obtain	VERB	VBG	VerbForm=Ger	32	_	_	NER=O
+34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	NER=O
+35	status	status	NOUN	NN	Number=Sing	34	_	_	NER=O
+36	of	of	ADP	IN	_	35	_	_	NER=O
+37	a	a	DET	DT	Definite=Ind|PronType=Art	36	_	_	NER=O
+38	war	war	NOUN	NN	Number=Sing	37	_	_	NER=O
+39	veteran	veteran	NOUN	NN	Number=Sing	38	_	_	NER=O|SpaceAfter=No
+40	,	,	PUNCT	,	_	39	_	_	NER=O
+41	to	to	PART	TO	_	40	_	_	NER=O
+42	support	support	VERB	VB	VerbForm=Inf	41	_	_	NER=O
+43	the	the	DET	DT	Definite=Def|PronType=Art	42	_	_	NER=O
+44	activities	activity	NOUN	NNS	Number=Plur	43	_	_	NER=O
+45	of	of	ADP	IN	_	44	_	_	NER=O
+46	civil	civil	ADJ	JJ	Degree=Pos	45	_	_	NER=O
+47	associations	association	NOUN	NNS	Number=Plur	46	_	_	NER=O
+48	bringing	bring	VERB	VBG	VerbForm=Ger	47	_	_	NER=O
+49	together	together	ADV	RB	_	48	_	_	NER=O
+50	war	war	NOUN	NN	Number=Sing	49	_	_	NER=O
+51	veterans	veteran	NOUN	NNS	Number=Plur	50	_	_	NER=O
+52	and	and	CCONJ	CC	_	51	_	_	NER=O
+53	to	to	PART	TO	_	52	_	_	NER=O
+54	provide	provide	VERB	VB	VerbForm=Inf	53	_	_	NER=O
+55	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	54	_	_	NER=O
+56	with	with	ADP	IN	_	55	_	_	NER=O
+57	care	care	NOUN	NN	Number=Sing	56	_	_	NER=O
+58	and	and	CCONJ	CC	_	57	_	_	NER=O
+59	to	to	PART	TO	_	58	_	_	NER=O
+60	establish	establish	VERB	VB	VerbForm=Inf	59	_	_	NER=O
+61	homes	home	NOUN	NNS	Number=Plur	60	_	_	NER=O
+62	for	for	ADP	IN	_	61	_	_	NER=O
+63	war	war	NOUN	NN	Number=Sing	62	_	_	NER=O
+64	veterans	veteran	NOUN	NNS	Number=Plur	63	_	_	NER=O|SpaceAfter=No
+65	.	.	PUNCT	.	_	64	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p3.s2
+# align_s = 0-0 1-1 2-2 3-3 4-5 5-10 7-8 8-9 9-11 11-12 12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-22 20-25 21-26 25-27 26-29 27-30 28-31 29-33 30-35 31-37 32-39 33-40 34-41 35-42 36-43 37-44
+# align_t = 1-1 2-2 3-3 5-4 7-6 8-7 9-8 10-5 11-9 12-11 13-12 14-13 15-14 16-15 17-16 18-17 19-18 21-19 22-19 25-20 26-21 27-23 28-24 29-7 30-8 31-28 33-29 34-34 35-30 37-31 39-32 40-33 42-35 43-36 44-37 
+# source = Dosavadní zkušenosti získané při realizaci zákona o válečných veteránech potvrzují, že jeho přijetí bylo velmi potřebné, protože kromě morálního ocenění, kterého se válečným veteránům dostává, zákon umožňuje ministerstvu poskytovat jim též náležitou péči.
+# initial_translation = The experience gained in the implementation of the War Veterans Act confirms that its adoption was very necessary, because, in addition to the moral appreciation given to war veterans, the law also allows the Ministry to provide them with appropriate care.
+# text = The experience gained in the implementation of the War Veterans Act confirms that its adoption was very necessary, because, in addition to the moral appreciation given to war veterans, the law also allows the Ministry to provide them with appropriate care.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	experience	experience	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	gained	gain	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	NER=O
+4	in	in	ADP	IN	_	3	_	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	NER=O
+6	implementation	implementation	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	of	of	ADP	IN	_	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	War	War	PROPN	NNP	Number=Sing	8	_	_	NER=B-ORG
+10	Veterans	Veteran	PROPN	NNPS	Number=Plur	9	_	_	NER=I-ORG
+11	Act	Act	PROPN	NNP	Number=Sing	10	_	_	NER=I-ORG
+12	confirms	confirm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	NER=O
+13	that	that	SCONJ	IN	_	12	_	_	NER=O
+14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	NER=O
+15	adoption	adoption	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	NER=O
+17	very	very	ADV	RB	_	16	_	_	NER=O
+18	necessary	necessary	ADJ	JJ	Degree=Pos	17	_	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	NER=O
+20	because	because	SCONJ	IN	_	19	_	_	NER=O|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	NER=O
+22	in	in	ADP	IN	_	21	_	_	NER=O
+23	addition	addition	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	to	to	ADP	IN	_	23	_	_	NER=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	NER=O
+26	moral	moral	ADJ	JJ	Degree=Pos	25	_	_	NER=O
+27	appreciation	appreciation	NOUN	NN	Number=Sing	26	_	_	NER=O
+28	given	give	VERB	VBN	Tense=Past|VerbForm=Part	27	_	_	NER=O
+29	to	to	ADP	IN	_	28	_	_	NER=O
+30	war	war	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	veterans	veteran	NOUN	NNS	Number=Plur	30	_	_	NER=O|SpaceAfter=No
+32	,	,	PUNCT	,	_	31	_	_	NER=O
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	NER=O
+34	law	law	NOUN	NN	Number=Sing	33	_	_	NER=O
+35	also	also	ADV	RB	_	34	_	_	NER=O
+36	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	_	_	NER=O
+37	the	the	DET	DT	Definite=Def|PronType=Art	36	_	_	NER=O
+38	Ministry	Ministry	PROPN	NNP	Number=Sing	37	_	_	NER=O
+39	to	to	PART	TO	_	38	_	_	NER=O
+40	provide	provide	VERB	VB	VerbForm=Inf	39	_	_	NER=O
+41	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	40	_	_	NER=O
+42	with	with	ADP	IN	_	41	_	_	NER=O
+43	appropriate	appropriate	ADJ	JJ	Degree=Pos	42	_	_	NER=O
+44	care	care	NOUN	NN	Number=Sing	43	_	_	NER=O|SpaceAfter=No
+45	.	.	PUNCT	.	_	44	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p3.s3
+# align_s = 0-0 1-2 2-3 4-5 5-10 7-8 8-9 9-13 10-14 11-16 13-17 14-18 15-20 16-19 17-20 18-21 19-20 20-22 21-23 22-24 23-26 24-27 25-28 26-29 27-31 28-32 29-33 30-34 31-35 32-36 33-37 34-38 35-39 36-41 37-42 38-43 39-44 40-45 41-46 42-47
+# align_t = 1-0 2-1 3-2 5-4 7-6 8-7 9-8 10-5 13-9 14-10 16-11 17-13 18-14 19-16 20-15 21-18 22-19 23-20 24-22 25-23 27-24 28-25 29-26 31-27 32-28 33-29 34-30 35-31 36-32 37-33 38-34 39-35 41-36 42-37 43-38 44-39 45-40 46-41 47-42 
+# source = V současné podobě již však zákon o válečných veteránech plně nereflektuje skutečnost, že je Armáda České republiky v plném rozsahu profesionalizována a dochází k pravidelné rotaci jejích příslušníků vysílaných do operací na vynucení míru či dosažení jiných dohod v zahraničních misích.
+# initial_translation = In its current form, however, the War Veterans Act does not fully reflect the fact that the Czech Army is fully professionalised and there is a regular rotation of its members sent into operations to force peace or to reach other agreements in foreign missions.
+# text = In its current form, however, the War Veterans Act does not fully reflect the fact that the Czech Army is fully professionalised and there is a regular rotation of its members sent into operations to force peace or to reach other agreements in foreign missions.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	NER=O
+3	current	current	ADJ	JJ	Degree=Pos	2	_	_	NER=O
+4	form	form	NOUN	NN	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	however	however	ADV	RB	_	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	War	War	PROPN	NNP	Number=Sing	8	_	_	NER=B-MISC
+10	Veterans	Veteran	PROPN	NNPS	Number=Plur	9	_	_	NER=I-MISC
+11	Act	Act	PROPN	NNP	Number=Sing	10	_	_	NER=I-MISC
+12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	NER=O
+13	not	not	PART	RB	_	12	_	_	NER=O
+14	fully	fully	ADV	RB	_	13	_	_	NER=O
+15	reflect	reflect	VERB	VB	VerbForm=Inf	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	fact	fact	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	that	that	SCONJ	IN	_	17	_	_	NER=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	NER=O
+20	Czech	Czech	ADJ	NNP	Degree=Pos	19	_	_	NER=B-ORG
+21	Army	Army	PROPN	NNP	Number=Sing	20	_	_	NER=I-ORG
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	NER=O
+23	fully	fully	ADV	RB	_	22	_	_	NER=O
+24	professionalised	professionalise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	_	_	NER=O
+25	and	and	CCONJ	CC	_	24	_	_	NER=O
+26	there	there	PRON	EX	_	25	_	_	NER=O
+27	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	NER=O
+28	a	a	DET	DT	Definite=Ind|PronType=Art	27	_	_	NER=O
+29	regular	regular	ADJ	JJ	Degree=Pos	28	_	_	NER=O
+30	rotation	rotation	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	of	of	ADP	IN	_	30	_	_	NER=O
+32	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	_	_	NER=O
+33	members	member	NOUN	NNS	Number=Plur	32	_	_	NER=O
+34	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	33	_	_	NER=O
+35	into	into	ADP	IN	_	34	_	_	NER=O
+36	operations	operation	NOUN	NNS	Number=Plur	35	_	_	NER=O
+37	to	to	PART	TO	_	36	_	_	NER=O
+38	force	force	VERB	VB	VerbForm=Inf	37	_	_	NER=O
+39	peace	peace	NOUN	NN	Number=Sing	38	_	_	NER=O
+40	or	or	CCONJ	CC	_	39	_	_	NER=O
+41	to	to	PART	TO	_	40	_	_	NER=O
+42	reach	reach	VERB	VB	VerbForm=Inf	41	_	_	NER=O
+43	other	other	ADJ	JJ	Degree=Pos	42	_	_	NER=O
+44	agreements	agreement	NOUN	NNS	Number=Plur	43	_	_	NER=O
+45	in	in	ADP	IN	_	44	_	_	NER=O
+46	foreign	foreign	ADJ	JJ	Degree=Pos	45	_	_	NER=O
+47	missions	mission	NOUN	NNS	Number=Plur	46	_	_	NER=O|SpaceAfter=No
+48	.	.	PUNCT	.	_	47	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p4.s1
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-9 7-10 8-12 9-13 10-14 12-16 13-18 14-20 15-21 16-22 17-24 18-27 19-28 22-30 23-31 25-32 26-33 27-34 28-35 29-36 30-38 31-39 32-40 33-42 34-43 35-46 36-45 37-48 38-49 39-51 40-52 41-53 42-56 43-57 44-59 45-60 46-61 47-62 48-63 49-64 50-66 51-68 52-70 53-73 54-74 55-75 56-76 57-79 58-82 59-82 60-84 61-87 62-88 64-89 65-90 66-91 67-93 68-96 69-97 70-98 71-99 73-100 74-102 75-103 76-105 77-108 78-110 80-111 81-112 82-114 83-115 84-117 85-118 86-119 87-120 88-121
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 9-6 10-7 12-8 13-9 14-10 15-12 16-12 18-13 20-14 21-15 22-16 24-17 27-18 28-19 29-20 30-23 31-22 32-25 33-26 34-27 35-28 36-29 38-30 39-31 40-32 41-32 42-33 43-34 44-35 45-36 46-37 48-37 49-38 51-39 52-40 53-41 56-42 59-43 60-44 62-47 63-48 64-49 66-50 68-51 70-52 73-53 74-54 76-55 77-56 79-57 82-58 84-60 87-61 88-62 89-64 90-65 91-66 93-67 96-68 97-69 98-70 99-71 100-73 102-74 103-75 105-76 108-77 110-78 111-79 112-81 113-81 114-82 115-83 117-84 118-85 119-86 120-87 121-88 
+# source = Dámy a pánové, pokud shrnu základní cíle tohoto zákona, pak kromě zpřísnění předpokladů pro získání statutu válečného veterána tak, aby byla zachována jeho morální hodnota, je to rozlišení misí dle míry jejich nebezpečnosti a v té souvislosti stanovení odlišného časového úseku výkonu služby nutného k možnosti získání statutu veterána, jakož i rozšíření okruhu státních občanů České republiky, kteří mohou získat statut válečného veterána, též o osoby civilní a rozšíření okruhu osob, jež lze přijmout do domova pro válečné veterány.
+# initial_translation = Ladies and gentlemen, if I sum up the basic objectives of this law, in addition to tightening the assumptions for obtaining the status of a war veteran in order to preserve his moral value, it is a distinction between missions according to their level of hazard and, in that context, the determination of a different period of service necessary for the possibility of obtaining the status of a veteran, as well as the extension of the circle of nationals of the Czech Republic who can obtain the status of a war veteran, including persons of civil and the extension of the circle of persons who can be admitted to the home for war veterans.
+# text = Ladies and gentlemen, if I sum up the basic objectives of this law, in addition to tightening the assumptions for obtaining the status of a war veteran in order to preserve his moral value, it is a distinction between missions according to their level of hazard and, in that context, the determination of a different period of service necessary for the possibility of obtaining the status of a veteran, as well as the extension of the circle of nationals of the Czech Republic who can obtain the status of a war veteran, including persons of civil and the extension of the circle of persons who can be admitted to the home for war veterans.
+1	Ladies	lady	NOUN	NNS	Number=Plur	0	_	_	NER=O
+2	and	and	CCONJ	CC	_	1	_	_	NER=O
+3	gentlemen	gentleman	NOUN	NNS	Number=Plur	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	if	if	SCONJ	IN	_	4	_	_	NER=O
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	NER=O
+7	sum	sum	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	up	up	ADP	RP	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	basic	basic	ADJ	JJ	Degree=Pos	9	_	_	NER=O
+11	objectives	objective	NOUN	NNS	Number=Plur	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	this	this	DET	DT	Number=Sing|PronType=Dem	12	_	_	NER=O
+14	law	law	NOUN	NN	Number=Sing	13	_	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	NER=O
+16	in	in	ADP	IN	_	15	_	_	NER=O
+17	addition	addition	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	to	to	SCONJ	IN	_	17	_	_	NER=O
+19	tightening	tighten	VERB	VBG	VerbForm=Ger	18	_	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	NER=O
+21	assumptions	assumption	NOUN	NNS	Number=Plur	20	_	_	NER=O
+22	for	for	SCONJ	IN	_	21	_	_	NER=O
+23	obtaining	obtain	VERB	VBG	VerbForm=Ger	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	status	status	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	of	of	ADP	IN	_	25	_	_	NER=O
+27	a	a	DET	DT	Definite=Ind|PronType=Art	26	_	_	NER=O
+28	war	war	NOUN	NN	Number=Sing	27	_	_	NER=O
+29	veteran	veteran	NOUN	NN	Number=Sing	28	_	_	NER=O
+30	in	in	SCONJ	IN	_	29	_	_	NER=O
+31	order	order	NOUN	NN	Number=Sing	30	_	_	NER=O
+32	to	to	PART	TO	_	31	_	_	NER=O
+33	preserve	preserve	VERB	VB	VerbForm=Inf	32	_	_	NER=O
+34	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	_	_	NER=O
+35	moral	moral	ADJ	JJ	Degree=Pos	34	_	_	NER=O
+36	value	value	NOUN	NN	Number=Sing	35	_	_	NER=O|SpaceAfter=No
+37	,	,	PUNCT	,	_	36	_	_	NER=O
+38	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	_	_	NER=O
+39	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	_	_	NER=O
+40	a	a	DET	DT	Definite=Ind|PronType=Art	39	_	_	NER=O
+41	distinction	distinction	NOUN	NN	Number=Sing	40	_	_	NER=O
+42	between	between	ADP	IN	_	41	_	_	NER=O
+43	missions	mission	NOUN	NNS	Number=Plur	42	_	_	NER=O
+44	according	accord	VERB	VBG	VerbForm=Ger	43	_	_	NER=O
+45	to	to	ADP	IN	_	44	_	_	NER=O
+46	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	_	_	NER=O
+47	level	level	NOUN	NN	Number=Sing	46	_	_	NER=O
+48	of	of	ADP	IN	_	47	_	_	NER=O
+49	hazard	hazard	NOUN	NN	Number=Sing	48	_	_	NER=O
+50	and	and	CCONJ	CC	_	49	_	_	NER=O|SpaceAfter=No
+51	,	,	PUNCT	,	_	50	_	_	NER=O
+52	in	in	ADP	IN	_	51	_	_	NER=O
+53	that	that	DET	DT	Number=Sing|PronType=Dem	52	_	_	NER=O
+54	context	context	NOUN	NN	Number=Sing	53	_	_	NER=O|SpaceAfter=No
+55	,	,	PUNCT	,	_	54	_	_	NER=O
+56	the	the	DET	DT	Definite=Def|PronType=Art	55	_	_	NER=O
+57	determination	determination	NOUN	NN	Number=Sing	56	_	_	NER=O
+58	of	of	ADP	IN	_	57	_	_	NER=O
+59	a	a	DET	DT	Definite=Ind|PronType=Art	58	_	_	NER=O
+60	different	different	ADJ	JJ	Degree=Pos	59	_	_	NER=O
+61	period	period	NOUN	NN	Number=Sing	60	_	_	NER=O
+62	of	of	ADP	IN	_	61	_	_	NER=O
+63	service	service	NOUN	NN	Number=Sing	62	_	_	NER=O
+64	necessary	necessary	ADJ	JJ	Degree=Pos	63	_	_	NER=O
+65	for	for	ADP	IN	_	64	_	_	NER=O
+66	the	the	DET	DT	Definite=Def|PronType=Art	65	_	_	NER=O
+67	possibility	possibility	NOUN	NN	Number=Sing	66	_	_	NER=O
+68	of	of	SCONJ	IN	_	67	_	_	NER=O
+69	obtaining	obtain	VERB	VBG	VerbForm=Ger	68	_	_	NER=O
+70	the	the	DET	DT	Definite=Def|PronType=Art	69	_	_	NER=O
+71	status	status	NOUN	NN	Number=Sing	70	_	_	NER=O
+72	of	of	ADP	IN	_	71	_	_	NER=O
+73	a	a	DET	DT	Definite=Ind|PronType=Art	72	_	_	NER=O
+74	veteran	veteran	NOUN	NN	Number=Sing	73	_	_	NER=O|SpaceAfter=No
+75	,	,	PUNCT	,	_	74	_	_	NER=O
+76	as	as	ADV	RB	ExtPos=CCONJ	75	_	_	NER=O
+77	well	well	ADV	RB	Degree=Pos	76	_	_	NER=O
+78	as	as	ADP	IN	_	77	_	_	NER=O
+79	the	the	DET	DT	Definite=Def|PronType=Art	78	_	_	NER=O
+80	extension	extension	NOUN	NN	Number=Sing	79	_	_	NER=O
+81	of	of	ADP	IN	_	80	_	_	NER=O
+82	the	the	DET	DT	Definite=Def|PronType=Art	81	_	_	NER=O
+83	circle	circle	NOUN	NN	Number=Sing	82	_	_	NER=O
+84	of	of	ADP	IN	_	83	_	_	NER=O
+85	nationals	national	NOUN	NNS	Number=Plur	84	_	_	NER=O
+86	of	of	ADP	IN	_	85	_	_	NER=O
+87	the	the	DET	DT	Definite=Def|PronType=Art	86	_	_	NER=O
+88	Czech	Czech	ADJ	NNP	Degree=Pos	87	_	_	NER=B-LOC
+89	Republic	Republic	PROPN	NNP	Number=Sing	88	_	_	NER=I-LOC
+90	who	who	PRON	WP	PronType=Rel	89	_	_	NER=O
+91	can	can	AUX	MD	VerbForm=Fin	90	_	_	NER=O
+92	obtain	obtain	VERB	VB	VerbForm=Inf	91	_	_	NER=O
+93	the	the	DET	DT	Definite=Def|PronType=Art	92	_	_	NER=O
+94	status	status	NOUN	NN	Number=Sing	93	_	_	NER=O
+95	of	of	ADP	IN	_	94	_	_	NER=O
+96	a	a	DET	DT	Definite=Ind|PronType=Art	95	_	_	NER=O
+97	war	war	NOUN	NN	Number=Sing	96	_	_	NER=O
+98	veteran	veteran	NOUN	NN	Number=Sing	97	_	_	NER=O|SpaceAfter=No
+99	,	,	PUNCT	,	_	98	_	_	NER=O
+100	including	include	VERB	VBG	VerbForm=Ger	99	_	_	NER=O
+101	persons	person	NOUN	NNS	Number=Plur	100	_	_	NER=O
+102	of	of	ADP	IN	_	101	_	_	NER=O
+103	civil	civil	ADJ	JJ	Degree=Pos	102	_	_	NER=O
+104	and	and	CCONJ	CC	_	103	_	_	NER=O
+105	the	the	DET	DT	Definite=Def|PronType=Art	104	_	_	NER=O
+106	extension	extension	NOUN	NN	Number=Sing	105	_	_	NER=O
+107	of	of	ADP	IN	_	106	_	_	NER=O
+108	the	the	DET	DT	Definite=Def|PronType=Art	107	_	_	NER=O
+109	circle	circle	NOUN	NN	Number=Sing	108	_	_	NER=O
+110	of	of	ADP	IN	_	109	_	_	NER=O
+111	persons	person	NOUN	NNS	Number=Plur	110	_	_	NER=O
+112	who	who	PRON	WP	PronType=Rel	111	_	_	NER=O
+113	can	can	AUX	MD	VerbForm=Fin	112	_	_	NER=O
+114	be	be	AUX	VB	VerbForm=Inf	113	_	_	NER=O
+115	admitted	admit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	114	_	_	NER=O
+116	to	to	ADP	IN	_	115	_	_	NER=O
+117	the	the	DET	DT	Definite=Def|PronType=Art	116	_	_	NER=O
+118	home	home	NOUN	NN	Number=Sing	117	_	_	NER=O
+119	for	for	ADP	IN	_	118	_	_	NER=O
+120	war	war	NOUN	NN	Number=Sing	119	_	_	NER=O
+121	veterans	veteran	NOUN	NNS	Number=Plur	120	_	_	NER=O|SpaceAfter=No
+122	.	.	PUNCT	.	_	121	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p5.s1
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-5 9-7 10-9 11-10 12-11 13-12 14-13 15-16 16-17 17-18 18-19 19-20
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-9 9-10 10-11 11-12 12-13 13-14 14-15 16-15 17-16 18-17 19-18 20-19 
+# source = Dámy a pánové, dovolte mi, abych doporučil další pokračování projednávání tohoto zákona přechodem do druhého čtení.
+# initial_translation = Ladies and gentlemen, allow me to recommend a further continuation of this law through the transition to second reading.
+# text = Ladies and gentlemen, allow me to recommend a further continuation of this law through the transition to second reading.
+1	Ladies	lady	NOUN	NNS	Number=Plur	0	_	_	NER=O
+2	and	and	CCONJ	CC	_	1	_	_	NER=O
+3	gentlemen	gentleman	NOUN	NNS	Number=Plur	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	allow	allow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	NER=O
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	NER=O
+7	to	to	PART	TO	_	6	_	_	NER=O
+8	recommend	recommend	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	NER=O
+10	further	further	ADJ	JJR	Degree=Cmp	9	_	_	NER=O
+11	continuation	continuation	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	of	of	ADP	IN	_	11	_	_	NER=O
+13	this	this	DET	DT	Number=Sing|PronType=Dem	12	_	_	NER=O
+14	law	law	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	through	through	ADP	IN	_	14	_	_	NER=O
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	NER=O
+17	transition	transition	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	to	to	ADP	IN	_	17	_	_	NER=O
+19	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	18	_	_	NER=O
+20	reading	reading	NOUN	NN	Number=Sing	19	_	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p5.s2
+# align_s = 0-0 1-1 2-2
+# align_t = 0-0 1-1 2-2 
+# source = Děkuji vám.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u9.p1.s1
+# align_s = 0-1 2-2 3-3 4-4 5-5 6-6 7-7
+# align_t = 1-0 2-2 3-3 4-4 5-5 6-6 7-7 
+# source = Děkuji panu poslanci Václavu Klučkovi jako zpravodaji.
+# initial_translation = I thank Mr Václav Klučk as rapporteur.
+# text = I thank Mr Václav Klučka as rapporteur.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	Mr	Mr	PROPN	NNP	Number=Sing	2	_	_	NER=O
+4	Václav	Václav	PROPN	NNP	Number=Sing	3	_	_	NER=B-PER
+5	Klučka	Klučka	PROPN	NNP	Number=Sing	4	_	_	NER=I-PER
+6	as	as	ADP	IN	_	5	_	_	NER=O
+7	rapporteur	rapporteur	NOUN	NN	Number=Sing	6	_	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u9.p1.s2
+# align_s = 0-2 1-4 2-5 4-6 5-7 6-9 7-14 9-10 10-11 11-12 12-15 13-16 14-17 15-24 16-19 17-26 18-27 19-29 20-30
+# align_t = 0-0 1-0 2-0 4-1 5-2 6-4 7-5 9-6 10-9 11-10 12-11 14-7 15-12 16-13 17-14 19-16 20-17 21-13 23-15 24-15 26-18 27-18 29-19 30-20 
+# source = Otevírám obecnou rozpravu, do které mám přihlášku pana poslance Antonína Sedi, který je zatím jediným přihlášeným do rozpravy.
+# initial_translation = I am opening a general debate in which I have Mr Antonín Sedi's application, who is the only one who has so far signed up for the debate.
+# text = I am opening a general debate in which I have Mr Antonín Sed's application, who is the only one who has so far signed up for the debate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	opening	open	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	NER=O
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	NER=O
+5	general	general	ADJ	JJ	Degree=Pos	4	_	_	NER=O
+6	debate	debate	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	in	in	ADP	IN	_	6	_	_	NER=O
+8	which	which	PRON	WDT	PronType=Rel	7	_	_	NER=O
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	NER=O
+10	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	NER=O
+11	Mr	Mr	PROPN	NNP	Number=Sing	10	_	_	NER=O
+12	Antonín	Antonín	PROPN	NNP	Number=Sing	11	_	_	NER=B-PER
+13	Sed	Sed	PROPN	NNP	Number=Sing	12	_	_	NER=I-PER|SpaceAfter=No
+14	's	's	PART	POS	_	13	_	_	NER=O
+15	application	application	NOUN	NN	Number=Sing	14	_	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	NER=O
+17	who	who	PRON	WP	PronType=Rel	16	_	_	NER=O
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	NER=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	NER=O
+20	only	only	ADJ	JJ	Degree=Pos	19	_	_	NER=O
+21	one	one	NOUN	NN	Number=Sing	20	_	_	NER=O
+22	who	who	PRON	WP	PronType=Rel	21	_	_	NER=O
+23	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	NER=O
+24	so	so	ADV	RB	_	23	_	_	NER=O
+25	far	far	ADV	RB	Degree=Pos	24	_	_	NER=O
+26	signed	sign	VERB	VBN	Tense=Past|VerbForm=Part	25	_	_	NER=O
+27	up	up	ADP	RP	_	26	_	_	NER=O
+28	for	for	ADP	IN	_	27	_	_	NER=O
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	NER=O
+30	debate	debate	NOUN	NN	Number=Sing	29	_	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u9.p1.s3
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-8 7-9
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-5 8-6 9-7 
+# source = Prosím, pane poslanče, máte slovo.
+# initial_translation = Please, Mr. Ambassador, you have the floor.
+# text = Please, Mr. Ambassador, you have the floor.
+1	Please	please	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	2	_	_	NER=O
+4	Ambassador	Ambassador	PROPN	NNP	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	NER=O
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	NER=O
+7	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	NER=O
+9	floor	floor	NOUN	NN	Number=Sing	8	_	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s1
+# align_s = 0-0 1-2 2-3 3-4 4-5
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-4 
+# source = Děkuji, pane předsedající.
+# initial_translation = Thank you, Mr President.
+# text = Thank you, Mr President.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	Mr	Mr	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	President	President	PROPN	NNP	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s2
+# align_s = 0-0 1-1 4-2 5-3 6-4 7-6 8-7 9-8 10-10 11-12 12-12 13-13 14-14 15-15 16-16 17-18 18-19 19-22
+# align_t = 0-0 1-3 2-4 3-5 4-6 6-7 7-8 8-9 10-10 11-11 12-12 13-13 14-14 15-15 16-16 18-17 19-18 22-19 
+# source = Vážené kolegyně, vážení kolegové, jak bylo řečeno, vládní návrh zákona o válečných veteránech jde dobrou cestou.
+# initial_translation = Ladies and gentlemen, as has been said, the Government's bill on war veterans is a good way to go.
+# text = Ladies and gentlemen, as has been said, the Government's bill on war veterans is a good way to go.
+1	Ladies	lady	NOUN	NNS	Number=Plur	0	_	_	NER=O
+2	and	and	CCONJ	CC	_	1	_	_	NER=O
+3	gentlemen	gentleman	NOUN	NNS	Number=Plur	2	_	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	NER=O
+5	as	as	SCONJ	IN	_	4	_	_	NER=O
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	NER=O
+8	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	Government	government	NOUN	NN	Number=Sing	10	_	_	NER=O|SpaceAfter=No
+12	's	's	PART	POS	_	11	_	_	NER=O
+13	bill	bill	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	on	on	ADP	IN	_	13	_	_	NER=O
+15	war	war	NOUN	NN	Number=Sing	14	_	_	NER=O
+16	veterans	veteran	NOUN	NNS	Number=Plur	15	_	_	NER=O
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	NER=O
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	NER=O
+19	good	good	ADJ	JJ	Degree=Pos	18	_	_	NER=O
+20	way	way	NOUN	NN	Number=Sing	19	_	_	NER=O
+21	to	to	PART	TO	_	20	_	_	NER=O
+22	go	go	VERB	VB	VerbForm=Inf	21	_	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s3
+# align_s = 0-0 1-1 3-2 5-3 6-4 7-5 8-6 9-7 10-8 11-13 12-10 13-11 14-14 15-15 16-18 17-21 18-22 19-24 20-26 21-27 22-28 24-25 25-29 26-30 27-31 28-32 29-33 30-34 31-35 32-36
+# align_t = 0-0 1-1 2-3 3-5 4-6 6-8 7-9 8-10 10-12 11-13 13-11 14-14 15-15 18-16 20-17 21-18 24-19 26-20 27-21 28-22 29-23 30-26 31-27 32-28 33-30 34-29 35-30 36-32 
+# source = Musíme si totiž uvědomit, že dnes nastavené podmínky pro získání osvědčení válečného veterána jsou nedostačující zejména z pohledu prestiže tohoto statusu a s ohledem na válečné veterány z druhé světové války.
+# initial_translation = We must realise that today's conditions for obtaining a war veteran's certificate are insufficient, in particular, in terms of the prestige of this status and the war veterans of World War II.
+# text = We must realise that today's conditions for obtaining a war veteran's certificate are insufficient, in particular, in terms of the prestige of this status and the war veterans of World War II.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	NER=O
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	realise	realise	VERB	VB	VerbForm=Inf	2	_	_	NER=O
+4	that	that	SCONJ	IN	_	3	_	_	NER=O
+5	today	today	NOUN	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	's	's	PART	POS	_	5	_	_	NER=O
+7	conditions	condition	NOUN	NNS	Number=Plur	6	_	_	NER=O
+8	for	for	SCONJ	IN	_	7	_	_	NER=O
+9	obtaining	obtain	VERB	VBG	VerbForm=Ger	8	_	_	NER=O
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	NER=O
+11	war	war	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	veteran	veteran	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	's	's	PART	POS	_	12	_	_	NER=O
+14	certificate	certificate	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	NER=O
+16	insufficient	insufficient	ADJ	JJ	Degree=Pos	15	_	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	NER=O
+18	in	in	ADP	IN	_	17	_	_	NER=O
+19	particular	particular	ADJ	JJ	Degree=Pos	18	_	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	NER=O
+21	in	in	ADP	IN	_	20	_	_	NER=O
+22	terms	term	NOUN	NNS	Number=Plur	21	_	_	NER=O
+23	of	of	ADP	IN	_	22	_	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	NER=O
+25	prestige	prestige	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	of	of	ADP	IN	_	25	_	_	NER=O
+27	this	this	DET	DT	Number=Sing|PronType=Dem	26	_	_	NER=O
+28	status	status	NOUN	NN	Number=Sing	27	_	_	NER=O
+29	and	and	CCONJ	CC	_	28	_	_	NER=O
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	NER=O
+31	war	war	NOUN	NN	Number=Sing	30	_	_	NER=O
+32	veterans	veteran	NOUN	NNS	Number=Plur	31	_	_	NER=O
+33	of	of	ADP	IN	_	32	_	_	NER=O
+34	World	World	PROPN	NNP	Number=Sing	33	_	_	NER=B-MISC
+35	War	War	PROPN	NNP	Number=Sing	34	_	_	NER=I-MISC
+36	II	ii	NUM	CD	NumForm=Roman|NumType=Card	35	_	_	NER=I-MISC|SpaceAfter=No
+37	.	.	PUNCT	.	_	36	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s4
+# align_s = 0-0 1-1 2-2 4-3 5-11 6-12 7-9 8-4 9-5 10-6 12-7 13-13 14-14 16-15 17-16 19-17 20-18 21-20 22-21 23-23 24-22 25-24 26-25
+# align_t = 0-0 1-1 2-2 3-4 4-8 5-9 6-10 7-14 9-7 11-5 12-6 13-13 15-16 16-17 17-19 18-20 20-21 21-22 22-24 23-23 24-25 25-26 
+# source = Pokud si uvědomíme, že současný status obdrželo více než 15 tisíc vojáků a každoročně jej získá dalších 1 400 osob, pak je změna nutná.
+# initial_translation = If we realize that more than 15,000 soldiers have received the current status and will receive another 1,400 each year, then change is necessary.
+# text = If we realize that more than 15,000 soldiers have received the current status and will receive another 1,400 each year, then change is necessary.
+1	If	if	SCONJ	IN	_	0	_	_	NER=O
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	NER=O
+3	realize	realize	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	that	that	SCONJ	IN	_	3	_	_	NER=O
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	NER=O
+6	than	than	ADP	IN	_	5	_	_	NER=O
+7	15,000	15000	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	NER=O
+8	soldiers	soldier	NOUN	NNS	Number=Plur	7	_	_	NER=O
+9	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	NER=O
+10	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	current	current	ADJ	JJ	Degree=Pos	11	_	_	NER=O
+13	status	status	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	and	and	CCONJ	CC	_	13	_	_	NER=O
+15	will	will	AUX	MD	VerbForm=Fin	14	_	_	NER=O
+16	receive	receive	VERB	VB	VerbForm=Inf	15	_	_	NER=O
+17	another	another	DET	DT	_	16	_	_	NER=O
+18	1,400	1400	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	NER=O
+19	each	each	DET	DT	_	18	_	_	NER=O
+20	year	year	NOUN	NN	Number=Sing	19	_	_	NER=O|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	NER=O
+22	then	then	ADV	RB	PronType=Dem	21	_	_	NER=O
+23	change	change	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	NER=O
+25	necessary	necessary	ADJ	JJ	Degree=Pos	24	_	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s5
+# align_s = 0-0 1-2 2-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-12 12-14 13-15 14-16 15-17 17-18 18-19 19-20 20-21 21-23 22-24 23-25 24-26 25-28 26-29 27-31 28-33 29-34 30-37 31-36 32-38
+# align_t = 0-0 2-1 3-2 4-4 5-5 6-6 7-7 8-8 9-9 10-10 12-11 14-12 15-13 16-14 17-15 18-17 19-18 20-19 21-20 23-21 24-22 25-23 26-24 28-25 29-26 31-27 33-28 34-29 35-30 36-31 37-30 38-32 
+# source = Nicméně si myslím, že prodloužení na 90 kalendářních dní pro případ ozbrojeného konfliktu, pokud bývá rotace v zahraničních misích obvykle šest měsíců, problém s počtem válečných veteránů moc nevyřeší.
+# initial_translation = However, I think that extending to 90 calendar days in the event of armed conflict, if rotation in foreign missions is usually six months, the problem with the number of veterans won't solve much.
+# text = However, I think that extending to 90 calendar days in the event of armed conflict, if rotation in foreign missions is usually six months, the problem with the number of veterans won't solve much.
+1	However	however	ADV	RB	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	NER=O
+4	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	that	that	SCONJ	IN	_	4	_	_	NER=O
+6	extending	extend	VERB	VBG	VerbForm=Ger	5	_	_	NER=O
+7	to	to	ADP	IN	_	6	_	_	NER=O
+8	90	90	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	NER=O
+9	calendar	calendar	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	days	day	NOUN	NNS	Number=Plur	9	_	_	NER=O
+11	in	in	ADP	IN	_	10	_	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	NER=O
+13	event	event	NOUN	NN	Number=Sing	12	_	_	NER=O
+14	of	of	ADP	IN	_	13	_	_	NER=O
+15	armed	armed	ADJ	JJ	Degree=Pos	14	_	_	NER=O
+16	conflict	conflict	NOUN	NN	Number=Sing	15	_	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	NER=O
+18	if	if	SCONJ	IN	_	17	_	_	NER=O
+19	rotation	rotation	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	in	in	ADP	IN	_	19	_	_	NER=O
+21	foreign	foreign	ADJ	JJ	Degree=Pos	20	_	_	NER=O
+22	missions	mission	NOUN	NNS	Number=Plur	21	_	_	NER=O
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	NER=O
+24	usually	usually	ADV	RB	_	23	_	_	NER=O
+25	six	six	NUM	CD	NumForm=Word|NumType=Card	24	_	_	NER=O
+26	months	month	NOUN	NNS	Number=Plur	25	_	_	NER=O|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	_	_	NER=O
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	NER=O
+29	problem	problem	NOUN	NN	Number=Sing	28	_	_	NER=O
+30	with	with	ADP	IN	_	29	_	_	NER=O
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	NER=O
+32	number	number	NOUN	NN	Number=Sing	31	_	_	NER=O
+33	of	of	ADP	IN	_	32	_	_	NER=O
+34	veterans	veteran	NOUN	NNS	Number=Plur	33	_	_	NER=O
+35	wo	will	AUX	MD	VerbForm=Fin	34	_	_	NER=O|SpaceAfter=No
+36	n't	not	PART	RB	_	35	_	_	NER=O
+37	solve	solve	VERB	VB	VerbForm=Inf	36	_	_	NER=O
+38	much	much	ADJ	JJ	Degree=Pos	37	_	_	NER=O|SpaceAfter=No
+39	.	.	PUNCT	.	_	38	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s6
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-7 8-8 9-10 10-11 11-12 12-13 13-14 14-15 15-17 16-18 17-19 18-21 19-23 21-24 22-25 23-26 24-27 25-29 26-31 27-33 28-34 29-35 30-36 31-37 32-38 33-40 34-41 35-45 36-43 37-44 38-46 39-47 40-48 41-50 42-51 43-52 45-53 46-55 47-56 48-57 50-58
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 10-9 11-10 12-11 13-12 14-13 15-14 17-15 18-16 19-17 20-18 21-18 22-19 23-20 24-21 25-22 26-23 27-24 29-26 31-26 34-28 35-29 36-30 37-31 38-32 40-33 41-34 43-36 44-37 45-35 46-38 47-39 48-40 50-41 51-42 52-43 53-45 55-46 56-47 57-48 58-50 
+# source = Pro zahraniční mise mimo ozbrojené konflikty je tato doba prodloužena na 360 dnů, což vítáme, ale opět je zde jeden problém v posuzování míry nebezpečnosti dané mise, protože i v mírové misi mohou někteří vojáci být v pozicích ozbrojeného konfliktu nebo se mohou do ozbrojeného konfliktu dostat.
+# initial_translation = For foreign missions outside armed conflicts, this time is extended to 360 days, which we welcome, but once again there is one problem in assessing the level of hazard of the mission, because even in a peace mission, some soldiers may be in positions of armed conflict or may be in armed conflict.
+# text = For foreign missions outside armed conflicts, this time is extended to 360 days, which we welcome, but once again there is one problem in assessing the level of hazard of the mission, because even in a peace mission, some soldiers may be in positions of armed conflict or may be in armed conflict.
+1	For	for	ADP	IN	_	0	_	_	NER=O
+2	foreign	foreign	ADJ	JJ	Degree=Pos	1	_	_	NER=O
+3	missions	mission	NOUN	NNS	Number=Plur	2	_	_	NER=O
+4	outside	outside	ADP	IN	_	3	_	_	NER=O
+5	armed	armed	ADJ	JJ	Degree=Pos	4	_	_	NER=O
+6	conflicts	conflict	NOUN	NNS	Number=Plur	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	NER=O
+9	time	time	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	NER=O
+11	extended	extend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	NER=O
+12	to	to	ADP	IN	_	11	_	_	NER=O
+13	360	360	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	NER=O
+14	days	day	NOUN	NNS	Number=Plur	13	_	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	NER=O
+16	which	which	PRON	WDT	PronType=Rel	15	_	_	NER=O
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	_	_	NER=O
+18	welcome	welcome	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	NER=O
+20	but	but	CCONJ	CC	_	19	_	_	NER=O
+21	once	once	ADV	RB	NumType=Mult	20	_	_	NER=O
+22	again	again	ADV	RB	_	21	_	_	NER=O
+23	there	there	PRON	EX	_	22	_	_	NER=O
+24	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	NER=O
+25	one	one	NUM	CD	NumForm=Word|NumType=Card	24	_	_	NER=O
+26	problem	problem	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	in	in	SCONJ	IN	_	26	_	_	NER=O
+28	assessing	assess	VERB	VBG	VerbForm=Ger	27	_	_	NER=O
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	NER=O
+30	level	level	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	of	of	ADP	IN	_	30	_	_	NER=O
+32	hazard	hazard	NOUN	NN	Number=Sing	31	_	_	NER=O
+33	of	of	ADP	IN	_	32	_	_	NER=O
+34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	NER=O
+35	mission	mission	NOUN	NN	Number=Sing	34	_	_	NER=O|SpaceAfter=No
+36	,	,	PUNCT	,	_	35	_	_	NER=O
+37	because	because	SCONJ	IN	_	36	_	_	NER=O
+38	even	even	ADV	RB	_	37	_	_	NER=O
+39	in	in	ADP	IN	_	38	_	_	NER=O
+40	a	a	DET	DT	Definite=Ind|PronType=Art	39	_	_	NER=O
+41	peace	peace	NOUN	NN	Number=Sing	40	_	_	NER=O
+42	mission	mission	NOUN	NN	Number=Sing	41	_	_	NER=O|SpaceAfter=No
+43	,	,	PUNCT	,	_	42	_	_	NER=O
+44	some	some	DET	DT	_	43	_	_	NER=O
+45	soldiers	soldier	NOUN	NNS	Number=Plur	44	_	_	NER=O
+46	may	may	AUX	MD	VerbForm=Fin	45	_	_	NER=O
+47	be	be	AUX	VB	VerbForm=Inf	46	_	_	NER=O
+48	in	in	ADP	IN	_	47	_	_	NER=O
+49	positions	position	NOUN	NNS	Number=Plur	48	_	_	NER=O
+50	of	of	ADP	IN	_	49	_	_	NER=O
+51	armed	armed	ADJ	JJ	Degree=Pos	50	_	_	NER=O
+52	conflict	conflict	NOUN	NN	Number=Sing	51	_	_	NER=O
+53	or	or	CCONJ	CC	_	52	_	_	NER=O
+54	may	may	AUX	MD	VerbForm=Fin	53	_	_	NER=O
+55	be	be	AUX	VB	VerbForm=Inf	54	_	_	NER=O
+56	in	in	ADP	IN	_	55	_	_	NER=O
+57	armed	armed	ADJ	JJ	Degree=Pos	56	_	_	NER=O
+58	conflict	conflict	NOUN	NN	Number=Sing	57	_	_	NER=O|SpaceAfter=No
+59	.	.	PUNCT	.	_	58	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s7
+# align_s = 0-0 1-2 2-3 4-4 5-5 6-7 7-9 8-10 9-13 10-15 11-16 12-18 13-19 14-20 15-21 16-22 17-23 18-24 19-25 22-27 23-28 24-29 25-32 26-35 27-36 28-38 29-43 30-41 31-46 32-48 33-49 34-52
+# align_t = 0-0 2-1 3-2 4-4 5-5 7-6 9-7 10-8 11-9 13-9 15-10 18-12 19-13 20-14 21-15 22-16 23-17 24-18 25-19 27-22 28-23 29-24 32-25 35-26 36-27 38-28 41-30 43-29 46-31 48-32 49-33 50-20 51-21 52-34 
+# source = Dále jsem přesvědčen, že dělení kategorií misí podle míry nebezpečnosti bude - nebo možná bude administrativně náročné, jako může být administrativně náročné odstraňování tvrdosti zákona či posuzování sporných případů Ministerstvem zahraničních věcí.
+# initial_translation = Furthermore, I believe that dividing the categories of missions according to the degree of hazard will be - or may be administratively demanding, as the administratively demanding removal of the hardness of the law or the assessment of the cases at issue by the Ministry of Foreign Affairs can be.
+# text = Furthermore, I believe that dividing the categories of missions according to the degree of hazard will be - or may be administratively demanding, as the administratively demanding removal of the hardness of the law or the assessment of the cases at issue by the Ministry of Foreign Affairs can be.
+1	Furthermore	furthermore	ADV	RB	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	NER=O
+4	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	that	that	SCONJ	IN	_	4	_	_	NER=O
+6	dividing	divide	VERB	VBG	VerbForm=Ger	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	categories	category	NOUN	NNS	Number=Plur	7	_	_	NER=O
+9	of	of	ADP	IN	_	8	_	_	NER=O
+10	missions	mission	NOUN	NNS	Number=Plur	9	_	_	NER=O
+11	according	accord	VERB	VBG	VerbForm=Ger	10	_	_	NER=O
+12	to	to	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	degree	degree	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	of	of	ADP	IN	_	14	_	_	NER=O
+16	hazard	hazard	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	will	will	AUX	MD	VerbForm=Fin	16	_	_	NER=O
+18	be	be	VERB	VB	VerbForm=Inf	17	_	_	NER=O
+19	-	-	PUNCT	,	_	18	_	_	NER=O
+20	or	or	CCONJ	CC	_	19	_	_	NER=O
+21	may	may	AUX	MD	VerbForm=Fin	20	_	_	NER=O
+22	be	be	AUX	VB	VerbForm=Inf	21	_	_	NER=O
+23	administratively	administratively	ADV	RB	_	22	_	_	NER=O
+24	demanding	demand	VERB	VBG	Tense=Pres|VerbForm=Part	23	_	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	NER=O
+26	as	as	SCONJ	IN	_	25	_	_	NER=O
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	NER=O
+28	administratively	administratively	ADV	RB	_	27	_	_	NER=O
+29	demanding	demand	VERB	VBG	VerbForm=Ger	28	_	_	NER=O
+30	removal	removal	NOUN	NN	Number=Sing	29	_	_	NER=O
+31	of	of	ADP	IN	_	30	_	_	NER=O
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	NER=O
+33	hardness	hardness	NOUN	NN	Number=Sing	32	_	_	NER=O
+34	of	of	ADP	IN	_	33	_	_	NER=O
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	NER=O
+36	law	law	NOUN	NN	Number=Sing	35	_	_	NER=O
+37	or	or	CCONJ	CC	_	36	_	_	NER=O
+38	the	the	DET	DT	Definite=Def|PronType=Art	37	_	_	NER=O
+39	assessment	assessment	NOUN	NN	Number=Sing	38	_	_	NER=O
+40	of	of	ADP	IN	_	39	_	_	NER=O
+41	the	the	DET	DT	Definite=Def|PronType=Art	40	_	_	NER=O
+42	cases	case	NOUN	NNS	Number=Plur	41	_	_	NER=O
+43	at	at	ADP	IN	_	42	_	_	NER=O
+44	issue	issue	NOUN	NN	Number=Sing	43	_	_	NER=O
+45	by	by	ADP	IN	_	44	_	_	NER=O
+46	the	the	DET	DT	Definite=Def|PronType=Art	45	_	_	NER=O
+47	Ministry	Ministry	PROPN	NNP	Number=Sing	46	_	_	NER=B-ORG
+48	of	of	ADP	IN	_	47	_	_	NER=I-ORG
+49	Foreign	foreign	ADJ	JJ	Degree=Pos	48	_	_	NER=I-ORG
+50	Affairs	affair	NOUN	NNS	Number=Plur	49	_	_	NER=I-ORG
+51	can	can	AUX	MD	VerbForm=Fin	50	_	_	NER=O
+52	be	be	VERB	VB	VerbForm=Inf	51	_	_	NER=O|SpaceAfter=No
+53	.	.	PUNCT	.	_	52	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s8
+# align_s = 0-9 1-10 2-7 3-8 4-1 5-3 6-4 7-5 8-6 9-11
+# align_t = 1-4 3-5 4-6 5-7 6-8 7-2 8-3 9-0 10-1 11-9 
+# source = K diskusi je i uplatnění osvědčení pro občanské zaměstnance.
+# initial_translation = The application of certificates to civil servants is also for discussion.
+# text = The application of certificates to civil servants is also for discussion.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	application	application	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	of	of	ADP	IN	_	2	_	_	NER=O
+4	certificates	certificate	NOUN	NNS	Number=Plur	3	_	_	NER=O
+5	to	to	ADP	IN	_	4	_	_	NER=O
+6	civil	civil	ADJ	JJ	Degree=Pos	5	_	_	NER=O
+7	servants	servant	NOUN	NNS	Number=Plur	6	_	_	NER=O
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	also	also	ADV	RB	_	8	_	_	NER=O
+10	for	for	ADP	IN	_	9	_	_	NER=O
+11	discussion	discussion	NOUN	NN	Number=Sing	10	_	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p2.s1
+# align_s = 0-0 1-3 2-5 3-7 4-10 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-19 13-20 14-22 15-25 17-26 19-29 21-28 22-30
+# align_t = 0-0 3-1 5-2 7-3 10-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 19-12 20-13 22-14 25-15 26-16 27-20 28-21 29-19 30-22 
+# source = Nicméně vládní návrh jde správným směrem, jak jsem řekl, a proto doporučuji postoupení novely k projednání do výboru pro obranu.
+# initial_translation = However, the Government's proposal is going in the right direction, as I said, and I therefore recommend the referral of the amendment to the Defence Committee.
+# text = However, the Government's proposal is going in the right direction, as I said, and I therefore recommend the referral of the amendment to the Defence Committee.
+1	However	however	ADV	RB	_	0	_	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
+4	Government	government	NOUN	NN	Number=Sing	3	_	_	NER=O|SpaceAfter=No
+5	's	's	PART	POS	_	4	_	_	NER=O
+6	proposal	proposal	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	NER=O
+9	in	in	ADP	IN	_	8	_	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	NER=O
+11	right	right	ADJ	JJ	Degree=Pos	10	_	_	NER=O
+12	direction	direction	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	as	as	SCONJ	IN	_	13	_	_	NER=O
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	NER=O
+16	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	_	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	NER=O
+18	and	and	CCONJ	CC	_	17	_	_	NER=O
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	NER=O
+20	therefore	therefore	ADV	RB	_	19	_	_	NER=O
+21	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	NER=O
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	NER=O
+23	referral	referral	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	of	of	ADP	IN	_	23	_	_	NER=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	NER=O
+26	amendment	amendment	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	to	to	ADP	IN	_	26	_	_	NER=O
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	NER=O
+29	Defence	Defence	PROPN	NNP	Number=Sing	28	_	_	NER=B-ORG
+30	Committee	Committee	PROPN	NNP	Number=Sing	29	_	_	NER=I-ORG|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p1.s1
+# align_s = 0-1 2-2 3-3 4-4 5-5 6-6 9-7 10-8 11-9 12-10 13-11 14-13 15-14 16-15
+# align_t = 1-0 2-2 3-3 4-4 5-5 6-6 7-9 8-10 9-11 10-12 11-13 13-14 14-15 15-16 
+# source = Děkuji panu poslanci Antonínu Seďovi a ptám se, kdo další se hlásí do obecné rozpravy.
+# initial_translation = I thank Mr Antonín Sed and ask who else is reporting for the general debate.
+# text = I thank Mr Antonín Seďa and ask who else is reporting for the general debate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	Mr	Mr	PROPN	NNP	Number=Sing	2	_	_	NER=O
+4	Antonín	Antonín	PROPN	NNP	Number=Sing	3	_	_	NER=B-PER
+5	Seďa	Seďa	PROPN	NNP	Number=Sing	4	_	_	NER=I-PER
+6	and	and	CCONJ	CC	_	5	_	_	NER=O
+7	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	NER=O
+8	who	who	PRON	WP	PronType=Int	7	_	_	NER=O
+9	else	else	ADV	RB	Degree=Pos	8	_	_	NER=O
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	NER=O
+11	reporting	report	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	NER=O
+12	for	for	ADP	IN	_	11	_	_	NER=O
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	NER=O
+14	general	general	ADJ	JJ	Degree=Pos	13	_	_	NER=O
+15	debate	debate	NOUN	NN	Number=Sing	14	_	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p1.s2
+# align_s = 0-0 1-3 3-11 4-12 5-8 6-13
+# align_t = 0-0 1-1 2-0 3-1 4-0 5-2 6-3 7-5 8-5 11-3 12-4 13-6 
+# source = Nikoho nevidím, obecnou rozpravu končím.
+# initial_translation = I don't see anyone. I'm done with the general debate.
+# text = I don't see anyone. I'm done with the general debate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O|SpaceAfter=No
+3	n't	not	PART	RB	_	2	_	_	NER=O
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	anyone	anyone	PRON	NN	Number=Sing	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	NER=O|SpaceAfter=No
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	done	done	ADJ	JJ	Degree=Pos	8	_	_	NER=O
+10	with	with	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	general	general	ADJ	JJ	Degree=Pos	11	_	_	NER=O
+13	debate	debate	NOUN	NN	Number=Sing	12	_	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p1.s3
+# align_s = 0-0 2-2 4-4 5-5 6-6 7-7 8-8 9-8 10-12 11-13 12-14 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-24 21-27 22-28 23-29
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-10 13-11 14-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 24-20 27-21 28-22 29-23 
+# source = Protože pan ministr v demisi Vlastimil Picek ohlásil, že nebude projednávání podle § 90 odst. 2, budeme pokračovat normálním způsobem.
+# initial_translation = Because the Minister of Demission Vlastimil Picek announced that there would be no hearing pursuant to § 90 para. 2, we'll proceed in a normal manner.
+# text = Because the Minister of Demission Vlastimil Picek announced that there would be no hearing pursuant to § 90 para. 2, we'll proceed in a normal manner.
+1	Because	because	SCONJ	IN	_	0	_	_	NER=O
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	NER=O
+3	Minister	minister	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	of	of	ADP	IN	_	3	_	_	NER=O
+5	Demission	Demission	PROPN	NNP	Number=Sing	4	_	_	NER=B-ORG
+6	Vlastimil	Vlastimil	PROPN	NNP	Number=Sing	5	_	_	NER=I-ORG
+7	Picek	Picek	PROPN	NNP	Number=Sing	6	_	_	NER=I-ORG
+8	announced	announce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	NER=O
+9	that	that	SCONJ	IN	_	8	_	_	NER=O
+10	there	there	PRON	EX	_	9	_	_	NER=O
+11	would	would	AUX	MD	VerbForm=Fin	10	_	_	NER=O
+12	be	be	VERB	VB	VerbForm=Inf	11	_	_	NER=O
+13	no	no	DET	DT	_	12	_	_	NER=O
+14	hearing	hearing	NOUN	NN	Number=Sing	13	_	_	NER=O
+15	pursuant	pursuant	ADV	RB	_	14	_	_	NER=O
+16	to	to	ADP	IN	_	15	_	_	NER=O
+17	§	§	PROPN	NNP	Number=Sing	16	_	_	NER=O
+18	90	90	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	NER=O
+19	para	para	NOUN	NN	Number=Sing	18	_	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	NER=O
+21	2	2	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	NER=O|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	NER=O
+23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	_	_	NER=O|SpaceAfter=No
+24	'll	will	AUX	MD	VerbForm=Fin	23	_	_	NER=O
+25	proceed	proceed	VERB	VB	VerbForm=Inf	24	_	_	NER=O
+26	in	in	ADP	IN	_	25	_	_	NER=O
+27	a	a	DET	DT	Definite=Ind|PronType=Art	26	_	_	NER=O
+28	normal	normal	ADJ	JJ	Degree=Pos	27	_	_	NER=O
+29	manner	manner	NOUN	NN	Number=Sing	28	_	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p1.s4
+# align_s = 0-0 1-4 2-5 3-6 4-7 5-8 6-9 7-10 8-12 9-13 10-14 11-15 12-16 13-18 14-19 15-21 16-23 17-24 18-25 19-26
+# align_t = 0-0 4-1 5-2 6-3 7-4 8-5 9-6 10-7 12-8 13-9 14-10 15-11 16-12 18-13 19-14 21-15 23-16 24-17 25-18 26-19 
+# source = Nepadl žádný návrh na vrácení ani na zamítnutí a budeme se tedy zabývat návrhem na přikázání výborům k projednání.
+# initial_translation = There has not been any proposal to return or to refuse, and we will therefore address the proposal for a commandment to committees for discussion.
+# text = There has not been any proposal to return or to refuse, and we will therefore address the proposal for a commandment to committees for discussion.
+1	There	there	PRON	EX	_	0	_	_	NER=O
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	not	not	PART	RB	_	2	_	_	NER=O
+4	been	be	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	NER=O
+5	any	any	DET	DT	_	4	_	_	NER=O
+6	proposal	proposal	NOUN	NN	Number=Sing	5	_	_	NER=O
+7	to	to	PART	TO	_	6	_	_	NER=O
+8	return	return	VERB	VB	VerbForm=Inf	7	_	_	NER=O
+9	or	or	CCONJ	CC	_	8	_	_	NER=O
+10	to	to	PART	TO	_	9	_	_	NER=O
+11	refuse	refuse	VERB	VB	VerbForm=Inf	10	_	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	NER=O
+13	and	and	CCONJ	CC	_	12	_	_	NER=O
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	_	_	NER=O
+15	will	will	AUX	MD	VerbForm=Fin	14	_	_	NER=O
+16	therefore	therefore	ADV	RB	_	15	_	_	NER=O
+17	address	address	VERB	VB	VerbForm=Inf	16	_	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	NER=O
+19	proposal	proposal	NOUN	NN	Number=Sing	18	_	_	NER=O
+20	for	for	ADP	IN	_	19	_	_	NER=O
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	NER=O
+22	commandment	commandment	NOUN	NN	Number=Sing	21	_	_	NER=O
+23	to	to	ADP	IN	_	22	_	_	NER=O
+24	committees	committee	NOUN	NNS	Number=Plur	23	_	_	NER=O
+25	for	for	ADP	IN	_	24	_	_	NER=O
+26	discussion	discussion	NOUN	NN	Number=Sing	25	_	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p2.s1
+# align_s = 0-1 1-2 2-4 3-5 4-6 5-7 6-8 7-9 8-12 9-10 10-11 11-13
+# align_t = 1-0 2-1 4-2 5-3 6-4 7-5 8-6 9-7 10-9 11-10 12-8 13-11 
+# source = Organizační výbor navrhl přikázat předložený návrh k projednání výboru pro obranu.
+# initial_translation = The Organizing Committee has proposed ordering the motion to discuss the Defence Committee.
+# text = The Organizing Committee has proposed ordering the motion to discuss the Defence Committee.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	Organizing	Organizing	PROPN	NNP	Number=Sing	1	_	_	NER=B-ORG
+3	Committee	Committee	PROPN	NNP	Number=Sing	2	_	_	NER=I-ORG
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+5	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	NER=O
+6	ordering	order	VERB	VBG	VerbForm=Ger	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	motion	motion	NOUN	NN	Number=Sing	7	_	_	NER=O
+9	to	to	PART	TO	_	8	_	_	NER=O
+10	discuss	discuss	VERB	VB	VerbForm=Inf	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	Defence	Defence	PROPN	NNP	Number=Sing	11	_	_	NER=B-ORG
+13	Committee	Committee	PROPN	NNP	Number=Sing	12	_	_	NER=I-ORG|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p2.s2
+# align_s = 0-0 1-1 2-2 3-5 4-6
+# align_t = 0-0 1-1 2-2 5-3 6-4 
+# source = Má někdo jiný návrh?
+# initial_translation = Does anyone else have a suggestion?
+# text = Does anyone else have a suggestion?
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	anyone	anyone	PRON	NN	Number=Sing	1	_	_	NER=O
+3	else	else	ADJ	JJ	Degree=Pos	2	_	_	NER=O
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	NER=O
+6	suggestion	suggestion	NOUN	NN	Number=Sing	5	_	_	NER=O|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p2.s3
+# align_s = 0-2 1-3 2-4 3-5
+# align_t = 2-0 3-1 4-2 5-3 
+# source = Není tomu tak.
+# initial_translation = It's not like that.
+# text = It's not like that.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	not	not	PART	RB	_	2	_	_	NER=O
+4	like	like	ADP	IN	_	3	_	_	NER=O
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p3.s1
+# align_s = 0-0 1-4 2-5 3-6 4-3 5-7 6-11 7-10 9-9 11-12 12-13 13-15 14-16 15-17 16-18 17-20 20-21 21-22 22-24 23-27 24-28 26-30 27-31
+# align_t = 0-0 3-4 4-1 5-2 6-3 7-5 9-9 10-7 11-6 12-11 14-12 15-13 16-14 17-15 18-16 19-17 20-18 21-20 22-21 23-22 24-25 27-26 28-24 30-23 31-27 
+# source = Takže o tomto návrhu rozhodneme v hlasování pořadové číslo 34, které jsem právě zahájil, a ptám se, kdo je pro přikázání výboru pro obranu.
+# initial_translation = So we will decide on this proposal in the 34 order vote that I have just begun, and I ask who is in favour of the Defensive Committee's commandment.
+# text = So we will decide on this proposal in the 34 order vote that I have just begun, and I ask who is in favour of the Defensive Committee's commandment.
+1	So	so	ADV	RB	_	0	_	_	NER=O
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	NER=O
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	NER=O
+4	decide	decide	VERB	VB	VerbForm=Inf	3	_	_	NER=O
+5	on	on	ADP	IN	_	4	_	_	NER=O
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	NER=O
+7	proposal	proposal	NOUN	NN	Number=Sing	6	_	_	NER=O
+8	in	in	ADP	IN	_	7	_	_	NER=O
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
+10	34	34	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	NER=O
+11	order	order	NOUN	NN	Number=Sing	10	_	_	NER=O
+12	vote	vote	NOUN	NN	Number=Sing	11	_	_	NER=O
+13	that	that	PRON	WDT	PronType=Rel	12	_	_	NER=O
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	NER=O
+15	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	NER=O
+16	just	just	ADV	RB	_	15	_	_	NER=O
+17	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	NER=O
+19	and	and	CCONJ	CC	_	18	_	_	NER=O
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	NER=O
+21	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	NER=O
+22	who	who	PRON	WP	PronType=Int	21	_	_	NER=O
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	NER=O
+24	in	in	ADP	IN	_	23	_	_	NER=O
+25	favour	favour	NOUN	NN	Number=Sing	24	_	_	NER=O
+26	of	of	ADP	IN	_	25	_	_	NER=O
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	NER=O
+28	Defensive	defensive	ADJ	NNP	Degree=Pos	27	_	_	NER=B-ORG
+29	Committee	Committee	PROPN	NNP	Number=Sing	28	_	_	NER=I-ORG|SpaceAfter=No
+30	's	's	PART	POS	_	29	_	_	NER=O
+31	commandment	commandment	NOUN	NN	Number=Sing	30	_	_	NER=O|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p3.s2
+# align_s = 0-0 1-1 2-2 3-4
+# align_t = 0-0 1-1 2-2 4-3 
+# source = Kdo je proti?
+# initial_translation = Who's against it?
+# text = Who's against it?
+1	Who	who	PRON	WP	PronType=Int	0	_	_	NER=O|SpaceAfter=No
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	against	against	ADP	IN	_	2	_	_	NER=O
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p3.s3
+# align_s = 0-0 1-1 2-2
+# align_t = 0-0 1-1 2-2 
+# source = Děkuji vám.
+# initial_translation = Thank you.
+# text = Thank you.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p4.s1
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-9 7-7 8-8 9-10 10-11 11-12 12-13 13-14 14-16
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 10-9 11-10 12-11 13-12 14-13 15-13 16-14 
+# source = V hlasování pořadové číslo 34 z přítomných 171 poslance pro 133, proti nikdo.
+# initial_translation = In voting order number 34 of the 171 Member present for 133, against no one.
+# text = In voting order number 34 of the 171 Member present for 133, against no one.
+1	In	in	ADP	IN	_	0	_	_	NER=O
+2	voting	voting	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	order	order	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	number	number	NOUN	NN	Number=Sing	3	_	_	NER=O
+5	34	34	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	NER=O
+6	of	of	ADP	IN	_	5	_	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	NER=O
+8	171	171	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	NER=O
+9	Member	member	NOUN	NN	Number=Sing	8	_	_	NER=O
+10	present	present	NOUN	NN	Number=Sing	9	_	_	NER=O
+11	for	for	ADP	IN	_	10	_	_	NER=O
+12	133	133	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	against	against	ADP	IN	_	13	_	_	NER=O
+15	no	no	DET	DT	_	14	_	_	NER=O
+16	one	one	NOUN	NN	Number=Sing	15	_	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p4.s2
+# align_s = 0-1 1-2 2-3 3-4
+# align_t = 1-0 2-1 3-2 4-3 
+# source = Návrh byl přijat.
+# initial_translation = The motion was accepted.
+# text = The motion was accepted.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	motion	motion	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	NER=O
+4	accepted	accept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p4.s3
+# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-10 11-11 12-13 13-16 14-17 15-19 16-20 17-21 18-25 19-27 20-28 21-29
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 10-10 11-11 12-9 13-12 15-13 16-13 17-14 19-15 20-16 22-16 23-17 25-18 27-19 28-20 29-21 
+# source = Konstatuji, že tento návrh byl přikázán k projednání výboru pro obranu a lhůta k projednání zůstává podle zákona 60 dnů.
+# initial_translation = I note that this proposal has been ordered to discuss the Defence Committee and the time limit for the hearing remains in accordance with the law of 60 days.
+# text = I note that this proposal has been ordered to discuss the Defence Committee and the time limit for the hearing remains in accordance with the law of 60 days.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	note	note	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
+3	that	that	SCONJ	IN	_	2	_	_	NER=O
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	NER=O
+5	proposal	proposal	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	NER=O
+8	ordered	order	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	NER=O
+9	to	to	PART	TO	_	8	_	_	NER=O
+10	discuss	discuss	VERB	VB	VerbForm=Inf	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	Defence	Defence	PROPN	NNP	Number=Sing	11	_	_	NER=B-ORG
+13	Committee	Committee	PROPN	NNP	Number=Sing	12	_	_	NER=I-ORG
+14	and	and	CCONJ	CC	_	13	_	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	NER=O
+16	time	time	NOUN	NN	Number=Sing	15	_	_	NER=O
+17	limit	limit	NOUN	NN	Number=Sing	16	_	_	NER=O
+18	for	for	ADP	IN	_	17	_	_	NER=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	NER=O
+20	hearing	hearing	NOUN	NN	Number=Sing	19	_	_	NER=O
+21	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	NER=O
+22	in	in	ADP	IN	_	21	_	_	NER=O
+23	accordance	accordance	NOUN	NN	Number=Sing	22	_	_	NER=O
+24	with	with	ADP	IN	_	23	_	_	NER=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	NER=O
+26	law	law	NOUN	NN	Number=Sing	25	_	_	NER=O
+27	of	of	ADP	IN	_	26	_	_	NER=O
+28	60	60	NUM	CD	NumForm=Digit|NumType=Card	27	_	_	NER=O
+29	days	day	NOUN	NNS	Number=Plur	28	_	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p5.s1
+# align_s = 0-0 1-1 2-3 3-5 4-6 5-7 6-11 7-13 8-14 9-16 10-18 11-19 12-20 13-21 15-23 16-24 17-24 18-25
+# align_t = 0-0 1-0 2-1 3-2 5-3 6-4 7-5 8-5 11-6 13-7 14-8 16-9 17-9 18-10 19-11 20-12 21-13 22-14 23-15 24-16 25-18 
+# source = Děkuji panu ministru obrany, děkuji zpravodaji a budeme pokračovat dalšími pevně zařazenými body do tohoto pořadu schůze.
+# initial_translation = Thank you, Minister of Defence, thank you to the rapporteur, and we will continue with other firmly placed points on this agenda.
+# text = Thank you, Minister of Defence, thank you to the rapporteur, and we will continue with other firmly placed points on this agenda.
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	NER=O
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	NER=O
+4	Minister	Minister	PROPN	NNP	Number=Sing	3	_	_	NER=O
+5	of	of	ADP	IN	_	4	_	_	NER=O
+6	Defence	Defence	PROPN	NNP	Number=Sing	5	_	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	NER=O
+8	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	NER=O
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	NER=O
+10	to	to	ADP	IN	_	9	_	_	NER=O
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	NER=O
+12	rapporteur	rapporteur	NOUN	NN	Number=Sing	11	_	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	NER=O
+14	and	and	CCONJ	CC	_	13	_	_	NER=O
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	_	_	NER=O
+16	will	will	AUX	MD	VerbForm=Fin	15	_	_	NER=O
+17	continue	continue	VERB	VB	VerbForm=Inf	16	_	_	NER=O
+18	with	with	ADP	IN	_	17	_	_	NER=O
+19	other	other	ADJ	JJ	Degree=Pos	18	_	_	NER=O
+20	firmly	firmly	ADV	RB	_	19	_	_	NER=O
+21	placed	place	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	NER=O
+22	points	point	NOUN	NNS	Number=Plur	21	_	_	NER=O
+23	on	on	ADP	IN	_	22	_	_	NER=O
+24	this	this	DET	DT	Number=Sing|PronType=Dem	23	_	_	NER=O
+25	agenda	agenda	NOUN	NN	Number=Sing	24	_	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p5.s2
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6
+# align_t = 1-0 3-3 4-4 5-4 6-5 
+# source = Ještě předtím ohlásím další omluvu.
+# initial_translation = I'll make another apology first.
+# text = I'll make another apology first.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O|SpaceAfter=No
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	NER=O
+3	make	make	VERB	VB	VerbForm=Inf	2	_	_	NER=O
+4	another	another	DET	DT	_	3	_	_	NER=O
+5	apology	apology	NOUN	NN	Number=Sing	4	_	_	NER=O
+6	first	first	ADV	RB	NumType=Ord	5	_	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p5.s3
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13 
+# source = Z jednání se omlouvá z osobních důvodů pan poslanec František Adámek od 16.30.
+# initial_translation = The meeting is apologized for personal reasons by Mr František Adámek from 16.30.
+# text = The meeting is apologized for personal reasons by Mr František Adámek from 16.30.
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	meeting	meeting	NOUN	NN	Number=Sing	1	_	_	NER=O
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	NER=O
+4	apologized	apologize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	NER=O
+5	for	for	ADP	IN	_	4	_	_	NER=O
+6	personal	personal	ADJ	JJ	Degree=Pos	5	_	_	NER=O
+7	reasons	reason	NOUN	NNS	Number=Plur	6	_	_	NER=O
+8	by	by	ADP	IN	_	7	_	_	NER=O
+9	Mr	Mr	PROPN	NNP	Number=Sing	8	_	_	NER=O
+10	František	František	PROPN	NNP	Number=Sing	9	_	_	NER=B-PER
+11	Adámek	Adámek	PROPN	NNP	Number=Sing	10	_	_	NER=I-PER
+12	from	from	ADP	IN	_	11	_	_	NER=O
+13	16.30	16.30	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	NER=O
+
+# sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p6.s1
+# align_s = 0-1 1-2 3-2 4-3
+# align_t = 1-0 2-1 3-4 
+# source = Dalším bodem k projednání je
+# initial_translation = The next item is
+# text = The next item is
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	NER=O
+2	next	next	ADJ	JJ	Degree=Pos	1	_	_	NER=O
+3	item	item	NOUN	NN	Number=Sing	2	_	_	NER=O
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	NER=O
+
