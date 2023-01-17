@@ -8,8 +8,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u1.p1.s2
-# align_s = 0-0 1-1 2-1 4-2 6-2 7-3 8-4 10-5 11-6 12-5 13-6 15-7 16-8 17-11 18-9 19-12 20-13 21-14 22-14 23-14 24-15 25-16 26-17 27-18 28-19 29-20 30-21 31-22 32-23 33-25 34-26 35-27 36-28 37-29
-# align_t = 0-0 1-2 2-6 3-7 4-8 5-12 6-13 7-15 8-16 9-18 11-17 12-19 13-21 14-22 15-24 16-25 17-26 18-27 19-28 20-29 21-30 22-31 23-32 25-33 26-34 27-35 28-36 29-37 
+# align_s = 0-0 1-1 2-1 4-2 6-2 7-3 8-4 10-5 11-6 12-5 13-6 15-7 16-8 17-9 18-11 19-12 21-13 22-14 23-14 24-15 25-16 26-17 27-18 28-19 29-20 30-21 31-22 32-23 33-25 34-26 35-27 36-28 37-29
+# align_t = 0-0 1-2 2-6 3-7 4-8 5-12 6-13 7-15 8-16 9-18 11-17 12-19 13-22 14-23 15-24 16-25 17-26 18-27 19-28 20-29 21-30 22-31 23-32 25-33 26-34 27-35 28-36 29-37 
 # source = Vládní návrh zákona, kterým se mění zákon č. 170/2002 Sb., o válečných veteránech, ve znění pozdějších předpisů /sněmovní tisk 32/ - prvé čtení podle § 90 odst. 2
 # initial_translation = Government bill amending Act No. 170/2002 Coll., on veterans of war, as amended /house print 32/ - first reading pursuant to § 90 para. 2
 # text = Government bill amending Act No. 170/2002 Coll., on veterans of war, as amended /house print 32/ - first reading pursuant to § 90 para. 2
@@ -45,8 +45,8 @@
 30	2	2	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u1.p2.s1
-# align_s = 0-1 2-1 3-2 4-3 5-4 6-7 7-9 9-10 10-12 11-14 12-15 13-16 14-17 15-18 16-20 17-21 18-23 19-24
-# align_t = 1-0 2-1 3-4 4-5 7-6 9-7 10-9 12-10 14-11 15-12 16-13 17-14 18-15 20-16 21-17 23-18 24-19 
+# align_s = 0-0 2-1 3-2 4-3 5-4 6-7 7-9 9-10 10-12 11-14 12-15 13-16 14-17 15-18 16-20 17-21 18-23 19-24
+# align_t = 1-0 2-2 3-4 4-5 7-6 9-7 10-9 12-10 14-11 15-12 16-13 17-14 18-15 20-16 21-17 23-18 24-19 
 # source = Prosím, aby předložený návrh za navrhovatele uvedl pan ministr obrany Vlastimil Picek, a uděluji mu slovo.
 # initial_translation = I ask that the motion put forward for the plaintiffs by the Minister of Defence Vlastimil Picek, and I give him my word.
 # text = I ask that the motion put forward for the plaintiffs by the Minister of Defence Vlastimil Picek, and I give him my word.
@@ -77,7 +77,7 @@
 25	.	.	PUNCT	.	_	24	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u1.p2.s2
-# align_s = 0-0 2-1 3-2 4-3
+# align_s = 0-0 1-1 3-2 4-3
 # align_t = 0-0 1-1 2-3 3-4 
 # source = Prosím, pane ministře.
 # initial_translation = Please, Minister.
@@ -101,8 +101,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p1.s2
-# align_s = 1-0 2-1 3-2 4-3 7-2 8-3 9-4 10-5 11-6 12-7 13-8 16-9 17-10 18-11 19-12 20-13 22-15 23-16 26-17 27-20 28-22 29-23 31-24 32-25 33-24 34-25 36-26 37-27 38-28 39-29 40-30 41-31 43-33 44-34 45-37 46-38 47-39 48-40 49-41 50-42
-# align_t = 0-1 1-2 2-3 3-4 4-8 5-10 6-11 7-12 8-13 9-15 10-17 11-18 12-19 13-20 15-22 16-23 17-26 20-27 22-28 23-29 24-33 25-34 26-36 27-37 28-38 29-39 30-40 31-41 32-42 33-43 34-44 37-45 38-46 39-47 40-48 41-49 42-50 
+# align_s = 1-0 2-1 3-2 4-3 5-4 6-5 8-3 11-6 12-7 13-8 16-9 17-10 18-11 19-12 20-13 22-15 23-16 26-17 27-20 28-22 29-23 31-24 32-25 33-24 34-25 36-26 37-27 38-29 39-28 40-30 41-31 43-33 44-34 45-37 46-38 47-39 48-40 49-41 50-42
+# align_t = 0-1 1-2 2-3 3-4 4-8 5-9 6-11 7-12 8-13 9-15 10-17 11-18 12-19 13-20 15-22 16-23 17-26 20-27 22-28 23-29 24-33 25-34 26-36 27-37 28-38 29-39 30-40 31-41 32-42 33-43 34-44 37-45 38-46 39-47 40-48 41-49 42-50 
 # source = Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, dovolte mi, abych zde v prvním čtení představil hlavní změny, které přináší novela zákona č. 170/2002 Sb., o válečných veteránech, jež vám byla rozeslána jako sněmovní tisk číslo 32.
 # initial_translation = Mr President, ladies and gentlemen, let me present here at first reading the main changes brought by the amendment to Act No. 170/2002 Coll., on war veterans, which have been sent to you as House press number 32.
 # text = Mr President, ladies and gentlemen, let me present here at first reading the main changes brought by the amendment to Act No. 170/2002 Coll., on war veterans, which have been sent to you as House press number 32.
@@ -151,8 +151,8 @@
 43	.	.	PUNCT	.	_	42	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s1
-# align_s = 0-5 1-6 3-0 4-1 5-8 6-10 7-11 8-13 9-14 10-15 11-16 12-19 13-20 17-23 19-24 20-25 21-26 22-27 23-28
-# align_t = 0-3 2-4 5-0 6-1 7-2 8-5 9-5 10-6 11-7 13-8 14-9 16-11 19-12 20-13 21-14 22-15 23-16 24-19 25-20 26-21 27-22 28-23 
+# align_s = 0-5 1-6 2-7 3-0 4-2 5-9 6-10 7-11 8-13 9-14 10-15 11-16 12-19 13-20 14-21 17-23 19-24 20-25 21-26 22-27 23-28
+# align_t = 0-3 2-4 5-0 6-1 7-2 8-5 10-6 11-7 13-8 14-9 16-11 19-12 20-13 21-14 22-15 23-16 24-19 25-20 26-21 27-22 28-23 
 # source = Novela chce v první řadě zpřísnit a sjednotit podmínky pro získání statusu válečného veterána tak, aby byla zachována jeho morální hodnota.
 # initial_translation = First of all, the amendment wants to tighten up and unify the conditions for the status of a war veteran so as to preserve his moral value.
 # text = First of all, the amendment wants to tighten up and unify the conditions for the status of a war veteran so as to preserve his moral value.
@@ -187,8 +187,8 @@
 29	.	.	PUNCT	.	_	28	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s2
-# align_s = 1-0 2-1 3-4 4-5 5-8 6-10 7-11 8-12 9-15 10-14 11-17 12-18 13-20 14-21 15-23 16-24 17-25 18-26 20-27 21-28 22-30 23-31 24-32 25-34 26-36 27-37 28-38
-# align_t = 0-1 2-2 3-3 5-4 8-5 9-5 10-6 11-7 12-8 13-9 14-10 15-11 17-11 18-12 20-13 23-14 24-15 26-18 27-19 28-20 29-21 30-22 31-23 32-24 34-25 36-26 37-27 38-28 
+# align_s = 1-0 2-1 3-2 4-5 5-9 6-10 7-11 8-12 9-15 10-14 11-17 12-18 13-20 14-22 15-23 16-24 17-25 18-26 20-27 21-28 22-30 23-31 24-32 25-34 26-36 27-37 28-38
+# align_t = 0-1 2-2 3-3 4-3 5-4 8-5 9-5 10-6 11-7 12-8 13-9 14-10 15-11 17-11 18-12 20-13 23-14 24-16 25-17 26-18 27-20 28-21 30-22 31-23 32-24 34-25 36-26 37-27 38-28 
 # source = Ke zpřísnění dojde v důsledku rozlišení vojenských misí dle míry jejich nebezpečnosti a nastavení odlišného časového úseku výkonu služby, který bude nutný k získání statusu válečného veterána.
 # initial_translation = Tightening will occur as a result of the distinction between military missions according to their level of hazard and the setting of a different period of service that will be necessary to obtain the status of war veteran.
 # text = Tightening will occur as a result of the distinction between military missions according to their level of hazard and the setting of a different period of service that will be necessary to obtain the status of war veteran.
@@ -233,8 +233,8 @@
 39	.	.	PUNCT	.	_	38	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s3
-# align_s = 0-0 1-2 2-4 4-5 5-7 6-8 7-10 8-12 9-13 10-16 13-17 14-18 15-19 16-20 17-22 18-23 19-24 20-26 21-28 22-29 23-30 24-31 25-33 26-34 27-36 28-37 29-38 30-39 31-40 33-41 34-43 35-46 36-47 37-48 38-49 39-50 40-51 41-52 42-53 44-54 46-55 47-57 48-59 49-62 50-65 51-66 53-68 54-69 55-70 56-71 57-74 58-75
-# align_t = 0-0 2-1 4-2 5-3 6-4 7-5 8-6 10-7 12-8 13-9 15-10 16-10 17-13 18-14 19-15 20-16 22-17 23-18 24-19 26-20 28-21 29-22 30-23 31-24 33-25 34-26 36-27 37-28 38-29 39-30 40-31 41-32 42-33 43-34 45-35 46-35 47-36 48-37 49-38 50-39 51-40 52-41 53-42 54-44 55-45 56-46 57-47 59-48 62-49 65-50 66-51 68-53 69-54 70-55 71-56 74-57 75-58 
+# align_s = 0-0 1-3 2-4 4-5 5-7 6-8 7-10 8-12 9-13 10-16 13-17 14-18 15-19 16-20 17-22 18-23 19-24 20-26 21-28 22-29 23-30 24-31 25-33 26-34 27-36 28-37 29-38 30-39 31-40 33-41 34-43 35-46 36-47 37-48 38-49 39-50 40-51 41-52 42-53 44-54 46-55 47-57 48-59 49-62 50-65 51-66 53-68 54-69 55-70 56-71 57-74 58-75
+# align_t = 0-0 3-1 4-2 5-3 6-4 7-5 8-6 10-7 12-8 13-9 15-10 16-10 17-13 18-14 19-15 20-16 22-17 23-18 24-19 26-20 28-21 29-22 30-23 31-24 33-25 34-26 36-27 37-28 38-29 39-30 40-31 41-32 43-34 45-35 46-35 47-36 48-37 49-38 50-39 51-40 52-41 53-42 54-44 55-45 56-46 57-47 59-48 62-49 65-50 66-51 68-53 69-54 70-55 71-56 74-57 75-58 
 # source = Nově bude nastaveno, že je nutný výkon služby nepřetržitě alespoň po dobu 90 kalendářních dnů v zahraniční misi v místě ozbrojeného konfliktu nebo v místě s výrazně zhoršenou bezpečnostní situací nebo po dobu celkem alespoň 360 kalendářních dnů v jiných zahraničních misích, které se uskutečnily na základě rozhodnutí mezinárodní organizace, jejímž je Česká republika členem.
 # initial_translation = Newly it will be set that it is necessary to perform the service continuously for at least 90 calendar days in a foreign mission in a place of armed conflict or in a place with a significantly impaired security situation or for a total of at least 360 calendar days in other foreign missions which took place on the basis of a decision of an international organisation of which the Czech Republic is a member.
 # text = Newly it will be set that it is necessary to perform the service continuously for at least 90 calendar days in a foreign mission in a place of armed conflict or in a place with a significantly impaired security situation or for a total of at least 360 calendar days in other foreign missions which took place on the basis of a decision of an international organisation of which the Czech Republic is a member.
@@ -316,8 +316,8 @@
 76	.	.	PUNCT	.	_	75	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s4
-# align_s = 0-3 1-4 2-5 3-6 4-7 5-8 6-11 8-12 9-13 10-14 11-16 13-17 14-18
-# align_t = 3-0 4-1 5-2 6-3 7-4 8-5 11-8 12-8 13-9 14-10 16-12 17-13 18-14 
+# align_s = 0-3 1-4 2-5 3-6 4-7 5-8 6-11 8-12 9-13 10-14 11-16 12-15 13-17 14-18
+# align_t = 0-6 3-0 4-1 5-2 6-3 7-4 8-5 9-7 11-8 12-8 13-9 14-10 16-12 17-13 18-14 
 # source = Nejkratší započitatelná doba podle tohoto usnesení však činí nejméně 90 dnů nepřetržitého výkonu služby.
 # initial_translation = However, the shortest estimated period under this resolution shall be at least 90 days of continuous service.
 # text = However, the shortest estimated period under this resolution shall be at least 90 days of continuous service.
@@ -342,8 +342,8 @@
 19	.	.	PUNCT	.	_	18	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p2.s5
-# align_s = 0-0 1-1 2-3 3-4 4-6 5-4 6-8 7-9 9-11 10-14 11-12 12-16 13-18 14-21 15-22 16-23 17-27 18-25 19-30 20-31 21-33 23-34 24-35 25-36 26-37 27-38 28-41 29-44 30-45 31-47 32-48 33-50 34-52 35-53 36-54 37-55 39-57 40-59 41-62 42-63 43-64 44-67 45-68 46-70 47-71 48-72 49-73
-# align_t = 0-0 1-1 3-2 4-3 6-4 7-5 8-6 9-7 10-8 11-9 12-11 16-12 18-13 21-14 22-15 23-16 25-18 27-17 31-20 33-21 34-23 35-24 36-25 37-26 38-27 40-28 41-28 44-29 45-30 47-31 48-32 50-33 52-34 53-35 54-36 55-37 56-39 59-40 62-41 63-42 64-43 67-44 68-41 69-43 70-46 71-47 72-48 73-49 
+# align_s = 0-0 1-1 2-3 3-4 4-6 5-7 6-8 7-9 9-11 10-14 11-14 12-16 13-18 14-21 15-22 16-23 17-27 18-25 19-30 20-31 21-33 23-34 24-35 25-36 26-37 27-38 28-41 29-44 30-45 31-47 32-48 33-50 34-52 35-53 36-54 37-55 39-56 40-59 41-62 42-63 43-64 44-67 45-68 46-70 47-71 48-72 49-73
+# align_t = 0-0 1-1 3-2 4-3 6-4 7-5 8-6 9-7 11-9 12-11 13-8 16-12 18-13 21-14 22-15 23-16 25-18 27-17 31-20 33-21 34-23 35-24 36-25 37-26 38-27 41-28 44-29 45-30 47-31 48-32 50-33 52-34 53-35 54-36 55-37 56-39 59-40 62-41 63-42 64-43 67-44 68-45 71-47 72-48 73-49 
 # source = Jednotlivé body bude možno vzájemně sčítat, přičemž je nově zaveden institut odstranění tvrdosti zákona, na jehož základě bude možno reflektovat i některé výjimečné situace, když například doba výkonu služby v místě ozbrojeného konfliktu je kratší z důvodu zranění vojáka nebo z důvodů předčasného ukončení mise atp.
 # initial_translation = Individual points can be added to each other, while a new institute is introduced to eliminate the hardness of the law, on the basis of which it will be possible to reflect some exceptional situations, when, for example, the duration of the service at the place of armed conflict is shorter due to the injury of the soldier or due to the premature termination of the mission atp.
 # text = Individual points can be added to each other, while a new institute is introduced to eliminate the hardness of the law, on the basis of which it will be possible to reflect some exceptional situations, when, for example, the duration of the service at the place of armed conflict is shorter due to the injury of the soldier or due to the premature termination of the mission atp.
@@ -423,8 +423,8 @@
 74	.	.	PUNCT	.	_	73	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p3.s1
-# align_s = 0-3 1-4 2-1 3-5 4-8 5-9 6-10 7-12 8-13 9-14 10-15 11-16 12-20 13-21 14-24 15-18 16-19 17-21 18-27 19-29 21-30 22-31 23-32 24-33 25-34 26-35 27-38 29-39 31-41 32-42 33-44 34-45 35-46 36-47 37-48 38-49 40-50 41-52 42-54 43-57 44-58 45-59 46-61 47-62 48-63 49-64 50-65
-# align_t = 1-2 3-0 4-1 5-3 8-4 9-5 10-6 12-7 13-8 14-9 15-10 16-11 18-15 19-16 20-12 21-13 24-14 26-17 27-18 29-19 30-20 31-22 32-23 33-24 34-25 35-26 38-27 39-29 40-30 41-31 42-32 44-33 45-34 46-35 47-36 48-37 49-38 50-40 52-41 54-42 56-43 57-43 58-44 59-45 61-46 62-47 63-48 64-49 65-50 
+# align_s = 0-3 1-4 2-1 3-5 4-8 5-9 6-10 7-12 8-13 9-14 10-15 11-16 12-20 13-21 14-24 15-18 16-19 17-26 18-27 19-29 21-30 22-31 23-32 24-33 25-34 26-35 27-38 29-39 30-40 31-41 32-42 33-44 34-45 35-46 36-47 37-48 38-49 40-50 41-52 42-54 43-57 44-58 45-59 46-61 47-62 48-63 49-64 50-65
+# align_t = 1-2 3-0 4-1 5-3 8-4 9-5 10-6 12-7 13-8 14-9 15-10 16-11 18-15 19-16 20-12 21-13 23-13 24-14 26-17 27-18 29-19 30-20 31-22 32-23 33-24 34-25 35-26 38-27 39-29 40-30 41-31 42-32 44-33 45-34 46-35 47-36 48-37 49-38 50-40 52-41 54-42 56-43 57-43 58-44 59-45 61-46 62-47 63-48 64-49 65-50 
 # source = Zpřísnění je navíc vedeno snahou o odstranění stávajícího nerovného stavu, kdy pro novodobé veterány je dostačující účast v misi po dobu 30 dnů, zatímco druhováleční veteráni, kteří se mnohdy účastnili bojových střetů přímo ve válečných operacích, museli splňovat podmínku nejméně 90 dnů nepřetržité aktivní bojové činnosti.
 # initial_translation = In addition, tightening is driven by an effort to eliminate the current unequal condition, where it is sufficient for modern-day veterans to participate in the mission for 30 days, while second-year veterans who have often participated in combat conflicts directly in war operations had to meet the condition of at least 90 days of continuous active combat activity.
 # text = In addition, tightening is driven by an effort to eliminate the current unequal condition, where it is sufficient for modern-day veterans to participate in the mission for 30 days, while second-year veterans who have often participated in combat conflicts directly in war operations had to meet the condition of at least 90 days of continuous active combat activity.
@@ -521,8 +521,8 @@
 18	.	.	PUNCT	.	_	17	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p4.s2
-# align_s = 0-0 1-1 2-2 3-3 4-5 5-6 6-9 7-10 8-11 11-12 12-15 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-26 23-27 24-30 25-31 26-33 27-36 28-37 29-38 30-39 32-41 33-45 34-46
-# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 9-6 10-7 11-8 12-11 15-12 16-12 17-14 18-15 19-16 20-17 21-18 22-19 23-20 24-21 25-22 26-22 27-23 30-24 31-25 33-26 36-27 37-28 38-29 39-30 41-32 44-33 45-33 46-34 
+# align_s = 0-0 1-1 2-3 3-4 4-5 5-6 6-9 7-10 8-11 10-11 11-12 12-15 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-26 23-27 24-30 25-31 26-33 27-36 28-37 29-38 30-39 32-41 33-45 34-46
+# align_t = 0-0 1-1 3-2 4-3 5-4 6-5 9-6 10-7 11-8 12-11 15-13 16-13 17-14 18-15 19-16 20-17 21-18 22-19 23-20 24-21 25-22 26-22 27-23 30-24 31-25 33-26 36-27 37-28 38-29 39-30 41-32 44-33 45-33 46-34 
 # source = Ten budou moci získat všichni příslušníci bezpečnostních sborů, to je příslušníci Hasičského záchranného sboru, Celní správy a další, a nejen příslušníci Armády a Policie České republiky, jak tomu bylo doposud.
 # initial_translation = This will be available to all members of the Security Corps, members of the Fire Rescue Corps, Customs Administration and others, and not only members of the Army and the Police of the Czech Republic, as has been the case so far.
 # text = This will be available to all members of the Security Corps, members of the Fire Rescue Corps, Customs Administration and others, and not only members of the Army and the Police of the Czech Republic, as has been the case so far.
@@ -575,8 +575,8 @@
 47	.	.	PUNCT	.	_	46	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s1
-# align_s = 0-1 1-5 2-4 3-7 4-9 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-18 13-19 15-20 16-24 17-25 18-28 20-29 21-30 22-31 23-32 24-34 25-35 26-37 27-38 28-39 29-40 30-41 31-43 32-44 33-46 34-47
-# align_t = 1-0 2-1 4-2 7-3 9-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 18-12 19-13 20-14 21-15 24-16 25-17 28-18 29-20 30-21 32-22 33-23 34-24 35-25 36-26 37-26 38-27 39-28 40-29 41-29 42-30 43-31 44-32 46-33 47-34 
+# align_s = 0-1 1-2 2-4 3-7 4-9 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-18 13-19 15-21 16-24 17-25 18-28 20-29 21-30 22-32 23-33 24-34 25-35 26-37 27-38 28-39 29-40 30-41 31-43 32-44 33-46 34-47
+# align_t = 1-0 2-1 3-1 4-2 7-3 9-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 18-12 19-13 20-14 21-15 24-16 25-17 28-18 29-20 30-21 31-22 32-22 33-23 34-24 35-25 36-28 37-26 38-27 39-28 40-29 42-30 43-31 44-32 46-33 47-34 
 # source = Dále je cílem rozšíření okruhu oprávněných osob též o osoby civilní, resp. o zaměstnance organizačních složek státu, kteří jsou vysíláni do misí a jsou také vystaveni nebezpečí ohrožení či ztráty života.
 # initial_translation = In addition, the aim is to extend the scope of authorised persons also to persons civilian, respectively. staff members of the organisational units of the State who are being sent to missions and who are also at risk of endangering or losing their lives.
 # text = In addition, the aim is to extend the scope of authorised persons also to persons civilian, respectively. staff members of the organisational units of the State who are being sent to missions and who are also at risk of endangering or losing their lives.
@@ -630,8 +630,8 @@
 48	.	.	PUNCT	.	_	47	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s2
-# align_s = 1-13 2-14 3-12 4-1 5-3 6-5 7-7 8-8 9-9 10-10 11-15
-# align_t = 1-4 3-5 5-6 7-7 8-8 9-9 10-10 11-1 12-3 13-1 14-2 15-11 
+# align_s = 0-11 1-13 2-14 3-12 4-1 5-3 6-5 7-7 8-8 9-9 10-10 11-15
+# align_t = 1-4 3-5 5-6 7-7 8-8 9-9 10-10 11-1 12-3 14-10 15-11 
 # source = Nově bude upravena také možnost využití kapacit domova pro válečné veterány.
 # initial_translation = The possibility of using the capacity of home for war veterans will also be adapted.
 # text = The possibility of using the capacity of home for war veterans will also be adapted.
@@ -653,7 +653,7 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s3
-# align_s = 0-1 1-2 3-3 5-5 6-6 7-7 8-9 9-10 10-13 11-15 12-16 13-18 15-20 16-17 17-19 19-22 20-23 21-24 23-25 24-26 25-27 26-28 28-29 29-30 31-31 32-32 33-33
+# align_s = 0-1 1-2 3-3 4-3 5-5 6-6 7-7 9-10 10-13 11-15 12-16 13-18 17-19 19-22 20-23 21-24 23-25 24-26 25-27 26-28 28-29 29-30 31-31 32-32 33-33
 # align_t = 1-0 2-1 3-3 4-4 5-5 6-6 7-7 10-9 13-10 15-11 16-12 18-13 19-17 20-18 22-19 23-20 24-21 25-23 26-24 27-25 28-27 29-30 31-31 32-32 33-33 
 # source = Je navrhováno, aby ve výjimečných případech mohlo ministerstvo na dočasnou dobu přijmout do domova i další, takzvanou třetí osobu, které by byl pobyt v domově poskytován za plnou úhradu.
 # initial_translation = It is proposed that, in exceptional cases, the Ministry may, for a temporary period, accept another so-called third party who would be provided for a full remuneration.
@@ -694,8 +694,8 @@
 34	.	.	PUNCT	.	_	33	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p5.s4
-# align_s = 1-0 2-4 4-5 5-6 6-7 7-8 8-9 9-13 10-14 11-15 12-16 13-10 14-12 15-17 16-18 20-20 21-21 22-24 23-25 24-26 25-27 26-31 27-32 28-33 29-36 30-37 31-38 32-39 33-40 34-42 35-43
-# align_t = 0-1 3-0 4-2 5-4 6-5 7-6 8-7 9-8 10-13 12-14 13-9 14-10 15-11 16-12 17-15 18-16 19-19 20-20 21-21 24-23 26-24 27-25 29-23 32-27 33-28 36-29 37-30 39-31 40-33 42-34 43-35 
+# align_s = 1-0 2-4 4-5 5-5 6-7 7-8 8-9 9-13 10-14 11-15 12-16 13-10 14-12 15-17 16-18 17-18 18-19 20-20 21-21 22-24 23-25 24-26 25-27 26-31 27-32 28-33 29-36 30-37 31-38 32-39 33-40 34-42 35-43
+# align_t = 0-1 1-3 3-0 4-2 5-4 6-5 7-6 8-7 9-8 10-13 12-14 13-9 14-10 15-11 16-12 17-15 18-16 19-17 20-20 21-21 24-23 26-24 27-25 29-23 30-26 32-27 33-28 36-29 37-30 39-31 40-33 42-34 43-35 
 # source = Je však navrhováno, aby válečný veterán měl před touto další osobou vždy přednost a aby bylo v případě potřeby uvolnění lůžka pro veterána možno jednostranně této další osobě ukončit pobyt v domově.
 # initial_translation = However, it is proposed that the war veteran should always take precedence over this other person and that, if necessary, the release of the veteran's bed may be unilaterally terminated by that other person's stay in the home.
 # text = However, it is proposed that the war veteran should always take precedence over this other person and that, if necessary, the release of the veteran's bed may be unilaterally terminated by that other person's stay in the home.
@@ -784,8 +784,8 @@
 32	.	.	PUNCT	.	_	31	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p6.s2
-# align_s = 0-3 1-4 3-7 4-10 5-11 6-14 7-17 8-19 9-8 10-20
-# align_t = 0-2 3-0 4-1 6-3 7-3 8-9 9-4 11-5 14-6 17-7 19-8 20-10 
+# align_s = 0-3 1-4 2-6 3-7 4-10 5-11 6-14 7-17 8-19 9-8 10-20
+# align_t = 0-2 3-0 4-1 5-3 6-3 8-9 9-4 11-5 14-6 17-7 19-8 20-10 
 # source = Legislativní proces však nebyl v důsledku rozpuštění Poslanecké sněmovny dokončen.
 # initial_translation = However, the legislative process has not been completed as a result of the dissolution of the Chamber of Deputies.
 # text = However, the legislative process has not been completed as a result of the dissolution of the Chamber of Deputies.
@@ -840,8 +840,8 @@
 21	.	.	PUNCT	.	_	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p7.s1
-# align_s = 1-0 2-1 3-2 4-3 8-4 9-5 10-6 11-7 12-9 13-11 14-12 15-13 16-15 17-20 18-16 19-17 20-23 21-25 22-26 23-27 24-30 25-31 26-32 27-33 28-34 29-35
-# align_t = 0-1 1-2 2-3 3-4 4-8 5-9 6-10 7-11 8-11 9-12 10-13 11-13 12-14 14-15 15-16 16-18 17-19 20-17 23-20 24-20 25-21 26-22 28-24 29-23 30-24 31-25 32-26 33-27 34-28 35-29 
+# align_s = 1-0 2-1 3-2 4-3 5-4 6-5 8-3 10-6 11-7 12-9 13-11 14-12 15-13 16-15 18-16 19-17 20-23 21-25 22-26 23-28 24-30 25-31 26-32 27-33 28-34 29-35
+# align_t = 0-1 1-2 2-3 3-4 4-8 5-9 6-10 7-11 8-11 9-12 10-13 11-13 12-14 14-15 15-16 16-18 17-19 20-17 23-20 24-20 25-21 26-22 28-23 30-24 31-25 32-26 33-27 34-28 35-29 
 # source = Vážený pane předsedající, vážené paní poslankyně, vážení poslanci, děkuji za pozornost a žádám o projednání tohoto zákona klasicky, nikoliv podle § 90 v prvním čtení.
 # initial_translation = Mr President, ladies and gentlemen, thank you for your attention and I call for this law to be discussed in a classic manner, not in accordance with Section 90 at first reading.
 # text = Mr President, ladies and gentlemen, thank you for your attention and I call for this law to be discussed in a classic manner, not in accordance with Section 90 at first reading.
@@ -884,7 +884,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u2.p7.s2
 # align_s = 1-1 2-3 3-4 4-5
-# align_t = 1-1 3-2 4-3 5-4 
+# align_t = 1-0 2-1 3-2 4-3 5-4 
 # source = To je nějaký omyl.
 # initial_translation = There's been a mistake.
 # text = There's been a mistake.
@@ -906,8 +906,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u3.p1.s1
-# align_s = 0-2 2-3 3-4 4-5 6-6 11-7 12-9 14-10 15-13 16-14 17-15 18-18 19-19 20-20 21-21
-# align_t = 1-5 2-0 3-2 4-3 5-4 6-6 7-11 9-12 10-14 13-15 14-16 15-17 18-18 19-19 20-20 21-21 
+# align_s = 0-2 2-3 3-4 4-5 6-6 11-8 12-9 14-10 15-13 16-14 17-16 18-18 19-19 20-20 21-21
+# align_t = 1-5 2-0 3-2 4-3 5-4 6-6 7-10 8-9 9-12 10-13 11-14 13-15 14-16 16-17 18-18 19-19 20-20 21-21 
 # source = Děkuji panu ministru Vlastimilu Pickovi i za to, že nám zjednodušil situaci, že nebudeme postupovat podle § 90 odst.
 # initial_translation = I also thank Minister Vlastimil Pick for simplifying the situation that we will not proceed in accordance with § 90 para.
 # text = I also thank Minister Vlastimil Pick for simplifying the situation that we will not proceed in accordance with § 90 para.
@@ -945,7 +945,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u3.p1.s3
 # align_s = 0-0 1-3 2-4 3-5 4-6 5-10 6-8 7-9 8-12 9-13 10-14 11-15 12-16 13-18 14-19 15-17 16-21 17-22 18-23 19-24 20-25
-# align_t = 0-0 3-1 4-2 5-3 6-4 8-6 9-7 10-5 12-8 13-9 14-10 15-11 17-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 25-20 
+# align_t = 0-0 3-1 4-2 5-3 6-4 8-6 9-7 10-5 12-8 13-9 14-10 15-11 16-12 17-15 19-14 20-15 21-16 22-17 23-18 24-19 25-20 
 # source = A nyní požádám pana předsedu výboru pro obranu poslance Davida Kádnera, aby nám navrhl zpravodaje pro prvé čtení.
 # initial_translation = And I will now ask the President of the Defence Committee, Mr David Kadner, to propose to us the rapporteur for first reading.
 # text = And I will now ask the President of the Defence Committee, Mr David Kádner, to propose to us the rapporteur for first reading.
@@ -994,7 +994,7 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u4.p1.s1
-# align_s = 0-0 1-2 4-3 5-0 6-2 7-4 8-5 9-6 10-7 11-8 12-9 14-10 15-12 16-16 17-15 18-19 19-21 21-22 22-23
+# align_s = 0-0 1-0 2-1 4-3 5-2 6-2 7-4 8-5 9-6 10-7 11-8 12-9 14-10 15-12 16-16 17-15 18-19 19-20 21-22 22-23
 # align_t = 0-0 1-2 2-5 3-4 4-7 5-8 6-9 7-10 8-11 9-12 10-14 12-15 15-17 16-16 19-18 20-19 21-20 22-21 23-22 
 # source = Dobrý den, ještě jednou dobrý den, tak na sněmovní tisk č. 32 za výbor obrany navrhuji pana poslance Klučku.
 # initial_translation = Hello, hello again, so to House Press No. 32 on behalf of the Defence Committee, I propose to Mr Klujka.
@@ -1038,8 +1038,8 @@
 # align_t = 0-0 1-1 
 # source = Klučku.
 # initial_translation = Boy.
-# text = kluček.
-1	kluček	kluček	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+# text = Boy.
+1	Boy	boy	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p1.s1
@@ -1047,15 +1047,15 @@
 # align_t = 0-0 1-1 2-2 3-3 
 # source = Klučku, ano.
 # initial_translation = Boy, yes.
-# text = kluček, yes.
-1	kluček	kluček	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
+# text = Boy, yes.
+1	Boy	boy	INTJ	UH	_	0	_	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	NER=O
 3	yes	yes	INTJ	UH	_	2	_	_	NER=O|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p1.s2
 # align_s = 0-0 2-2 3-3 4-4 5-1 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-14 15-15 16-16 17-17 18-19 21-20 22-21 23-23 29-25 30-26 32-27 33-28 34-29 35-31 36-32 37-35 38-36 39-37
-# align_t = 0-0 1-5 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13 14-14 15-15 16-16 17-17 18-18 19-19 20-21 21-22 23-23 25-29 26-30 27-32 28-33 29-34 31-35 32-36 35-37 36-38 37-39 
+# align_t = 0-0 1-5 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-10 10-11 11-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 20-21 21-22 23-23 25-29 26-30 27-32 28-33 29-34 31-35 32-36 35-37 36-38 37-39 
 # source = Prosím, o tomto návrhu rozhodneme v hlasování pořadové číslo 33, které jsem právě zahájil, a ptám se, kdo je pro to, aby pan kolega Klučka se stal zpravodajem pro prvé čtení tisku 32.
 # initial_translation = Please decide on this proposal in voting order number 33, which I have just begun, and I ask who is in favour of Mr Klučka becoming rapporteur for the first reading of the press 32.
 # text = Please decide on this proposal in voting order number 33, which I have just begun, and I ask who is in favour of Mr Klučka becoming rapporteur for the first reading of the press 32.
@@ -1121,8 +1121,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p2.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-9 8-10 9-11 10-12 11-13 12-14 13-16
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 9-7 10-8 11-9 12-10 13-11 14-12 15-12 16-13 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-9 8-10 9-11 10-12 11-13 12-15 13-16
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 9-7 10-8 11-9 12-10 13-11 14-12 15-12 16-13 
 # source = Hlasování pořadové číslo 33, z přítomných 174 pro 134, proti nikdo.
 # initial_translation = Voting order number 33, from the presence of 174 for 134, against no one.
 # text = Voting order number 33, from the presence of 174 for 134, against no one.
@@ -1145,7 +1145,7 @@
 17	.	.	PUNCT	.	_	16	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p3.s1
-# align_s = 0-0 1-1 3-3 4-4 5-5 6-6 7-8 8-9 9-10 10-11 11-12 12-13 14-17 15-19 16-21 17-22
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-8 8-9 9-10 10-11 11-12 12-16 13-17 14-18 15-19 16-21 17-22
 # align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 8-7 9-8 10-9 11-10 12-11 13-12 16-13 17-14 19-15 21-16 22-17 
 # source = Prosím, pan kolega Klučka se ujme své zpravodajské zprávy a poté zaujme místo u stolku zpravodajů.
 # initial_translation = Please, my colleague Klučka will take up his intelligence report and then take up a position at the rapporteur's desk.
@@ -1175,7 +1175,7 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u7.p3.s2
-# align_s = 0-0 1-1 2-1 3-2 4-3 5-5 6-7 7-8
+# align_s = 0-0 1-1 3-2 4-3 5-5 6-7 7-8
 # align_t = 0-0 1-1 2-3 3-4 4-5 5-5 7-6 8-7 
 # source = Prosím, pane zpravodaji, máte slovo.
 # initial_translation = Please, rapporteur, you have the floor.
@@ -1206,8 +1206,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p1.s2
-# align_s = 0-0 1-1 2-4 5-5 6-6 7-7 8-9 9-10 10-12 12-13 13-15 14-15 15-16 16-17 17-20 18-21 19-22 20-24 21-23 22-25 23-26 24-27 25-28 26-29 27-30
-# align_t = 0-0 1-1 4-2 5-3 6-6 7-7 8-8 9-9 12-10 13-12 14-13 15-14 16-15 17-16 20-17 21-18 22-19 23-21 24-20 25-22 26-23 27-24 28-25 29-26 30-27 
+# align_s = 0-0 1-1 2-4 3-5 4-6 6-6 7-7 8-8 9-9 10-12 12-13 13-15 14-15 15-16 16-17 17-20 18-21 19-22 20-24 21-23 22-25 23-26 24-27 25-28 26-29 27-30
+# align_t = 0-0 1-1 4-2 5-3 6-6 7-7 8-8 9-9 10-8 12-10 13-12 14-13 15-14 16-15 17-16 20-17 21-18 22-19 23-21 24-20 25-22 26-23 27-24 28-25 29-26 30-27 
 # source = Vážení členové vlády, kolegyně, kolegové, chtěl bych konstatovat, že návrh zákona byl rozeslán poslancům jako tisk 32 dne 29. 11. 2013.
 # initial_translation = Dear Members of the Government, colleagues, I would like to say that the bill was sent out to Members as press on 32 29. 11. 2013.
 # text = Dear Members of the Government, colleagues, I would like to say that the bill was sent out to Members as press on 32 29. 11. 2013.
@@ -1244,8 +1244,8 @@
 31	.	.	PUNCT	.	_	30	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p1.s3
-# align_s = 0-0 1-1 2-2 4-5 5-7 6-10 7-12 8-14 9-14 10-15 12-16 13-19 14-21 15-22 16-18 18-20 20-23 21-25 22-26 23-27 24-29 25-30 26-31 27-32 28-33 29-35 30-36 32-37 33-38 34-37 35-38 37-39 38-40 39-41 40-43 41-46 42-48 43-49
-# align_t = 0-0 1-1 2-2 3-3 5-4 6-4 7-5 10-6 12-7 13-8 14-9 15-10 16-12 17-13 18-16 20-18 21-14 22-15 23-20 25-21 26-22 27-23 29-24 30-25 31-26 32-27 33-28 35-29 36-30 37-34 38-35 39-37 40-38 41-39 43-40 46-41 48-42 49-43 
+# align_s = 0-0 1-1 2-2 4-5 5-7 6-10 7-12 8-14 9-14 10-15 12-16 13-19 14-21 15-22 16-18 17-20 18-20 20-23 21-25 22-26 23-27 24-29 25-30 26-31 27-32 28-33 29-35 30-36 32-37 33-38 34-37 35-38 37-39 38-40 39-41 40-43 41-46 42-48 43-49
+# align_t = 0-0 1-1 2-2 3-3 5-4 7-5 10-6 12-7 13-8 14-9 15-10 16-12 17-13 18-16 20-18 21-14 22-15 23-20 25-21 26-22 27-23 29-24 30-25 31-26 32-27 33-28 35-29 36-30 37-34 38-35 39-37 40-38 41-39 43-40 46-41 48-42 49-43 
 # source = V té době ještě navrhovatel navrhoval Sněmovně projednání návrhu zákona tak, aby s ním Sněmovna vyslovila souhlas již v prvém čtení podle § 90 odst. 2 zákona č. 90/1995 Sb., o jednacím řádu Poslanecké sněmovny.
 # initial_translation = At that time, the petitioner also proposed to the House to discuss the bill so that the House would agree with it in the first reading according to § 90 para. 2 of Act No. 90/1995 Coll., on Rules of Procedure of the Chamber of Deputies.
 # text = At that time, the petitioner also proposed to the House to discuss the bill so that the House would agree with it in the first reading according to § 90 para. 2 of Act No. 90/1995 Coll., on Rules of Procedure of the Chamber of Deputies.
@@ -1301,7 +1301,7 @@
 50	.	.	PUNCT	.	_	49	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p1.s4
-# align_s = 1-1 2-3 3-7 4-8 5-9 6-10 7-11 8-12 9-13 10-14 12-15 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-27 23-30 24-31 25-32 26-33 27-34
+# align_s = 0-0 1-1 2-3 3-5 4-8 5-9 6-10 7-11 8-12 9-13 10-14 12-15 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-27 23-30 24-31 25-32 26-33 27-34
 # align_t = 0-0 1-1 3-2 5-3 7-3 8-4 9-5 11-6 12-7 13-9 14-10 15-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 23-20 24-21 27-22 30-23 31-24 32-25 33-26 34-27 
 # source = Pan ministr jako navrhovatel tuto věc před chvilkou vymezil a řekl, že se má jednat o řádné projednání, to znamená postoupení zákona do druhého čtení.
 # initial_translation = The Minister, as the plaintiff, defined this matter a moment ago and said that this should be a proper discussion, that is, a referral of the law to second reading.
@@ -1385,8 +1385,8 @@
 35	.	.	PUNCT	.	_	34	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p2.s2
-# align_s = 0-2 3-5 8-4 9-5 10-6 11-7 12-8 13-9 14-12 15-15 16-16 18-25 19-26 20-28 21-29 22-30 23-32 24-33 25-35 26-36 27-37 28-38 29-40 30-42 31-43 32-18 33-19 34-22 35-24 36-20 37-21 38-44
-# align_t = 0-0 1-1 2-0 3-5 4-8 5-9 6-10 7-11 8-12 9-13 12-14 15-15 16-16 17-17 18-32 19-33 20-36 21-37 22-34 24-35 25-18 26-19 28-20 29-21 30-22 32-23 33-24 35-25 36-26 37-27 38-28 40-29 42-30 43-31 44-38 
+# align_s = 0-2 2-3 5-3 8-4 9-5 10-6 11-7 12-8 13-9 14-12 15-15 16-16 18-25 19-26 20-28 21-29 22-30 23-32 24-33 25-35 26-36 27-37 28-38 29-40 30-42 31-43 32-18 33-19 34-22 35-24 36-20 37-21 38-44
+# align_t = 0-0 2-0 3-5 4-8 5-9 6-10 7-11 8-12 9-13 12-14 15-15 16-16 17-17 18-32 19-33 20-36 21-37 22-34 24-35 25-18 26-19 29-21 30-22 32-23 33-24 35-25 36-26 37-27 38-28 40-29 42-30 43-31 44-38 
 # source = Důsledkem toho by mohlo být, že právě tato prestiž, či morální hodnota statusu válečného veterána by s ohledem na enormní množství osob splňujících mírně nastavené podmínky pro vznik tohoto postavení mohla být v budoucnu zcela devalvována.
 # initial_translation = As a result, this prestige, or moral value of the status of a war veteran, could be completely devalued in the future in view of the enormous number of persons meeting the slightly set conditions for the emergence of this position.
 # text = As a result, this prestige, or moral value of the status of a war veteran, could be completely devalued in the future in view of the enormous number of persons meeting the slightly set conditions for the emergence of this position.
@@ -1437,8 +1437,8 @@
 45	.	.	PUNCT	.	_	44	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p2.s3
-# align_s = 0-0 1-10 2-10 3-9 4-1 5-3 6-4 7-7 8-8 9-11 11-13 12-15 13-16 14-17 15-20 16-21 17-22 18-24 19-27 20-28 21-29 22-31 23-33 24-34 25-35 26-36 27-37 29-38 30-39 31-40 32-41 33-42 34-43 35-44 36-45 37-46 38-47 39-48 40-49 41-50 42-51 43-54 44-55 45-58 46-59 47-60 48-61 49-62 50-63 53-64 54-65 55-67 56-68 57-69 58-71 59-73 60-75 61-76 62-77 63-78 64-79 65-80 66-81 68-82 69-83 70-84 71-85 72-86 73-87 74-88 75-89 76-90 77-92 78-93 79-95 80-96 81-97 82-98
-# align_t = 0-0 1-4 3-5 4-6 7-7 8-8 9-3 10-1 11-2 12-9 13-11 14-12 15-12 16-13 17-14 20-15 21-16 22-17 24-18 27-19 28-20 29-21 31-22 33-23 34-24 35-25 36-26 37-27 38-29 39-30 40-31 41-32 42-33 43-34 44-35 45-36 46-37 47-38 48-39 49-40 50-41 51-42 54-43 55-44 58-45 59-46 60-47 61-48 62-49 63-50 64-53 65-54 67-55 68-56 69-57 71-58 73-59 75-60 76-61 77-62 78-63 79-64 80-65 81-66 82-68 83-69 84-70 85-71 86-72 87-73 88-74 89-75 90-76 92-77 93-78 95-79 96-80 97-81 98-82 
+# align_s = 0-0 1-10 2-10 3-9 4-1 5-3 6-4 7-7 8-8 9-12 11-13 12-15 13-16 14-17 15-20 16-21 17-22 18-24 19-27 20-28 21-29 22-31 23-33 24-34 25-35 26-36 27-37 29-38 30-39 31-40 32-41 33-42 34-43 35-44 36-45 37-46 38-47 39-48 40-49 41-50 42-51 43-54 44-55 45-58 46-59 47-60 48-61 49-62 50-63 53-64 54-65 55-67 56-68 57-69 58-71 59-73 60-75 61-76 62-77 63-78 64-79 65-80 66-81 68-82 69-83 70-84 71-85 72-86 73-87 74-88 75-89 76-90 77-92 78-93 79-95 80-96 81-97 82-98
+# align_t = 0-0 1-4 3-5 4-6 7-7 8-8 9-3 10-1 11-9 12-10 13-11 14-12 15-12 16-13 17-14 20-15 21-16 22-17 24-18 27-19 28-20 29-21 31-22 33-23 34-24 35-25 36-26 37-27 38-29 39-30 40-31 41-32 42-33 43-34 44-35 45-36 46-37 47-38 48-39 49-40 50-41 51-42 54-43 55-44 58-45 59-46 60-47 61-48 62-49 63-50 64-53 65-54 67-55 68-56 69-57 71-58 73-59 75-60 76-61 77-62 78-63 79-64 80-65 81-66 82-68 83-69 84-70 85-71 86-72 87-73 88-74 89-75 90-76 92-77 93-78 95-79 96-80 97-81 98-82 
 # source = V současné době jsou navíc státní občané České republiky vysíláni do zahraničí nejen jako příslušníci ozbrojených sil nebo Policie České republiky za účelem obrany nebo vynucení míru, k obraně a obnově demokracie, svobod a demokratických hodnot, ale také jako zaměstnanci organizačních složek státu či jiných bezpečnostních sborů, a to za účelem poskytování pomoci při rekonstrukci struktur státní správy a hospodářství v nestabilních oblastech v zahraničí nebo do pozorovatelských misí v určených oblastech s vyšším rizikem újmy na zdraví.
 # initial_translation = In addition, state citizens of the Czech Republic are currently being sent abroad not only as members of the armed forces or the Police of the Czech Republic for the purpose of defending or forcing peace, defending and restoring democracy, freedoms and democratic values, but also as employees of the organisational units of the state or other security forces, in order to provide assistance in the reconstruction of structures of state administration and economy in unstable areas abroad or in observation missions in designated areas with a higher risk of injury to health.
 # text = In addition, state citizens of the Czech Republic are currently being sent abroad not only as members of the armed forces or the Police of the Czech Republic for the purpose of defending or forcing peace, defending and restoring democracy, freedoms and democratic values, but also as employees of the organisational units of the state or other security forces, in order to provide assistance in the reconstruction of structures of state administration and economy in unstable areas abroad or in observation missions in designated areas with a higher risk of injury to health.
@@ -1543,7 +1543,7 @@
 99	.	.	PUNCT	.	_	98	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p3.s1
-# align_s = 0-1 1-2 2-7 4-5 5-6 6-8 7-9 8-10 9-11 10-12 11-13 13-14 14-15 15-16 16-17 17-19 18-20 20-22 21-25 22-26 24-27 25-28 26-30 27-31 28-32 29-34 30-37 31-38 32-39 33-41 34-43 35-45 36-46 37-48 38-49 39-50 40-51 41-53 42-54 43-56 44-57 45-58 48-59 49-60 51-61 52-62 53-63 54-64
+# align_s = 0-1 1-2 2-7 4-6 5-5 6-8 7-9 8-10 9-11 10-12 11-13 13-14 14-15 15-16 16-17 17-19 18-20 20-22 21-25 22-26 24-27 25-28 26-30 27-31 28-32 29-34 30-37 31-38 32-39 33-41 34-43 35-45 36-46 37-47 38-49 39-50 40-51 41-53 42-54 43-56 44-57 48-59 49-60 51-61 52-62 53-63 54-64
 # align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-5 8-6 9-7 10-8 11-9 12-10 13-11 14-13 15-14 16-15 17-16 19-17 20-18 21-19 22-20 25-21 26-22 27-24 28-25 30-26 31-27 32-28 34-29 37-30 38-31 39-32 41-33 43-34 45-35 46-36 47-37 48-37 49-38 50-39 51-40 53-41 54-42 56-43 57-44 58-45 59-47 60-49 61-51 62-52 63-53 64-54 
 # source = Původním cílem zákona o válečných veteránech, který nabyl účinnosti dne 30. dubna 2002, bylo morálně ocenit státní občany České republiky, kteří splňovali podmínky pro získání postavení válečného veterána, podporovat činnost občanských sdružení sdružujících válečné veterány a poskytovat jim péči a za tím účelem zřizovat domovy péče o válečné veterány.
 # initial_translation = The original aim of the War Veterans Act, which took effect on 30 April 2002, was to morally appreciate the citizens of the Czech Republic who fulfilled the conditions for obtaining the status of a war veteran, to support the activities of civil associations bringing together war veterans and to provide them with care and to establish homes for war veterans.
@@ -1615,8 +1615,8 @@
 65	.	.	PUNCT	.	_	64	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p3.s2
-# align_s = 0-0 1-1 2-2 3-3 4-5 5-10 7-8 8-9 9-11 11-12 12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-22 20-25 21-26 25-27 26-29 27-30 28-31 29-33 30-35 31-37 32-39 33-40 34-41 35-42 36-43 37-44
-# align_t = 1-1 2-2 3-3 5-4 7-6 8-7 9-8 10-5 11-9 12-11 13-12 14-13 15-14 16-15 17-16 18-17 19-18 21-19 22-19 25-20 26-21 27-23 28-24 29-7 30-8 31-28 33-29 34-34 35-30 37-31 39-32 40-33 42-35 43-36 44-37 
+# align_s = 1-1 2-2 3-3 4-5 5-10 7-8 8-9 9-11 11-12 12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-22 20-25 21-26 23-27 24-28 25-29 26-30 27-32 28-31 29-33 30-35 31-37 32-39 33-40 34-41 35-42 36-43 37-44
+# align_t = 1-1 2-2 3-3 5-4 6-5 7-6 8-7 9-7 10-8 11-9 12-11 13-12 14-13 15-14 16-15 17-16 18-17 19-18 21-19 22-19 25-20 26-21 28-22 29-7 30-8 31-28 33-29 35-30 37-31 39-32 40-33 41-34 42-35 43-36 44-37 
 # source = Dosavadní zkušenosti získané při realizaci zákona o válečných veteránech potvrzují, že jeho přijetí bylo velmi potřebné, protože kromě morálního ocenění, kterého se válečným veteránům dostává, zákon umožňuje ministerstvu poskytovat jim též náležitou péči.
 # initial_translation = The experience gained in the implementation of the War Veterans Act confirms that its adoption was very necessary, because, in addition to the moral appreciation given to war veterans, the law also allows the Ministry to provide them with appropriate care.
 # text = The experience gained in the implementation of the War Veterans Act confirms that its adoption was very necessary, because, in addition to the moral appreciation given to war veterans, the law also allows the Ministry to provide them with appropriate care.
@@ -1667,8 +1667,8 @@
 45	.	.	PUNCT	.	_	44	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p3.s3
-# align_s = 0-0 1-2 2-3 4-5 5-10 7-8 8-9 9-13 10-14 11-16 13-17 14-18 15-20 16-19 17-20 18-21 19-20 20-22 21-23 22-24 23-26 24-27 25-28 26-29 27-31 28-32 29-33 30-34 31-35 32-36 33-37 34-38 35-39 36-41 37-42 38-43 39-44 40-45 41-46 42-47
-# align_t = 1-0 2-1 3-2 5-4 7-6 8-7 9-8 10-5 13-9 14-10 16-11 17-13 18-14 19-16 20-15 21-18 22-19 23-20 24-22 25-23 27-24 28-25 29-26 31-27 32-28 33-29 34-30 35-31 36-32 37-33 38-34 39-35 41-36 42-37 43-38 44-39 45-40 46-41 47-42 
+# align_s = 0-0 1-2 2-3 4-5 5-10 7-8 8-9 9-13 10-14 11-16 13-17 14-18 15-20 16-19 17-20 18-21 19-20 20-22 21-23 22-24 23-25 24-27 25-28 26-29 27-31 28-32 29-33 30-34 31-35 32-36 33-37 34-38 35-39 36-41 37-42 38-43 39-44 40-45 41-46 42-47
+# align_t = 0-0 2-1 3-2 5-4 6-6 7-6 8-7 9-8 10-5 13-9 14-10 16-11 17-13 18-14 19-16 20-17 21-18 22-19 23-20 24-22 25-23 27-24 28-25 29-26 31-27 32-28 33-29 34-30 35-31 36-32 37-33 38-34 39-35 41-36 42-37 43-38 44-39 45-40 46-41 47-42 
 # source = V současné podobě již však zákon o válečných veteránech plně nereflektuje skutečnost, že je Armáda České republiky v plném rozsahu profesionalizována a dochází k pravidelné rotaci jejích příslušníků vysílaných do operací na vynucení míru či dosažení jiných dohod v zahraničních misích.
 # initial_translation = In its current form, however, the War Veterans Act does not fully reflect the fact that the Czech Army is fully professionalised and there is a regular rotation of its members sent into operations to force peace or to reach other agreements in foreign missions.
 # text = In its current form, however, the War Veterans Act does not fully reflect the fact that the Czech Army is fully professionalised and there is a regular rotation of its members sent into operations to force peace or to reach other agreements in foreign missions.
@@ -1722,8 +1722,8 @@
 48	.	.	PUNCT	.	_	47	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p4.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-9 7-10 8-12 9-13 10-14 12-16 13-18 14-20 15-21 16-22 17-24 18-27 19-28 22-30 23-31 25-32 26-33 27-34 28-35 29-36 30-38 31-39 32-40 33-42 34-43 35-46 36-45 37-48 38-49 39-51 40-52 41-53 42-56 43-57 44-59 45-60 46-61 47-62 48-63 49-64 50-66 51-68 52-70 53-73 54-74 55-75 56-76 57-79 58-82 59-82 60-84 61-87 62-88 64-89 65-90 66-91 67-93 68-96 69-97 70-98 71-99 73-100 74-102 75-103 76-105 77-108 78-110 80-111 81-112 82-114 83-115 84-117 85-118 86-119 87-120 88-121
-# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 9-6 10-7 12-8 13-9 14-10 15-12 16-12 18-13 20-14 21-15 22-16 24-17 27-18 28-19 29-20 30-23 31-22 32-25 33-26 34-27 35-28 36-29 38-30 39-31 40-32 41-32 42-33 43-34 44-35 45-36 46-37 48-37 49-38 51-39 52-40 53-41 56-42 59-43 60-44 62-47 63-48 64-49 66-50 68-51 70-52 73-53 74-54 76-55 77-56 79-57 82-58 84-60 87-61 88-62 89-64 90-65 91-66 93-67 96-68 97-69 98-70 99-71 100-73 102-74 103-75 105-76 108-77 110-78 111-79 112-81 113-81 114-82 115-83 117-84 118-85 119-86 120-87 121-88 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-9 7-10 8-12 9-13 10-14 12-16 13-18 14-20 15-21 16-22 17-24 18-27 19-28 22-30 23-31 25-32 26-33 27-34 28-35 29-36 30-38 31-38 32-41 33-42 34-43 35-46 36-45 37-48 38-49 39-51 40-52 41-53 42-56 43-58 44-59 45-60 46-61 47-62 48-63 49-64 50-66 51-68 52-70 53-73 54-74 55-75 56-76 57-79 58-82 59-84 60-84 61-87 62-88 64-89 65-90 66-91 67-93 68-96 69-97 70-98 71-99 73-100 74-102 75-103 76-105 77-108 78-110 80-111 81-112 82-114 83-115 84-117 85-118 86-119 87-120 88-121
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 9-6 10-7 12-8 13-9 14-10 15-12 16-12 18-13 20-14 21-15 22-16 24-17 27-18 28-19 29-21 30-22 31-23 32-25 33-26 34-27 35-28 36-29 38-30 39-31 40-32 41-32 42-33 43-34 44-35 45-36 46-37 48-37 49-38 51-39 52-40 53-41 56-42 59-43 60-45 61-46 62-47 63-48 64-49 65-49 66-50 68-51 70-52 73-53 74-54 76-55 77-56 79-57 82-58 84-60 85-60 87-61 88-62 89-64 90-65 91-66 93-67 96-68 97-69 98-70 99-71 100-73 102-74 103-75 105-76 108-77 110-78 111-79 112-81 113-81 114-82 115-83 117-84 118-85 119-86 120-87 121-88 
 # source = Dámy a pánové, pokud shrnu základní cíle tohoto zákona, pak kromě zpřísnění předpokladů pro získání statutu válečného veterána tak, aby byla zachována jeho morální hodnota, je to rozlišení misí dle míry jejich nebezpečnosti a v té souvislosti stanovení odlišného časového úseku výkonu služby nutného k možnosti získání statutu veterána, jakož i rozšíření okruhu státních občanů České republiky, kteří mohou získat statut válečného veterána, též o osoby civilní a rozšíření okruhu osob, jež lze přijmout do domova pro válečné veterány.
 # initial_translation = Ladies and gentlemen, if I sum up the basic objectives of this law, in addition to tightening the assumptions for obtaining the status of a war veteran in order to preserve his moral value, it is a distinction between missions according to their level of hazard and, in that context, the determination of a different period of service necessary for the possibility of obtaining the status of a veteran, as well as the extension of the circle of nationals of the Czech Republic who can obtain the status of a war veteran, including persons of civil and the extension of the circle of persons who can be admitted to the home for war veterans.
 # text = Ladies and gentlemen, if I sum up the basic objectives of this law, in addition to tightening the assumptions for obtaining the status of a war veteran in order to preserve his moral value, it is a distinction between missions according to their level of hazard and, in that context, the determination of a different period of service necessary for the possibility of obtaining the status of a veteran, as well as the extension of the circle of nationals of the Czech Republic who can obtain the status of a war veteran, including persons of civil and the extension of the circle of persons who can be admitted to the home for war veterans.
@@ -1851,8 +1851,8 @@
 122	.	.	PUNCT	.	_	121	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u8.p5.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-5 9-7 10-9 11-10 12-11 13-12 14-13 15-16 16-17 17-18 18-19 19-20
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-9 9-10 10-11 11-12 12-13 13-14 14-15 16-15 17-16 18-17 19-18 20-19 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 8-6 9-7 10-9 11-10 12-11 13-12 14-13 15-16 16-17 17-18 18-19 19-20
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-9 9-10 10-11 11-12 12-13 13-14 16-15 17-16 18-17 19-18 20-19 
 # source = Dámy a pánové, dovolte mi, abych doporučil další pokračování projednávání tohoto zákona přechodem do druhého čtení.
 # initial_translation = Ladies and gentlemen, allow me to recommend a further continuation of this law through the transition to second reading.
 # text = Ladies and gentlemen, allow me to recommend a further continuation of this law through the transition to second reading.
@@ -1889,8 +1889,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u9.p1.s1
-# align_s = 0-1 2-2 3-3 4-4 5-5 6-6 7-7
-# align_t = 1-0 2-2 3-3 4-4 5-5 6-6 7-7 
+# align_s = 0-1 1-2 2-2 3-3 4-4 5-5 6-6 7-7
+# align_t = 1-0 2-1 3-3 4-4 5-5 6-6 7-7 
 # source = Děkuji panu poslanci Václavu Klučkovi jako zpravodaji.
 # initial_translation = I thank Mr Václav Klučk as rapporteur.
 # text = I thank Mr Václav Klučka as rapporteur.
@@ -1904,8 +1904,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u9.p1.s2
-# align_s = 0-2 1-4 2-5 4-6 5-7 6-9 7-14 9-10 10-11 11-12 12-15 13-16 14-17 15-24 16-19 17-26 18-27 19-29 20-30
-# align_t = 0-0 1-0 2-0 4-1 5-2 6-4 7-5 9-6 10-9 11-10 12-11 14-7 15-12 16-13 17-14 19-16 20-17 21-13 23-15 24-15 26-18 27-18 29-19 30-20 
+# align_s = 0-2 1-4 2-5 4-6 5-7 6-9 7-14 8-10 10-11 11-12 12-15 13-16 14-17 15-24 16-19 17-20 18-27 19-29 20-30
+# align_t = 1-0 2-0 4-1 5-2 6-4 7-5 8-6 10-9 11-10 12-11 14-7 15-12 16-13 17-14 19-16 21-15 23-15 24-15 25-17 28-18 29-19 30-20 
 # source = Otevírám obecnou rozpravu, do které mám přihlášku pana poslance Antonína Sedi, který je zatím jediným přihlášeným do rozpravy.
 # initial_translation = I am opening a general debate in which I have Mr Antonín Sedi's application, who is the only one who has so far signed up for the debate.
 # text = I am opening a general debate in which I have Mr Antonín Sed's application, who is the only one who has so far signed up for the debate.
@@ -1972,8 +1972,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s2
-# align_s = 0-0 1-1 4-2 5-3 6-4 7-6 8-7 9-8 10-10 11-12 12-12 13-13 14-14 15-15 16-16 17-18 18-19 19-22
-# align_t = 0-0 1-3 2-4 3-5 4-6 6-7 7-8 8-9 10-10 11-11 12-12 13-13 14-14 15-15 16-16 18-17 19-18 22-19 
+# align_s = 0-0 1-1 3-1 4-2 5-3 6-4 7-6 8-7 9-8 10-10 11-12 12-12 13-13 14-14 15-15 16-16 17-18 18-19 19-22
+# align_t = 0-0 1-3 2-4 3-5 4-6 6-7 7-8 8-9 10-10 12-12 13-13 14-14 15-15 16-16 18-17 19-18 21-18 22-19 
 # source = Vážené kolegyně, vážení kolegové, jak bylo řečeno, vládní návrh zákona o válečných veteránech jde dobrou cestou.
 # initial_translation = Ladies and gentlemen, as has been said, the Government's bill on war veterans is a good way to go.
 # text = Ladies and gentlemen, as has been said, the Government's bill on war veterans is a good way to go.
@@ -2002,8 +2002,8 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s3
-# align_s = 0-0 1-1 3-2 5-3 6-4 7-5 8-6 9-7 10-8 11-13 12-10 13-11 14-14 15-15 16-18 17-21 18-22 19-24 20-26 21-27 22-28 24-25 25-29 26-30 27-31 28-32 29-33 30-34 31-35 32-36
-# align_t = 0-0 1-1 2-3 3-5 4-6 6-8 7-9 8-10 10-12 11-13 13-11 14-14 15-15 18-16 20-17 21-18 24-19 26-20 27-21 28-22 29-23 30-26 31-27 32-28 33-30 34-29 35-30 36-32 
+# align_s = 0-1 3-2 5-3 6-4 7-5 8-6 9-7 10-8 11-13 12-10 13-11 14-14 15-15 16-18 17-20 18-21 19-24 20-26 21-27 22-28 23-29 25-29 26-30 27-31 28-32 29-33 30-34 31-35 32-36
+# align_t = 0-0 1-1 2-3 3-5 4-6 6-8 7-9 8-10 10-12 11-13 13-11 14-14 15-15 18-16 20-17 21-18 24-19 26-20 27-21 28-22 29-23 30-26 31-27 32-28 33-29 34-30 35-31 36-32 
 # source = Musíme si totiž uvědomit, že dnes nastavené podmínky pro získání osvědčení válečného veterána jsou nedostačující zejména z pohledu prestiže tohoto statusu a s ohledem na válečné veterány z druhé světové války.
 # initial_translation = We must realise that today's conditions for obtaining a war veteran's certificate are insufficient, in particular, in terms of the prestige of this status and the war veterans of World War II.
 # text = We must realise that today's conditions for obtaining a war veteran's certificate are insufficient, in particular, in terms of the prestige of this status and the war veterans of World War II.
@@ -2047,7 +2047,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s4
 # align_s = 0-0 1-1 2-2 4-3 5-11 6-12 7-9 8-4 9-5 10-6 12-7 13-13 14-14 16-15 17-16 19-17 20-18 21-20 22-21 23-23 24-22 25-24 26-25
-# align_t = 0-0 1-1 2-2 3-4 4-8 5-9 6-10 7-14 9-7 11-5 12-6 13-13 15-16 16-17 17-19 18-20 20-21 21-22 22-24 23-23 24-25 25-26 
+# align_t = 0-0 1-1 2-2 3-4 4-8 5-9 6-10 7-6 9-7 11-5 12-6 13-13 14-16 15-16 16-17 17-19 18-20 20-21 21-22 22-24 23-23 24-25 25-26 
 # source = Pokud si uvědomíme, že současný status obdrželo více než 15 tisíc vojáků a každoročně jej získá dalších 1 400 osob, pak je změna nutná.
 # initial_translation = If we realize that more than 15,000 soldiers have received the current status and will receive another 1,400 each year, then change is necessary.
 # text = If we realize that more than 15,000 soldiers have received the current status and will receive another 1,400 each year, then change is necessary.
@@ -2125,7 +2125,7 @@
 39	.	.	PUNCT	.	_	38	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s6
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-7 8-8 9-10 10-11 11-12 12-13 13-14 14-15 15-17 16-18 17-19 18-21 19-23 21-24 22-25 23-26 24-27 25-29 26-31 27-33 28-34 29-35 30-36 31-37 32-38 33-40 34-41 35-45 36-43 37-44 38-46 39-47 40-48 41-50 42-51 43-52 45-53 46-55 47-56 48-57 50-58
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-10 10-11 11-12 12-13 13-14 14-15 15-17 16-18 17-19 18-21 19-23 21-24 22-25 23-26 24-27 25-29 26-31 27-33 28-34 29-35 30-36 31-37 32-38 33-40 34-41 35-45 36-43 37-44 38-46 39-47 40-48 41-50 42-51 43-52 45-53 46-55 47-56 48-57 50-58
 # align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 10-9 11-10 12-11 13-12 14-13 15-14 17-15 18-16 19-17 20-18 21-18 22-19 23-20 24-21 25-22 26-23 27-24 29-26 31-26 34-28 35-29 36-30 37-31 38-32 40-33 41-34 43-36 44-37 45-35 46-38 47-39 48-40 50-41 51-42 52-43 53-45 55-46 56-47 57-48 58-50 
 # source = Pro zahraniční mise mimo ozbrojené konflikty je tato doba prodloužena na 360 dnů, což vítáme, ale opět je zde jeden problém v posuzování míry nebezpečnosti dané mise, protože i v mírové misi mohou někteří vojáci být v pozicích ozbrojeného konfliktu nebo se mohou do ozbrojeného konfliktu dostat.
 # initial_translation = For foreign missions outside armed conflicts, this time is extended to 360 days, which we welcome, but once again there is one problem in assessing the level of hazard of the mission, because even in a peace mission, some soldiers may be in positions of armed conflict or may be in armed conflict.
@@ -2191,8 +2191,8 @@
 59	.	.	PUNCT	.	_	58	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p1.s7
-# align_s = 0-0 1-2 2-3 4-4 5-5 6-7 7-9 8-10 9-13 10-15 11-16 12-18 13-19 14-20 15-21 16-22 17-23 18-24 19-25 22-27 23-28 24-29 25-32 26-35 27-36 28-38 29-43 30-41 31-46 32-48 33-49 34-52
-# align_t = 0-0 2-1 3-2 4-4 5-5 7-6 9-7 10-8 11-9 13-9 15-10 18-12 19-13 20-14 21-15 22-16 23-17 24-18 25-19 27-22 28-23 29-24 32-25 35-26 36-27 38-28 41-30 43-29 46-31 48-32 49-33 50-20 51-21 52-34 
+# align_s = 0-0 1-2 2-3 4-4 5-5 6-7 7-9 8-10 9-13 10-15 11-16 12-18 13-19 14-20 15-21 16-22 17-23 18-24 19-25 20-20 22-27 23-28 24-29 25-32 26-35 27-36 28-38 29-43 30-41 31-46 32-48 33-49 34-52
+# align_t = 0-0 2-1 3-2 4-4 5-5 7-6 9-7 10-8 13-9 15-10 16-11 18-12 19-13 20-14 21-15 22-16 23-17 24-18 25-19 27-22 28-23 29-24 32-25 35-26 36-27 38-28 41-30 43-29 46-31 48-32 49-33 50-20 51-21 52-34 
 # source = Dále jsem přesvědčen, že dělení kategorií misí podle míry nebezpečnosti bude - nebo možná bude administrativně náročné, jako může být administrativně náročné odstraňování tvrdosti zákona či posuzování sporných případů Ministerstvem zahraničních věcí.
 # initial_translation = Furthermore, I believe that dividing the categories of missions according to the degree of hazard will be - or may be administratively demanding, as the administratively demanding removal of the hardness of the law or the assessment of the cases at issue by the Ministry of Foreign Affairs can be.
 # text = Furthermore, I believe that dividing the categories of missions according to the degree of hazard will be - or may be administratively demanding, as the administratively demanding removal of the hardness of the law or the assessment of the cases at issue by the Ministry of Foreign Affairs can be.
@@ -2270,7 +2270,7 @@
 12	.	.	PUNCT	.	_	11	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u10.p2.s1
-# align_s = 0-0 1-3 2-5 3-7 4-10 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-19 13-20 14-22 15-25 17-26 19-29 21-28 22-30
+# align_s = 0-0 1-3 2-5 3-6 4-10 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-19 13-20 14-22 15-25 16-26 18-27 19-29 21-28 22-30
 # align_t = 0-0 3-1 5-2 7-3 10-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 19-12 20-13 22-14 25-15 26-16 27-20 28-21 29-19 30-22 
 # source = Nicméně vládní návrh jde správným směrem, jak jsem řekl, a proto doporučuji postoupení novely k projednání do výboru pro obranu.
 # initial_translation = However, the Government's proposal is going in the right direction, as I said, and I therefore recommend the referral of the amendment to the Defence Committee.
@@ -2308,8 +2308,8 @@
 31	.	.	PUNCT	.	_	30	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p1.s1
-# align_s = 0-1 2-2 3-3 4-4 5-5 6-6 9-7 10-8 11-9 12-10 13-11 14-13 15-14 16-15
-# align_t = 1-0 2-2 3-3 4-4 5-5 6-6 7-9 8-10 9-11 10-12 11-13 13-14 14-15 15-16 
+# align_s = 0-1 1-2 3-3 4-4 5-5 6-6 9-7 10-8 11-9 12-10 13-11 14-13 15-14 16-15
+# align_t = 1-0 2-1 3-3 4-4 5-5 6-6 7-9 8-10 9-11 10-12 11-13 13-14 14-15 15-16 
 # source = Děkuji panu poslanci Antonínu Seďovi a ptám se, kdo další se hlásí do obecné rozpravy.
 # initial_translation = I thank Mr Antonín Sed and ask who else is reporting for the general debate.
 # text = I thank Mr Antonín Seďa and ask who else is reporting for the general debate.
@@ -2331,8 +2331,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p1.s2
-# align_s = 0-0 1-3 3-11 4-12 5-8 6-13
-# align_t = 0-0 1-1 2-0 3-1 4-0 5-2 6-3 7-5 8-5 11-3 12-4 13-6 
+# align_s = 0-2 1-3 3-11 4-12 5-8 6-13
+# align_t = 0-0 1-1 2-0 3-1 4-0 5-3 6-3 7-5 8-5 11-3 12-4 13-6 
 # source = Nikoho nevidím, obecnou rozpravu končím.
 # initial_translation = I don't see anyone. I'm done with the general debate.
 # text = I don't see anyone. I'm done with the general debate.
@@ -2352,8 +2352,8 @@
 14	.	.	PUNCT	.	_	13	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p1.s3
-# align_s = 0-0 2-2 4-4 5-5 6-6 7-7 8-8 9-8 10-12 11-13 12-14 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-24 21-27 22-28 23-29
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-10 13-11 14-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 24-20 27-21 28-22 29-23 
+# align_s = 0-0 1-1 2-2 4-4 5-5 6-6 7-7 9-8 10-11 11-13 12-14 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-24 21-27 22-28 23-29
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 13-11 14-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 24-20 27-21 28-22 29-23 
 # source = Protože pan ministr v demisi Vlastimil Picek ohlásil, že nebude projednávání podle § 90 odst. 2, budeme pokračovat normálním způsobem.
 # initial_translation = Because the Minister of Demission Vlastimil Picek announced that there would be no hearing pursuant to § 90 para. 2, we'll proceed in a normal manner.
 # text = Because the Minister of Demission Vlastimil Picek announced that there would be no hearing pursuant to § 90 para. 2, we'll proceed in a normal manner.
@@ -2472,7 +2472,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p3.s1
 # align_s = 0-0 1-4 2-5 3-6 4-3 5-7 6-11 7-10 9-9 11-12 12-13 13-15 14-16 15-17 16-18 17-20 20-21 21-22 22-24 23-27 24-28 26-30 27-31
-# align_t = 0-0 3-4 4-1 5-2 6-3 7-5 9-9 10-7 11-6 12-11 14-12 15-13 16-14 17-15 18-16 19-17 20-18 21-20 22-21 23-22 24-25 27-26 28-24 30-23 31-27 
+# align_t = 0-0 3-4 4-1 5-2 6-3 7-5 9-9 10-7 11-6 12-11 13-12 15-13 16-14 17-15 18-16 19-17 20-18 21-20 22-21 24-22 27-23 28-24 30-26 31-27 
 # source = Takže o tomto návrhu rozhodneme v hlasování pořadové číslo 34, které jsem právě zahájil, a ptám se, kdo je pro přikázání výboru pro obranu.
 # initial_translation = So we will decide on this proposal in the 34 order vote that I have just begun, and I ask who is in favour of the Defensive Committee's commandment.
 # text = So we will decide on this proposal in the 34 order vote that I have just begun, and I ask who is in favour of the Defensive Committee's commandment.
@@ -2532,8 +2532,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p4.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-9 7-7 8-8 9-10 10-11 11-12 12-13 13-14 14-16
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 10-9 11-10 12-11 13-12 14-13 15-13 16-14 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-9 7-7 8-8 9-10 10-11 11-12 12-13 13-15 14-16
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-6 10-9 11-10 12-11 13-12 14-13 15-13 16-14 
 # source = V hlasování pořadové číslo 34 z přítomných 171 poslance pro 133, proti nikdo.
 # initial_translation = In voting order number 34 of the 171 Member present for 133, against no one.
 # text = In voting order number 34 of the 171 Member present for 133, against no one.
@@ -2568,8 +2568,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p4.s3
-# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-10 11-11 12-13 13-16 14-17 15-19 16-20 17-21 18-25 19-27 20-28 21-29
-# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 10-10 11-11 12-9 13-12 15-13 16-13 17-14 19-15 20-16 22-16 23-17 25-18 27-19 28-20 29-21 
+# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-10 11-11 12-13 13-15 14-17 15-19 16-20 17-22 18-25 19-27 20-28 21-29
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 10-10 11-11 12-9 13-12 16-13 17-14 19-15 20-16 22-17 25-18 27-19 28-20 29-21 
 # source = Konstatuji, že tento návrh byl přikázán k projednání výboru pro obranu a lhůta k projednání zůstává podle zákona 60 dnů.
 # initial_translation = I note that this proposal has been ordered to discuss the Defence Committee and the time limit for the hearing remains in accordance with the law of 60 days.
 # text = I note that this proposal has been ordered to discuss the Defence Committee and the time limit for the hearing remains in accordance with the law of 60 days.
@@ -2606,7 +2606,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p5.s1
 # align_s = 0-0 1-1 2-3 3-5 4-6 5-7 6-11 7-13 8-14 9-16 10-18 11-19 12-20 13-21 15-23 16-24 17-24 18-25
-# align_t = 0-0 1-0 2-1 3-2 5-3 6-4 7-5 8-5 11-6 13-7 14-8 16-9 17-9 18-10 19-11 20-12 21-13 22-14 23-15 24-16 25-18 
+# align_t = 0-0 1-0 2-1 3-2 5-3 6-4 7-5 8-5 11-6 13-7 14-8 16-9 18-10 19-11 20-12 21-13 22-14 23-15 24-16 25-18 
 # source = Děkuji panu ministru obrany, děkuji zpravodaji a budeme pokračovat dalšími pevně zařazenými body do tohoto pořadu schůze.
 # initial_translation = Thank you, Minister of Defence, thank you to the rapporteur, and we will continue with other firmly placed points on this agenda.
 # text = Thank you, Minister of Defence, thank you to the rapporteur, and we will continue with other firmly placed points on this agenda.
@@ -2639,7 +2639,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p5.s2
 # align_s = 0-0 1-1 2-2 3-3 4-4 5-6
-# align_t = 1-0 3-3 4-4 5-4 6-5 
+# align_t = 0-0 1-2 3-3 4-4 5-4 6-5 
 # source = Ještě předtím ohlásím další omluvu.
 # initial_translation = I'll make another apology first.
 # text = I'll make another apology first.
@@ -2673,7 +2673,7 @@
 14	.	.	PUNCT	.	_	13	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-013-028.u11.p6.s1
-# align_s = 0-1 1-2 3-2 4-3
+# align_s = 0-1 1-2 4-3
 # align_t = 1-0 2-1 3-4 
 # source = Dalším bodem k projednání je
 # initial_translation = The next item is

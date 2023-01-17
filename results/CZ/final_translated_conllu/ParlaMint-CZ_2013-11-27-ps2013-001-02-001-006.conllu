@@ -94,8 +94,8 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u1.p3.s2
-# align_s = 0-2 1-8 2-10 3-4 4-5 5-6 6-7 7-12 9-14 10-13 11-16 12-17 13-18 14-19 15-22 16-23 18-24 19-25 20-27 21-28 22-29 23-30 24-30 25-31
-# align_t = 0-0 2-0 3-0 4-3 5-4 6-5 7-6 8-1 10-2 11-8 13-10 14-9 15-10 16-11 17-12 18-13 19-14 22-15 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-23 31-25 
+# align_s = 0-2 1-9 2-10 3-4 4-5 5-6 6-7 8-11 9-14 10-13 11-16 12-17 13-18 14-19 15-22 16-23 18-24 19-25 20-27 21-28 22-29 23-30 24-26 25-31
+# align_t = 0-0 2-0 3-0 4-3 5-4 6-5 7-6 8-1 9-2 10-7 11-8 13-10 14-9 15-10 16-11 17-12 18-13 19-14 22-15 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-23 31-25 
 # source = Současně vás poprosím, pane předsedo, abyste nám představil jednotlivé kandidáty, a také poprosím, aby při čtení svého jména povstali.
 # initial_translation = At the same time, Mr President, I would ask you to introduce us to individual candidates, and I would also ask them to rise when reading their name.
 # text = At the same time, Mr President, I would ask you to introduce us to individual candidates, and I would also ask them to rise when reading their name.
@@ -186,7 +186,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p1.s4
-# align_s = 0-1 2-2 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-10
+# align_s = 0-1 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-10
 # align_t = 1-0 2-3 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-11 
 # source = Doufám, že to byla moje poslední chyba v tomto vystoupení.
 # initial_translation = I hope it was my last mistake in this performance.
@@ -204,8 +204,8 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p2.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-7 9-8 10-9 11-10 12-11 13-14 14-15 15-16 17-17 18-18 19-19 20-19 21-20 22-21
-# align_t = 0-1 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-9 9-10 10-11 11-12 14-13 15-14 16-15 17-17 18-18 19-19 20-21 21-22 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-7 9-8 10-9 11-10 12-11 13-14 14-15 15-16 16-16 17-17 18-18 19-19 21-20 22-21
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-8 8-9 9-10 10-11 11-12 14-13 15-14 16-15 17-17 18-18 19-19 20-21 21-22 
 # source = Ještě jednou - hezké středeční dopoledne, vážená paní předsedající, vážení členové vlády, vážené paní poslankyně a vážení páni poslanci.
 # initial_translation = Once again - good Wednesday morning, Madam President, honourable Members of the Government, honourable Members and honourable Members.
 # text = Once again - good Wednesday morning, Madam President, honourable Members of the Government, honourable Members and honourable Members.
@@ -234,7 +234,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p3.s1
 # align_s = 0-0 1-1 2-2 3-4 5-6 6-7 7-17 8-18 9-19 10-8 11-9 12-10 13-11 14-12 15-13 17-14 18-15 19-20 20-22 21-24 22-25 23-26 24-28 25-35 26-36 27-37 28-38 29-31 30-33 31-39 32-40 33-41 34-42 35-43 36-44 37-45 39-46 40-50 41-48 42-61 43-62 44-52 45-53 46-56 47-58 51-59 52-60 53-63
-# align_t = 0-0 1-1 2-2 4-3 5-4 6-5 7-6 8-10 9-11 10-12 11-13 12-14 13-15 14-17 15-18 17-7 18-8 19-9 20-19 22-20 25-21 26-23 28-24 31-29 33-30 34-22 35-25 36-26 37-27 38-28 39-31 40-32 41-33 42-34 43-35 44-36 45-37 46-39 48-41 50-40 52-44 53-45 56-46 58-47 59-51 60-52 61-42 62-43 63-53 
+# align_t = 0-0 1-1 2-2 3-2 4-3 6-5 7-6 8-10 9-11 10-12 11-13 12-14 13-15 14-17 15-18 17-7 18-8 19-9 20-19 22-20 25-22 26-23 28-24 31-29 33-30 34-21 35-25 36-26 37-27 38-28 39-31 40-32 41-33 42-34 43-35 44-36 45-37 46-39 48-41 50-40 52-44 53-45 56-46 58-47 59-51 60-52 61-42 62-43 63-53 
 # source = Rád bych vás informoval o tom, že volební komise na své druhé schůzi dne 26. listopadu 2013 projednala návrhy poslaneckých klubů na členy mandátového a imunitního výboru Poslanecké sněmovny a také přijala své usnesení číslo 7, na jehož základě byl připraven návrh usnesení Poslanecké sněmovny, který máte před sebou.
 # initial_translation = I would like to inform you that, at its second meeting on 26 November 2013, the Election Commission discussed the proposals of the MPs on the members of the Chamber of Deputies' mandate and immunity committee and also adopted its resolution number 7 on the basis of which the draft resolution of the Chamber of Deputies before you was prepared.
 # text = I would like to inform you that, at its second meeting on 26 November 2013, the Election Commission discussed the proposals of the MPs on the members of the Chamber of Deputies' mandate and immunity committee and also adopted its resolution number 7 on the basis of which the draft resolution of the Chamber of Deputies before you was prepared.
@@ -322,8 +322,8 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p4.s1
-# align_s = 0-0 1-1 2-2 4-3 5-5 6-6 7-7 8-8 9-9 10-10 11-11 13-12 14-13 15-14 16-15 17-16 18-17 19-18 20-19 21-22 22-24 23-25
-# align_t = 0-0 1-1 2-2 3-4 5-5 6-6 7-7 8-8 9-9 10-10 12-13 13-14 14-11 15-12 16-17 17-18 18-19 19-20 22-21 24-22 25-23 
+# align_s = 0-0 1-1 2-2 4-3 5-5 6-6 7-7 8-8 9-9 10-10 11-14 12-15 13-12 14-13 15-15 17-16 18-17 19-18 20-19 21-22 22-24 23-25
+# align_t = 0-0 1-1 2-2 3-4 5-5 6-6 7-7 8-8 9-9 12-13 14-11 15-12 16-17 17-18 18-19 19-20 22-21 24-22 25-23 
 # source = Dovolte mi konstatovat, že mandátový a imunitní výbor se ustavuje stejným způsobem podle zásady poměrného zastoupení jako jakýkoliv jiný výbor Poslanecké sněmovny.
 # initial_translation = Let me say that the mandate and immune committee is set up in the same way as any other committee of the Chamber of Deputies.
 # text = Let me say that the mandate and immune committee is set up in the same way as any other committee of the Chamber of Deputies.
@@ -355,8 +355,8 @@
 26	.	.	PUNCT	.	_	25	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p4.s2
-# align_s = 0-0 1-4 2-6 3-7 4-8 5-10 6-12 7-13 8-15 9-16 10-17 11-18 12-19 14-20 16-21 17-22 19-23 20-25 21-26 22-27 23-28 24-30 25-31 26-33 27-35 28-37 29-38 30-39
-# align_t = 0-0 4-1 6-2 7-3 8-4 10-5 12-6 13-7 15-8 16-9 17-10 18-11 19-12 20-14 21-16 22-17 23-19 25-20 26-21 27-22 28-23 30-24 31-25 32-25 33-26 35-27 37-28 38-29 39-30 
+# align_s = 0-0 2-6 3-7 4-8 5-10 6-12 7-13 8-15 9-16 10-17 11-18 12-19 14-20 16-21 17-22 19-23 20-25 21-26 22-27 23-28 24-30 25-31 26-33 27-35 28-37 29-38 30-39
+# align_t = 0-0 4-1 6-2 7-3 8-4 10-5 12-6 13-7 15-8 16-9 17-10 18-11 19-12 20-14 21-16 22-17 23-18 24-19 25-20 26-21 27-22 28-23 31-25 32-25 33-26 35-27 37-28 38-29 39-30 
 # source = Dále pak připomínám, že Poslanecká sněmovna stanovila svým usnesením číslo 2 ze dne 25. listopadu 2013, že mandátový a imunitní výbor bude ustaven v počtu 15 členů.
 # initial_translation = Furthermore, I would like to remind you that the Chamber of Deputies stated by its resolution number 2 of 25 November 2013 that the mandate and immunity committee would be set up in the number of 15 members.
 # text = Furthermore, I would like to remind you that the Chamber of Deputies stated by its resolution number 2 of 25 November 2013 that the mandate and immunity committee would be set up in the number of 15 members.
@@ -402,8 +402,8 @@
 40	.	.	PUNCT	.	_	39	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p5.s1
-# align_s = 0-0 1-3 2-5 3-6 5-6 7-7 8-9 9-10 10-11 11-12 12-15 14-16 15-17 16-19 17-20 18-21 19-22 20-22 21-23
-# align_t = 0-0 3-1 4-2 5-3 6-5 7-6 9-8 10-9 11-10 12-11 15-12 16-14 17-15 19-16 20-17 21-18 22-19 23-21 
+# align_s = 0-0 1-3 2-5 3-6 4-5 5-6 7-7 8-9 9-10 10-11 11-12 12-15 14-16 15-17 16-19 17-20 18-21 19-22 20-22 21-23
+# align_t = 0-0 3-1 4-2 5-3 6-5 7-7 9-8 10-9 11-10 12-11 15-12 16-14 17-15 19-16 20-17 21-18 22-19 23-21 
 # source = Teď poprosím vážené kolegyně a kolegy, kteří byli nominováni jako členové výboru, aby po přečtení svého jména povstali.
 # initial_translation = Now I will ask my esteemed colleagues who have been nominated as members of the committee to stand up after reading their name.
 # text = Now I will ask my esteemed colleagues who have been nominated as members of the committee to stand up after reading their name.
@@ -433,8 +433,8 @@
 24	.	.	PUNCT	.	_	23	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p6.s1
-# align_s = 1-0 2-3 3-4 4-5 5-6 6-7 7-9 8-8 9-10 10-11 11-12 12-13 13-14 14-17 15-19 16-18 17-19 18-20 19-21 21-22 22-23 23-24 24-25 25-26 26-27 28-28 29-29 30-30 31-31 32-32 33-33 35-34 36-35 37-36 38-37 39-38 40-39 42-40 43-41 44-42 45-43 46-44 47-45 49-46 50-47 51-48 52-49 53-50 54-49 55-50 56-52 58-53 59-54 60-55 61-56 62-57 63-58 65-59 66-60 67-61 68-62 69-63 70-64 72-65 73-66 74-67 75-68 76-70 77-69 78-71 80-72 81-73 82-74 83-75 84-76 85-77 86-78 87-79 88-80 90-81 91-82 92-83 93-84 94-85 95-86 96-87 97-88 98-89 100-90 101-91 102-92 103-93 104-94 105-95 106-96 108-97 109-98 110-99 111-100 112-101 113-102 115-103 116-104 117-105 118-106 119-107 120-108 122-19 123-92 125-91 126-92 127-91 128-92 129-93 130-94 131-95 136-109 137-91 138-92 139-93 140-94 141-95
-# align_t = 0-1 3-2 4-3 5-4 6-5 7-6 8-9 9-7 11-10 12-11 13-12 15-13 17-14 18-16 19-17 20-18 21-19 22-21 23-22 24-23 25-24 26-25 27-26 28-28 29-29 30-30 31-31 32-32 33-33 34-35 35-36 36-37 37-38 38-39 39-40 40-42 41-43 42-44 43-45 44-46 45-47 46-49 47-50 48-51 49-52 50-53 51-55 52-56 53-58 54-59 55-60 56-61 57-62 58-63 59-65 60-66 61-67 62-68 63-69 64-70 65-72 66-73 67-74 68-75 69-77 70-76 71-78 72-80 73-81 74-82 75-83 76-84 77-85 78-86 79-87 80-88 81-90 82-91 83-92 84-93 85-94 86-95 87-96 88-97 89-98 90-100 91-101 92-102 93-103 94-104 95-105 96-106 97-108 98-109 99-110 100-111 101-112 102-113 103-115 104-116 105-117 106-118 107-119 108-120 109-136 
+# align_s = 1-0 2-3 3-4 4-5 5-6 6-7 7-9 8-9 9-10 10-11 11-12 12-13 13-15 14-17 15-19 16-18 17-19 18-20 19-21 21-22 22-23 23-24 24-25 25-26 26-27 28-28 29-29 30-30 31-31 32-32 33-33 35-34 36-35 37-36 38-37 39-38 40-39 42-40 43-41 44-42 45-43 46-44 47-45 49-46 50-47 51-48 52-49 53-50 54-49 55-50 56-52 58-53 59-54 60-55 61-56 62-57 63-58 65-59 66-60 67-61 68-62 69-63 70-64 72-65 73-66 74-67 75-68 76-70 77-69 78-71 80-72 81-73 82-74 83-75 84-76 85-77 86-78 87-79 88-80 90-81 91-82 92-83 93-84 94-85 95-86 96-87 97-88 98-89 100-90 101-91 102-92 103-93 104-94 105-95 106-96 108-97 109-98 110-99 111-100 112-101 113-102 115-103 116-104 117-105 118-106 119-107 120-108 122-19 123-20 125-91 126-95 127-91 128-92 129-93 130-94 131-95 136-109 137-91 138-92 139-93 140-94 141-95
+# align_t = 0-1 3-2 4-3 5-4 6-5 7-6 8-9 11-10 12-11 13-12 14-13 15-14 16-15 18-16 19-17 20-18 21-19 22-21 23-22 24-23 25-24 26-25 27-26 28-28 29-29 30-30 31-31 32-32 33-33 34-35 35-36 36-37 37-38 38-39 39-40 40-42 41-43 42-44 43-45 44-46 45-47 46-49 47-50 48-51 49-52 50-53 51-55 52-56 53-58 54-59 55-60 56-61 57-62 58-63 59-65 60-66 61-67 62-68 63-69 64-70 65-72 66-73 67-74 68-75 69-77 70-76 71-78 72-80 73-81 74-82 75-83 76-84 77-85 78-86 79-87 80-88 81-90 82-91 83-92 84-93 85-94 86-95 87-96 88-97 89-98 90-100 91-101 92-102 93-103 94-104 95-105 96-106 97-108 98-109 99-110 100-111 101-112 102-113 103-115 104-116 105-117 106-118 107-119 108-120 109-136 
 # source = Za členy mandátového a imunitního výboru byli poslaneckými kluby navrženi následující poslanci - budu je představovat v abecedním pořadí: pan poslanec Marek Benda za ODS, pan poslanec Jiří Dolejš - KSČM, pan poslanec Matěj Fichtner - ANO, pan poslanec Stanislav Grospič - KSČM, pan poslanec Daniel Herman - KDU-ČSL, pan poslanec Milan Chovanec - ČSSD, pan poslanec Jan Chvojka - ČSSD, pan poslanec Martin Lank - hnutí Úsvit, pan poslanec Herbert Pavera - TOP 09 a Starostové, pan poslanec Stanislav Polčák - TOP 09 a Starostové, pan poslanec Roman Procházka - ANO 2011, pan poslanec Jeroným Tejc - ČSSD, pan poslanec Roman Váňa - ČSSD, v abecedním pořadí číslo 14 zaujal Radek Vondráček - ANO 2011, a konečně pan poslanec Jiří Zlatuška - ANO 2011.
 # initial_translation = Members of the delegation and immunity committee were nominated by the following Members - I will present them in alphabetical order: Mr Marek Benda for ODS, Member Jiří Dolejš - KSČM, Member Matěj Fichtner - YES, Member Stanislav Grospič - KSČM, Member Daniel Herman - KDU-ČSL, Member Milan Chovanec - ČSSD, Member Jan Chvojka - ČSSD, Member Martin Lank - Úsvit movement, Member Herbert Pavera - TOP 09 and Mayor, Member Stanislav Polčák - TOP 09 and Mayor, Member Roman Procházka - YES 2011, Member Jeroným Tejc - ČSSD, Member Roman Váňa - ČSSD, Mr.
 # text = Members of the delegation and immunity committee were nominated by the following Members - I will present them in alphabetical order: Mr Marek Benda for ODS, Member Jiří Dolejš - KSČM, Member Matěj Fichtner - YES, Member Stanislav Grospič - KSČM, Member Daniel Herman - KDU-ČSL, Member Milan Chovanec - ČSSD, Member Jan Chvojka - ČSSD, Member Martin Lank - Úsvit movement, Member Herbert Pavera - TOP 09 and Mayor, Member Stanislav Polčák - TOP 09 and Mayor, Member Jiří Zlatuška - YES 2011, Member Jeroným Tejc - ČSSD, Member Roman Váňa - ČSSD, Mr.
@@ -550,8 +550,8 @@
 110	Mr.	Mr.	PROPN	NNP	Number=Sing	109	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u2.p7.s1
-# align_s = 0-2 1-1 2-3 3-5 4-7 5-9 7-10 9-11 10-13 12-14 13-15 14-17 16-18 17-21 18-24 19-25 20-27 21-28 22-29 23-31 25-34 26-37 28-38 29-39 30-40 31-41 32-42 33-43 34-45 35-46 36-47 37-48 38-49 39-51 40-52
-# align_t = 2-0 3-1 4-2 5-3 7-4 8-5 9-4 10-7 11-9 13-10 14-12 15-13 17-14 18-16 21-17 24-18 25-19 27-20 28-21 29-22 31-23 33-24 34-25 37-26 38-28 39-29 40-30 41-31 42-32 43-33 45-34 46-35 47-36 48-37 49-38 51-39 52-40 
+# align_s = 0-2 1-1 2-3 3-5 4-7 5-8 8-10 9-11 10-13 12-14 13-15 14-17 16-18 17-21 18-24 19-25 20-27 21-28 22-29 23-31 24-33 25-34 26-37 28-38 29-39 30-40 31-41 32-42 33-43 34-45 35-46 36-47 37-48 38-49 39-51 40-52
+# align_t = 2-0 3-1 4-2 5-3 7-4 9-5 10-7 11-9 13-10 14-12 15-13 17-14 18-16 21-17 24-18 25-19 27-20 28-21 29-22 31-23 33-24 34-25 37-26 38-28 39-29 40-30 41-31 42-32 43-33 45-34 46-35 47-36 48-37 49-38 51-39 52-40 
 # source = Nyní bych chtěl požádat Poslaneckou sněmovnu, aby přijala usnesení, v němž bere na vědomí ustavení mandátového a imunitního výboru ve složení podle návrhu usnesení, které - jak jsem řekl - bylo rozdáno na lavice ve Sněmovně.
 # initial_translation = I would now like to ask the Chamber of Deputies to adopt a resolution in which it takes note of the establishment of a mandate and an immune committee in the composition of the motion for a resolution which, as I said, has been distributed on benches in the House.
 # text = I would now like to ask the Chamber of Deputies to adopt a resolution in which it takes note of the establishment of a mandate and an immune committee in the composition of the motion for a resolution which, as I said, has been distributed on benches in the House.
@@ -660,7 +660,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p2.s1
 # align_s = 1-0 3-0 4-1 5-2 6-3 7-5 8-8 11-9 12-10 13-13 14-14 15-15 16-18 17-21 18-22 19-23 20-24 21-25 22-26 23-27 25-28 26-29 27-30 28-31 29-33 30-34 31-36 32-39 33-40 34-42 35-43 36-44
-# align_t = 0-3 1-4 2-5 3-6 5-7 8-8 9-9 10-12 11-10 12-11 13-13 14-14 15-15 17-16 18-16 21-17 22-18 23-19 24-20 25-21 26-22 27-23 28-25 29-26 30-27 31-28 33-29 34-30 36-31 39-32 40-33 42-34 43-35 44-36 
+# align_t = 0-3 1-4 2-5 3-6 5-7 8-8 9-9 10-12 13-13 14-14 15-15 17-16 18-16 21-17 22-18 23-19 24-20 25-21 26-22 27-23 28-25 29-26 30-27 31-28 33-29 34-30 36-31 39-32 40-33 42-34 43-35 44-36 
 # source = Ještě předtím, než budeme hlasovat o návrhu usnesení, se kterým jste nás seznámil, otevírám rozpravu k tomuto bodu, k bodu číslo 6, tedy k návrhu na ustavení mandátového a imunitního výboru.
 # initial_translation = Before we vote on the motion for a resolution that you have introduced us to, I am opening up a debate on this point, on point 6, namely on the proposal for the establishment of a mandate and an immune committee.
 # text = Before we vote on the motion for a resolution that you have introduced us to, I am opening up a debate on this point, on point 6, namely on the proposal for the establishment of a mandate and an immune committee.
@@ -712,7 +712,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p2.s2
 # align_s = 0-3 2-2 3-1 4-4 5-6 6-7 7-8 8-9 9-10
-# align_t = 1-0 2-2 3-3 4-4 6-5 7-6 8-7 9-8 10-9 
+# align_t = 0-1 1-0 2-2 3-3 4-4 6-5 7-6 8-7 9-8 10-9 
 # source = Hlásí se prosím někdo do rozpravy k tomuto bodu?
 # initial_translation = Would someone please report to the debate on this point?
 # text = Would someone please report to the debate on this point?
@@ -729,7 +729,7 @@
 11	?	?	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p2.s3
-# align_s = 0-1 1-2 2-3 3-5
+# align_s = 0-0 2-1 3-5
 # align_t = 0-2 1-2 3-0 4-1 5-3 
 # source = Nehlásí se nikdo.
 # initial_translation = No one's checking in.
@@ -742,8 +742,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p2.s4
-# align_s = 0-3 1-5 2-6 3-7
-# align_t = 0-1 2-2 3-2 6-0 7-3 
+# align_s = 0-2 2-3 3-7
+# align_t = 0-1 3-2 6-2 7-3 
 # source = Rozpravu tedy končím.
 # initial_translation = So I'm done with the debate.
 # text = So I'm done with the debate.
@@ -757,8 +757,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p3.s1
-# align_s = 0-2 3-3 5-5 6-6 7-7 8-8 9-12 10-10 11-13 12-14 13-15 14-16 15-17 16-18 17-20 19-21 20-22
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 10-10 12-9 13-11 14-12 15-13 16-14 17-15 18-16 19-18 21-19 22-20 
+# align_s = 0-2 3-3 4-4 5-5 6-6 7-7 8-8 9-12 10-10 11-13 12-14 13-15 14-16 15-17 16-18 17-20 19-21 20-22
+# align_t = 1-0 2-1 3-3 4-4 5-5 6-6 7-7 8-8 10-10 12-9 13-11 14-12 15-13 16-14 17-15 19-16 20-17 21-19 22-20 
 # source = Zeptám se, zda pan předseda - ale protože rozprava nebyla, tak se ani vlastně nemá k čemu vyjádřit.
 # initial_translation = I will ask whether the President - but since there was no debate, he does not really have anything to say.
 # text = I will ask whether the President - but since there was no debate, he does not really have anything to say.
@@ -805,8 +805,8 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p4.s1
-# align_s = 0-0 2-1 3-2 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-14 14-15
-# align_t = 0-0 1-2 2-3 4-4 5-5 7-6 8-8 9-9 10-10 11-11 12-12 14-13 15-14 
+# align_s = 0-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-14 14-15
+# align_t = 1-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 14-13 15-14 
 # source = Myslím, že jsou všichni v jednacím sále, takže budeme moci zahájit hlasování.
 # initial_translation = I think they're all in the Chamber, so we can start the vote.
 # text = I think they're all in the Chamber, so we can start the vote.
@@ -829,7 +829,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p4.s2
 # align_s = 0-0 1-2 2-3 3-5 5-6 6-7 7-9 8-10 9-13 12-14 13-15 14-16 15-18 16-21 17-22 18-23 19-24 20-27 21-29 22-30 23-32 24-33 25-36 26-38
-# align_t = 0-0 2-1 3-2 5-3 6-5 7-6 9-7 10-8 11-9 12-10 13-11 14-12 15-13 16-14 18-15 21-16 22-17 23-18 24-19 27-20 29-21 30-22 32-23 33-24 36-25 38-26 
+# align_t = 0-0 2-1 3-2 5-3 6-5 7-6 9-7 10-8 11-9 13-11 14-12 15-13 16-14 18-15 21-16 22-17 23-18 24-19 27-20 29-21 30-22 32-23 33-24 36-25 38-26 
 # source = Budeme hlasovat o návrhu, který zní takto: Ptám se, kdo souhlasí s ustavením mandátového a imunitního výboru Poslanecké sněmovny podle předloženého návrhu usnesení.
 # initial_translation = We will vote on a proposal which reads as follows: I am asking who agrees with the establishment of the mandate and immunity committee of the Chamber of Deputies according to the motion for a resolution tabled.
 # text = We will vote on a proposal which reads as follows: I am asking who agrees with the establishment of the mandate and immunity committee of the Chamber of Deputies according to the motion for a resolution tabled.
@@ -915,7 +915,7 @@
 4	?	?	PUNCT	.	_	3	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p6.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-14
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-13 13-14
 # align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-12 14-13 
 # source = Hlasování pořadové číslo 4, přítomno 196, pro 194, proti nikdo.
 # initial_translation = Voting order number 4, present 196, for 194, against no one.
@@ -950,7 +950,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p6.s3
 # align_s = 0-1 1-2 3-3 4-4 5-8 6-9 7-11 8-12 9-6 10-13
-# align_t = 1-0 2-1 3-3 4-4 6-9 8-5 9-6 11-7 12-8 13-10 
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-9 8-5 9-6 11-7 12-8 13-10 
 # source = Mohu konstatovat, že jsme mandátový a imunitní výbor ustavili.
 # initial_translation = I can say that we have established a mandate and an immune committee.
 # text = I can say that we have established a mandate and an immune committee.
@@ -971,7 +971,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p7.s1
 # align_s = 0-1 1-3 2-4 3-6 4-7 5-8 6-9
-# align_t = 0-0 1-0 3-1 4-2 6-3 7-4 8-5 9-6 
+# align_t = 1-0 3-1 4-2 6-3 7-4 8-5 9-6 
 # source = Musíme pokročit k další nezbytné věci.
 # initial_translation = We need to move on to another necessary matter.
 # text = We need to move on to another necessary matter.
@@ -987,8 +987,8 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p7.s2
-# align_s = 0-1 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13 13-13 14-14 15-16 16-18 17-19 18-24 19-21 20-22 21-25
-# align_t = 0-0 1-1 2-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-13 14-14 16-15 18-16 19-17 21-19 22-20 24-18 25-21 
+# align_s = 0-1 1-3 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13 13-13 14-14 15-16 16-18 17-19 18-24 19-21 20-22 21-25
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 9-8 10-9 11-10 12-11 13-13 14-14 17-15 18-16 19-17 21-19 22-20 24-18 25-21 
 # source = Aby se mandátový a imunitní výbor mohl sejít na své první ustavující schůzi, musím pověřit někoho řízením tohoto výboru.
 # initial_translation = In order for the mandate and immunity committee to meet at its first appointment, I have to delegate someone to this committee's management.
 # text = In order for the mandate and immunity committee to meet at its first appointment, I have to delegate someone to this committee's management.
@@ -1020,8 +1020,8 @@
 26	.	.	PUNCT	.	_	25	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p7.s3
-# align_s = 0-0 1-1 2-2 3-3 5-4 6-5 10-6 11-9 13-9 14-10 15-11 16-12 17-15 18-18 19-21 20-23 21-24
-# align_t = 1-1 2-2 3-4 4-5 5-6 6-7 8-8 9-10 10-11 11-15 12-16 15-17 18-18 21-19 23-19 24-21 
+# align_s = 0-0 1-1 2-2 3-3 5-4 6-5 10-7 11-8 13-9 14-10 15-11 16-12 17-15 18-18 19-21 20-23 21-24
+# align_t = 1-1 2-2 3-4 4-5 5-6 6-7 8-8 9-10 10-11 11-15 12-16 15-17 18-18 19-19 21-19 23-20 24-21 
 # source = Pověřuji tedy řízením pana poslance Jiřího Dolejše, a to do doby, než bude zvolený předseda výboru potvrzen Poslaneckou sněmovnou.
 # initial_translation = I therefore entrust Mr Jiří Dolejš with the proceedings until the elected chairman of the committee has been confirmed by the Chamber of Deputies.
 # text = I therefore entrust Mr Jiří Dolejš with the proceedings until the elected chairman of the committee has been confirmed by the Chamber of Deputies.
@@ -1052,7 +1052,7 @@
 25	.	.	PUNCT	.	_	24	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p8.s1
-# align_s = 0-0 1-1 2-2 4-3 5-4 7-5 8-6 9-7 10-8 11-14 12-16 13-17 14-18 15-10 16-12 17-13 18-19 19-21 20-20 21-23 22-24 23-25 24-26 25-27 26-28 27-29 28-31 29-32 30-33 32-34 33-35 34-37 35-38 36-36 37-39 40-43 42-44 43-41 44-42 45-45 46-46 47-49 48-50
+# align_s = 0-0 1-1 2-2 4-3 5-4 7-5 8-6 9-7 10-8 11-14 12-16 13-17 14-18 15-10 16-12 17-13 18-19 19-21 20-20 21-23 22-24 23-25 24-26 25-27 26-28 27-29 28-31 29-32 30-33 32-34 33-34 34-37 35-38 36-36 37-39 40-39 41-43 42-44 43-41 44-42 45-45 46-46 47-49 48-50
 # align_t = 0-0 1-1 2-2 3-4 4-5 5-7 6-8 7-9 8-10 10-15 12-16 13-17 14-11 16-12 17-13 18-14 19-18 21-19 22-20 23-21 24-22 25-23 26-24 27-25 28-26 29-27 31-28 32-29 33-30 34-32 36-33 37-34 38-35 39-37 40-38 41-43 42-44 43-41 44-42 45-45 46-46 49-47 50-48 
 # source = Jenom pro vás jako informaci: pan poslanec Jiří Dolejš byl v šestém volebním období členem tohoto výboru a nyní je nejstarším kandidátem z bývalých poslanců, proto je tedy navržen, aby tento výbor řídil do doby, než bude zvolen nový předseda a potvrzen Sněmovnou.
 # initial_translation = Just for your information: Mr Jiří Dolejš was a member of this committee in the sixth parliamentary term and is now the oldest candidate of former Members, so it is therefore proposed that he manage this committee until the new President is elected and confirmed by the House.
@@ -1110,7 +1110,7 @@
 51	.	.	PUNCT	.	_	50	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p9.s1
-# align_s = 0-2 1-5 2-6 3-7 4-9 5-11 6-12 7-13 8-14 9-16 10-19 11-20
+# align_s = 0-2 1-6 2-6 3-7 4-9 5-11 6-12 7-13 8-14 9-16 10-19 11-20
 # align_t = 2-0 5-1 6-2 7-3 9-4 11-5 12-6 13-7 14-8 16-9 19-10 20-11 
 # source = Dále upozorňuji, že výbor zvolí svého předsedu na ustavující schůzi.
 # initial_translation = I would also like to point out that the Committee will elect its chairman at the setting-up meeting.
@@ -1138,8 +1138,8 @@
 21	.	.	PUNCT	.	_	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p10.s1
-# align_s = 0-2 1-5 2-6 3-7 4-9 5-10 6-11 7-12 8-13 10-14 11-15 12-16 13-17 14-18 15-19 17-24 18-25 19-27 20-29 21-30 22-32 23-33
-# align_t = 2-0 5-1 6-2 7-3 9-4 10-5 11-6 12-7 13-8 14-10 15-11 16-12 18-13 19-15 22-14 23-14 24-17 25-20 26-18 27-19 30-21 32-22 33-23 
+# align_s = 0-2 1-5 2-6 3-7 4-9 5-10 6-11 7-12 8-13 10-14 11-15 12-16 13-17 14-18 15-19 17-24 18-26 19-27 20-29 21-30 22-32 23-33
+# align_t = 2-0 5-1 6-2 7-3 9-4 10-5 11-6 12-7 13-8 14-10 15-11 16-12 17-13 18-14 19-15 22-18 23-16 24-17 25-20 27-19 30-21 32-22 33-23 
 # source = Dále připomínám, že mandátový a imunitní výbor zkoumá, zda jednotliví poslanci byli platně zvoleni, a svá zjištění předkládá Poslanecké sněmovně.
 # initial_translation = I would also like to remind you that the mandate and immunity committee examines whether individual Members have been elected in a valid manner and presents its findings to the Chamber of Deputies.
 # text = I would also like to remind you that the mandate and immunity committee examines whether individual Members have been elected in a valid manner and presents its findings to the Chamber of Deputies.
@@ -1179,8 +1179,8 @@
 34	.	.	PUNCT	.	_	33	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p11.s1
-# align_s = 0-0 1-1 2-2 3-4 4-6 5-8 6-11 7-13 8-14 9-16 10-17 11-18 12-19 13-20 14-22 15-24 16-26 17-27
-# align_t = 0-0 1-1 2-2 4-3 5-4 6-4 8-5 9-3 10-5 11-6 13-7 14-8 16-9 17-10 18-11 19-12 20-13 22-14 24-15 26-15 27-17 
+# align_s = 0-0 1-1 2-2 3-4 4-5 5-8 6-11 7-13 8-14 9-16 10-19 12-18 13-20 14-22 15-24 16-26 17-27
+# align_t = 0-0 1-1 2-2 4-3 5-4 8-5 10-5 11-6 13-7 14-8 16-9 17-10 18-11 19-12 20-13 22-14 24-15 26-16 27-17 
 # source = V této souvislosti vás chci upozornit na rozdíl mezi volbou předsedy výboru výborem a volbou Poslaneckou sněmovnou.
 # initial_translation = In this context, I would like to draw your attention to the difference between the choice of committee chair and the choice of Chamber of Deputies.
 # text = In this context, I would like to draw your attention to the difference between the choice of committee chair and the choice of Chamber of Deputies.
@@ -1214,7 +1214,7 @@
 28	.	.	PUNCT	.	_	27	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p11.s2
-# align_s = 0-0 1-2 2-5 3-6 4-7 5-8 6-10 7-13 8-16 9-17 10-18 11-19 12-20 13-29 14-32 15-26 16-22 17-23 18-24 19-33
+# align_s = 0-0 1-2 2-5 3-6 4-7 5-8 6-10 7-13 8-16 9-17 10-18 11-19 12-20 13-29 14-32 15-26 17-23 18-24 19-33
 # align_t = 0-0 2-1 5-2 6-3 7-4 8-5 10-6 13-7 16-8 17-9 18-10 19-11 20-12 22-16 23-17 24-18 26-15 29-13 32-14 33-19 
 # source = V případě nastávající volby, tedy volby předsedy mandátového a imunitního výboru, organizaci volby zajišťuje právě tento výbor.
 # initial_translation = In the event of the forthcoming election, i.e. the election of the chairman of the mandate and immunity committee, it is this committee that provides for the organisation of the election.
@@ -1255,8 +1255,8 @@
 34	.	.	PUNCT	.	_	33	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p11.s3
-# align_s = 0-1 1-2 3-3 4-4 5-7 6-8 7-10 8-13 9-14 10-17 11-19 12-20 13-21 14-22 15-23 16-25 17-26 18-28 19-29 20-30
-# align_t = 1-0 2-1 3-3 4-4 7-5 8-6 10-7 13-8 14-9 17-10 19-11 20-12 21-13 22-14 23-15 25-16 26-17 28-18 29-19 30-20 
+# align_s = 0-1 3-3 4-4 5-7 6-8 7-10 8-13 9-14 10-17 11-19 12-20 13-21 14-22 15-23 16-25 17-26 18-28 19-29 20-30
+# align_t = 0-1 1-0 2-3 3-3 4-4 7-5 8-6 10-7 13-8 14-9 17-10 19-11 20-12 21-13 22-14 23-15 25-16 26-17 28-18 29-19 30-20 
 # source = Znamená to, že návrhy kandidátů se nepředkládají volební komisi Poslanecké sněmovny, ale přímo na ustavující schůzi tohoto výboru.
 # initial_translation = This means that the proposals of the candidates are not submitted to the Election Commission of the Chamber of Deputies, but directly to the constituent meeting of this committee.
 # text = This means that the proposals of the candidates are not submitted to the Election Commission of the Chamber of Deputies, but directly to the constituent meeting of this committee.
@@ -1293,8 +1293,8 @@
 31	.	.	PUNCT	.	_	30	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p12.s1
-# align_s = 0-2 1-0 2-3 3-4 4-5 5-6 6-8 7-9 9-10 12-11 14-12 15-13 16-15 17-16 18-17 19-14 21-18 22-19 23-21 24-22 25-23 27-24 28-29 29-30 30-31 31-32 32-26 33-28 34-33
-# align_t = 0-1 2-0 3-2 4-3 5-4 6-5 8-6 9-7 10-9 11-12 12-14 13-15 14-19 16-17 17-18 18-20 19-21 20-22 21-23 22-24 23-25 24-26 25-27 26-32 28-33 29-28 30-29 31-30 32-31 33-34 
+# align_s = 0-2 1-0 2-3 3-4 4-5 5-6 6-8 7-9 9-10 12-11 14-12 15-13 16-15 17-16 18-17 21-18 22-19 23-21 24-22 25-23 27-24 28-29 29-30 30-31 31-32 32-27 33-28 34-33
+# align_t = 0-1 1-1 3-2 4-3 5-4 6-5 8-6 9-7 10-9 11-12 12-14 13-14 14-16 16-17 17-19 18-20 19-21 20-22 21-23 22-24 23-25 24-26 26-27 27-32 28-33 29-28 30-29 31-30 32-31 33-34 
 # source = Nyní budeme muset tedy dopřát čas tomuto výboru, aby se sešel, aby mohly být předloženy návrhy, aby mohl udělat vše, co na své ustavující schůzi musí udělat.
 # initial_translation = We will now have to allow time for this committee to meet so that proposals can be made so that it can do everything that it has to do at its constituent meeting.
 # text = We will now have to allow time for this committee to meet so that proposals can be made so that it can do everything that it has to do at its constituent meeting.
@@ -1334,8 +1334,8 @@
 34	.	.	PUNCT	.	_	33	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p12.s2
-# align_s = 0-0 1-2 2-3 3-5 5-5 6-6 7-7 8-8 10-9 12-10 13-14 14-13 15-15
-# align_t = 0-0 2-1 3-2 4-3 5-5 6-6 7-7 8-8 9-9 10-12 11-10 12-11 13-14 14-13 15-15 
+# align_s = 0-0 1-2 2-3 3-4 5-5 6-6 7-7 8-8 10-11 11-12 12-10 13-14 14-13 15-15
+# align_t = 0-0 2-1 3-2 5-3 6-6 7-7 8-8 9-9 10-12 11-10 12-11 13-14 14-13 15-15 
 # source = Podle mých informací je k tomu zapotřebí devadesáti minut, aby vše řádně proběhlo.
 # initial_translation = According to my information, it takes 90 minutes for everything to take place properly.
 # text = According to my information, it takes 90 minutes for everything to take place properly.
@@ -1358,7 +1358,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u3.p13.s1
 # align_s = 0-1 1-2 2-3 3-5 4-6 5-7 6-10 7-13 8-14 9-15 10-16 11-17
-# align_t = 0-0 1-0 2-1 3-2 5-3 6-4 7-5 8-6 10-6 13-7 14-8 15-9 16-10 17-11 
+# align_t = 1-0 2-1 3-2 5-3 6-4 7-5 10-6 13-7 14-8 15-9 16-10 17-11 
 # source = Je 10 hodin 12 minut, vyhlašuji přestávku do 12 hodin.
 # initial_translation = It's 10 o'clock, 12 minutes, I'm calling in a break in 12 o'clock.
 # text = It's 10 o'clock, 12 minutes, I'm calling in a break in 12 o'clock.
@@ -1382,8 +1382,8 @@
 18	.	.	PUNCT	.	_	17	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u4.p1.s1
-# align_s = 0-0 4-0 5-1 6-2 7-3 8-4 9-6 10-7 11-9 12-10 13-12 14-15 15-17 16-18
-# align_t = 0-0 1-4 2-6 3-7 4-8 6-9 7-10 9-11 10-12 12-13 15-14 17-15 18-16 
+# align_s = 0-0 1-1 2-2 4-0 7-3 8-4 9-6 10-7 11-9 12-10 13-12 14-15 15-17 16-18
+# align_t = 0-0 1-4 2-5 3-7 4-8 6-9 7-10 9-11 10-12 12-13 15-14 17-15 18-16 
 # source = Vážené paní poslankyně, vážení páni poslanci, budeme pokračovat s programem ustavující schůze Poslanecké sněmovny.
 # initial_translation = Ladies and gentlemen, we will continue with the programme establishing a meeting of the Chamber of Deputies.
 # text = Ladies and gentlemen, we will continue with the programme establishing a meeting of the Chamber of Deputies.
@@ -1409,7 +1409,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u4.p1.s2
 # align_s = 0-0 1-1 2-2 3-4 4-6 5-7 6-8 7-10 8-13 9-14 10-15 11-16 12-17 13-18 14-19 15-20 16-21 17-23 18-24 19-25 21-27 22-26 25-27 26-28 27-30 28-32 29-33 30-34 31-35 32-36
-# align_t = 0-0 1-1 2-2 4-3 6-4 7-5 8-6 10-7 13-8 14-9 15-10 16-11 17-12 18-13 19-14 20-15 21-16 23-17 24-18 25-19 26-20 27-21 28-26 30-27 32-28 33-29 34-30 35-31 36-32 
+# align_t = 0-0 1-1 2-2 4-3 6-4 7-5 8-6 10-6 12-7 13-8 14-9 15-10 16-11 17-12 18-13 19-14 20-15 21-16 23-17 24-18 25-19 26-22 27-21 28-26 30-27 32-28 33-29 34-30 35-31 36-32 
 # source = Než se začneme věnovat návrhu na potvrzení předsedy mandátového a imunitního výboru, což je bod 7 našeho programu, tak mi dovolte, abych oznámila omluvu jednoho z našich kolegů.
 # initial_translation = Before we begin to address the proposal to confirm the chair of the mandate and immunity committee, which is point 7 of our agenda, let me announce an apology to one of our colleagues.
 # text = Before we begin to address the proposal to confirm the chair of the mandate and immunity committee, which is point 7 of our agenda, let me announce an apology to one of our colleagues.
@@ -1472,8 +1472,8 @@
 13	.	.	PUNCT	.	_	12	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-001-006.u4.p2.s1
-# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 7-7 8-8 9-9 10-11
-# align_t = 0-0 1-1 3-2 4-3 5-4 6-5 7-7 8-8 10-9 11-10 
+# align_s = 0-0 1-1 2-3 3-4 5-6 7-7 8-8 9-9 10-11
+# align_t = 0-0 1-1 3-2 4-3 5-4 6-5 7-7 8-8 9-9 11-10 
 # source = Teď se dostáváme, jak jsem již řekla, do bodu
 # initial_translation = Now we're getting, like I said, to a point.
 # text = Now we're getting, like I said, to a point.

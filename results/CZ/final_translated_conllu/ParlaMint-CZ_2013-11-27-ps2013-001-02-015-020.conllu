@@ -8,8 +8,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u1.p1.s2
-# align_s = 0-0 1-1 2-4 4-5 6-24 7-25 8-26 10-21 11-22 12-8 13-9 15-10 16-11 17-12 18-13 19-14 20-15 21-16 22-16 23-16 24-17 25-18 26-19 27-7 29-8 30-9 31-21 32-22 34-23 35-24 37-24 38-6 39-26 41-27 42-28 43-27 44-28 46-29 47-30 48-31 49-32 50-33 51-34 52-35 53-35 54-35 55-36 56-37 57-38 58-39 59-40
-# align_t = 0-0 1-1 4-2 5-6 6-7 7-8 8-10 9-13 10-15 11-16 12-17 13-18 14-19 15-21 16-22 17-24 18-25 19-26 20-27 21-31 22-32 23-34 24-37 25-38 26-39 27-41 28-44 29-46 30-47 31-48 32-49 33-50 34-52 35-53 36-55 37-56 38-57 39-58 40-59 
+# align_s = 0-0 1-1 2-4 4-5 6-5 7-6 8-7 10-8 11-9 12-8 13-9 15-10 16-11 17-12 18-13 19-14 21-15 22-16 23-16 24-17 25-18 26-19 27-20 29-21 30-22 31-21 32-22 34-23 35-24 37-24 38-25 39-26 41-27 42-22 43-27 44-28 46-29 47-30 48-31 49-32 50-33 52-34 53-35 54-35 55-36 56-37 57-38 58-39 59-40
+# align_t = 0-0 1-1 4-2 5-6 6-7 7-8 8-12 9-13 10-15 11-16 12-17 13-18 14-19 15-22 16-23 17-24 18-25 19-26 20-27 21-29 22-32 23-34 24-37 25-38 26-39 27-43 28-44 29-46 30-47 31-17 32-18 33-19 34-53 35-54 36-55 37-56 38-57 39-58 40-59 
 # source = Zákonné opatření Senátu, kterým se mění zákon č. 137/2006 Sb., o veřejných zakázkách, ve znění pozdějších předpisů, a zákon č. 55/2012 Sb., kterým se mění zákon č. 137/2006 Sb., o veřejných zakázkách, ve znění pozdějších předpisů /sněmovní tisk 4/
 # initial_translation = Legal provision of the Senate amending Act No. 137/2006 Coll., on Public Procurement, as amended, and Act No. 55/2012 Coll., amending Act No. 137/2006 Sb., on public procurement, as amended /German press 4/
 # text = Legal provision of the Senate amending Act No. 137/2006 Coll., on Public Procurement, as amended, and Act No. 55/2012 Coll., amending Act No. 137/2006 Sb., on public procurement, as amended /German press 4/
@@ -56,8 +56,8 @@
 41	/	/	PUNCT	,	_	40	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u1.p2.s1
-# align_s = 0-0 1-1 2-4 3-15 4-17 5-18 6-19 7-8 8-7 9-10 10-11 11-12 12-20
-# align_t = 0-0 1-1 4-2 5-6 6-3 7-7 8-8 10-9 11-10 12-11 15-3 17-4 18-5 19-6 20-12 
+# align_s = 0-0 1-1 2-4 3-15 4-17 5-18 6-19 7-7 8-8 9-10 10-11 11-12 12-20
+# align_t = 0-0 1-1 4-2 5-6 7-7 8-8 10-9 11-10 12-11 15-3 17-4 18-5 19-3 20-12 
 # source = Z pověření vlády předložené zákonné opatření uvede předseda vlády pan Jiří Rusnok.
 # initial_translation = On behalf of the Government, the Prime Minister, Mr Jiří Rusnok, will state the legal measure submitted.
 # text = On behalf of the Government, the Prime Minister, Mr Jiří Rusnok, will state the legal measure submitted.
@@ -99,8 +99,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u1.p2.s3
-# align_s = 0-0 1-1 2-3 3-2 4-3 5-4
-# align_t = 0-0 1-1 2-2 3-4 4-5 
+# align_s = 0-0 1-1 3-2 4-3 5-4
+# align_t = 0-0 1-1 2-2 3-3 4-5 
 # source = Prosím, pane předsedo vlády.
 # initial_translation = Please, Prime Minister.
 # text = Please, Prime Minister.
@@ -121,8 +121,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p1.s2
-# align_s = 1-0 2-1 3-4 4-5 6-6 8-5 10-6 11-7 12-8 13-9 14-11 15-12 17-13 18-14 19-15 20-16 21-19 22-21 23-22 24-23 25-26 27-27 29-27 30-29 31-30 32-31 33-32 34-33 35-34 36-35 37-36
-# align_t = 0-1 1-2 2-2 3-2 4-7 5-8 6-10 7-11 8-12 9-13 11-14 12-15 13-16 14-18 15-19 16-20 18-21 21-22 22-23 23-24 26-25 27-29 29-30 30-31 31-32 32-33 33-34 34-35 35-36 36-37 
+# align_s = 1-0 2-1 3-4 5-5 6-6 8-5 9-6 10-6 11-7 12-8 13-9 14-11 15-12 17-13 18-14 19-15 20-16 21-19 22-21 23-22 24-23 25-26 27-27 29-27 30-29 31-30 32-31 33-32 34-33 35-34 36-35 37-36
+# align_t = 0-1 1-2 2-2 3-2 4-3 5-4 6-10 7-11 8-12 9-13 11-14 12-15 13-16 14-18 15-19 16-20 18-21 21-22 22-23 23-24 26-25 27-29 29-30 30-31 31-32 32-33 33-34 34-35 35-36 36-37 
 # source = Vážený pane místopředsedo, vážené paní poslankyně, vážení páni poslanci, dovolte mi tedy, abych uvedl toto v řadě poslední zákonné opatření Senátu, kterým se mění zákon o veřejných zakázkách a tak dále.
 # initial_translation = Mr Vice-President, honourable Members, allow me, therefore, to mention this in a series of the last legislative measures of the Senate amending the law on public procurement and so on.
 # text = Mr Vice-President, honourable Members, allow me, therefore, to mention this in a series of the last legislative measures of the Senate amending the law on public procurement and so on.
@@ -166,7 +166,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p1.s3
 # align_s = 0-2 1-4 2-5 3-6 4-7 5-8
-# align_t = 2-0 4-1 5-2 6-3 7-4 8-5 
+# align_t = 3-0 4-1 5-2 6-3 7-4 8-5 
 # source = Nebudu opakovat ten dlouhý název.
 # initial_translation = I'm not gonna repeat the long name.
 # text = I'm not gonna repeat the long name.
@@ -213,7 +213,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p2.s2
 # align_s = 0-1 1-0 2-3 3-6 4-7 5-10 6-11 7-12 8-13 9-15 10-18 11-21 14-22 15-25 16-26 17-29 18-31 19-33 20-34 21-35 22-36 23-37 24-38 25-40 27-41 28-42 29-43 30-45 31-46 32-47 33-49 34-51 35-52 36-53
-# align_t = 0-1 1-0 3-2 6-3 7-4 10-5 11-6 12-7 13-8 15-9 18-10 21-11 22-14 25-15 26-16 29-17 31-18 33-19 34-20 35-21 36-22 37-23 38-24 39-25 40-26 41-27 42-28 43-29 45-30 46-31 47-32 49-33 51-34 52-35 53-36 
+# align_t = 1-0 2-1 3-2 6-3 7-4 10-5 11-6 12-7 13-8 15-9 18-10 21-11 22-14 25-15 26-16 29-17 31-18 33-19 34-20 35-21 36-22 37-23 38-24 39-25 40-26 41-27 42-28 43-29 45-30 46-31 47-32 49-33 51-34 52-35 53-36 
 # source = Vládou předložený návrh zákonného opatření Senátu byl totožný se zněním novely zákona, kterou předložila minulá vláda Poslanecké sněmovně Parlamentu - respektive naše vláda, omlouvám se - v srpnu letošního roku jako sněmovní tisk 1128.
 # initial_translation = The Government's proposal for a legislative measure to the Senate was identical to the wording of the amendment of the law submitted by the previous Government to the Chamber of Deputies of Parliament - or our government, I apologize - in August of this year as the Parliament's press 1128.
 # text = The Government's proposal for a legislative measure to the Senate was identical to the wording of the amendment of the law submitted by the previous Government to the Chamber of Deputies of Parliament - or our government, I apologize - in August of this year as the Parliament's press 1128.
@@ -273,8 +273,8 @@
 54	.	.	PUNCT	.	_	53	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p2.s3
-# align_s = 0-0 1-3 2-4 3-7 4-8 5-11 6-13 8-17 9-20 11-19 12-21
-# align_t = 0-0 2-1 4-2 7-3 8-4 11-5 13-6 17-8 18-10 19-7 20-9 21-12 
+# align_s = 0-0 1-3 2-4 3-7 4-8 5-11 6-13 8-17 9-20 10-18 11-19 12-21
+# align_t = 0-0 1-1 4-2 7-3 8-4 11-5 13-6 17-7 18-10 20-9 21-12 
 # source = Nicméně v důsledku následného rozpuštění Poslanecké sněmovny k jeho projednání již nedošlo.
 # initial_translation = However, as a result of the subsequent dissolution of the Chamber of Deputies, it has no longer been discussed.
 # text = However, as a result of the subsequent dissolution of the Chamber of Deputies, it has no longer been discussed.
@@ -302,7 +302,7 @@
 22	.	.	PUNCT	.	_	21	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p3.s1
-# align_s = 0-0 2-1 3-2 4-3 6-3
+# align_s = 0-0 1-0 2-1 3-2 4-3 5-3 6-3
 # align_t = 0-0 1-2 2-3 3-4 
 # source = Pokud jde o neodkladnost...
 # initial_translation = As for urgency...
@@ -314,7 +314,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p3.s2
 # align_s = 0-0 2-1 3-2 4-3 5-10 6-6 7-7 8-11 9-12 10-13 12-15 13-19 14-17 15-22 16-23 17-24 18-27 19-31 20-34 21-37 22-38 23-39 24-40 25-41 26-42
-# align_t = 0-0 1-2 2-3 3-4 6-6 7-7 10-5 11-8 13-10 14-11 15-12 17-14 19-13 22-15 23-16 24-17 27-18 31-19 34-20 37-21 38-22 39-23 40-24 41-25 42-26 
+# align_t = 0-0 1-2 2-3 3-4 4-9 5-6 7-7 10-5 11-8 13-10 17-14 18-11 19-13 22-15 23-16 24-17 27-18 31-19 34-20 37-21 38-22 39-23 40-24 41-25 42-26 
 # source = Pokud by toto zákonné opatření Senátu nebylo schváleno, mělo by to podle názoru vlády závažné následky způsobené zejména nemožností zadání nadlimitní a významné veřejné zakázky.
 # initial_translation = If this legal measure had not been approved by the Senate, it would, in the Government's view, have serious consequences due, in particular, to the impossibility of the award of an excessive and significant public contract.
 # text = If this legal measure had not been approved by the Senate, it would, in the Government's view, have serious consequences due, in particular, to the impossibility of the award of an excessive and significant public contract.
@@ -408,8 +408,8 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p4.s2
-# align_s = 1-1 2-0 3-2 4-5 5-6 6-7 7-8 8-11 9-12 10-13 11-14 12-15 13-17 16-18 17-19 18-20 19-21
-# align_t = 0-2 2-3 5-4 6-5 7-6 8-7 9-8 11-8 12-9 13-10 14-11 15-12 17-13 18-16 19-17 20-18 21-19 
+# align_s = 1-1 3-2 4-5 5-6 6-7 7-8 8-11 9-12 10-13 11-14 12-15 13-17 16-18 17-19 18-20 19-21
+# align_t = 0-2 1-1 2-3 5-4 6-5 7-6 8-7 11-8 12-9 13-10 14-11 15-12 16-14 17-13 18-16 19-17 20-18 21-19 
 # source = Byl by to rozhodně výrazný negativní dopad na podnikatelskou i nepodnikatelskou sféru a způsobilo by to další právní nejistotu.
 # initial_translation = This would certainly be a significant negative impact on both the business and non-business sectors and would cause further legal uncertainty.
 # text = This would certainly be a significant negative impact on both the business and non-business sectors and would cause further legal uncertainty.
@@ -437,8 +437,8 @@
 22	.	.	PUNCT	.	_	21	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p4.s3
-# align_s = 0-1 2-2 5-3 6-5 8-6 9-7 10-10 11-11 12-14 13-15 14-17 15-18 16-20 17-22 18-24 19-25 20-26 21-27 23-28 24-29 25-31 26-34 27-35 28-37 29-38 30-40 31-41 32-42 33-43 34-45 35-48 36-49 37-50 38-51 39-55 41-53 42-54 43-56 44-57 45-58 46-60 47-62 48-63 49-64 50-66 51-67 52-70 53-73 54-74
-# align_t = 1-0 2-2 3-3 4-4 5-6 6-8 7-9 10-10 11-11 12-14 13-10 14-12 15-13 17-14 18-15 20-16 22-17 24-18 25-19 26-20 27-21 28-23 29-24 31-25 34-26 37-28 38-29 40-30 41-31 42-32 43-33 45-34 48-35 49-36 50-37 51-38 52-40 53-41 54-42 55-42 56-43 57-44 58-45 59-46 60-50 62-47 63-48 64-49 66-50 67-51 70-52 73-53 74-54 
+# align_s = 0-1 1-2 3-3 4-4 6-5 8-6 9-7 10-10 11-11 12-14 13-15 14-17 15-18 16-20 17-22 18-24 19-25 20-26 21-27 23-28 24-29 25-31 26-34 27-35 28-37 29-38 30-40 31-41 32-42 33-43 34-45 35-48 36-49 37-50 38-51 39-55 41-53 42-54 43-56 44-57 45-58 46-60 47-62 48-63 49-64 50-66 51-67 52-70 53-73 54-74
+# align_t = 1-0 2-3 3-3 4-4 5-6 6-8 7-9 10-10 11-11 12-14 13-14 14-12 15-13 17-14 18-15 20-16 22-17 24-18 25-19 26-20 27-21 28-23 29-24 31-25 34-26 37-28 38-29 40-30 41-31 42-32 43-33 45-34 48-35 49-36 50-37 51-38 52-40 53-41 54-42 55-42 56-43 57-44 58-45 59-46 60-50 62-47 63-48 64-49 66-50 67-51 70-52 73-53 74-54 
 # source = Jde totiž o to, že pokud nebude toto opatření schváleno, budou mít zadavatelé v případě nadlimitních a významných veřejných zakázek volbu pouze mezi nemožností zadání veřejné zakázky a řízením, které bude ovšem v přímém rozporu se zákonem o veřejných zakázkách, přičemž tento nesoulad podle našeho názoru nelze překlenout výkladem zákona.
 # initial_translation = The point is that, if this measure is not approved, contracting entities will have a choice in the case of over- and significant public contracts only between the impossibility of the award of the contract and the procedure, which will, however, be in direct conflict with the Public Procurement Act, and this non-compliance cannot, in our view, be overcome by the interpretation of the law.
 # text = The point is that, if this measure is not approved, contracting entities will have a choice in the case of over- and significant public contracts only between the impossibility of the award of the contract and the procedure, which will, however, be in direct conflict with the Public Procurement Act, and this non-compliance cannot, in our view, be overcome by the interpretation of the law.
@@ -519,8 +519,8 @@
 75	.	.	PUNCT	.	_	74	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p4.s4
-# align_s = 0-0 2-2 3-4 4-6 5-8 7-8 8-7 9-10 10-12 11-14 12-15 13-18 14-19 15-20 16-22 17-23 18-23 19-24 20-25 21-26
-# align_t = 0-0 1-1 2-2 4-3 6-4 7-7 8-8 10-9 12-10 14-11 15-12 18-13 21-14 22-16 23-18 24-19 25-20 26-21 
+# align_s = 0-0 1-1 2-2 3-4 4-6 5-8 7-7 8-8 9-10 10-13 11-14 12-15 13-18 14-21 15-20 16-22 18-23 19-24 20-25 21-26
+# align_t = 0-0 1-1 2-2 4-3 6-4 7-5 8-5 9-8 10-9 13-10 14-11 15-12 18-13 20-15 21-14 22-16 23-17 24-19 25-20 26-21 
 # source = Dále by v případě veřejných zakázek na stavební práce došlo ke značnému navýšení povinnosti jejich vypisování a s tím spojených nákladů.
 # initial_translation = Furthermore, in the case of public works contracts, there would be a significant increase in the obligation to register them and the associated costs.
 # text = Furthermore, in the case of public works contracts, there would be a significant increase in the obligation to register them and the associated costs.
@@ -553,8 +553,8 @@
 27	.	.	PUNCT	.	_	26	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p4.s5
-# align_s = 0-2 1-1 2-0 3-1 4-3 5-4 6-5 7-11 8-12 10-13 11-14 12-15 13-7 14-9 15-10 16-15 17-16 18-17 19-18 20-19 21-21 22-20 23-21 24-22 25-23 26-24 27-25 28-26 30-27 31-28 32-29 33-30 34-31 35-32
-# align_t = 1-3 2-0 3-4 4-5 5-6 6-2 7-13 9-14 10-15 11-7 12-8 13-10 14-11 15-12 16-17 17-18 18-19 19-20 20-22 21-23 22-24 23-25 24-26 25-27 26-29 27-30 28-31 29-32 30-33 31-34 32-35 
+# align_s = 0-2 1-1 3-1 4-3 5-4 6-5 7-11 8-12 10-13 11-14 12-15 13-7 14-9 15-10 16-13 17-16 18-17 19-18 21-19 22-20 23-21 24-22 25-23 26-24 27-25 29-26 30-27 31-28 32-29 33-30 34-31 35-32
+# align_t = 1-3 2-0 3-4 4-5 5-6 6-11 7-13 9-14 10-15 11-7 12-8 13-10 14-11 15-12 16-17 17-18 18-19 19-20 20-22 21-23 22-24 23-25 24-26 25-27 26-29 27-30 28-31 29-32 30-33 31-34 32-35 
 # source = Proces zadávání veřejných zakázek by tak byl od 1. ledna příštího roku do značné míry ochromen a došlo by ke vzniku dalších nadměrných finančních nákladů, jejichž vynaložení by bylo zcela neúčelné a neefektivní.
 # initial_translation = The procurement process would thus be crippled to a large extent from 1 January next year and there would be additional excessive financial costs, which would be completely inefficient and ineffective.
 # text = The procurement process would thus be crippled to a large extent from 1 January next year and there would be additional excessive financial costs, which would be completely inefficient and ineffective.
@@ -593,8 +593,8 @@
 33	.	.	PUNCT	.	_	32	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p5.s1
-# align_s = 0-0 1-1 2-2 4-3 5-4 6-8 7-7 8-9 9-10 10-13 11-14 12-11 13-15 15-17 16-18 22-23 24-24 25-25 26-26 27-27 28-28 29-29 30-31 31-32 32-30 33-37 34-38 35-35 36-39
-# align_t = 0-0 1-1 2-2 3-3 4-5 6-6 7-7 9-8 10-9 11-12 13-10 14-11 15-13 16-14 17-15 18-16 20-16 21-17 22-22 23-23 24-24 25-25 26-26 27-27 28-28 29-30 30-32 31-29 32-31 35-35 37-33 38-34 39-36 
+# align_s = 0-22 1-23 2-2 3-3 5-4 6-8 7-7 8-9 9-10 10-13 11-14 12-11 13-15 14-0 16-20 17-21 21-16 22-17 23-23 24-24 25-25 26-26 27-27 28-28 29-29 30-31 31-32 32-30 33-37 34-38 35-35 36-39
+# align_t = 0-0 1-1 2-2 3-3 4-5 6-6 7-7 9-8 10-9 11-12 13-10 14-11 15-13 17-14 18-15 20-16 21-17 22-22 23-23 24-24 25-25 26-26 27-27 28-28 29-30 30-32 31-29 32-31 35-35 37-33 38-34 39-36 
 # source = S ohledem na tyto uvedené dopady byla vláda nucena na tuto situaci reagovat a v rámci možností, které jsme měli, pokud jde o legislativní kroky, to bylo možno udělat pouze zákonným opatřením Senátu.
 # initial_translation = In view of these impacts, the government was forced to respond to this situation and, as far as possible, with regard to legislative action, this could only be done by the Senate's legal measures.
 # text = In view of these impacts, the government was forced to respond to this situation and, as far as possible, with regard to legislative action, this could only be done by the Senate's legal measures.
@@ -640,8 +640,8 @@
 40	.	.	PUNCT	.	_	39	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p5.s2
-# align_s = 0-1 2-2 3-9 4-11 5-13 6-16 7-17 8-10 9-4 10-7 11-8 13-18 14-20 15-22 16-23 17-24 19-29 21-27 22-28 23-38 24-30 25-31 26-32 27-33 29-34 30-35 31-39
-# align_t = 1-0 2-2 4-9 7-10 8-11 9-3 11-4 13-5 16-6 17-7 18-13 20-14 22-15 23-16 24-17 25-20 27-21 28-22 29-23 30-24 31-25 32-26 33-27 34-29 35-30 38-23 39-31 
+# align_s = 0-1 2-2 3-9 4-11 5-13 6-16 7-17 8-10 9-4 10-7 11-8 13-18 14-20 15-22 16-23 17-24 18-25 19-29 21-27 22-28 23-38 24-30 25-31 26-32 27-33 29-34 30-35 31-39
+# align_t = 1-0 2-2 4-9 7-10 8-11 9-3 11-4 13-5 16-6 17-7 18-13 20-14 22-15 23-16 24-17 25-18 26-20 27-21 28-22 29-22 30-24 31-25 32-26 33-27 34-29 35-30 36-23 38-23 39-31 
 # source = Důvodem, proč byla pro přijetí navrhovaných změn zvolena forma zákonného opatření, je nezbytnost provedení těchto změn v zákoně o veřejných zakázkách nejpozději s účinností od 1. ledna 2014.
 # initial_translation = The reason why the form of the legal measure was chosen for the adoption of the proposed amendments is the need to make these amendments to the Public Procurement Act with effect from 1 January 2014 at the latest.
 # text = The reason why the form of the legal measure was chosen for the adoption of the proposed amendments is the need to make these amendments to the Public Procurement Act with effect from 1 January 2014 at the latest.
@@ -687,7 +687,7 @@
 40	.	.	PUNCT	.	_	39	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p6.s1
-# align_s = 0-0 1-1 3-3 4-6 5-7 6-9
+# align_s = 0-0 1-1 2-2 3-3 4-6 5-7 6-9
 # align_t = 0-0 1-1 3-3 6-4 7-5 9-6 
 # source = Nyní k samotným změnám věcné povahy.
 # initial_translation = Now to the changes of the material nature itself.
@@ -704,7 +704,7 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p6.s2
-# align_s = 1-0 2-0 4-2 5-4 6-5 8-6 10-7 11-9 12-10 13-14 14-15 16-16 17-17 19-19 20-20 21-21 22-22 23-25 24-44 25-46 26-47 27-50 29-42 30-43 31-24 32-27 33-30 34-31 35-32 36-38 37-40 38-39 39-51
+# align_s = 1-0 2-0 4-3 5-4 6-5 8-6 10-7 11-9 12-10 13-14 14-15 16-16 17-17 19-19 20-20 21-21 22-23 23-44 24-45 25-46 26-47 27-50 28-41 29-42 30-43 31-24 32-27 33-30 34-31 35-32 36-34 37-38 38-39 39-51
 # align_t = 0-1 1-2 2-4 4-5 5-6 6-8 7-10 9-11 10-12 14-13 15-14 16-16 17-17 19-19 20-20 21-21 23-22 24-31 27-32 30-33 31-34 32-35 38-36 39-38 40-28 42-29 43-30 44-23 45-24 46-25 47-26 50-27 51-39 
 # source = V současné době reálně neexistuje žádná osoba, která by splňovala podmínky pro takzvanou osobu se zvláštní způsobilostí, jejíž vyjádření mělo být v rámci původního znění zákona od ledna 2014 podmínkou zahájení zadávacího řízení na nadlimitní veřejnou zakázku.
 # initial_translation = Currently, there is no person who fulfils the conditions for a so-called "special competence" whose expression should have been conditional on the opening of a procurement procedure for an over-the-limit contract as of January 2014 under the original version of the Act.
@@ -763,7 +763,7 @@
 52	.	.	PUNCT	.	_	51	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p6.s3
-# align_s = 0-0 2-2 3-3 4-4 5-8 6-11 7-12 8-13 9-14 10-15 11-16 13-17 14-18 16-19
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-8 6-11 7-12 8-13 9-14 10-15 11-16 13-17 14-18 16-19
 # align_t = 0-0 1-1 2-2 3-3 4-4 8-5 10-15 11-6 12-7 13-8 14-9 15-10 16-11 17-13 18-14 19-16 
 # source = Proto je podle našeho názoru nezbytné tento institut s účinností od 1. ledna 2014 zrušit.
 # initial_translation = Therefore, in our view, it is necessary to repeal this institute with effect from 1 January 2014.
@@ -790,7 +790,7 @@
 20	.	.	PUNCT	.	_	19	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p6.s4
-# align_s = 0-0 3-2 4-4 5-7 6-8 7-9 8-11 9-13 10-14
+# align_s = 0-0 1-1 3-2 4-4 5-7 6-8 7-9 8-11 9-13 10-14
 # align_t = 0-0 1-1 2-3 4-4 7-5 8-6 9-7 11-8 13-9 14-10 
 # source = Obdobně je tomu v případě osoby vybrané ze seznamu hodnotitelů.
 # initial_translation = Similarly, in the case of a person selected from the list of evaluators.
@@ -812,7 +812,7 @@
 15	.	.	PUNCT	.	_	14	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p6.s5
-# align_s = 0-0 1-1 2-2 3-4 4-6 5-9 6-10 7-11 8-13 9-16 10-17 11-18 12-19 13-20 14-25 15-27 16-21 17-24 18-28 19-30 20-31 22-32 23-38 24-39 26-40 27-41 29-36 30-37 31-34 32-42
+# align_s = 0-0 1-1 2-2 3-4 4-6 5-9 6-10 7-11 8-13 9-16 10-17 11-18 12-19 13-20 14-25 15-27 16-21 17-24 18-28 19-30 20-31 22-32 23-38 24-39 26-40 27-41 29-36 30-37 31-40 32-42
 # align_t = 0-0 1-1 2-2 4-3 6-4 9-5 10-6 11-7 13-8 16-9 17-10 18-11 19-12 20-13 21-16 24-17 25-14 27-15 28-18 30-19 31-20 32-21 33-22 34-28 36-29 37-30 38-23 39-24 40-26 41-27 42-32 
 # source = Tato osoba má být členem hodnoticí komise v případě významné veřejné zakázky, ovšem seznam hodnotitelů bohužel neexistuje a je jisté, že do 1. ledna 2014 by ani existovat nemohl.
 # initial_translation = This person is to be a member of the evaluation committee in the case of a significant public contract, but unfortunately there is no list of assessors and it is certain that it could not even exist by 1 January 2014.
@@ -863,7 +863,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p7.s1
 # align_s = 2-0 3-2 4-3 5-6 6-9 7-10 8-14 9-16 10-18 11-19 12-20 13-21 14-22 15-23 16-24 17-26 18-27 19-28
-# align_t = 0-2 2-3 3-4 6-5 9-6 10-7 11-8 14-8 16-9 18-10 19-11 20-12 21-13 22-14 23-15 24-16 26-17 27-18 28-19 
+# align_t = 0-2 2-3 3-4 6-5 9-6 10-7 14-8 16-9 18-10 19-11 20-12 21-13 22-14 23-15 24-16 26-17 27-18 28-19 
 # source = Nebude-li zákonné opatření Senátu schváleno, hrozí nemožnost zadávání nadlimitních a významných veřejných zakázek v České republice.
 # initial_translation = If the legal measure of the Senate is not approved, there is a risk of inability to award overlime and significant public contracts in the Czech Republic.
 # text = If the legal measure of the Senate is not approved, there is a risk of inability to award overlime and significant public contracts in the Czech Republic.
@@ -899,7 +899,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p7.s2
 # align_s = 0-0 2-1 3-2 4-3 5-4 6-5 7-7 8-6 10-7 11-8 12-11 13-12 14-14 15-15 16-16 17-17 18-18 19-19 20-22 21-23 22-24
-# align_t = 0-0 1-2 2-3 3-4 4-5 5-6 6-8 7-10 8-11 10-11 11-12 12-13 14-14 15-15 16-16 17-17 18-18 19-19 21-18 22-20 23-21 24-22 
+# align_t = 0-0 1-2 2-3 3-4 4-5 5-6 6-8 7-9 8-10 10-11 11-12 12-13 14-14 15-15 16-16 17-17 18-18 19-19 21-17 22-20 23-21 24-22 
 # source = Ročně je, pro vaši informaci, zadáváno přibližně 3 500 nadlimitních veřejných zakázek o celkovém objemu přesahujícím 200 mld. korun.
 # initial_translation = Annually, for your information, approximately 3,500 over-limit public contracts of a total volume exceeding 200 billion are awarded. Crowns.
 # text = Annually, for your information, approximately 3,500 over-limit public contracts of a total volume exceeding 200 billion are awarded. Crowns.
@@ -930,8 +930,8 @@
 25	.	.	PUNCT	.	_	24	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p7.s3
-# align_s = 0-0 1-1 3-2 4-3 5-4 6-5 7-11 8-13 9-14 10-15 11-4 13-6 14-7 15-8 16-9 17-10 18-16 19-18 20-19 21-20 22-23 23-24 24-25 25-26 26-27 27-28
-# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 6-13 7-14 8-15 9-16 10-17 11-11 12-12 13-8 14-9 15-10 18-19 19-20 20-21 23-22 24-23 25-24 26-25 27-26 28-27 
+# align_s = 0-0 1-1 3-2 4-3 5-4 6-5 7-11 8-13 9-14 10-15 11-12 13-6 14-7 15-8 16-9 17-10 18-16 19-18 20-19 21-20 22-23 23-24 24-25 25-26 26-27 27-28
+# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 6-13 7-14 8-15 9-16 10-17 11-18 12-19 13-8 14-9 15-10 18-11 19-20 20-21 23-22 24-23 25-24 26-25 27-26 28-27 
 # source = Pokud jde o významné veřejné zakázky, je na příští rok plánováno zadání přibližně 80 významných veřejných zakázek o souhrnné předpokládané hodnotě přesahující 82 mld. korun.
 # initial_translation = As regards major public contracts, approximately 80 major public contracts are scheduled for next year for a cumulative estimated value of more than 82 billion. Crowns.
 # text = As regards major public contracts, approximately 80 major public contracts are scheduled for next year for a cumulative estimated value of more than 82 billion. Crowns.
@@ -986,8 +986,8 @@
 13	.	.	PUNCT	.	_	12	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p8.s2
-# align_s = 0-0 2-2 3-3 4-5 6-10 7-13 8-19 9-22 10-23 11-24 12-26 13-31 14-32 15-33 16-42 17-34 18-35 19-37 20-38 21-40 22-44 23-46 24-46 27-14 28-15 29-20 30-52 31-57 33-55 34-56 35-58
-# align_t = 0-0 2-3 5-4 9-5 10-6 13-7 15-20 17-21 19-16 22-9 23-10 24-11 26-12 29-13 31-13 32-14 33-15 34-17 35-18 37-19 38-20 40-21 42-23 44-22 46-24 49-25 50-26 51-27 52-30 53-31 54-32 55-33 56-34 57-34 58-35 
+# align_s = 0-0 2-2 3-5 4-5 6-10 7-13 8-17 9-22 10-23 11-24 12-26 13-31 14-32 15-33 16-19 17-34 18-35 19-37 20-38 21-40 22-44 23-46 24-48 26-50 28-51 30-52 31-57 33-55 34-56 35-58
+# align_t = 0-0 2-2 5-4 8-5 9-5 10-6 13-7 14-8 15-20 17-21 19-16 22-9 23-10 24-11 26-12 29-13 31-13 32-14 33-15 34-17 35-18 37-19 38-20 40-21 42-23 44-22 46-24 48-24 49-25 51-27 52-30 53-31 54-32 55-33 56-34 57-34 58-35 
 # source = V případě nepřijetí předmětných změn by příjemci dotací nemohli dotaci přidělenou na realizaci nadlimitní veřejné zakázky čerpat, neboť by nebyli schopni zakázku zadat tak, aby nedošlo k porušení zákona o veřejných zakázkách.
 # initial_translation = In the absence of the amendments in question, the beneficiaries of the subsidies would not be able to draw on the subsidy allocated for the implementation of the above-limit public contract, since they would not be able to award the contract in such a way as to avoid breach of the Public Procurement Act.
 # text = In the absence of the amendments in question, the beneficiaries of the subsidies would not be able to draw on the subsidy allocated for the implementation of the above-limit public contract, since they would not be able to award the contract in such a way as to avoid breach of the Public Procurement Act.
@@ -1052,8 +1052,8 @@
 59	.	.	PUNCT	.	_	58	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p8.s3
-# align_s = 0-0 2-1 3-2 4-3 5-4 7-5 8-6 9-7 10-9 11-10 12-13 13-16 14-17
-# align_t = 0-0 1-1 2-1 3-2 4-5 5-6 6-8 7-9 9-10 10-11 13-12 16-13 17-14 
+# align_s = 0-4 2-0 4-2 5-3 6-5 8-6 9-7 10-9 11-10 12-13 13-16 14-17
+# align_t = 0-0 2-1 3-2 4-5 5-6 6-8 7-9 9-10 10-11 13-12 16-13 17-14 
 # source = Postup v souladu s právními předpisy je ovšem jednou ze základních podmínek proplacení dotace.
 # initial_translation = However, the legal procedure is one of the basic conditions for the reimbursement of the subsidy.
 # text = However, the legal procedure is one of the basic conditions for the reimbursement of the subsidy.
@@ -1077,8 +1077,8 @@
 18	.	.	PUNCT	.	_	17	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p9.s1
-# align_s = 0-0 1-2 2-3 3-7 4-4 5-5 6-12 7-13 8-10 9-14 10-16 11-17 12-18 13-20 14-21 15-22 16-23 17-24 18-25 19-26 20-27 21-28 22-29 24-30 25-31 26-32 27-33 28-35 29-37 30-39 32-39 33-38 34-40 35-41 36-43 37-44 38-45 39-46 40-47 41-48 42-49 43-50 44-51 45-52 46-53 47-54 48-55 49-56 50-57 51-59 52-61 53-65 55-62 56-63 57-64 58-66
-# align_t = 0-0 2-1 4-4 5-5 7-2 9-3 10-8 12-6 13-7 14-9 16-10 17-11 18-12 20-13 21-14 22-15 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-24 31-25 32-26 33-27 35-28 37-29 38-32 39-33 40-34 41-35 43-36 44-37 45-38 46-39 47-40 48-41 49-42 50-43 51-44 52-45 53-46 54-47 55-48 56-49 57-50 59-51 61-52 62-55 63-56 64-57 65-53 66-58 
+# align_s = 0-0 1-2 3-7 4-4 5-5 6-12 7-13 8-10 9-14 10-16 11-17 12-18 13-20 14-21 15-22 16-23 17-24 18-25 19-26 20-27 21-28 22-29 24-30 25-31 26-32 27-33 28-35 29-37 30-39 32-39 34-40 35-41 36-43 37-44 38-45 39-46 40-47 41-48 42-49 43-50 44-51 45-52 46-53 47-54 48-55 49-56 50-57 51-59 52-61 53-65 55-62 56-63 57-64 58-66
+# align_t = 0-0 2-1 4-4 5-5 7-3 10-8 12-6 13-7 14-9 16-10 17-11 18-12 20-13 21-14 22-15 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-24 31-25 32-26 33-27 35-28 37-29 38-30 39-32 40-34 41-35 43-36 44-37 45-38 46-39 47-40 48-41 49-42 50-43 51-44 52-45 53-46 54-47 55-48 56-49 57-50 59-51 61-52 62-55 63-56 64-57 65-53 66-58 
 # source = Na základě pozměňovacího návrhu senátora Eyberta zákonné opatření Senátu zvyšuje současné limity z dosavadních 3 mil. korun bez DPH na 6 mil. korun bez DPH v případě veřejných zakázek na stavební práce a z dosavadního 1 mil. korun bez DPH na 2 mil. korun bez DPH v případě veřejných zakázek na dodávky a služby.
 # initial_translation = On the basis of Senator Eybert's amendment, the Senate's legal measure increases the current limits from the previous 3 million. CZK without VAT for 6 million CZK without VAT in the case of public works contracts and from the previous 1 million. CZK without VAT for 2 million. CZK without VAT in the case of public supply and service contracts.
 # text = On the basis of Senator Eybert's amendment, the Senate's legal measure increases the current limits from the previous 3 million. CZK without VAT for 6 million CZK without VAT in the case of public works contracts and from the previous 1 million. CZK without VAT for 2 million. CZK without VAT in the case of public supply and service contracts.
@@ -1191,8 +1191,8 @@
 33	.	.	PUNCT	.	_	32	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p9.s3
-# align_s = 0-0 1-2 2-7 3-8 4-5 5-11 6-24 7-25 8-27 10-27 11-26 12-13 13-14 14-15 15-18 16-19 17-21 18-22 19-23 20-28 22-29 23-30 25-31 26-32 27-33 28-34 29-35 30-37 31-39 32-40 33-41 34-42 35-43 36-44 37-45 38-47 39-49 41-51 42-52 43-54 44-56 45-57
-# align_t = 0-0 2-1 5-4 7-2 8-3 11-5 12-12 13-13 14-13 15-14 18-15 19-16 21-17 22-18 23-19 24-6 25-7 26-10 27-11 28-20 29-22 30-23 31-25 32-26 33-27 34-28 35-29 37-30 39-31 40-32 41-33 42-34 43-35 44-36 45-37 47-38 49-39 50-39 51-41 52-42 54-43 56-44 57-45 
+# align_s = 0-0 1-2 2-7 3-8 4-5 5-11 6-24 7-25 8-26 10-27 12-13 13-14 14-15 15-18 16-19 17-21 18-22 19-23 20-28 22-29 23-30 25-31 26-32 27-33 28-34 29-35 30-37 31-39 32-40 33-41 34-42 35-43 36-44 37-45 38-47 39-49 41-51 42-52 43-54 44-56 45-57
+# align_t = 0-0 2-1 5-4 7-2 8-3 11-5 13-12 14-13 15-14 18-15 19-16 21-17 22-18 23-19 24-6 25-7 26-8 27-10 28-20 29-22 30-23 31-25 32-26 33-27 34-28 35-29 37-30 39-31 40-32 41-33 42-34 43-35 44-36 45-37 47-38 49-39 50-40 51-41 52-42 54-43 56-44 57-45 
 # source = Bez schválení zákonného opatření Senátu by u veřejných zakázek na stavební práce došlo ke snížení limitu z dosavadních 3 mil. na 1 mil., což by vedlo ke zvýšení administrativní zátěže a finančních nákladů jak na straně zadavatelů, tak na straně dodavatelů.
 # initial_translation = Without the approval of the Senate's legal measure, there would have been a reduction in the limit of the existing 3 million in public works contracts. 1 million, which would lead to an increase in administrative burdens and financial costs both on the part of contracting entities and on the part of suppliers.
 # text = Without the approval of the Senate's legal measure, there would have been a reduction in the limit of the existing 3 million in public works contracts. 1 million, which would lead to an increase in administrative burdens and financial costs both on the part of contracting entities and on the part of suppliers.
@@ -1256,8 +1256,8 @@
 58	.	.	PUNCT	.	_	57	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p9.s4
-# align_s = 0-0 2-2 3-3 4-4 5-7 6-8 7-9 8-10 9-11 10-13 11-14 12-16 13-19 14-20 15-22 16-25 17-26 18-27 19-28 20-29 21-30 22-31 23-37 25-38 26-39 27-35 28-36 29-33 30-40 31-41 32-42 33-44 34-45
-# align_t = 0-0 1-1 2-2 3-3 4-4 7-5 8-6 9-7 11-9 12-8 13-10 14-11 16-12 19-13 20-14 22-15 25-16 26-17 27-18 28-19 29-20 30-21 31-22 32-23 33-29 34-30 35-31 36-32 37-23 38-25 39-26 41-27 42-32 44-33 45-34 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-7 6-8 7-9 9-11 10-13 11-14 12-16 13-19 14-20 15-22 16-25 17-26 18-27 19-28 20-29 21-30 22-31 23-32 24-37 25-38 26-39 27-35 28-36 29-33 30-40 31-41 32-42 33-44 34-45
+# align_t = 0-0 1-1 2-2 3-3 4-4 7-5 8-6 9-7 11-9 12-8 13-10 14-11 16-12 19-13 20-14 22-15 25-16 26-17 27-18 28-19 29-20 30-21 31-22 32-23 33-29 34-30 35-31 36-31 37-24 38-25 39-26 41-27 42-32 44-33 45-34 
 # source = Dále by tím byl zpomalen investiční proces v oblasti stavebnictví, neboť délka řízení před uzavřením smlouvy by byla nepřiměřeně prodloužena a tím by byl pravděpodobně také negativně ovlivněn trh se stavebními zakázkami obecně.
 # initial_translation = Furthermore, this would slow down the investment process in the construction sector, since the duration of the procedure before the conclusion of the contract would be disproportionately extended and thus the market for construction contracts would probably also be negatively affected in general.
 # text = Furthermore, this would slow down the investment process in the construction sector, since the duration of the procedure before the conclusion of the contract would be disproportionately extended and thus the market for construction contracts would probably also be negatively affected in general.
@@ -1310,7 +1310,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p9.s5
 # align_s = 0-0 1-2 2-5 3-8 4-9 5-10 6-12 8-12 9-11 10-13 11-14 12-15 13-16 14-17 15-18 16-19 17-20 18-22 19-24 20-25 21-26 22-27 23-29 24-30 25-31 26-32 27-33 28-34 29-35 30-36 31-38 32-39 33-40 34-41 35-42 37-43 38-45 39-46 40-49 41-50 42-51
-# align_t = 0-0 2-1 5-2 8-3 9-4 10-5 11-8 12-9 13-10 14-11 15-12 16-13 17-14 18-15 19-16 20-17 21-17 22-18 24-19 25-20 26-21 27-22 29-23 30-24 31-25 32-26 33-27 34-28 35-29 36-30 37-31 38-31 39-32 40-33 41-34 42-35 43-37 44-38 45-38 46-39 49-40 50-41 51-42 
+# align_t = 0-0 2-1 5-2 8-3 9-4 10-5 11-9 12-6 13-10 14-11 15-12 16-13 17-14 18-15 19-16 20-17 22-18 24-19 25-20 26-21 27-22 29-23 30-24 31-25 32-26 33-27 34-28 35-29 36-30 37-31 38-31 39-32 40-33 41-34 42-35 43-37 44-38 45-38 46-39 49-40 50-41 51-42 
 # source = V případě snížení limitu pro veřejné zakázky na stavební práce na 1 mil. korun bez DPH lze očekávat nárůst zadávacích řízení v podlimitním režimu o cca 11 500 zadávacích řízení ročně, tj. zhruba o 100 % oproti dosavadnímu stavu.
 # initial_translation = In the event of a reduction in the limit for public works contracts to 1 million. CZK without VAT can be expected to increase tender procedures in the subliminal regime by approximately 11 500 tender procedures per year, i.e. About 100 per cent compared to the current state.
 # text = In the event of a reduction in the limit for public works contracts to 1 million. CZK without VAT can be expected to increase tender procedures in the subliminal regime by approximately 11 500 tender procedures per year, i.e. About 100 per cent compared to the current state.
@@ -1368,8 +1368,8 @@
 52	.	.	PUNCT	.	_	51	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p10.s1
-# align_s = 0-0 1-2 2-4 3-6 5-7 6-9 7-14 8-15 9-12 10-16 11-19 12-21 13-22 14-23 15-24 16-25 17-26 18-28 19-30 20-31 21-17 22-18 23-32 24-33 25-35 27-37 28-38 29-39 30-40 31-41 32-42 33-44 34-46 35-47 36-48 37-49
-# align_t = 0-0 2-1 4-2 6-3 7-5 9-6 12-9 14-7 15-8 16-10 17-21 18-22 19-11 21-12 22-13 23-14 24-15 25-18 26-17 28-18 30-19 31-20 32-23 33-24 34-26 37-27 38-28 39-29 40-30 41-31 42-32 44-33 46-34 47-35 48-36 49-37 
+# align_s = 0-0 1-2 2-3 3-6 5-7 6-9 7-14 8-15 9-12 10-16 11-19 12-21 13-22 14-23 15-24 16-25 17-26 18-28 19-30 20-31 21-17 22-18 23-32 24-33 25-35 27-37 28-38 29-39 30-40 31-41 32-42 33-44 34-46 35-47 36-48 37-49
+# align_t = 0-0 2-1 3-2 6-3 7-5 9-6 12-9 14-7 15-8 16-10 17-21 18-22 19-11 21-12 22-13 23-14 24-15 25-16 26-17 28-18 30-19 31-20 32-23 33-24 34-26 37-27 38-28 39-29 40-30 41-31 42-32 44-33 46-34 47-35 48-36 49-37 
 # source = Závěrem mi dovolte zdůraznit, že obsah zákonného opatření Senátu byl napříč resorty i odbornými organizacemi zabývajícími se problematikou veřejného zadávání obecně podporován, a panovala tak všeobecná shoda nad jeho správností a nutností jeho urychleného přijetí.
 # initial_translation = Finally, I would like to stress that the content of the Senate's legal measure was generally supported across the ministries and expert organisations dealing with the issue of public procurement, and there was a general consensus on its correctness and the need for its speedy adoption.
 # text = Finally, I would like to stress that the content of the Senate's legal measure was generally supported across the ministries and expert organisations dealing with the issue of public procurement, and there was a general consensus on its correctness and the need for its speedy adoption.
@@ -1425,8 +1425,8 @@
 50	.	.	PUNCT	.	_	49	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p11.s1
-# align_s = 0-2 1-1 2-4 4-5 5-6 6-7 7-8 8-12 9-13 10-15 11-16 12-17 13-19 14-20 15-21 16-22 17-23 18-26 19-27 20-28 21-30 22-31 23-32 25-33 26-29 28-35 30-36 31-37 32-38 33-39 34-40 35-41 36-45
-# align_t = 1-1 2-0 3-1 4-2 5-4 6-5 7-6 8-7 12-8 13-9 15-10 16-11 17-12 19-13 20-14 21-15 22-16 23-17 26-18 27-19 28-20 29-21 31-22 32-23 33-25 34-27 35-28 36-29 37-31 38-32 39-33 40-34 41-35 45-36 
+# align_s = 0-2 1-1 2-4 4-5 5-6 6-7 7-8 8-12 9-13 10-15 11-16 12-17 13-19 14-20 15-21 16-22 17-23 18-26 19-27 20-28 21-30 22-31 23-32 25-33 27-34 28-35 29-36 31-37 32-38 33-39 34-40 35-41 36-45
+# align_t = 2-0 3-1 4-2 5-4 7-6 8-7 9-5 12-8 13-9 15-10 16-11 17-12 19-13 20-14 21-15 22-16 23-17 26-18 27-19 28-20 29-21 31-22 32-23 33-25 34-27 35-28 36-29 37-30 38-32 39-33 40-34 41-35 45-36 
 # source = Rovněž lze konstatovat, že předložené zákonné opatření Senátu je podle našeho názoru v souladu s článkem 33 Ústavy, která stanoví kumulativní podmínky, jejichž splnění je nutné k možnosti zvolení tohoto výjimečného legislativního řešení.
 # initial_translation = It can also be noted that the legislative measure submitted by the Senate is, in our view, in accordance with Article 33 of the Constitution, which lays down cumulative conditions which are necessary to enable this exceptional legislative solution to be chosen.
 # text = It can also be noted that the legislative measure submitted by the Senate is, in our view, in accordance with Article 33 of the Constitution, which lays down cumulative conditions which are necessary to enable this exceptional legislative solution to be chosen.
@@ -1478,8 +1478,8 @@
 46	.	.	PUNCT	.	_	45	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p12.s1
-# align_s = 0-35 1-36 2-38 3-39 4-28 5-32 6-33 7-0 8-0 11-2 12-4 13-5 14-6 15-7 16-8 17-9 18-10 19-11 20-13 21-13 22-14 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-24 31-25 32-29 33-30 34-37 35-40
-# align_t = 0-7 1-11 4-12 5-13 6-14 7-15 8-16 9-17 10-18 11-19 12-20 13-21 14-22 16-23 17-24 18-25 19-26 20-27 21-28 22-29 23-30 26-31 28-34 29-32 30-33 32-5 33-6 36-1 37-4 38-2 39-3 40-35 
+# align_s = 0-34 1-36 2-38 3-39 4-28 5-32 6-33 7-0 8-0 11-1 12-4 13-5 14-6 15-7 16-8 17-9 18-10 19-11 20-13 21-13 22-14 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-24 31-26 32-29 33-30 34-37 35-40
+# align_t = 0-7 1-11 4-12 5-13 6-14 7-15 8-16 9-17 10-18 11-19 12-20 13-21 14-22 16-23 17-24 18-25 19-26 20-27 21-28 22-29 23-30 24-31 28-34 29-32 30-33 32-5 33-7 34-0 36-1 37-4 38-2 39-3 40-35 
 # source = V návrhu zákonného opatření Senátu byly uplatněny pozměňovací návrhy, které předložil výbor pro územní rozvoj, veřejnou správu a životní prostředí, výbor pro hospodářství, zemědělství a dopravu a také ústavněprávní výbor Senátu.
 # initial_translation = Amendments tabled by the Committee on Territorial Development, Public Administration and the Environment, the Committee on Economics, Agriculture and Transport, as well as the Senate Constitutional Committee have been applied to the draft Senate legal measure.
 # text = Amendments tabled by the Committee on Territorial Development, Public Administration and the Environment, the Committee on Economics, Agriculture and Transport, as well as the Senate Constitutional Committee have been applied to the draft Senate legal measure.
@@ -1526,8 +1526,8 @@
 41	.	.	PUNCT	.	_	40	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p12.s2
-# align_s = 0-0 1-6 2-7 3-2 4-2 5-5 6-8 7-9 10-11 11-12 12-12 13-14 14-15 15-16 16-17 17-18 19-19 20-22 21-24 22-25 23-26
-# align_t = 0-0 2-3 3-4 5-5 6-1 7-2 8-6 9-7 11-9 12-11 13-12 14-13 15-14 16-15 17-16 18-17 19-18 20-19 22-20 24-21 25-22 26-23 
+# align_s = 0-0 1-6 2-7 3-2 4-2 5-5 6-8 8-9 10-11 11-12 12-12 13-14 14-15 15-16 16-17 17-18 19-19 20-22 21-24 22-25 23-26
+# align_t = 0-0 2-3 5-5 6-1 7-2 8-6 9-7 11-10 12-11 14-13 15-14 16-15 17-16 18-17 19-18 22-20 24-21 25-22 26-23 
 # source = Dále byly přijaty pozměňovací návrhy senátorů, mimo jiné již zmíněný pozměňovací návrh senátora Pavla Eyberta, který se týkal limitů veřejných zakázek.
 # initial_translation = Furthermore, amendments by the senators were adopted, including the proposed amendment by Senator Pavel Eybert, which dealt with the limits of public procurement.
 # text = Furthermore, amendments by the senators were adopted, including the proposed amendment by Senator Pavel Eybert, which dealt with the limits of public procurement.
@@ -1560,8 +1560,8 @@
 27	.	.	PUNCT	.	_	26	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p12.s3
-# align_s = 0-6 1-7 2-8 3-0 4-1 5-3 6-4 7-5 8-9 9-10 10-12 12-13 15-24 16-26 17-27 18-32 19-33 20-34 21-14 22-15 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-23 31-35
-# align_t = 1-3 2-4 3-5 4-6 5-7 6-0 7-1 8-2 9-8 10-9 12-10 13-12 14-21 15-22 16-23 17-24 18-25 19-26 20-27 21-28 22-29 23-30 24-15 26-16 27-17 30-18 32-18 33-19 34-20 35-31 
+# align_s = 0-6 1-7 2-8 3-0 4-2 5-3 6-4 7-5 8-9 9-10 10-12 12-13 15-24 16-26 17-27 18-32 19-33 20-34 21-14 22-15 23-19 24-17 25-18 26-19 27-20 28-21 29-22 30-23 31-35
+# align_t = 1-3 3-5 4-6 5-7 6-0 7-1 8-2 9-8 10-9 12-10 13-12 14-21 15-22 16-23 17-24 18-25 19-26 20-27 21-28 22-29 23-30 24-15 26-16 27-17 30-18 32-18 33-19 34-20 35-31 
 # source = Byl také přijat pozměňovací návrh senátora Jaroslava Kubery na zrušení povinnosti, aby se k zadávacím podmínkám nadlimitní veřejné zakázky vyjadřoval povinně autorizovaný architekt, autorizovaný inženýr nebo autorizovaný technik.
 # initial_translation = An amendment by Senator Jaroslav Kubera was also adopted to abolish the obligation to express mandatory authorised architect, authorized engineer or authorized technician on the procurement terms of the above-limit public contract.
 # text = An amendment by Senator Jaroslav Kubera was also adopted to abolish the obligation to express mandatory authorised architect, authorized engineer or authorized technician on the procurement terms of the above-limit public contract.
@@ -1603,8 +1603,8 @@
 36	.	.	PUNCT	.	_	35	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p12.s4
-# align_s = 0-0 1-2 2-1 3-3 5-4 7-7 8-9 9-11 10-14 11-15 12-16 13-19 14-8 15-5 17-6 18-20 19-21 20-26 21-22 22-23 23-29 24-36 25-37 26-38 27-39 28-40 29-41 31-42 32-43 35-44 36-46 37-48 38-51 39-54 40-55 42-56 43-57 44-58 45-59 46-60 47-63 48-64 49-65 50-64 51-67 52-70 53-71 54-74 55-76 56-78 57-79 58-80
-# align_t = 0-0 1-2 2-1 3-3 4-5 5-15 6-17 7-6 8-7 9-8 11-9 14-10 15-11 16-12 19-13 20-18 21-19 22-21 23-22 25-23 26-24 27-26 28-26 29-26 30-29 31-29 32-29 34-29 35-30 36-29 37-26 38-26 39-26 40-28 41-29 42-31 43-32 44-34 45-35 46-36 48-37 51-38 54-39 55-40 56-42 57-43 58-44 59-45 60-46 63-47 64-48 65-49 67-51 70-52 71-53 74-54 76-55 78-56 79-57 80-58 
+# align_s = 1-2 2-1 3-3 6-4 7-7 8-9 9-11 10-14 11-15 12-16 13-19 14-25 15-5 17-6 18-20 19-21 21-22 22-23 23-29 24-26 26-36 27-39 28-40 29-41 31-42 32-43 34-44 35-44 36-46 37-48 38-51 39-54 40-55 42-56 43-57 44-58 45-59 46-60 47-61 48-64 49-65 50-66 51-67 52-70 53-71 54-74 55-76 56-78 57-79 58-80
+# align_t = 0-0 1-2 2-1 3-3 4-4 5-15 6-17 7-6 8-7 9-8 11-9 14-10 15-11 16-12 19-13 20-18 21-19 22-21 23-22 25-22 26-20 27-21 28-22 29-23 30-24 31-26 32-28 34-29 35-30 36-26 37-26 38-26 39-26 40-28 41-29 42-31 43-32 44-34 45-35 46-36 48-37 51-38 54-39 55-40 56-42 57-43 58-44 59-45 60-46 63-47 64-48 65-49 67-51 70-52 71-53 72-54 74-54 76-55 78-56 79-57 80-58 
 # source = Dále pak bylo navrženo, aby byl z textu návrhu zákonného opatření Senátu vypuštěn bod číslo 4, tj. § 71 odst. 6 písm. c), který vyžadoval, aby v případě opakování zadávacího řízení, které bylo zrušeno z důvodu jedné nabídky, zadávací podmínky nového řízení nezúžily okruh možných dodavatelů.
 # initial_translation = It was then proposed that point 4 be deleted from the text of the draft legislative measure of the Senate, i.e. Section 71, par. Article 4 (1) (a) and (b) (c) which required that, in the case of a repetition of a procurement procedure which was cancelled on account of a single tender, the terms of the new procedure should not narrow the range of potential suppliers.
 # text = It was then proposed that point 4 be deleted from the text of the draft legislative measure of the Senate, i.e. Section 71, par. Article 4 (1) (a) and (b) (c) which required that, in the case of a repetition of a procurement procedure which was cancelled on account of a single tender, the terms of the new procedure should not narrow the range of potential suppliers.
@@ -1712,7 +1712,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p13.s1
 # align_s = 0-1 1-4 2-6 3-6 4-7 5-8 7-10 8-13 9-14 10-15
-# align_t = 1-0 4-1 6-2 7-3 8-5 10-6 13-8 14-9 15-10 
+# align_t = 1-0 4-1 6-2 7-1 8-5 10-9 13-8 14-9 15-10 
 # source = Vláda přijaté pozměňovací návrhy nerozporuje a s provedenými změnami souhlasila.
 # initial_translation = The Government does not dispute the amendments adopted and has agreed to the amendments made.
 # text = The Government does not dispute the amendments adopted and has agreed to the amendments made.
@@ -1734,8 +1734,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u2.p14.s1
-# align_s = 0-0 1-2 2-3 4-5 5-6 6-8 7-9 8-12 10-13 11-14 13-15 14-16 15-17 16-19 17-20 19-21 21-23 22-24 23-25 24-26 25-27 26-28 27-29 28-30 29-31 30-32 31-34 32-35 33-36 34-37 35-38 37-39 38-42 39-41 40-43 41-45 42-46 43-47 44-48 45-50 46-51 47-53 48-55 49-56 50-57 51-58 52-59 53-60 54-61 57-62 58-63 59-66 60-66 61-67 62-69 63-68 64-70 65-74 66-75 68-76 70-75 72-76 73-77 74-72 75-78 76-79 77-80 78-81 79-82 80-85
-# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 8-6 9-7 12-8 13-10 14-11 15-14 16-14 17-15 19-16 20-17 21-19 22-20 23-21 24-22 25-23 26-24 27-25 28-26 29-27 30-28 31-29 32-30 34-31 35-32 36-33 37-34 38-35 39-37 40-38 41-39 43-40 45-41 46-42 47-43 48-44 50-45 51-46 53-47 55-48 56-49 57-50 58-51 59-52 60-53 61-54 62-57 63-59 65-60 66-60 67-61 68-63 70-64 72-66 74-67 75-70 76-72 77-73 78-74 79-76 80-77 81-78 82-79 85-80 
+# align_s = 0-0 1-2 2-4 3-5 4-5 5-6 6-8 7-9 8-12 10-13 11-14 13-15 14-16 15-17 16-19 17-20 19-21 21-23 22-24 23-25 24-26 25-27 26-28 27-29 28-30 29-31 30-32 31-34 32-35 33-36 34-37 35-38 37-39 38-42 39-41 40-43 41-45 42-46 43-47 44-48 45-50 46-51 47-53 48-55 49-56 50-57 51-58 52-59 53-60 54-61 57-62 58-63 59-64 60-65 61-67 62-68 63-69 64-70 65-74 66-75 68-76 70-75 71-76 72-76 73-77 74-78 76-79 77-80 78-81 79-82 80-85
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-4 6-5 8-6 9-7 12-8 13-10 14-11 15-14 16-13 17-14 18-15 19-16 20-17 21-19 23-21 24-22 25-23 26-24 27-25 28-26 29-27 30-28 31-29 32-30 34-31 35-32 36-33 37-34 38-35 39-37 40-38 41-39 43-40 45-41 46-42 47-43 48-44 50-45 51-46 53-47 55-48 56-49 57-50 58-51 59-52 60-53 61-54 62-57 63-58 65-59 66-59 67-61 68-63 69-39 70-64 72-74 74-69 75-70 76-72 77-73 78-75 79-76 80-77 81-78 82-79 85-80 
 # source = S ohledem na výše uvedené a na naléhavost situace, ve které se veřejní zadavatelé nacházejí, ať už jde o obce, města, kraje, veřejné podniky, respektive stát, a vzhledem i k, řekl bych, poměrně nedobré ekonomické situaci zejména v oblasti stavebnictví, ale i v dalších resortech, které reprezentují dodavatele veřejných zadavatelů, si vás dovoluji, vážené paní poslankyně a vážení páni poslanci, požádat o schválení předloženého zákonného opatření.
 # initial_translation = In the light of the above and of the urgency of the situation in which contracting authorities find themselves, whether it be municipalities, cities, regions, public undertakings, or the State, and given also, I would say, a relatively poor economic situation, particularly in the field of construction, but also in other departments representing suppliers of contracting authorities, I would like to ask you, honourable Members, to approve the legal measure put forward.
 # text = In the light of the above and of the urgency of the situation in which contracting authorities find themselves, whether it be municipalities, cities, regions, public undertakings, or the State, and given also, I would say, a relatively poor economic situation, particularly in the field of construction, but also in other departments representing suppliers of contracting authorities, I would like to ask you, honourable Members, to approve the legal measure put forward.
@@ -1853,8 +1853,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u3.p1.s2
-# align_s = 0-0 1-3 2-4 3-7 4-8
-# align_t = 2-0 3-1 4-2 7-3 8-4 
+# align_s = 0-2 1-3 2-4 3-7 4-8
+# align_t = 1-0 2-0 3-1 4-2 7-3 8-4 
 # source = Poprosím pana předsedu Senátu.
 # initial_translation = I'll ask the President of the Senate.
 # text = I'll ask the President of the Senate.
@@ -1869,7 +1869,7 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p1.s1
-# align_s = 1-0 2-1 3-2 4-3 5-4 7-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 15-12 16-14 17-15 18-16 20-17 21-18 22-19 23-20 24-21 25-24
+# align_s = 1-0 2-1 3-2 4-3 5-4 7-3 8-4 9-5 10-6 11-7 12-8 13-9 14-13 15-12 16-14 17-15 18-16 20-17 22-19 23-19 24-21 25-24
 # align_t = 0-1 1-2 2-3 3-7 4-8 5-9 6-10 7-11 8-12 9-13 12-15 13-14 14-16 15-17 16-18 17-20 18-21 19-22 21-24 23-24 24-25 
 # source = Vážený pane předsedo, vážené poslankyně, vážení poslanci, u tohoto zákonného opatření byl Senát nejvíce na pochybách, zdali je splněna podmínka neodkladnosti.
 # initial_translation = Mr President, honourable Members, for this legal measure, the Senate was most in doubt whether the requirement of urgency was met.
@@ -1901,8 +1901,8 @@
 25	.	.	PUNCT	.	_	24	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p1.s2
-# align_s = 0-1 2-2 4-3 5-6 6-7 7-8 8-9 9-10
-# align_t = 1-0 2-2 3-4 6-5 7-6 8-7 9-8 10-9 
+# align_s = 0-1 1-4 2-2 4-3 5-6 6-7 7-8 8-9 9-10
+# align_t = 1-0 2-2 3-4 4-1 6-5 7-6 8-7 9-8 10-9 
 # source = Opravdu tady se vedla diskuse a názory byly rozdílné.
 # initial_translation = There really were discussions here, and opinions were different.
 # text = There really were discussions here, and opinions were different.
@@ -1919,8 +1919,8 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p1.s3
-# align_s = 0-0 2-3 3-4 5-5 7-6 8-8 9-9 10-10 11-11 12-12 13-14 14-15 15-16 16-18 17-20 18-22 19-23 20-24 21-25
-# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 7-6 8-8 9-9 10-10 11-11 12-12 14-13 15-14 16-15 18-16 20-17 22-18 23-19 24-20 25-21 
+# align_s = 0-0 2-3 3-4 5-5 6-5 7-6 8-8 9-9 10-10 11-11 12-12 13-14 14-15 15-16 16-18 17-20 18-22 19-23 20-24 21-25
+# align_t = 0-0 1-1 3-2 4-3 6-4 7-6 8-8 9-9 10-10 11-11 12-12 14-13 15-14 16-15 18-16 20-17 22-18 23-19 24-20 25-21 
 # source = Nakonec se Senát rozhodl, že ji shledává, a tím impulsem byla velmi výrazná stanoviska zejména představitelů měst a obcí.
 # initial_translation = Finally, the Senate decided to find it, and the impulse was a very strong position, especially by representatives of cities and municipalities.
 # text = Finally, the Senate decided to find it, and the impulse was a very strong position, especially by representatives of cities and municipalities.
@@ -1952,8 +1952,8 @@
 26	.	.	PUNCT	.	_	25	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p1.s4
-# align_s = 0-0 2-2 5-4 6-5 7-1 9-7 10-8 12-9 13-9 14-10 15-11 16-12 17-13 18-14 19-15 20-16 21-19 22-21 23-22 24-23 25-24 26-25 27-26 28-27 29-28 30-29 31-31 32-32 33-33 34-34 35-35 36-36 37-37
-# align_t = 0-0 1-7 2-2 3-3 5-5 6-6 7-9 8-10 9-12 10-14 11-15 12-16 13-17 14-18 15-19 16-20 19-21 21-22 22-23 23-24 24-25 25-26 26-27 27-28 28-29 29-30 31-31 32-32 33-33 34-34 35-35 36-36 37-37 
+# align_s = 0-0 2-2 4-3 5-4 6-5 7-1 9-7 10-8 12-9 13-9 14-10 15-11 16-12 17-13 18-14 19-15 20-16 21-19 22-21 23-22 24-23 25-24 26-25 27-26 28-27 29-28 30-29 31-31 32-32 33-33 34-34 35-35 36-36 37-37
+# align_t = 0-0 1-7 2-2 3-3 5-5 6-6 7-9 8-10 9-12 10-13 11-15 12-16 13-17 14-18 15-19 16-20 19-21 21-22 22-23 23-24 24-25 25-26 26-27 27-28 28-29 29-30 31-31 32-32 33-33 34-34 35-35 36-36 37-37 
 # source = My jsme je s panem předsedou vlády slyšeli, když jsme se oba dva zúčastnili shromáždění, resp. valné hromady Svazu měst a obcí v Českých Budějovicích, kde představitelů měst a obcí bylo několik stovek.
 # initial_translation = We heard them with the Prime Minister when we both attended meetings, respectively. General meetings of the Union of Towns and Municipalities in České Budějovice, where representatives of cities and municipalities were several hundred.
 # text = We heard them with the Prime Minister when we both attended meetings, respectively. General meetings of the Union of Towns and Municipalities in České Budějovice, where representatives of cities and municipalities were several hundred.
@@ -2050,8 +2050,8 @@
 46	.	.	PUNCT	.	_	45	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p2.s1
-# align_s = 0-1 2-3 3-5 4-5 5-6 6-8 8-9 9-10 10-11 11-12 12-13 13-14 14-15 15-16 17-17 19-18 20-19 21-21 23-22 24-23 25-24 26-25 27-26 28-27 30-28 31-29 32-30 33-31 34-32 35-33 36-34 37-40 38-41 39-35 40-36 41-37 42-38 43-42 44-43 45-44 46-45 47-46 48-47 49-48 50-49 51-51 52-52 53-53 54-54
-# align_t = 1-0 3-2 4-3 5-4 6-5 8-6 9-8 10-9 11-10 12-11 13-12 14-13 15-14 16-15 17-17 18-19 19-20 21-21 22-23 23-24 24-25 25-26 26-27 27-28 28-30 29-31 30-32 31-33 32-34 33-35 34-36 35-39 36-40 37-41 38-42 40-37 41-38 42-43 43-44 44-45 45-46 46-47 47-48 48-49 49-50 50-51 52-52 53-53 54-54 
+# align_s = 0-1 2-3 3-5 5-6 6-8 8-9 9-10 10-11 11-12 12-13 13-14 14-15 15-16 17-17 19-18 20-19 21-21 23-22 24-23 25-24 26-25 27-26 28-27 30-28 31-29 32-30 33-31 34-32 35-33 36-34 37-40 38-41 39-35 40-36 41-37 42-38 43-42 44-43 45-44 46-45 47-46 48-47 49-48 50-49 51-51 52-52 53-53 54-54
+# align_t = 1-0 3-2 4-3 5-4 6-5 8-6 9-8 10-9 11-10 12-11 13-12 14-13 15-14 16-15 17-17 18-19 19-20 21-21 22-23 23-24 24-25 25-26 26-27 27-28 28-30 29-31 30-32 31-33 32-34 33-35 34-36 35-39 36-40 37-41 38-42 40-37 41-38 42-43 43-44 44-45 45-46 46-47 47-48 48-49 49-50 51-51 52-52 53-53 54-54 
 # source = Samozřejmě že tady je to prokázání neodkladnosti skutečně pouze v té ekonomické oblasti, ale my si myslíme, že v době, kdy naše hospodářství je bohužel delší dobu v červených číslech, stavební výroba se několik let propadá velmi prudce dolů, tak že jakýkoliv impuls k nápravě a obratu je cenný.
 # initial_translation = Of course, here it is proof of urgency only in the economic area, but we think that at a time when our economy is unfortunately longer in red figures, construction production has fallen very sharply down for several years, so that any impulse to correct and turn around is valuable.
 # text = Of course, here it is proof of urgency only in the economic area, but we think that at a time when our economy is unfortunately longer in red figures, construction production has fallen very sharply down for several years, so that any impulse to correct and turn around is valuable.
@@ -2113,7 +2113,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p2.s2
 # align_s = 0-0 1-1 2-4 4-5 5-6 6-7 8-8 10-10 11-10 12-11 13-12 14-14 15-15 16-17 17-18 20-19 21-22 22-23 23-24 25-25 27-26 28-27 29-28 31-29 32-30 33-31
-# align_t = 0-0 1-1 4-2 5-4 6-5 7-6 8-8 9-9 10-10 11-12 12-13 14-14 15-15 17-16 18-17 19-20 22-21 23-22 24-23 25-25 26-27 27-28 28-29 29-31 30-32 31-33 
+# align_t = 0-0 1-1 2-2 4-2 5-4 6-5 7-6 8-8 9-9 10-10 11-12 12-13 14-14 15-15 17-16 18-17 19-20 22-21 23-22 24-23 25-25 26-27 27-28 28-29 29-31 30-32 31-33 
 # source = Ale tady hrozilo, že ta situace se bude ještě urychleně zhoršovat, neboť obce za nových podmínek, které stanovuje zákon 55 z roku 2012, by pravděpodobně znamenala ještě další propad.
 # initial_translation = But there was a risk that the situation would deteriorate rapidly, because the municipalities under the new conditions laid down in Law 55 of 2012 would probably mean another fall.
 # text = But there was a risk that the situation would deteriorate rapidly, because the municipalities under the new conditions laid down in Law 55 of 2012 would probably mean another fall.
@@ -2184,8 +2184,8 @@
 26	.	.	PUNCT	.	_	25	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p4.s1
-# align_s = 3-0 4-3 5-4 6-6 8-7 9-8 10-9 11-10 12-11 13-16 14-15 16-14 17-13 18-17 19-20 20-22 21-23 22-21 23-24 24-25 26-26 27-28 28-30 29-31 30-32 31-34 32-34 33-37 34-38 35-40 36-41 37-42
-# align_t = 0-3 3-4 4-5 6-6 7-8 8-9 9-10 10-11 11-12 12-15 13-16 14-17 15-14 16-13 17-18 20-19 21-20 23-21 24-23 25-24 26-26 28-27 30-28 31-29 32-30 34-31 35-32 37-33 38-34 40-35 41-36 42-37 
+# align_s = 3-0 4-3 5-4 6-6 8-7 9-8 10-9 11-10 12-11 13-16 14-15 16-13 17-14 18-17 19-20 20-22 21-23 22-24 26-26 27-28 28-30 29-31 30-32 31-34 32-34 33-37 34-38 35-40 36-41 37-42
+# align_t = 0-3 3-4 4-5 6-6 7-8 8-9 9-10 10-11 11-12 12-15 13-16 14-17 15-14 16-13 17-18 20-19 21-19 22-20 23-21 24-23 25-24 26-26 28-27 30-28 31-29 32-30 34-31 37-33 38-34 40-35 41-36 42-37 
 # source = A úplně na závěr bych chtěl říci, že právě tady, jak říkal i pan předseda vlády, zásadně ten návrh posunuly ještě více, než vláda navrhovala, právě pozměňovací návrhy kolegů z pravého spektra.
 # initial_translation = Finally, I would like to say that right here, as the Prime Minister also said, they have fundamentally moved this proposal even further than the government has proposed, precisely the amendments made by colleagues from the right spectrum.
 # text = Finally, I would like to say that right here, as the Prime Minister also said, they have fundamentally moved this proposal even further than the government has proposed, precisely the amendments made by colleagues from the right spectrum.
@@ -2234,8 +2234,8 @@
 43	.	.	PUNCT	.	_	42	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p4.s2
-# align_s = 0-1 1-3 2-4 3-5 5-6 6-9 7-10 8-11 9-12 10-13 11-16 12-19 13-21 15-22
-# align_t = 1-0 3-1 4-2 5-3 6-4 7-5 9-6 10-7 11-8 12-9 13-10 16-11 18-7 19-12 21-13 22-15 
+# align_s = 0-1 1-3 2-4 3-5 5-6 6-9 7-10 8-11 9-12 10-13 11-16 12-19 13-21 14-18 15-22
+# align_t = 1-0 3-1 4-2 5-3 6-4 9-6 10-7 11-8 12-9 13-10 16-11 18-14 19-12 21-13 22-15 
 # source = Kolega Eybert a Kubera tam zanesli zásadní posun, který je samozřejmě pro obce výhodný.
 # initial_translation = A colleague of Eybert and Kubera brought in a major shift, which is, of course, advantageous for the municipalities.
 # text = A colleague of Eybert and Kubera brought in a major shift, which is, of course, advantageous for the municipalities.
@@ -2279,8 +2279,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p4.s4
-# align_s = 0-0 1-1 2-2 3-3 4-5 5-7 6-9 7-10 8-14 10-15 13-16 14-17 15-19 16-20 17-21 18-22 19-24 21-25 23-26 26-30 27-29 28-31 29-33 30-34 31-36 32-38 33-40 34-41 35-44 36-45 37-43 38-46 39-47 40-48 41-50 42-51 43-52 44-53 45-54 46-57 47-58 48-59 49-60 50-61 52-62 53-63 54-65 56-66 57-67 58-69 59-71 60-72 61-73 62-74 63-75 64-76 65-77 66-78 67-79 68-80 69-81 72-82 73-84 74-87 75-88 76-89 77-91 78-94 79-95 80-96
-# align_t = 0-0 1-1 2-2 3-3 4-3 5-4 7-5 9-6 10-7 11-9 12-11 13-12 14-8 15-10 16-13 17-14 20-16 21-17 22-19 23-20 25-21 26-22 27-23 28-24 29-27 30-26 31-28 33-29 34-30 36-31 38-32 39-32 40-33 41-34 43-37 44-35 45-36 46-38 47-39 48-40 50-41 51-42 52-43 53-44 54-45 58-47 59-48 60-49 61-50 62-52 63-53 65-54 66-56 68-57 69-58 71-59 72-60 73-61 74-62 75-63 76-64 77-65 78-66 79-67 80-68 81-69 82-72 84-73 87-74 88-75 89-76 91-77 94-78 95-79 96-80 
+# align_s = 0-0 1-1 2-2 3-3 4-5 5-7 6-9 7-10 8-14 10-15 12-23 13-16 14-17 15-18 16-20 17-21 18-21 19-24 21-25 23-26 25-28 26-30 27-29 28-31 29-33 30-34 31-36 32-38 33-40 34-41 35-44 36-45 37-43 38-46 39-47 40-48 41-50 42-51 43-52 44-53 45-54 46-56 47-58 48-59 49-60 51-61 52-62 53-63 54-65 56-66 57-67 58-69 59-71 60-72 61-73 62-74 63-75 64-76 65-77 66-78 67-79 68-80 70-81 72-82 73-84 74-87 75-88 76-89 77-91 78-94 79-95 80-96
+# align_t = 0-0 1-1 2-2 3-3 4-3 5-4 7-5 9-6 10-7 11-9 12-11 13-12 14-8 15-10 16-13 17-14 18-15 20-16 21-17 22-19 23-20 25-21 26-22 27-23 28-24 29-27 30-26 31-28 33-29 34-30 36-31 38-32 40-33 41-34 42-35 43-37 45-36 46-38 47-39 48-40 50-41 51-42 52-43 53-44 54-45 58-47 59-48 60-49 61-50 62-52 63-53 65-54 66-56 67-57 69-58 71-59 72-60 73-61 74-62 75-63 76-64 77-65 78-66 79-67 80-68 81-69 82-72 84-73 87-74 88-75 89-76 91-77 94-78 95-79 96-80 
 # source = A já bych moc přál Poslanecké sněmovně do budoucího období, aby na rozdíl od minulého období dokázala, tak jako se to přece jenom daří víc v Senátu, posuzovat hlavně, jaký to je návrh, pro koho je prospěšný a pro koho není prospěšný, a aby bylo úplně jedno, jestli to dává někdo z toho nebo onoho politického spektra, ale hlavně aby to sloužilo prosperitě České republiky a občanům české země.
 # initial_translation = And I would very much like the Chamber of Deputies to prove to the future, in contrast to the last period, that, as it is still more successful in the Senate, to judge, above all, what a proposal it is, for whom it is beneficial and for whom it is not beneficial, and that it does not matter whether it is given by any of this or that political spectrum, but mainly to serve the prosperity of the Czech Republic and the citizens of the Czech Republic.
 # text = And I would very much like the Chamber of Deputies to prove to the future, in contrast to the last period, that, as it is still more successful in the Senate, to judge, above all, what a proposal it is, for whom it is beneficial and for whom it is not beneficial, and that it does not matter whether it is given by any of this or that political spectrum, but mainly to serve the prosperity of the Czech Republic and the citizens of the Czech Republic.
@@ -2383,8 +2383,8 @@
 97	.	.	PUNCT	.	_	96	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u4.p4.s5
-# align_s = 0-0 1-1 3-2 4-5 5-6 6-7 8-8 9-9 10-11 12-12 13-9 14-13
-# align_t = 1-0 2-3 4-1 5-4 6-5 7-6 8-8 9-9 11-10 12-12 13-14 
+# align_s = 0-0 1-4 4-5 5-6 6-7 9-9 10-11 12-12 14-13
+# align_t = 0-0 2-2 4-5 5-4 6-5 7-6 8-8 9-9 11-10 12-12 13-14 
 # source = Já vám to přeji a děkuji vám, že jste mě tady dneska vyslechli.
 # initial_translation = I'm happy for you and thank you for listening to me today.
 # text = I'm happy for you and thank you for listening to me today.
@@ -2421,7 +2421,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u5.p1.s2
 # align_s = 0-2 1-4 2-5 3-6
-# align_t = 0-1 1-2 2-0 4-1 5-2 6-3 
+# align_t = 2-0 4-1 5-2 6-3 
 # source = Otvírám obecnou rozpravu.
 # initial_translation = I am opening a general debate.
 # text = I am opening a general debate.
@@ -2435,7 +2435,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u5.p1.s3
 # align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-5 7-6 8-7 9-8 12-9 13-9 14-10 15-11 16-15
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-13 10-14 11-15 12-10 13-11 14-10 15-16 
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-8 8-9 9-13 10-14 11-15 12-10 13-11 14-10 15-16 
 # source = Mám zde dvě přihlášky - paní poslankyně Jana Fischerová, připraví se paní poslankyně Věra Jourová.
 # initial_translation = I have two applications - Mrs Jana Fischerová, Mrs Věra Jourová will be prepared.
 # text = I have two applications - Mrs Jana Fischerová, Mrs Věra Jourová will be prepared.
@@ -2473,8 +2473,8 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p1.s2
-# align_s = 0-0 1-1 3-2 4-3 5-4 6-5 7-8 8-9 9-11 10-10 11-11 12-12 13-15 14-17 17-18 18-22 19-23 20-19 21-21 22-25 23-28 25-29 27-30 28-31 29-32 31-33 33-34 35-35 36-36 37-36 38-37 39-38 40-39
-# align_t = 0-0 1-2 2-3 3-4 4-5 5-6 8-7 9-8 10-9 11-11 12-12 15-13 17-14 18-17 19-20 20-21 21-21 22-15 23-16 24-18 25-22 26-26 28-23 29-25 30-27 31-28 32-29 33-31 34-33 35-35 36-37 37-38 38-39 39-40 
+# align_s = 0-0 1-1 3-2 4-3 5-4 6-5 7-8 8-9 10-10 11-11 12-12 13-15 14-17 17-18 20-19 21-21 22-25 23-28 25-29 27-30 28-31 29-32 31-33 33-34 36-35 37-36 38-37 39-38 40-39
+# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 8-7 9-8 10-9 11-10 12-12 15-13 17-14 18-17 19-20 20-21 21-21 23-22 24-18 26-26 28-23 29-25 30-27 31-28 32-29 33-31 34-33 35-35 36-37 37-38 38-39 39-40 
 # source = Vážené kolegyně, kolegové, pane předsedo Senátu, pane předsedo vlády, navážu na to, co zde uvedli mí předřečníci, pamatuji si dobře i ta poslední slova, že je potřeba, aby se pracovalo racionálně.
 # initial_translation = Ladies and gentlemen, Mr President of the Senate, Prime Minister, I will follow up on what my previous speakers have said here, and I remember well the last words that need to be worked rationally.
 # text = Ladies and gentlemen, Mr President of the Senate, Prime Minister, I will follow up on what my previous speakers have said here, and I remember well the last words that need to be worked rationally.
@@ -2521,7 +2521,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p1.s3
 # align_s = 0-0 1-1 2-3 3-5 4-4 5-6 6-7 7-10 8-11 10-13 11-15 13-16 14-18 15-19 16-20
-# align_t = 0-0 1-1 3-2 4-4 5-3 6-5 7-6 10-7 11-8 13-10 15-12 16-13 18-14 19-15 20-16 
+# align_t = 0-0 1-1 2-2 4-4 5-3 6-5 7-6 10-7 11-8 13-10 15-12 16-13 18-14 19-15 20-16 
 # source = A já řeknu názor svůj, ale vlastně vyjádřím i názor poslaneckého klubu Občanské demokratické strany.
 # initial_translation = And I will give my opinion, but I will actually express my opinion to the Citizen's Democratic Party.
 # text = And I will give my opinion, but I will actually express my opinion to the Citizen's Democratic Party.
@@ -2548,8 +2548,8 @@
 21	.	.	PUNCT	.	_	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p2.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 7-6 8-7 9-8 10-9 11-10 12-11 13-13 14-14 15-15 16-16
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-8 8-9 9-10 10-11 11-12 13-13 14-14 15-15 16-16 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-7 9-8 10-9 11-10 12-11 13-13 14-14 15-15 16-16
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-7 7-8 8-9 9-10 10-11 11-12 13-13 14-14 15-15 16-16 
 # source = Mezi námi je celá řada ať už bývalých, současných primátorů, starostů obcí a měst.
 # initial_translation = Among us is a number of former, current mayors, mayors of municipalities and cities.
 # text = Among us is a number of former, current mayors, mayors of municipalities and cities.
@@ -2573,7 +2573,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p2.s2
 # align_s = 0-0 1-1 2-4 3-3 4-5 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13 13-14 14-16 15-17 16-18 17-19 18-20 19-22 20-21 21-23 22-25 23-25 24-26 25-27 28-32 29-37 30-36 32-33 33-35 36-30 37-31 38-38
-# align_t = 0-0 1-1 3-3 4-2 5-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-13 16-14 17-15 18-16 19-17 20-18 22-19 23-21 25-22 26-24 27-25 28-26 30-36 31-37 32-28 33-32 34-32 35-33 36-30 37-29 38-38 
+# align_t = 0-0 1-1 2-2 3-3 4-2 5-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 16-13 17-15 18-16 19-17 20-18 21-20 22-19 23-21 25-22 26-24 27-25 28-26 29-35 30-36 31-37 32-28 33-32 34-32 35-33 36-30 37-29 38-38 
 # source = Já osobně řeknu také spíš praktické poznatky ze své minulé činnosti jako starostka 25tisícového města, kdy jsem toto zažila na vlastní kůži, protože to, co zde říkal pan premiér Rusnok, už nebudu opakovat.
 # initial_translation = I myself will also say more practical knowledge of my past activity as mayor of the 25,000th city, when I experienced this on my own, because I will not repeat what Prime Minister Rusnok said here.
 # text = I myself will also say more practical knowledge of my past activity as mayor of the 25,000th city, when I experienced this on my own, because I will not repeat what Prime Minister Rusnok said here.
@@ -2635,7 +2635,7 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p2.s4
-# align_s = 0-0 1-1 2-9 3-8 5-3 6-6 10-10 11-12 12-15 13-16 14-17 17-18 18-19 19-21 20-22 21-24 22-25 23-26 24-27 25-30 26-31 27-32 28-33 31-34 32-36 33-37 34-38 35-38 37-40 38-42 39-43
+# align_s = 0-0 1-1 2-9 3-8 5-3 6-6 10-10 11-12 12-15 13-16 14-17 15-17 17-18 18-19 19-21 20-22 21-24 22-25 23-26 24-27 25-30 26-31 27-32 28-33 29-33 30-34 31-35 32-36 33-37 34-38 37-40 38-42 39-43
 # align_t = 0-0 1-1 2-4 3-5 6-6 8-3 9-2 10-10 12-11 15-12 16-13 17-14 18-17 19-18 21-19 22-20 24-21 25-22 26-23 27-24 30-25 31-26 32-27 33-28 34-30 35-31 36-32 37-33 38-34 39-36 40-37 42-38 43-39 
 # source = Jenom jak zde říkal pan předseda Senátu o tom, že Senát velice zvažoval, je-li toto opravdu nutné projednat podle článku 33 Ústavy, tak je to o tom politickém rozhodnutí, jak se Senát rozhodl.
 # initial_translation = Just as the President of the Senate has said here that the Senate has considered very much, if this is really necessary to discuss under Article 33 of the Constitution, it is about the political decision that the Senate has made.
@@ -2686,11 +2686,11 @@
 44	.	.	PUNCT	.	_	43	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p2.s5
-# align_s = 0-0 1-1 2-3 3-5 4-6 6-7 7-8 9-9 11-10 12-11 13-12 14-17 16-16 17-15 18-16 19-18 20-19 21-20 22-21 23-22 25-23 26-24 27-25 28-26 29-29 30-28 32-30 33-31 34-32 35-33 36-34 38-36 39-37 40-40 41-43 42-45 43-46 44-47 45-50 46-51 47-54 48-55 49-52 50-53 52-58 53-55 55-57 56-59 58-60 59-61 60-62 61-68
-# align_t = 0-0 1-1 3-2 5-3 6-4 7-6 8-7 9-9 10-11 11-12 12-13 13-15 15-17 16-18 17-14 18-19 19-20 20-21 21-22 23-25 24-26 25-27 26-28 27-29 28-30 29-31 30-32 31-33 32-34 33-35 34-36 36-38 37-39 40-40 43-41 45-42 46-43 47-44 50-45 51-46 52-49 53-50 54-47 55-47 56-48 57-51 58-52 59-55 60-58 61-59 62-60 65-57 67-54 68-61 
+# align_s = 0-0 1-1 2-3 3-5 4-6 6-7 7-8 9-9 11-10 12-11 13-12 14-17 16-16 17-15 18-16 19-18 20-19 21-20 22-21 25-23 26-24 27-25 28-26 29-29 30-28 32-30 33-31 34-32 35-33 36-34 38-36 39-37 40-40 41-43 42-45 43-46 44-47 45-50 46-51 47-54 48-56 49-52 50-53 52-58 53-56 55-57 56-59 58-60 59-61 60-62 61-68
+# align_t = 0-0 1-1 3-2 5-3 6-4 7-6 8-7 9-9 10-11 11-12 12-13 13-14 14-15 15-17 16-18 17-18 18-19 19-20 20-21 21-22 22-23 23-25 24-26 25-27 26-28 27-29 28-30 29-31 30-32 31-33 32-34 33-35 34-36 36-38 37-39 40-40 43-41 45-42 46-43 47-44 50-45 51-46 52-49 53-50 54-47 55-48 56-48 57-51 58-52 59-55 60-58 61-59 62-60 65-53 67-54 68-61 
 # source = A vlastně předseda našeho poslaneckého klubu Zbyněk Stanjura se zmínil k této technické novele zákona o zadávání veřejných zakázek, že to není až tak zcela nutné, ale víme také, že každý z nás obdržel právě osobní dopis předsedy Svazu měst a obcí České republiky Dana Jiránka, kde na nás apeloval, abychom věcně podpořili tento zákon.
 # initial_translation = And actually the chairman of our MP Zbyněk Stanjura mentioned this technical amendment to the Public Procurement Act, that it is not quite necessary, but we also know that each of us received a personal letter from the President of the Union of Towns and Municipalities of the Czech Republic, where Dan Jiránek appealed to us to support this law in a matter of fact.
-# text = And actually the chairman of our MP Zbyněk Stanjura mentioned this technical amendment to the Public Procurement Act, that it is not quite necessary, but we also know that each of us received a personal letter from the President of the Union of Towns and Municipalities of the Czech Republic, where Dan Jiránek appealed to us to support this law in a matter of fact.
+# text = And actually the chairman of our MP Zbyněk Stanjura mentioned this technical amendment to the Public Procurement Act, that it is not quite necessary, but we also know that each of us received a personal letter from the President of the Union of Towns and Municipalities of the Czech Republic, where Dan Jiránek Jiránek to us to support this law in a matter of fact.
 1	And	and	CCONJ	CC	_	0	_	_	NER=O
 2	actually	actually	ADV	RB	_	1	_	_	NER=O
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	NER=O
@@ -2747,7 +2747,7 @@
 54	where	where	SCONJ	WRB	PronType=Rel	53	_	_	NER=O
 55	Dan	Dan	PROPN	NNP	Number=Sing	54	_	_	NER=B-PER
 56	Jiránek	Jiránek	PROPN	NNP	Number=Sing	55	_	_	NER=I-PER
-57	appealed	appeal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	56	_	_	NER=O
+57	Jiránek	Jiránek	PROPN	NNP	Number=Sing	56	_	_	NER=I-PER
 58	to	to	ADP	IN	_	57	_	_	NER=O
 59	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	58	_	_	NER=O
 60	to	to	PART	TO	_	59	_	_	NER=O
@@ -2762,8 +2762,8 @@
 69	.	.	PUNCT	.	_	68	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p2.s6
-# align_s = 0-1 1-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 14-13 15-15 16-16 18-17 19-19 20-18 22-21 23-22 24-24 25-26 26-27 27-28
-# align_t = 1-0 2-1 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-14 14-13 15-15 16-16 17-18 18-20 19-19 20-22 21-23 22-24 25-25 26-25 27-26 28-27 
+# align_s = 0-1 1-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 14-13 15-15 16-16 18-17 19-19 20-18 22-20 23-21 24-22 25-26 26-27 27-28
+# align_t = 1-0 2-1 3-3 4-4 5-7 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-14 14-13 15-15 16-16 17-18 18-20 19-19 20-22 21-23 24-24 25-25 26-25 27-26 28-27 
 # source = Sama vím, jak pro starosty, starostky také, obcí, zejména těch malých, aby měli podmínky lepší, aby nebylo tolik administrativy.
 # initial_translation = I myself know how for mayors, mayors also, municipalities, especially small ones, to have better conditions so that there isn't so much administration.
 # text = I myself know how for mayors, mayors also, municipalities, especially small ones, to have better conditions so that there isn't so much administration.
@@ -2799,7 +2799,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p2.s7
 # align_s = 0-0 1-1 2-2 3-3 5-4 6-5 8-6 9-7 10-8 11-9 15-10 16-13 17-14
-# align_t = 0-0 1-1 2-2 3-3 4-5 5-6 6-8 7-9 8-10 9-11 10-13 12-14 13-16 14-17 
+# align_t = 0-0 1-1 2-2 3-3 4-5 5-6 6-8 7-9 8-10 9-11 10-12 11-13 12-14 13-16 14-17 
 # source = A ta další opatření, která jsou právě v této technické novele, by to měla usnadnit.
 # initial_translation = And the other measures that are in this technical amendment should make it easier.
 # text = And the other measures that are in this technical amendment should make it easier.
@@ -2820,8 +2820,8 @@
 15	.	.	PUNCT	.	_	14	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p3.s1
-# align_s = 0-1 1-3 2-5 3-6 4-7 6-8 8-9 10-11 11-12 12-13 13-14 14-15 15-16 16-19 17-21 18-22 19-23 20-24 21-25 22-28 23-29 24-30 25-31 27-32 28-34 29-35 30-36 31-37 32-38 33-39 34-40 35-41 36-42 37-44 38-45
-# align_t = 1-0 3-1 5-2 7-4 8-7 10-9 11-10 12-11 13-12 14-13 15-14 16-15 19-16 21-17 22-18 23-19 24-20 25-21 26-22 28-22 29-23 30-24 31-25 32-26 33-27 34-28 35-29 36-30 37-31 38-32 39-33 40-34 41-35 42-36 43-36 44-37 45-38 
+# align_s = 0-1 1-3 2-5 3-6 4-7 8-8 9-10 10-11 11-12 12-13 13-14 14-15 15-16 16-19 17-21 18-22 19-23 20-24 21-25 22-28 23-29 24-30 25-31 26-32 27-33 28-34 29-35 30-36 31-37 32-38 33-39 34-40 35-41 36-42 37-44 38-45
+# align_t = 1-0 5-2 7-4 8-7 10-9 11-10 12-11 13-12 14-13 15-14 16-15 19-16 21-17 22-18 23-19 24-20 25-21 26-22 27-22 28-22 29-23 30-24 31-25 32-26 33-27 34-28 36-30 37-31 38-32 39-33 40-34 41-35 43-36 44-37 45-38 
 # source = Konkrétně zde také padlo vyjádření k tomu, že se k 1. 1. 2014 nestačily proškolit všechny ty osoby s tzv. zvláštní způsobilostí v rámci Ministerstva pro místní rozvoj, což je právě to neodkladné.
 # initial_translation = In particular, there was also an expression that he was on 1. 1. 2014 was not enough to train all those persons with so-called. special qualifications within the Ministry of Regional Development, which is precisely what is urgent.
 # text = In particular, there was also an expression that he was on 1. 1. 2014 was not enough to train all those persons with so-called. special qualifications within the Ministry of Regional Development, which is precisely what is urgent.
@@ -2873,8 +2873,8 @@
 46	.	.	PUNCT	.	_	45	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p3.s2
-# align_s = 0-0 1-1 2-3
-# align_t = 0-0 1-1 3-2 
+# align_s = 1-1 2-3
+# align_t = 1-1 3-2 
 # source = Tomu rozumím.
 # initial_translation = I understand that.
 # text = I understand that.
@@ -2905,8 +2905,8 @@
 14	.	.	PUNCT	.	_	13	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u6.p3.s4
-# align_s = 0-0 1-1 2-2 3-4 4-6 5-8 6-11
-# align_t = 0-0 1-1 2-2 3-2 4-3 6-4 8-5 11-6 
+# align_s = 0-0 1-1 2-2 3-4 4-7 5-8 6-11
+# align_t = 0-0 1-1 2-2 4-3 6-4 8-5 11-6 
 # source = Prosím, klid, mě neposlouchají.
 # initial_translation = Please, calm down, they don't listen to me.
 # text = Please, calm down, they don't listen to me.
@@ -2924,7 +2924,7 @@
 12	.	.	PUNCT	.	_	11	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u7.p1.s1
-# align_s = 0-0 1-1 4-3 5-2 6-5 7-6 8-8 9-10 10-12 11-15 12-16 13-17 14-19 15-20 16-22 17-23 18-24 19-25 20-26 21-27
+# align_s = 0-0 1-1 4-3 5-2 6-5 7-6 8-8 9-10 10-12 11-15 12-16 13-17 14-21 16-22 17-23 18-24 19-25 20-26 21-27
 # align_t = 0-0 1-1 2-2 3-4 4-4 5-6 6-7 8-8 10-9 12-10 15-11 16-12 17-13 21-14 22-16 23-17 24-18 25-19 26-20 27-21 
 # source = Já jsem se již několikrát snažil bez použití mikrofonu varovat skupinu vlevo, ale nepadlo to mé varování na úrodnou půdu.
 # initial_translation = I have tried several times without using the microphone to warn the group on the left, but it did not fall my warning on fertile soil.
@@ -2959,8 +2959,8 @@
 28	.	.	PUNCT	.	_	27	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u7.p1.s2
-# align_s = 0-0 1-2 2-4 3-7 4-8 5-10 6-11 7-13 8-14 9-15 10-16 11-17 12-18
-# align_t = 0-0 2-1 4-2 5-2 6-3 8-4 10-5 11-6 13-7 14-8 15-9 16-10 17-11 18-12 
+# align_s = 0-0 1-2 2-4 3-6 4-8 5-10 6-11 7-13 8-14 9-15 10-16 11-17 12-18
+# align_t = 0-0 2-1 4-2 5-2 6-3 8-4 11-6 13-7 14-8 15-9 16-10 17-11 18-12 
 # source = Takže bohužel příště už asi budu muset jmenovat a žádat o klid.
 # initial_translation = So, unfortunately, next time, I guess I'll have to name and ask for peace.
 # text = So, unfortunately, next time, I guess I'll have to name and ask for peace.
@@ -2985,7 +2985,7 @@
 19	.	.	PUNCT	.	_	18	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u7.p1.s3
-# align_s = 0-2 2-3 3-4 5-5
+# align_s = 0-2 2-3 3-4 4-4 5-5
 # align_t = 0-0 1-1 2-0 3-2 4-3 5-5 
 # source = Omlouvám se, paní poslankyně.
 # initial_translation = I'm sorry, Madam.
@@ -3034,8 +3034,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u9.p1.s1
-# align_s = 0-2 2-3 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13
-# align_t = 2-0 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 
+# align_s = 0-2 1-3 2-3 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13
+# align_t = 2-0 3-1 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 
 # source = Sedíme podle abecedy, takže to bylo někde od B do D.
 # initial_translation = We're sitting alphabetically, so it was somewhere from B to D.
 # text = We're sitting alphabetically, so it was somewhere from B to D.
@@ -3077,8 +3077,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u10.p2.s1
-# align_s = 0-3 1-2 2-4 3-6 4-7
-# align_t = 2-0 3-1 6-3 7-4 
+# align_s = 0-3 2-4 3-6 4-7
+# align_t = 1-0 2-0 3-1 4-2 6-3 7-4 
 # source = Vrátím se k tématu.
 # initial_translation = I'll get back to the subject.
 # text = I'll get back to the subject.
@@ -3092,8 +3092,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u10.p2.s2
-# align_s = 0-0 1-2 2-4 3-10 4-5 5-7 6-8 8-12 9-13 10-15 11-16 12-17 13-20 14-22 16-23
-# align_t = 0-0 2-1 4-2 5-4 7-5 8-6 10-3 11-7 12-8 13-9 15-10 16-11 17-12 19-15 20-13 22-14 23-16 
+# align_s = 0-0 1-2 2-4 3-10 4-5 5-7 6-8 8-12 9-13 10-15 11-16 12-17 13-20 14-22 15-19 16-23
+# align_t = 0-0 2-1 4-2 5-4 7-5 8-6 10-3 11-7 12-8 13-9 15-11 16-10 17-12 19-15 20-13 22-14 23-16 
 # source = Zde také ještě dnes nepadlo konkrétní upřesnění, o co Občanská demokratická strana do budoucnosti usiluje.
 # initial_translation = There has also not yet been a concrete clarification here today as to what the Civil Democratic Party is seeking for the future.
 # text = There has also not yet been a concrete clarification here today as to what the Civil Democratic Party is seeking for the future.
@@ -3123,8 +3123,8 @@
 24	.	.	PUNCT	.	_	23	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u10.p2.s3
-# align_s = 0-0 2-2 4-3 5-5 6-8 7-9 8-6 9-10 10-13 11-14 12-16 13-17 14-18 15-19 16-20 17-22 18-26 19-28 20-29 22-31 24-32 25-35 27-33 29-34 31-37 32-38 33-40 34-41 35-43 36-45 37-45 38-46
-# align_t = 0-0 1-2 2-3 3-4 4-5 6-8 8-6 9-7 10-9 13-10 14-11 16-12 17-13 18-14 19-15 20-16 22-15 24-18 26-18 28-19 29-20 31-22 32-24 33-27 34-29 35-30 37-31 38-32 40-33 41-34 43-35 44-36 45-37 46-38 
+# align_s = 0-0 2-2 4-3 5-5 6-8 7-9 8-6 9-10 10-13 11-14 12-16 13-17 14-18 15-19 16-20 17-22 18-24 19-28 21-29 22-31 24-32 25-32 27-33 29-34 30-35 31-37 32-38 33-40 34-41 35-43 36-45 37-45 38-46
+# align_t = 0-0 1-2 2-3 3-4 5-5 6-8 8-6 9-7 10-9 13-10 14-11 16-12 17-13 18-14 19-15 20-16 22-17 24-17 26-18 28-19 29-20 30-21 31-22 32-25 33-27 34-29 35-30 37-31 38-32 40-33 41-34 43-35 44-36 45-37 46-38 
 # source = A sice víme, protože je nás zde mnoho, řeknu napříč politickým spektrem, zkušených s vykonáváním samosprávy a tam dochází mnohdy k prodlužování termínů, když dojde k podání stížnosti u Úřadu pro ochranu hospodářské soutěže.
 # initial_translation = And we know because there are many of us here, I will say across the political spectrum, experienced with the implementation of self-government, and there are often delays when a complaint is filed with the Office for the Protection of Competition.
 # text = And we know because there are many of us here, I will say across the political spectrum, experienced with the implementation of self-government, and there are often delays when a complaint is filed with the Office for the Protection of Competition.
@@ -3177,8 +3177,8 @@
 47	.	.	PUNCT	.	_	46	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u10.p2.s4
-# align_s = 1-2 2-5 3-6 4-7 6-8 7-10 8-11 9-12 10-14 11-15 13-16 14-18 15-21 16-23 17-24 18-27 19-26 20-27 22-29 23-30 24-32 25-34 26-33 27-35 28-36 29-37 31-38 32-39 33-40 34-44 35-43 36-45
-# align_t = 0-0 2-1 5-2 6-3 7-4 8-6 10-7 11-8 12-9 13-10 14-10 15-11 16-13 17-14 21-15 23-16 24-17 26-19 27-20 28-21 29-22 30-23 32-24 34-25 35-27 36-28 37-29 38-30 39-31 40-33 43-35 44-34 45-36 
+# align_s = 1-2 2-5 3-6 4-7 6-8 7-10 8-11 9-12 10-14 11-15 13-17 14-18 15-21 16-23 17-24 18-27 19-26 20-27 22-29 23-30 24-32 25-34 27-35 28-36 29-37 31-38 32-39 33-40 34-44 35-43 36-45
+# align_t = 0-0 2-1 5-2 6-3 7-4 8-6 9-6 10-8 11-7 12-9 13-10 14-10 15-11 16-12 17-13 18-14 21-15 23-16 24-17 26-19 27-20 28-21 29-22 30-23 32-24 34-25 35-27 36-28 37-29 38-31 39-33 40-33 43-35 44-34 45-36 
 # source = A proto řeknu a zdůrazním, že Občanská demokratická strana dlouhodobě usiluje, aby vedle zajištění transparentnosti zadávání veřejných zakázek měl tento zákon v budoucnu zároveň lépe nastaveny podmínky, které zamezí zneužívání institutu odvolání.
 # initial_translation = That is why I will say and stress that the Civil Democratic Party has long sought to ensure that, in addition to ensuring transparency in public procurement, this law has in the future better set conditions to prevent abuse of the appeal institute.
 # text = That is why I will say and stress that the Civil Democratic Party has long sought to ensure that, in addition to ensuring transparency in public procurement, this law has in the future better set conditions to prevent abuse of the appeal institute.
@@ -3230,7 +3230,7 @@
 46	.	.	PUNCT	.	_	45	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u10.p2.s5
-# align_s = 0-1 2-2 3-3 4-5 5-6 6-9 8-12 9-13 10-14
+# align_s = 0-1 2-2 3-3 4-5 5-6 6-9 7-10 8-12 9-13 10-14
 # align_t = 0-0 1-1 2-2 3-3 5-4 6-5 9-6 12-8 13-9 14-10 
 # source = Víme, že mnohé ty odvolačky tam leží dlouhou dobu.
 # initial_translation = We know that many of these appeals have been there for a long time.
@@ -3253,7 +3253,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u10.p2.s6
 # align_s = 0-0 1-4 2-5 3-23 4-25 5-3 6-6 7-8 8-10 9-12 10-13 11-14 12-15 13-17 14-18 15-20 16-22 17-22 18-26
-# align_t = 0-0 3-5 6-6 8-7 10-8 11-9 12-9 13-10 14-11 15-12 17-13 18-14 20-15 21-16 22-17 23-3 25-4 26-18 
+# align_t = 0-0 2-2 3-5 6-6 8-7 10-8 12-9 13-10 14-11 15-12 17-13 18-14 20-15 21-16 22-17 23-3 25-4 26-18 
 # source = Čili chtěli bychom do budoucna také podporovat stanovení pevných lhůt u řízení u Úřadu pro ochranu hospodářské soutěže.
 # initial_translation = So we would also like to support the setting of fixed time limits for proceedings at the Office for the Protection of Competition in the future.
 # text = So we would also like to support the setting of fixed time limits for proceedings at the Office for the Protection of Competition in the future.
@@ -3286,8 +3286,8 @@
 27	.	.	PUNCT	.	_	26	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u10.p3.s1
-# align_s = 2-0 3-1 4-2 6-3 7-4 8-5 9-6 10-7 11-10 13-11 14-12 15-13 16-15 17-18 18-19 19-20 20-23 21-25 22-17 23-26
-# align_t = 0-2 1-3 2-4 3-6 4-7 5-8 6-9 7-10 10-11 11-13 12-14 13-15 15-16 17-22 18-17 19-18 20-19 23-20 24-21 25-21 26-23 
+# align_s = 2-0 3-1 4-2 6-3 7-4 8-5 9-6 10-7 11-10 13-11 14-12 15-13 16-15 17-18 18-19 19-20 20-23 21-24 22-17 23-26
+# align_t = 0-2 1-3 2-4 3-6 4-7 5-8 6-9 7-10 10-12 11-13 12-14 13-15 15-16 18-17 19-18 20-19 23-20 24-21 25-22 26-23 
 # source = A na závěr - já už jsem opravdu stručná, tak řeknu, že na závěr chceme tato zákonná opatření Senátu také podpořit.
 # initial_translation = Finally, I am really brief, so I will say that in conclusion we want to support these legal measures of the Senate as well.
 # text = Finally, I am really brief, so I will say that in conclusion we want to support these legal measures of the Senate as well.
@@ -3330,8 +3330,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u11.p1.s1
-# align_s = 0-0 1-2 3-3 4-4
-# align_t = 0-0 1-0 2-1 3-3 4-4 
+# align_s = 0-0 1-2 2-3 3-3 4-4
+# align_t = 0-0 1-1 2-1 3-3 4-4 
 # source = Děkuji, paní poslankyně.
 # initial_translation = Thank you, Madame.
 # text = Thank you, Madame.
@@ -3343,7 +3343,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u11.p1.s2
 # align_s = 0-0 1-1 2-2 3-4 4-6 5-7 6-9 7-10 8-11 9-12 10-13 11-13 12-14 13-15 14-16
-# align_t = 0-0 1-1 2-2 3-3 4-3 6-4 7-5 9-6 10-7 11-8 12-9 13-11 14-12 15-13 16-14 
+# align_t = 0-0 1-1 2-2 3-3 4-3 6-4 7-5 9-6 10-7 11-8 12-9 13-10 14-12 15-13 16-14 
 # source = Další přihlášenou, zatím poslední v obecné rozpravě, je paní poslankyně Věra Jourová.
 # initial_translation = Another registered, so far the last in the general debate, is Mrs Věra Jourová.
 # text = Another registered, so far the last in the general debate, is Mrs Věra Jourová.
@@ -3433,8 +3433,8 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p2.s1
-# align_s = 0-0 1-1 2-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 12-11 14-12 15-13 16-18
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 12-14 13-15 18-16 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 12-11 14-13 15-12 16-18
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-13 12-14 13-15 18-16 
 # source = Dnes tady jednáme o zákonném opatření k veřejným zakázkám, jak tady předeslal pan ministerský předseda.
 # initial_translation = Today we are discussing legal provisions on public procurement, as the Prime Minister has put forward here.
 # text = Today we are discussing legal provisions on public procurement, as the Prime Minister has put forward here.
@@ -3459,8 +3459,8 @@
 19	.	.	PUNCT	.	_	18	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p2.s2
-# align_s = 0-0 1-1 2-2 3-3 6-5 7-7 8-8 9-6 10-9 11-10 12-14 14-15 16-23 17-17 18-20 19-21 20-19 21-25 22-26 23-28 24-30 25-31 26-32 29-33 30-35 32-36 33-39 34-40 35-42 36-45 37-46 38-47
-# align_t = 0-0 1-1 2-2 3-3 4-3 5-4 6-6 7-7 8-8 9-10 10-11 12-12 14-13 15-14 17-17 19-20 20-18 21-19 23-16 24-15 25-21 26-22 28-23 30-24 31-25 32-26 33-29 35-33 36-32 39-33 40-34 42-35 45-36 46-37 47-38 
+# align_s = 0-0 1-1 2-2 3-3 4-4 6-5 7-7 8-8 9-9 10-9 11-10 12-14 14-15 15-22 16-23 17-17 18-20 19-21 20-19 21-25 22-26 23-28 24-30 25-31 26-32 29-33 30-35 32-36 33-39 34-40 35-42 36-45 37-46 38-47
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-10 10-11 12-12 14-13 15-14 17-17 19-20 20-18 21-19 22-15 23-16 25-21 26-22 28-23 30-24 31-25 32-26 33-29 35-33 36-32 39-33 40-34 42-35 45-36 46-37 47-38 
 # source = Tento zákon je velevýznamný tím, že přes něj protéká ročně, nevím, jestli tady padlo číslo 300 miliard korun, a má obrovský význam pro to, zda investujeme, nebo neinvestujeme z pozice veřejného sektoru.
 # initial_translation = This law is significant because it flows through it annually, I do not know if the number of CZK 300 billion has fallen here, and it is of great importance to whether we invest or not to invest from the position of the public sector.
 # text = This law is significant because it flows through it annually, I do not know if the number of CZK 300 billion has fallen here, and it is of great importance to whether we invest or not to invest from the position of the public sector.
@@ -3514,8 +3514,8 @@
 48	.	.	PUNCT	.	_	47	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p3.s1
-# align_s = 0-0 2-5 3-7 5-2 6-3 7-4 8-1 9-9 10-10 12-12 13-14 14-16 15-17 16-20 17-22 19-23 20-24 21-27 22-28 23-29 24-25 28-31 30-32 31-33 33-34 34-35 35-36 37-38 38-40 39-41 40-42 41-43 43-44 44-45 45-46 46-47 47-48 48-49 49-51 50-52 51-53 52-56 53-57 56-58 57-66 58-68 59-69 60-65 61-63 62-59 63-60 64-61 65-62 66-63 67-70
-# align_t = 0-0 1-8 2-5 3-6 4-7 5-2 7-3 9-9 10-10 12-12 14-13 16-14 17-15 20-16 22-17 23-19 24-20 25-24 27-21 28-22 29-23 30-25 31-28 32-30 33-31 34-33 35-34 36-35 37-36 38-37 40-38 41-39 42-40 43-41 44-43 45-44 46-45 47-46 48-47 49-48 51-49 52-50 53-51 56-52 57-53 58-54 59-62 60-63 61-64 62-65 63-66 65-56 66-57 68-58 69-59 70-67 
+# align_s = 0-0 2-5 3-7 5-2 6-3 7-4 8-1 9-9 10-10 12-12 13-14 14-16 15-17 16-20 17-22 20-24 21-27 22-28 23-29 24-30 28-31 30-32 31-33 33-34 34-35 35-36 36-37 37-38 38-40 39-41 40-42 41-43 43-44 44-45 45-46 46-47 47-48 48-49 49-51 50-52 51-53 52-56 53-57 56-58 57-66 58-68 59-69 60-65 61-63 62-59 63-60 64-61 65-62 66-63 67-70
+# align_t = 0-0 1-4 2-5 3-6 4-7 5-2 7-3 9-9 10-10 11-11 12-12 14-13 16-14 17-15 20-16 22-17 23-19 24-20 27-21 28-22 29-23 30-25 31-28 32-30 33-31 34-33 35-34 36-35 38-37 40-38 41-39 42-40 43-41 44-43 45-44 46-45 47-46 48-47 49-48 51-49 52-50 53-51 56-52 57-53 58-54 59-62 60-63 61-64 62-65 63-66 65-62 66-57 68-58 69-59 70-67 
 # source = My jsem na klubu o tomto zákonném opatření diskutovali a já jsem jako garantka této oblasti klubu navrhla, abychom to zákonné opatření odsouhlasili, a to proto, že vidím, že tam je dáno nebezpečí prodlevy v tom smyslu, že pokud by zákonné opatření nebylo přijato, tak skutečně hrozí to, že v České republice ustane zadávání nadlimitních a významných veřejných zakázek.
 # initial_translation = We discussed this legal measure at the club, and I, as a guarantor of this area of the club, proposed that we agree to this legal measure, because I see that there is a danger of delay in the sense that if the legal measure was not adopted, there is a real risk that extralimity and significant public procurement will cease in the Czech Republic.
 # text = We discussed this legal measure at the club, and I, as a guarantor of this area of the club, proposed that we agree to this legal measure, because I see that there is a danger of delay in the sense that if the legal measure was not adopted, there is a real risk that extralimity and significant public procurement will cease in the Czech Republic.
@@ -3592,7 +3592,7 @@
 71	.	.	PUNCT	.	_	70	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p3.s2
-# align_s = 0-0 1-3 2-5 4-8 5-10 6-7 7-13 8-14 9-17 10-19 11-20 12-21
+# align_s = 0-0 1-3 2-5 3-7 4-8 5-10 7-13 8-14 9-17 10-19 11-20 12-21
 # align_t = 0-0 3-1 5-2 7-6 8-4 10-5 13-7 14-8 17-9 19-10 20-11 21-12 
 # source = A samozřejmě mi leží na srdci také zásadní ohrožení čerpání evropských fondů.
 # initial_translation = And, of course, I am also at the heart of the fundamental threat to the use of European funds.
@@ -3621,8 +3621,8 @@
 22	.	.	PUNCT	.	_	21	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p4.s1
-# align_s = 0-0 1-1 2-2 3-3 4-5 5-6 6-7 7-9 9-10 10-11 11-13 13-16 14-15 16-17 19-18 20-20 21-21 22-22 23-23 24-26 25-29 26-30 27-31 28-32 29-33 30-34 32-35 34-36 35-37 36-39 37-41 38-42 40-43 41-44 42-45 43-46 44-49 45-51 46-53 47-54
-# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 7-6 9-7 10-9 11-10 13-11 15-14 16-13 17-16 18-17 19-19 20-20 21-21 22-22 23-23 26-24 28-25 29-25 30-26 31-27 32-28 33-29 34-30 35-31 36-34 37-35 39-36 41-37 42-38 43-40 44-41 45-42 46-43 49-44 51-45 53-46 54-47 
+# align_s = 0-0 1-1 2-2 3-3 4-5 5-6 6-7 7-9 9-10 10-11 11-13 13-16 14-15 16-17 19-18 20-20 21-21 22-22 23-23 24-26 25-29 26-30 27-31 28-32 29-33 30-34 33-35 34-36 35-37 36-39 37-41 38-42 40-43 41-44 42-45 43-46 44-49 45-51 46-53 47-54
+# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 7-6 9-7 10-9 11-10 13-11 15-14 16-13 17-16 18-17 19-19 20-20 22-22 23-23 26-24 27-25 28-25 29-25 30-26 31-27 32-28 33-29 34-30 35-32 36-33 37-35 39-36 41-37 42-38 43-40 44-41 45-42 46-43 49-44 51-45 53-46 54-47 
 # source = Jak tady bylo řečeno, jedna ze závad, které jsme nuceni my dnes odstranit, je to, že Ministerstvo pro místní rozvoj neproškolilo tzv. osoby se zvláštní způsobilostí, které mají asistovat při zadávání velkých zakázek, a že toto ministerstvo nevede seznam hodnotitelů.
 # initial_translation = As has been said here, one of the defects that we are forced to remove today is that the Ministry of Regional Development has not trained so-called. persons with special competence to assist in the award of large contracts and that this Ministry does not keep a list of assessors.
 # text = As has been said here, one of the defects that we are forced to remove today is that the Ministry of Regional Development has not trained so-called. persons with special competence to assist in the award of large contracts and that this Ministry does not keep a list of assessors.
@@ -3684,7 +3684,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p4.s2
 # align_s = 0-1 1-3 2-2 4-4 5-6 7-7 8-8 9-9 10-10 12-11 13-12 14-13 15-14 16-15 17-16 18-17
-# align_t = 1-0 2-2 3-3 4-4 6-5 7-7 8-8 9-9 10-10 11-12 12-13 13-14 14-15 15-16 16-17 17-18 
+# align_t = 0-0 1-0 2-2 3-3 4-4 6-5 7-7 8-8 9-9 10-10 11-12 12-13 13-14 14-15 15-16 16-17 17-18 
 # source = Bylo tady řečeno, že zákon, který odstraňoval tuto závadu, byl podán do Parlamentu v srpnu.
 # initial_translation = It was said here that the law which removed this defect was passed to Parliament in August.
 # text = It was said here that the law which removed this defect was passed to Parliament in August.
@@ -3708,8 +3708,8 @@
 18	.	.	PUNCT	.	_	17	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p4.s3
-# align_s = 0-0 1-1 2-2 3-4 4-5 5-6 6-8 7-9 8-10 9-11 11-12 13-14 15-13 16-15 17-16 18-18 19-19 20-21 22-22 23-24 24-27 25-29 26-30 27-31 28-32 31-33 32-35 33-36 34-36 36-37 37-38 38-39 39-41 40-42 41-43 42-44 43-46 44-48 45-49
-# align_t = 0-0 1-1 2-2 4-3 5-4 6-5 8-6 9-7 10-8 11-9 12-11 13-15 14-13 15-16 16-17 18-18 19-19 20-20 21-21 22-22 24-23 27-24 29-25 30-26 31-27 32-28 33-31 34-32 35-33 36-34 37-36 38-37 39-38 41-39 42-40 43-41 45-42 46-43 47-43 48-44 49-45 
+# align_s = 0-0 1-1 3-4 4-5 5-6 6-8 7-9 8-10 9-11 11-12 13-14 15-13 16-15 17-16 18-18 19-19 20-21 22-22 23-24 24-27 25-29 26-30 27-31 28-32 31-33 32-35 33-36 34-36 36-37 37-38 38-39 39-41 40-42 41-43 42-45 43-46 44-48 45-49
+# align_t = 0-0 1-1 2-2 4-3 5-4 6-5 8-6 9-7 10-8 11-9 12-11 13-15 14-13 15-16 16-17 18-18 19-19 20-20 21-21 22-22 24-23 27-24 29-25 30-26 31-27 32-28 33-31 34-32 35-33 36-34 37-36 38-37 39-38 41-39 42-40 43-41 45-42 46-43 48-44 49-45 
 # source = Já bych si trošku šťouchla do ministerstva v tom smyslu, že tam měl asi někdo dobré nervy, protože to, že ministerstvo nedostane prostředky na proškolení osob, asi muselo vědět dříve než v létě, ale asi to mohlo být řešeno dříve.
 # initial_translation = I'd take a little poke at the Ministry in the sense that somebody had good nerves there, because the fact that the Ministry didn't get the resources to train people must have known before summer, but I guess it could have been dealt with sooner.
 # text = I'd take a little poke at the Ministry in the sense that somebody had good nerves there, because the fact that the Ministry didn't get the resources to train people must have known before summer, but I guess it could have been dealt with sooner.
@@ -3796,8 +3796,8 @@
 24	.	.	PUNCT	.	_	23	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p5.s1
-# align_s = 0-0 1-1 2-3 3-7 4-8 5-12 6-13 7-6 8-9 9-10 10-11 11-13 12-15 13-16 14-18 15-19 16-20 17-21 18-22 19-23 20-24 21-25 22-26 23-27 24-28 25-29
-# align_t = 0-0 1-1 2-2 3-2 4-4 6-7 9-8 10-9 11-10 12-5 13-11 15-12 16-13 18-14 19-15 20-16 21-17 22-18 23-19 24-20 25-21 26-22 27-23 28-24 29-25 
+# align_s = 0-0 1-1 2-3 3-7 5-12 6-8 7-6 8-9 9-10 10-11 11-13 12-15 13-16 14-18 15-19 16-20 17-21 18-22 19-23 20-24 21-25 22-26 23-27 24-28 25-29
+# align_t = 0-0 1-1 2-2 3-2 5-4 6-7 9-8 10-9 11-10 12-5 13-11 15-12 16-13 18-14 19-15 20-16 21-17 22-18 23-19 24-20 25-21 26-22 27-23 28-24 29-25 
 # source = Dále potom kromě tady toho vlastně docela problému toto zákonné opatření zvyšuje limity pro zadávání na služby a stavební zakázky na 2 až 6 milionů.
 # initial_translation = Furthermore, in addition to the problem here, this legal measure actually increases the limits for the award of services and construction contracts to 2 to 6 million.
 # text = Furthermore, in addition to the problem here, this legal measure actually increases the limits for the award of services and construction contracts to 2 to 6 million.
@@ -3833,8 +3833,8 @@
 30	.	.	PUNCT	.	_	29	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p5.s2
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 8-7 9-9 10-10 11-12 12-13 13-14 14-15 15-16 16-18 17-20 18-21 19-22 20-23 21-24 22-25 23-26 24-27 25-29 26-30 27-31 28-32 29-33 30-34 32-35 33-34 34-36 35-37 36-38 37-40 38-39 39-40 40-42 41-43 42-44 43-48 44-50 45-45 46-46 47-51
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-8 8-7 9-9 10-10 12-11 13-12 14-13 15-14 16-15 18-16 20-17 21-18 22-19 23-20 24-21 25-22 26-23 27-24 29-25 30-26 31-27 32-28 33-29 34-30 35-32 36-34 37-35 38-36 39-38 40-39 41-39 42-40 44-41 45-45 46-46 47-42 48-43 50-44 51-47 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 8-7 9-9 10-10 11-12 12-13 13-14 14-15 15-16 16-18 17-20 18-21 19-22 20-23 21-24 22-25 23-26 24-27 25-29 26-30 27-31 28-32 29-33 30-34 32-35 33-33 34-36 35-37 36-38 37-40 38-39 39-40 40-42 41-44 42-44 43-48 44-50 45-45 46-46 47-51
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-8 8-7 9-9 10-10 12-11 13-12 14-13 15-14 16-15 18-16 20-17 21-18 22-19 23-20 24-21 25-22 26-23 27-24 29-25 30-26 31-27 32-28 33-29 34-30 35-31 36-34 37-35 38-36 39-38 40-39 41-39 42-40 44-42 45-45 46-46 48-43 50-44 51-47 
 # source = Osobně i mnozí kolegové z našeho klubu to vítáme, stejně jako mnozí starostové, a Svaz měst a obcí, jak tady bylo řečeno, protože při té extrémní složitosti, kterou sluje náš zákon o zadávání veřejných zakázek, je to zvýšení limitu naprosto správné.
 # initial_translation = Personally, many colleagues from our club welcome this, as well as many mayors, and the Union of Towns and Communities, as has been said here, because in the extreme complexity that our law on public procurement holds, it is absolutely correct to increase the limit.
 # text = Personally, many colleagues from our club welcome this, as well as many mayors, and the Union of Towns and Communities, as has been said here, because in the extreme complexity that our law on public procurement holds, it is absolutely correct to increase the limit.
@@ -3893,7 +3893,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p5.s3
 # align_s = 0-1 3-2 4-3 5-4 6-5 8-6 10-7 11-8 12-10 13-12 14-11 15-11 16-13 17-15 19-16 20-17 21-18 22-21 23-23 24-24 25-27 26-28 27-29 28-30 29-32 30-33 33-34 34-35 35-37
-# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 6-8 7-10 8-11 9-12 11-15 12-13 13-16 14-17 15-18 16-19 17-20 18-21 21-22 23-23 24-24 25-25 27-25 28-26 29-27 30-28 31-30 32-29 33-30 34-33 35-34 37-35 
+# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 6-8 7-10 8-11 9-14 11-15 12-13 13-16 14-17 15-18 16-19 17-20 18-21 21-22 24-24 25-25 27-25 28-26 29-27 30-28 31-31 32-29 33-30 34-33 35-34 37-35 
 # source = Myslím si, že každý z vás, kdo se nějak dostal k procesu zadávání zakázek, víte, že náš zákon skutečně tu situaci zadavatelům neulehčuje, ba bych řekla, že ji komplikuje.
 # initial_translation = I think that each of you who somehow got into the procurement process, you know that our law does not really make the situation easier for contracting authorities, even if I say it complicates it.
 # text = I think that each of you who somehow got into the procurement process, you know that our law does not really make the situation easier for contracting authorities, even if I say it complicates it.
@@ -3937,7 +3937,7 @@
 38	.	.	PUNCT	.	_	37	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p6.s1
-# align_s = 0-0 1-1 2-3 3-4 4-7 5-5 7-8 8-10 9-11 10-12 11-13 12-14 13-17 14-25 15-26 16-27 17-22 18-19 19-21 20-23 21-24 22-28
+# align_s = 0-0 1-1 2-3 3-4 4-7 5-5 7-8 8-10 9-11 10-12 11-13 12-14 13-17 14-25 15-26 16-27 17-22 18-19 20-23 21-24 22-28
 # align_t = 0-0 1-1 3-2 4-3 5-5 7-4 8-6 10-8 11-9 12-10 13-11 14-12 17-13 19-18 21-19 23-20 24-21 25-14 26-15 27-16 28-22 
 # source = To zvýšení limitů je mnohými kritizováno, že rozšiřuje korupční prostor, že vlastně pod ty limity nebudou zakázky pod takovou kontrolou.
 # initial_translation = This increase in limits is criticized by many that it extends corruption space, that, in fact, contracts will not be so controlled under those limits.
@@ -3973,8 +3973,8 @@
 29	.	.	PUNCT	.	_	28	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p6.s2
-# align_s = 0-0 1-1 2-2 4-3 5-4 6-5 10-6 11-7 12-9 13-10 14-12 15-14 16-15 17-16 19-18 20-19 21-20 24-21 25-22 26-23 27-24 28-26 29-27 30-28 31-29 32-30 33-31 34-32 35-33 36-34 37-35 38-36 39-37 40-41 41-42 43-43 44-44 45-45 46-46 47-47 48-48 49-49 50-51 51-52 52-53 53-54 54-56 55-57 57-58 58-59 60-60 61-61 62-62 63-63 64-64 65-65 66-66 67-67 68-68 69-69 70-70 71-71 72-72 73-74 74-75 75-77 78-79 80-80 81-81 82-83 83-85 84-86 85-88 86-89 87-91 89-92 90-93 91-94 92-95 93-96 94-97 96-98 97-99 98-100 99-101 100-102 101-103 102-104 103-105
-# align_t = 0-0 1-1 2-2 3-4 4-5 5-6 6-8 7-11 9-12 10-13 12-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-24 22-25 23-26 24-27 26-28 27-29 28-30 29-31 30-32 31-33 32-34 33-35 34-36 35-37 36-38 37-39 39-39 40-39 41-40 42-41 43-43 44-44 45-45 46-46 47-47 48-48 49-49 51-50 52-51 53-52 54-53 56-54 57-55 58-57 59-58 60-60 61-61 62-62 63-63 64-64 65-65 66-66 67-67 68-68 69-69 70-70 71-71 72-72 74-73 76-73 77-74 79-79 80-80 81-81 83-82 84-82 85-83 86-84 88-85 89-86 90-87 91-88 92-89 93-90 94-91 95-92 96-93 97-94 98-96 99-97 100-98 101-99 102-100 103-101 104-102 105-103 
+# align_s = 0-0 1-1 2-2 4-3 5-4 6-4 8-6 10-7 12-9 13-10 14-12 15-14 16-15 17-16 19-18 20-19 22-20 24-21 25-22 26-23 27-24 28-26 29-27 30-28 31-29 32-30 33-31 34-32 35-33 36-34 37-35 38-36 39-39 40-41 41-42 43-43 44-44 45-45 46-46 47-47 48-48 49-49 50-51 51-52 52-53 53-54 54-56 55-57 57-58 58-59 60-60 61-61 62-62 63-63 64-64 65-65 66-66 67-67 68-68 69-69 70-70 71-71 72-72 73-74 74-75 75-77 78-79 80-80 81-81 82-83 83-85 84-86 85-88 86-89 87-90 89-92 90-93 91-94 92-95 93-96 94-97 96-98 97-99 98-100 99-101 100-102 101-103 102-104 103-105
+# align_t = 0-0 1-1 2-2 3-4 4-5 5-6 6-10 7-11 9-12 10-13 12-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-24 22-25 23-26 24-27 26-28 27-29 28-30 29-31 30-32 31-33 32-34 33-35 34-36 35-37 36-38 37-39 39-39 40-39 41-40 42-41 43-43 44-44 45-45 46-46 47-47 48-48 49-49 51-50 52-51 53-52 54-53 56-54 57-55 58-57 59-58 60-60 61-61 62-62 63-63 65-65 66-66 67-67 68-68 69-69 70-70 71-71 72-72 74-73 75-74 77-75 78-76 79-79 80-80 81-81 83-82 84-82 85-83 86-84 88-85 89-86 91-88 92-89 93-90 94-91 95-92 96-93 97-94 98-96 99-97 100-98 101-99 102-100 103-101 104-102 105-103 
 # source = A já říkám, nechť je to tedy dáno do kombinace se zákonem o registru smluv, kde se veřejnost dozví o tom, kdo čerpá peníze z veřejné zakázky, kdo plní zakázky za veřejné peníze, a zároveň jsem přesvědčena, že ten zákon, který je plný formálních povinností, že skutečně, mám dojem, se může i minout v tom protikorupčním étosu nebo účinku, protože, prosím pěkně, nemylme se v tom, že když zadavatel musí přidat několik desítek lejster navíc a opatřit je několika desítkami razítek, že toto je ta bariéra proti korupci.
 # initial_translation = And I say let it be combined with the Act on the Register of Contracts, where the public learns about who draws money from a public contract, who executes contracts for public money, and at the same time I believe that the law, which is full of formal obligations, that I really, feel, may even miss in the anti-corruption ethos or effect, because, please, nicely, let us not mistake that if the contracting authority must add a few dozen more papers and get them several dozen stamps that this is the barrier against corruption.
 # text = And I say let it be combined with the Act on the Register of Contracts, where the public learns about who draws money from a public contract, who executes contracts for public money, and at the same time I believe that the law, which is full of formal obligations, that I really, feel, may even miss in the anti-corruption ethos or effect, because, please, nicely, let us not mistake that if the contracting authority must add a few dozen more papers and get them several dozen stamps that this is the barrier against corruption.
@@ -4087,7 +4087,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p6.s3
 # align_s = 0-0 1-2 2-4 4-5 8-7 9-9 10-11 11-13
-# align_t = 0-0 2-1 4-2 5-4 7-8 8-6 9-7 11-9 13-11 
+# align_t = 0-0 2-1 4-2 5-3 6-4 7-8 9-9 11-10 13-11 
 # source = Osobně jsem přesvědčena, že tady se nám zákon mine účinkem.
 # initial_translation = Personally, I'm convinced that the law will miss its effect here.
 # text = Personally, I'm convinced that the law will miss its effect here.
@@ -4107,8 +4107,8 @@
 14	.	.	PUNCT	.	_	13	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p6.s4
-# align_s = 0-3 1-1 2-2 3-4 4-5 5-9 7-10 9-11 10-13 11-15 12-16 13-17 14-18 15-20 16-21 17-22 18-23 20-24 21-25 22-28 23-29 24-32 26-34 29-35 30-36 31-39 32-40 33-42 34-45 35-46 36-47 37-48 38-49 41-50 42-51 43-52 44-53 45-54 46-56 47-57 48-58 49-60 50-61
-# align_t = 0-0 1-1 2-2 3-0 4-3 5-4 7-5 9-6 10-7 11-9 13-10 15-11 16-12 17-13 18-14 20-15 21-16 22-17 23-18 24-20 25-21 28-22 29-23 30-24 31-25 32-24 34-26 35-27 36-28 37-30 39-31 40-32 42-33 45-34 46-35 47-36 48-37 49-38 50-41 51-42 52-43 53-44 54-45 56-46 57-47 58-48 60-49 61-50 
+# align_s = 0-3 2-2 3-4 4-5 5-9 7-10 9-11 10-13 11-15 12-16 13-17 14-18 15-20 16-21 17-22 18-23 19-24 20-25 22-28 23-29 24-32 25-32 26-34 29-35 30-36 31-39 32-40 33-42 34-45 35-46 36-47 37-48 38-49 41-50 42-51 43-52 44-53 45-54 46-56 47-57 48-58 49-60 50-61
+# align_t = 0-0 1-1 2-2 3-0 4-3 5-4 7-5 9-6 10-7 11-9 13-10 15-11 16-12 17-13 18-14 20-15 21-16 22-17 23-18 24-20 25-21 28-22 29-23 30-24 31-25 32-24 34-26 35-29 36-28 37-30 39-31 40-32 42-33 45-34 46-35 47-36 48-37 49-38 50-41 51-42 52-43 53-44 54-45 56-46 57-47 58-48 60-49 61-50 
 # source = Poměřme si prosím to - nevím, jestli to někdo změřil, jestli ten zákon skutečně brání korupci a v jaké výši, a poměřme si miliardy, o které budeme přicházet s dílem nečerpání evropských fondů právě proto, že ten zákon je složitý a v mnoha případech neprůstřelný.
 # initial_translation = Let us please measure this - I do not know if anyone has measured it, whether the law is really preventing corruption and how much it is, and let us measure the billions that we will be losing with the work of not drawing European funds precisely because the law is complex and, in many cases, bulletproof.
 # text = Let us please measure this - I do not know if anyone has measured it, whether the law is really preventing corruption and how much it is, and let us measure the billions that we will be losing with the work of not drawing European funds precisely because the law is complex and, in many cases, bulletproof.
@@ -4177,7 +4177,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p6.s5
 # align_s = 0-2 1-3 2-4 3-8 4-5 5-6 6-7 7-9
-# align_t = 0-0 1-1 4-2 5-4 6-5 7-6 9-7 
+# align_t = 0-0 1-1 2-0 3-1 4-2 5-4 6-5 7-6 8-6 9-7 
 # source = Ráda bych viděla srovnaná tato dvě čísla.
 # initial_translation = I'd like to see these two numbers even.
 # text = I'd like to see these two numbers even.
@@ -4194,7 +4194,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p7.s1
 # align_s = 0-2 1-3 2-4 4-5 5-16 6-19 7-17 8-18 9-18 10-12 12-6 13-7 14-9 15-10 16-8 17-20 18-21 21-22 22-23 23-24 24-25 25-26 26-27
-# align_t = 2-0 3-1 4-2 5-4 6-12 7-13 8-16 9-14 10-15 12-10 15-11 16-5 17-7 18-9 19-6 20-17 21-18 22-21 23-22 24-23 25-24 26-25 27-26 
+# align_t = 3-1 4-2 5-4 6-12 7-13 8-16 9-14 10-15 12-10 15-11 16-5 17-7 18-8 19-6 20-17 21-18 22-21 23-22 24-23 25-24 26-25 27-26 
 # source = Není bez zajímavosti, že na Úřadu pro hospodářskou soutěž údajně leží stížnosti za 50 miliard korun, které by právě měly být financovány z Bruselu.
 # initial_translation = It is not without interest that complaints for CZK 50 billion are supposed to be lodged at the Competition Authority, which should be financed from Brussels.
 # text = It is not without interest that complaints for CZK 50 billion are supposed to be lodged at the Competition Authority, which should be financed from Brussels.
@@ -4228,8 +4228,8 @@
 28	.	.	PUNCT	.	_	27	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p7.s2
-# align_s = 0-0 1-1 2-2 3-5 5-7 6-8 7-9 8-10 9-11 10-12 11-13 12-15 14-16 15-17 16-18 17-19 18-20 19-21 20-23 21-25 22-26 23-27 24-28 25-32 27-33 29-34 30-38 31-40 32-41 33-43 34-44 35-45 38-46 39-49 40-50 41-51 42-52 43-53 44-55 45-56 46-57 47-58
-# align_t = 0-0 1-0 2-2 3-3 5-3 7-5 8-6 9-7 10-8 11-9 12-10 13-11 14-12 15-13 16-14 17-15 18-16 19-17 20-18 21-19 23-20 25-21 26-22 27-23 28-24 31-25 32-25 33-27 34-29 38-30 40-31 41-32 43-33 44-34 45-35 46-36 47-38 49-39 50-40 51-41 52-42 53-43 55-44 56-45 57-46 58-47 
+# align_s = 0-0 1-1 2-2 3-3 4-5 5-7 6-8 7-9 8-10 9-11 10-12 11-13 14-16 15-17 16-18 17-19 18-20 19-21 20-23 21-25 22-26 23-27 24-28 27-33 29-34 30-38 31-40 32-41 33-43 34-44 35-45 38-46 39-49 40-50 41-51 42-52 43-53 44-55 45-56 46-57 47-58
+# align_t = 0-0 1-1 2-2 3-3 5-3 6-4 7-5 8-6 9-7 10-8 11-9 12-10 13-11 14-12 15-13 16-14 17-15 18-16 19-17 20-18 21-19 23-20 25-21 26-22 27-23 28-24 32-25 33-27 34-29 38-30 40-31 41-32 43-33 44-34 45-35 46-36 47-38 49-37 50-40 51-41 52-42 53-43 55-44 56-45 57-46 58-47 
 # source = Znovu říkám, poměřme si protikorupční efekt, pokud to můžeme udělat, tak ve financích, a proti tomu si vezměme ty ztráty, ke kterým přijdeme, pokud nezměníme zákon do budoucna, protože se k nám má dostat další velká dávka financí z Bruselu.
 # initial_translation = Once again, let's measure the anti-corruption effect, if we can do that, in finance, and against that, we'll take the losses that we're going to lose if we don't change the law in the future, because we're going to get another large amount of funding from Brussels.
 # text = Once again, let's measure the anti-corruption effect, if we can do that, in finance, and against that, we'll take the losses that we're going to lose if we don't change the law in the future, because we're going to get another large amount of funding from Brussels.
@@ -4294,8 +4294,8 @@
 59	.	.	PUNCT	.	_	58	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p8.s1
-# align_s = 0-0 1-1 2-2 3-4 4-5 5-6 6-7
-# align_t = 1-0 2-1 4-3 5-4 6-5 7-6 
+# align_s = 0-0 1-3 3-4 4-5 5-6 6-7
+# align_t = 1-0 2-0 3-1 4-2 5-3 6-5 7-6 
 # source = Dovolím si ještě jednu provokativní otázku.
 # initial_translation = Let me ask you another provocative question.
 # text = Let me ask you another provocative question.
@@ -4310,7 +4310,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p8.s2
 # align_s = 0-0 1-1 3-2 4-3 5-4 6-5 7-6 9-7 10-10 11-9 12-11 13-12 14-14 16-15 17-16 19-17 20-18 21-19 22-20 23-22 24-24 25-25
-# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 6-7 7-9 9-11 10-10 11-12 12-13 13-13 14-14 15-16 16-17 17-19 18-20 19-21 20-22 22-23 24-24 25-25 
+# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 6-7 7-9 9-11 10-10 11-12 12-13 13-13 14-14 15-16 16-17 17-18 18-19 19-20 20-22 22-23 24-24 25-25 
 # source = My jsme se dostali na absolutní dno v rámci srovnání zemí EU v chybovosti a v kriminálních činech, které se dějí při čerpání fondů.
 # initial_translation = We have reached the absolute bottom in comparison with EU countries in error rates and criminal acts that are happening in the drawing of funds.
 # text = We have reached the absolute bottom in comparison with EU countries in error rates and criminal acts that are happening in the drawing of funds.
@@ -4342,8 +4342,8 @@
 26	.	.	PUNCT	.	_	25	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p8.s3
-# align_s = 1-2 2-3 3-4 4-5 5-10
-# align_t = 2-0 4-1 5-3 9-4 10-5 
+# align_s = 1-2 3-5 4-9 5-10
+# align_t = 2-0 4-1 5-2 6-3 9-4 10-5 
 # source = Ty kriminální věci nechám stranou.
 # initial_translation = I'll keep the criminal stuff out of the way.
 # text = I'll keep the criminal stuff out of the way.
@@ -4360,8 +4360,8 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p8.s4
-# align_s = 0-0 1-2 2-3 3-4 4-5 5-5 7-6 8-8 9-9 10-10 11-13 12-12 13-13 14-14
-# align_t = 0-0 1-0 2-1 3-2 4-3 5-4 6-7 8-8 9-9 10-10 12-12 13-13 14-14 
+# align_s = 0-0 1-2 2-3 3-4 4-5 7-6 8-8 9-9 10-10 11-13 12-12 13-13 14-14
+# align_t = 0-0 1-2 2-1 3-2 4-3 5-4 6-7 8-8 9-9 10-10 12-12 13-13 14-14 
 # source = Chybovost se v zásadní míře objevuje právě v procesu a výsledku zadávání veřejných zakázek.
 # initial_translation = Mistakes occur to a fundamental extent in the process and outcome of public procurement.
 # text = Mistakes occur to a fundamental extent in the process and outcome of public procurement.
@@ -4383,7 +4383,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p8.s5
 # align_s = 0-0 1-1 3-2 4-3 5-6 6-4 7-5 10-7 11-8 12-9 13-10 14-11 15-13 16-14 17-15 18-16 19-17 20-18 21-19 22-20 23-22 25-23 26-24 27-25 28-26 29-27 30-28 31-29 32-30 33-31 34-32 35-35 37-36 38-37 39-38
-# align_t = 0-0 1-1 2-3 3-4 4-6 5-7 6-5 7-10 8-11 9-12 10-13 11-14 13-15 14-16 15-17 16-18 17-19 18-20 19-21 20-22 22-24 23-25 24-26 25-27 26-28 27-29 28-30 29-31 30-32 31-33 32-34 35-36 36-37 37-38 38-39 
+# align_t = 0-0 1-1 2-3 3-4 4-6 5-7 6-5 7-10 8-11 9-12 10-13 11-14 13-15 14-16 15-17 16-18 17-19 18-20 19-21 20-22 22-24 23-25 24-26 25-27 26-28 27-29 28-30 29-31 30-32 31-33 32-34 35-35 36-37 37-38 38-39 
 # source = A já se ptám: Skutečně je to tak, že naši starostové, zástupci neziskovek, podnikatelé jsou neschopnější a hloupější než titíž, kteří jsou zadavateli v Maďarsku, dokonce v Rumunsku, neřkuli o dalších zemích?
 # initial_translation = And I ask: Is it really that our mayors, representatives of nonprofits, entrepreneurs are incompetent and stupider than the ones who are contracting in Hungary, even in Romania, have not mentioned other countries?
 # text = And I ask: Is it really that our mayors, representatives of nonprofits, entrepreneurs are incompetent and stupider than the ones who are contracting in Hungary, even in Romania, have not mentioned other countries?
@@ -4428,8 +4428,8 @@
 39	?	?	PUNCT	.	_	38	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p8.s6
-# align_s = 0-0 3-1 4-2 6-3 7-6 8-7 9-8 10-9
-# align_t = 0-0 1-1 2-4 3-6 4-5 6-7 7-8 8-9 9-10 
+# align_s = 0-1 4-2 6-3 7-6 8-7 9-8 10-9
+# align_t = 0-0 1-1 2-4 3-6 6-7 7-8 8-9 9-10 
 # source = Myslím si, že tady bude asi chyba někde jinde.
 # initial_translation = I think there might be a mistake somewhere else.
 # text = I think there might be a mistake somewhere else.
@@ -4493,8 +4493,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p9.s1
-# align_s = 0-0 1-1 2-4 4-5 5-6 8-8 9-10 11-11 12-13 13-14 14-15 15-17 16-16 17-17 18-21 19-22 22-24 23-25 24-26 25-27 26-28 27-31 28-31 29-32 31-33 32-34 33-36 34-37 35-38 36-39 37-41 38-43
-# align_t = 0-0 1-1 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 13-12 14-13 15-14 16-16 17-17 20-17 21-18 22-19 24-22 25-23 26-24 27-25 28-26 29-27 31-28 32-29 33-31 34-32 36-33 37-34 38-35 39-36 41-37 42-37 43-38 
+# align_s = 0-0 1-1 2-4 4-5 5-6 7-8 8-9 9-10 10-11 11-12 12-13 13-14 14-15 15-17 16-16 17-17 18-21 19-22 21-19 22-24 23-24 24-26 25-27 26-28 27-29 28-31 29-32 31-33 32-34 33-36 34-37 35-38 36-39 37-41 38-43
+# align_t = 0-0 1-1 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-11 13-12 14-13 15-14 16-16 17-17 18-20 19-21 20-22 21-18 22-19 24-22 25-23 26-24 27-25 28-26 29-27 31-28 32-29 33-31 34-32 36-33 37-34 38-35 39-36 41-37 42-37 43-38 
 # source = Asi mnozí víte, že dnes se v rámci EU začíná projednávat nová směrnice k zadávání veřejných zakázek, říká se jí pracovně minimalistická směrnice, která zásadním způsobem ulehčuje, nebo snižuje administrativní zátěž danou na zadavatele.
 # initial_translation = Perhaps many of you know that today, within the EU, a new directive on public procurement is under discussion, called a labour minimalist directive, which makes it significantly easier or reduces the administrative burden imposed on the contracting authority.
 # text = Perhaps many of you know that today, within the EU, a new directive on public procurement is under discussion, called a labour minimalist directive, which makes it significantly easier or reduces the administrative burden imposed on the contracting authority.
@@ -4544,8 +4544,8 @@
 44	.	.	PUNCT	.	_	43	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p9.s2
-# align_s = 0-0 2-1 3-3 4-4 5-6 7-7 8-8 9-10 10-11 11-12 12-14 13-15 14-16 15-17 16-18 17-19 18-20 19-21 20-22 21-23 22-25 23-26 24-29 25-30 26-31 27-32 28-34 29-35 30-36 31-37 32-38 33-41 34-39 35-42 36-44 37-45 38-46 39-49 41-51 42-52 43-53 44-54 45-55 46-58 47-60 48-61 49-63
-# align_t = 0-0 1-2 2-2 3-3 4-4 6-6 7-7 8-8 10-9 11-10 12-11 14-12 15-13 16-14 17-15 18-16 19-17 20-18 21-19 22-20 23-21 24-22 26-23 29-24 30-25 31-26 32-27 34-28 35-29 36-30 37-31 38-32 39-34 41-33 42-35 44-36 45-37 46-38 49-39 51-41 52-42 53-43 54-44 56-45 58-46 60-47 61-48 62-48 63-49 
+# align_s = 0-0 2-1 3-3 4-4 5-6 7-7 8-8 9-10 10-11 11-12 12-14 13-15 14-16 15-17 16-18 17-19 18-20 19-21 20-22 21-23 22-24 23-26 24-29 25-30 26-31 27-32 28-34 29-35 30-36 31-37 32-38 33-41 34-39 35-42 36-44 37-45 38-46 39-49 41-51 42-52 43-53 44-54 45-55 46-58 47-60 48-61 49-63
+# align_t = 0-0 1-2 3-3 4-4 6-6 7-7 8-8 10-9 11-10 12-11 14-12 15-13 16-14 17-15 18-16 19-17 20-18 21-19 22-20 23-21 26-23 29-24 30-25 31-26 32-27 34-28 35-29 36-30 37-31 38-32 39-34 41-33 42-35 44-36 45-37 46-38 49-39 51-41 52-42 53-43 54-44 55-45 58-46 60-47 61-48 62-48 63-49 
 # source = Já se velmi přimlouvám v momentu, kdy budeme harmonizovat a novelizovat zákon o veřejných zakázkách pravděpodobně v tomto programovém období, abychom opět nebyli papežštější než papež a abychom vzali požadavky Bruselu jako maximální možné a nepřidávali tam další složitosti a neztěžovali to dále našim zadavatelům.
 # initial_translation = I very much intercede at a time when we will harmonise and amend the law on public procurement probably during this programming period, so that we are not again more papal than the Pope and that we take Brussels' demands as the maximum possible and do not add any more complexity and make it any more difficult for our contracting entities.
 # text = I very much intercede at a time when we will harmonise and amend the law on public procurement probably during this programming period, so that we are not again more papal than the Pope and that we take Brussels' demands as the maximum possible and do not add any more complexity and make it any more difficult for our contracting entities.
@@ -4615,8 +4615,8 @@
 64	.	.	PUNCT	.	_	63	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p9.s3
-# align_s = 0-0 3-1 4-2 6-3 7-4 8-6 9-8 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 21-20 23-21 25-23 26-25 27-27 28-28 29-29 30-30 31-31
-# align_t = 0-0 1-1 2-5 3-6 4-7 6-8 8-9 10-10 11-11 12-12 14-14 15-15 16-16 17-17 18-18 19-19 20-20 21-20 22-21 23-22 24-23 25-24 26-25 27-27 28-28 29-29 30-30 31-31 
+# align_s = 0-1 5-2 6-3 7-4 8-6 9-8 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 21-20 23-21 24-21 25-23 26-25 27-27 28-28 29-29 30-30 31-31
+# align_t = 0-0 1-1 2-5 3-6 4-7 6-8 8-9 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 20-19 21-20 22-21 23-22 24-23 25-24 26-25 27-27 28-28 29-29 30-30 31-31 
 # source = Myslím si, že to tady můžeme mít na stole do dvou let od schválení té směrnice, nebo musíme to mít, abychom ji transponovali do našeho právního řádu.
 # initial_translation = I think we can have it on the table here within two years of approving the directive, or we have to have it to transpose it into our legal order.
 # text = I think we can have it on the table here within two years of approving the directive, or we have to have it to transpose it into our legal order.
@@ -4683,8 +4683,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u12.p10.s2
-# align_s = 0-0 1-2 2-3 3-4 4-5 6-6 7-7 9-9 10-12 11-13 12-14 13-15 14-18 15-18 16-19 17-20 18-21 19-23 20-24 21-29 22-30 23-31 24-32 25-26 26-28 27-33
-# align_t = 0-0 2-1 3-2 4-3 5-4 6-6 8-7 9-8 12-10 13-11 14-12 15-13 16-14 17-15 18-14 19-16 20-17 21-18 22-17 23-19 24-20 26-25 28-26 29-21 30-22 31-23 32-24 33-27 
+# align_s = 0-0 1-2 2-3 3-4 4-5 6-6 7-7 9-9 10-12 11-13 12-14 13-15 14-17 15-18 16-19 17-22 18-21 19-23 20-24 21-29 22-30 23-31 24-32 25-26 26-28 27-33
+# align_t = 0-0 2-1 3-2 4-3 5-4 6-6 7-7 8-8 9-9 12-10 13-11 14-12 15-13 16-14 17-15 18-15 19-16 21-18 22-17 23-19 24-20 26-25 28-26 29-21 30-22 31-23 32-24 33-27 
 # source = Jako poslední řečník, uznejte, že jsem to neměla úplně jednoduché, a znovu opakuji, klub ANO je připraven pro toto zákonné opatření zvednout ruku.
 # initial_translation = As the last speaker, admit that I didn't have it completely easy, and I repeat again, the ANO club is ready to raise its hand for this legal measure.
 # text = As the last speaker, admit that I didn't have it completely easy, and I repeat again, the ANO club is ready to raise its hand for this legal measure.
@@ -4734,7 +4734,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u13.p1.s1
-# align_s = 0-0 2-3 3-4 5-5 7-6 8-7
+# align_s = 0-2 1-3 3-4 6-5 7-6 8-7
 # align_t = 1-0 2-1 3-2 4-3 5-5 6-7 7-8 
 # source = Poprosím pana poslance Polčáka, aby vydržel.
 # initial_translation = I will ask Mr Polčák to endure.
@@ -4765,7 +4765,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u13.p2.s1
 # align_s = 0-2 2-4 3-5 5-6 6-7 7-8
-# align_t = 1-0 2-1 3-2 4-2 5-3 6-5 7-6 8-7 
+# align_t = 2-0 3-1 4-2 5-3 6-5 7-6 8-7 
 # source = Zeptám se: fakticky, nebo řádně?
 # initial_translation = Let me ask you, really or properly?
 # text = Let me ask you, really or properly?
@@ -4808,7 +4808,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u13.p2.s3
 # align_s = 0-0 2-1 3-2 4-3 6-4 7-6 8-9
-# align_t = 0-0 1-2 2-3 3-4 4-5 5-6 6-7 9-8 
+# align_t = 0-0 1-1 2-3 3-4 4-5 5-6 6-7 9-8 
 # source = Pane poslanče Adamče, prosím, máte slovo.
 # initial_translation = Mr. Adamz, please take your word for it.
 # text = Mr. Adamč, please take your word for it.
@@ -4834,7 +4834,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p1.s2
-# align_s = 1-0 2-1 3-2 5-3 6-4 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-14 15-15 18-16 19-17 20-18 21-19 22-21 23-22 24-23
+# align_s = 1-0 2-1 3-2 5-3 6-4 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-14 15-15 17-15 18-16 19-17 20-18 21-19 22-21 23-22 24-23
 # align_t = 0-1 1-2 2-3 3-5 4-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-14 15-17 16-18 17-19 18-20 19-21 21-22 22-23 23-24 
 # source = Vážený pane předsedající, vážený pane předsedo Senátu, vážená vládo v demisi, vážené kolegyně, vážení kolegové, já budu velmi stručný.
 # initial_translation = Mr President, Mr President of the Senate, honourable government in demise, ladies and gentlemen, I will be very brief.
@@ -4866,7 +4866,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p1.s3
 # align_s = 0-0 2-3 3-4 4-5 5-6 6-7 7-8 9-9 10-11 12-12 13-13 14-14 15-16 16-18 17-20 18-21 19-22 20-23 21-24 22-25 23-26 24-31 26-30 27-29 28-30 29-32 30-33 32-34 33-35 34-36 35-38
-# align_t = 1-0 3-2 4-3 5-4 6-5 7-6 8-7 9-9 11-10 12-12 13-13 14-14 16-15 18-16 20-17 21-18 22-19 23-20 24-21 25-22 26-23 27-25 29-27 30-28 31-24 32-29 33-30 34-32 35-33 36-34 38-35 
+# align_t = 0-0 1-1 3-2 4-3 5-4 6-5 7-6 8-7 9-9 11-10 12-12 13-13 14-14 16-15 19-16 20-17 21-18 22-19 23-20 24-21 25-22 26-23 27-24 28-25 29-27 30-28 31-28 32-29 33-30 34-32 35-33 36-34 38-35 
 # source = Jsem totiž starosta už 15 let, 16. rokem pokračuji i v této situaci a musím říct jednu věc - že všechny novely zákona o zadávání veřejných zakázek byly horší stav než ten předcházející.
 # initial_translation = I have been mayor for 15 years, 16 years I continue in this situation, and I have to say one thing - that all amendments to the Public Procurement Act were worse than the previous one.
 # text = I have been mayor for 15 years, 16 years I continue in this situation, and I have to say one thing - that all amendments to the Public Procurement Act were worse than the previous one.
@@ -4911,8 +4911,8 @@
 39	.	.	PUNCT	.	_	38	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p1.s4
-# align_s = 0-1 1-3 2-4 4-5 5-6 6-7 7-8 8-9 9-11 10-12 11-13 12-14 13-15 14-17 15-18 16-20 17-21
-# align_t = 1-0 3-1 4-2 5-4 6-5 7-6 8-14 9-15 11-9 12-10 13-11 14-12 15-13 16-13 17-14 18-15 20-16 21-17 
+# align_s = 0-1 1-3 2-4 4-5 5-6 6-7 7-8 8-9 9-11 10-12 11-13 12-14 13-16 14-17 15-18 16-20 17-21
+# align_t = 0-0 3-1 4-2 5-4 6-5 7-6 8-14 9-15 11-9 12-10 13-11 14-12 16-13 17-14 18-15 20-16 21-17 
 # source = Musím říct, že jsme začínali s takovýmto fasciklem dokumentů, tak dneska máme takovýto fascikl dokumentů.
 # initial_translation = I have to say, we started with this fascicle of documents, so today we have this fascicle of documents.
 # text = I have to say, we started with this fascicle of documents, so today we have this fascicle of documents.
@@ -4940,8 +4940,8 @@
 22	.	.	PUNCT	.	_	21	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p1.s5
-# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 6-7 8-8 9-12 10-13 11-14 12-15 13-16 14-18 15-20 16-22 17-24 18-26 20-27 22-28 24-29 25-32 26-33 27-34 28-34 30-35 31-38 32-36 33-39
-# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 7-6 8-8 12-9 13-10 14-11 15-12 16-13 18-14 19-14 20-15 22-16 24-17 26-18 27-20 28-24 32-25 33-26 34-28 35-29 36-32 37-30 38-31 39-33 
+# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 6-7 8-8 9-12 10-13 11-14 12-15 13-16 14-18 15-20 16-22 17-24 18-26 20-27 24-28 25-32 26-33 27-34 29-35 30-35 31-38 33-39
+# align_t = 0-0 2-1 3-2 4-3 5-4 6-5 7-6 8-8 12-9 13-10 14-11 15-12 16-13 18-14 19-14 20-15 22-16 24-17 26-18 27-20 28-22 29-24 30-27 31-25 32-25 33-26 34-28 35-29 36-30 38-31 39-33 
 # source = A chtěl bych říct jednu věc - že pokud nepochopíme jednu věc, pokud zadavatel, investor a dodavatel se neshodnou na tom, že se krást nemá, tak to fungovat nebude.
 # initial_translation = And I want to say one thing -- if we don't understand one thing, if the contracting authority, the investor, and the supplier disagree that it shouldn't be stolen, it won't work.
 # text = And I want to say one thing -- if we don't understand one thing, if the contracting authority, the investor, and the supplier disagree that it shouldn't be stolen, it won't work.
@@ -4988,7 +4988,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p2.s1
 # align_s = 0-2 1-3 2-4 4-5 5-6 6-7 7-8 9-10 10-12 11-15
-# align_t = 2-0 3-1 4-2 5-4 6-5 7-6 8-7 9-8 10-9 12-10 15-11 
+# align_t = 2-0 3-1 4-2 5-4 6-5 7-6 8-6 10-9 12-10 14-8 15-11 
 # source = Říkám to proto, že jsem zažil kolem toho spoustu mýtů.
 # initial_translation = I'm saying this because I've been through a lot of myths about it.
 # text = I'm saying this because I've been through a lot of myths about it.
@@ -5010,8 +5010,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p2.s2
-# align_s = 0-0 1-1 2-2 3-3 4-7 5-8 6-10 8-11 9-12 11-14 12-15 13-16 14-17 16-19 17-20 18-22 20-23 21-24 22-26 23-27 24-28 25-29 26-30 27-31 28-36 29-34 30-35 32-33 33-34 34-37 35-38 36-39 37-41 38-42 39-43
-# align_t = 0-0 1-1 2-2 3-3 7-4 8-5 10-6 11-8 12-9 14-11 15-12 16-13 17-14 18-14 19-16 20-17 22-18 23-20 24-21 25-22 26-22 27-23 28-24 29-25 30-26 31-27 32-31 33-32 34-29 35-30 36-28 37-34 38-35 39-36 41-37 42-38 43-39 
+# align_s = 0-0 1-1 2-2 3-3 4-7 5-8 6-10 8-11 9-12 11-14 12-15 13-16 14-18 16-19 17-20 18-22 20-23 21-24 22-26 23-27 24-28 25-29 26-30 27-31 28-36 29-35 30-35 32-33 33-34 34-37 35-38 36-39 37-41 38-42 39-43
+# align_t = 0-0 1-1 2-2 3-3 7-4 8-5 10-6 11-8 14-11 15-12 16-13 17-14 18-14 19-16 20-17 22-18 23-20 24-21 25-22 26-22 27-23 28-24 29-25 30-26 31-27 32-31 33-32 34-29 35-30 36-28 37-34 38-35 39-36 41-37 42-38 43-39 
 # source = Dneska jsme jako starostové postaveni do situace, kdy jsme ti korupčníci, protože nikdo si nedovolí vybrat zakázku, která je dražší než ta nejlevnější, protože platí pořád stále to české přísloví za málo peněz málo muziky.
 # initial_translation = Today, as mayors, we are placed in a situation where we are corrupters, because no one dares choose a contract that is more expensive than the cheapest, because the Czech proverb still pays for little money for little music.
 # text = Today, as mayors, we are placed in a situation where we are corrupters, because no one dares choose a contract that is more expensive than the cheapest, because the Czech proverb still pays for little money for little music.
@@ -5061,8 +5061,8 @@
 44	.	.	PUNCT	.	_	43	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p2.s3
-# align_s = 0-0 1-1 2-8 3-5 4-7 5-9 8-10 9-12 10-13 11-14 12-15 13-16 14-17 15-18 16-19 17-20 18-21 22-23 23-24 24-26 25-27 26-30 28-31 29-32 30-35 31-36 32-37 33-41 34-42 35-43 36-45 37-44 38-46 39-47 40-49 42-50 43-51 45-52 46-54 47-55 48-58
-# align_t = 0-0 1-1 3-3 5-3 7-4 8-2 9-5 10-6 11-8 12-9 13-10 14-11 15-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 23-22 24-23 26-24 28-25 30-26 31-27 32-28 34-29 35-30 36-31 37-32 41-33 42-34 43-35 44-37 45-36 46-38 47-39 49-40 50-42 52-43 54-46 55-47 58-48 
+# align_s = 0-0 1-1 2-8 3-5 4-7 5-9 8-10 9-12 10-13 11-14 12-15 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-23 22-23 23-24 24-26 25-27 26-30 28-31 29-32 30-35 31-36 32-37 33-41 34-42 35-43 36-45 37-44 38-46 39-47 40-49 42-50 43-51 45-52 46-54 47-55 48-58
+# align_t = 0-0 1-1 3-3 5-3 7-4 8-2 9-5 10-6 11-8 12-9 13-10 14-11 15-12 16-13 17-14 18-15 19-16 20-17 21-18 22-19 23-22 24-23 26-24 28-25 30-26 31-28 33-29 35-30 36-31 37-32 41-33 42-34 43-35 44-37 45-36 46-38 47-39 49-40 50-42 51-43 52-45 54-46 55-47 58-48 
 # source = A pokud toto nechceme slyšet, tak je mi líto, protože skutečně ta zkušenost po těch posledních novelách je taková, že zakázky skutečně získávají firmy, které neodvádějí dobrou práci nebo dostávají magistráty, představitele města, do situace, kdy si s tím nevědí rady.
 # initial_translation = And if we don't want to hear this, I'm sorry, because really the experience after the latest novels is that contracts are actually being awarded to firms that don't do good work or that they're getting magistrates, city officials, in a situation where they don't know what to do.
 # text = And if we don't want to hear this, I'm sorry, because really the experience after the latest novels is that contracts are actually being awarded to firms that don't do good work or that they're getting magistrates, city officials, in a situation where they don't know what to do.
@@ -5127,8 +5127,8 @@
 59	.	.	PUNCT	.	_	58	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p2.s4
-# align_s = 0-0 1-2 2-3 3-4 4-5 6-6 7-7 8-9 9-10 10-11
-# align_t = 0-0 1-1 2-1 3-2 4-3 5-4 6-6 7-7 9-8 10-9 11-10 
+# align_s = 0-0 1-1 2-2 3-4 4-5 6-6 7-7 8-9 9-10 10-11
+# align_t = 0-0 1-1 2-2 4-3 5-4 6-6 7-8 9-8 10-9 11-10 
 # source = A je to velký problém, který je potřeba řešit.
 # initial_translation = And it's a big problem that needs to be solved.
 # text = And it's a big problem that needs to be solved.
@@ -5178,8 +5178,8 @@
 25	.	.	PUNCT	.	_	24	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p2.s6
-# align_s = 0-0 1-1 2-4 3-5 5-6 6-7 7-8 8-9 9-10 10-11 11-12 12-13 13-14 14-19 15-20 16-21 17-22
-# align_t = 0-0 1-1 3-2 4-2 5-3 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-13 19-14 20-15 21-16 22-17 
+# align_s = 0-0 1-1 2-4 3-5 5-6 6-7 8-9 9-10 10-11 11-12 12-13 13-14 14-19 15-20 16-21 17-22
+# align_t = 0-0 1-1 3-2 4-2 5-3 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-13 16-16 19-14 21-15 22-17 
 # source = Kdo vybere dražší zakázku, je označován za korupčníka, a bůh ví co z toho nemá.
 # initial_translation = Whoever chooses a more expensive contract is called a corrupter, and God knows what he doesn't get out of it.
 # text = Whoever chooses a more expensive contract is called a corrupter, and God knows what he doesn't get out of it.
@@ -5208,8 +5208,8 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p2.s7
-# align_s = 0-3 1-4 3-5 4-6 6-7 7-8 8-10 9-11 10-9 11-14 12-15 13-17 15-19 16-22 17-25 18-26 19-27 21-28 22-29 23-30 25-31 26-32
-# align_t = 3-0 4-1 5-3 6-4 7-6 8-7 9-10 10-8 11-9 14-11 15-12 17-13 19-15 22-16 25-17 27-18 28-21 29-22 30-23 31-25 32-26 
+# align_s = 0-3 1-4 3-5 6-7 8-8 9-11 10-9 11-14 12-15 13-17 15-19 16-22 17-25 18-26 19-27 21-28 22-29 23-30 25-31 26-32
+# align_t = 3-0 4-1 5-3 6-4 7-6 9-7 10-8 11-9 12-10 14-11 15-12 17-13 18-14 19-15 22-16 25-17 27-19 28-21 29-22 30-23 31-25 32-26 
 # source = Vidím to tak, že je potřeba se na to podívat novým pohledem a je potřeba zbavit nálepky starostů korupčníků, protože ono to tak není.
 # initial_translation = The way I see it, you need to look at it with a new perspective, and you need to get rid of the mayor's sticker because it's not.
 # text = The way I see it, you need to look at it with a new perspective, and you need to get rid of the mayor's sticker because it's not.
@@ -5248,8 +5248,8 @@
 33	.	.	PUNCT	.	_	32	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p2.s8
-# align_s = 0-0 1-1 2-2 5-3 6-4 7-7 8-8 9-9 10-6 11-8 13-10 14-12 15-14 17-15 18-18 19-21 20-22 21-23 22-25 24-26 25-27 26-28
-# align_t = 0-0 1-1 2-2 3-5 4-6 5-4 6-15 7-7 8-8 9-9 10-13 12-14 14-15 15-17 18-18 20-19 22-20 23-21 25-22 26-24 27-25 28-26 
+# align_s = 0-0 1-1 2-2 5-3 6-4 7-7 8-8 9-9 10-6 13-10 14-12 15-14 17-15 18-18 20-22 21-23 22-25 24-26 25-27 26-28
+# align_t = 0-0 1-1 2-2 3-5 4-6 5-4 6-6 7-7 8-8 9-9 10-13 12-14 14-15 15-17 18-18 20-19 22-20 23-21 25-22 26-24 27-25 28-26 
 # source = My všichni chceme, aby město za ty peníze postavilo to, co potřebuje postavit, a samozřejmě za nejnižší náklady v co nejvyšší kvalitě.
 # initial_translation = We all want the city to build for that money what it needs to build and, of course, at the lowest cost of the highest quality.
 # text = We all want the city to build for that money what it needs to build and, of course, at the lowest cost of the highest quality.
@@ -5326,7 +5326,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p3.s2
 # align_s = 0-0 1-2 3-4 4-5 5-6 6-7 7-9 8-12 9-13 10-14 11-15 12-17 13-18 14-19 15-20 16-21 18-23 19-24 20-25 21-26 23-27 24-28 25-29 26-30
-# align_t = 0-0 2-1 3-2 4-3 6-5 7-6 9-7 12-8 13-9 14-10 15-11 17-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 25-20 26-21 27-23 28-24 29-25 30-26 
+# align_t = 0-0 2-1 3-2 4-3 6-5 7-6 9-7 10-7 12-8 13-9 14-10 15-11 17-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 25-20 26-21 27-23 28-24 29-25 30-26 
 # source = Ať chceme, nebo nechceme, a nejsem odborník v této oblasti korupcí, kdy korupce - je potřeba si položit otázku, co to je.
 # initial_translation = Whether we want to or not, and I am not an expert in this area of corruption, when corruption - we need to ask ourselves what it is.
 # text = Whether we want to or not, and I am not an expert in this area of corruption, when corruption - we need to ask ourselves what it is.
@@ -5363,8 +5363,8 @@
 31	.	.	PUNCT	.	_	30	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p3.s3
-# align_s = 0-0 1-2 2-3 4-4 5-7 6-9 7-10 8-12 9-13 11-14 12-15 14-16 15-17 18-18 20-19 21-20 22-21 23-22 24-23 25-24 26-25 27-26 28-27 29-28 30-29 31-30 32-33 33-32 35-34 36-38 37-40 38-41 39-42 40-44 41-45 42-46 43-47 44-48
-# align_t = 0-0 2-1 4-2 6-3 7-5 9-6 10-7 12-8 13-9 14-11 15-12 16-14 17-15 18-16 19-20 20-21 21-22 22-23 23-24 24-25 25-26 26-27 27-28 28-29 29-30 30-31 32-33 33-32 34-35 36-36 38-33 39-32 40-37 41-38 42-39 44-40 45-41 46-42 47-43 48-44 
+# align_s = 0-0 1-2 2-4 3-6 5-7 6-9 7-10 8-12 9-13 11-14 12-15 14-16 15-17 18-18 20-19 21-20 22-21 23-22 24-23 25-24 26-25 27-26 28-27 29-28 30-29 31-30 32-33 33-32 35-34 36-38 37-40 38-41 39-42 40-44 41-45 42-46 43-47 44-48
+# align_t = 0-0 2-1 4-2 6-3 7-5 9-6 10-7 12-8 13-9 14-11 15-12 16-14 17-15 18-16 19-20 20-21 21-22 22-23 23-24 24-25 25-26 26-27 27-28 28-29 29-30 30-31 32-33 33-32 34-35 35-36 38-33 39-32 40-37 41-38 42-39 44-40 45-41 46-42 47-43 48-44 
 # source = Ale já říkám, že když dotace není nároková, tak tady je právě ten problém, kdy nastává ta korupce, ať je to finanční korupce, sociální korupce, když někoho znáte, nebo neznáte, a tady vidím ten velký problém.
 # initial_translation = But what I'm saying is, if the subsidy isn't eligible, there's the problem with corruption, whether it's financial corruption, social corruption, if you know someone or you don't know someone, and here I see the big problem.
 # text = But what I'm saying is, if the subsidy isn't eligible, there's the problem with corruption, whether it's financial corruption, social corruption, if you know someone or you don't know someone, and here I see the big problem.
@@ -5419,8 +5419,8 @@
 49	.	.	PUNCT	.	_	48	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p4.s1
-# align_s = 0-0 2-1 5-2 6-3 7-4 8-5 9-6 10-7 11-8 12-9 13-13 14-14 15-15 16-16 18-18 19-20 20-21 21-22 22-23 23-25 24-26 25-28 26-29 27-30 28-31 29-33 30-34 31-35 32-36 35-37 36-38 37-39 38-40 40-42 41-44 42-46 43-49 44-51 45-50 46-52
-# align_t = 0-0 1-2 2-5 3-6 4-7 5-8 6-9 7-10 8-11 9-12 13-13 14-14 15-15 16-16 17-17 18-18 20-19 21-20 22-21 23-22 25-23 26-24 28-25 29-26 30-27 31-28 33-29 34-30 35-31 36-32 37-33 38-36 39-37 41-38 42-40 44-41 45-42 48-44 50-45 51-44 52-46 
+# align_s = 0-0 2-1 5-2 6-3 7-4 8-5 9-6 10-7 11-8 12-9 13-13 14-14 15-15 16-16 18-18 19-20 20-21 21-22 22-23 23-25 24-26 25-28 26-29 27-30 28-31 29-33 30-34 31-35 32-36 35-37 36-38 37-39 38-40 39-41 40-42 41-44 42-46 43-49 44-51 45-50 46-52
+# align_t = 0-0 1-2 2-5 3-6 4-7 5-8 6-9 7-10 8-11 13-13 14-14 15-15 16-16 17-17 18-18 20-19 21-20 22-21 23-22 25-23 26-24 28-25 29-26 30-27 31-28 33-30 35-31 36-32 37-33 38-34 39-37 40-38 42-40 44-41 45-42 46-43 48-44 50-45 51-44 52-46 
 # source = Já si myslím, že ten systém je celý špatně, ale my s tím nic neuděláme, protože žijeme v Evropě, žijeme v Evropské unii, a je to zásadní problém, se kterým se prostě musíme nějak vyrovnat, musíme to nějak vyřešit.
 # initial_translation = I think the system is all wrong, but we are not going to do anything about it because we live in Europe, we live in the European Union, and it is a fundamental problem that we simply have to deal with, we have to figure it out somehow.
 # text = I think the system is all wrong, but we are not going to do anything about it because we live in Europe, we live in the European Union, and it is a fundamental problem that we simply have to deal with, we have to figure it out somehow.
@@ -5521,7 +5521,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p5.s2
 # align_s = 0-0 1-1 3-2 4-4 5-7 6-8 9-9 11-14 12-15
-# align_t = 0-0 1-1 4-4 5-6 6-2 7-5 8-6 9-8 12-6 13-10 14-11 15-12 
+# align_t = 0-0 1-1 2-3 4-4 5-6 6-2 7-5 8-6 9-8 10-9 12-6 14-11 15-12 
 # source = Teď nemám na mysli jenom finančního korupčního jednání, ale i sociálního.
 # initial_translation = Now I'm not just talking about financial corruption, I'm talking about social.
 # text = Now I'm not just talking about financial corruption, I'm talking about social.
@@ -5543,7 +5543,7 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p5.s3
-# align_s = 0-0 1-1 2-2 3-3 4-4
+# align_s = 0-1 1-1 2-2 3-3 4-4
 # align_t = 0-0 1-1 2-2 3-3 4-4 
 # source = Je to velmi složité.
 # initial_translation = It's very complicated.
@@ -5555,8 +5555,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p5.s4
-# align_s = 0-2 1-0 4-3 5-5 6-6 7-7 8-9 9-10 10-15 11-11 16-14 17-15 18-16 19-17 20-19 21-20 22-21 23-22 24-23 25-25 26-26 27-27 29-28 30-30 31-32 32-34 33-36 34-37 36-38 37-39 38-41 39-42 40-43 41-44 43-45
-# align_t = 0-1 1-2 2-0 3-4 4-5 5-5 6-6 7-7 9-8 10-9 11-11 13-14 14-16 15-17 16-18 17-19 18-20 19-20 20-21 21-22 22-23 23-24 25-25 26-26 27-27 28-29 30-30 32-31 34-32 36-33 37-34 38-36 39-37 41-38 42-39 43-40 44-41 45-43 
+# align_s = 1-0 2-2 4-3 5-5 6-6 7-7 8-9 9-10 10-15 11-11 16-14 17-15 18-16 19-17 20-18 21-19 22-21 23-22 24-23 25-25 26-26 27-27 29-28 30-30 31-32 32-34 33-36 34-37 36-38 37-39 38-41 39-42 40-43 41-44 43-45
+# align_t = 0-1 2-2 3-4 4-5 5-5 6-6 7-7 9-8 10-9 11-11 14-16 15-17 16-18 17-19 19-20 20-21 21-22 22-23 23-24 25-25 26-26 27-27 28-29 30-30 32-31 34-32 36-33 37-34 38-37 39-37 40-42 41-38 42-39 43-40 44-41 45-43 
 # source = Já osobně si s tím nevím moc rady, protože společnost od té doby, kdy známe společnost, ať je to římská společnost, řecká společnost, tak toto byl problém všech historických společností, které jsme tady v tomto světě zažili.
 # initial_translation = Personally, I don't know much about this, because since we've known society, whether it's a Roman society, a Greek society, this has been the problem of all the historical societies we've experienced here in this world.
 # text = Personally, I don't know much about this, because since we've known society, whether it's a Roman society, a Greek society, this has been the problem of all the historical societies we've experienced here in this world.
@@ -5633,8 +5633,8 @@
 18	.	.	PUNCT	.	_	17	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p6.s2
-# align_s = 0-0 1-2 2-3 3-5 4-10 5-12 6-13 7-6 8-7 9-8 10-14 11-15 12-20 13-21 14-19 15-18 16-19 17-23 18-24 19-25 20-26 21-16 22-27
-# align_t = 0-0 2-1 3-2 5-3 6-7 7-8 8-9 10-4 12-5 13-6 14-10 15-11 16-12 18-15 19-16 20-12 21-13 24-18 25-19 26-20 27-22 
+# align_s = 0-0 1-2 2-3 3-5 4-10 5-12 6-13 7-6 8-7 9-8 10-14 11-15 12-20 13-21 14-19 15-18 16-19 17-22 18-24 19-25 20-26 21-16 22-27
+# align_t = 0-0 2-1 3-2 5-3 6-7 7-8 8-9 10-4 12-5 13-6 14-10 15-11 16-21 18-15 19-16 20-12 21-13 22-17 24-18 25-19 26-20 27-22 
 # source = Na druhé straně ono opravovat špatný zákon je velmi složité a já zákon o zadávání veřejných zakázek za velmi špatný zákon považuji.
 # initial_translation = On the other hand, it is very difficult to correct the wrong law and I consider the Public Procurement Act to be a very bad law.
 # text = On the other hand, it is very difficult to correct the wrong law and I consider the Public Procurement Act to be a very bad law.
@@ -5668,8 +5668,8 @@
 28	.	.	PUNCT	.	_	27	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u14.p7.s1
-# align_s = 0-1 1-4 2-5 3-6 4-7 5-8 6-9 8-10 9-15 10-16 11-14 13-18 15-19 16-20 17-21 18-22 19-23 20-24 21-29 22-31 23-32 24-33 25-35 26-36
-# align_t = 1-0 4-1 5-2 6-3 7-4 8-5 9-6 10-7 11-8 12-8 14-8 15-9 16-10 17-12 19-15 20-16 21-17 22-18 23-19 24-20 29-21 31-22 32-23 33-24 35-25 36-26 
+# align_s = 0-1 1-4 2-5 3-6 4-7 5-8 6-9 8-12 9-15 10-16 11-14 13-17 14-18 15-19 16-20 17-21 18-22 19-23 20-24 21-29 22-31 23-32 24-33 25-35 26-36
+# align_t = 1-0 4-1 5-2 6-3 7-4 8-5 9-6 10-7 11-8 12-8 14-11 17-12 19-15 20-16 21-17 22-18 23-19 24-20 29-21 31-22 32-23 33-24 35-25 36-26 
 # source = Doporučuji schválit toto zákonné nařízení, nicméně se zkusme nad tím zamyslet, abychom v tom svatém boji proti korupci nevylili s vaničkou i dítě.
 # initial_translation = I recommend that we approve this legal regulation, but let us try to think about it so that in this holy fight against corruption, we do not pour out a bathtub and a child.
 # text = I recommend that we approve this legal regulation, but let us try to think about it so that in this holy fight against corruption, we do not pour out a bathtub and a child.
@@ -5776,7 +5776,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p1.s2
 # align_s = 0-1 1-3 3-5 4-6 5-8 6-9 7-10 8-11 9-13 10-15 11-16 12-18
-# align_t = 1-0 3-1 5-8 7-6 8-7 9-7 10-2 11-3 12-4 13-9 15-10 16-11 18-12 
+# align_t = 1-0 3-1 5-8 7-6 8-7 10-2 11-3 12-4 13-9 15-10 16-11 18-12 
 # source = Je otázkou, jestli to tak zůstane, zdali zůstanu posledním přihlášeným.
 # initial_translation = It's a question of whether it stays that way, if I stay the last logged in.
 # text = It's a question of whether it stays that way, if I stay the last logged in.
@@ -5801,8 +5801,8 @@
 19	.	.	PUNCT	.	_	18	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p1.s3
-# align_s = 1-0 2-2 4-3 5-4 7-5 8-6 9-7 10-8 11-10 12-11 13-13
-# align_t = 0-1 2-2 3-4 4-5 5-7 6-8 7-9 8-10 10-11 11-12 13-13 
+# align_s = 1-0 2-2 4-3 5-4 6-5 8-6 9-7 10-8 11-10 12-11 13-13
+# align_t = 1-1 2-2 3-4 4-5 5-7 6-8 7-9 8-10 10-11 11-12 13-13 
 # source = Je mi líto, že ctěná paní kolegyně Věra Jourová nebyla tou poslední.
 # initial_translation = I'm sorry that honored colleague Vera Jourová wasn't the last one.
 # text = I'm sorry that honored colleague Věra Jourová wasn't the last one.
@@ -5822,8 +5822,8 @@
 14	.	.	PUNCT	.	_	13	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p1.s4
-# align_s = 0-0 1-2 2-3 3-4 4-5 5-8 6-9 7-10 8-11 9-12 11-14 12-16 13-17 14-18 15-20 16-21 17-22 18-24 19-25 21-26 22-27 23-29 24-32 25-33 26-34 27-36 29-37 30-38 32-41 33-43 34-43 35-39 37-44 38-46 39-49 40-50 41-51 42-52 43-53 44-56 45-60 46-61 47-62 48-63 49-64 50-65 51-66 52-67 55-68 56-69 57-71 58-72 59-73
-# align_t = 0-0 2-1 3-2 4-3 5-3 8-5 9-6 10-7 11-8 12-10 14-11 16-12 17-13 18-14 20-15 21-16 22-17 24-18 25-19 27-22 29-23 32-24 33-25 34-26 36-27 39-35 40-29 41-32 42-33 43-34 44-37 46-38 49-39 50-40 51-41 52-42 53-43 56-44 60-45 61-46 62-47 63-48 64-49 65-50 66-51 67-52 68-53 69-55 70-56 71-57 72-58 73-59 
+# align_s = 0-0 1-2 2-3 3-4 4-5 5-8 6-9 7-10 8-11 9-12 10-13 11-14 12-16 13-17 14-18 15-20 16-21 17-22 18-24 19-25 21-26 22-27 23-29 24-32 25-33 26-34 27-36 30-39 31-38 32-41 33-43 34-43 35-40 36-45 37-44 38-46 39-49 40-50 41-51 42-52 43-53 44-56 45-60 46-61 47-62 48-63 49-64 50-65 51-66 52-67 53-68 55-69 56-70 57-71 58-72 59-73
+# align_t = 0-0 2-1 3-2 5-3 8-5 9-6 10-7 11-8 12-9 13-10 14-11 16-12 17-13 18-14 20-15 21-16 22-17 24-18 25-19 27-22 29-23 32-24 33-25 34-26 36-27 37-28 38-29 39-30 40-31 41-32 42-33 43-34 44-37 46-38 49-39 50-40 51-41 52-42 53-43 56-44 60-45 61-46 62-47 63-48 64-49 65-50 66-51 67-52 68-53 69-55 71-57 72-58 73-59 
 # source = Nicméně její vystoupení se dotklo velmi ožehavého problému, a to problematiky korupce, která bezesporu bude nastolena a budeme na ni muset odpovídat, zdali zdvojnásobení limitů, o kterých se v tuto chvíli bavíme, je tedy prokorupčním krokem, to znamená jakoby cestou zpět oproti dřívějším deklaracím, anebo zdali se tedy jedná o správné opatření.
 # initial_translation = However, her speech has touched on a very delicate problem, namely the issue of corruption, which will undoubtedly be brought up and we will have to respond to it, whether doubling the limits we are talking about at the moment is, therefore, a pro-corruption step, which is, as if, on the way back from previous declarations, or whether it is the right measure.
 # text = However, her speech has touched on a very delicate problem, namely the issue of corruption, which will undoubtedly be brought up and we will have to respond to it, whether doubling the limits we are talking about at the moment is, therefore, a pro-corruption step, which is, as if, on the way back from previous declarations, or whether it is the right measure.
@@ -5903,8 +5903,8 @@
 74	.	.	PUNCT	.	_	73	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p1.s5
-# align_s = 0-0 2-2 3-3 4-4 5-1 7-5 8-8 9-9 10-6 11-7 14-12 15-13 16-14
-# align_t = 0-0 1-5 2-2 3-3 4-4 5-7 6-10 7-11 8-8 9-9 11-13 12-14 13-15 14-16 
+# align_s = 0-0 2-2 3-3 4-4 5-1 7-5 8-8 9-9 10-6 11-7 13-11 14-12 15-13 16-14
+# align_t = 0-0 1-5 2-2 3-3 4-4 5-7 6-10 7-11 8-8 9-9 10-12 12-14 13-15 14-16 
 # source = Já jsem z jejího vystoupení pochopil, že toto opatření ona považuje i za věcně správné.
 # initial_translation = I understood from her speech that she considered this measure to be factually correct.
 # text = I understood from her speech that she considered this measure to be factually correct.
@@ -5925,8 +5925,8 @@
 15	.	.	PUNCT	.	_	14	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p2.s1
-# align_s = 0-0 2-1 4-2 6-3 8-4 9-5 10-8
-# align_t = 0-0 1-2 2-4 3-5 4-8 5-9 8-10 
+# align_s = 0-0 2-1 4-2 5-3 8-4 9-7 10-8
+# align_t = 0-0 1-2 2-4 3-5 4-6 5-8 7-9 8-10 
 # source = Já si myslím, že to má i druhé hledisko.
 # initial_translation = I think there's another point of view.
 # text = I think there's another point of view.
@@ -5941,8 +5941,8 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p2.s2
-# align_s = 1-1 3-3 4-6 5-5 7-4 8-7 9-9 10-10 11-11 12-12 13-13 14-14 15-15 16-17 17-18 18-19 19-20 20-22 22-23 23-24 24-25 25-27 26-29 27-30 28-31 29-32 30-32 33-35 34-41 35-39 36-43 37-44 38-45 39-46 40-47 41-48 42-49 43-51 44-52 45-54 46-55 47-56 48-57 49-58 50-59 51-62 52-63 53-61 54-64 55-65 56-66 57-67
-# align_t = 0-0 1-1 2-2 3-3 4-7 5-5 6-4 7-8 9-9 10-10 11-11 12-12 13-13 14-14 15-15 17-16 18-17 19-18 20-19 21-20 22-21 23-22 24-23 25-24 27-25 29-26 30-27 31-28 32-30 35-33 38-31 39-35 41-34 43-36 44-37 45-38 46-39 48-41 49-42 50-40 51-43 54-45 55-46 56-47 57-48 58-49 59-50 60-53 61-51 63-52 64-54 65-55 66-56 67-57 
+# align_s = 0-0 1-1 2-2 3-3 4-6 5-5 7-4 8-7 9-9 10-10 11-11 12-12 13-13 14-14 15-15 16-17 17-18 18-19 19-20 20-21 22-23 23-24 24-25 25-27 26-29 27-30 28-31 30-32 31-33 33-35 34-41 35-39 36-43 37-44 38-45 39-46 40-50 41-48 42-49 43-51 44-52 45-54 46-55 47-56 48-57 49-58 50-59 51-62 52-63 53-61 54-64 55-65 56-66 57-67
+# align_t = 0-0 1-1 2-2 3-3 4-7 5-5 6-4 7-8 9-9 10-10 11-11 12-12 13-13 14-14 15-15 17-16 18-17 19-18 20-19 21-20 22-21 23-22 24-23 26-24 27-25 29-26 30-27 31-28 32-30 35-33 37-31 38-32 39-35 41-34 43-36 44-37 45-38 46-39 47-40 48-41 49-42 51-43 52-44 54-45 55-46 56-47 57-48 58-49 59-50 60-53 61-51 62-51 63-52 64-54 65-55 66-56 67-57 
 # source = To první, které zde řekla i ona, cesta zpět, zdali to je skutečně korupční krok, nebo ten, který může vyjít v ústrety, ale za druhé je to samozřejmě otázka i ústavnosti, protože to zde už nastolila opět ctěná paní kolegyně profesorka Válková, která na to upozornila u daňové legislativy.
 # initial_translation = The first one that she said here, the way back, whether it is indeed a corrupt step, or the one that may come out in the mouth, but secondly, of course, it is also a question of constitutionality, because it has been reestablished here again by the honourable colleague Professor Válková, who drew attention to this in tax legislation.
 # text = The first one that she said here, the way back, whether it is indeed a corrupt step, or the one that may come out in the mouth, but secondly, of course, it is also a question of constitutionality, because it has been reestablished here again by the honourable colleague Professor Válková, who drew attention to this in tax legislation.
@@ -6016,7 +6016,7 @@
 68	.	.	PUNCT	.	_	67	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p2.s3
-# align_s = 0-0 2-1 4-2 5-3 6-4 7-5 9-6 10-7 11-8 12-9 13-11 14-13 15-14 16-15
+# align_s = 0-0 2-1 4-2 5-3 6-4 8-5 9-6 10-7 11-8 12-9 13-11 14-13 15-14 16-15
 # align_t = 0-0 1-2 2-4 3-5 4-6 5-8 6-9 7-10 8-11 9-12 11-13 13-14 14-15 15-16 
 # source = Já si myslím, že to platí nemlich i zde, tedy v oblasti veřejných zakázek.
 # initial_translation = I think that is true even here, i.e. in the field of public procurement.
@@ -6039,8 +6039,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p3.s1
-# align_s = 0-0 1-6 2-2 3-4 4-7 5-9 6-11 7-12 8-13 9-14 10-15 12-18 13-17 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-27 22-28 23-29 24-32 25-36 26-37 28-34 29-35 30-38 31-39 32-40 33-41 34-43 35-44 36-45 37-46 38-48 39-49
-# align_t = 0-0 2-2 3-2 4-3 6-1 7-4 9-5 11-6 13-8 14-9 15-10 17-13 18-12 20-14 21-15 22-16 23-17 24-18 25-19 26-20 27-21 28-22 29-23 31-24 32-27 34-28 35-29 36-25 37-26 38-30 39-31 40-32 41-33 43-34 44-35 45-36 46-37 48-38 49-39 
+# align_s = 0-0 1-6 2-3 3-4 4-7 5-9 6-11 7-12 8-13 9-14 10-15 12-18 13-17 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-27 22-28 23-29 24-32 25-36 26-37 28-34 29-35 30-38 31-39 32-40 33-41 34-43 35-44 36-45 37-46 38-48 39-49
+# align_t = 0-0 2-2 3-2 4-3 6-1 7-4 9-5 11-6 13-7 14-9 15-10 16-11 17-12 18-13 20-14 21-15 22-16 23-17 24-18 25-19 26-20 27-21 28-22 29-23 31-24 32-27 34-28 35-29 36-25 37-26 38-30 39-31 40-32 41-33 43-34 44-35 45-36 46-37 48-38 49-39 
 # source = Proč vláda premiéra Rusnoka navrhuje ve stavu nezbytné potřeby, jak tedy volně parafrázuji článek 33, limity 3 a 1, to znamená, za tímto si vláda stojí, a následně v Senátu souhlasí se zdvojnásobením limitů?
 # initial_translation = Why is Prime Minister Rusnok's government proposing, in a state of necessity, as I paraphrase freely in Article 33, limits 3 and 1, that is to say, the government stands behind this, and then in the Senate agrees to double the limits?
 # text = Why is Prime Minister Rusnok's government proposing, in a state of necessity, as I paraphrase freely in Article 33, limits 3 and 1, that is to say, the government stands behind this, and then in the Senate agrees to double the limits?
@@ -6096,8 +6096,8 @@
 50	?	?	PUNCT	.	_	49	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p3.s2
-# align_s = 0-0 1-1 3-2 6-3 8-4 9-8 10-9 11-7 13-10 17-11 18-12 19-13 21-15 23-16 25-17 26-19 27-23 28-21 29-22 30-25 31-26 32-29 33-30 35-31 36-34 37-35 38-36 39-37 40-40 41-41 42-44
-# align_t = 0-0 1-1 2-3 3-7 4-8 5-8 6-9 7-11 8-10 9-10 10-13 11-17 12-18 13-19 14-20 15-21 16-23 17-25 19-26 21-28 22-29 23-27 25-30 26-31 29-32 30-33 31-34 32-35 33-36 35-37 36-38 37-39 40-40 41-41 43-41 44-42 
+# align_s = 0-0 1-1 3-2 6-3 8-4 9-8 10-9 11-7 13-10 17-11 18-12 19-13 21-15 23-16 25-17 26-19 27-23 28-21 29-22 30-25 31-26 32-29 33-30 35-31 36-33 37-35 38-36 39-37 40-40 41-41 42-44
+# align_t = 0-0 1-1 2-3 3-7 4-8 5-8 6-9 7-11 8-10 10-13 11-17 12-18 13-19 14-14 15-15 16-23 17-25 19-26 21-28 22-29 23-27 25-30 26-31 29-32 30-33 31-34 32-35 34-36 35-37 36-38 37-39 40-40 41-41 44-42 
 # source = Já bych byl rád, kdyby pan premiér ještě jednou vystoupil, pokud ho k tomu mé vystoupení vyprovokuje, aby zdůvodnil, proč vláda jednou navrhuje něco a následně asi ukáže, že se zmýlila, a navrhuje dvojnásobek.
 # initial_translation = I would like the Prime Minister to speak once more if my speech provokes him to explain why the government is proposing something once, and then it will probably show that it has been wrong, and it is proposing twice as much.
 # text = I would like the Prime Minister to speak once more if my speech provokes him to explain why the government is proposing something once, and then it will probably show that it has been wrong, and it is proposing twice as much.
@@ -6148,8 +6148,8 @@
 45	.	.	PUNCT	.	_	44	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p3.s3
-# align_s = 0-0 1-1 2-2 3-4 4-5 5-8 6-6 8-7 9-8 10-9 11-10 12-11 13-12 14-13 15-15 16-18 17-19 18-22 19-23 20-24 21-25
-# align_t = 0-0 1-1 2-2 4-3 5-4 6-6 7-8 8-9 9-10 10-11 11-12 12-13 13-14 15-15 18-16 19-17 22-18 23-19 24-20 25-21 
+# align_s = 0-0 1-1 2-2 3-4 4-5 6-6 8-7 9-8 10-9 11-10 12-11 13-12 14-13 15-15 16-18 17-19 18-22 19-23 20-24 21-25
+# align_t = 0-0 1-1 2-2 4-3 5-4 6-6 7-8 8-9 9-10 10-11 11-12 12-13 13-14 15-15 18-16 19-16 20-17 22-18 23-19 24-20 25-21 
 # source = Podle mého názoru to už samo ukazuje, že hrátka s těmito limity nemůže splňovat vymezení ústavní podmínky podle článku 33.
 # initial_translation = In my opinion, this already shows that playing with these limits cannot satisfy the definition of the constitutional condition laid down in Article 33.
 # text = In my opinion, this already shows that playing with these limits cannot satisfy the definition of the constitutional condition laid down in Article 33.
@@ -6181,8 +6181,8 @@
 26	.	.	PUNCT	.	_	25	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p4.s1
-# align_s = 0-0 1-0 2-3 3-5 5-6 7-7 10-11 11-9 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 21-21 22-22 23-23 24-20 26-24 27-28 28-30 31-31 33-33 34-36 35-38 36-39 37-40 38-41 39-42 40-43 41-45 42-47 44-48 45-49 46-50 47-52 48-54 49-55 51-56 53-57 55-62 56-63 58-60 60-59 61-61 62-64 63-65 64-67 66-68 67-69 68-70 69-71 70-75 71-72 72-74 73-76 74-77 75-78 76-79 77-80 78-81 79-84 80-85 81-86 82-87 83-89 84-90 85-91 86-93 87-92 88-94 89-96 90-97 91-98 92-100 94-101 95-103 96-104 97-105 98-108 99-109 100-110 101-113 102-114 103-115 104-116 105-117 106-118 107-119 109-121 110-120 111-122 112-124 114-123 115-125 117-126 119-126 120-127 121-130 122-128 123-131 124-132 128-133 129-134 130-135 131-137 132-141 133-142 134-143 135-144 136-146 138-147 139-149 140-162 141-163 142-164 144-165 145-167 146-168 147-169 148-170 149-150 150-152 151-153 153-154 154-155 155-156 156-157 157-158 158-161 159-159 160-160 161-171
-# align_t = 0-1 3-2 5-3 6-5 7-9 9-11 11-10 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 20-24 21-21 22-22 23-23 24-26 26-27 28-27 30-28 31-29 32-36 33-37 34-33 36-34 38-35 39-36 40-37 41-38 42-39 43-40 45-41 47-42 48-44 49-45 50-46 52-47 54-48 55-49 56-51 57-53 58-57 59-60 60-58 61-61 62-55 63-56 64-62 65-63 67-64 68-66 69-67 70-68 71-69 72-71 74-72 75-70 76-73 77-74 78-75 79-76 80-77 84-79 85-80 86-81 87-82 89-83 90-84 91-85 92-87 93-86 94-88 95-89 97-90 98-91 100-92 101-94 102-95 103-95 104-96 105-97 108-98 109-99 110-100 113-101 114-102 115-103 116-104 117-105 118-106 119-107 120-108 121-109 122-111 123-114 124-112 125-116 126-118 127-119 128-120 130-121 131-123 132-124 133-128 134-129 135-130 137-131 138-125 139-126 140-127 141-132 142-133 143-134 144-135 146-136 147-138 148-138 149-139 150-149 152-150 153-151 154-153 155-154 157-156 158-157 159-159 160-160 161-158 162-140 163-141 164-142 165-144 167-145 168-146 169-147 170-148 171-161 
+# align_s = 1-0 2-3 3-5 5-6 7-7 9-10 10-11 11-9 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 20-21 21-21 22-22 23-23 24-20 26-24 27-28 28-30 31-31 33-33 34-36 35-38 36-39 37-40 38-41 39-42 40-43 41-45 42-47 44-48 45-49 46-50 47-52 48-54 49-55 51-56 53-57 55-62 56-63 58-60 60-59 61-61 62-64 63-65 64-67 66-68 67-69 68-70 69-71 70-75 71-72 72-74 73-76 74-77 75-78 76-79 77-80 78-81 79-84 80-85 81-86 82-87 83-89 84-90 85-91 86-93 87-92 88-94 89-95 90-97 91-98 92-100 94-101 95-103 96-104 97-105 98-108 99-109 100-110 101-113 102-114 103-115 104-116 105-117 106-118 107-119 109-121 110-120 111-122 112-124 114-123 115-125 119-126 120-127 121-130 122-128 123-131 124-132 128-133 129-134 130-135 131-137 132-141 133-142 134-143 135-144 136-146 138-147 139-149 140-162 141-163 142-164 144-165 145-167 146-168 147-169 148-170 149-150 150-152 151-153 153-154 154-155 155-156 156-157 157-158 158-161 159-159 160-160 161-171
+# align_t = 0-1 3-2 5-3 6-5 7-9 9-11 11-10 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 20-24 21-21 22-22 23-23 24-26 26-27 28-27 30-28 31-29 32-36 33-37 34-38 36-34 38-35 39-36 40-37 41-38 42-39 43-40 45-41 47-42 48-43 49-44 50-46 52-47 54-48 55-49 56-51 57-52 58-53 59-60 60-58 61-61 62-55 63-56 64-62 65-63 67-64 68-66 69-67 70-68 71-69 72-71 74-72 75-70 76-73 77-74 78-75 79-76 80-77 84-79 85-80 86-81 87-82 89-83 90-84 91-85 92-87 93-86 94-88 95-89 97-90 98-91 100-92 101-94 102-95 103-95 104-96 105-97 108-98 109-99 110-100 113-101 114-102 115-103 116-104 117-105 118-106 119-107 120-108 121-109 122-111 123-114 124-112 125-115 126-118 127-119 128-120 130-121 131-123 132-124 133-128 134-129 135-130 137-131 138-125 139-126 140-127 141-132 142-133 143-134 144-135 146-136 147-137 148-138 149-139 150-149 152-150 153-151 154-153 155-154 156-155 157-156 158-157 159-159 160-160 161-158 162-140 163-141 164-142 165-144 167-145 168-146 169-147 170-148 171-161 
 # source = Za druhé chci říci, že v okamžiku, kdy limity změníme, protože my jsme de facto odsouzení k tomu to zákonné opatření schválit, jestliže nechceme způsobit to, že skutečně nadlimitní řízení bude de facto sabotováno, tak chci říci, že to musíme udělat, ale s vědomím, že s těmi limity už potom tedy nemůžeme hýbat, protože představa, že za půl roku zase někdo přijde, a těch protikorupčních organizací bude celá řada, a bude hovořit a nás nutit k tomu, a umím si představit kolegy z Rekonstrukce státu, že prostě přijdou také s tímto návrhem a budou nás vyzývat, ne-li nutit k tomu, abychom limity snižovali, tak se k tomu každý bude muset postavit, a já chci říci, že nelze každý měsíc nebo co půl roku nebo co rok měnit zákonné limity, které jsou vyznačeny pro jednotlivá řízení veřejného zadávání.
 # initial_translation = Secondly, I want to say that when we change the limits, because we are de facto condemned to approve this legal measure if we do not want to cause the de facto superlimity of proceedings to be de facto sabotaged, so I want to say that we have to do this, but knowing that we cannot then move those limits, because the idea that in six months someone will come again, and those anti-corruption organizations will be a whole series, and they will talk and force us to do it, and I can imagine my colleagues from Reconstruction of the State, that they will just come along with this proposal and challenge us, if not forcing us to lower the limits, so everyone will have to stand up to it, and I want to say that we cannot change the legal limits that are set for individual public procurement procedures every month or half a year or what year.
 # text = Secondly, I want to say that when we change the limits, because we are de facto condemned to approve this legal measure if we do not want to cause the de facto superlimity of proceedings to be de facto sabotaged, so I want to say that we have to do this, but knowing that we cannot then move those limits, because the idea that in six months someone will come again, and those anti-corruption organizations will be a whole series, and they will talk and force us to do it, and I can imagine my colleagues from Reconstruction of the State, that they will just come along with this proposal and challenge us, if not forcing us to lower the limits, so everyone will have to stand up to it, and I want to say that we cannot change the legal limits that are set for individual public procurement procedures every month or half a year or what year.
@@ -6360,8 +6360,8 @@
 172	.	.	PUNCT	.	_	171	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u16.p5.s1
-# align_s = 0-0 1-1 2-4 3-5 4-6 5-7 6-8 7-9 8-10 9-16 10-17 11-18 12-15 13-19 14-20 15-22 17-23 19-24 21-25 22-27 23-29 24-30 25-31 26-32 29-33 30-35 31-36 32-37 34-38 35-39 36-40 37-41 38-43 39-45 40-46 41-47 42-50 43-51 44-52 45-53 46-54 50-55 51-56 52-57 53-59 54-58 55-60 56-62 57-63
-# align_t = 0-0 1-1 2-2 4-2 5-3 6-4 7-5 8-6 9-7 10-8 15-12 16-9 17-10 18-11 19-13 20-14 22-15 23-17 24-19 25-21 26-21 27-22 28-24 29-23 31-25 32-26 33-29 35-30 36-31 37-32 38-33 39-34 40-36 41-37 42-38 44-39 46-40 47-41 50-42 51-43 52-44 53-45 54-46 55-50 56-51 57-52 58-54 59-53 60-55 62-56 63-57 
+# align_s = 0-0 1-1 2-4 3-5 4-6 5-7 6-8 7-9 8-10 9-16 10-17 11-18 12-15 13-19 14-20 15-22 17-23 19-24 21-25 22-27 23-29 24-30 25-31 26-32 29-33 30-35 31-36 32-37 34-38 35-40 37-41 38-42 39-44 40-46 41-47 42-50 43-51 44-52 45-53 46-54 50-55 51-56 52-57 53-59 54-58 55-60 56-62 57-63
+# align_t = 0-0 1-1 4-2 5-3 6-4 7-5 8-6 10-7 11-8 15-12 16-9 17-10 18-11 19-13 20-14 22-15 23-17 24-19 25-21 26-21 27-22 28-24 29-23 31-25 32-26 33-29 35-30 36-31 37-32 38-33 40-36 41-37 42-38 44-39 46-40 47-41 50-42 51-43 52-44 53-45 54-46 55-50 56-51 57-52 58-54 59-53 60-55 61-56 62-56 63-57 
 # source = S velkým sebezáporem, možná i se zavřenýma očima toto zákonné opatření podpořím, ale skutečně jsem přesvědčen, že pan premiér Rusnok nám dluží odpověď na to, proč vláda navrhovala něco, co považovala za nezbytné z hlediska článku 33 Ústavy, ale následně přistoupila na to, že to může být dokonce dvakrát víc.
 # initial_translation = With great self-confidence, maybe even with my eyes closed, I will support this legal measure, but I really believe that Prime Minister Rusnok owes us an answer to why the government proposed something that it considered necessary in the light of Article 33 of the Constitution, but subsequently accepted that it may even be twice as much.
 # text = With great self-confidence, maybe even with my eyes closed, I will support this legal measure, but I really believe that Prime Minister Rusnok owes us an answer to why the government proposed something that it considered necessary in the light of Article 33 of the Constitution, but subsequently accepted that it may even be twice as much.
@@ -6441,8 +6441,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u17.p1.s1
-# align_s = 0-2 2-3 3-4 5-6 6-8 7-10 8-11 9-13 11-14 12-15 13-20 14-18 15-21 16-22 17-23 18-24 19-25
-# align_t = 0-0 1-1 2-2 3-2 4-3 5-3 6-5 8-6 10-7 11-8 13-9 14-11 15-12 18-14 20-13 21-15 22-16 23-17 24-18 25-19 
+# align_s = 0-2 2-4 3-5 5-6 6-8 7-10 8-11 9-13 11-14 12-15 13-20 14-18 15-21 16-22 17-23 18-24 19-25
+# align_t = 1-0 2-2 4-3 5-3 6-5 8-6 10-7 11-8 13-9 14-11 15-12 18-14 20-13 21-15 22-16 23-17 24-18 25-19 
 # source = Zeptám se pana premiéra, jestli chce vystoupit v rozpravě, nebo jestli odpověď zahrne ve svém závěrečném slově.
 # initial_translation = I will ask the Prime Minister whether he wants to speak in the debate or whether he will include the answer in his final words.
 # text = I will ask the Prime Minister whether he wants to speak in the debate or whether he will include the answer in his final words.
@@ -6483,7 +6483,7 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u17.p2.s1
-# align_s = 0-0 1-2 2-3 3-5 4-6 5-7 6-8 7-10 8-12 9-13 11-14 13-15 14-17 15-19 16-20 18-23 19-24 20-26
+# align_s = 0-0 1-2 2-3 3-5 4-6 5-7 6-8 7-10 8-12 9-13 11-14 13-15 14-17 15-19 16-20 17-21 18-23 19-24 20-26
 # align_t = 0-0 2-1 3-2 5-3 6-4 7-5 8-6 10-7 12-8 13-9 14-11 15-13 17-14 19-15 20-16 22-17 23-18 24-19 26-20 
 # source = Já preventivně ukončím obecnou rozpravu a otevřu rozpravu podrobnou, do které se nikdo nehlásí, tak ji také uzavírám.
 # initial_translation = I will precautionaryally close the general debate and open the debate in detail, which nobody is reporting to, so I am also closing it.
@@ -6533,7 +6533,7 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u17.p3.s2
-# align_s = 1-1 2-4 3-5 4-6 5-9 6-10 7-11 8-13 9-14 10-15 11-16 12-22 13-18 14-19 15-23
+# align_s = 0-0 1-1 2-4 3-5 4-6 5-9 6-10 7-11 8-13 9-14 10-15 11-16 12-22 13-19 14-20 15-23
 # align_t = 0-0 1-1 4-2 5-3 6-4 9-5 10-6 11-7 13-8 14-9 15-10 16-11 18-13 19-14 20-14 22-12 23-15 
 # source = Pan předseda Senátu se vzdává slova, takže jediné závěrečné slovo bude slovo pana premiéra.
 # initial_translation = The President of the Senate is giving up his word, so the only final word will be the Prime Minister's word.
@@ -6586,8 +6586,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p1.s2
-# align_s = 1-0 2-1 5-1 6-2 7-4 8-6 10-8 11-11 12-12 13-13 14-14 15-15 16-16 17-9 18-10 19-17 20-18 21-20 22-21 23-22 24-23 25-24
-# align_t = 0-1 1-5 2-6 4-7 6-8 8-9 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-19 18-20 20-21 21-22 22-23 23-24 24-25 
+# align_s = 1-0 2-0 4-1 6-2 7-4 8-6 10-8 11-11 12-12 13-13 14-14 15-15 16-16 17-9 18-10 19-17 20-18 21-20 22-21 23-22 24-23 25-24
+# align_t = 0-1 1-5 2-6 4-7 6-8 8-10 9-17 10-18 11-11 12-12 13-13 14-14 15-15 16-16 17-19 18-20 20-21 21-22 22-23 23-24 24-25 
 # source = Vážené paní poslankyně, páni poslanci, možná jsem se nevyjádřil ve svém poněkud dlouhém úvodním slově úplně zřetelně, ale situace byla úplně jednoduchá.
 # initial_translation = Madam Members, I may not have made myself very clear in my rather long opening words, but the situation was quite simple.
 # text = Madam Members, I may not have made myself very clear in my rather long opening words, but the situation was quite simple.
@@ -6619,7 +6619,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p1.s3
 # align_s = 0-0 1-1 2-3 3-5 4-8 7-9 8-12 9-13 10-14
-# align_t = 0-0 1-1 2-2 3-2 5-3 8-4 9-7 12-8 13-9 14-10 
+# align_t = 0-0 1-1 3-2 5-3 8-4 9-7 12-8 13-9 14-10 
 # source = My jsme převzali novelu zákona, kterou připravila minulá vláda.
 # initial_translation = We have taken over the amendment of the law prepared by the previous government.
 # text = We have taken over the amendment of the law prepared by the previous government.
@@ -6640,8 +6640,8 @@
 15	.	.	PUNCT	.	_	14	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p1.s4
-# align_s = 0-0 1-1 2-4 3-5 4-6 5-8 7-9 9-10 10-11 11-12 12-14 13-15 16-16 18-18 19-19 21-21 22-22 23-23 24-24 25-25 26-26 27-27 28-29 30-50 31-51
-# align_t = 0-0 1-1 4-2 5-3 6-4 7-3 8-5 10-9 11-10 12-11 14-12 15-13 18-18 19-19 20-20 21-21 22-22 23-23 24-24 25-25 26-26 27-27 29-30 31-28 32-11 36-12 38-12 39-15 42-21 45-21 46-30 50-30 51-31 
+# align_s = 0-0 1-1 2-4 3-7 4-6 5-8 7-9 9-10 10-11 11-12 12-14 13-15 16-16 18-18 19-19 20-20 21-21 22-22 23-23 24-24 25-25 26-26 27-27 28-29 30-31 31-51
+# align_t = 0-0 1-1 4-2 5-3 6-4 7-3 8-5 9-7 10-9 11-10 12-11 14-12 15-13 18-18 19-19 20-20 21-21 22-22 23-23 24-24 25-25 26-26 27-27 29-12 31-11 32-12 36-12 37-14 39-15 40-16 41-11 42-12 45-11 46-12 49-28 50-30 51-31 
 # source = Ta novela zákona vznikla zjevně proto, že si minulá vláda uvědomila neudržitelnost stavu, který z průběhu zákona, který předvídal změny k 1. 1. 2014, vyplýval.
 # initial_translation = The amendment to the law was obviously created because the previous government realized the unsustainable status of the law, which predicted changes to 1. 1. This Decision shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
 # text = The amendment to the law was obviously created because the previous government realized the unsustainable status of the law, which predicted changes to 1. 1. This Decision shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
@@ -6699,8 +6699,8 @@
 52	.	.	PUNCT	.	_	51	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p1.s5
-# align_s = 0-1 1-2 3-5 4-3 5-6 6-7 9-8 10-9 11-11 12-12 13-17 14-18 16-19 18-20 19-21 20-23 21-24 22-28 23-29 24-30 25-32 27-33 29-34 31-35 32-36 33-37 34-39 35-42 36-43 38-44 39-45 40-47 41-50 42-51 43-52
-# align_t = 1-0 2-1 3-4 4-2 5-3 6-5 7-6 8-7 9-8 11-11 12-12 13-16 16-13 18-14 19-15 21-19 23-20 24-21 28-22 29-23 30-24 32-25 33-27 34-29 35-31 36-32 37-33 39-34 42-35 43-36 44-38 45-39 47-40 50-41 51-42 52-43 
+# align_s = 0-1 1-2 2-4 3-5 4-3 5-6 6-7 9-8 10-9 11-11 12-12 13-17 14-18 16-19 18-20 19-21 20-23 21-24 22-28 23-29 24-30 25-32 27-33 29-34 31-35 32-36 33-37 34-39 35-42 36-43 38-44 39-45 40-47 41-50 42-51 43-52
+# align_t = 1-0 2-1 3-4 4-2 5-3 6-5 7-6 8-7 9-8 11-11 12-12 13-9 15-13 18-14 19-15 21-19 23-20 24-21 25-16 28-22 29-23 30-24 32-25 33-27 34-29 35-31 36-32 37-33 39-34 42-35 43-36 44-38 45-39 47-40 50-41 51-42 52-43 
 # source = Minulá vláda se rozhodla možná v předtuše toho, že to schválí a nebude potřeba, že nebude onen seznam autorizovaných osob naplňovat, a přesně tyto limity, které jsme my dali do návrhu zákonného opatření, byly v návrhu minulé vlády.
 # initial_translation = The previous government may have decided in advance that it would approve and that it would not be necessary that the list of authorized persons would not be fulfilled, and the exact limits that we put in the proposal for a legal measure were in the proposal of the previous government.
 # text = The previous government may have decided in advance that it would approve and that it would not be necessary that the list of authorized persons would not be fulfilled, and the exact limits that we put in the proposal for a legal measure were in the proposal of the previous government.
@@ -6759,8 +6759,8 @@
 53	.	.	PUNCT	.	_	52	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p1.s6
-# align_s = 0-0 1-1 4-3 5-4 6-5 7-6
-# align_t = 0-0 1-1 3-2 4-3 5-6 6-7 
+# align_s = 0-0 1-1 4-5 5-2 6-3 7-6
+# align_t = 0-0 1-1 3-4 5-6 6-7 
 # source = My jsme na tom nezměnili ani čárku.
 # initial_translation = We didn't change the line.
 # text = We didn't change the line.
@@ -6773,7 +6773,7 @@
 7	.	.	PUNCT	.	_	6	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p2.s1
-# align_s = 0-0 1-5 2-7 3-2 4-3 5-4 6-8 7-10 8-11 9-12 11-13 12-14 13-16 15-17 16-18 17-20 18-21 19-22 21-23 22-26 23-27 24-28 25-30 27-32 28-34 29-36 30-37 31-38 32-39 33-40 34-41 35-42 37-43 39-44 40-46 41-47 42-48 43-50 45-52 46-53 47-54 48-55 49-56 51-57 52-58 53-59 55-60 56-62 57-63 58-64 59-65
+# align_s = 0-0 1-5 2-7 3-2 4-3 5-4 6-8 7-10 8-11 9-12 11-13 12-14 13-16 15-17 16-18 17-20 18-21 19-22 21-23 22-26 24-28 25-30 26-31 27-32 28-34 29-36 30-37 31-38 32-39 33-40 34-41 35-42 37-43 39-44 40-46 41-47 42-48 43-50 44-51 45-52 46-53 47-54 48-55 49-56 51-57 52-58 53-59 55-60 56-62 57-63 58-64 59-65
 # align_t = 0-0 2-3 3-4 4-5 5-1 7-2 8-6 10-7 11-8 12-9 13-11 14-12 16-13 17-15 18-16 20-17 21-18 22-20 23-21 26-22 27-23 28-24 30-25 31-26 32-27 34-28 36-29 37-30 38-31 39-32 40-33 41-34 42-35 43-37 44-39 46-40 47-41 48-42 50-43 51-44 52-45 53-46 54-47 55-48 56-49 57-51 58-52 59-53 60-55 62-56 63-57 64-58 65-59 
 # source = Jestliže v Senátu byla jednoznačná podpora napříč spektrem, a o těch počtech senátorů, kteří hlasovali pro, mluvil pan předseda Senátu, že Senát je ochoten schválit zákonné opatření jedině s těmito změnami, tak já jsem měl jedinou možnost - stáhnout to zákonné opatření a vyvolat chaos, který by nastal, protože by nebylo nic.
 # initial_translation = If there was clear support in the Senate across the spectrum, and the number of senators who voted in favour, the President of the Senate said that the Senate was willing to approve the legal measures only with these changes, I had the only option - to withdraw the legal measure and create chaos that would occur because there would be nothing.
@@ -6846,8 +6846,8 @@
 66	.	.	PUNCT	.	_	65	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p2.s2
-# align_s = 0-0 1-1 2-2 4-3 5-4 7-5 8-6 9-7 10-8 11-11 12-13 14-15 16-16 17-17 18-18 19-19 20-20 21-24 22-26 23-22 24-23 25-27 26-29 27-31 28-32
-# align_t = 0-0 1-1 2-2 3-5 4-6 5-7 6-8 7-9 8-10 9-12 11-11 12-13 13-15 16-16 17-17 18-18 19-19 20-20 22-23 23-24 24-21 26-22 27-25 29-26 31-27 32-28 
+# align_s = 0-0 1-1 2-2 4-3 5-4 7-5 8-6 9-7 10-8 11-11 12-14 14-15 16-16 17-17 18-18 19-19 20-20 21-24 22-26 23-22 24-23 25-27 26-29 27-31 28-32
+# align_t = 0-0 1-1 2-2 3-5 4-6 5-7 6-8 7-9 8-10 11-11 12-13 13-15 16-16 17-17 18-18 19-19 20-20 22-23 23-24 24-21 26-22 27-25 29-26 31-27 32-28 
 # source = Čili já myslím, že jsme se zachovali zcela racionálně a souhlasili jsme, přijali jsme ten návrh, který měl v Senátu jasnou většinu, zvýšit limity.
 # initial_translation = So I think we have acted completely rationally and we have agreed, we have accepted the proposal, which had a clear majority in the Senate, to increase the limits.
 # text = So I think we have acted completely rationally and we have agreed, we have accepted the proposal, which had a clear majority in the Senate, to increase the limits.
@@ -6887,7 +6887,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p3.s1
 # align_s = 0-1 3-2 4-3 5-4 6-5 7-7
-# align_t = 0-0 1-2 2-3 3-4 4-5 5-6 7-7 
+# align_t = 1-0 2-3 3-4 4-5 5-6 7-7 
 # source = Myslím, že už to tady zaznělo.
 # initial_translation = I think it's been said here.
 # text = I think it's been said here.
@@ -6934,7 +6934,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u18.p3.s3
 # align_s = 0-0 1-1 2-2 5-3 6-4 7-7 9-8 10-9
-# align_t = 0-0 1-1 2-2 3-5 4-6 8-7 9-10 
+# align_t = 0-0 1-1 2-2 3-5 5-6 8-9 9-10 
 # source = Ten limit o tom, jestli se krade, nerozhoduje.
 # initial_translation = The limit on stealing doesn't make any decisions.
 # text = The limit on stealing doesn't make any decisions.
@@ -7034,7 +7034,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u19.p1.s2
 # align_s = 0-1 1-3 2-4 3-5 4-6 5-7 6-8 7-9 8-10
-# align_t = 1-0 2-1 3-1 4-2 6-4 7-5 8-6 9-7 10-8 
+# align_t = 1-0 2-1 3-1 4-2 5-3 6-4 7-5 8-6 9-7 10-8 
 # source = Asi můžeme přistoupit k hlasování o zákonném opatření.
 # initial_translation = I guess we can take a vote on legal measures.
 # text = I guess we can take a vote on legal measures.
@@ -7052,7 +7052,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u19.p1.s3
 # align_s = 0-0 1-3 2-7 3-11 5-13 6-14 7-16 8-17
-# align_t = 0-0 3-1 5-1 7-2 11-3 12-5 13-5 14-6 16-7 17-8 
+# align_t = 0-0 2-1 3-1 5-1 7-2 11-3 12-5 13-5 14-6 16-7 17-8 
 # source = Ještě zazvoním a pozvu sem kolegy z předsálí.
 # initial_translation = I'm gonna ring the bell, and I'm gonna invite my co-workers from the lobby.
 # text = I'm gonna ring the bell, and I'm gonna invite my co-workers from the lobby.
@@ -7106,8 +7106,8 @@
 12	.	.	PUNCT	.	_	11	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u19.p2.s1
-# align_s = 0-2 1-4 2-6 3-9 5-10 6-11 7-12 8-13 9-15 10-17 11-19 12-21 13-24 14-25 15-26 16-27 17-30 18-31 19-34 20-35 21-36 22-37 23-40 24-41 26-42 27-43 28-42 29-43 31-44 32-45 34-45 35-46 36-47 38-48 39-62 40-67 41-68 43-69 44-70 45-71 46-72 47-73 48-74 49-75 50-75 51-56 52-57 53-58 54-59 55-60 57-67 58-68 59-61 60-62 62-63 63-64 65-64 66-65 67-66 69-61 70-49 71-48 72-49 74-50 75-51 76-52 77-53 78-54 79-55 80-56 81-56 82-75 83-76 84-77
-# align_t = 1-0 2-0 4-1 6-2 9-3 10-5 11-6 12-7 13-8 15-9 17-10 18-11 19-11 22-11 24-13 25-14 26-15 27-15 28-15 29-16 30-17 31-18 34-19 35-20 36-21 37-22 40-23 41-24 42-28 43-29 44-31 45-65 46-66 47-67 48-69 49-72 50-74 51-75 52-76 53-77 54-78 55-49 56-50 57-52 58-53 59-54 60-55 61-59 62-60 63-62 64-34 65-35 66-36 67-38 68-41 69-43 70-44 71-45 72-46 73-47 74-48 75-81 76-83 77-84 
+# align_s = 0-2 1-4 2-6 3-9 5-10 6-11 7-12 8-13 9-15 10-17 11-19 12-22 13-24 14-25 15-26 16-28 17-30 18-31 19-34 20-35 21-36 22-37 23-40 24-41 26-42 27-43 28-42 29-43 31-44 32-45 34-45 35-46 36-47 38-48 39-49 40-67 41-68 43-50 44-51 45-52 46-53 47-54 49-75 50-56 52-57 53-58 54-59 55-60 57-61 58-62 59-61 60-62 62-63 63-64 65-64 66-65 67-66 69-48 70-49 71-67 72-49 74-50 75-51 76-52 77-53 78-54 79-55 80-56 81-75 82-75 83-76 84-77
+# align_t = 1-0 2-0 4-1 6-2 9-3 10-5 11-6 12-7 13-8 15-9 17-10 19-11 22-12 24-13 25-14 26-15 27-15 28-15 29-16 30-17 31-18 34-19 35-20 36-21 37-22 40-23 41-24 42-26 43-29 44-31 45-34 46-35 47-36 48-38 49-41 50-43 51-44 52-45 53-46 54-47 55-50 56-51 57-52 58-53 59-54 60-55 61-57 62-60 63-62 64-65 65-66 66-67 67-69 68-72 69-43 70-44 71-45 72-46 73-47 74-81 75-82 76-83 77-84 
 # source = Dovolím přednést návrh usnesení, který zní: "Poslanecká sněmovna schvaluje podle článku 33 odst. 5 Ústavy České republiky zákonné opatření Senátu č. 341/2013 Sb., kterým se mění zákon č. 137/2006 Sb., o veřejných zakázkách, ve znění pozdějších předpisů, a zákon č. 55/2012 Sb., kterým se mění zákon č. 137/2006 Sb., o veřejných zakázkách, ve znění pozdějších předpisů."
 # initial_translation = I would like to make a motion for a resolution which reads: 'The Chamber of Deputies shall approve, in accordance with Rule 33 (2) '. 5 Constitution of the Czech Republic legal measures of the Senate No. 341/2013 Coll., amending Act No. 137/2006 Coll., on Public Procurement, as amended, and Act No. 55/2012 Coll., amending Act No. 137/2006 Coll., on Public Procurement, as amended.'
 # text = I would like to make a motion for a resolution which reads: 'The Chamber of Deputies shall approve, in accordance with Rule 33 (2) '. 5 Constitution of the Czech Republic legal measures of the Senate No. 341/2013 Coll., amending Act No. 137/2006 Coll., on Public Procurement, as amended, and Act No. 55/2012 Coll., amending Act No. 137/2006 Coll., on Public Procurement, as amended.'
@@ -7201,7 +7201,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u19.p3.s2
-# align_s = 0-0 1-1 2-2 3-3 5-4 7-6 8-8 9-8 10-9 11-10 12-12 13-13
+# align_s = 0-0 1-1 2-2 3-3 5-4 7-5 8-6 9-8 10-9 11-10 12-12 13-13
 # align_t = 0-0 1-1 2-2 3-3 4-5 5-7 6-8 8-9 9-10 10-11 11-12 12-12 13-13 
 # source = Kdo souhlasí s takto navrženým usnesením, ať stiskne tlačítko a zvedne ruku.
 # initial_translation = Whoever agrees with this resolution should press the button and raise his hand.
@@ -7234,7 +7234,7 @@
 5	?	?	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u19.p4.s1
-# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 7-9 8-10 10-10 11-11 12-12 13-13 14-14 15-19 16-16 17-17 18-21
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 7-9 8-10 10-10 11-11 12-12 13-13 14-14 15-19 16-17 17-18 18-21
 # align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 9-7 10-10 11-11 12-12 13-13 14-14 16-16 17-17 18-17 19-15 20-16 21-18 
 # source = Hlasování má pořadové číslo 22, přihlášeno 179 kolegyň a kolegů, pro 166, proti nebyl nikdo.
 # initial_translation = The vote is serial number 22, registered by 179 colleagues, for 166, there was no one against it.
@@ -7264,7 +7264,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u19.p4.s2
 # align_s = 0-4 2-5 3-7 4-8 5-10 6-11 7-12
-# align_t = 4-0 7-3 8-4 10-5 11-6 12-7 
+# align_t = 4-0 5-2 6-2 7-3 8-4 10-5 11-6 12-7 
 # source = Konstatuji, že zákonné opatření bylo schváleno.
 # initial_translation = I am of the opinion that the legal measure has been approved.
 # text = I am of the opinion that the legal measure has been approved.
@@ -7298,7 +7298,7 @@
 
 # sent_id = ParlaMint-CZ_2013-11-27-ps2013-001-02-015-020.u19.p5.s1
 # align_s = 0-4 1-5 2-8 3-9 4-11 5-13 6-14 7-15 8-16
-# align_t = 4-0 8-2 9-3 11-4 13-5 14-6 15-7 16-8 
+# align_t = 4-0 5-1 8-2 9-3 11-4 13-5 14-6 15-7 16-8 
 # source = Přikročíme k poslednímu bodu dnešního programu, což je
 # initial_translation = We're going to move on to the last point of today's program, which is
 # text = We're going to move on to the last point of today's program, which is

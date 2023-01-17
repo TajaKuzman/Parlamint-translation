@@ -9,7 +9,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u1.p1.s2
 # align_s = 0-0 1-1 2-1 4-2 6-2 7-3 8-4 10-5 11-6 12-5 13-6 15-7 16-8 17-10 18-11 19-13 20-14 21-15 22-16 23-17 24-18 25-19 26-20 27-21 28-22 29-24 30-25 31-26 32-27 33-28
-# align_t = 0-0 1-2 2-6 3-7 4-8 5-10 6-13 7-15 8-16 10-17 11-18 12-18 13-19 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-27 22-28 24-29 25-30 26-31 27-32 28-33 
+# align_t = 0-0 1-2 2-6 3-7 4-8 5-12 6-13 7-15 8-16 10-17 11-18 12-18 13-19 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-27 22-28 24-29 25-30 26-31 27-32 28-33 
 # source = Vládní návrh zákona, kterým se mění zákon č. 191/2012 Sb., o evropské občanské iniciativě /sněmovní tisk 28/ - prvé čtení podle § 90 odst. 2
 # initial_translation = Government bill amending Act No. 191/2012 Coll., on the European citizens' initiative /German press 28/ - first reading pursuant to § 90 para. 2
 # text = Government bill amending Act No. 191/2012 Coll., on the European citizens' initiative /German press 28/ - first reading pursuant to § 90 para. 2
@@ -44,8 +44,8 @@
 29	2	2	NUM	CD	NumForm=Digit|NumType=Card	28	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u1.p2.s1
-# align_s = 0-1 2-1 3-2 4-3 5-4 6-6 7-8 8-10 9-13 10-14 11-16 12-18 13-21 14-22 15-24 16-26 17-27 18-28
-# align_t = 1-0 2-2 3-4 4-5 5-4 6-6 8-7 10-8 13-9 14-9 15-10 16-11 18-12 21-13 22-14 24-15 26-16 27-17 28-18 
+# align_s = 0-0 2-1 3-2 4-3 5-4 6-6 7-8 8-10 9-13 10-14 11-16 12-18 13-21 14-22 15-24 16-26 17-27 18-28
+# align_t = 1-0 2-2 3-3 4-5 5-4 6-6 8-7 10-8 13-9 14-9 15-10 16-11 18-12 21-13 22-14 24-15 26-16 27-17 28-18 
 # source = Prosím, aby předložený návrh za navrhovatele uvedl místopředseda vlády a ministr vnitra v demisi Martin Pecina.
 # initial_translation = I ask that the proposal submitted for the plaintiffs be mentioned by the Deputy Prime Minister and the Minister of the Interior in the resignation of Martin Pecina.
 # text = I ask that the proposal submitted for the plaintiffs be mentioned by the Deputy Prime Minister and the Minister of the Interior in the resignation of Martin Pecina.
@@ -80,7 +80,7 @@
 29	.	.	PUNCT	.	_	28	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u1.p2.s2
-# align_s = 0-0 1-0 2-1 3-3 4-5 5-6
+# align_s = 1-0 2-1 3-3 4-5 5-6
 # align_t = 0-1 1-2 2-3 3-3 5-4 6-5 
 # source = Pane ministře, máte slovo.
 # initial_translation = Minister, you have the floor.
@@ -107,8 +107,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p1.s2
-# align_s = 0-0 4-0 5-1 6-2 7-3 8-4 9-5 12-5 13-6 14-7 15-9 16-11 17-11 19-12 21-12 22-13 23-14 24-15 25-16 26-15 27-16 30-17 31-19 32-20 33-22 34-23
-# align_t = 0-0 1-4 2-6 3-7 4-8 5-9 6-13 7-14 9-15 10-16 11-17 12-21 13-22 14-23 15-24 16-27 17-30 19-31 20-32 21-32 22-33 23-34 
+# align_s = 0-0 1-1 2-2 4-0 7-3 8-4 9-5 13-6 14-7 15-9 16-11 17-11 19-12 21-12 22-13 23-14 24-15 25-16 26-15 27-16 30-17 31-19 32-20 33-22 34-23
+# align_t = 0-0 1-4 2-5 3-7 4-8 5-9 6-13 7-14 9-15 11-17 12-21 13-22 14-23 15-26 16-27 17-30 19-31 20-32 21-32 22-33 23-34 
 # source = Vážené paní poslankyně, vážení páni poslanci, dovolte mi, abych stručně uvedl vládní návrh zákona, kterým se mění zákon číslo 191/2012 Sb., o evropské občanské iniciativě.
 # initial_translation = Ladies and gentlemen, let me briefly mention the Government's bill amending Act No. 191/2012 Coll. on the European citizens' initiative.
 # text = Ladies and gentlemen, let me briefly mention the Government's bill amending Act No. 191/2012 Coll. on the European citizens' initiative.
@@ -138,8 +138,8 @@
 24	.	.	PUNCT	.	_	23	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p2.s1
-# align_s = 0-5 1-5 4-0 5-3 7-6 8-8 9-9 10-10 11-11 12-12 13-13 14-15 16-16 17-17 18-16 19-17 21-18 22-19 23-20 24-21 25-22 26-23 27-24 28-26 30-27 31-28 32-29
-# align_t = 0-4 2-5 4-0 5-1 6-7 8-8 9-9 10-10 11-11 12-12 13-13 15-14 16-16 17-19 18-21 19-22 20-23 21-24 22-25 23-26 24-27 26-28 27-30 28-31 29-32 
+# align_s = 0-5 1-5 4-0 5-2 7-6 8-8 9-9 10-10 11-11 12-12 13-13 14-15 16-16 17-17 18-16 19-17 21-18 22-19 23-20 24-21 25-22 26-23 27-24 28-26 30-27 31-28 32-29
+# align_t = 0-4 2-5 4-0 5-1 6-7 8-8 9-9 10-10 11-11 12-12 13-13 15-14 16-18 17-19 18-21 19-22 20-23 21-24 22-25 23-26 24-27 26-29 27-30 28-31 29-32 
 # source = Návrh zákona má v prvé řadě za cíl přizpůsobit svou terminologii a kontrolní postupy zákonu číslo 255/2012 Sb., o kontrole, který nabývá účinnosti 1. ledna 2014.
 # initial_translation = First of all, the bill aims to adapt its terminology and control procedures to Act No.255/2012 Coll., on control, which takes effect on 1 January 2014.
 # text = First of all, the bill aims to adapt its terminology and control procedures to Act No.255/2012 Coll., on control, which takes effect on 1 January 2014.
@@ -205,8 +205,8 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p2.s3
-# align_s = 0-1 1-3 2-5 3-7 7-20 8-22 9-23 10-8 11-10 12-12 13-13 14-14 15-17 16-19 19-55 20-56 21-54 22-57 23-59 24-60 25-61 26-60 27-61 28-62 29-64 30-66 31-67 32-70 33-68 34-69 35-25 36-26 37-27 38-28 39-29 40-30 41-32 42-34 43-33 44-35 45-38 46-39 47-36 48-37 51-38 52-44 53-41 54-42 55-43 56-45 57-46 58-50 59-51 60-49 61-47 62-48 63-71
-# align_t = 1-0 3-1 5-2 7-3 8-10 10-11 12-12 13-13 14-14 17-15 18-15 19-16 20-7 22-8 23-9 24-17 25-35 26-36 27-37 28-38 29-39 30-40 32-41 33-43 34-42 35-44 37-48 38-45 39-46 42-54 43-55 44-59 45-56 46-57 47-61 48-62 49-53 50-51 51-59 54-60 55-19 56-20 57-22 59-23 60-24 61-25 62-28 64-29 65-29 66-30 67-31 68-33 69-34 70-32 71-63 
+# align_s = 0-1 1-3 2-5 3-7 7-20 8-22 9-23 10-8 11-10 12-12 13-13 14-14 15-17 16-19 17-24 19-52 20-56 21-54 22-57 23-59 24-60 25-61 26-60 27-61 28-62 29-64 30-66 31-67 32-70 33-68 34-69 35-25 36-26 37-27 38-28 39-29 40-30 41-32 42-34 43-33 44-35 45-38 46-44 47-36 48-37 49-40 51-38 52-44 53-43 54-42 55-43 56-45 57-46 58-50 59-51 60-49 61-47 62-48 63-71
+# align_t = 1-0 3-1 5-2 7-3 8-10 10-11 12-12 13-13 14-14 17-15 18-15 19-16 20-7 22-8 23-9 24-4 25-35 26-36 27-37 28-38 29-39 30-40 32-41 33-43 34-42 35-44 37-48 38-45 39-46 40-49 41-50 42-54 43-55 44-59 45-56 46-57 47-61 48-62 49-60 50-51 51-52 54-53 55-19 57-22 59-23 60-24 61-25 62-28 64-29 65-29 66-30 67-31 68-33 69-34 70-32 71-63 
 # source = Ministerstvu vnitra jakožto orgánu, který je v České republice pověřený ověřováním prohlášení o podpoře občanské iniciativy, se na základě zpřesnění výkladu nařízení číslo 211/2011 o občanské iniciativě na úrovni Evropské unie umožňuje přístup k dalším údajům ze základního registru obyvatel z informačního systému evidence obyvatel, z informačního systému evidence občanských průkazů a z informačního systému evidence cestovních dokladů.
 # initial_translation = The Ministry of Interior, as the body responsible for verifying the declaration of support for the citizens' initiative in the Czech Republic, allows access to other data from the basic population register from the population information system, the civil identification system and the travel document registration information system to be specified on the interpretation of Regulation No. 211/2011 on the citizens' initiative at European Union level.
 # text = The Ministry of Interior, as the body responsible for verifying the declaration of support for the citizens' initiative in the Czech Republic, allows access to other data from the basic population register from the population information system, the civil identification system and the travel document registration information system to be specified on the interpretation of Regulation No. 211/2011 on the citizens' initiative at European Union level.
@@ -310,8 +310,8 @@
 19	.	.	PUNCT	.	_	18	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p3.s1
-# align_s = 0-1 1-1 2-2 3-6 4-7 5-9 6-0 7-1 8-1 9-2 13-1 14-4 15-4 16-9 18-16 19-18 20-18 23-18 24-13 27-8 28-10 29-11 30-12 31-15 32-17 33-18 34-20 35-21 36-22 37-23
-# align_t = 1-1 2-2 3-5 6-3 7-4 8-27 9-28 11-29 12-30 15-31 17-31 18-33 20-34 21-35 22-36 23-37 
+# align_s = 0-0 1-1 2-2 3-6 4-7 7-8 8-1 9-2 13-4 14-1 15-2 16-3 18-5 19-8 20-9 23-1 25-2 27-8 28-10 29-11 30-12 31-15 32-17 33-18 34-20 35-21 36-22 37-23
+# align_t = 1-1 2-2 3-5 6-3 7-4 8-27 9-28 11-29 12-30 15-31 17-32 18-33 20-34 21-35 22-36 23-37 
 # source = Předmětný návrh zákona již byl v rámci vládního návrhu zákona, kterým se mění některé zákony v působnosti Ministerstva vnitra v souvislosti s přijetím kontrolního řádu, projednán v prvém čtení Poslaneckou sněmovnou v minulém volebním období.
 # initial_translation = The draft law in question has already been discussed in the first reading of the Chamber of Deputies during the previous parliamentary term.
 # text = The draft law in question has already been discussed in the first reading of the Chamber of Deputies during the previous parliamentary term.
@@ -341,8 +341,8 @@
 24	.	.	PUNCT	.	_	23	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p3.s2
-# align_s = 1-1 2-3 3-6 5-7 6-8 7-9 9-11 10-13
-# align_t = 0-1 3-2 6-3 7-4 8-6 9-7 10-8 11-8 12-9 13-10 
+# align_s = 1-0 2-3 3-6 5-7 6-8 7-9 9-11 10-13
+# align_t = 0-1 3-2 6-3 7-4 8-6 9-7 10-8 12-9 13-10 
 # source = Z důvodu rozpuštění Sněmovny k jeho dalšímu projednání již nedošlo.
 # initial_translation = Due to the dissolution of the House no further discussion has taken place.
 # text = Due to the dissolution of the House no further discussion has taken place.
@@ -362,8 +362,8 @@
 14	.	.	PUNCT	.	_	13	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p4.s1
-# align_s = 0-0 1-1 2-3 3-4 4-7 5-8 6-9 7-10 8-12 9-14 10-15 11-16 12-17 13-18 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-28 22-29 23-30 24-31 25-32 26-34 28-35 29-36 30-37 31-38 32-40 33-43 34-44 35-45 36-46 37-48 38-49 39-50 40-53 41-55 42-56 43-57 44-58 45-60 47-61 48-62 49-63 54-64 55-65 56-66 57-67 58-69 59-70 60-71 61-74
-# align_t = 0-0 1-1 3-2 4-3 7-4 8-5 9-6 10-7 12-8 14-9 15-10 16-11 17-12 18-13 20-14 21-15 22-16 23-17 24-18 25-19 26-20 28-21 29-22 30-23 31-24 32-25 34-26 35-28 36-29 37-30 38-31 40-32 43-33 44-34 45-35 46-36 48-37 49-38 50-39 53-40 54-40 55-41 56-42 57-43 58-44 59-44 60-45 61-47 62-48 63-49 64-54 65-55 66-56 68-57 69-58 70-59 71-60 72-59 73-60 74-61 
+# align_s = 0-0 1-1 2-3 3-4 4-7 5-8 6-9 7-10 8-12 9-14 10-15 11-16 12-17 13-18 14-20 15-21 16-22 17-23 18-24 19-25 20-26 21-28 22-29 23-30 24-31 25-32 26-34 28-35 29-36 30-37 31-38 32-40 33-43 34-44 35-45 36-46 37-48 38-49 39-50 40-53 41-55 42-56 43-57 44-58 45-60 47-61 48-62 49-63 55-65 56-66 57-67 58-69 59-70 60-71 61-74
+# align_t = 0-0 1-1 3-2 4-3 7-4 8-5 9-6 10-7 12-8 14-9 15-10 16-11 17-12 18-13 20-14 21-15 22-16 23-17 24-18 25-19 28-21 29-22 30-23 31-24 32-25 34-26 35-28 36-29 37-30 38-31 40-32 43-33 44-34 45-35 46-36 48-37 49-38 50-39 53-40 54-40 55-41 56-42 57-43 58-44 59-44 60-45 61-47 62-48 63-49 64-54 65-55 66-56 67-57 69-58 70-59 71-60 72-59 73-60 74-61 
 # source = S ohledem na cíle návrhu zákona, tedy sjednocení jeho terminologie a postupu s kontrolním řádem, který, jak jsem již uvedl, nabývá účinnosti 1. ledna 2014, a zajištění potřebných prostředků k posuzování prohlášení o podpoře občanské iniciativy, přičemž občanské iniciativy jsou již organizovány, je třeba, aby navrhovaný zákon nabyl účinnosti co nejdříve.
 # initial_translation = In view of the objectives of the draft law, namely the harmonisation of its terminology and procedure with the control order, which, as I have already said, takes effect on 1 January 2014, and the provision of the necessary means to assess the declaration of support for the citizens' initiative, with citizens' initiatives already organised, the proposed law should become effective as soon as possible.
 # text = In view of the objectives of the draft law, namely the harmonisation of its terminology and procedure with the control order, which, as I have already said, takes effect on 1 January 2014, and the provision of the necessary means to assess the declaration of support for the citizens' initiative, with citizens' initiatives already organised, the proposed law should become effective as soon as possible.
@@ -444,8 +444,8 @@
 75	.	.	PUNCT	.	_	74	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u2.p4.s2
-# align_s = 0-0 1-1 2-2 3-5 4-7 5-10 6-12 7-13 9-15 10-16 11-17 12-17 13-14 15-18 16-19 17-20 18-21
-# align_t = 0-0 1-1 2-2 5-3 7-4 10-5 12-6 14-7 15-9 16-10 17-12 18-15 19-16 20-17 21-18 
+# align_s = 0-0 1-1 2-2 3-5 4-7 5-10 6-12 7-14 9-15 10-16 11-17 12-17 15-18 16-19 17-20 18-21
+# align_t = 0-0 1-1 2-2 5-3 7-4 10-5 12-6 14-13 15-9 16-10 17-12 18-15 19-16 20-17 21-18 
 # source = Z tohoto důvodu vláda navrhuje Poslanecké sněmovně vyslovit i s tímto návrhem zákona souhlas již v prvním čtení.
 # initial_translation = For this reason, the government is proposing to the Chamber of Deputies to agree with this bill at first reading.
 # text = For this reason, the government is proposing to the Chamber of Deputies to agree with this bill at first reading.
@@ -486,8 +486,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u3.p1.s1
-# align_s = 0-0 1-1 2-3 3-4 4-5 5-6 6-9 7-10 8-12 9-15 10-16 11-17 12-18 13-19 14-20 16-21 17-23 18-24 19-22 20-26 21-27 22-28 23-29 24-30
-# align_t = 0-0 1-0 2-1 3-2 4-3 5-4 6-5 9-6 10-7 12-8 15-9 16-10 17-11 18-12 19-13 20-14 21-15 22-16 23-17 24-18 25-19 26-20 27-21 28-22 29-23 30-24 
+# align_s = 0-0 1-1 2-3 3-4 4-5 5-6 6-9 7-10 8-12 9-15 10-16 11-17 13-19 14-20 16-21 17-23 18-24 19-22 20-26 21-27 22-28 23-29 24-30
+# align_t = 0-0 1-0 2-1 3-2 4-3 5-4 6-5 9-6 10-7 12-8 15-9 16-10 17-11 18-12 19-13 20-14 21-16 22-19 24-18 25-19 26-20 27-21 28-22 29-23 30-24 
 # source = Děkuji panu ministru Martinu Pecinovi a nyní požádám předsedu kontrolního výboru pana poslance Vladimíra Koníčka, aby nám navrhl zpravodaje pro prvé čtení.
 # initial_translation = Thank you to Minister Martin Pecin and I will now ask the chairman of the Supervisory Committee of Mr Vladimír Koniček to propose to us the rapporteur for first reading.
 # text = Thank you to Minister Martin Pecin and I will now ask the chairman of the Supervisory Committee of Mr Vladimír Koníček to propose to us the rapporteur for first reading.
@@ -524,7 +524,7 @@
 31	.	.	PUNCT	.	_	30	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u3.p1.s2
-# align_s = 0-1 1-0 2-2 3-4 4-6 5-7
+# align_s = 0-0 1-1 2-2 3-4 4-6 5-7
 # align_t = 0-0 1-1 2-2 3-3 4-3 6-4 7-5 
 # source = Pane předsedo, máte slovo.
 # initial_translation = Prime Minister, you have the floor.
@@ -540,7 +540,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u4.p1.s1
 # align_s = 1-0 2-1 3-4 4-7 5-8 6-9 7-10 9-11 10-12 11-13
-# align_t = 0-1 1-2 2-2 3-2 4-3 7-4 8-5 9-6 10-8 11-9 12-10 13-11 
+# align_t = 0-1 1-2 2-2 3-2 4-3 6-4 7-5 9-6 10-8 11-9 12-10 13-11 
 # source = Vážený pane místopředsedo, dovoluji si navrhnout pana poslance Vladimíra Koníčka.
 # initial_translation = Mr Vice-President, I would like to propose Mr Vladimír Koniček.
 # text = Mr Vice-President, I would like to propose Mr Vladimír Koníček.
@@ -569,8 +569,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p1.s2
-# align_s = 0-0 1-1 3-5 4-6 5-7 6-8
-# align_t = 0-0 3-1 4-2 5-3 6-4 7-5 8-6 
+# align_s = 0-0 1-3 2-4 3-5 4-6 5-7 6-8
+# align_t = 0-0 4-2 5-3 6-4 7-5 8-6 
 # source = Takže rozhodneme v hlasování číslo 37.
 # initial_translation = So we're going to vote number 37.
 # text = So we're going to vote number 37.
@@ -631,7 +631,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p2.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 7-5 8-6 9-7 10-8 11-9 12-10 13-12
+# align_s = 0-0 1-1 2-2 3-3 4-4 7-5 8-6 9-7 10-8 11-9 12-11 13-12
 # align_t = 0-0 1-1 2-2 3-3 4-4 5-7 6-8 7-9 8-10 9-11 10-12 11-12 12-13 
 # source = Hlasování pořadové číslo 37, z přítomných 173 pro 123, proti nikdo.
 # initial_translation = Voting order number 37, 173 for 123, against no one.
@@ -679,8 +679,8 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u5.p3.s1
-# align_s = 0-0 2-1 3-2 5-5 6-6 7-8 8-10 9-11 10-12
-# align_t = 0-0 1-2 2-3 3-4 5-5 6-6 8-7 9-6 10-8 11-9 12-10 
+# align_s = 0-0 2-1 3-2 5-5 6-9 7-8 8-10 9-11 10-12
+# align_t = 0-0 1-2 2-3 3-4 5-5 6-6 7-6 8-7 9-6 10-8 11-9 12-10 
 # source = Ale ještě před ním pan předseda klubu ODS Zbyněk Stanjura.
 # initial_translation = But before him, the chairman of the ODS Club Zbyněk Stanjura.
 # text = But before him, the chairman of the ODS Club Zbyněk Stanjura.
@@ -727,8 +727,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u6.p1.s2
-# align_s = 0-0 1-1 2-2 3-5 4-7 5-8 6-8 7-9 10-10 11-11 12-12 13-13 14-14 15-16 16-18 17-19 18-21 19-22
-# align_t = 0-0 1-1 2-2 4-3 5-3 7-4 8-5 9-7 10-10 11-11 12-12 13-13 14-14 16-15 18-16 19-17 21-18 22-19 
+# align_s = 0-0 1-1 2-2 3-5 4-7 5-5 6-8 7-9 10-10 11-11 12-12 13-13 14-14 15-16 16-18 17-19 18-21 19-22
+# align_t = 0-0 1-1 2-2 4-3 5-3 7-4 8-6 9-7 10-10 11-11 12-12 13-13 14-14 16-15 18-16 19-17 21-18 22-19 
 # source = Já bych chtěl jménem dvou poslaneckých klubů, a to ODS a TOP 09, vetovat projednávání v devadesátce.
 # initial_translation = I would like, on behalf of two MPs, ODS and TOP 09, to veto the negotiations in the '90s.
 # text = I would like, on behalf of two MPs, ODS and TOP 09, to veto the negotiations in the '90s.
@@ -767,7 +767,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u7.p1.s1
-# align_s = 0-0 1-1 2-4 3-5 4-7 5-9
+# align_s = 0-0 1-1 2-4 3-8 4-7 5-9
 # align_t = 0-0 1-0 2-1 4-2 5-3 7-4 8-3 9-5 
 # source = Děkuji panu předsedovi klubu ODS.
 # initial_translation = Thank you to the chairman of the ODS Club.
@@ -784,8 +784,8 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u7.p1.s2
-# align_s = 1-1 2-2 3-3 4-0 5-5 7-6 8-8 10-10 11-12 12-13 13-14 14-15 15-16 16-18 17-21 18-22 19-23
-# align_t = 0-0 1-1 2-2 3-3 5-5 6-7 7-9 8-8 10-10 12-11 13-12 14-13 15-14 16-15 18-16 21-17 22-18 23-19 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-8 9-7 10-10 11-12 12-13 13-14 14-15 15-16 16-18 17-21 18-22 19-23
+# align_t = 0-0 1-1 2-2 3-3 5-5 6-7 8-8 9-9 10-10 12-11 13-12 14-13 15-14 17-15 18-16 21-17 22-18 23-19 
 # source = Pan kolega Miroslav Kalousek mi potvrdil, že je to souhlas dvou klubů, takže budeme postupovat standardním způsobem.
 # initial_translation = My colleague Miroslav Kalousek has confirmed that this is the agreement of two clubs, so we will proceed in the standard way.
 # text = My colleague Miroslav Kalousek has confirmed that this is the agreement of two clubs, so we will proceed in the standard way.
@@ -834,8 +834,8 @@
 12	.	.	PUNCT	.	_	11	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u8.p1.s1
-# align_s = 1-0 2-1 3-4 4-5 7-6 8-7 9-8 10-10 11-12 12-14 13-14 15-15 17-15 18-16 19-17 21-18 22-19 23-18 24-19 26-20 27-21 28-23 29-24 30-26 31-27
-# align_t = 0-0 1-2 2-2 3-2 4-3 5-4 6-7 7-8 8-9 10-10 12-11 14-13 15-17 16-18 17-19 18-21 19-24 20-26 21-27 23-28 24-29 25-29 26-30 27-31 
+# align_s = 0-0 2-1 3-4 4-5 5-5 7-6 8-7 9-8 10-10 11-12 12-14 13-14 15-15 17-15 18-16 19-17 21-18 22-19 23-18 24-19 26-20 27-21 28-23 29-24 30-26 31-27
+# align_t = 0-0 1-2 2-2 3-2 4-3 5-4 6-7 7-8 8-9 10-10 12-11 14-13 15-17 16-18 17-19 18-23 19-24 20-26 21-27 23-28 24-29 25-29 26-30 27-31 
 # source = Vážený pane místopředsedo, vážené paní kolegyně a kolegové, vláda předložila návrh zákona, kterým se mění zákon č. 191/2012 Sb., o evropské občanské iniciativě.
 # initial_translation = Dear Vice-President, ladies and gentlemen, the Government has tabled a bill amending Law No. 191/2012 Coll., on the European citizens' initiative.
 # text = Dear Vice-President, ladies and gentlemen, the Government has tabled a bill amending Law No. 191/2012 Coll., on the European citizens' initiative.
@@ -869,7 +869,7 @@
 28	.	.	PUNCT	.	_	27	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u8.p1.s2
-# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 7-7 9-8 10-10 11-11 12-12 13-14 14-16 15-18 16-21 17-23 18-24 19-25 20-26 23-27 24-28 25-29 26-31 27-32 28-33 29-34 30-35 31-38 32-40 33-41 34-42 35-43 36-45 37-46 38-47 39-49 40-51 41-52 42-53
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 8-7 9-8 10-10 11-11 12-12 13-14 14-16 15-18 16-21 17-23 18-24 19-25 20-26 23-27 24-28 25-29 26-31 27-32 28-33 29-34 30-35 31-38 32-40 33-41 34-42 35-43 36-45 37-46 38-47 39-49 40-51 41-52 42-53
 # align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-8 8-9 10-10 11-11 12-12 14-13 16-14 18-15 21-16 23-17 24-18 25-19 26-20 27-23 28-24 29-25 31-26 32-27 33-28 34-29 35-30 38-31 40-32 41-33 42-34 43-35 45-36 46-37 47-38 49-39 51-40 52-41 53-42 
 # source = Návrh má jenom dva články, z toho ten druhý je účinnost a první upravuje přístup Ministerstva vnitra k registrům, a to k základnímu registru obyvatel, k informačnímu systému evidence obyvatel, k evidenci občanských průkazů a evidenci cestovních dokladů.
 # initial_translation = The proposal has only two articles, the other one is effective and the first one regulates the access of the Ministry of Interior to registers, the basic register of residents, the information system for the registration of residents, the registration of civil documents and the registration of travel documents.
@@ -930,7 +930,7 @@
 54	.	.	PUNCT	.	_	53	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u8.p1.s3
-# align_s = 0-1 1-2 2-3 3-4 4-5 5-9 6-6 7-7 8-11 9-12 11-13 12-16 13-20 14-21 15-22 16-23 17-24
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-9 6-6 7-7 8-11 9-12 11-13 12-14 13-20 14-21 15-22 16-23 17-24
 # align_t = 1-0 2-1 3-2 4-3 5-4 6-6 7-7 9-5 11-8 12-9 13-11 16-12 20-13 21-14 22-15 23-16 24-17 
 # source = Celý návrh je kratší než vystoupení pana ministra a já ho doporučuji postoupit výborům k dalšímu projednání.
 # initial_translation = The whole proposal is shorter than the Minister's speech, and I recommend that he refer it to the committees for further consideration.
@@ -1009,7 +1009,7 @@
 7	.	.	PUNCT	.	_	6	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u9.p1.s3
-# align_s = 0-0 1-1 2-2 3-2 4-3 5-5 6-7 7-8 8-10 9-11 10-12
+# align_s = 0-0 1-1 3-2 4-3 5-5 6-7 7-8 8-10 9-11 10-12
 # align_t = 0-0 1-1 2-3 3-4 4-5 5-5 7-6 8-7 10-8 11-9 12-10 
 # source = Prosím, pane ministře, máte slovo v obecné rozpravě.
 # initial_translation = Please, Minister, you have the floor in the general debate.
@@ -1045,7 +1045,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u10.p1.s2
 # align_s = 0-0 1-1 2-2 3-4 4-5 5-7 6-11 7-12 8-13 9-14 10-15
-# align_t = 0-0 1-1 2-2 4-3 5-4 6-4 7-5 10-6 11-6 12-7 13-8 14-9 15-10 
+# align_t = 0-0 1-1 2-2 4-3 5-4 7-5 11-6 12-7 13-8 14-9 15-10 
 # source = Já bych chtěl požádat o zkrácení lhůt na 30 dní.
 # initial_translation = I would like to ask for a reduction in the time limit to 30 days.
 # text = I would like to ask for a reduction in the time limit to 30 days.
@@ -1076,8 +1076,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p1.s2
-# align_s = 3-2 4-4 5-8 6-9 7-10 8-13 9-14 10-15 11-16
-# align_t = 1-2 2-3 4-4 7-5 8-5 9-6 10-7 11-1 12-0 13-8 14-9 15-10 16-11 
+# align_s = 0-12 1-11 2-1 3-2 4-4 5-8 6-9 7-10 8-13 9-14 10-15 11-16
+# align_t = 1-2 4-4 7-5 8-5 9-6 10-7 11-1 12-5 13-8 14-9 15-10 16-11 
 # source = Padl tedy návrh na zkrácení lhůty k projednání na 30 dnů.
 # initial_translation = The proposal for a reduction of the time limit for discussion therefore fell to 30 days.
 # text = The proposal for a reduction of the time limit for discussion therefore fell to 30 days.
@@ -1210,7 +1210,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p3.s1
 # align_s = 0-0 1-2 2-3 3-4 4-6 5-7 6-8 7-9 8-10 9-11 10-13 11-14
-# align_t = 0-0 2-1 3-2 4-3 6-4 7-5 8-6 9-7 10-8 11-9 13-10 14-11 
+# align_t = 1-0 2-1 3-2 4-3 6-4 7-5 8-6 9-7 10-8 11-9 13-10 14-11 
 # source = Budeme tedy hlasovat v hlasování číslo 38, které jsem zahájil.
 # initial_translation = We will therefore vote in the vote number 38, which I have begun.
 # text = We will therefore vote in the vote number 38, which I have begun.
@@ -1273,8 +1273,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p4.s1
-# align_s = 0-0 1-2 3-3 5-4 6-5 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-15
-# align_t = 0-0 2-1 3-2 4-5 5-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-13 15-14 
+# align_s = 0-0 1-2 3-3 5-4 6-5 7-7 8-8 9-9 10-10 11-11 12-12 13-14 14-15
+# align_t = 0-0 2-1 3-2 4-5 5-6 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-13 15-14 
 # source = V hlasování číslo pořadové číslo 38 z přítomných 172 133 pro, proti nikdo.
 # initial_translation = In the vote number 38 of the present 172 133 pros, against no one.
 # text = In the vote number 38 of the present 172 133 pros, against no one.
@@ -1308,7 +1308,7 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p5.s1
-# align_s = 0-0 1-1 2-2 3-4 4-7 6-8 7-9 8-10 9-12 12-13 14-15 15-16 17-22 18-23 19-24 20-18 21-19 22-21 23-27 24-28 25-29 26-31 27-33 28-35 30-36 31-37 32-38 33-40
+# align_s = 0-0 1-1 2-2 3-4 4-7 6-9 8-10 9-12 12-13 14-15 15-16 17-22 18-24 19-26 20-18 21-19 22-21 23-27 24-28 25-30 26-31 27-33 28-35 30-36 31-37 32-38 33-40
 # align_t = 0-0 1-1 2-2 4-3 7-4 8-6 9-7 10-8 12-9 13-12 14-13 15-14 16-15 17-16 18-20 19-21 21-22 22-17 24-18 26-19 27-23 28-24 31-26 33-27 35-28 36-30 37-31 38-32 40-33 
 # source = V tomto ohledu tedy musím ještě upozornit, že návrh, který předložil pan ministr Pecina, podle jednacího řádu předkládají pouze poslanci, takže budu muset otevřít rozpravu, pokud někdo vystoupí.
 # initial_translation = In this respect, therefore, I must point out that the proposal tabled by Minister Pecina is submitted only by Members under the Rules of Procedure, so I will have to open the debate if anyone comes forward.
@@ -1356,8 +1356,8 @@
 41	.	.	PUNCT	.	_	40	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u11.p5.s2
-# align_s = 1-3 2-1 3-6 4-7 5-8 6-5 7-9 8-10 9-12 10-14 11-13 12-15 13-16 14-20 15-22 16-18 17-21 18-24
-# align_t = 1-2 2-0 3-1 5-6 6-3 7-4 8-5 9-7 10-8 13-11 14-10 15-12 16-13 18-16 22-15 23-16 24-18 
+# align_s = 1-3 2-1 3-6 4-7 5-8 6-5 7-9 8-10 9-12 10-14 11-13 12-15 13-16 14-20 15-22 16-18 17-23 18-24
+# align_t = 1-2 2-0 3-1 5-6 6-3 7-4 8-5 9-7 10-8 13-11 14-10 15-12 16-13 18-16 20-14 22-15 23-17 24-18 
 # source = Pan ministr asi s přednostním právem vystoupí a otevře mi znovu rozpravu, protože to jinak neumím zařídit.
 # initial_translation = I think the Minister will speak with priority rights and open up the debate again, because I can't do it any other way.
 # text = I think the Minister will speak with priority rights and open up the debate again, because I can't do it any other way.
@@ -1423,8 +1423,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u13.p1.s2
-# align_s = 0-3 2-4 3-1 4-5 6-7 7-8 8-9 9-10 10-12 11-13 12-14 13-15
-# align_t = 1-3 3-0 4-2 5-4 6-5 7-6 8-7 9-8 10-9 12-10 13-11 14-12 15-13 
+# align_s = 0-3 2-4 3-1 4-5 5-6 6-7 7-8 8-9 9-10 10-12 11-13 12-14 13-15
+# align_t = 1-3 3-0 4-1 5-4 6-5 7-6 8-7 9-8 10-9 12-10 13-11 14-12 15-13 
 # source = Byla znovu otevřena rozprava a pan zpravodaj se hlásí do rozpravy znovu otevřené.
 # initial_translation = The debate has been reopened and the rapporteur is reporting to the debate again open.
 # text = The debate has been reopened and the rapporteur is reporting to the debate again open.
@@ -1493,8 +1493,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p1.s3
-# align_s = 0-0 1-1 2-2 3-3 4-5 6-7 7-8 8-10 9-11 10-12 15-13 16-17 17-15 18-18
-# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 7-6 8-7 10-8 11-9 12-10 13-15 14-16 15-17 17-16 18-18 
+# align_s = 0-0 1-1 2-2 3-3 4-5 6-7 7-8 8-10 9-11 10-12 14-12 16-17 17-15 18-18
+# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 7-6 8-7 10-8 11-9 12-10 13-13 14-16 15-17 17-17 18-18 
 # source = Pokud nemá nikdo jiný zájem o vystoupení ve znovuotevřené rozpravě, není tomu tak, tak rozpravu končím.
 # initial_translation = If no one else is interested in speaking in a reopened debate, I am ending the debate.
 # text = If no one else is interested in speaking in a reopened debate, I am ending the debate.
@@ -1520,7 +1520,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p2.s1
 # align_s = 0-0 1-2 2-3 4-4 5-6 6-9 7-10 8-11 9-12 10-13 11-14 12-15 15-16 16-18 17-20 18-21 19-22 20-23 21-24 22-25 23-27 24-28 25-29 26-31 29-32 30-33 31-35 32-36
-# align_t = 0-0 2-1 3-2 4-4 6-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-15 18-16 20-17 21-18 22-19 23-20 24-21 26-22 27-23 28-24 29-25 30-26 31-27 32-29 33-30 35-31 36-32 
+# align_t = 0-0 2-1 3-2 4-4 6-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-15 18-16 20-17 21-18 22-19 23-20 24-21 25-22 27-23 28-24 29-25 30-26 31-27 32-29 33-30 35-31 36-32 
 # source = Budeme tedy hlasovat ještě o zkrácení lhůty k projednání na 30 dnů, a to v hlasování pořadové číslo 39, které jsem zahájil, a ptám se, kdo je pro.
 # initial_translation = We will therefore vote on a reduction of the deadline for discussion to 30 days, in the vote on order number 39, which I have begun, and I ask who is in favour.
 # text = We will therefore vote on a reduction of the deadline for discussion to 30 days, in the vote on order number 39, which I have begun, and I ask who is in favour.
@@ -1619,8 +1619,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p4.s1
-# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-13 11-14 12-17 13-18 14-20 15-22 16-23 17-24 18-25 19-26 20-27
-# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 12-9 13-10 14-11 16-12 17-12 18-13 19-13 20-14 22-15 23-16 24-17 25-18 26-19 27-20 
+# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-13 11-14 12-16 13-18 14-20 15-22 16-23 17-24 18-25 19-26 20-27
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 12-9 13-10 14-11 17-12 18-13 20-14 22-15 23-16 24-17 25-18 26-19 27-20 
 # source = Konstatuji, že tento návrh byl přikázán k projednání kontrolnímu výboru a lhůta k projednání byla zkrácena na 30 dnů.
 # initial_translation = I note that this proposal has been ordered for discussion by the Supervisory Committee and the time limit for the hearing has been reduced to 30 days.
 # text = I note that this proposal has been ordered for discussion by the Supervisory Committee and the time limit for the hearing has been reduced to 30 days.
@@ -1655,7 +1655,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-015-024.u15.p4.s2
 # align_s = 0-0 1-1 2-4 3-7 4-8 5-9 6-10 7-13 8-14 9-15 10-16 11-17 12-18
-# align_t = 0-0 1-0 3-1 4-2 7-3 8-4 9-5 10-5 11-6 13-7 14-8 15-9 16-10 17-11 18-12 
+# align_t = 0-0 1-0 2-1 4-2 7-3 8-4 9-5 10-5 11-6 13-7 14-8 15-9 16-10 17-11 18-12 
 # source = Děkuji panu ministrovi vnitra, děkuji panu zpravodaji a končím tento bod.
 # initial_translation = Thank you to the Minister of the Interior, thank you to the rapporteur and end this point.
 # text = Thank you to the Minister of the Interior, thank you to the rapporteur and end this point.

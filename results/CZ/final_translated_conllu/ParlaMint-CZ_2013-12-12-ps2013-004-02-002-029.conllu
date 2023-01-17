@@ -8,8 +8,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u1.p1.s2
-# align_s = 0-0 1-1 3-3 6-4 7-7 8-8 9-10 10-11 11-13 12-14 13-16 14-19 15-20 16-22 17-25 18-26 19-27 20-29 21-32 22-34 23-35 24-37 25-39 26-40 27-41 28-42 32-43 33-44 34-45 35-46 36-47 38-48 39-49 40-50 41-51 42-52 43-53 44-54 45-55 46-56 47-57
-# align_t = 0-0 1-1 2-2 3-3 4-6 7-7 8-8 10-9 11-10 12-10 13-11 14-12 16-13 19-14 20-15 22-16 25-17 26-18 27-19 29-20 32-21 34-22 35-23 37-24 39-25 40-26 41-27 42-28 43-32 44-33 45-34 46-35 47-36 48-38 49-39 50-40 51-41 52-42 53-43 54-44 55-45 56-46 57-47 
+# align_s = 0-0 1-1 2-2 3-3 6-4 7-7 8-8 9-10 10-11 11-13 12-14 13-16 14-19 15-20 16-22 17-25 18-26 19-27 20-29 21-34 22-34 23-35 24-37 25-39 26-40 27-41 28-42 32-43 33-44 34-45 35-46 36-47 38-48 39-49 40-50 41-51 42-52 43-53 44-54 45-55 46-56 47-57
+# align_t = 0-0 1-1 2-2 3-3 4-6 7-7 8-8 10-9 11-10 12-10 13-11 14-12 15-12 16-13 19-14 20-15 22-16 25-17 26-18 27-19 29-20 32-22 34-21 35-23 37-24 39-25 40-26 41-27 42-28 43-32 44-33 45-34 46-35 47-36 48-38 49-39 50-40 51-41 52-42 53-43 54-44 55-45 56-46 57-47 
 # source = Vládní návrh, kterým se předkládá Parlamentu České republiky k vyslovení souhlasu s ratifikací Dohoda mezi vládou České republiky a vládou Andorrského knížectví o výměně informací v daňových záležitostech, která byla podepsána v Madridu dne 11. června 2013 /sněmovní tisk 15/ - prvé čtení
 # initial_translation = Government proposal by which Parliament of the Czech Republic is to give its consent to the ratification of the Agreement between the Government of the Czech Republic and the Government of the Principality of Andorra on the exchange of information in tax matters signed in Madrid on 11 June 2013 /German press 15/ - First reading
 # text = Government proposal by which Parliament of the Czech Republic is to give its consent to the ratification of the Agreement between the Government of the Czech Republic and the Government of the Principality of Andorra on the exchange of information in tax matters signed in Madrid on 11 June 2013 /German press 15/ - First reading
@@ -73,7 +73,7 @@
 58	reading	reading	NOUN	NN	Number=Sing	57	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u1.p2.s1
-# align_s = 0-3 1-4 2-5 3-6 4-7 5-9 6-10
+# align_s = 0-3 1-4 2-5 3-6 4-7 5-7 6-10
 # align_t = 0-3 1-3 3-0 4-1 5-2 7-4 9-5 10-6 
 # source = Sněmovní tisk 15 máte před sebou.
 # initial_translation = You have the House press 15 in front of you.
@@ -91,17 +91,17 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u1.p2.s2
-# align_s = 0-0 2-1 3-2 4-3 5-4 6-6 7-9 8-11 9-13 10-14 11-16 12-17 13-19 16-20 17-21 18-22
-# align_t = 1-0 2-2 3-4 4-5 6-6 9-7 11-8 13-9 14-9 15-10 16-11 17-12 19-13 20-16 21-17 22-18 
+# align_s = 0-1 3-2 4-3 5-4 6-6 7-9 8-11 9-13 10-14 11-16 12-17 13-19 16-20 17-21 18-22
+# align_t = 1-0 2-2 3-3 4-5 6-6 9-7 11-8 13-9 14-9 15-10 16-11 17-12 19-13 20-16 21-17 22-18 
 # source = Žádám, aby uvedený návrh přednesl Poslanecké sněmovně místopředseda vlády a ministr financí v demisi Jan Fischer.
 # initial_translation = I ask that this proposal be presented to the Chamber of Deputies by Deputy Prime Minister and Minister of Finance Jan Fischer.
-# text = žádat ask that this proposal be presented to the Chamber of Deputies by Deputy Prime Minister and Minister of Finance Jan Fischer.
-1	žádat	žádat	PROPN	NNP	Number=Sing	0	_	_	NER=B-PER
-2	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	NER=O
+# text = I ask that this proposal be presented to the Chamber of Deputies by Deputy Prime Minister and Minister of Finance Jan Fischer.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	NER=O
+2	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	NER=O
 3	that	that	SCONJ	IN	_	2	_	_	NER=O
 4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	NER=O
 5	proposal	proposal	NOUN	NN	Number=Sing	4	_	_	NER=O
-6	be	be	AUX	VB	Mood=Ind|Tense=Pres|VerbForm=Fin	5	_	_	NER=O
+6	be	be	AUX	VB	Mood=Ind|VerbForm=Fin	5	_	_	NER=O
 7	presented	present	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	NER=O
 8	to	to	ADP	IN	_	7	_	_	NER=O
 9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	NER=O
@@ -136,8 +136,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p1.s2
-# align_s = 0-0 1-1 2-2 3-3 6-4 7-5 8-6 9-7 10-8 13-9 14-10 15-12 16-13 18-15 20-16 21-17 22-19 23-22 24-25 25-26 26-29 27-30 28-32 29-33 30-34 31-36 32-37 33-39 34-42 35-43 36-44 37-46 38-49 39-51 40-52 41-54 42-56 43-57 44-58 45-59 46-60
-# align_t = 0-0 1-1 2-2 3-3 4-5 5-7 6-8 7-9 8-10 9-12 10-14 12-15 13-16 14-17 15-18 17-21 19-22 22-23 25-24 26-25 27-19 28-20 29-26 30-27 31-27 32-28 33-29 34-30 36-31 37-32 39-33 42-34 43-35 44-36 46-37 49-38 51-39 52-40 54-41 56-42 57-43 58-44 59-45 60-46 
+# align_s = 0-0 1-1 3-3 4-5 5-2 6-4 8-6 9-7 10-8 13-9 14-10 15-12 16-13 17-14 18-15 20-16 21-17 22-19 23-22 24-25 25-26 26-29 27-30 28-32 29-33 30-34 31-36 32-37 33-39 34-42 35-43 36-44 37-46 38-49 39-51 40-52 41-54 42-56 43-57 44-58 45-59 46-60
+# align_t = 0-0 1-1 2-2 3-3 4-5 5-6 6-8 7-9 8-10 9-12 10-14 12-15 13-16 14-17 15-18 17-21 19-22 22-23 25-24 26-25 29-26 30-27 31-27 32-28 33-29 34-30 36-31 37-32 39-33 42-34 43-35 44-36 46-37 48-38 49-39 51-38 52-40 54-41 56-42 57-43 58-44 59-45 60-46 
 # source = Pane předsedající, paní poslankyně, páni poslanci, dovolte mi, abych odůvodnil vládní návrh, kterým se předkládá Poslanecké sněmovně Parlamentu České republiky k vyslovení souhlasu s ratifikací Dohoda mezi vládou České republiky a vládou Andorrského knížectví o výměně informací v daňových záležitostech.
 # initial_translation = Mr President, ladies and gentlemen, allow me to justify the Government proposal by which the Chamber of Deputies of the Parliament of the Czech Republic is presented to express its agreement to ratify the Agreement between the Government of the Czech Republic and the Government of the Principality of Andorra on the exchange of information on tax matters.
 # text = Mr President, ladies and gentlemen, allow me to justify the Government proposal by which the Chamber of Deputies of the Parliament of the Czech Republic is presented to express its agreement to ratify the Agreement between the Government of the Czech Republic and the Government of the Principality of Andorra on the exchange of information on tax matters.
@@ -224,7 +224,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p1.s4
 # align_s = 0-3 1-5 2-6 3-0 4-2 5-9 6-12 7-13 8-15 9-16 10-17 11-18 12-19 13-21 14-24 15-26 16-28 17-29 18-30 19-31 20-32 21-33 22-34
-# align_t = 0-3 2-4 3-0 5-1 6-2 9-5 12-6 13-7 15-8 16-9 17-10 18-11 19-12 21-13 24-14 26-15 28-16 29-17 30-18 31-19 32-20 33-21 34-22 
+# align_t = 0-3 2-4 3-0 5-1 6-2 9-5 12-6 13-7 15-8 16-9 17-10 18-11 19-12 21-13 23-14 24-15 26-14 28-16 29-17 30-18 31-19 32-20 33-21 34-22 
 # source = Za Českou republiku ji podepsal velvyslanec České republiky pan Karel Beran, za vládu Andorrského knížectví její velvyslanec pan Jaume Gaytan Sansa.
 # initial_translation = It was signed for the Czech Republic by the Ambassador of the Czech Republic, Mr Karel Beran, for the Government of the Principality of Andorra by her Ambassador Mr Jaume Gaytan Sansa.
 # text = It was signed for the Czech Republic by the Ambassador of the Czech Republic, Mr Karel Beran, for the Government of the Principality of Andorra by her Ambassador Mr Jaume Gaytan Sansa.
@@ -266,7 +266,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p2.s1
 # align_s = 0-5 1-6 2-0 3-1 4-2 5-8 7-9 8-11 9-13 10-15 11-16 12-17 13-19 14-20 15-21 16-24 17-26 18-28 19-29 20-33 22-34 23-35 24-36 25-37 26-40 27-41 28-42 29-44 30-46 31-47 32-48 33-49 34-51 35-52 36-54 37-56 38-57 39-59 40-60 41-62 42-64 43-65 44-63 45-66 46-67 47-69 48-70 49-71 50-72 51-74 52-76 53-77 54-78
-# align_t = 0-2 1-3 2-4 5-0 6-1 8-5 9-7 11-8 13-9 15-10 16-11 17-12 19-13 20-14 21-15 24-16 26-17 28-18 29-19 32-20 33-20 34-22 35-23 36-24 37-25 40-26 41-27 42-28 44-29 46-30 47-31 48-32 49-33 51-34 52-35 54-36 56-37 57-38 59-39 60-40 62-41 63-44 64-42 65-43 66-45 67-46 69-47 70-48 71-49 72-50 74-51 76-52 77-53 78-54 
+# align_t = 0-2 1-3 2-4 3-6 5-0 6-1 8-5 9-7 11-8 13-9 15-10 16-11 17-12 19-13 20-14 21-15 24-16 26-17 28-18 29-19 31-20 32-20 33-20 34-22 35-23 36-24 37-25 40-26 41-27 42-28 44-29 46-30 47-31 48-32 49-33 51-34 52-35 54-36 56-37 57-38 59-39 60-40 62-41 63-44 64-42 65-43 66-45 67-46 69-47 70-48 71-49 72-50 74-51 76-52 77-53 78-54 
 # source = Je vhodné v této souvislosti připomenout, že Ministerstvo financí ve spolupráci s Generálním finančním ředitelstvím vede řadu jednání s tzv. daňovými ráji, která prozatím vyústila ve sjednání třinácti konečných návrhů textů dohod o výměně daňových informací včetně této, z nichž sedm je již platných a vyhlášených ve Sbírce mezinárodních smluv.
 # initial_translation = In this context, it is appropriate to recall that the Ministry of Finance, in cooperation with the General Financial Directorate, is conducting a number of negotiations with the so-called tax havens, which have so far resulted in the negotiation of 13 final draft texts of agreements on the exchange of tax information, including this one, seven of which are already in force and announced in the Collection of International Treaties.
 # text = In this context, it is appropriate to recall that the Ministry of Finance, in cooperation with the General Financial Directorate, is conducting a number of negotiations with the so-called tax havens, which have so far resulted in the negotiation of 13 final draft texts of agreements on the exchange of tax information, including this one, seven of which are already in force and announced in the Collection of International Treaties.
@@ -371,8 +371,8 @@
 13	.	.	PUNCT	.	_	12	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p2.s3
-# align_s = 1-0 2-3 3-4 4-6 5-8 6-10 7-11 8-13 9-14 10-16 11-15 14-17 16-18 17-19 18-20 20-21 21-27 22-28 23-29 24-23 25-24 26-25 27-32 28-34 29-35 30-36 31-37 32-38 34-39 35-40 36-41 37-42 38-46 39-47 40-48 41-51 42-52 43-53 45-54 46-55 47-56 48-57 49-58
-# align_t = 0-1 2-0 3-2 4-3 6-4 8-5 10-6 11-7 13-8 14-9 15-11 16-10 17-14 18-16 19-17 20-18 21-20 22-23 23-24 24-25 25-26 27-21 28-22 29-23 32-27 34-28 35-29 36-30 37-31 38-32 39-33 40-35 41-36 42-37 44-15 45-16 46-38 47-39 48-40 51-41 52-42 53-43 54-45 55-46 56-47 57-48 58-49 
+# align_s = 1-0 2-3 3-4 4-6 5-8 6-10 7-11 8-13 9-14 10-16 11-15 15-17 16-18 17-19 18-20 20-21 21-27 22-28 23-29 24-23 25-24 26-25 27-32 28-34 29-35 30-36 31-37 32-38 33-39 35-40 36-41 37-42 38-46 39-47 40-48 41-51 42-52 43-53 45-54 46-55 47-56 48-57 49-58
+# align_t = 0-1 2-0 4-2 5-3 6-4 8-5 10-6 11-7 13-8 14-9 15-11 16-10 17-14 18-16 19-17 20-18 21-20 23-24 24-25 25-26 27-21 28-22 29-23 32-26 34-28 35-29 36-30 37-31 38-32 39-33 40-35 41-36 42-37 46-38 47-39 48-40 51-41 52-42 53-43 54-45 55-46 56-47 57-48 58-49 
 # source = To vše s cílem posílit systém mezinárodní výměny informací ve věcech daňových tak, aby pokrýval také jurisdikce, které svým daňovým režimem ne zcela vyhovují principům spravedlivé daňové soutěže a které tak umožňují snižování daňových příjmů v ostatních státech mezinárodního společenství, tedy i v České republice.
 # initial_translation = All of this in order to strengthen the system of international exchange of information in tax matters to cover also jurisdictions that do not fully comply with their tax regime with the principles of fair tax competition and which thus enable tax revenues to be reduced in other states of the international community, including the Czech Republic.
 # text = All of this in order to strengthen the system of international exchange of information in tax matters to cover also jurisdictions that do not fully comply with their tax regime with the principles of fair tax competition and which thus enable tax revenues to be reduced in other states of the international community, including the Czech Republic.
@@ -437,8 +437,8 @@
 59	.	.	PUNCT	.	_	58	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p3.s1
-# align_s = 0-2 1-1 2-3 3-4 4-5 5-6 6-10 7-11 8-12 9-13 10-15 12-16 13-17 14-18 16-19 17-20 18-21 19-22 20-23 21-26 22-25 23-27 24-28 25-29 26-31 27-32 28-34 29-35 30-36
-# align_t = 1-1 3-2 4-3 6-4 7-4 9-5 10-6 11-7 12-8 13-9 14-10 16-12 17-13 18-14 19-16 20-17 21-18 22-19 23-20 25-22 26-21 27-23 28-24 29-25 31-26 32-27 34-28 35-29 36-30 
+# align_s = 0-2 1-1 2-3 3-4 4-6 5-9 6-10 7-11 8-12 9-13 10-15 12-16 13-17 14-18 16-19 17-20 18-21 19-22 20-23 21-26 22-25 23-27 24-28 25-29 26-31 27-32 28-34 29-35 30-36
+# align_t = 1-1 3-2 4-3 6-4 9-5 10-6 11-7 12-8 13-9 14-10 16-12 17-13 18-14 19-16 20-17 21-18 22-19 23-20 25-22 26-21 27-23 28-24 29-25 31-26 32-27 34-28 35-29 36-30 
 # source = Předložená dohoda byla sjednána podle vzorového textu schváleného usnesením vlády č. 227 z 22. března 2010 a plně vyhovuje standardům OECD pro mezinárodní výměnu informací v daňové oblasti.
 # initial_translation = The agreement submitted was negotiated in accordance with a model text approved by Government Order No 227 of 22 March 2010 and fully complies with OECD standards for international exchange of information in the tax field.
 # text = The agreement submitted was negotiated in accordance with a model text approved by Government Order No 227 of 22 March 2010 and fully complies with OECD standards for international exchange of information in the tax field.
@@ -507,7 +507,7 @@
 19	.	.	PUNCT	.	_	18	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p3.s3
-# align_s = 0-0 1-1 3-2 4-3 5-4 6-7 7-9 8-10 9-11 10-12 12-13 13-14 14-15 15-16 16-17 18-19 19-24 20-20 21-21 22-25
+# align_s = 0-0 1-1 3-2 4-3 5-4 6-7 7-9 8-10 9-11 10-12 12-13 13-14 14-15 15-16 16-17 17-18 18-19 19-24 20-20 21-21 22-25
 # align_t = 0-0 1-1 2-3 3-4 4-5 7-6 9-7 10-8 11-9 12-10 13-12 14-13 15-14 16-15 17-16 18-17 19-18 20-20 21-21 24-19 25-22 
 # source = Informace poskytnuté na základě této dohody podléhají daňové mlčenlivosti a mohou se týkat pouze zdaňovacích období následujících po vstupu dohody v platnost.
 # initial_translation = Information provided under this Agreement shall be subject to tax confidentiality and may cover only tax periods following the entry into force of the Agreement.
@@ -540,8 +540,8 @@
 26	.	.	PUNCT	.	_	25	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p4.s1
-# align_s = 0-1 1-3 2-4 3-6 4-7 5-10 6-12 7-14 8-15 9-18 10-19 11-20 12-21 14-22 15-23 16-24 17-25 18-26 19-28 20-29 21-30 22-31 24-32 25-34 26-36 27-37 28-38 29-39 30-41 31-42 32-42 33-43
-# align_t = 1-0 3-1 6-3 7-4 10-5 12-6 14-7 15-8 18-9 19-10 20-11 21-12 22-14 23-15 24-16 25-17 27-18 28-19 29-20 30-21 31-22 32-24 34-25 36-26 37-27 38-28 39-29 41-30 42-31 43-33 
+# align_s = 0-1 1-3 2-4 3-6 4-7 5-11 6-12 7-14 8-15 9-18 10-19 11-20 12-21 14-22 15-23 16-24 17-25 18-26 19-28 20-29 21-30 22-31 24-32 25-34 26-36 27-37 28-38 29-39 30-41 31-42 33-43
+# align_t = 1-0 3-1 6-3 7-4 10-5 12-6 14-7 15-8 18-9 19-10 20-11 21-12 22-14 23-15 24-16 25-17 26-18 27-18 28-19 29-20 30-21 31-22 32-24 34-25 36-26 37-27 38-28 39-29 41-30 42-31 43-33 
 # source = Uzavřením dohody získá Česká republika možnost dožádání příslušného orgánu smluvního státu o informaci, která je předvídatelně významná pro zjištění, stanovení a zajištění úhrady daní včetně vyšetřování nebo stíhání daňových trestných činů.
 # initial_translation = By concluding the agreement, the Czech Republic will be able to request the competent authority of the Contracting State for information that is foreseeablely relevant to the findings, determination and payment of taxes, including investigation or prosecution of tax offences.
 # text = By concluding the agreement, the Czech Republic will be able to request the competent authority of the Contracting State for information that is foreseeablely relevant to the findings, determination and payment of taxes, including investigation or prosecution of tax offences.
@@ -592,7 +592,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p5.s1
 # align_s = 0-1 1-2 3-5 4-6 5-10 6-7 7-4 8-12 13-13 14-15 15-16 16-17 17-18 18-19 19-20
-# align_t = 1-0 2-1 3-2 4-7 5-3 6-4 7-6 9-3 10-5 12-8 15-14 16-15 17-16 18-17 19-18 20-19 
+# align_t = 1-0 2-1 3-2 4-7 5-3 6-4 7-6 9-3 10-5 12-8 14-10 15-14 16-15 17-16 18-17 19-18 20-19 
 # source = Smluvní strany se zavazují na žádost poskytnout také informace, které jsou v držení bank nebo jiných finančních institucí.
 # initial_translation = The Contracting Parties shall also undertake to provide, upon request, information held by banks or other financial institutions.
 # text = The Contracting Parties shall also undertake to provide, upon request, information held by banks or other financial institutions.
@@ -620,7 +620,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p5.s2
 # align_s = 0-1 1-4 2-6 3-8 5-12 7-10 8-11 9-15 10-13 11-17 12-19 13-20 14-22 15-23 16-24 17-25 18-27 19-28
-# align_t = 0-0 1-0 4-1 6-2 8-3 9-4 10-7 11-8 12-5 13-10 14-5 15-9 17-11 19-12 20-13 22-14 23-15 24-16 25-17 27-18 28-19 
+# align_t = 0-0 1-0 4-1 6-2 8-3 9-4 10-7 11-8 12-5 13-10 15-9 17-11 19-12 20-13 22-14 23-15 24-16 25-17 27-18 28-19 
 # source = Kromě možnosti doměření daně tak lze od těchto opatření očekávat také zvýšení daňové disciplíny tuzemských daňových rezidentů do budoucna.
 # initial_translation = In addition to the possibility to measure the tax, these measures can also be expected to increase the tax discipline of domestic tax residents in the future.
 # text = In addition to the possibility to measure the tax, these measures can also be expected to increase the tax discipline of domestic tax residents in the future.
@@ -655,8 +655,8 @@
 29	.	.	PUNCT	.	_	28	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p5.s3
-# align_s = 0-1 1-3 2-4 4-5 5-8 6-7 7-10 8-11 9-12 10-13 11-15 12-18 13-19 14-20 15-21 16-24 17-26 18-27 19-28 20-30 21-31 22-32 23-33 24-35 25-37 26-38 27-39
-# align_t = 1-0 3-1 4-2 5-4 6-6 7-6 8-5 10-7 11-8 12-9 13-10 15-11 18-12 19-13 20-14 21-15 22-16 24-16 25-16 26-17 27-18 28-19 29-19 30-20 31-21 32-22 33-23 35-24 37-25 38-26 39-27 
+# align_s = 0-1 1-3 2-4 4-5 5-6 6-7 7-10 8-11 9-12 10-13 11-15 12-18 13-19 14-20 15-21 16-24 17-26 18-27 19-28 20-30 21-31 22-32 23-33 24-35 25-37 26-38 27-39
+# align_t = 1-0 3-1 4-2 5-4 6-6 7-6 10-7 11-8 12-9 13-10 15-11 18-12 19-13 20-14 21-15 22-16 24-16 25-16 26-17 27-18 28-19 29-19 30-20 31-21 32-22 33-23 35-24 37-25 38-26 39-27 
 # source = Sjednání této dohody by mělo mít nejen příznivý fiskální dopad na příjmy České republiky, ale současně, možná především, přispět ke zvýšení prevence finanční kriminality.
 # initial_translation = The negotiation of this agreement should not only have a favourable fiscal impact on the income of the Czech Republic, but at the same time, perhaps above all, contribute to increasing the prevention of financial crime.
 # text = The negotiation of this agreement should not only have a favourable fiscal impact on the income of the Czech Republic, but at the same time, perhaps above all, contribute to increasing the prevention of financial crime.
@@ -702,8 +702,8 @@
 40	.	.	PUNCT	.	_	39	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p6.s1
-# align_s = 0-4 1-5 2-7 3-8 4-9 8-10 9-12 10-13 11-14 12-15 13-17 14-18 15-19 16-20 17-21 18-25 19-27 20-28 21-21 22-22 23-23 24-24 25-29 26-30 27-31 28-32 29-34 30-35
-# align_t = 1-0 4-0 5-1 7-2 8-3 9-4 10-4 11-5 12-9 13-10 15-12 17-13 18-14 19-15 20-16 21-17 22-22 23-23 24-24 25-18 27-19 28-20 29-25 30-26 31-27 32-28 34-29 35-30 
+# align_s = 0-4 1-5 2-7 3-8 4-9 5-11 6-12 7-2 8-10 9-12 10-13 12-15 13-17 14-18 15-19 16-20 17-21 18-25 19-27 20-28 21-29 22-22 23-23 24-24 25-29 26-30 27-31 28-32 29-34 30-35
+# align_t = 1-0 4-0 5-1 7-2 8-3 9-4 10-8 12-9 13-10 14-11 15-12 17-13 18-14 19-15 20-16 21-17 22-22 23-23 24-24 25-18 27-19 28-20 29-25 30-26 31-27 32-28 34-29 35-30 
 # source = Jurisdikce s preferenčním daňovým režimem do současné doby odmítaly spolupráci v oblasti výměny daňově relevantních informací a neměly s Českou republikou uzavřenu žádnou mezinárodní dohodu zavazující je k takové výměně.
 # initial_translation = To date, the jurisdiction with the preferential tax regime refused to cooperate in the exchange of tax relevant information and had no international agreement with the Czech Republic binding them on such an exchange.
 # text = To date, the jurisdiction with the preferential tax regime refused to cooperate in the exchange of tax relevant information and had no international agreement with the Czech Republic binding them on such an exchange.
@@ -745,8 +745,8 @@
 36	.	.	PUNCT	.	_	35	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p6.s2
-# align_s = 0-1 1-3 2-4 3-5 4-7 5-9 6-10 7-12 8-13 10-14 11-17 12-18 13-19 14-22 15-23 16-24 17-25 18-26 19-27 20-28 21-29
-# align_t = 1-0 3-1 4-2 5-3 7-4 9-5 10-6 12-7 13-8 14-10 15-9 16-10 17-11 18-12 19-13 22-14 23-15 24-16 25-17 26-18 27-19 28-20 29-21 
+# align_s = 0-1 1-3 2-4 3-5 4-7 5-9 6-10 7-12 8-13 10-14 11-17 13-19 14-22 15-23 16-24 17-25 18-26 19-27 20-28 21-29
+# align_t = 1-0 3-1 4-2 5-3 7-4 9-5 10-6 12-7 13-8 15-9 16-10 17-11 18-12 19-13 22-14 23-15 24-16 25-17 26-18 27-19 28-20 29-21 
 # source = Sjednání této dohody o výměně informací v daňové oblasti tak lze považovat za úspěch České republiky při vyjednávání mezinárodních daňových smluv.
 # initial_translation = The negotiation of this agreement on the exchange of information in the tax field can thus be considered the success of the Czech Republic in negotiating international tax agreements.
 # text = The negotiation of this agreement on the exchange of information in the tax field can thus be considered the success of the Czech Republic in negotiating international tax agreements.
@@ -782,7 +782,7 @@
 30	.	.	PUNCT	.	_	29	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p6.s3
-# align_s = 0-2 1-1 2-5 3-7 4-8 5-8 6-8 7-10 8-11 9-12 10-13
+# align_s = 0-2 1-1 2-5 3-7 4-8 5-8 6-9 7-10 8-11 9-12 10-13
 # align_t = 0-0 1-1 2-0 3-1 5-2 7-3 8-5 9-6 10-7 11-8 12-9 13-10 
 # source = Doporučuji proto Poslanecké sněmovně vyslovit souhlas s ratifikací této dohody.
 # initial_translation = I therefore recommend that the Chamber of Deputies agree to ratify this agreement.
@@ -803,8 +803,8 @@
 14	.	.	PUNCT	.	_	13	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u2.p7.s1
-# align_s = 0-0 1-0 3-0 4-1 5-2 6-3 7-4 8-5 9-7 10-8
-# align_t = 0-1 1-4 2-5 3-6 4-7 5-8 6-9 7-9 8-10 
+# align_s = 0-0 1-0 3-1 5-2 6-3 7-4 8-5 9-7 10-8
+# align_t = 0-0 1-4 2-5 3-6 4-7 5-8 6-9 7-9 8-10 
 # source = Paní poslankyně, páni poslanci, děkuji vám za pozornost.
 # initial_translation = Madame Members, thank you for your attention.
 # text = Madame Members, thank you for your attention.
@@ -843,7 +843,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u3.p2.s1
 # align_s = 0-2 1-3 2-5 3-8 4-9 5-10 6-11 8-12 9-13 10-14 11-15 12-17 13-18 14-16 15-20 16-21 17-22 18-23 19-24
-# align_t = 2-0 3-1 5-2 8-3 9-4 10-5 11-7 12-8 13-9 14-10 16-11 17-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 
+# align_t = 2-0 3-1 5-2 8-3 9-4 10-5 11-7 12-8 13-9 14-10 15-11 16-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 
 # source = Nyní požádám předsedu zahraničního výboru, pana poslance Karla Schwarzenberga, aby nám navrhl zpravodaje pro prvé čtení.
 # initial_translation = I will now ask the President of the Foreign Committee, Mr Karl Schwarzenberg, to propose to us the rapporteur for first reading.
 # text = I will now ask the President of the Foreign Committee, Mr Karel Schwarzenberg, to propose to us the rapporteur for first reading.
@@ -874,7 +874,7 @@
 25	.	.	PUNCT	.	_	24	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u3.p2.s2
-# align_s = 0-1 1-0 2-2
+# align_s = 0-0 1-1 2-2
 # align_t = 0-0 1-1 2-2 
 # source = Pane předsedo?
 # initial_translation = Prime Minister?
@@ -884,7 +884,7 @@
 3	?	?	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u3.p2.s3
-# align_s = 0-0 1-1 2-7 3-6 5-2 6-3 8-4 9-8
+# align_s = 0-0 1-1 2-5 3-6 5-2 6-3 7-4 8-4 9-8
 # align_t = 0-0 1-1 2-5 3-6 4-8 8-9 
 # source = Nebo jestli tak učiní místo pana předsedy kolega Holík?
 # initial_translation = Or if Mr. President Holík will do so?
@@ -937,8 +937,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u4.p1.s1
-# align_s = 0-0 1-1 2-2 4-3 6-9 7-11 8-12 9-14 10-17 11-18 12-19 13-21 14-24 15-26 16-7 17-8 18-5 20-4 21-5 22-6 23-27
-# align_t = 0-0 1-1 2-2 3-4 4-20 5-21 6-22 7-16 8-17 9-6 11-7 12-8 14-9 17-10 18-11 19-12 21-13 24-14 26-15 27-23 
+# align_s = 0-0 1-1 2-2 5-3 6-9 7-11 8-12 9-14 10-17 11-18 12-19 13-21 14-24 15-26 16-7 17-8 18-6 20-4 21-5 22-6 23-27
+# align_t = 0-0 1-1 2-2 3-3 4-20 5-21 6-22 7-16 8-17 9-6 11-7 12-8 14-9 17-10 18-11 19-12 21-13 23-14 24-15 26-14 27-23 
 # source = Já bych prosil, aby pro dohodu mezi vládou České republiky a vládou Andorrského knížectví byl zpravodajem zahraničního výboru poslanec Pavel Holík.
 # initial_translation = I would ask that Mr Pavel Holík be rapporteur for the agreement between the Government of the Czech Republic and the Government of the Principality of Andorra.
 # text = I would ask that Mr Pavel Holík be rapporteur for the agreement between the Government of the Czech Republic and the Government of the Principality of Andorra.
@@ -988,7 +988,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u5.p1.s2
 # align_s = 0-0 1-4 2-6 3-8
-# align_t = 0-0 3-1 6-2 8-3 
+# align_t = 0-0 4-1 6-2 8-3 
 # source = To musíme odhlasovat.
 # initial_translation = That's what we have to vote for.
 # text = That's what we have to vote for.
@@ -1004,7 +1004,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u5.p2.s1
 # align_s = 0-2 1-4 2-6 3-7 4-8 5-9 6-12 9-13 10-14 11-16 14-18 15-19 16-20 17-22 18-23 19-24 21-25 22-26 23-27 24-28
-# align_t = 2-0 4-1 6-2 7-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 16-11 18-14 19-15 20-16 22-17 23-18 24-19 25-21 26-22 27-23 28-24 
+# align_t = 2-0 4-1 6-2 7-3 8-4 9-5 10-6 12-8 13-9 14-10 16-11 18-14 19-15 20-16 22-17 23-18 24-19 25-21 26-22 27-23 28-24 
 # source = Zahajuji hlasování pořadové číslo 57 a ptám se, kdo je pro, aby zpravodajem pro první čtení byl pan kolega Pavel Holík.
 # initial_translation = I am opening the vote on order number 57 and I am asking who is in favour of the rapporteur for the first reading being Mr Pavel Holík.
 # text = I am opening the vote on order number 57 and I am asking who is in favour of the rapporteur for the first reading being Mr Pavel Holík.
@@ -1061,7 +1061,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u5.p3.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-8 9-10 10-11 11-12 12-13 13-15
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-8 9-10 10-11 11-12 12-14 13-15
 # align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 8-8 10-9 11-10 12-11 13-12 14-12 15-13 
 # source = Hlasování pořadové číslo 57, z přítomných 159 pro 149, proti nikdo.
 # initial_translation = Voting order number 57, from 159 in favour of 149, against no one.
@@ -1084,7 +1084,7 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u5.p4.s1
-# align_s = 0-0 1-1 2-4 3-5 4-6 5-7 7-8 8-9 9-10 10-11 13-12 14-14 15-15 16-15 17-16
+# align_s = 0-2 1-1 2-4 3-5 4-6 5-7 7-8 8-9 9-10 10-11 13-12 14-14 15-15 16-15 17-16
 # align_t = 1-1 2-0 4-2 5-3 6-4 7-6 8-7 9-8 10-9 11-10 12-13 14-14 15-16 16-17 
 # source = Prosím tedy určeného zpravodaje, pana poslance Pavla Holíka, aby se ujal své zpravodajské zprávy.
 # initial_translation = I therefore ask the designated rapporteur, Mr Pavel Holík, to take up his report.
@@ -1108,7 +1108,7 @@
 17	.	.	PUNCT	.	_	16	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u5.p4.s2
-# align_s = 0-0 1-1 2-2 3-2 4-3
+# align_s = 0-0 1-1 3-2 4-3
 # align_t = 0-0 1-1 2-3 3-4 
 # source = Prosím, pane zpravodaji.
 # initial_translation = Please, rapporteur.
@@ -1151,8 +1151,8 @@
 15	.	.	PUNCT	.	_	14	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u6.p1.s3
-# align_s = 0-4 1-6 2-8 3-1 4-2 7-3 8-10 9-11 10-14 11-15 12-16 14-17 15-18 16-19 17-22 18-23 19-25 20-28 21-29 22-30 23-32 24-35 25-37 26-38 27-40 28-42 29-43 30-44 31-45 35-46 36-47 37-48 38-49 39-50 41-51 42-52 43-53
-# align_t = 1-3 2-4 3-0 4-0 6-1 7-7 8-8 9-7 11-9 14-10 15-11 16-12 17-14 18-15 19-16 22-17 23-18 25-19 28-20 29-21 30-22 32-23 35-24 37-25 38-26 40-27 42-28 43-29 44-30 45-31 46-35 47-36 48-37 49-38 50-39 51-41 52-42 53-43 
+# align_s = 0-4 1-6 2-8 3-1 4-2 8-10 9-11 10-14 11-15 13-16 14-17 16-19 17-22 18-23 19-25 20-28 21-29 22-30 23-32 24-35 25-37 26-38 27-40 28-42 29-43 30-44 31-45 35-46 36-47 37-48 38-49 39-50 41-51 42-52 43-53
+# align_t = 1-3 2-4 5-5 6-1 7-7 8-8 11-9 14-10 15-11 16-12 17-14 18-15 19-16 22-17 23-18 25-19 28-20 29-21 30-22 32-23 34-24 35-25 37-24 38-26 40-27 42-28 43-29 44-30 45-31 46-35 47-36 48-37 49-38 50-39 51-41 52-42 53-43 
 # source = Byl zde přednesen vládní návrh, kterým se předkládá Parlamentu České republiky k vyslovení souhlasu s ratifikací Dohoda mezi vládou České republiky a vládou Andorrského knížectví o výměně informací v daňových záležitostech, která byla podepsána v Madridu dne 11. června 2013.
 # initial_translation = A Government proposal has been tabled here to submit to the Parliament of the Czech Republic for approval of ratification of the Agreement between the Government of the Czech Republic and the Government of the Principality of Andorra on the exchange of information in tax matters signed in Madrid on 11 June 2013.
 # text = A Government proposal has been tabled here to submit to the Parliament of the Czech Republic for approval of ratification of the Agreement between the Government of the Czech Republic and the Government of the Principality of Andorra on the exchange of information in tax matters signed in Madrid on 11 June 2013.
@@ -1255,7 +1255,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p1.s2
 # align_s = 0-2 1-4 2-5 3-6 4-7 6-8 7-13 8-14 9-10 10-11 11-12 12-15
-# align_t = 0-0 1-0 2-0 4-1 5-2 6-3 7-4 8-6 11-10 12-11 13-7 14-8 15-12 
+# align_t = 1-0 2-0 4-1 5-2 6-3 7-4 8-6 10-9 11-10 12-11 15-12 
 # source = Otevírám obecnou rozpravu a konstatuji, že do ní nemám žádnou přihlášku.
 # initial_translation = I am opening a general debate and stating that I have no application for it.
 # text = I am opening a general debate and stating that I have no application for it.
@@ -1277,8 +1277,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p1.s3
-# align_s = 0-2 1-2 3-3 5-4 6-6 7-8 8-10 9-11
-# align_t = 0-0 1-1 2-2 3-3 4-5 6-6 8-7 10-8 11-9 
+# align_s = 0-2 3-3 5-4 6-6 7-8 8-10 9-11
+# align_t = 1-0 2-2 3-3 4-5 6-6 8-7 10-8 11-9 
 # source = Ptám se, jestli se někdo hlásí z místa.
 # initial_translation = I'm asking if anyone's checking in from the scene.
 # text = I'm asking if anyone's checking in from the scene.
@@ -1296,8 +1296,8 @@
 12	.	.	PUNCT	.	_	11	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p1.s4
-# align_s = 0-0 1-3 2-5 3-8 4-11 5-12
-# align_t = 0-0 1-1 2-0 3-1 4-0 5-2 6-3 7-4 8-4 11-3 12-5 
+# align_s = 0-2 1-3 2-5 3-7 4-8 5-12
+# align_t = 0-0 1-1 2-0 3-1 4-0 5-2 6-3 8-4 11-4 12-5 
 # source = Nikoho nevidím, rozpravu končím.
 # initial_translation = I don't see anyone, I'm done with the debate.
 # text = I don't see anyone, I'm done with the debate.
@@ -1317,7 +1317,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p2.s1
 # align_s = 0-0 1-1 2-2 3-3 4-5 5-6 6-7 7-8 8-11 9-12 10-13
-# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 7-6 8-7 11-8 12-9 13-10 
+# align_t = 0-0 1-1 2-2 3-3 5-4 6-5 8-7 10-6 12-9 13-10 
 # source = Budeme se tedy zabývat návrhem na přikázání výboru k projednání.
 # initial_translation = We will therefore consider the proposal for a committee's order for discussion.
 # text = We will therefore consider the proposal for a committee's order for discussion.
@@ -1376,7 +1376,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p2.s4
 # align_s = 0-2 1-3 2-4 3-5
-# align_t = 1-0 3-1 4-2 5-3 
+# align_t = 2-0 3-1 4-2 5-3 
 # source = Není tomu tak.
 # initial_translation = It's not like that.
 # text = It's not like that.
@@ -1389,7 +1389,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p2.s5
 # align_s = 0-0 2-3 3-4
-# align_t = 0-0 3-2 4-3 
+# align_t = 0-1 3-2 4-3 
 # source = Rozpočtáři nemají zájem.
 # initial_translation = Counters aren't interested.
 # text = Counters aren't interested.
@@ -1401,7 +1401,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p3.s1
 # align_s = 0-2 1-3 2-5 3-7 4-8 5-9 6-10 7-11 8-12 9-14 10-15 11-16 12-17 13-19 16-20 17-21 18-23 19-26 20-29 21-30 22-31
-# align_t = 2-0 3-1 5-2 7-3 8-4 9-5 10-6 11-7 13-8 14-9 15-10 16-11 17-12 18-13 19-14 20-16 21-17 23-18 26-19 29-20 30-21 31-22 
+# align_t = 2-0 3-1 5-2 7-3 8-4 9-5 10-6 11-7 12-8 14-9 15-10 16-11 17-12 18-13 19-14 20-16 21-17 23-18 26-19 29-20 30-21 31-22 
 # source = Rozhodneme v hlasování pořadové číslo 58, které jsem právě zahájil, a ptám se, kdo je pro přikázání zahraničnímu výboru.
 # initial_translation = We will decide in the vote the order number 58, which I have just begun, and I ask who is in favour of the commandment to the foreign committee.
 # text = We will decide in the vote the order number 58, which I have just begun, and I ask who is in favour of the commandment to the foreign committee.
@@ -1460,7 +1460,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p4.s1
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-8 8-9 9-10 10-11 11-12 12-13 13-15
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 7-8 8-9 9-10 10-11 11-12 12-14 13-15
 # align_t = 0-0 1-1 2-2 3-3 4-4 5-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-12 15-13 
 # source = Hlasování pořadové číslo 58, z přítomných 162 pro 154, proti nikdo.
 # initial_translation = Voting order number 58, from the present 162 for 154, against no one.
@@ -1483,8 +1483,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p4.s2
-# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-13 11-14 12-17 13-18 14-19 15-20 16-21 17-23 18-24
-# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 12-9 13-10 14-11 16-12 17-12 18-13 19-14 20-15 21-16 23-17 24-18 
+# align_s = 0-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-12 10-13 11-14 12-16 13-18 14-19 15-20 16-21 17-23 18-24
+# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 12-9 13-10 14-11 17-12 18-13 19-14 20-15 21-16 23-17 24-18 
 # source = Konstatuji, že tento návrh byl přikázán k projednání zahraničnímu výboru a lhůta k projednání je podle zákona.
 # initial_translation = I note that this proposal has been ordered for discussion by the Foreign Committee and the time limit for discussion is under the law.
 # text = I note that this proposal has been ordered for discussion by the Foreign Committee and the time limit for discussion is under the law.
@@ -1516,7 +1516,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-12-ps2013-004-02-002-029.u7.p4.s3
 # align_s = 0-0 1-3 2-6 3-8 5-9 6-10
-# align_t = 0-0 1-0 3-1 6-2 8-3 9-5 10-6 
+# align_t = 0-0 1-0 3-1 5-2 6-2 8-3 9-5 10-6 
 # source = Děkuji a končím bod číslo 29.
 # initial_translation = Thank you, and I'm done with point 29.
 # text = Thank you, and I'm done with point 29.

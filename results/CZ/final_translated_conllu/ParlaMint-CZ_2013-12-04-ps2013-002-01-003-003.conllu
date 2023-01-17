@@ -8,8 +8,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u1.p1.s2
-# align_s = 0-0 1-3 2-4 3-6 4-7 5-8 6-9 7-13 8-15
-# align_t = 0-0 3-1 4-2 6-3 7-4 9-5 11-6 13-7 14-7 15-8 
+# align_s = 0-0 1-3 2-4 3-6 4-7 5-9 6-11 7-13 8-15
+# align_t = 0-0 3-1 4-2 6-3 7-4 8-5 9-6 11-6 13-6 15-8 
 # source = Návrh zasedacího pořádku poslanců v jednacím sále Poslanecké sněmovny
 # initial_translation = Proposal for a sitting order of Members in the Chamber of Deputies' Chamber of Deputies
 # text = Proposal for a sitting order of Members in the Chamber of Deputies' Chamber of Deputies
@@ -31,8 +31,8 @@
 16	Deputies	Deputy	PROPN	NNPS	Number=Plur	15	_	_	NER=I-ORG
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u1.p2.s1
-# align_s = 0-0 1-2 2-3 3-4 4-62 5-63 6-65 7-68 8-66 9-70 10-72 11-73 12-75 13-76 14-78 15-79 16-80 17-81 18-105 19-107 20-109 21-113 23-114 24-111 26-116 27-117 30-118 31-119 32-122 33-123 34-125 35-126
-# align_t = 0-0 2-1 3-2 4-3 5-1 6-6 7-7 9-7 12-7 13-8 16-8 17-0 20-1 22-2 25-5 26-5 27-0 28-1 29-0 30-1 31-2 33-3 34-5 35-3 41-7 45-8 46-0 47-1 48-2 49-3 50-2 51-3 57-7 60-8 61-3 62-4 63-5 65-6 66-7 68-8 70-9 72-10 73-11 75-12 76-13 78-14 79-15 81-16 83-17 85-18 87-19 88-16 89-18 91-19 92-16 93-18 94-18 95-19 96-16 97-17 98-18 99-19 100-16 101-17 103-19 104-16 105-18 107-19 109-20 111-24 112-22 113-21 114-23 116-26 117-27 118-28 119-31 122-32 123-33 124-34 125-34 126-35 
+# align_s = 0-0 1-2 2-3 3-4 4-62 5-63 6-65 7-66 8-68 9-70 10-72 11-73 12-75 13-76 14-78 15-79 16-81 17-83 18-85 19-107 20-109 21-113 23-114 24-111 26-116 27-117 30-118 31-119 32-122 33-123 34-125 35-126
+# align_t = 0-0 2-1 3-2 4-3 5-3 6-2 7-7 9-7 10-7 12-7 13-8 16-7 17-8 20-9 22-7 25-8 26-9 27-0 28-1 29-2 30-3 31-0 32-2 33-5 34-5 35-2 38-7 39-12 41-6 44-8 45-2 46-0 47-1 48-2 49-3 50-0 51-3 54-3 57-6 60-1 61-2 62-4 63-5 65-6 66-7 68-8 70-9 72-10 73-11 75-12 76-13 78-14 79-15 81-9 83-19 84-17 85-9 87-10 88-17 89-18 91-19 92-17 93-18 95-19 96-13 97-17 98-18 99-19 100-13 101-17 102-18 103-19 104-16 105-17 107-19 109-20 110-22 111-24 113-21 114-23 116-26 117-27 118-28 119-31 122-32 123-33 124-34 125-34 126-35 
 # source = Podle § 52 odst. 1 našeho jednacího řádu Poslanecká sněmovna schvaluje zasedací pořádek poslanců v jednacím sále Poslanecké sněmovny a byl vám rozdán návrh tak, jak se na něm dohodly jednotlivé poslanecké kluby.
 # initial_translation = According to Article 52 (2) (a) of the basic Regulation, the Commission considers that the aid is compatible with the internal market under Article 107 (3) (c) of the Treaty on the Functioning of the European Union and Article 108 (3) of the Treaty on the Functioning of the European Union. 1 of our Rules of Procedure The Chamber of Deputies approves the sitting arrangements of Members in the Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies, and a proposal has been given to you as agreed upon by the various Members' Clubs.
 # text = According to Article 52 (2) (a) of the basic Regulation, the Commission considers that the aid is compatible with the internal market under Article 107 (3) (c) of the Treaty on the Functioning of the European Union and Article 108 (3) of the Treaty on the Functioning of the European Union. 1 of our Rules of Procedure The Chamber of Deputies approves the sitting arrangements of Members in the Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies' Chamber of Deputies, and a proposal has been given to you as agreed upon by the various Members' Clubs.
@@ -166,7 +166,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u1.p3.s1
 # align_s = 0-0 1-1 2-7 3-8 4-9 5-4 6-6 7-10
-# align_t = 0-0 1-1 3-2 4-5 6-6 8-3 9-4 10-7 
+# align_t = 0-0 1-1 4-5 6-6 7-2 8-3 9-4 10-7 
 # source = Já bych k této věci otevřel rozpravu.
 # initial_translation = I would like to open a debate on this matter.
 # text = I would like to open a debate on this matter.
@@ -183,8 +183,8 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u1.p3.s2
-# align_s = 1-0 2-1 3-2 4-3 5-5 6-7 7-8 8-9
-# align_t = 0-1 1-2 2-3 3-4 5-5 6-4 7-6 8-7 9-8 
+# align_s = 1-0 2-1 3-2 4-6 5-5 6-7 7-8 8-9
+# align_t = 0-1 1-2 2-3 3-4 4-4 5-5 6-4 7-6 8-7 9-8 
 # source = Pan poslanec a předseda klubu ODS Zbyněk Stanjura.
 # initial_translation = Member and Chairman of the ODS Club Zbyněk Stanjura.
 # text = Member and Chairman of the ODS Club Zbyněk Stanjura.
@@ -214,7 +214,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u2.p1.s2
 # align_s = 0-2 2-3 3-4 4-7 5-6 7-10 8-11 9-12 10-8 11-9 12-13
-# align_t = 0-0 1-1 2-0 3-2 4-3 5-4 6-5 7-4 8-10 9-11 10-7 11-8 12-9 13-12 
+# align_t = 0-0 1-1 2-0 3-2 4-3 6-5 7-4 8-10 9-11 10-7 11-8 12-9 13-12 
 # source = Omlouvám se, my navrhujeme ještě v rámci našich míst tři změny.
 # initial_translation = I'm sorry, we're still proposing three changes within our seats.
 # text = I'm sorry, we're still proposing three changes within our seats.
@@ -235,7 +235,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u2.p1.s3
 # align_s = 0-0 1-1 2-2 4-3 5-5 6-6 7-7 8-8
-# align_t = 0-0 1-1 2-2 3-4 4-3 5-5 6-6 7-7 8-8 
+# align_t = 0-0 1-1 2-2 3-4 5-5 6-6 7-7 8-8 
 # source = Takže já bych je načetl jako pozměňující návrh.
 # initial_translation = So I would read them as an amendment.
 # text = So I would read them as an amendment.
@@ -250,8 +250,8 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u2.p1.s4
-# align_s = 0-1 2-2 3-3 4-4 5-5
-# align_t = 1-0 2-1 4-4 5-5 
+# align_s = 0-1 3-2 4-4 5-5
+# align_t = 1-0 2-2 3-3 4-4 5-5 
 # source = Věřím, že mi vyhovíte.
 # initial_translation = I trust you'll oblige.
 # text = I trust you'll oblige.
@@ -263,7 +263,7 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u2.p1.s5
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 9-10 10-11 12-13 13-14 14-15 15-16 16-18 17-19 18-20 19-21 20-22 21-23 23-25 24-26 25-27 26-28 27-30 28-31 29-32 30-33 31-34 32-35 34-37 35-38 36-39
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-7 7-8 8-9 10-11 12-13 13-14 14-15 15-16 16-18 17-19 18-20 19-21 21-23 23-25 24-26 25-27 26-28 27-30 28-31 29-32 30-33 32-35 34-37 35-38 36-39
 # align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-13 15-14 16-15 18-16 19-17 20-18 21-19 22-20 23-21 24-22 25-23 26-24 27-25 28-26 30-27 31-28 32-29 33-30 34-31 35-32 36-33 37-34 38-35 39-36 
 # source = To znamená konkrétně: na místě 162 místo pana poslance Zahradníka pan poslanec Svoboda, na místě 163 místo pana poslance Pospíšila pan poslanec Zahradník a na místě 167 místo pana poslance Svobody pan poslanec Pospíšil.
 # initial_translation = This means specifically: on the spot 162 instead of Mr Zahradník, Mr Svoboda, on the spot 163 instead of Mr Pospíšil, Mr Zahradník and on the spot 167 instead of Mr Svoboda, Mr Pospíšil.
@@ -310,8 +310,8 @@
 40	.	.	PUNCT	.	_	39	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u2.p2.s1
-# align_s = 0-0 1-3 2-6 4-7 5-10 7-11 10-15 11-17 12-18 13-14 14-19
-# align_t = 0-0 1-0 3-1 4-2 5-3 6-2 7-4 8-7 9-9 10-5 12-6 14-13 15-10 17-11 18-12 19-14 
+# align_s = 0-0 1-3 2-6 4-7 5-8 9-9 10-15 11-17 12-18 13-14 14-19
+# align_t = 0-0 1-0 3-1 4-2 5-3 6-2 7-4 8-5 10-5 12-6 14-13 15-10 17-11 18-12 19-14 
 # source = Děkuju a omlouvám se za komplikaci, že jsme to na poslední chvilku změnili.
 # initial_translation = Thank you, and I'm sorry for making this difficult for us to change at the last minute.
 # text = Thank you, and I'm sorry for making this difficult for us to change at the last minute.
@@ -349,8 +349,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p1.s2
-# align_s = 1-4 2-5 3-3 4-8 5-9 6-12 7-15 8-16
-# align_t = 0-1 1-3 2-1 3-3 4-1 5-2 6-2 8-4 9-5 10-6 12-7 15-6 16-8 
+# align_s = 1-4 2-6 3-3 4-8 5-9 6-11 7-12 8-16
+# align_t = 0-1 1-3 2-1 3-3 4-1 5-2 6-2 8-4 9-5 10-6 12-7 15-7 16-8 
 # source = Dále nikoho přihlášeného nevidím, takže rozpravu končím.
 # initial_translation = I don't see anyone else logged in, so I'm done with the debate.
 # text = I don't see anyone else logged in, so I'm done with the debate.
@@ -373,8 +373,8 @@
 17	.	.	PUNCT	.	_	16	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p1.s3
-# align_s = 0-5 1-7 2-8 4-9 5-10 6-12 7-13 8-1 9-2 10-3 11-4 13-14 14-17 15-19 16-20 17-21
-# align_t = 1-8 2-9 3-10 4-11 5-0 7-1 8-2 9-4 10-5 12-6 13-7 14-13 17-14 19-15 20-16 21-17 
+# align_s = 0-5 1-7 2-8 4-9 5-10 6-12 8-1 9-2 10-3 11-4 12-13 13-14 14-17 15-19 16-20 17-21
+# align_t = 1-8 2-9 3-10 4-11 5-0 7-1 8-2 9-3 10-4 11-5 12-6 13-7 14-13 16-14 17-14 19-15 20-16 21-17 
 # source = V podrobné rozpravě, kterou tímto otvírám, také nemám žádnou přihlášku, takže končím podrobnou rozpravu.
 # initial_translation = I also have no application in the detailed debate that I am opening, so I am ending the detailed debate.
 # text = I also have no application in the detailed debate that I am opening, so I am ending the detailed debate.
@@ -402,8 +402,8 @@
 22	.	.	PUNCT	.	_	21	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p2.s1
-# align_s = 1-1 2-2 3-8 4-11 5-13 10-15 11-16 12-18 13-20 14-21 15-22 16-23 17-28 18-24 19-25 20-26 21-29 22-30 24-31 25-33 26-35 27-37 28-39 29-38 30-41 31-42 32-43 33-44 34-45
-# align_t = 1-1 2-2 8-3 11-4 13-5 15-10 16-11 18-12 21-14 22-15 23-16 24-18 25-19 26-20 28-17 29-21 30-22 31-24 32-24 33-25 35-26 37-27 38-29 39-28 41-30 42-31 43-32 44-33 45-34 
+# align_s = 1-1 2-2 3-8 4-11 5-13 10-15 11-16 12-18 13-20 14-21 15-23 16-23 17-28 18-24 20-26 21-29 22-30 24-32 25-33 26-35 27-37 28-39 29-38 30-41 31-42 32-43 33-44 34-45
+# align_t = 1-1 2-2 8-3 11-4 13-5 15-10 16-11 18-12 20-13 21-14 22-15 23-16 24-18 25-19 26-20 28-17 29-21 30-22 31-24 32-24 33-25 35-26 37-27 38-29 39-28 41-30 42-31 43-32 44-33 45-34 
 # source = Přednesl bych tedy návrh usnesení s tím, že budeme hlasovat o modifikaci oné tabulky ve znění návrhu pana poslance Stanjury, pokud to nikdo nezpochybňuje a nebude chtít zvlášť hlasovat o tom přesazování.
 # initial_translation = I would therefore like to put forward a motion for a resolution, with a vote on the modification of the table as amended by Mr Stanjura's proposal, if no one disputes that and does not particularly want to vote on the transfer.
 # text = I would therefore like to put forward a motion for a resolution, with a vote on the modification of the table as amended by Mr Stanjura's proposal, if no one disputes that and does not particularly want to vote on the transfer.
@@ -455,8 +455,8 @@
 46	.	.	PUNCT	.	_	45	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p2.s2
-# align_s = 0-0 1-1 3-2 4-4 6-6 8-7 9-8 10-9 11-10 12-13 13-14 15-18 16-20 17-21
-# align_t = 0-0 1-1 2-3 3-5 4-4 6-6 7-7 8-8 9-10 10-11 12-12 14-13 16-14 17-14 20-16 21-17 
+# align_s = 0-1 3-2 4-4 5-5 6-6 7-7 8-8 10-9 11-10 12-12 13-14 14-17 15-18 16-20 17-21
+# align_t = 0-0 1-1 2-3 4-4 5-5 6-6 7-8 8-9 9-10 10-11 13-12 14-13 17-14 20-16 21-17 
 # source = Myslím si, že je to dohoda v rámci klubu ODS a není třeba to podrobovat hlasování.
 # initial_translation = I think that this is an agreement within the ODS and there is no need to put it to the vote.
 # text = I think that this is an agreement within the ODS and there is no need to put it to the vote.
@@ -484,8 +484,8 @@
 22	.	.	PUNCT	.	_	21	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p3.s1
-# align_s = 0-1 1-2 2-3 3-4 4-5 5-7 6-9 7-10 8-12 9-13 10-15 11-16 12-17 13-18 14-22 15-24 16-25 17-26 18-29 19-32 20-33 21-38 22-38 23-34 24-35 25-36 26-39 27-40
-# align_t = 1-0 2-1 3-2 4-3 5-4 7-5 9-6 10-7 12-8 13-9 15-10 16-11 18-12 20-13 22-14 24-15 25-16 29-18 32-19 33-20 34-23 35-24 36-25 38-22 39-26 40-27 
+# align_s = 0-1 1-2 2-3 3-4 4-5 5-7 6-9 7-10 8-12 9-13 10-15 11-16 12-18 13-20 14-22 15-24 16-26 17-28 18-29 20-33 22-38 23-34 24-35 25-36 26-39 27-40
+# align_t = 1-0 2-1 3-2 4-3 5-4 7-5 9-6 10-7 12-8 13-9 15-10 16-11 18-14 20-15 21-12 22-13 24-15 26-16 28-17 29-18 32-19 33-20 34-23 35-24 36-25 38-22 39-26 40-27 
 # source = Usnesení by znělo: "Poslanecká sněmovna schvaluje zasedací pořádek poslanců v jednacím sále Poslanecké sněmovny podle předloženého návrhu ve znění pozměňovacího návrhu pana poslance Stanjury."
 # initial_translation = The resolution would read: 'The Chamber of Deputies approves the sitting order of Members in the Chamber of Deputies' Chamber of Deputies in accordance with the proposal tabled, as amended by Mr Stanjura's amendment.'
 # text = The resolution would read: 'The Chamber of Deputies approves the sitting order of Members in the Chamber of Deputies' Chamber of Deputies in accordance with the proposal tabled, as amended by Mr Stanjura's amendment.'
@@ -547,8 +547,8 @@
 8	.	.	PUNCT	.	_	7	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p4.s2
-# align_s = 0-0 2-2 3-3 4-4 5-6 6-6 7-7 8-8 9-10 10-11
-# align_t = 0-0 1-1 2-2 3-3 4-5 6-6 7-7 8-8 9-9 10-9 11-10 
+# align_s = 0-0 1-1 2-2 3-3 5-4 6-6 7-7 8-8 9-10 10-11
+# align_t = 0-0 1-2 2-4 3-3 4-5 6-6 7-7 8-8 9-9 10-9 11-10 
 # source = Kdo je pro, ať stiskne tlačítko a zvedne ruku.
 # initial_translation = All in favor, press the button and raise your hand.
 # text = All in favor, press the button and raise your hand.
@@ -591,8 +591,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p5.s2
-# align_s = 0-2 2-3 3-4 5-5 6-6 8-8 9-9
-# align_t = 2-0 3-2 4-3 5-5 6-6 7-7 8-8 9-9 
+# align_s = 0-2 2-3 3-4 5-5 6-6 7-7 8-8 9-9
+# align_t = 0-0 1-1 2-0 3-2 4-3 5-5 6-6 7-8 8-8 9-9 
 # source = Přihlášeno je 190, pro 183, proti nikdo.
 # initial_translation = It's registered 190, 183, no one.
 # text = It's registered 190, 183, no one.
@@ -620,8 +620,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p6.s1
-# align_s = 0-2 1-3 2-5 3-6 4-7 5-8 6-9 7-11 8-13 9-14 11-15 12-16 14-24 15-26 16-27 17-30 18-32 19-17 20-18 21-19 22-20 23-21 24-23 25-33
-# align_t = 2-0 3-1 5-2 6-3 7-4 8-5 9-6 10-6 12-7 13-8 14-9 15-11 16-12 17-19 18-20 19-21 20-22 21-23 23-24 24-14 26-15 27-16 30-17 32-18 33-25 
+# align_s = 0-2 1-3 2-5 3-6 4-7 5-8 6-9 7-12 8-13 9-14 11-15 12-16 14-24 15-26 16-27 17-30 18-32 19-17 20-18 21-19 22-20 23-21 24-23 25-33
+# align_t = 2-0 3-1 5-2 6-3 7-4 8-5 9-6 10-6 11-7 13-8 14-9 15-11 16-12 17-19 18-20 19-21 20-22 21-23 23-24 24-14 26-15 27-16 30-17 32-18 33-25 
 # source = Jen bych upozornil, že vaše jmenovky budou změněny tak, abyste již na třetí schůzi Poslanecké sněmovny mohli sedět podle jednotlivých poslaneckých klubů.
 # initial_translation = I would just like to point out that your name tags will be changed so that you can sit by each member's club at the third meeting of the Chamber of Deputies.
 # text = I would just like to point out that your name tags will be changed so that you can sit by each member's club at the third meeting of the Chamber of Deputies.
@@ -705,7 +705,7 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u3.p9.s1
-# align_s = 0-0 1-1 2-2 3-6 4-11 6-8 7-9 8-12
+# align_s = 0-0 1-1 2-2 3-6 4-11 5-7 6-8 7-9 8-12
 # align_t = 0-0 1-1 2-2 6-3 7-5 8-6 9-7 11-4 12-8 
 # source = S přednostním právem dám prostor panu předsedovi Kalouskovi.
 # initial_translation = With priority right, I'll give the President Kalousek the floor.
@@ -739,8 +739,8 @@
 7	.	.	PUNCT	.	_	6	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u4.p1.s1
-# align_s = 0-0 1-2 2-4 3-5 4-6 5-7 6-8 7-9 8-10 11-11 13-13 14-17 15-22 16-18 17-20 18-21 19-24 20-29 21-30 22-32 23-35 24-36 26-25 27-26 28-28 29-37
-# align_t = 0-0 1-0 2-1 4-2 5-3 6-4 7-5 8-6 9-7 10-8 11-9 12-10 13-13 14-12 16-14 17-14 18-16 20-17 21-18 22-15 24-19 26-27 28-28 29-20 30-21 32-22 35-23 36-24 37-29 
+# align_s = 0-0 1-2 2-4 3-5 4-6 5-7 6-8 7-9 8-10 11-11 13-13 14-17 15-22 17-20 18-21 19-24 20-29 21-30 22-32 23-35 24-36 26-25 27-26 28-28 29-37
+# align_t = 0-0 1-0 2-1 4-2 5-3 6-4 7-5 8-6 9-7 10-8 11-9 12-10 13-11 14-12 16-14 17-14 18-16 20-17 21-18 22-23 26-27 28-28 29-20 30-21 32-22 35-23 36-24 37-29 
 # source = Děkuji za slovo, pane předsedo, a dovolte, abych vás požádal jménem poslaneckého klubu TOP 09 o přestávku na jednání poslaneckého klubu v délce dvou hodin.
 # initial_translation = Thank you for the floor, Mr President, and allow me to ask you, on behalf of the TOP 09 Membership, for a two-hour break at the meeting of the Membership Club.
 # text = Thank you for the floor, Mr President, and allow me to ask you, on behalf of the TOP 09 Membership, for a two-hour break at the meeting of the Membership Club.
@@ -784,7 +784,7 @@
 38	.	.	PUNCT	.	_	37	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u5.p1.s1
-# align_s = 0-1 1-0 2-2 3-5 4-4 5-6 6-7 7-8
+# align_s = 0-0 1-1 2-2 3-5 4-4 5-6 6-7 7-8
 # align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 8-7 
 # source = Pane předsedo, říkal jste dvou hodin?
 # initial_translation = Prime Minister, did you say two hours?
@@ -800,8 +800,8 @@
 9	?	?	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u5.p1.s2
-# align_s = 0-0 1-1 2-2 4-3 5-4 6-7 7-8 8-9 9-10 10-11 11-14 12-13 13-16 15-17 16-18 17-19 18-21 19-22 20-31 21-32 22-24 23-25 24-30 26-26 27-27 28-29 29-33
-# align_t = 0-0 1-1 2-2 3-4 4-5 7-6 8-7 9-8 10-9 11-10 13-12 14-12 15-13 16-14 17-15 18-16 19-17 21-18 22-19 24-22 25-23 26-25 27-27 29-28 30-24 31-20 32-21 33-29 
+# align_s = 0-0 2-2 4-3 5-4 6-7 7-8 8-9 9-10 10-11 11-14 12-13 13-16 15-17 16-18 17-19 18-21 19-22 20-31 21-32 22-24 23-25 24-30 26-26 27-27 28-29 29-33
+# align_t = 0-0 1-1 2-2 3-4 4-5 5-6 8-7 9-8 10-9 11-10 13-12 14-12 16-13 17-15 18-16 19-17 21-18 22-19 24-22 25-23 26-25 27-27 29-28 30-24 31-20 32-21 33-29 
 # source = Já se obávám, že to nebude úplně možné, protože zažitým pravidlem je, že každý poslanecký klub má bez hlasování právo na přestávku v délce dvou hodin.
 # initial_translation = I am afraid that this will not be entirely possible, because the rule behind it is that each member's club has the right to a two-hour break without voting.
 # text = I am afraid that this will not be entirely possible, because the rule behind it is that each member's club has the right to a two-hour break without voting.
@@ -841,7 +841,7 @@
 34	.	.	PUNCT	.	_	33	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u5.p1.s3
-# align_s = 0-0 1-1 3-3 4-4 5-6 6-7
+# align_s = 0-0 1-0 3-3 4-4 5-6 6-7
 # align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 
 # source = Vy máte již jednu hodinu vyčerpánu.
 # initial_translation = You've had one hour of exhaustion.
@@ -919,8 +919,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u7.p1.s3
-# align_s = 0-0 2-4 3-6 4-8 5-9 6-10 7-10 8-11 9-13 10-14 11-15 14-16 15-18 16-19 17-22 19-19 20-20 21-21 22-23 23-25 24-26 25-27 26-28 27-30 28-31 29-33 30-34 31-40 32-38 33-39 34-41 35-42
-# align_t = 0-0 4-2 6-3 8-4 9-5 10-6 11-8 13-9 14-10 15-11 16-14 17-15 18-16 19-19 20-20 21-21 22-17 23-22 25-23 26-24 27-25 28-26 30-27 31-28 32-29 34-30 36-31 38-32 39-33 40-31 41-34 42-35 
+# align_s = 0-0 2-4 3-6 4-8 5-9 7-10 8-11 9-13 10-14 11-15 14-16 15-18 16-19 17-22 19-19 20-20 21-21 22-23 23-25 24-26 25-27 26-28 27-30 28-31 29-32 30-34 31-40 32-38 33-39 34-41 35-42
+# align_t = 0-0 4-2 6-3 8-4 9-5 10-6 11-8 13-9 14-10 15-11 16-14 18-15 19-19 20-20 21-21 22-17 23-22 25-23 26-24 27-25 28-26 30-27 31-28 34-30 36-31 38-32 39-33 40-34 41-33 42-35 
 # source = Já tomu samozřejmě vyhovím, jenom abychom zjednodušili situaci, zeptám se, zda je zde připraven ještě nějaký jiný návrh na přestávku z jiného poslaneckého klubu, abychom případně příslušné přestávky spojili.
 # initial_translation = I will, of course, accept this, just to simplify the situation, ask if there is any other proposal prepared for a break from another member's club, so that we can join the relevant breaks if necessary.
 # text = I will, of course, accept this, just to simplify the situation, ask if there is any other proposal prepared for a break from another member's club, so that we can join the relevant breaks if necessary.
@@ -969,7 +969,7 @@
 43	.	.	PUNCT	.	_	42	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u7.p1.s4
-# align_s = 0-0 1-3 2-5 3-6 4-7
+# align_s = 0-2 1-3 2-5 3-6 4-7
 # align_t = 0-0 1-1 2-0 3-1 4-0 5-2 6-3 7-4 
 # source = Nikoho nevidím, dobrá.
 # initial_translation = I don't see anyone, okay.
@@ -1016,8 +1016,8 @@
 11	.	.	PUNCT	.	_	10	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u7.p2.s1
-# align_s = 0-0 1-2 2-3 3-7 4-8 6-9 8-9 9-10 10-11 11-13 13-14 14-15 15-17 16-19
-# align_t = 0-0 2-1 3-2 7-3 8-4 9-8 10-9 11-10 12-11 13-11 14-13 15-14 17-15 18-14 19-16 
+# align_s = 0-0 1-2 2-3 3-7 6-9 7-8 8-9 9-10 10-11 11-13 13-14 14-18 15-17 16-19
+# align_t = 0-0 2-1 3-2 4-3 7-3 8-7 9-8 10-9 11-10 13-11 14-13 15-14 17-15 18-14 19-16 
 # source = Pardon, jestli dovolíte, ještě předtím, než se rozejdeme, pan předseda klubu Kováčik.
 # initial_translation = Excuse me, if you don't mind, before we break up, Chairman of the Kováčik Club.
 # text = Excuse me, if you don't mind, before we break up, Chairman of the Kováčik Club.
@@ -1043,8 +1043,8 @@
 20	.	.	PUNCT	.	_	19	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u8.p1.s1
-# align_s = 0-0 2-1 3-2 4-4 6-5 7-8 8-9 9-10 10-13 11-12 12-14 13-18 14-19 15-16 16-20
-# align_t = 0-0 1-2 2-3 4-4 5-6 8-7 9-8 10-9 11-8 12-10 13-11 14-12 16-15 18-13 19-14 20-16 
+# align_s = 0-0 2-1 3-2 4-4 6-5 7-8 8-11 9-10 10-13 11-12 12-14 13-18 14-19 15-16 16-20
+# align_t = 0-0 1-2 2-3 4-4 5-5 6-6 8-7 10-9 11-8 12-10 13-11 14-12 15-12 16-15 18-13 19-14 20-16 
 # source = Já jsem jenom chtěl říci, že svolávám klub KSČM teď hned do jednacích prostor klubu.
 # initial_translation = I just wanted to say that I'm calling the KSČM club right now to the club's negotiating premises.
 # text = I just wanted to say that I'm calling the KSČM club right now to the club's negotiating premises.
@@ -1071,8 +1071,8 @@
 21	.	.	PUNCT	.	_	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u9.p1.s1
-# align_s = 1-4 2-0 3-1 4-5 5-8 6-7 7-9
-# align_t = 0-2 1-3 4-6 5-4 7-6 8-5 9-7 
+# align_s = 0-2 1-4 2-0 3-1 4-5 5-8 6-7 7-9
+# align_t = 0-2 1-3 4-1 5-4 7-6 8-5 9-7 
 # source = Poslanecký klub TOP 09 do místnosti klubu.
 # initial_translation = Top 09 Members' club to the club room.
 # text = Top 09 Members' club to the club room.
@@ -1131,7 +1131,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u12.p1.s1
 # align_s = 0-0 1-2 2-3 3-4 4-5 6-6 7-7 8-8 9-10 10-11 11-13 12-14 13-15 15-16 16-17 17-19 18-20 19-21 20-23 21-24 22-25
-# align_t = 0-0 2-1 3-2 4-3 5-4 6-6 7-7 8-8 10-9 11-10 13-11 14-12 15-13 16-15 17-16 19-17 20-18 21-19 23-20 24-21 25-22 
+# align_t = 0-0 2-1 3-2 4-3 5-4 6-6 7-7 8-8 10-9 11-10 13-11 14-12 15-13 16-14 17-16 19-17 20-18 21-19 23-20 24-21 25-22 
 # source = Po mírném ujasnění - pokud pan předseda Kalousek žádal jednu hodinu dvacet minut, tak to bude do 15 hodin 30 minut.
 # initial_translation = After a slight clarification - if President Kalousek asked for one hour of twenty minutes, it will be within 15 hours of 30 minutes.
 # text = After a slight clarification - if President Kalousek asked for one hour of twenty minutes, it will be within 15 hours of 30 minutes.
@@ -1180,8 +1180,8 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u13.p1.s1
-# align_s = 0-0 1-1 2-2 3-3 4-5 8-6 9-7 10-11 11-8 13-9 14-10 16-13 17-14 18-15 19-16 21-17 22-18 24-20 25-21 26-22 27-23 29-24 30-25 31-26 33-27 34-28 35-30 36-31
-# align_t = 0-0 1-1 2-2 3-3 5-4 6-8 7-9 8-12 9-13 10-14 11-10 13-11 14-17 15-18 16-19 17-21 18-22 19-23 20-24 21-26 22-27 23-28 24-29 26-30 27-33 28-34 30-35 31-36 
+# align_s = 0-0 1-1 2-2 3-3 4-5 8-6 9-7 10-11 11-8 13-9 14-10 16-13 17-14 18-15 19-16 21-17 22-18 23-19 24-20 25-21 26-23 27-22 28-23 29-24 30-25 31-26 33-27 34-28 35-30 36-31
+# align_t = 0-0 1-1 2-2 3-3 5-4 6-8 7-9 8-12 9-13 10-14 11-10 13-11 14-17 15-18 16-19 17-21 18-22 19-23 20-24 21-26 22-27 23-28 24-29 25-30 26-31 27-33 30-35 31-36 
 # source = Dámy a pánové, čas, který byl vyhrazen na poradu poslaneckého klubu TOP 09, uplynul, a já vás tedy prosím, abyste zaujali svá místa v jednacím sále, a budeme pokračovat.
 # initial_translation = Ladies and gentlemen, the time reserved for the TOP 09 meeting has passed, and I therefore ask you to take your seats in the Chamber and we will continue.
 # text = Ladies and gentlemen, the time reserved for the TOP 09 meeting has passed, and I therefore ask you to take your seats in the Chamber and we will continue.
@@ -1219,7 +1219,7 @@
 32	.	.	PUNCT	.	_	31	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.u13.p2.s1
-# align_s = 0-1 1-2 4-4 5-5 7-6
+# align_s = 0-1 1-2 3-3 4-4 5-5 7-6
 # align_t = 1-0 2-1 3-2 4-4 5-5 6-7 
 # source = Dalším bodem, který budeme projednávat, je
 # initial_translation = The next item to be discussed is:

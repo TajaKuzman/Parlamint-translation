@@ -50,7 +50,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p2.s1
 # align_s = 0-0 1-1 2-2 3-3 4-4 5-7 7-11 10-14 11-15
-# align_t = 0-0 1-1 2-2 3-4 4-4 7-5 8-3 9-3 10-7 11-8 12-10 13-10 14-10 15-11 
+# align_t = 0-0 1-1 2-2 3-4 4-4 7-5 8-3 9-3 10-6 11-7 13-8 14-10 15-11 
 # source = Já bych poprosil tentokrát kolegy vlevo, aby se ztišili.
 # initial_translation = I'd like my colleagues on the left this time to keep their voices down.
 # text = I'd like my colleagues on the left this time to keep their voices down.
@@ -94,8 +94,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p2.s4
-# align_s = 0-2 1-4 2-5 3-7 4-8 5-9 6-10 7-11 8-12 10-14 11-15 12-16 13-19 14-20 19-23 20-24 21-25 22-28
-# align_t = 2-0 4-1 5-2 7-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 15-11 16-12 19-13 20-14 21-15 22-16 23-17 25-21 27-20 28-22 
+# align_s = 0-2 1-4 2-5 3-7 4-8 5-9 7-11 8-12 9-13 10-14 11-15 12-16 13-19 14-20 16-21 17-22 19-23 20-24 21-25 22-28
+# align_t = 2-0 4-1 5-2 7-3 8-4 9-5 11-7 12-8 13-9 14-10 15-11 16-12 19-13 20-14 21-15 22-16 23-17 25-21 27-20 28-22 
 # source = Poprosím skupinu u dveří - já vás nebudu jmenovat, pánové, ale poprosím vás, abyste opravdu nerušili jednání Sněmovny.
 # initial_translation = I will ask the group at the door - I will not appoint you gentlemen, but I will ask you not to disturb the House's actions.
 # text = I will ask the group at the door - I will not appoint you gentlemen, but I will ask you not to disturb the House's actions.
@@ -140,7 +140,7 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p3.s1
-# align_s = 0-0 1-2 2-3 3-5 4-6 6-7 7-8 8-7 9-8 11-9 12-10 13-12 14-13 15-14 16-15 17-16 18-17 19-19 20-23 21-24 22-25 23-26 24-28 25-31 26-34 27-35 28-36 30-37 31-38 32-39 33-40
+# align_s = 0-0 1-2 2-3 3-5 4-6 6-7 7-8 8-7 9-8 11-9 12-10 13-12 14-13 15-14 16-15 17-20 18-17 19-19 20-23 21-24 22-25 23-26 24-28 25-31 26-34 27-35 28-36 30-37 31-38 32-39 33-40
 # align_t = 0-0 2-1 3-2 5-3 6-4 7-8 8-9 9-11 10-12 12-13 13-14 14-15 15-16 17-18 19-19 20-17 23-20 24-21 25-22 26-23 28-24 31-25 34-26 35-27 36-28 37-30 38-31 39-32 40-33 
 # source = Podle § 18 zákona č. 154/1994 Sb., o Bezpečnostní informační službě, zřizuje Poslanecká sněmovna zvláštní kontrolní orgán pro kontrolu činnosti BIS, skládající se ze sedmi poslanců.
 # initial_translation = According to Article 18 of Law No. 154/1994 Coll., on the Security Information Service, the Chamber of Deputies sets up a special supervisory body for the control of the activities of the BIS, consisting of seven Members.
@@ -188,8 +188,8 @@
 41	.	.	PUNCT	.	_	40	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p3.s2
-# align_s = 0-0 1-2 2-3 3-6 4-8 5-11 7-12 9-13 10-14 11-15 12-16 13-17 14-20 15-21 16-24 17-26 18-27 19-28 20-29 21-30 22-31 23-32 24-33 25-34 26-42 27-35 28-38 29-39 30-44 31-47 34-48 35-49 36-50 37-51 38-52 39-54 40-58 41-60 42-61 43-62
-# align_t = 0-0 2-1 3-2 6-3 8-4 11-5 12-7 13-9 14-10 15-11 16-12 17-13 20-14 21-15 24-16 26-17 27-18 28-19 29-20 30-21 31-22 32-23 33-24 34-25 35-27 36-28 39-28 41-29 42-26 44-30 47-31 48-33 49-35 50-36 51-37 52-38 53-38 55-39 58-40 60-41 61-42 62-43 
+# align_s = 0-0 1-2 2-3 3-6 4-7 5-11 6-9 8-12 9-13 10-14 11-15 12-16 13-17 14-20 15-21 16-24 17-26 18-27 19-28 20-29 21-30 22-31 23-32 24-33 25-34 27-35 28-39 29-41 30-44 31-47 34-48 35-49 36-50 37-51 38-53 39-55 40-58 41-60 42-61 43-62
+# align_t = 0-0 2-1 3-2 6-3 8-4 10-5 11-5 12-7 13-9 14-10 15-11 17-12 18-13 20-14 21-15 24-16 26-17 27-18 28-19 29-20 30-21 31-22 32-23 33-24 34-25 35-28 36-29 39-28 41-29 42-26 44-30 47-31 48-33 49-35 50-36 51-37 53-38 55-39 58-40 60-41 61-42 62-43 
 # source = Podle § 47 jednacího řádu navrhuji, aby tento kontrolní orgán měl postavení stálé komise Poslanecké sněmovny, a v souladu s § 115 odst. 3 jednacího řádu dále navrhuji, aby tato komise byla ustavena podle zásady poměrného zastoupení.
 # initial_translation = Pursuant to Article 47 of the Rules of Procedure, I propose that this supervisory body be appointed as the Permanent Commission of the Chamber of Deputies, and in accordance with Article 115 (1) of the Rules of Procedure. In addition, I propose that this Commission be set up in accordance with the principle of proportional representation.
 # text = Pursuant to Article 47 of the Rules of Procedure, I propose that this supervisory body be appointed as the Permanent Commission of the Chamber of Deputies, and in accordance with Article 115 (1) of the Rules of Procedure. In addition, I propose that this Commission be set up in accordance with the principle of proportional representation.
@@ -318,8 +318,8 @@
 27	;	;	PUNCT	:	_	26	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p7.s1
-# align_s = 0-0 1-1 2-2 4-3 5-5 7-8 8-11 9-14 10-16 11-17 12-18
-# align_t = 0-0 1-1 2-2 3-4 4-4 5-5 6-6 7-7 8-9 11-8 14-9 16-10 17-11 18-12 
+# align_s = 0-0 1-1 2-2 4-3 5-5 7-7 8-11 9-14 10-16 11-17 12-18
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-7 9-8 11-9 14-9 16-10 17-11 18-12 
 # source = II. stanoví, že komise se ustavuje podle zásady poměrného zastoupení.
 # initial_translation = II. provides that the Commission shall establish itself on the basis of the principle of proportional representation.
 # text = II. provides that the Commission shall establish itself on the basis of the principle of proportional representation.
@@ -361,7 +361,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p8.s2
 # align_s = 0-2 3-3 5-5 6-6 7-4 8-6 9-8
-# align_t = 0-0 1-1 2-2 3-3 4-7 6-8 8-9 
+# align_t = 0-0 1-1 2-4 3-3 4-7 6-8 8-9 
 # source = Ptám se, zda se do ní někdo hlásí.
 # initial_translation = I'm asking if anyone's checking in.
 # text = I'm asking if anyone's checking in.
@@ -377,7 +377,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p8.s3
 # align_s = 0-0 1-1 2-4 3-5 4-10 5-11 6-8 7-12
-# align_t = 0-0 1-1 2-0 3-1 4-2 5-3 6-4 7-5 8-6 10-4 11-5 12-7 
+# align_t = 0-0 1-1 2-0 3-1 4-2 5-3 7-5 8-6 10-4 11-6 12-7 
 # source = Nikoho nevidím, takže obecnou rozpravu končím.
 # initial_translation = I see no one, so I am ending the general debate.
 # text = I see no one, so I am ending the general debate.
@@ -481,8 +481,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p10.s2
-# align_s = 0-2 3-3 4-4 5-6 7-10 8-8 9-10 10-11 11-12 12-14 13-15
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-7 8-8 10-9 11-10 12-11 13-12 14-12 15-13 
+# align_s = 0-2 3-3 4-4 5-6 7-7 8-8 9-10 10-11 11-12 12-14 13-15
+# align_t = 1-0 2-2 3-3 4-4 5-5 6-7 8-8 10-9 11-10 12-12 13-11 14-12 15-13 
 # source = Ptám se, kdo je pro, ať stiskne tlačítko a zvedne ruku.
 # initial_translation = I'm asking who's in favor of pressing the button and raising his hand.
 # text = I'm asking who's in favor of pressing the button and raising his hand.
@@ -539,8 +539,8 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p11.s2
-# align_s = 0-1 2-2 3-4 4-6 5-7 6-8 7-10 8-12 9-13 10-15
-# align_t = 0-0 1-1 2-2 4-3 6-4 7-5 8-6 10-7 12-8 13-9 14-9 15-10 
+# align_s = 0-1 2-2 3-4 4-6 5-7 6-8 7-10 8-12 9-14 10-15
+# align_t = 0-0 1-1 2-2 4-3 6-4 7-5 8-6 10-7 14-9 15-10 
 # source = Konstatuji, že návrh byl přijat a komise byla ustavena.
 # initial_translation = I note that the proposal has been adopted and the commission has been set up.
 # text = I note that the proposal has been adopted and the commission has been set up.
@@ -563,7 +563,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-10-ps2013-004-01-004-003.u1.p11.s3
 # align_s = 0-2 1-4 3-5 4-6
-# align_t = 2-0 4-1 5-3 6-4 
+# align_t = 1-0 2-0 4-1 5-3 6-4 
 # source = Končím bod číslo 3.
 # initial_translation = I'm done with point three.
 # text = I'm done with point three.

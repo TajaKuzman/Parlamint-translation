@@ -9,7 +9,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p1.s2
 # align_s = 0-0 1-1 2-3 3-3 4-5 5-11 6-8 7-10 8-12 9-14 10-16 11-18 12-19 13-20
-# align_t = 0-0 1-1 3-2 5-4 8-6 10-7 11-5 12-8 14-9 16-10 18-11 19-12 20-13 
+# align_t = 0-0 1-1 3-2 4-3 5-4 8-6 10-7 11-5 12-8 14-9 16-10 18-11 19-12 20-13 
 # source = Informace o svolání ustavujících schůzí výborů Poslanecké sněmovny a pověření poslanců řízením těchto schůzí
 # initial_translation = Information on the convening of meetings of the Chamber of Deputies Committees and the delegation of Members to manage these meetings
 # text = Information on the convening of meetings of the Chamber of Deputies Committees and the delegation of Members to manage these meetings
@@ -36,8 +36,8 @@
 21	meetings	meeting	NOUN	NNS	Number=Plur	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p2.s1
-# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 7-9 8-10 9-11 10-12 11-13 12-14 13-16 14-16 15-19 16-25 17-22 18-24 19-26 20-27 21-29 23-30 24-31 26-32 27-34 29-35 30-36 31-37 32-38 33-40 34-42 35-44 36-45 37-46
-# align_t = 0-0 1-1 2-2 4-3 5-4 6-5 7-6 9-7 10-8 11-9 12-10 13-11 14-12 16-13 19-15 22-17 24-18 25-16 26-19 27-20 29-21 30-23 31-24 32-26 34-27 35-29 36-30 37-31 38-32 40-33 42-34 44-35 45-36 46-37 
+# align_s = 0-0 1-1 2-2 3-4 4-5 5-6 6-7 7-9 8-10 9-11 10-12 11-13 12-14 13-16 14-16 15-19 16-25 17-22 18-24 19-26 20-27 21-29 23-30 24-31 26-32 27-34 29-35 30-36 31-37 32-38 33-40 34-42 35-44 36-45 37-46
+# align_t = 0-0 1-1 2-2 3-2 4-3 5-4 6-5 9-7 10-8 11-9 12-10 13-11 14-12 16-13 17-14 19-15 22-17 24-18 25-16 26-19 27-20 29-21 30-23 31-24 32-26 34-27 35-29 36-30 37-31 38-32 41-33 42-34 44-35 45-36 46-37 
 # source = Chtěl bych vás informovat, že jsem vydal své rozhodnutí číslo 2 o svolání ustavujících schůzí výborů Poslanecké sněmovny na středu 4. prosince a na čtvrtek 5. prosince a jejich řízením jsem pověřil následující poslance.
 # initial_translation = I would like to inform you that I have issued my decision number 2 on the convening of the sittings of the Chamber of Deputies Committees on Wednesday, 4 December and Thursday, 5 December and their management, I have entrusted the following Members.
 # text = I would like to inform you that I have issued my decision number 2 on the convening of the sittings of the Chamber of Deputies Committees on Wednesday, 4 December and Thursday, 5 December and their management, I have entrusted the following Members.
@@ -90,8 +90,8 @@
 47	.	.	PUNCT	.	_	46	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p2.s2
-# align_s = 0-2 1-3 2-5 3-6 4-7 5-8 6-9 7-11 8-12 9-13 10-14 11-15 12-16 13-18 15-19 16-20 17-21 18-22 19-23 20-24 21-25 23-26 24-27 25-29 26-31 27-32 28-36 29-35 30-37 33-40 34-41 35-43 36-38 37-39 38-44 39-47 40-49 41-50 42-51 43-55 44-52 46-53 47-56
-# align_t = 2-0 3-1 5-2 6-3 7-4 9-6 12-8 13-9 14-10 15-11 16-12 18-13 19-15 20-16 21-17 22-18 23-19 24-20 25-21 26-23 27-24 29-25 31-26 32-27 35-29 36-28 37-30 38-36 39-37 40-33 41-34 43-35 44-38 47-39 49-40 50-41 51-42 52-45 53-46 54-44 55-43 56-47 
+# align_s = 0-2 1-3 2-5 3-6 4-7 5-8 6-9 7-11 8-12 9-13 10-14 11-15 12-16 13-18 15-19 16-20 17-21 18-22 19-23 20-24 21-25 23-26 24-27 26-31 27-32 28-36 29-35 30-37 33-40 34-41 35-43 36-38 37-39 38-44 39-47 40-49 41-50 42-51 43-55 44-52 46-53 47-56
+# align_t = 2-0 3-1 5-2 6-3 7-4 8-5 9-6 10-7 12-8 13-9 14-10 15-11 16-12 18-13 19-15 20-16 21-17 22-18 23-19 24-20 25-21 26-23 27-24 29-25 31-26 32-27 35-29 36-28 37-30 38-36 39-37 40-33 41-34 43-35 44-38 47-39 49-40 50-41 51-42 52-45 53-46 54-44 55-43 56-47 
 # source = Nyní přečtu jednotlivé výbory a příslušné poslance, pouze upozorňuji, že u výborů, které byly svolány na středu, což je, pokud se nepletu, výbor rozpočtový, tak tam bude muset být ta věc upravena a mám již avizováno vystoupení pana poslance Votavy.
 # initial_translation = I will now read the various committees and the Members concerned, just pointing out that for the committees that were convened on Wednesday, which, if I am not mistaken, is a budget committee, this matter will have to be adjusted there, and I have already announced Mr Votava's speeches.
 # text = I will now read the various committees and the Members concerned, just pointing out that for the committees that were convened on Wednesday, which, if I am not mistaken, is a budget committee, this matter will have to be adjusted there, and I have already announced Mr Votava's speeches.
@@ -154,8 +154,8 @@
 57	.	.	PUNCT	.	_	56	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p2.s3
-# align_s = 0-0 1-2 2-5 3-6 4-7 5-8 6-11 7-12 8-14 9-15 10-16 11-18 12-20 13-22 14-23 15-24 16-25 17-26
-# align_t = 0-0 2-1 3-1 5-2 6-3 7-4 8-5 11-6 12-7 14-8 15-9 16-10 18-11 20-12 22-13 23-14 24-15 25-16 26-17 
+# align_s = 0-0 1-3 2-5 3-6 4-7 5-8 6-11 7-12 8-14 9-15 10-16 11-18 12-20 13-22 14-23 15-24 16-25 17-26
+# align_t = 0-0 2-1 3-1 5-2 6-3 7-4 8-5 11-6 12-7 14-8 15-9 16-10 18-11 21-12 22-13 23-14 24-15 25-16 26-17 
 # source = Takže kromě rozpočtového výboru, což vyřešíme v rozpravě, vás seznámím s následujícími časy a jmény.
 # initial_translation = So, aside from the budget committee, which we will resolve in the debate, I will introduce you to the following times and names.
 # text = So, aside from the budget committee, which we will resolve in the debate, I will introduce you to the following times and names.
@@ -188,7 +188,7 @@
 27	.	.	PUNCT	.	_	26	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p3.s1
-# align_s = 0-1 2-2 4-3 5-5 6-8 7-9 8-10 9-11 10-12 11-13 12-14 13-15 14-16 16-17 17-18 18-19 19-21 21-22 22-23 23-24 24-26 25-29 26-30 27-31 28-32 29-33 30-34 31-35 32-36
+# align_s = 0-0 2-2 4-3 5-5 6-8 7-9 8-10 9-11 10-12 11-13 12-14 13-15 14-16 15-17 17-18 18-19 19-21 21-22 22-23 23-24 24-26 25-29 26-30 27-31 28-32 29-33 30-34 31-35 32-36
 # align_t = 0-1 1-2 2-3 3-4 5-5 8-6 9-7 10-8 11-9 12-10 13-11 14-12 15-13 16-14 17-15 18-17 19-18 21-19 22-21 23-22 24-23 26-24 29-25 30-26 31-27 32-28 33-29 34-30 35-31 36-32 
 # source = Pověřil jsem pana poslance Laudáta řízením petičního výboru, který se sejde v 8 hodin, myšleno ve čtvrtek 5. prosince, v místnosti petičního výboru číslo 311, Sněmovní 1.
 # initial_translation = I put Mr Laudat in charge of the petition committee, which will meet at 8 o'clock, on Thursday, 5 December, in the room of the petition committee number 311, House 1.
@@ -232,7 +232,7 @@
 37	.	.	PUNCT	.	_	36	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p4.s1
-# align_s = 0-2 2-3 4-4 5-6 6-9 7-10 8-11 9-12 11-14 12-15 13-17 15-21 17-23 18-20 19-24 20-25 21-26 22-27
+# align_s = 0-2 2-3 4-4 5-6 6-9 7-10 8-11 9-12 11-14 12-15 13-17 15-21 16-22 17-23 18-20 19-24 20-25 21-26 22-27
 # align_t = 1-1 2-2 3-3 4-4 6-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 17-13 18-14 20-15 21-16 23-17 24-19 25-20 26-21 27-22 
 # source = Pověřil jsem pana poslance Votavu řízením rozpočtového výboru, který se sejde v dobu, kterou pan poslanec určí ve svém vystoupení.
 # initial_translation = I have put Mr Votav in charge of the budget committee, which shall meet at a time to be determined by the Member in his speech.
@@ -267,7 +267,7 @@
 28	.	.	PUNCT	.	_	27	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p5.s1
-# align_s = 1-0 2-1 3-2 4-1 6-3 7-4 8-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-13 17-15 18-14 20-16 21-18 23-19 24-20
+# align_s = 1-0 2-1 3-2 6-3 7-4 8-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-13 17-15 18-14 20-16 21-18 23-19 24-20
 # align_t = 0-1 1-2 2-3 3-6 4-7 5-8 6-9 7-10 8-11 9-12 10-13 11-14 12-15 13-16 14-18 15-17 16-20 18-21 19-23 20-24 
 # source = Poslance Jiřího Štětinu řízením kontrolního výboru, který se sejde v 16 hodin v místnosti 206, myšleno rovněž ve čtvrtek 5. prosince.
 # initial_translation = Jiří Štětin's Member, who will meet at 16 o'clock in room 206, also meant Thursday, 5 December.
@@ -296,7 +296,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p6.s1
 # align_s = 0-0 1-2 2-3 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-13 12-12 13-14 14-15 15-16 16-17 17-18 18-19 19-20 20-21 21-22 22-23
-# align_t = 0-0 2-1 3-2 5-4 6-5 7-6 8-7 9-8 10-9 11-11 12-12 13-10 14-13 15-14 16-15 17-16 18-17 19-18 20-19 21-20 22-21 23-22 
+# align_t = 0-0 2-2 3-3 5-4 6-5 7-6 8-7 9-8 10-9 11-11 12-12 13-10 14-13 15-14 16-15 17-16 18-17 19-18 20-19 21-20 22-21 23-22 
 # source = Poslance Vítězslava Jandáka řízením volebního výboru, který se sejde 5. prosince v 15 hodin v místnosti 301, Sněmovní 1.
 # initial_translation = Member of Vítězslav Jandák's electoral committee, which will meet on December 5th at 15 o'clock in room 301, House 1.
 # text = Member of Vítězslav Jandák's electoral committee, which will meet on December 5th at 15 o'clock in room 301, House 1.
@@ -326,7 +326,7 @@
 24	.	.	PUNCT	.	_	23	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p7.s1
-# align_s = 0-0 1-2 2-3 3-6 4-11 5-8 6-9 7-10 8-12 11-13 12-14 13-15 14-16 15-19 16-20 17-21 19-22 20-23 21-24 22-25 23-26
+# align_s = 0-0 1-2 2-3 3-6 5-8 6-9 7-10 9-11 11-13 12-14 13-15 14-16 15-19 16-20 17-21 19-22 20-23 21-24 22-25 23-26
 # align_t = 0-0 2-1 3-2 6-3 8-5 9-6 10-7 11-4 12-8 13-11 14-12 15-13 16-14 19-15 20-16 21-17 22-19 23-20 24-21 25-22 26-23 
 # source = Poslance Josefa Šenfelda řízením výboru pro evropské záležitosti, který se sejde ve 14.30 hodin pátého v místnosti číslo 6, Sněmovní 3.
 # initial_translation = Member of Josef Šenfeld, in charge of the European Affairs Committee, meeting at 2:30 p.m. on the fifth in Room 6, House 3.
@@ -360,7 +360,7 @@
 27	.	.	PUNCT	.	_	26	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p8.s1
-# align_s = 0-0 2-1 3-2 4-6 5-17 7-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 15-11 16-12 17-14 18-17 19-18 20-19 21-20 22-21 23-22 24-23 25-24
+# align_s = 0-0 2-1 3-2 4-1 5-2 7-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 15-11 16-12 17-14 18-17 19-18 20-19 21-20 22-21 23-22 24-23 25-24
 # align_t = 0-1 1-2 2-3 3-7 4-8 5-9 6-10 7-11 8-12 9-13 10-14 11-15 12-16 14-17 17-18 18-19 19-20 20-21 21-22 22-23 23-24 24-25 
 # source = Pana poslance Ladislava Velebného řízením hospodářského výboru, který se sejde v 9 hodin ve čtvrtek v místnosti hospodářského výboru číslo 306, Sněmovní 1.
 # initial_translation = Mr Ladislav Velebný, who will meet at 9 a.m. on Thursday in the room of the Economic Committee number 306, House 1.
@@ -419,7 +419,7 @@
 20	.	.	PUNCT	.	_	19	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p10.s1
-# align_s = 0-0 1-1 2-2 3-4 4-8 5-6 6-7 7-9 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-17 19-18 20-19 21-20 22-21 23-22
+# align_s = 0-0 1-1 2-2 3-4 5-6 6-7 8-8 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-17 19-18 20-19 21-20 22-21 23-22
 # align_t = 0-0 1-1 2-2 4-3 6-5 7-6 8-4 9-7 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-17 18-19 19-20 20-21 21-22 22-23 
 # source = Poslance Alexandra Černého řízením výboru pro obranu, který se sejde ve čtvrtek v 9 hodin v místnosti číslo 311, Sněmovní 4.
 # initial_translation = Member Alexander Black in charge of the Defence Committee, meeting on Thursday at 9 o'clock in room 311, House 4.
@@ -449,8 +449,8 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p11.s1
-# align_s = 0-0 1-1 2-2 3-3 4-5 10-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 18-12 20-13 21-15 22-16 23-17
-# align_t = 0-0 1-1 2-2 3-7 4-10 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-18 13-20 15-21 16-22 17-23 
+# align_s = 0-0 1-1 2-2 3-3 4-5 7-3 10-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 18-12 20-13 21-15 22-16 23-17
+# align_t = 0-2 1-3 2-4 3-7 4-10 5-11 6-12 7-13 8-14 9-15 10-16 11-17 12-18 13-20 15-21 16-22 17-23 
 # source = Poslankyni Zuzku Bebarovou Rujbrovou řízením výboru pro bezpečnost, který se sejde v 11 hodin ve čtvrtek v místnosti číslo 23 Sněmovní 4.
 # initial_translation = Mr. Zuzeka Bebar Rujbrová will meet at 11 o'clock on Thursday in room 23 of House 4.
 # text = Mr. Zuzka Bebarová Rujbrová will meet at 11 o'clock on Thursday in room 23 of House 4.
@@ -590,7 +590,7 @@
 36	.	.	PUNCT	.	_	35	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p15.s1
-# align_s = 0-0 1-1 2-2 3-5 4-8 5-9 6-10 7-11 8-12 9-13 10-14 11-15 13-16 14-17 15-18 16-19 17-20 18-21 20-22 21-23 23-24 24-25 25-26 26-27 27-28
+# align_s = 0-0 1-1 2-2 3-5 4-8 5-9 6-10 7-11 8-12 9-13 10-14 11-15 12-16 13-16 14-17 15-18 16-19 17-20 18-21 20-22 21-23 23-24 24-25 25-26 26-27 27-28
 # align_t = 0-0 1-1 2-2 5-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 15-11 16-13 17-14 18-15 19-16 20-17 21-18 22-20 23-21 24-23 25-24 26-25 27-26 28-27 
 # source = Poslankyni Miladu Halíkovou řízením výboru pro veřejnou správu a regionální rozvoj, který se sejde ve čtvrtek ve 13 hodin v místnosti číslo 211, Sněmovní 4.
 # initial_translation = Member Milady Halíková, in charge of the Committee on Public Administration and Regional Development, will meet on Thursday at 13:00 in room 211, House 4.
@@ -626,7 +626,7 @@
 29	.	.	PUNCT	.	_	28	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p16.s1
-# align_s = 0-0 1-1 2-2 3-6 6-2 8-3 9-4 10-5 11-6 12-7 13-8 14-9 15-10 16-11 17-12 19-13 20-14 21-15 22-16 23-17
+# align_s = 1-1 2-2 3-0 6-1 7-1 8-3 9-4 10-5 11-6 12-7 13-8 14-9 15-10 16-11 17-12 19-13 20-14 21-15 22-16 23-17
 # align_t = 0-0 1-1 2-7 3-8 4-9 5-10 6-11 7-12 8-13 9-14 10-15 11-16 12-17 13-19 14-20 15-21 16-22 17-23 
 # source = Poslance Josefa Nekla řízením výboru pro životní prostředí, který se sejde ve čtvrtek v 11.30 v místnosti číslo 49, Sněmovní 1.
 # initial_translation = Member Josef Nekl, who will meet on Thursday at 11.30 in room 49, House 1.
@@ -652,7 +652,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p17.s1
 # align_s = 0-0 1-2 2-3 3-5 4-8 5-9 6-10 7-11 8-12 9-13 10-14 11-15 12-16 13-17 14-18 15-19 16-23 17-21 18-22 19-24 20-25 21-26 22-27 23-28 24-29
-# align_t = 0-0 2-2 3-2 5-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 15-11 16-12 17-13 18-14 19-15 21-17 22-18 23-16 24-19 25-20 26-21 27-22 28-23 29-24 
+# align_t = 0-0 2-1 3-2 5-3 8-4 9-5 10-6 11-7 12-8 13-9 14-10 15-11 16-12 17-13 18-14 19-15 21-17 22-18 23-16 24-19 25-20 26-21 27-22 28-23 29-24 
 # source = Poslance Roma Kostřicu řízením zahraničního výboru, který se sejde v 10 hodin ve čtvrtek v místnosti zahraničního výboru číslo 250, Sněmovní 1.
 # initial_translation = Member of Roma Kostřic in charge of the Foreign Committee, which will meet at 10 o'clock on Thursday in the Foreign Committee Room number 250, House 1.
 # text = Member of Rom Kostřica in charge of the Foreign Committee, which will meet at 10 o'clock on Thursday in the Foreign Committee Room number 250, House 1.
@@ -688,7 +688,7 @@
 30	.	.	PUNCT	.	_	29	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p18.s1
-# align_s = 0-0 1-2 2-3 3-7 4-1 6-4 7-5 8-6 9-7 10-8 11-9 13-10 14-11 16-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 25-20
+# align_s = 1-2 2-3 3-0 4-3 6-4 7-5 8-6 9-7 10-8 11-9 13-10 14-11 16-12 18-13 19-14 20-15 21-16 22-17 23-18 24-19 25-20
 # align_t = 0-0 2-1 3-5 4-6 5-7 6-8 7-9 8-10 9-11 10-13 11-14 12-16 13-18 14-19 15-20 16-21 17-22 18-23 19-24 20-25 
 # source = Poslance Jaroslava Lobkowicze řízením zemědělského výboru, který se sejde ve 13 hodin v místnosti číslo 108A, Sněmovní 4, také ve čtvrtek.
 # initial_translation = Member of Jaroslav Lobkowicz, who will meet at 13:00 in room 108A, House 4, also on Thursday.
@@ -716,8 +716,8 @@
 21	.	.	PUNCT	.	_	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p19.s1
-# align_s = 0-1 3-4 5-5 6-6 7-7 8-9 9-8 10-12 11-15 12-17 13-18
-# align_t = 1-0 4-1 5-2 6-3 7-7 8-9 9-8 12-10 15-11 17-11 18-13 
+# align_s = 0-1 1-3 2-5 3-4 5-5 7-7 8-9 9-8 10-12 11-15 12-17 13-18
+# align_t = 1-0 3-1 5-2 6-3 7-7 8-9 9-8 12-10 13-11 15-11 17-12 18-13 
 # source = Pověření je do doby, než budou zvolení předsedové výborů potvrzeni Poslaneckou sněmovnou.
 # initial_translation = The delegation shall be valid until the elected committee chairmen have been confirmed by the Chamber of Deputies.
 # text = The delegation shall be valid until the elected committee chairmen have been confirmed by the Chamber of Deputies.
@@ -742,8 +742,8 @@
 19	.	.	PUNCT	.	_	18	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p20.s1
-# align_s = 0-1 1-2 3-3 4-8 5-9 6-12 7-13 8-6 9-14 10-15 11-16 13-19 15-18 16-20 17-21 18-22 19-23 20-25 21-27 22-28 23-29 24-30 25-31 26-33 27-35 29-36 30-37 31-38 32-40 33-41 34-42 35-43 36-44 38-46 39-47 42-48 43-51 44-52 45-50 47-53
-# align_t = 1-0 2-2 3-3 6-8 8-4 9-5 12-6 13-7 14-9 15-10 16-11 17-14 18-15 19-13 20-16 21-17 22-18 23-19 25-20 27-21 28-22 29-23 30-24 31-25 33-26 35-27 36-29 37-30 38-31 40-32 41-33 42-34 43-35 44-36 45-37 46-38 47-39 50-43 51-43 52-44 53-47 
+# align_s = 0-1 1-2 3-3 4-8 5-9 6-12 7-13 8-6 9-14 10-15 11-16 13-19 15-18 16-20 17-21 18-22 19-23 20-25 21-27 22-28 23-29 24-30 25-31 26-33 27-35 29-36 30-37 31-38 32-40 33-41 34-42 35-43 36-44 37-45 38-46 39-47 42-48 43-50 44-52 45-50 47-53
+# align_t = 1-0 2-2 3-3 6-8 8-4 9-5 12-6 13-7 14-9 15-10 16-11 17-14 18-15 19-13 20-16 21-17 22-18 23-19 25-20 27-21 28-22 29-23 30-24 31-25 33-26 35-27 36-29 37-30 38-31 40-32 41-33 42-34 43-35 44-36 45-37 46-38 47-39 48-42 50-42 51-43 52-44 53-47 
 # source = Dále sděluji, že ustavující schůzi organizačního výboru svolávám na dnes, tedy 4. prosince, 30 minut po přerušení této druhé schůze, což bych viděl někdy kolem 16.45, myslím tu schůzi, ne to přerušení, a to do jednací místnosti 106A.
 # initial_translation = I also say that I am calling the constituent meeting of the Organising Committee for today, on December 4, 30 minutes after the interruption of this second meeting, which I would have seen around 16.45, I mean the meeting, not the interruption, to the 106A meeting room.
 # text = I also say that I am calling the constituent meeting of the Organising Committee for today, on December 4, 30 minutes after the interruption of this second meeting, which I would have seen around 16.45, I mean the meeting, not the interruption, to the 106A meeting room.
@@ -803,8 +803,8 @@
 54	.	.	PUNCT	.	_	53	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p20.s2
-# align_s = 0-0 1-2 2-5 3-6 4-7 5-9 6-10 7-11 8-12 9-14 10-18 11-17 12-19 13-21 14-25 15-24 16-28 17-30 18-31
-# align_t = 0-0 2-1 5-2 6-3 7-4 8-5 9-6 10-6 11-7 12-8 14-9 15-10 17-11 18-11 19-12 21-13 24-15 25-14 28-16 30-16 31-18 
+# align_s = 0-0 1-2 2-6 3-6 4-7 5-9 6-10 7-11 8-12 9-14 10-18 11-17 12-19 13-21 14-25 15-24 16-28 17-30 18-31
+# align_t = 0-0 2-1 5-2 6-3 7-4 9-5 10-6 11-7 12-8 14-9 15-10 17-11 18-11 19-12 21-13 22-14 24-15 25-15 26-16 28-16 30-17 31-18 
 # source = Ještě jenom upozorňuji, že je zde rozdíl mezi volbou předsedy výborem a volbou předsedy výboru Poslaneckou sněmovnou.
 # initial_translation = I would just like to point out that there is a difference between the election of the committee chair and the election of the committee chair by the Chamber of Deputies.
 # text = I would just like to point out that there is a difference between the election of the committee chair and the election of the committee chair by the Chamber of Deputies.
@@ -842,8 +842,8 @@
 32	.	.	PUNCT	.	_	31	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p20.s3
-# align_s = 0-0 1-2 2-5 3-8 4-7 5-11 6-13 7-14 8-17 9-18 10-19 11-20
-# align_t = 0-0 2-1 5-2 7-4 8-3 11-5 12-6 14-7 17-8 18-9 19-10 20-11 
+# align_s = 0-0 1-2 2-5 3-8 4-7 5-11 6-11 7-14 8-17 9-18 10-19 11-20
+# align_t = 0-0 2-1 5-2 7-3 8-4 11-5 13-6 14-6 15-7 17-8 18-9 19-10 20-11 
 # source = V případě voleb předsedů výborů organizaci volby zajišťují jednotlivé výbory samy.
 # initial_translation = In the case of the election of committee chairmen, the selection shall be organised by the various committees themselves.
 # text = In the case of the election of committee chairmen, the selection shall be organised by the various committees themselves.
@@ -870,7 +870,7 @@
 21	.	.	PUNCT	.	_	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p20.s4
-# align_s = 0-1 1-4 3-6 4-7 5-8 6-9 7-10 8-11 9-14
+# align_s = 0-1 1-4 3-6 4-7 5-8 6-9 7-13 8-11 9-14
 # align_t = 1-0 4-1 5-2 6-3 7-4 8-5 9-6 11-8 13-7 14-9 
 # source = Návrhy kandidátů se budou předkládat přímo na jednání výboru.
 # initial_translation = The proposals of the candidates shall be submitted directly at the committee's meeting.
@@ -906,8 +906,8 @@
 7	.	.	PUNCT	.	_	6	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u1.p21.s2
-# align_s = 0-0 1-2 2-3 4-4 5-5 6-6 7-8 8-9 9-11 10-12 11-13 12-15 13-17 14-18 15-19 16-22 17-24 18-27 20-28 21-29 22-30 24-31 26-33 27-32 28-34 29-36 30-40 31-39 32-41
-# align_t = 0-0 2-1 3-3 4-4 5-5 6-6 8-7 9-8 11-9 12-10 13-11 15-12 17-13 18-14 19-15 22-16 24-17 27-18 28-20 29-21 30-22 31-24 32-25 33-26 34-27 35-28 36-29 39-31 40-30 41-32 
+# align_s = 0-0 1-2 2-3 4-4 5-5 6-6 7-8 8-9 9-11 10-12 11-13 12-15 13-17 14-18 15-19 16-22 17-24 18-27 20-28 21-29 22-30 25-31 26-33 27-32 28-34 29-36 30-40 31-39 32-41
+# align_t = 0-0 2-1 3-3 4-4 5-5 6-6 8-7 9-8 11-9 12-10 13-11 15-12 17-13 18-14 19-15 22-16 24-17 27-19 28-20 29-21 30-22 31-24 32-25 33-26 34-27 35-28 36-29 39-31 40-30 41-32 
 # source = A prosím pana poslance Votavu, který byl pověřen svoláním a řízením výboru rozpočtového, který jediný zatím neví, kdy se sejde, aby nás informoval o termínu schůze výboru.
 # initial_translation = And I beg Mr Votava, who has been assigned to convene and manage the Committee on Budget, who is the only one who does not know when to meet to inform us of the date of the committee meeting.
 # text = And I beg Mr Votava, who has been assigned to convene and manage the Committee on Budget, who is the only one who does not know when to meet to inform us of the date of the committee meeting.
@@ -971,8 +971,8 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u2.p1.s2
-# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-8 8-10 9-12 10-13 12-16 13-18 14-20 15-21 16-23 17-24 18-25 19-26 20-27 21-28 22-29 24-30 25-31 26-32 27-33 29-34 30-35 31-36 32-39
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 8-7 10-8 12-9 13-10 14-11 15-10 16-12 17-13 18-14 19-13 20-13 21-15 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-23 31-25 32-26 33-27 34-28 36-31 38-30 39-32 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-8 8-10 9-11 10-15 12-16 13-18 14-20 15-21 16-23 17-24 18-25 19-26 20-27 21-28 22-29 24-30 25-31 26-32 27-33 28-34 29-35 30-38 31-36 32-39
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 8-7 10-8 12-9 13-10 14-11 15-13 16-12 17-13 18-14 20-13 23-16 24-17 25-18 26-19 27-20 28-21 29-22 30-24 31-25 32-26 33-27 34-28 36-31 38-30 39-32 
 # source = Kolegyně, kolegové, já bych chtěl upozornit členy rozpočtového výboru, že rozpočtový výbor bude zasedat v této místnosti, v tomto jednacím sále, 30 minut po skončení jednání Sněmovny.
 # initial_translation = Colleagues, colleagues, I would like to inform the members of the Committee on Budgets that the Committee on Budgets will be sitting in this room, in this Chamber, 30 minutes after the House's meeting.
 # text = Colleagues, colleagues, I would like to inform the members of the Committee on Budgets that the Committee on Budgets will be sitting in this room, in this Chamber, 30 minutes after the House's meeting.
@@ -1055,8 +1055,8 @@
 5	.	.	PUNCT	.	_	4	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u3.p1.s2
-# align_s = 0-0 2-1 6-2 7-3 8-4 9-7 12-8 13-10 14-11 15-12 16-13 17-15 18-16 19-17 20-18 23-19 24-21 25-20 26-22 27-23 28-24 29-28 30-29 31-27 32-30
-# align_t = 0-0 1-5 2-6 3-7 4-8 5-9 7-10 8-12 9-12 10-13 11-14 12-15 13-16 15-17 16-18 17-19 18-20 19-21 20-25 21-24 22-26 23-27 24-28 27-31 28-29 29-30 30-32 
+# align_s = 0-0 5-1 6-2 7-3 8-4 9-7 12-8 13-10 14-11 15-12 16-13 17-15 18-16 19-17 20-19 24-21 25-20 26-22 27-23 28-24 29-28 30-29 31-27 32-30
+# align_t = 0-0 1-5 2-6 3-7 4-8 7-10 8-12 10-13 11-14 12-15 13-16 15-17 16-18 17-19 18-20 19-21 20-25 21-24 22-26 23-27 24-28 26-31 27-31 28-29 29-30 30-32 
 # source = Vzhledem k tomu, že to byla informace, zeptám se, zda jsou nějaké přihlášky do rozpravy, ale myslím si, že je všechno jasné, tudíž tento bod končím.
 # initial_translation = Since this was information, I will ask if there are any applications for the debate, but I think everything is clear, so I am ending this point.
 # text = Since this was information, I will ask if there are any applications for the debate, but I think everything is clear, so I am ending this point.
@@ -1093,8 +1093,8 @@
 31	.	.	PUNCT	.	_	30	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u3.p2.s1
-# align_s = 0-0 5-1 6-2 7-4 8-5 10-6 11-8 12-10 13-9 14-11 15-14 17-15 18-16 22-17 23-18 24-19 25-20 26-21 27-20 28-22
-# align_t = 0-0 1-5 2-6 4-7 5-8 6-10 7-11 8-11 9-13 10-12 11-14 14-15 15-17 16-18 17-22 18-23 19-24 20-25 21-26 22-28 
+# align_s = 0-0 5-1 6-2 7-4 8-5 10-6 11-8 12-10 13-9 14-11 15-14 17-15 18-16 22-17 23-18 24-19 25-20 27-21 28-22
+# align_t = 0-0 1-5 2-6 4-7 5-8 6-10 7-11 8-11 9-13 10-12 11-14 14-15 15-17 16-18 17-22 18-23 19-24 20-25 21-27 22-28 
 # source = Vzhledem k tomu, že toto byl poslední bod, který můžeme dnes projednat, přeruším jednání této schůze, a to do pátku do 9 hodin ráno.
 # initial_translation = Since this was the last item that we can discuss today, I will interrupt this meeting until Friday at 9:00 a.m.
 # text = Since this was the last item that we can discuss today, I will interrupt this meeting until Friday at 9:00 a.m.
@@ -1123,8 +1123,8 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u3.p2.s2
-# align_s = 0-0 2-1 3-2 4-3 5-5 6-8 9-10 10-11
-# align_t = 0-0 2-2 3-4 5-5 8-6 9-7 10-9 11-10 
+# align_s = 0-0 2-2 3-2 4-3 5-5 6-8 9-10 10-11
+# align_t = 0-0 1-1 2-2 3-4 5-5 8-6 9-7 10-9 11-10 
 # source = Přeji vám hezký zbytek dne a uvidíme se v pátek.
 # initial_translation = Have a nice day, and I'll see you Friday.
 # text = Have a nice day, and I'll see you Friday.
@@ -1142,8 +1142,8 @@
 12	.	.	PUNCT	.	_	11	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-04-ps2013-002-01-006-006.u3.p2.s3
-# align_s = 0-1 1-3 2-6 3-7 5-8 8-9 9-10 10-12 11-13 12-14 13-15 14-16 15-17 16-18 17-19
-# align_t = 1-0 3-1 6-2 7-3 8-5 9-6 10-9 12-10 13-11 14-12 15-13 16-14 17-15 18-16 19-17 
+# align_s = 0-1 1-3 2-6 3-7 6-8 8-9 9-10 10-12 11-13 12-14 13-15 14-16 15-17 16-18 17-19
+# align_t = 1-0 3-1 6-2 7-3 8-5 9-6 10-9 11-9 12-10 13-11 14-12 15-13 16-14 17-15 18-16 19-17 
 # source = Žádám členy organizačního výboru, aby se dostavili do stálých prostor v 16 hodin 45 minut.
 # initial_translation = I ask the members of the Organizing Committee to report to the permanent premises at 16 a.m. 45 minutes.
 # text = I ask the members of the Organizing Committee to report to the permanent premises at 16 a.m. 45 minutes.

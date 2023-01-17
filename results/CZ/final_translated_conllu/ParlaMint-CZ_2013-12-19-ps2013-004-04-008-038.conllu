@@ -8,8 +8,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u1.p1.s2
-# align_s = 0-1 1-2 2-0 3-3 4-4 5-4 6-5 7-6 8-8 9-9 10-10 11-8 12-9 13-11 14-13 15-14 17-15 18-16 19-15 20-16 22-17 23-18 24-19 25-20 26-21 27-22 28-22 29-22 30-23 31-24 32-25 33-26 34-27
-# align_t = 0-2 1-0 2-1 3-3 4-5 5-6 6-7 8-8 9-9 10-10 11-13 13-14 14-15 15-19 16-20 17-22 18-23 19-24 20-25 21-27 22-28 23-30 24-31 25-32 26-33 27-34 
+# align_s = 0-1 1-2 2-0 3-3 5-4 6-5 7-6 8-8 10-10 11-8 12-9 13-11 14-13 15-14 17-15 18-16 19-15 20-16 22-17 23-18 24-19 25-20 27-21 28-22 29-22 30-23 31-24 32-25 33-26 34-27
+# align_t = 0-2 1-0 2-1 3-3 4-5 5-6 6-7 8-8 9-9 10-10 11-13 13-14 14-15 15-17 16-20 17-22 18-23 19-24 20-25 21-28 22-29 23-30 24-31 25-32 26-33 27-34 
 # source = Dotační programy zemědělství pro rok 2014 poskytované podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů /sněmovní tisk 35/
 # initial_translation = Agriculture subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended /German press 35/
 # text = Agriculture subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended /German press 35/
@@ -67,8 +67,8 @@
 17	.	.	PUNCT	.	_	16	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u1.p2.s2
-# align_s = 1-0 3-1 4-3 5-4 6-7 8-8 9-18 10-19 12-10 13-11 14-12 15-13 16-14 17-16 18-20
-# align_t = 0-1 1-3 3-4 4-5 7-6 8-8 9-11 10-12 11-13 12-14 13-15 14-16 16-17 17-7 18-9 19-10 20-18 
+# align_s = 1-0 3-1 4-3 5-4 6-7 8-8 9-18 10-19 11-9 12-10 13-11 14-12 15-13 16-14 17-16 18-20
+# align_t = 0-1 1-3 3-4 4-5 7-6 8-8 9-11 10-12 11-13 12-14 13-15 14-16 16-17 17-7 18-9 20-18 
 # source = Ještě než se ujme slova, zkontroluji, jestli je zde pan kolega Velebný, který je zpravodajem.
 # initial_translation = Before taking the floor, I'll check if my colleague Velebný, who is the rapporteur, is here.
 # text = Before taking the floor, I'll check if my colleague Velebný, who is the rapporteur, is here.
@@ -121,8 +121,8 @@
 2	.	.	PUNCT	.	_	1	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p1.s2
-# align_s = 1-0 2-1 3-2 4-3 6-4 7-2 8-3 10-4 11-5 12-6 15-7 18-8 19-9 20-11 21-15 22-16 23-14 24-12 25-13 26-13 27-17 28-18 29-19 30-20 31-21 32-19 33-20 34-22 35-24 36-25 38-26 39-27 40-26 41-27 42-28 43-29 44-30 45-31
-# align_t = 0-1 1-2 2-3 3-8 4-10 5-11 6-12 7-13 8-18 9-15 10-16 11-19 12-20 13-22 14-23 15-25 16-26 17-27 18-28 19-29 20-30 21-31 22-34 24-35 25-36 26-40 27-41 28-42 29-43 30-44 31-45 
+# align_s = 1-0 2-1 3-2 5-3 6-4 7-2 8-3 9-4 10-4 11-5 12-6 15-7 18-8 19-9 20-11 21-15 22-16 23-14 24-12 26-13 27-17 28-18 29-19 31-21 32-19 33-20 34-22 35-24 36-25 38-26 39-27 40-26 41-27 42-28 43-29 44-30 45-31
+# align_t = 0-1 1-2 2-3 3-4 4-10 5-11 6-12 7-13 8-18 9-15 10-16 11-17 12-20 13-26 14-23 15-24 16-22 17-27 18-28 19-29 20-30 21-31 22-34 24-35 25-36 26-38 27-41 28-42 29-43 30-44 31-45 
 # source = Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, dovolte, abych vás v krátkosti seznámil s dotačními programy zemědělství pro rok 2014 poskytovanými podle § 2 a § 2d zákona č. 252/1997 Sb, o zemědělství.
 # initial_translation = Mr President, honourable Members, let me briefly introduce you to the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture.
 # text = Mr President, honourable Members, let me briefly introduce you to the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture.
@@ -160,8 +160,8 @@
 32	.	.	PUNCT	.	_	31	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p2.s1
-# align_s = 0-1 1-2 2-3 3-4 4-4 5-6 6-7 7-8 8-9 9-10 10-11 11-14 13-13 14-15 15-16 16-17 18-18 19-20 20-21 21-22 22-23 23-24 24-25 25-26 26-27 27-28 28-29 29-30 30-31 31-33 32-35 33-36 36-37 37-38 38-39 40-40 41-41 42-42 43-43 44-44 45-45 49-46 50-47 51-48 52-49 53-50 54-51
-# align_t = 1-0 2-1 3-2 4-4 5-5 6-5 7-6 8-7 9-8 10-9 11-10 12-12 13-13 14-11 15-14 16-15 17-16 18-18 20-19 21-20 22-21 23-22 24-23 25-24 26-25 27-26 28-27 29-28 30-29 31-30 32-30 33-31 35-32 36-33 37-34 38-37 39-38 40-40 41-41 42-42 43-43 44-44 45-45 46-49 47-50 48-51 49-52 50-53 51-54 
+# align_s = 0-1 1-2 2-3 4-4 5-6 6-7 8-9 9-10 10-11 11-14 13-13 14-15 15-16 16-17 18-18 19-20 20-21 21-22 22-23 23-24 24-25 25-26 26-27 27-28 28-29 29-30 30-31 31-33 32-35 33-36 34-37 37-38 38-39 40-40 41-41 42-42 43-43 44-44 45-45 49-46 50-47 51-48 52-49 53-50 54-51
+# align_t = 1-0 2-1 3-2 4-4 6-5 7-6 8-7 9-8 10-9 11-10 12-12 13-13 14-11 15-14 16-15 17-16 18-18 20-19 21-20 22-21 23-22 24-23 25-24 26-25 27-26 28-27 29-28 30-29 31-30 33-31 35-32 36-33 37-34 38-37 39-38 40-40 41-41 42-42 43-43 44-44 45-45 46-49 47-50 48-51 49-52 50-53 51-54 
 # source = Dotační programy na rok 2014 vycházejí z výše citovaného zákona, zákona o zemědělství, který stanoví, že stát přispívá k udržování výrobního potenciálu v zemědělství a jeho podílu na rozvoji venkovského prostoru tím, že provádí opatření v rámci programů určených k podpoře aktivit, které jsou financovány výhradně z národních zdrojů.
 # initial_translation = The grant programmes for 2014 are based on the abovementioned Act, the Agriculture Act, which provides that the State contributes to maintaining production potential in agriculture and its contribution to the development of rural areas by implementing measures under programmes intended to support activities financed exclusively from national resources.
 # text = The grant programmes for 2014 are based on the abovementioned Act, the Agriculture Act, which provides that the State contributes to maintaining production potential in agriculture and its contribution to the development of rural areas by implementing measures under programmes intended to support activities financed exclusively from national resources.
@@ -219,7 +219,7 @@
 52	.	.	PUNCT	.	_	51	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p3.s1
-# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 6-7 7-7 8-8 9-12 10-10 11-13 12-15 13-16 14-18 15-21 16-22 18-23 19-24 20-25 22-39 23-40 24-41 25-37 26-50 27-51 28-52 29-27 30-29 31-32 32-35 33-36 34-44 36-48 37-49 38-53
+# align_s = 0-0 1-2 2-3 3-4 4-5 5-6 7-7 8-8 9-12 10-10 11-13 12-15 13-18 14-18 15-21 16-22 18-23 19-24 20-25 22-39 23-40 24-41 25-37 26-50 27-51 28-52 29-27 30-29 31-32 32-35 33-36 34-44 36-48 37-49 38-53
 # align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-7 8-8 10-10 12-9 13-11 15-12 16-13 18-14 19-15 22-16 23-18 24-19 25-20 27-29 29-30 32-31 35-32 36-33 37-25 39-22 40-23 41-24 42-34 44-34 45-34 47-35 48-36 49-37 50-26 51-27 52-28 53-38 
 # source = Předkládaný materiál obsahuje dotační programy pro rok 2014, jejichž účel včetně rozsahu finančních prostředků podle § 2d odst. 1 zákona o zemědělství schvaluje pro každý rok Poslanecká sněmovna Parlamentu České republiky současně se státním rozpočtem.
 # initial_translation = The submitted material contains subsidy programmes for 2014, the purpose of which includes the extent of the funds referred to in § 2d para. The Chamber of Deputies of the Parliament of the Czech Republic approves the Act on Agriculture at the same time as the State Budget for each year.
@@ -280,7 +280,7 @@
 54	.	.	PUNCT	.	_	53	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p3.s2
-# align_s = 0-1 1-2 2-3 3-4 4-4 5-6 6-7 7-8 8-9 9-10 13-11 14-13 15-14 16-15
+# align_s = 0-1 1-2 2-3 4-4 5-6 6-7 7-8 8-9 9-10 13-11 14-13 15-14 16-15
 # align_t = 1-0 2-1 3-2 4-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-14 14-15 15-16 
 # source = Dotační programy na rok 2014 navazují na již osvědčené programy, které byly založeny předešlými vládami.
 # initial_translation = The grant programmes for 2014 are linked to already proven programmes established by previous governments.
@@ -303,7 +303,7 @@
 16	.	.	PUNCT	.	_	15	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p3.s3
-# align_s = 0-0 1-1 2-2 3-3 4-4 6-5 7-8 8-9
+# align_s = 0-0 1-1 2-2 3-3 4-4 6-7 7-8 8-9
 # align_t = 0-0 1-1 2-2 3-3 4-4 5-5 8-7 9-8 
 # source = Tyto programy byly analyzovány a byly shledány efektivními.
 # initial_translation = These programmes were analysed and found to be effective.
@@ -320,8 +320,8 @@
 10	.	.	PUNCT	.	_	9	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p4.s1
-# align_s = 0-1 1-2 2-3 3-4 4-7 6-8 7-9 8-10 9-11 10-14 12-15 13-16 14-19 15-21 16-22 18-23 19-24 20-26 22-33 23-29 24-34
-# align_t = 1-0 2-1 3-2 5-4 7-5 8-6 9-7 10-8 11-9 14-10 15-12 16-13 19-14 21-15 22-16 23-18 24-19 26-20 29-21 30-22 33-23 34-24 
+# align_s = 0-1 1-2 2-3 3-5 4-7 6-8 7-9 8-10 9-11 10-14 11-14 12-15 13-16 14-19 15-21 16-22 18-23 19-24 20-26 21-29 22-30 23-33 24-34
+# align_t = 1-0 2-1 3-2 5-3 7-4 8-6 9-7 10-8 11-9 14-10 15-12 16-13 19-14 21-15 22-16 23-18 24-19 26-20 29-21 30-22 33-23 34-24 
 # source = Dotační programy jsou podle § 2d odst. 2 výše uvedeného zákona prováděny ministrem zemědělství a jsou administrovány na základě jím vydaných zásad.
 # initial_translation = The subsidy programmes are in accordance with § 2d para. 2 of the above Act implemented by the Minister of Agriculture and administered on the basis of the principles which it has issued.
 # text = The subsidy programmes are in accordance with § 2d para. 2 of the above Act implemented by the Minister of Agriculture and administered on the basis of the principles which it has issued.
@@ -387,8 +387,8 @@
 18	.	.	PUNCT	.	_	17	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p4.s3
-# align_s = 0-4 1-5 2-7 3-10 4-12 5-13 6-2 7-3 8-0 9-1 10-14
-# align_t = 0-8 1-9 2-6 3-7 4-0 6-1 7-2 10-3 12-4 13-5 14-10 
+# align_s = 0-4 1-6 2-7 3-10 4-12 5-13 6-2 7-3 8-0 9-1 10-14
+# align_t = 0-1 1-9 2-6 3-7 4-0 6-1 7-2 10-3 12-4 13-5 14-10 
 # source = V předloženém návrhu výše přidělených prostředků je preferována živočišná výroba.
 # initial_translation = Animal production is preferred in the submitted proposal for the amount of allocated resources.
 # text = Animal production is preferred in the submitted proposal for the amount of allocated resources.
@@ -441,7 +441,7 @@
 25	.	.	PUNCT	.	_	24	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p5.s1
-# align_s = 0-0 1-1 3-2 4-3 6-4 7-5 8-6 10-23 12-22 14-15 15-16 16-17 17-18 18-8 19-9 20-14 21-10 22-11 23-13 24-24
+# align_s = 0-0 1-1 3-2 4-3 6-4 7-5 8-6 10-23 12-22 13-18 14-15 15-16 16-17 17-13 18-8 19-9 20-14 21-10 22-19 23-20 24-24
 # align_t = 0-0 1-1 2-2 3-4 4-6 5-7 6-8 8-18 9-19 10-21 11-22 13-23 14-20 15-14 16-15 17-16 19-17 20-11 22-12 23-10 24-24 
 # source = V souladu se zněním § 2d odst. 1 zákona o zemědělství je u každého programu uveden účel a navrhovaný rozsah finančních prostředků.
 # initial_translation = In accordance with § 2d para. The purpose and scope of the financing proposed for each programme is specified in the Agriculture Act.
@@ -493,7 +493,7 @@
 13	.	.	PUNCT	.	_	12	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p5.s3
-# align_s = 0-1 1-2 2-2 3-2 4-3 5-5 6-6 7-7 8-8 9-8 10-9 11-18 12-19 13-10 14-11 16-12 17-13 18-14 19-15 20-20 21-21 22-22
+# align_s = 0-1 1-2 3-3 4-4 5-5 6-6 7-7 9-8 10-9 11-18 12-19 13-10 14-11 16-12 17-13 18-14 19-15 20-20 21-21 22-22
 # align_t = 1-0 2-1 3-4 5-5 6-6 7-7 8-9 9-10 10-13 11-14 12-16 13-17 14-18 15-19 18-11 19-12 20-20 21-21 22-22 
 # source = Návrh finančních prostředků určených na dotační programy pro rok 2014 je státním rozpočtem stanoven ve výši 1 531 303 tis. korun.
 # initial_translation = The draft funding for the grant programmes for 2014 is set at 1 531 303 thousand by the State budget. Crowns.
@@ -523,7 +523,7 @@
 23	.	.	PUNCT	.	_	22	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p6.s1
-# align_s = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 7-5 8-6 9-8 10-11 11-12 12-13 13-16 14-17 15-18 16-19 17-20 19-22 20-23 21-24 22-25 23-27 24-28
+# align_s = 0-1 1-2 2-3 3-4 4-5 6-7 7-5 8-6 9-8 10-11 11-12 12-13 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-25 23-27 24-28
 # align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 8-9 11-10 12-11 13-12 16-13 17-14 18-15 19-16 20-15 21-18 22-19 23-20 24-21 25-22 27-23 28-24 
 # source = Dotační programy předkládané podle § 2 a § 2d zákona o zemědělství neodporují mezinárodním dohodám a smlouvám, kterými je Česká republika vázána.
 # initial_translation = The subsidy programmes submitted under Sections 2 and 2d of the Act on Agriculture do not contradict international agreements and agreements by which the Czech Republic is bound.
@@ -560,7 +560,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p6.s2
 # align_s = 0-1 1-2 2-3 3-4 4-5 5-6 6-7 7-8 8-9 9-10 10-12 11-15 12-18 13-20 14-21 15-22 16-23 17-24 19-25 20-26 21-27 22-28 23-31 24-32 25-33 26-34
-# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-9 12-10 15-11 18-12 20-13 21-14 22-15 23-16 24-17 25-19 26-20 27-21 28-22 31-23 32-24 33-25 34-26 
+# align_t = 1-0 2-1 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 12-10 15-11 18-12 20-13 21-14 22-15 23-16 24-17 25-19 26-20 27-21 28-22 31-23 32-24 33-25 34-26 
 # source = Podmínky pro podávání žádostí, rozhodování a přiznávání dotací budou upraveny zásadami Ministerstva zemědělství v souladu s § 2d odst. 2 zákona o zemědělství.
 # initial_translation = The conditions for submitting applications, deciding and granting subsidies will be governed by the principles of the Ministry of Agriculture in accordance with § 2d para. 2 of the Act on Agriculture.
 # text = The conditions for submitting applications, deciding and granting subsidies will be governed by the principles of the Ministry of Agriculture in accordance with § 2d para. 2 of the Act on Agriculture.
@@ -601,7 +601,7 @@
 35	.	.	PUNCT	.	_	34	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p7.s1
-# align_s = 0-1 1-3 2-4 3-5 4-6 5-7 6-8 7-8 8-9 9-18 10-19 12-20 13-21 14-10 15-13 16-16 17-17 18-22
+# align_s = 0-1 1-3 2-4 3-5 4-6 5-7 7-8 8-9 9-18 10-19 12-20 13-21 14-10 15-13 16-16 17-17 18-22
 # align_t = 1-0 3-1 4-2 5-3 6-4 7-5 8-7 9-8 10-14 13-15 16-16 17-17 18-9 19-10 20-12 21-13 22-18 
 # source = Návrh dotačních programů v zemědělství pro rok 2014 byl dne 13. listopadu 2013 schválen vládou České republiky.
 # initial_translation = The proposal for grant programmes in agriculture for 2014 was approved by the Government of the Czech Republic on 13 November 2013.
@@ -678,8 +678,8 @@
 40	.	.	PUNCT	.	_	39	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p8.s1
-# align_s = 0-0 1-3 2-2 3-4 5-5 6-7 7-8 8-13 9-14 10-12 11-9 12-11 13-11 14-15 15-19 16-18 17-23 18-22 19-24 20-25 22-26 23-28 24-29 25-30 26-31 27-32 28-33
-# align_t = 0-0 2-2 3-1 4-3 5-5 7-6 8-7 9-11 11-13 12-10 13-8 14-9 15-14 18-16 19-15 22-18 23-17 24-19 25-20 26-22 28-23 29-24 30-25 31-26 32-27 33-28 
+# align_s = 0-0 1-3 2-2 3-4 5-5 6-7 7-8 8-13 9-14 10-12 11-9 13-11 14-15 15-19 16-18 17-23 18-22 19-24 20-25 22-26 23-28 24-29 25-30 26-31 27-32 28-33
+# align_t = 0-0 2-1 3-1 4-3 5-5 6-5 7-6 8-7 9-11 11-13 12-10 13-8 14-9 15-14 18-16 19-15 22-18 23-17 24-19 25-20 26-22 28-23 29-24 30-25 31-26 32-27 33-28 
 # source = Závěrem mi dovolte konstatovat, že návrh rozpočtu dotačních programů zemědělství pro rok 2014 odpovídá možnostem rozpočtu kapitoly ministerstva, přičemž se snaží zachovat kontinuitu s předešlými roky.
 # initial_translation = Finally, let me state that the draft budget for the 2014 agricultural subsidy programmes corresponds to the budget options of the Ministry chapter, while trying to maintain continuity with previous years.
 # text = Finally, let me state that the draft budget for the 2014 agricultural subsidy programmes corresponds to the budget options of the Ministry chapter, while trying to maintain continuity with previous years.
@@ -719,8 +719,8 @@
 34	.	.	PUNCT	.	_	33	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u2.p9.s1
-# align_s = 1-0 2-1 3-2 4-3 8-3 9-4 10-5 11-6 12-9 13-10 14-12 15-11 16-13 17-14 18-17 19-18 20-19 21-17 22-15 23-16 24-16 25-20 26-21 27-22 28-23 29-24 30-22 31-23 32-25 33-27 34-28 36-29 37-30 38-29 39-30 41-31 42-32 43-33 44-34 45-35 46-36 47-36 48-36 49-37 50-38 52-39 53-42 54-43 55-46 56-48 57-51 58-54 59-55 60-56
-# align_t = 0-1 1-2 2-3 3-4 4-8 5-10 6-11 9-12 10-13 11-15 12-14 13-16 14-17 15-22 16-24 17-21 18-19 19-24 20-25 21-26 22-27 23-28 24-29 25-32 27-33 28-34 29-38 30-39 31-41 32-42 33-43 34-44 35-46 36-47 37-49 38-51 39-52 42-53 43-54 46-55 48-56 51-57 54-58 55-59 56-60 
+# align_s = 1-0 2-1 3-2 4-3 5-4 6-5 8-3 11-6 12-9 14-9 15-11 16-13 17-14 18-17 19-18 20-19 21-17 22-15 24-16 25-20 26-21 27-22 29-24 30-22 31-23 32-25 33-27 34-28 36-29 37-30 38-29 39-30 41-31 42-32 43-33 44-34 46-35 47-36 48-36 49-37 51-36 52-39 53-42 54-43 55-46 56-48 57-51 58-54 59-55 60-56
+# align_t = 0-1 1-2 2-3 3-4 4-8 5-9 6-11 8-12 9-13 10-14 11-15 13-16 14-17 15-22 16-24 17-21 18-19 19-20 20-25 21-26 22-27 23-28 24-29 25-32 27-33 28-34 29-36 30-39 31-41 32-42 33-43 34-44 35-47 36-48 37-49 38-51 39-52 42-53 43-54 46-55 48-56 51-57 54-58 55-59 56-60 
 # source = Vážený pane předsedající, vážené paní poslankyně, vážení páni poslanci, dovoluji si vás požádat o schválení materiálu Dotační programy zemědělství pro rok 2014 poskytované podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů, ve znění doporučeném zemědělským výborem Poslanecké sněmovny Parlamentu České republiky.
 # initial_translation = Mr President, ladies and gentlemen, I would like to ask you to approve the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as recommended by the Agricultural Committee of the Chamber of Deputies of the Parliament of the Czech Republic.
 # text = Mr President, ladies and gentlemen, I would like to ask you to approve the 2014 agricultural subsidy programmes provided under Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as recommended by the Agricultural Committee of the Chamber of Deputies of the Parliament of the Czech Republic.
@@ -834,7 +834,7 @@
 31	.	.	PUNCT	.	_	30	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u3.p1.s2
-# align_s = 0-2 1-1 2-4 3-7 4-8 5-9 6-10 8-11 9-12 10-13 11-14 12-15 13-17 14-16 15-18 16-20 17-22 18-25 19-28 20-30 21-31
+# align_s = 0-2 1-1 2-4 3-7 4-8 6-10 8-11 9-12 10-13 11-14 12-15 13-17 14-16 15-18 16-20 17-22 18-25 19-28 20-30 21-31
 # align_t = 0-0 1-1 2-0 4-2 7-3 8-4 9-5 10-6 11-8 12-9 13-10 14-11 15-12 16-14 17-13 18-15 20-16 22-17 25-18 28-19 30-20 31-21 
 # source = Žádám tedy zpravodaje výboru pana poslance Velebného, aby nás seznámil s usnesením výboru a přednesl návrh usnesení Poslanecké sněmovny.
 # initial_translation = I therefore ask the rapporteur of the committee of Mr Velebný to inform us of the committee resolution and to present the motion for a resolution of the Chamber of Deputies.
@@ -901,8 +901,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u4.p1.s2
-# align_s = 0-0 1-1 2-2 4-3 5-5 6-6 7-7 10-8 11-9 12-10 14-11 16-11 19-13 20-18 21-19 22-19 23-20 24-21 25-23 26-24 27-25 28-26 29-27 30-28 31-30 32-29 33-32 34-34 35-35 36-37 37-38 38-41 40-42 41-43 43-44 44-45
-# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-9 8-10 9-11 10-12 11-16 12-18 13-19 15-21 16-17 18-20 19-22 20-23 21-24 23-25 24-26 25-27 26-28 27-29 28-30 29-32 30-31 33-33 34-34 37-36 39-35 40-37 41-38 42-40 43-41 44-43 45-44 
+# align_s = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 9-6 10-8 11-9 12-10 16-11 18-12 19-13 20-18 21-19 23-20 24-21 25-23 26-24 27-25 28-26 30-27 31-30 32-29 33-32 34-34 35-39 36-37 37-38 38-41 40-42 41-43 43-44 44-45
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-9 8-10 9-11 10-12 11-16 12-18 13-19 15-21 16-17 18-20 19-22 20-23 21-24 23-25 24-26 25-27 26-28 27-29 29-32 30-31 31-30 32-33 34-34 37-36 39-37 41-38 42-40 43-41 44-43 45-44 
 # source = Pane předsedající, vážená vládo, vážené kolegyně, vážení kolegové, vzhledem k tomu, že vás pan ministr podrobně seznámil s tímto sněmovním tiskem číslo 35, tak vás seznámím pouze s usnesením zemědělského výboru ze 2. schůze č. 7.
 # initial_translation = Mr President, Prime Minister, ladies and gentlemen, given that the Minister has informed you in detail about this House's press number 35, I will only introduce you to the resolution of the Committee on Agriculture of 2nd Session No. 7.
 # text = Mr President, Prime Minister, ladies and gentlemen, given that the Minister has informed you in detail about this House's press number 35, I will only introduce you to the resolution of the Committee on Agriculture of 2nd Session No. 7.
@@ -954,8 +954,8 @@
 46	.	.	PUNCT	.	_	45	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u4.p2.s1
-# align_s = 0-0 1-1 2-2 3-4 4-79 5-80 6-80 7-81 8-82 9-84 10-85 11-86 12-84 13-85 14-87 15-89 16-90 18-17 19-18 20-91 21-92 23-93 24-20 25-21 26-22 27-23 28-24 29-24 30-24 31-25 32-26 33-27 34-28 35-29 36-30 37-31 38-32 39-33 40-35 41-36 42-39 43-41 44-42 45-44 46-45 47-48 48-49 49-50 50-52 51-53 52-54 53-55 54-57 55-57 56-59 57-60 58-61 59-62 60-63 61-65 62-66 63-69 64-71 65-73 67-74 68-75 69-77 70-78 71-4 72-5 73-6 74-6 75-7 76-8 77-10 78-11 79-12 80-10 81-11 82-13 83-15 84-16 86-17 87-18 88-91 89-92 92-94 93-95 94-22 95-23 96-24 97-98 98-98 99-99 100-101 101-102 102-103 103-104 105-107 106-108 107-109 108-110 109-105 110-111
-# align_t = 0-0 1-69 2-70 4-71 5-4 6-6 7-7 8-8 10-9 11-10 12-11 13-14 15-15 16-16 17-20 18-21 19-23 20-24 21-25 22-26 23-28 24-29 25-31 26-32 27-33 28-34 29-35 30-36 31-37 32-38 33-39 35-40 36-41 39-42 41-43 42-44 44-45 45-46 48-47 49-48 50-49 52-50 53-51 54-52 55-53 56-54 57-55 59-56 60-57 61-58 62-59 63-60 65-61 66-62 69-63 71-64 73-65 74-67 75-68 76-69 77-69 78-74 79-72 80-6 81-75 82-76 84-77 85-78 86-79 87-82 89-83 90-84 91-88 92-89 93-91 94-92 95-93 96-94 97-96 98-97 99-99 101-100 102-101 103-102 104-103 105-109 106-104 107-105 108-106 109-107 110-108 111-110 
+# align_s = 0-0 1-1 2-2 3-4 4-79 6-80 7-81 8-82 9-84 11-86 12-84 13-85 14-87 15-89 16-90 18-91 19-92 20-91 21-92 23-93 24-94 25-95 26-96 28-98 29-24 30-98 31-25 32-26 33-27 34-28 35-29 36-30 37-31 38-32 39-33 40-35 41-36 42-39 43-41 44-42 45-44 46-45 47-48 48-49 49-50 50-52 51-53 52-54 53-55 54-57 55-57 56-59 57-60 58-61 59-62 60-63 61-65 62-66 63-69 64-71 65-73 67-74 68-74 69-77 70-78 71-4 72-5 74-6 75-7 76-8 77-10 79-12 80-10 81-11 82-13 83-15 84-16 86-17 87-18 88-17 89-18 91-19 92-20 93-21 94-22 95-23 96-23 97-24 98-98 99-25 100-101 101-102 102-103 103-104 104-106 105-107 106-108 107-109 108-110 109-105 110-111
+# align_t = 0-0 1-1 2-2 4-3 5-4 6-6 7-7 8-8 10-9 11-78 12-79 13-82 15-83 16-84 17-86 18-89 19-91 20-92 21-93 22-94 23-97 24-30 25-31 26-32 27-33 28-34 29-35 30-36 31-37 32-38 33-39 35-40 36-41 39-42 41-43 42-44 44-45 45-46 48-47 49-48 50-49 52-50 53-51 54-52 55-53 56-54 57-55 59-56 60-57 61-58 62-59 63-60 65-61 66-62 69-63 71-64 73-65 74-67 75-68 76-69 77-69 78-70 79-72 80-74 81-75 82-76 84-77 85-78 86-79 87-14 89-15 90-16 91-18 92-89 93-91 94-92 95-93 96-94 97-29 98-98 99-99 101-100 102-101 103-102 104-103 105-109 106-104 107-105 108-106 109-107 110-108 111-110 
 # source = K Dotačním programům zemědělství pro rok 2014 poskytovaným podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů, jak jsem konstatoval, sněmovní tisk 35, zemědělský výbor Poslanecké sněmovny po úvodním slově prvního náměstka ministra zemědělství Stanislava Kozáka a zpravodajské zprávě poslance Ladislava Velebného a po rozpravě doporučuje Poslanecké sněmovně Parlamentu, aby Dotační programy zemědělství pro rok 2014 poskytované podle § 2 a § 2d zákona č. 252/1997 Sb., o zemědělství, ve znění pozdějších předpisů, sněmovní tisk 35, po obecné a podrobné rozpravě schválila.
 # initial_translation = The grant programmes of agriculture for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as I said, House Press 35, the Agricultural Committee of the Chamber of Deputies after the opening words of the First Deputy Minister of Agriculture Stanislav Kozák and the report by Mr Ladislav Velebný and after the debate recommends to the Chamber of Deputies of Parliament that the Farming subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, the House Press 35, approved the general and detailed debate.
 # text = The grant programmes of agriculture for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, as I said, House Press 35, the Agricultural Committee of the Chamber of Deputies after the opening words of the First Deputy Minister of Agriculture Stanislav Kozák and the report by Mr Ladislav Velebný and after the debate recommends to the Chamber of Deputies of Parliament that the Farming subsidy programmes for 2014 provided pursuant to Sections 2 and 2d of Act No. 252/1997 Coll., on Agriculture, as amended, the House Press 35, approved the general and detailed debate.
@@ -1074,7 +1074,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u5.p1.s1
 # align_s = 0-0 1-1 2-4 3-5 4-8 5-10 6-11 8-12 9-13 10-14 11-15 12-16 14-17 15-18 16-21
-# align_t = 0-0 1-0 2-1 3-1 4-2 5-3 8-4 10-5 11-6 12-8 13-9 14-10 15-11 16-13 17-14 18-15 21-16 
+# align_t = 0-0 1-0 2-1 4-2 5-3 8-4 10-5 11-6 12-8 13-9 14-10 15-11 16-13 17-14 18-15 21-16 
 # source = Děkuji panu zpravodaji a zahajuji všeobecnou rozpravu, do které mám přihlášeného pana poslance Petra Bendla.
 # initial_translation = Thank you to the rapporteur and I am opening a general debate in which I have Mr Peter Bendl signed up.
 # text = Thank you to the rapporteur and I am opening a general debate in which I have Mr Petr Bendl signed up.
@@ -1135,8 +1135,8 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s2
-# align_s = 0-0 1-2 3-3 4-5 5-8 6-9 7-10 8-11 11-12 12-16 13-18 14-21 15-24 16-25 17-28 18-13 19-15 21-26 22-27 26-28 27-29 28-30 29-34 32-35 33-31 34-32 35-36 36-38 37-39 38-40 39-42 41-43 42-44 43-45
-# align_t = 0-0 1-3 3-3 5-4 7-2 8-5 9-6 10-8 11-9 12-11 15-12 16-12 18-13 21-14 24-15 25-16 26-21 27-22 28-26 29-27 30-28 31-33 32-34 34-31 35-34 36-35 38-36 39-37 40-38 42-39 44-42 45-43 
+# align_s = 0-0 1-2 3-3 4-5 5-8 6-9 8-11 9-11 11-12 12-16 13-18 14-21 15-24 16-25 17-15 18-13 19-17 21-26 22-27 26-28 27-29 28-30 29-32 32-34 33-31 34-32 35-36 36-38 37-39 38-40 39-42 42-44 43-45
+# align_t = 0-0 1-3 3-3 5-4 6-1 7-2 8-5 9-6 11-8 12-11 13-10 15-12 16-12 18-13 21-14 24-15 25-16 26-21 27-22 28-26 29-27 30-28 31-33 32-34 34-31 35-32 36-35 38-36 39-37 40-38 42-39 44-42 45-43 
 # source = Já to už nechci hrotit, protože už jsem to tu říkal několikrát, jen zopakuji: Prioritou tohoto materiálu je místo toho, abyste pomohli zemědělcům řešit problematiky, které souvisejí se suchem, podporujete několikanásobně vyšší výdaje do oblasti poradenství.
 # initial_translation = I don't want to push it anymore, because I've said this a few times before, I'm just going to repeat: instead of helping farmers deal with drought-related issues, you support several times the cost of counseling.
 # text = I don't want to push it anymore, because I've said this a few times before, I'm just going to repeat: instead of helping farmers deal with drought-related issues, you support several times the cost of counseling.
@@ -1188,7 +1188,7 @@
 46	.	.	PUNCT	.	_	45	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s3
-# align_s = 1-6 2-1 3-2 4-4 5-7
+# align_s = 1-0 2-1 3-2 4-4 5-7
 # align_t = 0-1 1-2 2-3 4-4 5-0 6-1 7-5 
 # source = S tím není možné souhlasit.
 # initial_translation = It's impossible to agree with that.
@@ -1204,7 +1204,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u6.p1.s4
 # align_s = 0-0 1-3 2-4 3-5 4-6 5-7 6-9 7-10 8-11 9-12 10-13 11-14 12-16 13-18
-# align_t = 0-0 3-1 4-2 5-3 6-4 7-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-12 18-13 
+# align_t = 0-0 2-0 3-1 4-2 5-3 6-4 7-5 9-6 10-7 11-8 12-9 13-10 14-11 15-12 16-12 18-13 
 # source = Dáváte 70 milionů do poradenství a 20 milionů na kapkové závlahy a podobně.
 # initial_translation = You put $70 million in counseling and $20 million in drip irrigation and stuff like that.
 # text = You put $70 million in counseling and $20 million in drip irrigation and stuff like that.
@@ -1261,8 +1261,8 @@
 7	.	.	PUNCT	.	_	6	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s1
-# align_s = 0-1 2-2 3-3 4-4
-# align_t = 1-0 2-2 3-3 4-4 
+# align_s = 0-1 1-2 2-2 3-3 4-4
+# align_t = 1-0 2-1 3-3 4-4 
 # source = Děkuji panu poslanci Bendlovi.
 # initial_translation = I thank Mr Bendl.
 # text = I thank Mr Bendl.
@@ -1274,7 +1274,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s2
 # align_s = 0-0 1-1 2-2 3-3 4-4 5-6 6-7
-# align_t = 0-0 1-1 2-2 3-3 4-4 6-5 7-6 
+# align_t = 0-0 1-1 2-2 3-3 4-4 5-4 6-5 7-6 
 # source = Kdo dál se hlásí do rozpravy?
 # initial_translation = Who else is reporting for the debate?
 # text = Who else is reporting for the debate?
@@ -1289,7 +1289,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s3
 # align_s = 0-3 1-4 3-11 4-12 5-8 6-13
-# align_t = 1-0 2-1 3-0 4-1 5-2 6-4 8-5 11-3 12-4 13-6 
+# align_t = 1-0 2-1 3-0 4-1 5-2 6-4 7-5 8-5 11-3 12-4 13-6 
 # source = Nevidím nikoho, všeobecnou rozpravu končím.
 # initial_translation = I don't see anyone. I'm done with the general debate.
 # text = I don't see anyone. I'm done with the general debate.
@@ -1326,7 +1326,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s5
 # align_s = 0-3 1-6 2-7 3-4 4-5 5-8
-# align_t = 0-0 1-2 4-3 5-4 8-5 
+# align_t = 0-0 1-2 2-3 5-4 8-5 
 # source = Nemám do ní žádnou přihlášku.
 # initial_translation = I don't have an application for it.
 # text = I don't have an application for it.
@@ -1341,7 +1341,7 @@
 9	.	.	PUNCT	.	_	8	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s6
-# align_s = 0-0 2-0 3-1 4-3 5-4
+# align_s = 2-0 3-1 4-3 5-4
 # align_t = 0-2 1-3 3-4 4-5 
 # source = Hlásí se někdo z místa?
 # initial_translation = Anyone from the scene?
@@ -1354,7 +1354,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s7
 # align_s = 0-2 1-3 2-4 3-5
-# align_t = 1-0 3-1 4-2 5-3 
+# align_t = 2-0 3-1 4-2 5-3 
 # source = Není tomu tak.
 # initial_translation = It's not like that.
 # text = It's not like that.
@@ -1366,8 +1366,8 @@
 6	.	.	PUNCT	.	_	5	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s8
-# align_s = 0-3 1-2 2-5 4-6 7-7 8-9 9-11 10-12 11-14 14-15 15-16 16-18 17-19 18-20
-# align_t = 2-1 3-0 5-2 6-4 7-7 9-8 11-9 12-10 14-11 15-14 16-15 18-16 19-17 20-18 
+# align_s = 0-3 1-2 2-5 6-6 7-7 8-9 9-11 10-12 11-14 14-15 15-16 16-18 17-19 18-20
+# align_t = 0-0 2-1 3-0 5-2 6-4 7-7 9-8 11-9 12-10 14-11 15-14 16-15 18-16 19-17 20-18 
 # source = Požádám tedy zpravodaje, aby se přihlásil k návrhu na usnesení, který přednesl ve všeobecné rozpravě.
 # initial_translation = I will therefore ask the rapporteur to sign up for the motion for a resolution tabled in the general debate.
 # text = I will therefore ask the rapporteur to sign up for the motion for a resolution tabled in the general debate.
@@ -1394,7 +1394,7 @@
 21	.	.	PUNCT	.	_	20	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u7.p1.s9
-# align_s = 0-0 1-1 2-1 3-2 4-3
+# align_s = 0-0 1-1 3-2 4-3
 # align_t = 0-0 1-1 2-3 3-4 
 # source = Prosím, pane zpravodaji.
 # initial_translation = Please, rapporteur.
@@ -1420,7 +1420,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u8.p1.s2
 # align_s = 0-2 2-3 3-5 4-6 5-7 6-8 7-9 8-10 9-11 10-12 11-14 12-15 13-16
-# align_t = 2-0 3-2 4-2 5-3 6-4 7-5 8-6 9-7 10-8 11-9 12-10 14-11 15-12 16-13 
+# align_t = 2-0 3-2 5-3 6-4 7-5 8-6 9-7 10-8 11-9 12-10 14-11 15-12 16-13 
 # source = Pouze se přihlásím k tomu usnesení, jak jsem navrhl v obecné rozpravě.
 # initial_translation = I will merely sign up for this resolution, as I proposed in the general debate.
 # text = I will merely sign up for this resolution, as I proposed in the general debate.
@@ -1453,8 +1453,8 @@
 3	.	.	PUNCT	.	_	2	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p1.s2
-# align_s = 0-1 1-3 2-4 3-5 4-8 5-9 6-10 7-12 8-13 9-14 10-15 11-16 12-17 13-19 14-20 15-21 16-23 19-24 20-25 21-27 22-30 23-33 24-34 25-38 26-39 27-37 28-31 29-36 30-36 31-40
-# align_t = 1-0 3-1 4-2 5-3 8-4 9-5 10-6 12-7 13-8 14-9 15-10 16-11 18-12 19-13 20-14 21-15 22-16 23-17 24-19 25-20 27-21 30-22 33-23 34-24 36-26 37-27 38-29 39-30 40-31 
+# align_s = 0-1 1-3 2-4 3-5 4-8 5-9 6-10 7-12 8-13 9-14 10-15 11-16 12-17 13-19 14-20 15-21 16-23 19-24 20-25 21-27 22-30 23-33 24-34 25-38 26-39 27-37 28-31 30-36 31-40
+# align_t = 1-0 3-1 4-2 5-3 8-4 9-5 10-6 12-7 13-8 14-9 15-10 16-11 19-13 20-14 21-15 22-16 23-17 24-19 25-20 27-21 30-22 33-23 34-24 36-30 37-27 38-28 39-26 40-31 
 # source = Usnesení bylo uvedeno, rozhodneme o něm hlasováním číslo 133, které jsem zahájil, a ptám se, kdo je pro návrh usnesení k dotačním programům zemědělství pro rok 2014.
 # initial_translation = The resolution has been mentioned, we will decide on it by voting number 133, which I have launched, and I ask who is in favour of the motion for a resolution on the 2014 agricultural subsidy programmes.
 # text = The resolution has been mentioned, we will decide on it by voting number 133, which I have launched, and I ask who is in favour of the motion for a resolution on the 2014 agricultural subsidy programmes.
@@ -1568,7 +1568,7 @@
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p3.s1
 # align_s = 0-0 1-1 2-4 3-5 4-6 5-7 6-10 7-11 8-12 9-14 11-15 12-16
-# align_t = 0-0 1-0 2-1 4-2 5-3 6-4 7-4 8-5 9-5 10-6 11-7 12-8 14-9 15-11 16-12 
+# align_t = 0-0 1-0 2-1 4-2 5-3 6-4 7-4 8-5 10-6 11-7 12-8 14-9 15-11 16-12 
 # source = Děkuji panu ministrovi, děkuji panu zpravodaji a končím bod číslo 38.
 # initial_translation = Thank you to the Minister, thank you to the rapporteur and end with paragraph 38.
 # text = Thank you to the Minister, thank you to the rapporteur and end with paragraph 38.
@@ -1591,7 +1591,7 @@
 17	.	.	PUNCT	.	_	16	_	_	NER=O
 
 # sent_id = ParlaMint-CZ_2013-12-19-ps2013-004-04-008-038.u9.p4.s1
-# align_s = 0-3 2-6 3-8 4-13 5-14
+# align_s = 0-3 1-5 2-6 3-8 4-13 5-14
 # align_t = 3-0 4-1 6-2 8-3 13-4 14-5 
 # source = Pokračovat podle pořadu budeme bodem číslo
 # initial_translation = We're gonna continue with the show, we're gonna be a point number.

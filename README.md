@@ -45,6 +45,9 @@ This is now implemented, the sample file is in "results/CZ/final_translated_conl
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
+
+2820 lines with Poss=Yes and NER=..PER, 1804657 sentences in total - this occurs in 0.15% of sentences.
+
 **Questions:**
 - I've checked for all corpora which OPUS-MT models we can use. There exist more or less specific models for all except Hungarian, for which we can use multilingual model. The main problem is Norwegian, which is not stated under multilingual or any other model. This language is covered by eTranslation and Google Translate, should we use one of those, or just the multilingual model?
 
