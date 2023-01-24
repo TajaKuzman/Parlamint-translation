@@ -42,7 +42,7 @@ Workflow (more details):
 		9) For all words, add information on alignment (#ForwardAlignment and #BackwardAlignment) with the conllu indices of source words (in case of syntactic units, as the alignment is done on subword level, indices point to subwords, not multitokens)
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
-This is now implemented, the sample file is in "results/CZ/final_translated_conllu/new_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"
+This is now implemented, the sample file is in ["results/CZ/final_translated_conllu/new_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ/final_translated_conllu/new_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu).
 
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
