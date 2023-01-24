@@ -34,15 +34,16 @@ Workflow (more details):
 		1) sentence_id as metadata
 		2) based on alignment, add SpaceAfter information - I add this information only if "SpaceAfter" is "No" (as it is in the original texts)
 		3) source text ("source")
-		4) original translated text (before improvements - #initial_translation metadata)
+		4) original translated text (before improvements - #initial_translation metadata) (used only for testing, won't be added in the final conllu)
 		5) improved translated text (#text metadata): based on SpaceAfter information, remove spaces around punctuation
 		6) Delete startchar and endchar information from ["misc"] metadata element
 		7) Change the NER tags so that they correspond to the source NER tags: "S-" to "B-", "E-" to "I-"
 		8) For the words that were substituted, add the original translation (#Translated metadata) to ["misc"]
 		9) For all words, add information on alignment (#ForwardAlignment and #BackwardAlignment) with the conllu indices of source words (in case of syntactic units, as the alignment is done on subword level, indices point to subwords, not multitokens)
+		19) source word indices as metadata ("source_indices") - used only for testing, won't be added in the final conllu
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
-This is now implemented, the sample file is in ["results/CZ/final_translated_conllu/new_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ/final_translated_conllu/new_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu).
+This is now implemented, the sample file is in ["results/CZ/final_translated_conllu/newest_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ/final_translated_conllu/newest_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu).
 
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
