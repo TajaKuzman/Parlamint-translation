@@ -17,27 +17,29 @@ Workflow:
 Workflow (more details):
 1. Extract from each sentence in the CONLL-u file:
 	- sent_id (in metadata) (# sent_id = ParlaMint-SI_2014-08-01-SDZ7-Redna-01.seg1.1)
-	- "text" (in metadata): to be feed into the MT system (# text = Spoštovani, prosim, da zasedete svoja mesta.)
-	- tokenized text (punctuation separated from words by space): by iterating through the tokens in the sentence - create a list of tokens and join them into a string (["Spoštovani", "prosim", ",", "da"] -> "Spoštovani prosim , da). In case of multiword tokens, we will add the subword tokens to the tokenized text and skip the multiword token. We will also get all necessary information about the ids and lemmas from the subword tokens. The subword tokens do not have the NER annotation, so we will use the multiword annotation for all of its subparts.
+	- "text" (in metadata): to be feed into the MT system (# text = Spoštovani, prosim, da zasedete svoja mesta.) - in case of syntactic units, we use the multiword token, not the subparts ("Dovolte mi tedy, abych vás seznámila s omluvami, které předložili členové vlády." - to translate actual words)
+	- tokenized text (punctuation separated from words by space): by iterating through the tokens in the sentence - create a list of tokens and join them into a string (["Spoštovani", "prosim", ",", "da"] -> "Spoštovani prosim , da). In case of multiword tokens, we add the subword tokens to the tokenized text and skip the multiword token. We will also get all necessary information about the ids and lemmas from the subword tokens. The subword tokens do not have the NER annotation, so we will use the multiword annotation for all of its subparts. We use the subword tokens instead of multiword tokens to get the correct lemma (multiword tokens do not have lemmata) and also in case that the target proper noun would be aligned with the proper noun in the subword token. So, for alignment, we use the tokenized text with subword tokens (e.g., Dovolte mi tedy, abych vás seznámila s omluvami, které předložili členové vlády.)
+	- conllu index of the token: to be added as information to which source index the target index was aligned (used for connecting words in TEI)
 	- list of NE annotations (same length as the tokens) - we want NE annotations for all tokens, with the information on the lemma and index if the NE is not "0": ["O", "O", "O", {4: "PER-I", "Borut"}]
 	- information on the proper nouns: if the word is annotated as a proper noun (has "PER" in ner attribute), take its index, form and lemma and save it into a dictionary for each sentence ({0: (Taje, Taja), 1: (Kuzman, Kuzman)})
 2. Translate
 3. Word alignment:
 	- We apply the stanza tokenization over the translation; use tokenize_no_ssplit to avoid splitting sentences in multiple sentences. Save also information on whether there was initially a space around punctuation (based on start_char and end_char information) which we use at the end to remove spaces around the punctuation in the translation.
 	- Perform word alignment.
-	- Save forward and reverse alignment information for each sentence (2 additional columns).
-	- Substitute translated NE words with lemmas based on the annotation, save new translation to a new column.
+	- Save forward and reverse alignment information for each word - they should be connected with the indices of source words as they appear in the source conllu file. The conllu files start counting with 1, while alignment starts with 0, so to get those indices, we will add "1" to each aligned index.
+	- Substitute translated NE words with lemmas based on the annotation, save new translation to a new column. For the words that were substituted, save also a list of the original words (to be added to the conllu).
 4. Linguistic processing of translated text:
 	- We use Stanza to get POS, lemmas and NER (the 4 tag package: conll03). Send in the "pre-tokenized text" (created in previous steps).
 	- Transform the result into CONLL-u (which should contain tokens, lemmas, pos). Parse the CONLL-u file and add:
 		1) sentence_id as metadata
-		2) forward and reverse alignment as metadata (# align_s = 1-1 2-2... and #align_t = 1-1 2-2...),
-		3) based on alignment, add SpaceAfter information - I add this information only if "SpaceAfter" is "No" (as it is in the original texts)
-		4) source text ("source")
-		5) original translated text (before improvements - #initial_translation metadata)
-		6) improved translated text (#text metadata): based on SpaceAfter information, remove spaces around punctuation
-		7) Delete startchar and endchar information from ["misc"] metadata element
-		8) Change the NER tags so that they correspond to the source NER tags: "S-" to "B-", "E-" to "I-"
+		2) based on alignment, add SpaceAfter information - I add this information only if "SpaceAfter" is "No" (as it is in the original texts)
+		3) source text ("source")
+		4) original translated text (before improvements - #initial_translation metadata)
+		5) improved translated text (#text metadata): based on SpaceAfter information, remove spaces around punctuation
+		6) Delete startchar and endchar information from ["misc"] metadata element
+		7) Change the NER tags so that they correspond to the source NER tags: "S-" to "B-", "E-" to "I-"
+		8) For the words that were substituted, add the original translation (#Translated metadata) to ["misc"]
+		9) For all words, add information on alignment (#ForwardAlignment and #BackwardAlignment) with the conllu indices of source words (in case of syntactic units, as the alignment is done on subword level, indices point to subwords, not multitokens)
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
 This is now implemented, the sample file is in "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu" - with the initial NER tags; "results/CZ/final_translated_conllu/ParlaMint-CZ_2013-12-04-ps2013-002-01-003-003.conllu-another-ner-package" with the corrected NER tags (and a specific NER package).
@@ -46,18 +48,7 @@ Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
 
-2820 lines with Poss=Yes and NER=..PER, 1804657 sentences in total - this occurs in 0.15% of sentences.
-
-**Questions:**
-- I've checked for all corpora which OPUS-MT models we can use. There exist more or less specific models for all except Hungarian, for which we can use multilingual model. The main problem is Norwegian, which is not stated under multilingual or any other model. This language is covered by eTranslation and Google Translate, should we use one of those, or just the multilingual model?
-
-Workflow (Nikola's description):
-- we extract the sequence of tokens of each sentence with the corresponding NE annotations and lemmas of PERS Nes, we merge the tokens and translate the sentence. We disregard any XLM elements inside the sentence.
-- we apply the stanza tokenization over the translation (if multiple sentences come out, we merge the tokens back into one sentence) - we just need a list of tokens; use tokenize_no_ssplit da se izogneš razdeljevanju na stavke. Then for applying stanza for POS, we will send in the "pre-tokenized text"
-- we perform word alignment, we transfer the NE annotations to the translated sentence, we transfer the PERS NE lemmas to the translation
-- we apply POS and LEMMA processors over the data. The conllu is to contain (tokenize, pos, lemma), the conllu is to be have the PERS lemmas transferred, all NE annotations are to be transferred as annotations as well (MISC column).
-- for each original ana file, we release a conllu file with the same name and with the number of sentences equal to the number of sentences in the ana file, each conllu sentence is to have the original sentence ID
-- word alignment in both directions is to be shared as a metadatum in each sentence header (# align_s = 1-1 2-2... and #align_t = 1-1 2-2...)
+Next steps:
 - metadata translation: **we want to translate all the text contents of non-s elements - does this include the gap elements; can I get a list of all elements somewhere?**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš. **Should I perform word alignment on it as well?**
 
 
