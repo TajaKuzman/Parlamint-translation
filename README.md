@@ -1,12 +1,13 @@
 # Machine translating the ParlaMint output
 
-Tasks:
+## Tasks:
 - analyse various MT models on a sample data (ParlaMint-sample-sentence-tokenized.txt): see [code in Kaggle](https://www.kaggle.com/code/tajakuz/simple-machine-translation-with-various-mt-systems), results in the spreadsheet *ParlaMint_MT_Comparison-all-models.xlsx*
 - extract data to be translated based on the Parlamint format
 - use OPUSMT through EasyNMT to machine translate the output
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments
 
-Workflow:
+## Workflow
+
 1. Extract information from the CONLL-U
 2. Translate
 3. Tokenize English translations with Stanza
@@ -14,20 +15,18 @@ Workflow:
 5. Linguistically process English translation with Stanza (lemmas, POS, ner)
 6. Parse CONLL-u file and add additional information (sentence ids, alignments in both directions, source text, SpaceAfter information)
 
-Workflow (more details):
+More details:
 1. Extract from each sentence in the CONLL-u file:
 	- sent_id (in metadata) (# sent_id = ParlaMint-SI_2014-08-01-SDZ7-Redna-01.seg1.1)
 	- "text" (in metadata): to be feed into the MT system (# text = Spoštovani, prosim, da zasedete svoja mesta.) - in case of syntactic units, we use the multiword token, not the subparts ("Dovolte mi tedy, abych vás seznámila s omluvami, které předložili členové vlády." - to translate actual words)
 	- tokenized text (punctuation separated from words by space): by iterating through the tokens in the sentence - create a list of tokens and join them into a string (["Spoštovani", "prosim", ",", "da"] -> "Spoštovani prosim , da). In case of multiword tokens, we add the subword tokens to the tokenized text and skip the multiword token. We will also get all necessary information about the ids and lemmas from the subword tokens. The subword tokens do not have the NER annotation, so we will use the multiword annotation for all of its subparts. We use the subword tokens instead of multiword tokens to get the correct lemma (multiword tokens do not have lemmata) and also in case that the target proper noun would be aligned with the proper noun in the subword token. So, for alignment, we use the tokenized text with subword tokens (e.g., Dovolte mi tedy, abych vás seznámila s omluvami, které předložili členové vlády.)
-	- conllu index of the token: to be added as information to which source index the target index was aligned (used for connecting words in TEI)
-	- list of NE annotations (same length as the tokens) - we want NE annotations for all tokens, with the information on the lemma and index if the NE is not "0": ["O", "O", "O", {4: "PER-I", "Borut"}]
 	- information on the proper nouns: if the word is annotated as a proper noun (has "PER" in ner attribute), take its index, form and lemma and save it into a dictionary for each sentence ({0: (Taje, Taja), 1: (Kuzman, Kuzman)})
 2. Translate
 3. Word alignment:
 	- We apply the stanza tokenization over the translation; use tokenize_no_ssplit to avoid splitting sentences in multiple sentences. Save also information on whether there was initially a space around punctuation (based on start_char and end_char information) which we use at the end to remove spaces around the punctuation in the translation.
 	- Perform word alignment.
 	- Save forward and reverse alignment information for each word - they should be connected with the indices of source words as they appear in the source conllu file. The conllu files start counting with 1, while alignment starts with 0, so to get those indices, we will add "1" to each aligned index.
-	- Substitute translated NE words with lemmas based on the annotation, save new translation to a new column. For the words that were substituted, save also a list of the original words (to be added to the conllu).
+	- Substitute translated NE words with lemmas based on the annotation to create the new translation. For the words that were substituted, save also a list of the original words (to be added to the conllu).
 4. Linguistic processing of translated text:
 	- We use Stanza to get POS, lemmas and NER (the 4 tag package: conll03). Send in the "pre-tokenized text" (created in previous steps).
 	- Transform the result into CONLL-u (which should contain tokens, lemmas, pos). Parse the CONLL-u file and add:
@@ -49,8 +48,8 @@ Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
 
-Next steps:
-- metadata translation: **we want to translate all the text contents of non-s elements - does this include the gap elements; can I get a list of all elements somewhere?**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš. **Should I perform word alignment on it as well?**
+## Next steps
+- metadata translation: **we want to translate all the text contents of non-s elements**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš.
 
 
 
