@@ -18,3 +18,11 @@ results/CZ/ParlaMint-CZ-final-dataframe.csv
 results/CZ/ParlaMint-CZ-translated.csv
 results/CZ/temp
 results/CZ/ParlaMint-CZ-translated.csv
+results/CZ/final_translated_conllu
+Source-data
+Testing-MT-models/ParlaMint-SI/ParlaMint-SI.conllu
+Testing-MT-models/ParlaMint-SI/Parlamint-SI-bigger-sample-translated.csv
+Testing-MT-models/ParlaMint-SI/Slovene-sample-for-manual-analysis-aligned-etranslation.csv
+Testing-MT-models/ParlaMint-SI/Slovene-sample-for-manual-analysis-aligned-corrected-SouthSlavicMT.csv
+Testing-MT-models/ParlaMint-SI/Parlamint-SI-sentences.csv
+Testing-MT-models/ParlaMint-SI/Parlamint-SI-sample-aligned-corrected.csv
