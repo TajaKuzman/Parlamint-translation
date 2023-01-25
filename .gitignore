@@ -26,3 +26,9 @@ Testing-MT-models/ParlaMint-SI/Slovene-sample-for-manual-analysis-aligned-etrans
 Testing-MT-models/ParlaMint-SI/Slovene-sample-for-manual-analysis-aligned-corrected-SouthSlavicMT.csv
 Testing-MT-models/ParlaMint-SI/Parlamint-SI-sentences.csv
 Testing-MT-models/ParlaMint-SI/Parlamint-SI-sample-aligned-corrected.csv
+parlamint_env
+results/CZ
+results/CZ/ParlaMint-CZ-translated.csv
+results/CZ-old/ParlaMint-CZ-extracted-source-data.csv
+results/CZ-old/ParlaMint-CZ-final-dataframe.csv
+results/CZ-old/ParlaMint-CZ-translated.csv
