@@ -6,6 +6,12 @@
 - use OPUSMT through EasyNMT to machine translate the output
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments
 
+## Pipeline
+1. Extract info from the source conll-u files into a dataframe: `python 1-conllu-to-df.py > to_conllu.md`
+2. Choose the model (compare available models on a sample): 2-choose_MT_model.ipynb
+3. Translate: `python 3-translate.py > translate.md`
+4. Align: `4-word-alignment.py > align.md`
+
 ## Workflow
 
 1. Extract information from the CONLL-U
