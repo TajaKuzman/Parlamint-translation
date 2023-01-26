@@ -7,12 +7,15 @@ opus_lang_code = "cs"
 # Main path
 main_path = "/home/tajak/Parlamint-translation"
 
-# Define other paths
-extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)
-
-translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(main_path, lang_code, lang_code)
+# Define the part
+part = "2"
 
 # --------------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
+
+# Define other paths
+extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv.{}.csv".format(main_path, lang_code, lang_code, part)
+
+translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv.{}.csv".format(main_path, lang_code, lang_code, part)
 
 def translate(opus_lang_code, extracted_dataframe_path, translated_dataframe_path):
 	"""

@@ -7,10 +7,23 @@
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments
 
 ## Pipeline
-1. Extract info from the source conll-u files into a dataframe: `python 1-conllu-to-df.py > to_conllu.md`
+1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1, python 1-conllu-to-df.py > to_conllu.md`
+	- main output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
+	- the main file is also separated into 3 parts, so that the parts can be translated at the same time: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.1.csv, results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.2.csv, results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.3.csv
 2. Choose the model (compare available models on a sample): 2-choose_MT_model.ipynb
-3. Translate: `python 3-translate.py > translate.md`
-4. Align: `4-word-alignment.py > align.md`
+3. Translate: `CUDA_VISIBLE_DEVICES=1, python 3-translate.py > translate.md`
+	- To translate parts:
+		1. `CUDA_VISIBLE_DEVICES=1, python 3-translate-part1.py > translate1.md`
+		2. `CUDA_VISIBLE_DEVICES=2, python 3-translate-part2.py > translate2.md`
+		3. `CUDA_VISIBLE_DEVICES=1, python 3-translate-part3.py > translate3.md`
+	- Output: results/{lang_code}/ParlaMint-{lang_code}-translated.csv.1.csv, results/{lang_code}/ParlaMint-{lang_code}-translated.csv.2.csv, results/{lang_code}/ParlaMint-{lang_code}-translated.csv.3.csv
+4. Align: `CUDA_VISIBLE_DEVICES=1, 4-word-alignment.py > align.md`:
+	- Output:
+		1. first, separate translated files are merged into one: results/{lang_code}/ParlaMint-{lang_code}-translated.csv
+		2. tokenized text is saved as: results/{lang_code}/ParlaMint-{lang_code}-translated-tokenized.csv
+		3. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
+		4. Dataframe is then again separated into 3 batches which are saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv.1.csv, results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv.2.csv, results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv.3.csv
+5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=1, python 5-create-conllu.py > create_conllu.md`
 
 ## Workflow
 

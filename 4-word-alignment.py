@@ -1,31 +1,32 @@
-from conllu import parse
-import pandas as pd
-from IPython.display import display
-import os
-import zipfile
-import utils
-
 # Define the language code, used in the file names
 lang_code = "CZ"
 
 # Main path
 main_path = "/home/tajak/Parlamint-translation"
 
-# Define the translation model to be used
-opus_lang_code = "cs"
-
-# Check whether the path to the folder with conllu files is ok
-path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
-
-
-# Define other paths
-extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)
+# --------------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
+import pandas as pd
 
 translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(main_path, lang_code, lang_code)
 translated_tokenized_dataframe_path = "{}/results/{}/ParlaMint-{}-translated-tokenized.csv".format(main_path,lang_code, lang_code)
 final_dataframe = "{}/results/{}/ParlaMint-{}-final-dataframe.csv".format(main_path,lang_code, lang_code)
 
-def tokenize_translation(lang_code, main_path):
+# Merge the separated translated batches into one file
+part1 = pd.read_csv("{}.{}.csv".format(translated_dataframe_path, 1), sep="\t", index_col = 0)
+part2 = pd.read_csv("{}.{}.csv".format(translated_dataframe_path, 2), sep="\t", index_col = 0)
+part3 = pd.read_csv("{}.{}.csv".format(translated_dataframe_path, 3), sep="\t", index_col = 0)
+
+print("Batches shape: {}".format(part1.shape, part2.shape, part3.shape))
+
+inter_df = pd.concat([part1, part2])
+merged_df = pd.concat([inter_df, part3])
+
+print("Merged df shape: {}".format(merged_df.shape))
+
+# Save the merged df:
+merged_df.to_csv("{}".format(translated_dataframe_path), sep="\t")
+
+def tokenize_translation(translated_dataframe_path, translated_tokenized_dataframe_path):
 	import stanza
 	import time
 	import gc
@@ -37,8 +38,6 @@ def tokenize_translation(lang_code, main_path):
 
 	# Apply tokenization to English translation and add the sentences to the df
 	# Open the df
-	translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(main_path, lang_code, lang_code)
-
 	df = pd.read_csv("{}".format(translated_dataframe_path), sep="\t", index_col = 0)
 
 	# Save also the information on whether there is a space after or before punctuation
@@ -92,7 +91,6 @@ def tokenize_translation(lang_code, main_path):
 	df["translation-tokenized"] = tokenized_sentences
 	df["space-after-information"] = space_after_list
 
-	translated_tokenized_dataframe_path = "{}/results/{}/ParlaMint-{}-translated-tokenized.csv".format(main_path,lang_code, lang_code)
 	# Save the df
 	df.to_csv("{}".format(translated_tokenized_dataframe_path), sep="\t")
 
@@ -160,7 +158,7 @@ def alignment_file_to_target_dict(file):
 
 	return aligns_list_target_dict_list
 
-def correct_proper_nouns(lang_code, main_path):
+def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe):
 	"""
 	This function takes the translated text and the source text, aligns words with eflomal and corrects proper nouns.
 	It takes the dataframe that was created in the function extract_text() and to which the translation was added
@@ -175,8 +173,6 @@ def correct_proper_nouns(lang_code, main_path):
 
 	In case you don't have sudo permission, you can skip !sudo make install. I did, and I also used a virtual environment (venv), and managed to install eflomal.
 
-	Args:
-	- lang_code: the lang code that is used in the names of the files, it should be the same as for extract_text()
 	"""
 	import pandas as pd
 	import re
@@ -187,8 +183,6 @@ def correct_proper_nouns(lang_code, main_path):
 	import os
 
 	# Open the file, created in the previous step
-	translated_tokenized_dataframe_path = "{}/results/{}/ParlaMint-{}-translated-tokenized.csv".format(main_path,lang_code, lang_code)
-
 	df = pd.read_csv("{}".format(translated_tokenized_dataframe_path), sep="\t", index_col=0)
 
 	# Move into the eflomal folder
@@ -383,8 +377,12 @@ def correct_proper_nouns(lang_code, main_path):
 	df["source_indices"] = tokenized_text_dict_list
 
 	# Save the df
-	final_dataframe = "{}/results/{}/ParlaMint-{}-final-dataframe.csv".format(main_path,lang_code, lang_code)
 	df.to_csv("{}".format(final_dataframe), sep="\t")
+
+	# Save each batch separately to be linguistically processed separately
+	for i in list(df.batch.unique()):
+		df[df["batch"] == i].to_csv("{}.{}.csv".format(final_dataframe, i), sep="\t")
+		print("Batch {} saved as {}.{}.csv".format(i, final_dataframe, i))
 
 	# Display most common substitutions
 	df_substituted = df[df["proper_nouns"] != "0"]
@@ -393,12 +391,12 @@ def correct_proper_nouns(lang_code, main_path):
 
 	return df
 
-df = tokenize_translation(lang_code, main_path)
+df = tokenize_translation(translated_dataframe_path, translated_tokenized_dataframe_path)
 
 print(df.head(3).to_markdown())
 print("\n\n")
 
-df = correct_proper_nouns(lang_code, main_path)
+df = correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe)
 
 # See if there were any errors in word substitution
 print("Number of errors:")

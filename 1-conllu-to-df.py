@@ -1,9 +1,4 @@
-from conllu import parse
-import pandas as pd
-from IPython.display import display
 import os
-import zipfile
-import utils
 
 # Unzip the folder with the files
 #with zipfile.ZipFile("/home/tajak/Parlamint-translation/ParlaMint-CZ/ParlaMint-CZ.conllu.zip", 'r') as zip_ref:
@@ -15,16 +10,19 @@ lang_code = "CZ"
 # Main path
 main_path = "/home/tajak/Parlamint-translation"
 
-# Check whether the path to the folder with conllu files is ok
+# Check in your directory whether the path to the folder with conllu files is ok:
 path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
 
 # Create a folder with results for this language, e.g. results/CZ
+
 # Create (manually) a "temp" folder inside the results/CZ
 
-# Define other paths
-extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)
+# Currently, the number of files to be processed is set to 5 - change this in the code (line 210) to process everything.
 
 # --------------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
+
+# Define final path
+extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)
 
 # Extract a list with paths to conllu files and a list with their names
 parl_list = []
@@ -45,19 +43,21 @@ for dir1 in os.listdir(path):
 # See how many files we have:
 print("No. of files: {}.".format(len(parl_list)))
 
-def conllu_to_df(parl_list, file_name_list, main_path, lang_code):
+def conllu_to_df(parl_list, file_name_list, extracted_dataframe_path):
 	"""
 	Take the conllu files and extract relevant information. Save everything in a DataFrame.
 
 	Args:
 	- parl_list: list of documents with their entire paths to be included (see step above).
 	- file_name_list: list of names of the files (see step above)
-	- main_path: main path to the working directory
-	- lang_code: e.g., CZ
+	- extracted_dataframe_path: path to the output file
 	"""
 	from conllu import parse
 	import pandas as pd
 	from IPython.display import display
+	from itertools import islice
+	import math
+	import numpy as np
 
 	# Create an empty df
 	df = pd.DataFrame({"file_path": [""],"file": [""], "sentence_id": [""], "text": [""], "tokenized_text": [""], "proper_nouns": [""]})
@@ -166,7 +166,23 @@ def conllu_to_df(parl_list, file_name_list, main_path, lang_code):
 
 	print("Number of words in the corpora: {}".format(df["length"].sum()))
 
-	extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)
+	# Split the dataframe into 3 batches based on the list of files
+	file_list = list(df.file.unique())
+
+	def chunk(arr_range, arr_size):
+		arr_range = iter(arr_range)
+		return iter(lambda: tuple(islice(arr_range, arr_size)), ())
+
+	batches_list = list(chunk(file_list, math.ceil(len(file_list)/3)))
+
+	print("File is separated into {} batches, sizes of batches (in no. of files): {}, {}, {}.".format(len(batches_list), len(batches_list[0]), len(batches_list[1]), len(batches_list[2])))
+
+	# Add information on the batch in the dataframe
+	for i in range(len(batches_list)):
+		if i==0:
+			df["batch"] = np.where((df["file"].isin(list(batches_list[i]))), int(i+1), "none")
+		else:
+			df["batch"] = np.where((df["file"].isin(list(batches_list[i]))), int(i+1), df["batch"])
 
 	# Save the dataframe
 	df.to_csv("{}".format(extracted_dataframe_path), sep="\t")
@@ -176,7 +192,18 @@ def conllu_to_df(parl_list, file_name_list, main_path, lang_code):
 	# Show the results
 	print(df.describe(include="all").to_markdown())
 
+	print("\n\n\n")
+
+	print(df.head().to_markdown())
+
+	print("\n\n\n")
+
+	# Save each batch separately to be translated separately
+	for i in list(df.batch.unique()):
+		df[df["batch"] == i].to_csv("{}.{}.csv".format(extracted_dataframe_path, i), sep="\t")
+		print("Batch {} saved as {}.{}.csv".format(i, extracted_dataframe_path, i))
+
 	return df
 
 #Extract information from the conllu files
-df = conllu_to_df(parl_list[:5], file_name_list[:5], main_path, lang_code)
+df = conllu_to_df(parl_list[:20], file_name_list[:20], extracted_dataframe_path)
