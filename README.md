@@ -7,6 +7,9 @@
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments
 
 ## Pipeline
+
+The bash script `pipeline.sh` consists of all the python code below (to run everything with one command).
+
 1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1, python 1-conllu-to-df.py > to_conllu.md`
 	- main output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
 	- the main file is also separated into 3 parts, so that the parts can be translated at the same time: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.1.csv, results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.2.csv, results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.3.csv
@@ -65,6 +68,25 @@ This is now implemented, the sample file is in ["results/CZ/final_translated_con
 
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
+
+## Test on 1000 files
+
+I tested the `pipeline-without-translation-batches.sh` on 1000 files from the Czech corpus.
+The pipeline is the same as `pipeline.sh`, except that I did not separate the file into smaller batches. I processed the entire file on 1 GPU to see how much time it would take.
+
+The results are in `test-on-1000-files.md`.
+
+Statistics:
+- 1000 files
+- 3.7M words
+- 251.000 sentences
+- in 11.000 sentences (5%) proper nouns were corrected
+
+Time:
+- translation took 334 minutes --> for 1M words: 90 minutes
+- tokenization took 16 minutes --> for 1M words: 4 minutes
+- alignment took 2 minutes
+- creation of English conllu (linguistic processing of the translation) took
 
 
 ## Next steps

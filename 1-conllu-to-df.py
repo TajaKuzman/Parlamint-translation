@@ -206,4 +206,4 @@ def conllu_to_df(parl_list, file_name_list, extracted_dataframe_path):
 	return df
 
 #Extract information from the conllu files
-df = conllu_to_df(parl_list[:20], file_name_list[:20], extracted_dataframe_path)
+df = conllu_to_df(parl_list[:1000], file_name_list[:1000], extracted_dataframe_path)
