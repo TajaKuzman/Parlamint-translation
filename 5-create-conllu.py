@@ -48,12 +48,12 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 	# Create lists of information that we need to add to the conllu file
 	ids_list = df.sentence_id.to_list()
 	source_text = df.text.to_list()
-	initial_translation = df.translation.to_list()
+	# initial_translation = df.translation.to_list()
 	space_after_list = df["space-after-information"].to_list()
 	fwd_align_list = df['fwd_align_dict'].to_list()
 	bwd_align_list = df['bwd_align_dict'].to_list()
 	substituted_words_list = df['substituted_words'].to_list()
-	tokenized_text_list = df["source_indices"].to_list()
+	# tokenized_text_list = df["source_indices"].to_list()
 	sentence_list = df.new_translations.to_list()
 
 	# To feed the entire list into the pipeline, we need to create lists of tokens, split by space
@@ -81,8 +81,8 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 		# Add metadata
 		sentence.metadata["sent_id"] = ids_list[sentence_index]
 		sentence.metadata["source"] = source_text[sentence_index]
-		sentence.metadata["source_indices"] = tokenized_text_list[sentence_index]
-		sentence.metadata["initial_translation"] = initial_translation[sentence_index]
+		# sentence.metadata["source_indices"] = tokenized_text_list[sentence_index]
+		# sentence.metadata["initial_translation"] = initial_translation[sentence_index]
 
 		# Delete the current metadata for text
 		del sentence.metadata["text"]
@@ -120,8 +120,12 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 
 			word["misc"]["NER"] = current_ner
 
-			# Get information about the space after based on the index
-			current_space_after = space_after_list[sentence_index][word_index]
+			try:
+				# Get information about the space after based on the index
+				current_space_after = space_after_list[sentence_index][word_index]
+			except:
+				print("Error based on current_space after in sentence {}, sentence index: {}, word {}, word index {}.".format(sentence, sentence_index, word, word_index))
+				continue
 
 		# Create new text from translation, correcting the spaces around words
 		# based on the SpaceAfter information
