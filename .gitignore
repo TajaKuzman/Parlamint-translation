@@ -39,3 +39,7 @@ results/CZ/ParlaMint-CZ-translated.csv
 Testing-MT-models/ParlaMint-SI/Parlamint-SI-SlavicMT-sample-corrected.csv
 results/CZ/ParlaMint-CZ-translated.csv
 Final-data/ParlaMint-CZ.conllu/ParlaMint-CZ.conllu
+results/CZ-1000-sample/ParlaMint-CZ-extracted-source-data.csv
+results/CZ-1000-sample/ParlaMint-CZ-final-dataframe.csv
+results/CZ-1000-sample/ParlaMint-CZ-translated-tokenized.csv
+results/CZ-1000-sample/ParlaMint-CZ-translated.csv

@@ -12,7 +12,7 @@ extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv
 
 translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(main_path, lang_code, lang_code)
 
-# --------------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
+# -------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
 
 def translate(opus_lang_code, extracted_dataframe_path, translated_dataframe_path):
 	"""

@@ -17,9 +17,7 @@ path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path
 
 # Create (manually) a "temp" folder inside the results/CZ
 
-# Currently, the number of files to be processed is set to 5 - change this in the code (line 210) to process everything.
-
-# --------------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
+# ------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS--------------
 
 # Define final path
 extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)
@@ -54,10 +52,6 @@ def conllu_to_df(parl_list, file_name_list, extracted_dataframe_path):
 	"""
 	from conllu import parse
 	import pandas as pd
-	from IPython.display import display
-	from itertools import islice
-	import math
-	import numpy as np
 
 	# Create an empty df
 	df = pd.DataFrame({"file_path": [""],"file": [""], "sentence_id": [""], "text": [""], "tokenized_text": [""], "proper_nouns": [""]})
@@ -166,24 +160,6 @@ def conllu_to_df(parl_list, file_name_list, extracted_dataframe_path):
 
 	print("Number of words in the corpora: {}".format(df["length"].sum()))
 
-	# Split the dataframe into 3 batches based on the list of files
-	file_list = list(df.file.unique())
-
-	def chunk(arr_range, arr_size):
-		arr_range = iter(arr_range)
-		return iter(lambda: tuple(islice(arr_range, arr_size)), ())
-
-	batches_list = list(chunk(file_list, math.ceil(len(file_list)/3)))
-
-	print("File is separated into {} batches, sizes of batches (in no. of files): {}, {}, {}.".format(len(batches_list), len(batches_list[0]), len(batches_list[1]), len(batches_list[2])))
-
-	# Add information on the batch in the dataframe
-	for i in range(len(batches_list)):
-		if i==0:
-			df["batch"] = np.where((df["file"].isin(list(batches_list[i]))), int(i+1), "none")
-		else:
-			df["batch"] = np.where((df["file"].isin(list(batches_list[i]))), int(i+1), df["batch"])
-
 	# Save the dataframe
 	df.to_csv("{}".format(extracted_dataframe_path), sep="\t")
 
@@ -197,13 +173,8 @@ def conllu_to_df(parl_list, file_name_list, extracted_dataframe_path):
 	print(df.head().to_markdown())
 
 	print("\n\n\n")
-
-	# Save each batch separately to be translated separately
-	for i in list(df.batch.unique()):
-		df[df["batch"] == i].to_csv("{}.{}.csv".format(extracted_dataframe_path, i), sep="\t")
-		print("Batch {} saved as {}.{}.csv".format(i, extracted_dataframe_path, i))
-
+	
 	return df
 
 #Extract information from the conllu files
-df = conllu_to_df(parl_list[:1000], file_name_list[:1000], extracted_dataframe_path)
+df = conllu_to_df(parl_list, file_name_list, extracted_dataframe_path)

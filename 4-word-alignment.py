@@ -11,20 +11,6 @@ translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(m
 translated_tokenized_dataframe_path = "{}/results/{}/ParlaMint-{}-translated-tokenized.csv".format(main_path,lang_code, lang_code)
 final_dataframe = "{}/results/{}/ParlaMint-{}-final-dataframe.csv".format(main_path,lang_code, lang_code)
 
-# Merge the separated translated batches into one file
-part1 = pd.read_csv("{}.{}.csv".format(translated_dataframe_path, 1), sep="\t", index_col = 0)
-part2 = pd.read_csv("{}.{}.csv".format(translated_dataframe_path, 2), sep="\t", index_col = 0)
-part3 = pd.read_csv("{}.{}.csv".format(translated_dataframe_path, 3), sep="\t", index_col = 0)
-
-print("Batches shape: {}".format(part1.shape, part2.shape, part3.shape))
-
-inter_df = pd.concat([part1, part2])
-merged_df = pd.concat([inter_df, part3])
-
-print("Merged df shape: {}".format(merged_df.shape))
-
-# Save the merged df:
-merged_df.to_csv("{}".format(translated_dataframe_path), sep="\t")
 
 def tokenize_translation(translated_dataframe_path, translated_tokenized_dataframe_path):
 	import stanza
@@ -361,7 +347,7 @@ def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe):
 	end_time = round((time.time() - start_time)/60,2)
 
 	print("Alignment completed. It took {} minutes.".format(end_time))
-	
+
 	# Change the working directory once again
 	os.chdir("..")
 
@@ -382,11 +368,6 @@ def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe):
 
 	# Save the df
 	df.to_csv("{}".format(final_dataframe), sep="\t")
-
-	# Save each batch separately to be linguistically processed separately
-	for i in list(df.batch.unique()):
-		df[df["batch"] == i].to_csv("{}.{}.csv".format(final_dataframe, i), sep="\t")
-		print("Batch {} saved as {}.{}.csv".format(i, final_dataframe, i))
 
 	# Display most common substitutions
 	df_substituted = df[df["proper_nouns"] != "0"]

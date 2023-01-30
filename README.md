@@ -8,24 +8,20 @@
 
 ## Pipeline
 
-The bash script `pipeline.sh` consists of all the python code below (to run everything with one command).
+The bash script `pipeline.sh` consists of all the python code below (to run everything with one command): `bash pipeline.sh > logs/log.md`
 
 1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1, python 1-conllu-to-df.py > to_conllu.md`
-	- main output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
-	- the main file is also separated into 3 parts, so that the parts can be translated at the same time: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.1.csv, results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.2.csv, results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv.3.csv
+	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
+
 2. Choose the model (compare available models on a sample): 2-choose_MT_model.ipynb
+
 3. Translate: `CUDA_VISIBLE_DEVICES=1, python 3-translate.py > translate.md`
-	- To translate parts:
-		1. `CUDA_VISIBLE_DEVICES=1, python 3-translate-part1.py > translate1.md`
-		2. `CUDA_VISIBLE_DEVICES=2, python 3-translate-part2.py > translate2.md`
-		3. `CUDA_VISIBLE_DEVICES=1, python 3-translate-part3.py > translate3.md`
-	- Output: results/{lang_code}/ParlaMint-{lang_code}-translated.csv.1.csv, results/{lang_code}/ParlaMint-{lang_code}-translated.csv.2.csv, results/{lang_code}/ParlaMint-{lang_code}-translated.csv.3.csv
+	- Output: results/{lang_code}/ParlaMint-{lang_code}-translated.csv
+
 4. Align: `CUDA_VISIBLE_DEVICES=1, 4-word-alignment.py > align.md`:
 	- Output:
-		1. first, separate translated files are merged into one: results/{lang_code}/ParlaMint-{lang_code}-translated.csv
-		2. tokenized text is saved as: results/{lang_code}/ParlaMint-{lang_code}-translated-tokenized.csv
-		3. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
-		4. Dataframe is then again separated into 3 batches which are saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv.1.csv, results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv.2.csv, results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv.3.csv
+		1. tokenized text is saved as: results/{lang_code}/ParlaMint-{lang_code}-translated-tokenized.csv
+		2. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
 5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=1, python 5-create-conllu.py > create_conllu.md`
 
 ## Workflow
@@ -64,17 +60,18 @@ More details:
 		19) source word indices as metadata ("source_indices") - used only for testing, won't be added in the final conllu
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
-This is now implemented, the sample file is in ["results/CZ/final_translated_conllu/newest_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ/final_translated_conllu/newest_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu).
+This is now implemented, the sample files are:
+- sample file with additional information for debugging purposes (initial translation, source_indices: ["results/CZ-old/final_translated_conllu/sample_with_dev_metadata_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ/final_translated_conllu/newest_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu)
+- final format: ["results/CZ-old/final_translated_conllu/final_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"]()
 
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
 ## Test on 1000 files
 
-I tested the `pipeline-without-translation-batches.sh` on 1000 files from the Czech corpus.
-The pipeline is the same as `pipeline.sh`, except that I did not separate the file into smaller batches. I processed the entire file on 1 GPU to see how much time it would take.
+I tested the `pipeline.sh` on 1000 files from the Czech corpus. I processed the entire corpus on 1 GPU to see how much time it would take.
 
-The results are in `test-on-1000-files.md`.
+The results are in `logs/test-on-1000-files.md`.
 
 Statistics:
 - 1000 files
