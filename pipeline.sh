@@ -4,7 +4,7 @@ export CUDA_VISIBLE_DEVICES=7
 
 echo ${CUDA_VISIBLE_DEVICES}
 
-python 1-conllu-to-df.py
+#python 1-conllu-to-df.py
 
 python 3-translate.py
 

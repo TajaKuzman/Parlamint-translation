@@ -10,19 +10,19 @@
 
 The bash script `pipeline.sh` consists of all the python code below (to run everything with one command): `bash pipeline.sh > logs/log.md`
 
-1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1, python 1-conllu-to-df.py > to_conllu.md`
+1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 python 1-conllu-to-df.py > to_conllu.md`
 	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
 
 2. Choose the model (compare available models on a sample): 2-choose_MT_model.ipynb
 
-3. Translate: `CUDA_VISIBLE_DEVICES=1, python 3-translate.py > translate.md`
+3. Translate: `CUDA_VISIBLE_DEVICES=1 python 3-translate.py > translate.md`
 	- Output: results/{lang_code}/ParlaMint-{lang_code}-translated.csv
 
-4. Align: `CUDA_VISIBLE_DEVICES=1, 4-word-alignment.py > align.md`:
+4. Align: `CUDA_VISIBLE_DEVICES=1 4-word-alignment.py > align.md`:
 	- Output:
 		1. tokenized text is saved as: results/{lang_code}/ParlaMint-{lang_code}-translated-tokenized.csv
 		2. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
-5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=1, python 5-create-conllu.py > create_conllu.md`
+5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=1 python 5-create-conllu.py > create_conllu.md`
 
 ## Workflow
 
