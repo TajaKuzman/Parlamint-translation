@@ -61,8 +61,8 @@ More details:
 	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
 
 This is now implemented, the sample files are:
-- sample file with additional information for debugging purposes (initial translation, source_indices: ["results/CZ-old/final_translated_conllu/sample_with_dev_metadata_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ/final_translated_conllu/newest_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu)
-- final format: ["results/CZ-old/final_translated_conllu/final_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"]()
+- sample file with additional information for debugging purposes (initial translation, source_indices: ["results/CZ-old/final_translated_conllu/sample_with_dev_metadata_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ-old/final_translated_conllu/sample_with_dev_metadata_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu)
+- final format: ["results/CZ-old/final_translated_conllu/final_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ-old/final_translated_conllu/final_sample_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu)
 
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
@@ -71,7 +71,7 @@ Some remarks:
 
 I tested the `pipeline.sh` on 1000 files from the Czech corpus. I processed the entire corpus on 1 GPU to see how much time it would take.
 
-The results are in `logs/test-on-1000-files.md`.
+The results are in [`logs/test-on-1000-files.md`](https://github.com/TajaKuzman/Parlamint-translation/blob/master/logs/test-on-1000-files.md)
 
 Statistics:
 - 1000 files
