@@ -1,5 +1,13 @@
+import argparse
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("lang_code", help="lang code used in the files")
+    args = parser.parse_args()
+
 # Define the language code, used in the file names
-lang_code = "CZ"
+#lang_code = "CZ"
+lang_code = args.lang_code
 
 # Main path
 main_path = "/home/tajak/Parlamint-translation"

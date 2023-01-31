@@ -1,11 +1,23 @@
 import os
+import argparse
+import zipfile
+import gzip
+import shutil
 
-# Unzip the folder with the files
-#with zipfile.ZipFile("/home/tajak/Parlamint-translation/ParlaMint-CZ/ParlaMint-CZ.conllu.zip", 'r') as zip_ref:
-#    zip_ref.extractall("/home/tajak/Parlamint-translation/ParlaMint-CZ/ParlaMint-CZ.conllu")
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("lang_code", help="lang code used in the files")
+    args = parser.parse_args()
 
 # Define the language code, used in the file names
-lang_code = "CZ"
+#lang_code = "CZ"
+lang_code = args.lang_code
+
+# Unzip the ZIP folder with the files
+#with zipfile.ZipFile("/home/tajak/Parlamint-translation/Source-data/ParlaMint-{}/ParlaMint-{}.conllu.zip".format(lang_code, lang_code), 'r') as zip_ref:
+#    zip_ref.extractall("/home/tajak/Parlamint-translation/Source-data/ParlaMint-{}/ParlaMint-{}.conllu".format(lang_code, lang_code))
+
+# Unzip the TGZ file: write to command line: `tar -xf dir_name`
 
 # Main path
 main_path = "/home/tajak/Parlamint-translation"
@@ -14,8 +26,10 @@ main_path = "/home/tajak/Parlamint-translation"
 path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
 
 # Create a folder with results for this language, e.g. results/CZ
+os.mkdir("/home/tajak/Parlamint-translation/results/{}".format(lang_code))
 
 # Create (manually) a "temp" folder inside the results/CZ
+os.mkdir("/home/tajak/Parlamint-translation/results/{}/temp".format(lang_code))
 
 # ------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS--------------
 
