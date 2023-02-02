@@ -8,8 +8,8 @@
 
 ## Pipeline
 
-The bash script `pipeline.sh` consists of all the python code below (to run everything with one command): `nohup bash pipeline.sh > logs/log.md`:
-	- HR: `nohup bash pipeline.sh "hr" > logs/HR/pipeline-log.md`
+The bash script `pipeline.sh` consists of all the python code below (to run everything with one command): `nohup bash pipeline.sh "lang_code" "opus_lang_code" > logs/log.md`. You need to first create the conllu file and then check which opus language is the best to use for translation:
+	- HR: `nohup bash pipeline-hr.sh "hr" > logs/HR/pipeline-log.md`
 
 1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 python 1-conllu-to-df.py "CZ" > to_conllu.md`
 	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv

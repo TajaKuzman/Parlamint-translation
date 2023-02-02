@@ -43,3 +43,8 @@ results/CZ-1000-sample/ParlaMint-CZ-extracted-source-data.csv
 results/CZ-1000-sample/ParlaMint-CZ-final-dataframe.csv
 results/CZ-1000-sample/ParlaMint-CZ-translated-tokenized.csv
 results/CZ-1000-sample/ParlaMint-CZ-translated.csv
+nohup.out
+results/HR/ParlaMint-HR-extracted-source-data.csv
+.gitignore
+results/HR/ParlaMint-HR-sample-model-comparison-old.csv
+results/HR/ParlaMint-HR-sample-model-comparison.csv

@@ -69,7 +69,7 @@ def tokenize_translation(translated_dataframe_path, translated_tokenized_datafra
 				current_space_after_list.append("No")
 			else:
 				current_space_after_list.append("Yes")
-
+	
 		# This loop is not possible for the end token, so let's add information for the last token
 		# just to avoid errors due to different lengths of lists
 		current_space_after_list.append("Last")
@@ -128,31 +128,35 @@ def alignment_file_to_target_dict(file):
 	for i in aligns_list_target:
 		# Create a dictionary for each sentence
 		current_sentence_align = {}
-		# For each alignment pair in the sentence:
-		for pair in i:
-			# Split the pair: result is a list of lists with source index as the first element
-			# and target index as the second element: [[0,0], [1,2], [1,3]]
-			current_pair = pair.split("-")
+		# If alignment line is empty, keep the dictionary empty
+		if len(i) == 1 and len(i[0]) == 0:
+			current_sentence_align = {}
+		else:
+			# For each alignment pair in the sentence:
+			for pair in i:
+				# Split the pair: result is a list of lists with source index as the first element
+				# and target index as the second element: [[0,0], [1,2], [1,3]]
+				current_pair = pair.split("-")
 
-			# Get the indices for target and source and add 1 to them (to get the conllu indices)
-			current_t_index = int(current_pair[1]) + 1
-			current_s_index = int(current_pair[0]) + 1
+				# Get the indices for target and source and add 1 to them (to get the conllu indices)
+				current_t_index = int(current_pair[1]) + 1
+				current_s_index = int(current_pair[0]) + 1
 
-			# Check whether the target index is already aligned to anything (a case of 1-to-many alignment),
-			# if not, save it as a key and save the source index as value.
-			if current_sentence_align.get(current_t_index, None) == None:
-				current_sentence_align[current_t_index] = str(current_s_index)
-			# If the index was already aligned to a previous source word, add the additional source word alignment as a string
-			# (result: {0: "1, 2"))
-			else:
-				current_sentence_align[current_t_index] += str(", ")
-				current_sentence_align[current_t_index] += str(current_s_index)
+				# Check whether the target index is already aligned to anything (a case of 1-to-many alignment),
+				# if not, save it as a key and save the source index as value.
+				if current_sentence_align.get(current_t_index, None) == None:
+					current_sentence_align[current_t_index] = str(current_s_index)
+				# If the index was already aligned to a previous source word, add the additional source word alignment as a string
+				# (result: {0: "1, 2"))
+				else:
+					current_sentence_align[current_t_index] += str(", ")
+					current_sentence_align[current_t_index] += str(current_s_index)
 
 		aligns_list_target_dict_list.append(current_sentence_align)
 
 	return aligns_list_target_dict_list
 
-def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe):
+def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe, lang_code):
 	"""
 	This function takes the translated text and the source text, aligns words with eflomal and corrects proper nouns.
 	It takes the dataframe that was created in the function extract_text() and to which the translation was added
@@ -183,8 +187,8 @@ def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe):
 	os.chdir("/home/tajak/Parlamint-translation/eflomal")
 
 	# Then we need to create files for all texts and all translations
-	source_sentences = open("source_sentences.txt", "w")
-	English_sentences = open("English_sentences.txt", "w")
+	source_sentences = open("source_sentences_{}.txt".format(lang_code), "w")
+	English_sentences = open("English_sentences_{}.txt".format(lang_code), "w")
 
 	for i in df["tokenized_text"].to_list():
 		source_sentences.write(i)
@@ -200,30 +204,34 @@ def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe):
 	print("\n\n")
 	print("Alignment started.")
 	start_time = time.time()
-	
+
 	# Align sentences with eflomal and get out a file with alignments
 	#!python3 align.py -s source_sentences.txt -t English_sentences.txt --model 3 -r source-en.rev -f source-en.fwd
-	subprocess.call("/home/tajak/Parlamint-translation/align.sh")
+	subprocess.call(["/home/tajak/Parlamint-translation/align.sh", lang_code])
 
 	# Create a list of dictionaries of alignments from the returned files which will be added to the final conllu for each word
-	forward_alignment_dict_list = alignment_file_to_target_dict("source-en.fwd")
-	backward_alignment_dict_list = alignment_file_to_target_dict("source-en.rev")
+	forward_alignment_dict_list = alignment_file_to_target_dict("source-en_{}.fwd".format(lang_code))
+	backward_alignment_dict_list = alignment_file_to_target_dict("source-en_{}.rev".format(lang_code))
 
 	# Add to the df
 	df["fwd_align_dict"] = forward_alignment_dict_list
 	df["bwd_align_dict"] = backward_alignment_dict_list
 
 	# Create forward target alignments from the source alignment direction (by changing the direction in the rev file)
-	aligns_list = open("source-en.rev", "r").readlines()
+	aligns_list = open("source-en_{}.rev".format(lang_code), "r").readlines()
 	aligns_list = [i.replace("\n", "") for i in aligns_list]
 
 	# Continue with processing the list to create the final alignments format which I'll use to correct proper names
 	aligns_list = [i.split(" ") for i in aligns_list]
 
 	for i in aligns_list:
-		for pair in i:
-			current_pair = pair.split("-")
-			i[i.index(pair)] = {int(current_pair[0]): int(current_pair[1])}
+		# If alignment line is empty, keep the dictionary empty
+		if len(i) == 1 and len(i[0]) == 0:
+			aligns_list[aligns_list.index(i)] = []
+		else:
+			for pair in i:
+				current_pair = pair.split("-")
+				i[i.index(pair)] = {int(current_pair[0]): int(current_pair[1])}
 	
 	final_aligns = []
 
@@ -255,10 +263,6 @@ def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe):
 
 	# Add a to the df
 	df["alignments"] = final_aligns
-
-	# Remove the rev and fwd file
-	os.remove("source-en.rev")
-	os.remove("source-en.fwd")
 
 	# When we open the dataframe file, the dictionaries with proper names changed into strings - Change strings in the column proper_nouns into dictionaries
 
@@ -389,7 +393,7 @@ df = tokenize_translation(translated_dataframe_path, translated_tokenized_datafr
 print(df.head(3).to_markdown())
 print("\n\n")
 
-df = correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe)
+df = correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe, lang_code)
 
 # See if there were any errors in word substitution
 print("Number of errors:")

@@ -1,8 +1,13 @@
-# Define the language code, used in the file names
-lang_code = "CZ"
+import argparse
 
-# Define the translation model to be used
-opus_lang_code = "cs"
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("lang_code", help="lang code used in the files")
+    args = parser.parse_args()
+
+# Define the language code, used in the file names
+#lang_code = "CZ"
+lang_code = args.lang_code
 
 # Main path
 main_path = "/home/tajak/Parlamint-translation"
@@ -14,7 +19,7 @@ translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(m
 
 # -------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
 
-def translate(opus_lang_code, extracted_dataframe_path, translated_dataframe_path):
+def translate(lang_code, extracted_dataframe_path, translated_dataframe_path):
 	"""
 	This function translates the text from the dataframe, created with the extract_text() function
 	with OPUS-MT models using EasyNMT. It returns a dataframe with the translation.
@@ -39,12 +44,15 @@ def translate(opus_lang_code, extracted_dataframe_path, translated_dataframe_pat
 	# Create a list of sentences from the df
 	sentence_list = df.text.to_list()
 
+	lang_models_dict = {"BG": ["bg", "sla", "zls"], "HR": ["zls"], "CZ": ["cs", "sla", "zlw" ], "DK": ["da", "gmq", "gem"], "NL": ["nl", "gem", "gmw"], "FR": ["fr", "itc","roa"], "HU": ["mul"], "IS": ["is","gmq", "gem"], "IT": ["it", "roa", "itc"], "LV": ["lv","bat"], "LT": ["bat"], "PL": ["pl", "sla", "zlw"], "SI": ["sla", "zls"], "ES": ["es", "roa", "itc"], "TR": ["tr", "trk" ], "AT": ["de", "gem", "gmw"], "ES-PV": ["eu", "mul"], "BA": ["sla", "zls"], "ES-CT": ["ca", "roa", "itc"], "EE": ["et", "urj", "fiu"], "FI": ["fi", "urj", "fiu"], "ES-GA": ["gl", "roa", "itc"], "GR": ["grk"], "PT": ["roa", "itc"], "RO":["roa", "itc"], "RS": ["zls", "sla"], "SE": ["sv", "gmq", "gem"], "UA":["uk", "sla", "zle"]}
+
 	print("Translation started.")
 
 	start_time = time.time()
 
 	#Translate the list of sentences - you need to provide the source language as it is in the name of the model - the opus_lang_code
-	translation_list = model.translate(sentence_list, source_lang = "{}".format(opus_lang_code), target_lang='en')
+	for opus_lang_code in lang_models_dict[lang_code]:
+		translation_list = model.translate(sentence_list, source_lang = "{}".format(opus_lang_code), target_lang='en')
 
 	translation_time = round((time.time() - start_time)/60,2)
 
@@ -65,4 +73,4 @@ def translate(opus_lang_code, extracted_dataframe_path, translated_dataframe_pat
 
 	return df
 
-df = translate(opus_lang_code, extracted_dataframe_path, translated_dataframe_path)
+df = translate(lang_code, extracted_dataframe_path, translated_dataframe_path)
