@@ -6,12 +6,38 @@
 - use OPUSMT through EasyNMT to machine translate the output
 - use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments
 
+## Datasets
+
+| Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |Evaluation of MT sample|
+|-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|
+| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 57.798.786       |              |                  | creating df from conllu files       |        |
+| ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |        |        |
+| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 25.046.226       |              |                  |        |        |
+| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  ready for English lang. processing      |        |
+| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40.141.993       |              |                  |        |        |
+| ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |
+| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  being translated      |        |
+| ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |
+| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 30.555.328       |              |                  |        |        |
+| ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |
+| ParlaMint-NL 3.0 (Dutch parliament)     | Dutch     | 66.058.225       |              |                  |        |        |
+| ParlaMint-NO 3.0 (Norwegian parliament)* | Norwegian | 86.608.162       |              |                  |        |        |
+| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 16.809.537       |              |                  |        |        |
+| ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |        |        |
+| ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |
+| ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |        |
+| ParlaMint-TR 3.0 (Turkish parliament)   | Turkish   | 47.261.604       |              |                  |        |        |
+
+Corpora with more than one language (marked with * in the table above):
+- Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.  two sets of CoNLL-U files for them.
+- ParlaMint-NO (Norwegian) also has two languages in TEI (Bokmal and Nynorsk), but these are are processed with the same model, so they have just one CoNLL-U set.
+
 ## Pipeline
 
 The bash script `pipeline.sh` consists of all the python code below (to run everything with one command): `nohup bash pipeline.sh "lang_code" "opus_lang_code" > logs/log.md`. You need to first create the conllu file and then check which opus language is the best to use for translation:
 	- HR: `nohup bash pipeline-hr.sh "hr" > logs/HR/pipeline-log.md`
 
-1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 python 1-conllu-to-df.py "CZ" > to_conllu.md`
+1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 nohup python 1-conllu-to-df.py "AT" > logs/AT/to_conllu.md`
 	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
 
 2. Choose the model (compare available models on a sample): 2-choose_MT_model.ipynb
@@ -23,7 +49,7 @@ The bash script `pipeline.sh` consists of all the python code below (to run ever
 	- Output:
 		1. tokenized text is saved as: results/{lang_code}/ParlaMint-{lang_code}-translated-tokenized.csv
 		2. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
-5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=1 python 5-create-conllu.py "CZ" > create_conllu.md`
+5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu.py "CZ" > create_conllu.md`
 
 ## Workflow
 

@@ -122,7 +122,7 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 			current_ner = word["misc"]["ner"]
 			del word["misc"]["ner"]
 			
-			# Substitute parts of the tags so that they are tha same as in source
+			# Substitute parts of the tags so that they are the same as in source
 			current_ner = re.sub("S-", "B-", current_ner)
 			current_ner = re.sub("E-", "I-", current_ner)
 
@@ -133,7 +133,7 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 				current_space_after = space_after_list[sentence_index][word_index]
 			except:
 				print("Error based on current_space after in sentence {}, sentence index: {}, word {}, word index {}.".format(sentence, sentence_index, word, word_index))
-				continue
+				current_space_after = "Yes"
 
 		# Create new text from translation, correcting the spaces around words
 		# based on the SpaceAfter information
@@ -163,6 +163,7 @@ def produce_final_conllu(lang_code, final_dataframe):
 	import pandas as pd
 	import stanza
 	import time
+	from stanza.pipeline.core import DownloadMethod
 	
 	df = pd.read_csv("{}".format(final_dataframe), sep="\t", index_col=0)
 
@@ -174,14 +175,12 @@ def produce_final_conllu(lang_code, final_dataframe):
 	print("Processing started.")
 
 	# Define the pipeline, instruct it to use a specific package: 	CoNLL03
-	nlp = stanza.Pipeline(lang='en', processors="tokenize,mwt,pos,lemma,ner", package={"ner": ["conll03"]}, tokenize_pretokenized=True)
-
-	# Test file
-	#for file in ["ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"]:
-	#	create_conllu(file, lang_code)
+	nlp = stanza.Pipeline(lang='en', processors="tokenize,mwt,pos,lemma,ner", package={"ner": ["conll03"]}, tokenize_pretokenized=True, download_method=DownloadMethod.REUSE_RESOURCES, use_gpu=True)
 
 	for file in files:
 		create_conllu(file, lang_code, main_path, final_dataframe, nlp)
+		current_end_time = round((time.time() - start_time)/60,2)
+		print("Current running time: {}".format(current_end_time))
 	
 	end_time = round((time.time() - start_time)/60,2)
 

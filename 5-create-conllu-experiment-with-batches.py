@@ -70,6 +70,7 @@ def produce_final_conllu(lang_code, final_dataframe):
 	import pandas as pd
 	import stanza
 	import time
+	from stanza.pipeline.core import DownloadMethod
 	
 	df = pd.read_csv("{}".format(final_dataframe), sep="\t", index_col=0)
 
@@ -82,11 +83,14 @@ def produce_final_conllu(lang_code, final_dataframe):
 
 	print("Processing started.")
 
+	# Download the models once for all
+	#stanza.download(lang='en', processors="tokenize,mwt,pos,lemma,ner", package={"ner": ["conll03"]})
+
 	# Define the pipeline, instruct it to use a specific package: 	CoNLL03
-	nlp = stanza.Pipeline(lang='en', processors="tokenize,mwt,pos,lemma,ner", package={"ner": ["conll03"]}, tokenize_pretokenized=True)
+	nlp = stanza.Pipeline(lang='en', processors="tokenize,mwt,pos,lemma,ner", package={"ner": ["conll03"]}, mwt_batch_size=200, lemma_batch_size=200, pos_batch_size=10000, tokenize_pretokenized=True, download_method=DownloadMethod.REUSE_RESOURCES, use_gpu=True)
 
 	# We will go with batch_size=200 which seems to improve the processing.
-	nlp = stanza.Pipeline(lang='en', processors="tokenize,mwt,pos,lemma,ner", mwt_batch_size=200, lemma_batch_size=200, package={"ner": ["conll03"]}, tokenize_pretokenized=True)
+	#nlp = stanza.Pipeline(lang='en', processors="tokenize,mwt,pos,lemma,ner", mwt_batch_size=200, pos_batch_size=10000, package={"ner": ["conll03"]}, tokenize_pretokenized=True, download_method=None, use_gpu=True)
 
 	# Test file
 	#for file in ["ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"]:
@@ -97,7 +101,7 @@ def produce_final_conllu(lang_code, final_dataframe):
 	
 	end_time = round((time.time() - start_time)/60,2)
 
-	print("Lemma batch 200: processing completed. It took {} minutes for 10 files.".format(end_time))
+	print("MWT batch size 200, lemma batch size 200, POS batch 10000 (default 5000): processing completed. It took {} minutes for 10 files.".format(end_time))
 
 
 produce_final_conllu(lang_code, final_dataframe)

@@ -25,13 +25,13 @@ main_path = "/home/tajak/Parlamint-translation"
 # Check in your directory whether the path to the folder with conllu files is ok:
 path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
 
+# ------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS--------------
+
 # Create a folder with results for this language, e.g. results/CZ
 os.mkdir("/home/tajak/Parlamint-translation/results/{}".format(lang_code))
 
 # Create (manually) a "temp" folder inside the results/CZ
 os.mkdir("/home/tajak/Parlamint-translation/results/{}/temp".format(lang_code))
-
-# ------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS--------------
 
 # Define final path
 extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)

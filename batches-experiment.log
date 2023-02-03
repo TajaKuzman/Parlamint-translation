@@ -9,3 +9,20 @@ Processing started.
 MWT batch 200, Lemma batch 100: processing completed. It took 12.88 minutes for 10 files.
 Processing started.
 MWT batch 200, Lemma batch 200: processing completed. It took 12.0 minutes for 10 files.
+Processing started.
+MWT batch 200, lemma batch default: processing completed. It took 10.85 minutes for 10 files.
+Processing started.
+MWT batch 200, lemma batch size 200: processing completed. It took 8.77 minutes for 10 files.
+Processing started.
+MWT batch 200, POS batch 8000 (default is 5000): processing completed. It took 10.73 minutes for 10 files.
+Processing started.
+MWT batch 200, POS batch 10000 (default is 5000): processing completed. It took 11.07 minutes for 10 files.
+Processing started.
+---- New results after I specified that GPU needs to be used (which should be the default setting anyway) and instructed the model to reload resources instead of downloading them.
+Try default again: processing completed. It took 6.57 minutes for 10 files.
+Processing started.
+MWT batch 200: processing completed. It took 6.75 minutes for 10 files.
+Processing started.
+POS batch 10000 (default 5000): processing completed. It took 6.61 minutes for 10 files.
+Processing started.
+MWT batch size 200, lemma batch size 200, POS batch 10000 (default 5000): processing completed. It took 6.64 minutes for 10 files.
