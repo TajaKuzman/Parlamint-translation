@@ -230,6 +230,8 @@ Time:
 - alignment took around 12 minutes
 - linguistic processing of translation and creation of conllu files took 4247 minutes (71 hours)
 
+Total time (for main processes): 5359 minutes - 89 hours (3.7 days).
+
 Unusual things the code reveal: two sentences that have only one word:
 - ParlaMint-CZ_2021-07-08-ps2017-111-02-007-395.u16.p24.s5:
 
