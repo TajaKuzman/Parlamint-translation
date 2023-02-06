@@ -8,15 +8,15 @@
 
 ## Datasets
 
-| Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |Evaluation of MT sample|
+| Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |OPUS-MT model|
 |-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|
 | ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              | df created, ready for translation       |        |
 | ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |        |        |
 | ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 25.046.226       |              |                  |        |        |
-| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  creating final conll-us      |        |
+| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  done      |  "cs"      |
 | ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40.141.993       |              |                  |        |        |
 | ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |
-| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment      |        |
+| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment      |  "zls"      |
 | ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |
 | ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 30.555.328       |              |                  |        |        |
 | ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |
@@ -25,7 +25,7 @@
 | ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 16.809.537       |              |                  |        |        |
 | ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |        |        |
 | ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |
-| ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |        |
+| ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |   "sla"     |
 | ParlaMint-TR 3.0 (Turkish parliament)   | Turkish   | 47.261.604       |              |                  |        |        |
 
 Corpora with more than one language (marked with * in the table above):
