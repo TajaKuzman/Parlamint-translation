@@ -10,13 +10,13 @@
 
 | Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |Evaluation of MT sample|
 |-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|
-| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 57.798.786       |              |                  | creating df from conllu files       |        |
+| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              | df created, ready for translation       |        |
 | ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |        |        |
 | ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 25.046.226       |              |                  |        |        |
-| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  ready for English lang. processing      |        |
+| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  creating final conll-us      |        |
 | ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40.141.993       |              |                  |        |        |
 | ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |
-| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  being translated      |        |
+| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment      |        |
 | ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |
 | ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 30.555.328       |              |                  |        |        |
 | ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |
@@ -211,3 +211,98 @@ Examples of null alignment:
 | 64747 | Želi besedo gospa Vlada Nussdorfer ?                                                                                                                                                                                                                                         | Does Mrs . Vlad Nussdorfer want the   word ?                                                                                                                                                                                                                                             | {0: 5, 1: 7, 2: 1, 4: 4, 5: 8}                                                                                                                                                                                                                                                                                     | Issue: index 3: ['Vlada', 'vlada']        |
 | 73749 | Besedo ima gospod Jurij Lep .                                                                                                                                                                                                                                                | Mr . Jurij Leprechaun has the word .                                                                                                                                                                                                                                                     | {0: 6, 1: 4, 2: 0, 3: 2, 5: 7}                                                                                                                                                                                                                                                                                     | Issue: index 4: ['Lep', 'lep']            |
 | 82229 | Na predstavitvi svoje kandidature je   dr. Rok Čeferin sicer povedal , da je posamezne medije , ki niso pod okriljem   Vlade , res označil za tovarne laži , a da je to storil pod vplivom jeze in   uporabil izraz , ki ga morda ne bi smel .                               | In the presentation of his candidacy ,   Dr . Roc Čeferin said that he had indeed designated individual media not   under the auspices of the Government as factory lies , but that he had done   so under the influence of anger and used an expression that he might not have   used . | {0: 0, 1: 2, 2: 4, 3: 5, 4: 6, 5: 7,   7: 10, 9: 11, 11: 12, 12: 13, 13: 17, 14: 18, 17: 19, 18: 20, 19: 22, 20: 25,   22: 15, 23: 16, 24: 26, 25: 27, 26: 28, 27: 29, 28: 30, 29: 31, 30: 32, 32:   34, 33: 36, 34: 38, 35: 40, 36: 41, 37: 42, 38: 44, 40: 45, 41: 46, 42: 47,   43: 48, 44: 49, 45: 50, 46: 51} | Issue: index 6: ['Rok', 'Rok']            |
+
+
+## Information on processing each corpora
+
+### ParlaMint-CZ
+
+Entire corpus has:
+- 6,327 files
+- 1,804,657 sentences
+- 27,952,326 words.
+
+There are 6328 files in the source conll-u folder, but we processed 6327 (one less), because the file "ParlaMint-CZ_2016-10-26-ps2013-050-06-005-217.conllu" is empty.
+
+Time:
+- translation took 1011 minutes (around 17 hours)
+- tokenization took 89 minutes
+- alignment took around 12 minutes
+- linguistic processing of translation and creation of conllu files took 4247 minutes (71 hours)
+
+Unusual things the code reveal: two sentences that have only one word:
+- ParlaMint-CZ_2021-07-08-ps2017-111-02-007-395.u16.p24.s5:
+
+```
+# sent_id = ParlaMint-CZ_2021-07-08-ps2017-111-02-007-395.u16.p24.s5
+# text = s
+1	s	s	ADP	_	AdpType=Prep|Case=Ins	0	root	_	NER=O
+```
+- ParlaMint-CZ_2015-01-23-ps2013-025-04-004-088.u8.p1.s5:
+
+```
+# sent_id = ParlaMint-CZ_2015-01-23-ps2013-025-04-004-088.u8.p1.s5
+# text = To -
+1	To	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	NER=O
+2	-	-	PUNCT	_	_	1	punct	_	NER=O
+```
+
+83,698 sentences were corrected with proper noun correction - 4.6% of all sentences.
+
+Most frequent substitutions:
+
+|                               |   substituted_pairs |
+|:------------------------------|--------------------:|
+| [('Faltynek', 'Faltýnek')]    |      2423           |
+| [('Andrei', 'Andrej')]        |      2051           |
+| [('Schiller', 'Schillerová')] |      1902           |
+| [('Pirates', 'pirát')]        |      1289           |
+| [('Richter', 'Richterová')]   |      1210           |
+| [('Laudat', 'Laudát')]        |      1208           |
+| [('Free', 'Volný')]           |      1187           |
+| [('Excellent', 'Výborný')]    |      1086           |
+| [('Austrian', 'Rakušan')]     |       964           |
+| [('Peter', 'Petr')]           |       841           |
+| [('Michalek', 'Michálek')]    |       716           |
+| [('Philip', 'Filip')]         |       633           |
+| [('Mark', 'Marek')]           |       557           |
+| [('Wark', 'Válková')]         |       547           |
+| [('Vera', 'Věra')]            |       438           |
+| [('Kaňkovsky', 'Kaňkovský')]  |       436           |
+| [('Pastuch', 'Pastuchová')]   |       434           |
+| [('Zaoralek', 'Zaorálek')]    |       426           |
+| [('Marks', 'Marksová')]       |       420           |
+
+### ParlaMint-HR
+
+Entire corpus has:
+- 1,708 files
+- 4,213,651 sentences
+- 87,226,030 words.
+
+Time:
+- translation took 2241 minutes (37 hours)
+- tokenization took  minutes
+- alignment took around  minutes
+- creation of final conllus took
+
+sentences were corrected with proper noun correction - % of all sentences.
+
+Most frequent substitutions:
+
+### ParlaMint-AT
+
+Entire corpus has:
+- 1,197 files
+- 3,919,672 sentences
+- 59,959,897 words.
+
+Time:
+- translation took minutes
+- tokenization took  minutes
+- alignment took around  minutes
+- creation of final conllus took
+
+sentences were corrected with proper noun correction - % of all sentences.
+
+Most frequent substitutions:

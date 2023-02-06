@@ -49,3 +49,5 @@ results/HR/ParlaMint-HR-extracted-source-data.csv
 results/HR/ParlaMint-HR-sample-model-comparison-old.csv
 results/HR/ParlaMint-HR-sample-model-comparison.csv
 results/AT/ParlaMint-AT-extracted-source-data.csv
+results/AT/ParlaMint-AT-sample-model-comparison.csv
+results/HR/ParlaMint-HR-translated.csv
