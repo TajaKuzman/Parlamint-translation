@@ -1,5 +1,17 @@
 # Machine translating the ParlaMint output
 
+Table of contents:
+- [summary of the tasks](#tasks)
+- [overview of datasets and their status](#datasets)
+- [pipeline and code](#pipeline)
+- [workflow in details](#workflow)
+- [next steps](#next-steps)
+- [analysis of reasons for errors in proper noun substitutions](#sample-analysis)
+- [information on processing each corpus](#information-on-processing-each-corpus):
+	- [ParlaMint-CZ](#parlamint-cz)
+	- [ParlaMint-HR](#parlamint-hr)
+	- [ParlaMint-AT](#parlamint-at)
+
 ## Tasks:
 - analyse various MT models on a sample data (ParlaMint-sample-sentence-tokenized.txt): see [code in Kaggle](https://www.kaggle.com/code/tajakuz/simple-machine-translation-with-various-mt-systems), results in the spreadsheet *ParlaMint_MT_Comparison-all-models.xlsx*
 - extract data to be translated based on the Parlamint format
@@ -95,28 +107,9 @@ This is now implemented, the sample files are:
 Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
-## Test on 1000 files
-
-I tested the `pipeline.sh` on 1000 files from the Czech corpus. I processed the entire corpus on 1 GPU to see how much time it would take.
-
-The results are in [`logs/test-on-1000-files.md`](https://github.com/TajaKuzman/Parlamint-translation/blob/master/logs/test-on-1000-files.md)
-
-Statistics:
-- 1000 files
-- 3.7M words
-- 251.000 sentences
-- in 11.000 sentences (5%) proper nouns were corrected
-
-Time:
-- translation took 334 minutes --> for 1M words: 90 minutes
-- tokenization took 16 minutes --> for 1M words: 4 minutes
-- alignment took 2 minutes
-- creation of English conllu (linguistic processing of the translation) took
-
 
 ## Next steps
 - metadata translation: **we want to translate all the text contents of non-s elements**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš.
-
 
 
 ## Sample analysis
@@ -214,7 +207,7 @@ Examples of null alignment:
 | 82229 | Na predstavitvi svoje kandidature je   dr. Rok Čeferin sicer povedal , da je posamezne medije , ki niso pod okriljem   Vlade , res označil za tovarne laži , a da je to storil pod vplivom jeze in   uporabil izraz , ki ga morda ne bi smel .                               | In the presentation of his candidacy ,   Dr . Roc Čeferin said that he had indeed designated individual media not   under the auspices of the Government as factory lies , but that he had done   so under the influence of anger and used an expression that he might not have   used . | {0: 0, 1: 2, 2: 4, 3: 5, 4: 6, 5: 7,   7: 10, 9: 11, 11: 12, 12: 13, 13: 17, 14: 18, 17: 19, 18: 20, 19: 22, 20: 25,   22: 15, 23: 16, 24: 26, 25: 27, 26: 28, 27: 29, 28: 30, 29: 31, 30: 32, 32:   34, 33: 36, 34: 38, 35: 40, 36: 41, 37: 42, 38: 44, 40: 45, 41: 46, 42: 47,   43: 48, 44: 49, 45: 50, 46: 51} | Issue: index 6: ['Rok', 'Rok']            |
 
 
-## Information on processing each corpora
+## Information on processing each corpus
 
 ### ParlaMint-CZ
 
