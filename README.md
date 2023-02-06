@@ -27,6 +27,7 @@
 | ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |
 | ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |   "sla"     |
 | ParlaMint-TR 3.0 (Turkish parliament)   | Turkish   | 47.261.604       |              |                  |        |        |
+| ParlaMint-UA 3.0 (Ukrainian parliament)   | Ukrainian   | 22.5M       |              |      1.5M            |        |        |
 
 Corpora with more than one language (marked with * in the table above):
 - Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.  two sets of CoNLL-U files for them.
