@@ -25,10 +25,11 @@ def tokenize_translation(translated_dataframe_path, translated_tokenized_datafra
 	import time
 	import gc
 	import torch
+	from stanza.pipeline.core import DownloadMethod
 	
 	print("Tokenization of the translation started.")
 
-	nlp = stanza.Pipeline(lang='en', processors='tokenize', tokenize_no_ssplit = True)
+	nlp = stanza.Pipeline(lang='en', processors='tokenize', tokenize_no_ssplit = True, download_method=DownloadMethod.REUSE_RESOURCES, use_gpu=True)
 
 	# Apply tokenization to English translation and add the sentences to the df
 	# Open the df

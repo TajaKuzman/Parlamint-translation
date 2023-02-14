@@ -20,22 +20,25 @@ Table of contents:
 
 ## Datasets
 
+Order of corpora to be translated: DK, BG, PT, IS, BA.
+
+
 | Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |OPUS-MT model|
 |-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|
-| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              | df created, ready for translation       |        |
-| ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |        |        |
-| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 25.046.226       |              |                  |        |        |
+| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              |     postponed   |        |
+| ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |   postponed     |        |
+| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 26,662,522       |   921           |   1,626,624               |   converted into df, sent a sample to Petya     |        |
 | ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  done      |  "cs"      |
-| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40.141.993       |              |                  |        |        |
+| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40,953,417       |    947          |    1,960,952              | being translated      |   "da"     |
 | ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |
-| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment      |  "zls"      |
+| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment; might need reprocessing due to changes, postponed      |  "zls"      |
 | ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |
-| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 30.555.328       |              |                  |        |        |
+| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 31,185,435       |     928         |   1,509,357               |   converted into df, sent a sample to Starkadur     |        |
 | ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |
 | ParlaMint-NL 3.0 (Dutch parliament)     | Dutch     | 66.058.225       |              |                  |        |        |
 | ParlaMint-NO 3.0 (Norwegian parliament)* | Norwegian | 86.608.162       |              |                  |        |        |
-| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 16.809.537       |              |                  |        |        |
-| ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |        |        |
+| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 18,336,113        |    704          |    458,643              |  converted into df      |        |
+| ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |   postponed     |        |
 | ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |
 | ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |   "sla"     |
 | ParlaMint-TR 3.0 (Turkish parliament)   | Turkish   | 47.261.604       |              |                  |        |        |
@@ -47,15 +50,12 @@ Corpora with more than one language (marked with * in the table above):
 
 ## Pipeline
 
-The bash script `pipeline.sh` consists of all the python code below (to run everything with one command): `nohup bash pipeline.sh "lang_code" "opus_lang_code" > logs/log.md`. You need to first create the conllu file and then check which opus language is the best to use for translation:
-	- HR: `nohup bash pipeline-hr.sh "hr" > logs/HR/pipeline-log.md`
-
 1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 nohup python 1-conllu-to-df.py "AT" > logs/AT/to_conllu.md`
 	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
 
 2. Choose the model (compare available models on a sample): 2-choose_MT_model.ipynb
 
-3. Translate: `CUDA_VISIBLE_DEVICES=1 python 3-translate.py "CZ" > translate.md`
+3. Translate: `CUDA_VISIBLE_DEVICES=1 nohup python 3-translate.py "DK" "da" > logs/DK/translate.md &` (Provide the lang_code and the lang_code as is used by the OPUS-MT system)
 	- Output: results/{lang_code}/ParlaMint-{lang_code}-translated.csv
 
 4. Align: `CUDA_VISIBLE_DEVICES=1 4-word-alignment.py "CZ" > align.md`:
@@ -269,6 +269,75 @@ Most frequent substitutions:
 | [('Zaoralek', 'Zaorálek')]    |       426           |
 | [('Marks', 'Marksová')]       |       420           |
 
+### ParlaMint-BG
+
+Entire corpus has:
+- 921 files
+- 1,626,624 sentences
+- 26,662,522 words.
+
+Time:
+- translation took  minutes
+- tokenization took  minutes
+- alignment took around  minutes
+- creation of final conllus took
+
+sentences were corrected with proper noun correction - % of all sentences.
+
+Most frequent substitutions:
+
+### ParlaMint-DK
+
+Entire corpus has:
+- 947 files
+- 1,960,952 sentences
+- 40,953,417 words.
+
+Time:
+- translation took  minutes
+- tokenization took  minutes
+- alignment took around  minutes
+- creation of final conllus took
+
+sentences were corrected with proper noun correction - % of all sentences.
+
+Most frequent substitutions:
+
+### ParlaMint-IS
+
+Entire corpus has:
+- 928 files
+- 1,509,357 sentences
+- 31,185,435 words.
+
+Time:
+- translation took  minutes
+- tokenization took  minutes
+- alignment took around  minutes
+- creation of final conllus took
+
+sentences were corrected with proper noun correction - % of all sentences.
+
+Most frequent substitutions:
+
+### ParlaMint-PT
+
+Entire corpus has:
+- 704 files
+- 458,643 sentences
+- 18,336,113 words.
+
+Time:
+- translation took  minutes
+- tokenization took  minutes
+- alignment took around  minutes
+- creation of final conllus took
+
+sentences were corrected with proper noun correction - % of all sentences.
+
+Most frequent substitutions:
+
+
 ### ParlaMint-HR
 
 Entire corpus has:
@@ -286,19 +355,3 @@ sentences were corrected with proper noun correction - % of all sentences.
 
 Most frequent substitutions:
 
-### ParlaMint-AT
-
-Entire corpus has:
-- 1,197 files
-- 3,919,672 sentences
-- 59,959,897 words.
-
-Time:
-- translation took minutes
-- tokenization took  minutes
-- alignment took around  minutes
-- creation of final conllus took
-
-sentences were corrected with proper noun correction - % of all sentences.
-
-Most frequent substitutions:
