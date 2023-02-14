@@ -30,13 +30,13 @@ Order of corpora to be translated: DK, BG, PT, IS, BA.
 |-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|
 | ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              |     postponed   |        |
 | ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |   postponed     |        |
-| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 26,662,522       |   921           |   1,626,624               |   converted into df, sent a sample to Petya     |        |
+| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 26,662,522       |   921           |   1,626,624               |   being translated     |   bg     |
 | ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  done      |  "cs"      |
-| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40,953,417       |    947          |    1,960,952              | being translated      |   "da"     |
+| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40,953,417       |    947          |    1,960,952              | being translated      |   da     |
 | ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |
 | ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment; might need reprocessing due to changes, postponed      |  "zls"      |
 | ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |
-| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 31,185,435       |     928         |   1,509,357               |   converted into df, sent a sample to Starkadur     |        |
+| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 31,185,435       |     928         |   1,509,357               |   being translated     |    is    |
 | ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |
 | ParlaMint-NL 3.0 (Dutch parliament)     | Dutch     | 66.058.225       |              |                  |        |        |
 | ParlaMint-NO 3.0 (Norwegian parliament)* | Norwegian | 86.608.162       |              |                  |        |        |

@@ -46,7 +46,7 @@ def translate(lang_code, opus_lang_code, extracted_dataframe_path, translated_da
 	# Create a list of sentences from the df
 	sentence_list = df.text.to_list()
 
-	lang_models_dict = {"BG": ["bg", "sla", "zls"], "HR": ["zls", "sla"], "CZ": ["cs", "sla", "zlw" ], "DK": ["da"], "NL": ["nl", "gem", "gmw"], "FR": ["fr", "itc","roa"], "HU": ["hu", "fiu", "urj"], "IS": ["is","gmq", "gem"], "IT": ["it", "roa", "itc"], "LV": ["lv","bat"], "LT": ["bat"], "PL": ["pl", "sla", "zlw"], "SI": ["sla"], "ES": ["es", "roa", "itc"], "TR": ["tr", "trk" ], "AT": ["de", "gem", "gmw"], "ES-PV": ["eu", "mul"], "BA": ["sla", "zls"], "ES-CT": ["ca", "roa", "itc"], "EE": ["et", "urj", "fiu"], "FI": ["fi", "urj", "fiu"], "ES-GA": ["gl", "roa", "itc"], "GR": ["el","grk"], "NO": ["gem", "gmq"], "PT": ["pt", "roa", "itc"], "RO":["roa", "itc"], "RS": ["zls", "sla"], "SE": ["sv", "gmq", "gem"], "UA":["uk", "sla", "zle"]}
+	lang_models_dict = {"BG": ["bg"], "HR": ["zls", "sla"], "CZ": ["cs", "sla", "zlw" ], "DK": ["da"], "NL": ["nl", "gem", "gmw"], "FR": ["fr", "itc","roa"], "HU": ["hu", "fiu", "urj"], "IS": ["is","gmq", "gem"], "IT": ["it", "roa", "itc"], "LV": ["lv","bat"], "LT": ["bat"], "PL": ["pl", "sla", "zlw"], "SI": ["sla"], "ES": ["es", "roa", "itc"], "TR": ["tr", "trk" ], "AT": ["de", "gem", "gmw"], "ES-PV": ["eu", "mul"], "BA": ["sla", "zls"], "ES-CT": ["ca", "roa", "itc"], "EE": ["et", "urj", "fiu"], "FI": ["fi", "urj", "fiu"], "ES-GA": ["gl", "roa", "itc"], "GR": ["el","grk"], "NO": ["gem", "gmq"], "PT": ["pt", "roa", "itc"], "RO":["roa", "itc"], "RS": ["zls", "sla"], "SE": ["sv", "gmq", "gem"], "UA":["uk", "sla", "zle"]}
 
 	print("Translation started.")
 
