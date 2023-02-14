@@ -10,7 +10,10 @@ Table of contents:
 - [information on processing each corpus](#information-on-processing-each-corpus):
 	- [ParlaMint-CZ](#parlamint-cz)
 	- [ParlaMint-HR](#parlamint-hr)
-	- [ParlaMint-AT](#parlamint-at)
+	- [ParlaMint-BG](#parlamint-bg)
+	- [ParlaMint-DK](#parlamint-dk)
+	- [ParlaMint-IS](#parlamint-is)
+	- [ParlaMint-PT](#parlamint-pt)
 
 ## Tasks:
 - analyse various MT models on a sample data (ParlaMint-sample-sentence-tokenized.txt): see [code in Kaggle](https://www.kaggle.com/code/tajakuz/simple-machine-translation-with-various-mt-systems), results in the spreadsheet *ParlaMint_MT_Comparison-all-models.xlsx*
@@ -37,7 +40,7 @@ Order of corpora to be translated: DK, BG, PT, IS, BA.
 | ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |
 | ParlaMint-NL 3.0 (Dutch parliament)     | Dutch     | 66.058.225       |              |                  |        |        |
 | ParlaMint-NO 3.0 (Norwegian parliament)* | Norwegian | 86.608.162       |              |                  |        |        |
-| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 18,336,113        |    704          |    458,643              |  converted into df      |        |
+| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 18,336,113        |    704          |    458,643              |  converted into df, sent a sample      |        |
 | ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |   postponed     |        |
 | ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |
 | ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |   "sla"     |
@@ -111,6 +114,8 @@ Some remarks:
 ## Next steps
 - metadata translation: **we want to translate all the text contents of non-s elements**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš.
 
+- other possible corrections as part of post-processing:
+	- Danish: "All the models have problems with numbering e.g. § 19, stk. 4 and with punctuation in abbreviations. Could that be corrected in a post process?"
 
 ## Sample analysis
 
