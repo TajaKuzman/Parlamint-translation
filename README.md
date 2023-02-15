@@ -229,13 +229,34 @@ Most frequent substitutions:
 
 Most frequent substitutions:
 
+|                                                          |   substituted_pairs |
+|:---------------------------------------------------------|--------------------:|
+| [('Messerschmidt', 'Messerschmide')]                     |       963           |
+| [('Hylllested', 'Hyllested')]                            |       943           |
+| [('Løjberg', 'Støjberg')]                                |       926           |
+| [('Ellemann', 'Ellemann-Jensen')]                        |       803           |
+| [('Rohde', 'Roh')]                                       |       798           |
+| [('Mathisen', 'Mathiesen')]                              |       797           |
+| [('Naser', 'Nase')]                                      |       759           |
+| [('Jeppe', 'Jep')]                                       |       579           |
+| [('Blixt', 'Blix')]                                      |       404           |
+| [('Nielsen', 'Schmidt-Nielsen')]                         |       400           |
+| [('Krarup', 'Marie'), ('Marie', 'Krarup')]               |       398           |
+| [('Britt', 'May-Britt')]                                 |       381           |
+| [('Baker', 'Bager')]                                     |       378           |
+| [('Silverhøj', 'Sølvhøj')]                               |       332           |
+| [('Schmidt', 'Johanne'), ('Nielsen', 'Schmidt-Nielsen')] |       290           |
+| [('Bille', 'Ammitzbøll-Bille')]                          |       288           |
+| [('Rosenkrantz', 'Rosenkrantz-Theil')]                   |       286           |
+| [('Sea', 'Hav')]                                         |       285           |
+| [('Engel', 'Engel-Schmidt')]                             |       285           |
+
 ### ParlaMint-IS
 
 Most frequent substitutions:
 
 |                                                                            |   substituted_pairs |
 |:---------------------------------------------------------------------------|--------------------:|
-| 0                                                                          |         1.46541e+06 |
 | [('Catherine', 'Katrín'), ('Jacob', 'Jakobsdóttir')]                       |       561           |
 | [('Levi', 'Björn'), ('son', 'Leví'), ('Gunnar', 'Gunnarsson')]             |       493           |
 | [('John', 'Jón')]                                                          |       389           |
