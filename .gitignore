@@ -59,3 +59,14 @@ results/PT/ParlaMint-PT-extracted-source-data.csv
 results/DK/ParlaMint-DK-translated.csv
 .gitignore
 results/IS/ParlaMint-IS-translated.csv
+Final-data
+results/DK/ParlaMint-DK-final-dataframe.csv
+results/DK/ParlaMint-DK-translated-tokenized.csv
+results/IS/ParlaMint-IS-final-dataframe.csv
+results/IS/temp
+results/IT/ParlaMint-IT-extracted-sample.csv
+results/TR/ParlaMint-TR-extracted-sample.csv
+.gitignore
+results/IS/ParlaMint-IS-translated-tokenized.csv
+.gitignore
+results/

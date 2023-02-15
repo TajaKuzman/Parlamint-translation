@@ -25,27 +25,8 @@ Table of contents:
 
 Order of corpora to be translated: DK, BG, PT, IS, BA.
 
-
-| Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |OPUS-MT model|Time|% of corrected sentences with proper nouns|
-|-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|--------|--------|
-| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              |     postponed   |        |        |        |
-| ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |   postponed     |        |        |        |
-| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 26,662,522       |   921           |   1,626,624               |   being translated     |   bg     |        |        |
-| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  done      |  "cs"      |        |        |
-| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40,953,417       |    947          |    1,960,952              | being aligned      |   da     |  tr: 990 min      |        |
-| ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |        |        |
-| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment; might need reprocessing due to changes, postponed      |  "zls"      |        |        |
-| ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |        |        |
-| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 31,185,435       |     928         |   1,509,357               |   being aligned     |    is    | tr: 721 min       |        |
-| ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |        |        |
-| ParlaMint-NL 3.0 (Dutch parliament)     | Dutch     | 66.058.225       |              |                  |        |        |        |        |
-| ParlaMint-NO 3.0 (Norwegian parliament)* | Norwegian | 86.608.162       |              |                  |        |        |        |        |
-| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 18,336,113        |    704          |    458,643              |  converted into df, sent a sample      |        |        |        |
-| ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |   postponed     |        |        |        |
-| ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |        |        |
-| ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |   "sla"     |        |        |
-| ParlaMint-TR 3.0 (Turkish parliament)   | Turkish   | 47.261.604       |              |                  |        |        |        |        |
-| ParlaMint-UA 3.0 (Ukrainian parliament)   | Ukrainian   | 22.5M       |              |      1.5M            |        |        |        |        |
+Status of the corpora and sizes are [available here](
+https://docs.google.com/spreadsheets/d/1pfkaBgdacHdaC8-CMVYKze6MLe8EoSZVKs2viP_78fE/edit?usp=sharing).
 
 Corpora with more than one language (marked with * in the table above):
 - Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.  two sets of CoNLL-U files for them.
@@ -65,7 +46,7 @@ Corpora with more than one language (marked with * in the table above):
 	- Output:
 		1. tokenized text is saved as: results/{lang_code}/ParlaMint-{lang_code}-translated-tokenized.csv
 		2. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
-5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu.py "CZ" > create_conllu.md`
+5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu.py "IS" > logs/IS/create_conllu.md &`
 
 ## Workflow
 
@@ -216,40 +197,6 @@ Examples of null alignment:
 
 ### ParlaMint-CZ
 
-Entire corpus has:
-- 6,327 files
-- 1,804,657 sentences
-- 27,952,326 words.
-
-There are 6328 files in the source conll-u folder, but we processed 6327 (one less), because the file "ParlaMint-CZ_2016-10-26-ps2013-050-06-005-217.conllu" is empty.
-
-Time:
-- translation took 1011 minutes (around 17 hours)
-- tokenization took 89 minutes
-- alignment took around 12 minutes
-- linguistic processing of translation and creation of conllu files took 4247 minutes (71 hours)
-
-Total time (for main processes): 5359 minutes - 89 hours (3.7 days).
-
-Unusual things the code reveal: two sentences that have only one word:
-- ParlaMint-CZ_2021-07-08-ps2017-111-02-007-395.u16.p24.s5:
-
-```
-# sent_id = ParlaMint-CZ_2021-07-08-ps2017-111-02-007-395.u16.p24.s5
-# text = s
-1	s	s	ADP	_	AdpType=Prep|Case=Ins	0	root	_	NER=O
-```
-- ParlaMint-CZ_2015-01-23-ps2013-025-04-004-088.u8.p1.s5:
-
-```
-# sent_id = ParlaMint-CZ_2015-01-23-ps2013-025-04-004-088.u8.p1.s5
-# text = To -
-1	To	ten	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	NER=O
-2	-	-	PUNCT	_	_	1	punct	_	NER=O
-```
-
-83,698 sentences were corrected with proper noun correction - 4.6% of all sentences.
-
 Most frequent substitutions:
 
 |                               |   substituted_pairs |
@@ -276,67 +223,40 @@ Most frequent substitutions:
 
 ### ParlaMint-BG
 
-Entire corpus has:
-- 921 files
-- 1,626,624 sentences
-- 26,662,522 words.
-
-Time:
-- translation took  minutes
-- tokenization took  minutes
-- alignment took around  minutes
-- creation of final conllus took
-
-sentences were corrected with proper noun correction - % of all sentences.
-
 Most frequent substitutions:
 
 ### ParlaMint-DK
-
-Entire corpus has:
-- 947 files
-- 1,960,952 sentences
-- 40,953,417 words.
-
-Time:
-- translation took  minutes
-- tokenization took  minutes
-- alignment took around  minutes
-- creation of final conllus took
-
-sentences were corrected with proper noun correction - % of all sentences.
 
 Most frequent substitutions:
 
 ### ParlaMint-IS
 
-Entire corpus has:
-- 928 files
-- 1,509,357 sentences
-- 31,185,435 words.
-
-Time:
-- translation took  minutes
-- tokenization took  minutes
-- alignment took around  minutes
-- creation of final conllus took
-
-sentences were corrected with proper noun correction - % of all sentences.
-
 Most frequent substitutions:
 
+|                                                                            |   substituted_pairs |
+|:---------------------------------------------------------------------------|--------------------:|
+| 0                                                                          |         1.46541e+06 |
+| [('Catherine', 'Katrín'), ('Jacob', 'Jakobsdóttir')]                       |       561           |
+| [('Levi', 'Björn'), ('son', 'Leví'), ('Gunnar', 'Gunnarsson')]             |       493           |
+| [('John', 'Jón')]                                                          |       389           |
+| [('Steingrimur', 'Steingrímur'), ('Sigfusson', 'Sigfússon')]               |       354           |
+| [('Thor', 'Þór'), ('Thorsson', 'Þórsson')]                                 |       334           |
+| [('Katrin', 'Katrín'), ('Jacob', 'Jakobsdóttir')]                          |       207           |
+| [('Harald', 'Haraldur'), ('Benedict', 'Benediktsson')]                     |       207           |
+| [('Skarphéðinn', 'Össur'), ('Össur', 'Skarphéðinsson')]                    |       172           |
+| [('weekend', 'Helgi')]                                                     |       165           |
+| [('J.', 'Steingrímur'), ('Steingrímur', 'J.'), ('Sigfusson', 'Sigfússon')] |       156           |
+| [('Niel', 'Brynjar'), ('Brynjar', 'Níelsson')]                             |       154           |
+| [('Benedictsson', 'Benediktsson')]                                         |       143           |
+| [('Thor', 'Þór')]                                                          |       134           |
+| [('Harald', 'Bryndís'), ('daughter', 'Haraldsdóttir')]                     |       131           |
+| [('Kristoff', 'Kristján')]                                                 |       127           |
+| [('Ola', 'Óli'), ('Birni', 'Björn'), ('Kálsson', 'Kárason')]               |       125           |
+| [('Robert', 'Róbert')]                                                     |       124           |
+| [('William', 'Vilhjálmur'), ('Arnason', 'Árnason')]                        |       121           |
+| [('Skarphéðinn', 'Össur'), ('ossuary', 'Skarphéðinsson')]                  |       120           |
+
 ### ParlaMint-PT
-
-Entire corpus has:
-- 704 files
-- 458,643 sentences
-- 18,336,113 words.
-
-Time:
-- translation took  minutes
-- tokenization took  minutes
-- alignment took around  minutes
-- creation of final conllus took
 
 sentences were corrected with proper noun correction - % of all sentences.
 
@@ -344,19 +264,6 @@ Most frequent substitutions:
 
 
 ### ParlaMint-HR
-
-Entire corpus has:
-- 1,708 files
-- 4,213,651 sentences
-- 87,226,030 words.
-
-Time:
-- translation took 2241 minutes (37 hours)
-- tokenization took  minutes
-- alignment took around  minutes
-- creation of final conllus took
-
-sentences were corrected with proper noun correction - % of all sentences.
 
 Most frequent substitutions:
 
