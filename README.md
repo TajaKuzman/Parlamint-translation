@@ -26,26 +26,26 @@ Table of contents:
 Order of corpora to be translated: DK, BG, PT, IS, BA.
 
 
-| Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |OPUS-MT model|
-|-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|
-| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              |     postponed   |        |
-| ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |   postponed     |        |
-| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 26,662,522       |   921           |   1,626,624               |   being translated     |   bg     |
-| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  done      |  "cs"      |
-| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40,953,417       |    947          |    1,960,952              | being translated      |   da     |
-| ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |
-| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment; might need reprocessing due to changes, postponed      |  "zls"      |
-| ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |
-| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 31,185,435       |     928         |   1,509,357               |   being translated     |    is    |
-| ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |
-| ParlaMint-NL 3.0 (Dutch parliament)     | Dutch     | 66.058.225       |              |                  |        |        |
-| ParlaMint-NO 3.0 (Norwegian parliament)* | Norwegian | 86.608.162       |              |                  |        |        |
-| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 18,336,113        |    704          |    458,643              |  converted into df, sent a sample      |        |
-| ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |   postponed     |        |
-| ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |
-| ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |   "sla"     |
-| ParlaMint-TR 3.0 (Turkish parliament)   | Turkish   | 47.261.604       |              |                  |        |        |
-| ParlaMint-UA 3.0 (Ukrainian parliament)   | Ukrainian   | 22.5M       |              |      1.5M            |        |        |
+| Corpus                                  | Language  | App. word number | No. of files | No. of sentences | Status |OPUS-MT model|Time|% of corrected sentences with proper nouns|
+|-----------------------------------------|-----------|------------------|--------------|------------------|--------|--------|--------|--------|
+| ParlaMint-AT 3.0 (Austrian parliament)  | German    | 59,959,897       |   1,197           |    3,919,672              |     postponed   |        |        |        |
+| ParlaMint-BA 3.0 (Bosnian parliament)   | Bosnian   | 17.896.591       |              |                  |   postponed     |        |        |        |
+| ParlaMint-BG 3.0 (Bulgarian parliament) | Bulgarian | 26,662,522       |   921           |   1,626,624               |   being translated     |   bg     |        |        |
+| ParlaMint-CZ 3.0 (Czech parliament)     | Czech     | 27,952,326       |   6,327           |   1,804,657               |  done      |  "cs"      |        |        |
+| ParlaMint-DK 3.0 (Danish parliament)    | Danish    | 40,953,417       |    947          |    1,960,952              | being aligned      |   da     |  tr: 990 min      |        |
+| ParlaMint-GR 3.0 (Greek parliament)     | Greek     | 48.764.899       |              |                  |        |        |        |        |
+| ParlaMint-HR 3.0 (Croatian parliament)  | Croatian  | 87,226,030       |   1,708           |     4,213,651             |  translated, ready for alignment; might need reprocessing due to changes, postponed      |  "zls"      |        |        |
+| ParlaMint-HU 3.0 (Hungarian parliament) | Hungarian | 26.806.900       |              |                  |        |        |        |        |
+| ParlaMint-IS 3.0 (Icelandic parliament) | Icelandic | 31,185,435       |     928         |   1,509,357               |   being aligned     |    is    | tr: 721 min       |        |
+| ParlaMint-IT 3.0 (Italian parliament)   | Italian   | 30.587.403       |              |                  |        |        |        |        |
+| ParlaMint-NL 3.0 (Dutch parliament)     | Dutch     | 66.058.225       |              |                  |        |        |        |        |
+| ParlaMint-NO 3.0 (Norwegian parliament)* | Norwegian | 86.608.162       |              |                  |        |        |        |        |
+| ParlaMint-PT 3.0 (Portugese parliament) | Portugese | 18,336,113        |    704          |    458,643              |  converted into df, sent a sample      |        |        |        |
+| ParlaMint-RS 3.0 (Serbian parliament)   | Serbian   | 83.065.014       |              |                  |   postponed     |        |        |        |
+| ParlaMint-SE 3.0 (Swedish parliament)   | Swedish   | 28.633.604       |              |                  |        |        |        |        |
+| ParlaMint-SI 3.0 (Slovenian parliament) | Slovenian | 68.938.697       |              |                  |        |   "sla"     |        |        |
+| ParlaMint-TR 3.0 (Turkish parliament)   | Turkish   | 47.261.604       |              |                  |        |        |        |        |
+| ParlaMint-UA 3.0 (Ukrainian parliament)   | Ukrainian   | 22.5M       |              |      1.5M            |        |        |        |        |
 
 Corpora with more than one language (marked with * in the table above):
 - Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.  two sets of CoNLL-U files for them.
@@ -61,7 +61,7 @@ Corpora with more than one language (marked with * in the table above):
 3. Translate: `CUDA_VISIBLE_DEVICES=1 nohup python 3-translate.py "DK" "da" > logs/DK/translate.md &` (Provide the lang_code and the lang_code as is used by the OPUS-MT system)
 	- Output: results/{lang_code}/ParlaMint-{lang_code}-translated.csv
 
-4. Align: `CUDA_VISIBLE_DEVICES=1 4-word-alignment.py "CZ" > align.md`:
+4. Align: `CUDA_VISIBLE_DEVICES=2 nohup python 4-word-alignment.py "IS" > logs/IS/align.md &`:
 	- Output:
 		1. tokenized text is saved as: results/{lang_code}/ParlaMint-{lang_code}-translated-tokenized.csv
 		2. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv

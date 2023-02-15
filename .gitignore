@@ -56,3 +56,6 @@ results/BG/ParlaMint-BG-extracted-source-data.csv
 results/DK/ParlaMint-DK-extracted-source-data.csv
 results/IS/ParlaMint-IS-extracted-source-data.csv
 results/PT/ParlaMint-PT-extracted-source-data.csv
+results/DK/ParlaMint-DK-translated.csv
+.gitignore
+results/IS/ParlaMint-IS-translated.csv
