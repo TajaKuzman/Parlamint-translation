@@ -70,3 +70,6 @@ results/TR/ParlaMint-TR-extracted-sample.csv
 results/IS/ParlaMint-IS-translated-tokenized.csv
 .gitignore
 results/
+slobench_slen.en.txt
+slobench_slen.sl/slobench_slen.sl.txt
+Testing-MT-models/SloBENCH

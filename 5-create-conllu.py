@@ -103,9 +103,10 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 			word_conllu_index = word["id"]
 
 			# Check whether the word conllu index (word id) is in the substituted_words_list (it is if it was substituted)
-			# If it is, add information on the original translated word
-			if substituted_words_list[sentence_index].get(word_conllu_index, None) != None:
-				word["misc"]["Translated"] = substituted_words_list[sentence_index][word_conllu_index]
+			# If it is, add information on the original translated word - do not do this for Bulgarian and Portuguese
+			if lang_code not in ["BG", "PT", "IT", "AT"]:
+				if substituted_words_list[sentence_index].get(word_conllu_index, None) != None:
+					word["misc"]["Translated"] = substituted_words_list[sentence_index][word_conllu_index]
 			
 			# Do the same for the forward and backward alignment
 			if fwd_align_list[sentence_index].get(word_conllu_index, None) != None:
