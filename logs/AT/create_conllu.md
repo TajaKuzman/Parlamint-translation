@@ -2782,3 +2782,93 @@ ParlaMint-AT_2021-04-22-027-XXVII-NRSITZ-00099.conllu processed and saved.
 Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-04-22-027-XXVII-NRSITZ-00099.conllu is saved.
 Current running time: 1482.75
 ParlaMint-AT_2021-03-24-027-XXVII-NRSITZ-00089.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-03-24-027-XXVII-NRSITZ-00089.conllu is saved.
+Current running time: 1484.84
+ParlaMint-AT_2021-11-19-027-XXVII-NRSITZ-00131.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-11-19-027-XXVII-NRSITZ-00131.conllu is saved.
+Current running time: 1486.7
+ParlaMint-AT_2021-10-14-027-XXVII-NRSITZ-00127.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-10-14-027-XXVII-NRSITZ-00127.conllu is saved.
+Current running time: 1488.62
+ParlaMint-AT_2021-05-20-027-XXVII-NRSITZ-00107.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-05-20-027-XXVII-NRSITZ-00107.conllu is saved.
+Current running time: 1490.43
+ParlaMint-AT_2021-03-24-027-XXVII-NRSITZ-00090.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-03-24-027-XXVII-NRSITZ-00090.conllu is saved.
+Current running time: 1491.67
+ParlaMint-AT_2021-12-09-027-XXVII-NRSITZ-00133.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-12-09-027-XXVII-NRSITZ-00133.conllu is saved.
+Current running time: 1493.2
+ParlaMint-AT_2021-01-13-027-XXVII-NRSITZ-00076.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-01-13-027-XXVII-NRSITZ-00076.conllu is saved.
+Current running time: 1494.64
+ParlaMint-AT_2021-02-04-027-XXVII-NRSITZ-00081.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-02-04-027-XXVII-NRSITZ-00081.conllu is saved.
+Current running time: 1496.12
+ParlaMint-AT_2021-06-17-027-XXVII-NRSITZ-00113.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-06-17-027-XXVII-NRSITZ-00113.conllu is saved.
+Current running time: 1498.14
+ParlaMint-AT_2021-10-13-027-XXVII-NRSITZ-00126.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-10-13-027-XXVII-NRSITZ-00126.conllu is saved.
+Current running time: 1499.44
+ParlaMint-AT_2021-10-14-027-XXVII-NRSITZ-00128.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-10-14-027-XXVII-NRSITZ-00128.conllu is saved.
+Current running time: 1500.7
+ParlaMint-AT_2021-12-16-027-XXVII-NRSITZ-00138.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-12-16-027-XXVII-NRSITZ-00138.conllu is saved.
+Current running time: 1501.96
+ParlaMint-AT_2021-06-16-027-XXVII-NRSITZ-00111.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-06-16-027-XXVII-NRSITZ-00111.conllu is saved.
+Current running time: 1504.07
+ParlaMint-AT_2021-12-15-027-XXVII-NRSITZ-00136.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-12-15-027-XXVII-NRSITZ-00136.conllu is saved.
+Current running time: 1505.35
+ParlaMint-AT_2021-05-17-027-XXVII-NRSITZ-00103.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-05-17-027-XXVII-NRSITZ-00103.conllu is saved.
+Current running time: 1506.79
+ParlaMint-AT_2021-03-08-027-XXVII-NRSITZ-00088.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-03-08-027-XXVII-NRSITZ-00088.conllu is saved.
+Current running time: 1508.07
+ParlaMint-AT_2021-11-19-027-XXVII-NRSITZ-00132.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-11-19-027-XXVII-NRSITZ-00132.conllu is saved.
+Current running time: 1509.32
+ParlaMint-AT_2021-04-22-027-XXVII-NRSITZ-00100.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-04-22-027-XXVII-NRSITZ-00100.conllu is saved.
+Current running time: 1510.57
+ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-11-18-027-XXVII-NRSITZ-00130.conllu is saved.
+Current running time: 1511.86
+ParlaMint-AT_2021-05-19-027-XXVII-NRSITZ-00105.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-05-19-027-XXVII-NRSITZ-00105.conllu is saved.
+Current running time: 1513.66
+ParlaMint-AT_2021-03-26-027-XXVII-NRSITZ-00094.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-03-26-027-XXVII-NRSITZ-00094.conllu is saved.
+Current running time: 1514.92
+ParlaMint-AT_2021-05-17-027-XXVII-NRSITZ-00104.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-05-17-027-XXVII-NRSITZ-00104.conllu is saved.
+Current running time: 1516.17
+ParlaMint-AT_2021-05-26-027-XXVII-NRSITZ-00110.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-05-26-027-XXVII-NRSITZ-00110.conllu is saved.
+Current running time: 1517.4
+ParlaMint-AT_2021-12-09-027-XXVII-NRSITZ-00134.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-12-09-027-XXVII-NRSITZ-00134.conllu is saved.
+Current running time: 1518.64
+ParlaMint-AT_2021-02-16-027-XXVII-NRSITZ-00084.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-02-16-027-XXVII-NRSITZ-00084.conllu is saved.
+Current running time: 1519.88
+ParlaMint-AT_2021-07-19-027-XXVII-NRSITZ-00120.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-07-19-027-XXVII-NRSITZ-00120.conllu is saved.
+Current running time: 1521.14
+ParlaMint-AT_2021-11-16-027-XXVII-NRSITZ-00129.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-11-16-027-XXVII-NRSITZ-00129.conllu is saved.
+Current running time: 1524.37
+ParlaMint-AT_2021-02-24-027-XXVII-NRSITZ-00085.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-02-24-027-XXVII-NRSITZ-00085.conllu is saved.
+Current running time: 1526.47
+ParlaMint-AT_2021-04-09-027-XXVII-NRSITZ-00095.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-04-09-027-XXVII-NRSITZ-00095.conllu is saved.
+Current running time: 1527.88
+ParlaMint-AT_2021-02-16-027-XXVII-NRSITZ-00083.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2021/ParlaMint-AT_2021-02-16-027-XXVII-NRSITZ-00083.conllu is saved.
+Current running time: 1529.26
+ParlaMint-AT_2021-05-03-027-XXVII-NRSITZ-00101.conllu processed and saved.

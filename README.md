@@ -675,4 +675,112 @@ ParlaMint-NL_2019-06-11-eerstekamer-6.conllu
 
 ParlaMint-NL_2019-05-29-tweedekamer-6.conllu
 
+### ParlaMint-NO
 
+The following 38 files were revealed to be empty:
+
+ParlaMint-NO_1998-12-07-lower.conllu
+
+ParlaMint-NO_1998-10-13-lower.conllu
+
+ParlaMint-NO_1999-10-06-lower.conllu
+
+ParlaMint-NO_1999-05-11-lower.conllu
+
+ParlaMint-NO_2003-11-06-lower.conllu
+
+ParlaMint-NO_2003-10-23-lower.conllu
+
+ParlaMint-NO_2004-05-18-lower.conllu
+
+ParlaMint-NO_2004-10-13-lower.conllu
+
+ParlaMint-NO_2005-11-22-lower.conllu
+
+ParlaMint-NO_2005-11-15-lower.conllu
+
+ParlaMint-NO_2005-06-17-lower.conllu
+
+ParlaMint-NO_2005-10-20-lower.conllu
+
+ParlaMint-NO_2005-04-04-lower.conllu
+
+ParlaMint-NO_2005-01-11-lower.conllu
+
+ParlaMint-NO_2008-01-10-lower.conllu
+
+ParlaMint-NO_2008-11-03-lower.conllu
+
+ParlaMint-NO_2009-01-26-lower.conllu
+
+ParlaMint-NO_2000-11-03-lower.conllu
+
+ParlaMint-NO_2000-06-16-lower.conllu
+
+ParlaMint-NO_2000-05-02-lower-2.conllu
+
+ParlaMint-NO_2000-09-28-upper.conllu
+
+ParlaMint-NO_2000-05-30-lower.conllu
+
+ParlaMint-NO_2000-06-09-lower.conllu
+
+ParlaMint-NO_2000-01-20-lower.conllu
+
+ParlaMint-NO_2000-09-28-lower.conllu
+
+ParlaMint-NO_2002-05-30-lower.conllu
+
+ParlaMint-NO_2002-11-19-lower.conllu
+
+ParlaMint-NO_2002-09-30-lower.conllu
+
+ParlaMint-NO_2002-12-13-lower.conllu
+
+ParlaMint-NO_2007-09-28-lower.conllu
+
+ParlaMint-NO_2007-10-09-lower.conllu
+
+ParlaMint-NO_2007-10-23-lower.conllu
+
+ParlaMint-NO_2007-02-13-lower.conllu
+
+ParlaMint-NO_2007-11-20-lower.conllu
+
+ParlaMint-NO_2006-02-09-lower.conllu
+
+ParlaMint-NO_2006-09-29-lower.conllu
+
+ParlaMint-NO_2006-04-04-lower.conllu
+
+ParlaMint-NO_2006-01-10-lower.conllu
+
+
+
+### ParlaMint-GR
+
+Most frequent substitutions:
+
+|                                                          |   substituted_pairs |
+|:---------------------------------------------------------|--------------------:|
+| [('Tsipras', 'Τσίπρας')]                                 |      8875           |
+| [('Mitsotakis', 'Μητσοτάκης')]                           |      7936           |
+| [('Kegeroglu', 'Κεγκέρογλου')]                           |      3253           |
+| [('Georgiadis', 'Γεωργιάδης')]                           |      2703           |
+| [('Kyriakos', 'Κυριάκος'), ('Mitsotakis', 'Μητσοτάκης')] |      2188           |
+| [('Hatzidakis', 'Χατζηδάκης')]                           |      2091           |
+| [('Loverdo', 'Λοβέρδος')]                                |      1803           |
+| [('Loverdos', 'Λοβέρδος')]                               |      1791           |
+| [('Kammenos', 'Καμμένος')]                               |      1663           |
+| [('Voridis', 'Βορίδης')]                                 |      1467           |
+| [('Brutsi', 'Βρούτσης')]                                 |      1349           |
+| [('Polakis', 'Πολάκης')]                                 |      1337           |
+| [('Varoufakis', 'Βαρουφάκης')]                           |      1307           |
+| [('Alexis', 'Αλέξης'), ('Tsipras', 'Τσίπρας')]           |      1092           |
+| [('Samaras', 'Σαμαράς')]                                 |      1048           |
+| [('Erdogan', 'Ερντογάν')]                                |      1048           |
+| [('Amyras', 'Αμυράς')]                                   |      1023           |
+| [('Stathakis', 'Σταθάκης')]                              |       975           |
+| [('Venizelos', 'Βενιζέλος')]                             |       964           |
+
+Like with Bulgarian, we will disable substitution, because otherwise there would be names in Greek script in the English translation.
