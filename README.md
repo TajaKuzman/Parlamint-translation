@@ -468,6 +468,12 @@ The creation of CONLL-u files revealed errors in 11 sentences (due to repetition
 
 As in Portuguese and Italian, alignment would introduce more errors than corrections due to bad Austrian NER, so we will disable it.
 
+There were 19 errors in sentences:
+- ParlaMint-AT_2013-01-30-024-XXIV-NRSITZ-00187_d2e2125.s3: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2013/ParlaMint-AT_2013-01-30-024-XXIV-NRSITZ-00187.conllu
+- ParlaMint-AT_2003-06-10-022-XXII-NRSITZ-00020_d2e252.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2003/ParlaMint-AT_2003-06-10-022-XXII-NRSITZ-00020.conllu
+- ParlaMint-AT_2003-12-04-022-XXII-NRSITZ-00041_d2e9147.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2003/ParlaMint-AT_2003-12-04-022-XXII-NRSITZ-00041.conllu
+- ... (see logs/AT/create_conllu.md for all errors)
+
 ### ParlaMint-SE
 
 The following 9 files were revealed to be empty and are not included in the df:
@@ -560,6 +566,31 @@ ParlaMint-SE_2019-01-17-prot-201819--38.conllu
 
 ParlaMint-SE_2019-01-22-prot-201819--41.conllu
 
+Most frequent substitutions:
+
+|                                                    |   substituted_pairs |
+|:---------------------------------------------------|--------------------:|
+| [('Mrs', 'Maria')]                                 |        587          |
+| [('OSCE', 'OSSE')]                                 |        580          |
+| [('Mr', 'Thomas')]                                 |        440          |
+| [('Mr', 'Johan')]                                  |        433          |
+| [('Mr', 'Lars')]                                   |        353          |
+| [('Mr', 'Jonas')]                                  |        297          |
+| [('Sven', 'Sven-Erik')]                            |        293          |
+| [('Wallström', 'Margot'), ('Margot', 'Wallström')] |        272          |
+| [('Mr', 'Roger')]                                  |        268          |
+| [('Löfven', 'Lövven')]                             |        262          |
+| [('Mr', 'Jens')]                                   |        254          |
+| [('ERTMS', 'Ertms')]                               |        247          |
+| [('Mr', 'Mikael')]                                 |        246          |
+| [('Mr', 'Daniel')]                                 |        221          |
+| [('Oskar', 'Carl-Oskar')]                          |        209          |
+| [('Mr', 'Edward')]                                 |        205          |
+| [('Mr', 'Fredrik')]                                |        194          |
+| [('Arne', 'Kjell-Arne')]                           |        189          |
+| [('Mr', 'Joar')]                                   |        182          |
+
+Interestingly, the Swedish MT model seems to be very prone to changing people's first name into Mr or Mrs. Based on an analysis of some instances of substitution, the changes are correct, so we will use the substitution.
 
 ### ParlaMint-NL
 
@@ -755,7 +786,31 @@ ParlaMint-NO_2006-04-04-lower.conllu
 
 ParlaMint-NO_2006-01-10-lower.conllu
 
+Most frequent substitutions:
 
+|                                   |   substituted_pairs |
+|:----------------------------------|--------------------:|
+| [('King', 'Kongen')]              |      2564           |
+| [('Höie', 'Høie')]                |      2059           |
+| [('Lundtigen', 'Lundteigen')]     |      2021           |
+| [('Solvik', 'Solvik-Olsen')]      |      1557           |
+| [('.', 'I.')]                     |      1516           |
+| [('Greece', 'Helleland')]         |       815           |
+| [('Tybring', 'Tybring-Gjedde')]   |       795           |
+| [('Schjøtt', 'Schjøtt-Pedersen')] |       710           |
+| [('Haltbrecken', 'Haltbrekken')]  |       665           |
+| [('Hemdal', 'Hjemdal')]           |       663           |
+| [('Nävra', 'Nævra')]              |       610           |
+| [('Soreide', 'Søreide')]          |       592           |
+| [('Davøy', 'Dåvøy')]              |       578           |
+| [('Elvesuen', 'Elvestuen')]       |       574           |
+| [('Rikvam', 'Reikvam')]           |       559           |
+| [('Fleet', 'Flåtten')]            |       528           |
+| [('Schlagsvold', 'Slagsvold')]    |       510           |
+| [('Bears', 'Bjørnar')]            |       498           |
+| [('Battle', 'Slagsvold')]         |       481           |
+
+Since the most frequent substitution (King) is wrong, we won't use the substitutions.
 
 ### ParlaMint-GR
 
@@ -784,3 +839,104 @@ Most frequent substitutions:
 | [('Venizelos', 'Βενιζέλος')]                             |       964           |
 
 Like with Bulgarian, we will disable substitution, because otherwise there would be names in Greek script in the English translation.
+
+There were 8 sentences with errors due to errors in translation:
+- ParlaMint-GR_2017-06-19-S1-commons.seg309.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-GR.conllu/ParlaMint-GR.conllu/2017/ParlaMint-GR_2017-06-19-S1-commons.conllu
+- ParlaMint-GR_2017-04-24-S1-commons.seg271.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-GR.conllu/ParlaMint-GR.conllu/2017/ParlaMint-GR_2017-04-24-S1-commons.conllu
+- ... (see all instances in logs/GR/create_conllu.md)
+
+### ParlaMint-BA
+
+Most frequent substitutions:
+
+|                                        |   substituted_pairs |
+|:---------------------------------------|--------------------:|
+| [('Spiric', 'Špirić')]                 |                3241 |
+| [('Novakovic', 'Novaković')]           |                2639 |
+| [('Zivkovic', 'Živković')]             |                2415 |
+| [('Belkic', 'Belkić')]                 |                2154 |
+| [('Jaferovic', 'Džaferović')]          |                1966 |
+| [('Becirovic', 'Bećirović')]           |                1760 |
+| [('Mike', 'Majkić')]                   |                1494 |
+| [('Lagumdzija', 'Lagumdžija')]         |                1347 |
+| [('Zoric', 'Zorić')]                   |                1068 |
+| [('God', 'Bog')]                       |                1063 |
+| [('Križanovic', 'Križanović')]         |                1015 |
+| [('Hadjiahmetovic', 'Hadžiahmetović')] |                 996 |
+| [('Dokic', 'Dokić')]                   |                 964 |
+| [('Lozancic', 'Lozančić')]             |                 934 |
+| [('Cengic', 'Čengić')]                 |                 927 |
+| [('Beqirovic', 'Bećirović')]           |                 871 |
+| [('Kalabic', 'Kalabić')]               |                 865 |
+| [('Tokic', 'Tokić')]                   |                 831 |
+| [('Dzaferovic', 'Džaferović')]         |                 797 |
+
+There were 14 errors reported, connected to Spaceafter information due to errors in machine translation:
+- ParlaMint-BA_2013-09-19-0.u16851.seg0.17: home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2013/ParlaMint-BA_2013-09-19-0.conllu
+- ParlaMint-BA_2013-01-31-0.u13389.seg0.9: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2013/ParlaMint-BA_2013-01-31-0.conllu
+- ParlaMint-BA_2017-09-07-0.u19666.seg1.3: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2017/ParlaMint-BA_2017-09-07-0.conllu
+- ParlaMint-BA_2021-12-14-0.u10932.seg0.5: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2021/ParlaMint-BA_2021-12-14-0.conllu
+- ... (see logs/BA/create_conllu.md)
+
+### ParlaMint-HU
+
+Most frequent substitutions:
+
+|                                                                |   substituted_pairs |
+|:---------------------------------------------------------------|--------------------:|
+| 0                                                              |         1.44271e+06 |
+| [('Parliament', 'Országgyűlés')]                               |     23746           |
+| [('Viktor', 'Orbán'), ('Orbán', 'Viktor')]                     |      3894           |
+| [('Here', 'parancsol')]                                        |      1543           |
+| [('Bence', 'Rétvári'), ('Rétvári', 'Bence')]                   |      1139           |
+| [('Congressman', 'Úr')]                                        |      1117           |
+| [('Ferenc', 'Gyurcsány'), ('Gyurcsány', 'Ferenc')]             |      1006           |
+| [('Erzsébet', 'Schmuck'), ('Schmuck', 'Erzsébet')]             |       987           |
+| [('Nándor', 'Gúr'), ('Gúr', 'Nándor')]                         |       969           |
+| [('Dániel', 'Z.'), ('Z.', 'Kárpát'), ('Kárpát', 'Dániel')]     |       864           |
+| [('gentlemen', 'Képviselőtárs')]                               |       844           |
+| [('Members', 'Képviselőtárs')]                                 |       696           |
+| [('Secretary', 'Államtitkár')]                                 |       643           |
+| [('Christmas', 'Karácsony')]                                   |       638           |
+| [('Dr.', 'dr.')]                                               |       621           |
+| [('Orbán', 'Viktor')]                                          |       614           |
+| [('Dániel', 'Z.'), ('Z.', 'Kárpát'), ('Carpathian', 'Dániel')] |       546           |
+| [('minute', 'kétperces')]                                      |       535           |
+| [('Márta', 'Demeter'), ('Demeter', 'Márta')]                   |       529           |
+| [('Mónika', 'Dunai'), ('Dunai', 'Mónika')]                     |       480           |
+
+Since based on NER annotations, we would substitute "Parliament", "Members", etc., we will disable substitution.
+
+There were 4 errors in sentences:
+- ParlaMint-HU_2017-05-22.seg401.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2017/ParlaMint-HU_2017-05-22.conllu
+- ParlaMint-HU_2021-02-16.seg350.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2021/ParlaMint-HU_2021-02-16.conllu
+- ParlaMint-HU_2020-06-16.seg57.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2020/ParlaMint-HU_2020-06-16.conllu
+- ParlaMint-HU_2020-12-01.seg106.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2020/ParlaMint-HU_2020-04-07.conllu
+
+### ParlaMint-TR
+
+Most frequent substitutions:
+
+|                                                        |   substituted_pairs |
+|:-------------------------------------------------------|--------------------:|
+| [('Mr.', 'sayın'), ('President', 'başkan')]            |    123489           |
+| [('Mr.', 'sayın')]                                     |     48883           |
+| [('Mr.', 'sayın'), ('Secretary', 'bakan')]             |     15603           |
+| [('Congressmans', 'sayın'), ('sayın', 'milletvekili')] |      9416           |
+| [('General', 'genel'), ('Assembly', 'kurul')]          |      9263           |
+| [('God', 'allah')]                                     |      7207           |
+| [('Turkey', 'Türkiye')]                                |      5635           |
+| [('Mr.', 'sayın'), ('Special', 'özel')]                |      3700           |
+| [('Mr.', 'sayın'), ('President', 'cumhurbaşkanı')]     |      3674           |
+| [('Minister', 'sayın'), ('sayın', 'bakan')]            |      3534           |
+| [('Constitution', 'anayasa')]                          |      3336           |
+| [('respects', 'saygı')]                                |      3261           |
+| [('Mr.', 'bey')]                                       |      3109           |
+| [('Minister', 'sayın'), ('Prime', 'başbakan')]         |      2941           |
+| [('I', 'ben')]                                         |      2903           |
+| [("'m", 'i')]                                          |      2533           |
+| [('Mr.', 'sayın'), ('Prime', 'başbakan')]              |      2095           |
+| [('Recep', 'recep'), ('Erdogan', 'Erdoğan')]           |      2090           |
+| [('high', 'yüce')]                                     |      2023           |
+
+Since based on NER annotations, we would substitute "President", "Mr.", etc., we will disable substitution.

@@ -13,8 +13,9 @@ lang_code = args.lang_code
 main_path = "/home/tajak/Parlamint-translation"
 
 # --------------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
-
 final_dataframe = "{}/results/{}/ParlaMint-{}-final-dataframe.csv".format(main_path,lang_code, lang_code)
+
+from knockknock import discord_sender
 
 def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 	"""
@@ -37,7 +38,7 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 	import pandas as pd
 
 	# Use the dataframe, created in previous steps
-	df = pd.read_csv("{}".format(final_dataframe), sep="\t", index_col = 0)
+	df = pd.read_csv("{}".format(final_dataframe), sep="\t", index_col = 0, na_filter = False)
 
 	# Filter out only instances from the file in question
 	df = df[df["file"] == file]
@@ -104,7 +105,7 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 
 			# Check whether the word conllu index (word id) is in the substituted_words_list (it is if it was substituted)
 			# If it is, add information on the original translated word - do not do this for Bulgarian and Portuguese
-			if lang_code not in ["BG", "PT", "IT", "AT", "GR"]:
+			if lang_code not in ["BG", "PT", "IT", "AT", "GR", "HU", "NO", "TR"]:
 				if substituted_words_list[sentence_index].get(word_conllu_index, None) != None:
 					word["misc"]["Translated"] = substituted_words_list[sentence_index][word_conllu_index]
 			
@@ -160,13 +161,17 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 
 	print("Final file {} is saved.".format(target_path))
 
+# Get notified once the code ends
+webhook_url = "https://discord.com/api/webhooks/1078298985346899989/sq3rnJdR91A-0175s4Sb-pdfStNC5dOxivuIjMm_8apLIsn41yT89U-NGc-lKSeqqIAm"
+@discord_sender(webhook_url=webhook_url)
+
 def produce_final_conllu(lang_code, final_dataframe):
 	import pandas as pd
 	import stanza
 	import time
 	from stanza.pipeline.core import DownloadMethod
 	
-	df = pd.read_csv("{}".format(final_dataframe), sep="\t", index_col=0)
+	df = pd.read_csv("{}".format(final_dataframe), sep="\t", index_col=0, na_filter = False)
 
 	# Create a list of files
 	files = list(df.file.unique())

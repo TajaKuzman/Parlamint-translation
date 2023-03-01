@@ -26,6 +26,11 @@ main_path = "/home/tajak/Parlamint-translation"
 path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
 
 # ------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS--------------
+from knockknock import discord_sender
+
+# Get notified once the code ends
+webhook_url = "https://discord.com/api/webhooks/1078298985346899989/sq3rnJdR91A-0175s4Sb-pdfStNC5dOxivuIjMm_8apLIsn41yT89U-NGc-lKSeqqIAm"
+@discord_sender(webhook_url=webhook_url)
 
 # Create a folder with results for this language, e.g. results/CZ
 os.mkdir("/home/tajak/Parlamint-translation/results/{}".format(lang_code))

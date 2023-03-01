@@ -20,6 +20,12 @@ extracted_dataframe_path = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv
 translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(main_path, lang_code, lang_code)
 
 # -------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS------------------
+from knockknock import discord_sender
+
+# Get notified once the code ends
+webhook_url = "https://discord.com/api/webhooks/1078298985346899989/sq3rnJdR91A-0175s4Sb-pdfStNC5dOxivuIjMm_8apLIsn41yT89U-NGc-lKSeqqIAm"
+@discord_sender(webhook_url=webhook_url)
+
 
 def translate(lang_code, opus_lang_code, extracted_dataframe_path, translated_dataframe_path):
 	"""
@@ -36,7 +42,7 @@ def translate(lang_code, opus_lang_code, extracted_dataframe_path, translated_da
 	import time
 
 	# Open the file, created in the previous step
-	df = pd.read_csv("{}".format(extracted_dataframe_path), sep="\t", index_col=0)
+	df = pd.read_csv("{}".format(extracted_dataframe_path), sep="\t", index_col=0, na_filter = False)
 
 	# Define the model
 	model = EasyNMT('opus-mt')

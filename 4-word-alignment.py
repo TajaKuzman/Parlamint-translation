@@ -19,6 +19,11 @@ translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(m
 translated_tokenized_dataframe_path = "{}/results/{}/ParlaMint-{}-translated-tokenized.csv".format(main_path,lang_code, lang_code)
 final_dataframe = "{}/results/{}/ParlaMint-{}-final-dataframe.csv".format(main_path,lang_code, lang_code)
 
+from knockknock import discord_sender
+
+# Get notified once the code ends
+webhook_url = "https://discord.com/api/webhooks/1078298985346899989/sq3rnJdR91A-0175s4Sb-pdfStNC5dOxivuIjMm_8apLIsn41yT89U-NGc-lKSeqqIAm"
+@discord_sender(webhook_url=webhook_url)
 
 def tokenize_translation(translated_dataframe_path, translated_tokenized_dataframe_path):
 	import stanza
@@ -33,7 +38,7 @@ def tokenize_translation(translated_dataframe_path, translated_tokenized_datafra
 
 	# Apply tokenization to English translation and add the sentences to the df
 	# Open the df
-	df = pd.read_csv("{}".format(translated_dataframe_path), sep="\t", index_col = 0)
+	df = pd.read_csv("{}".format(translated_dataframe_path), sep="\t", index_col = 0, na_filter = False)
 
 	# Save also the information on whether there is a space after or before punctuation
 	# which we will need later, to remove unnecessary spaces
@@ -182,7 +187,7 @@ def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe, l
 	import os
 
 	# Open the file, created in the previous step
-	df = pd.read_csv("{}".format(translated_tokenized_dataframe_path), sep="\t", index_col=0)
+	df = pd.read_csv("{}".format(translated_tokenized_dataframe_path), sep="\t", index_col=0, na_filter = False)
 
 	# Move into the eflomal folder
 	os.chdir("/home/tajak/Parlamint-translation/eflomal")
