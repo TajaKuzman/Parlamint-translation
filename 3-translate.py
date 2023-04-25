@@ -23,7 +23,7 @@ translated_dataframe_path = "{}/results/{}/ParlaMint-{}-translated.csv".format(m
 from knockknock import discord_sender
 
 # Get notified once the code ends
-webhook_url = "https://discord.com/api/webhooks/1078298985346899989/sq3rnJdR91A-0175s4Sb-pdfStNC5dOxivuIjMm_8apLIsn41yT89U-NGc-lKSeqqIAm"
+webhook_url = open("/home/tajak/Parlamint-translation/discord_key.txt", "r").read()
 @discord_sender(webhook_url=webhook_url)
 
 
@@ -51,8 +51,6 @@ def translate(lang_code, opus_lang_code, extracted_dataframe_path, translated_da
 
 	# Create a list of sentences from the df
 	sentence_list = df.text.to_list()
-
-	lang_models_dict = {"BG": ["bg"], "HR": ["zls", "sla"], "CZ": ["cs", "sla", "zlw" ], "DK": ["da"], "NL": ["nl", "gem", "gmw"], "FR": ["fr", "itc","roa"], "HU": ["hu", "fiu", "urj"], "IS": ["is","gmq", "gem"], "IT": ["it", "roa", "itc"], "LV": ["lv","bat"], "LT": ["bat"], "PL": ["pl", "sla", "zlw"], "SI": ["sla"], "ES": ["es", "roa", "itc"], "TR": ["tr", "trk" ], "AT": ["de", "gem", "gmw"], "ES-PV": ["eu", "mul"], "BA": ["sla", "zls"], "ES-CT": ["ca", "roa", "itc"], "EE": ["et", "urj", "fiu"], "FI": ["fi", "urj", "fiu"], "ES-GA": ["gl", "roa", "itc"], "GR": ["el","grk"], "NO": ["gem", "gmq"], "PT": ["pt", "roa", "itc"], "RO":["roa", "itc"], "RS": ["zls", "sla"], "SE": ["sv", "gmq", "gem"], "UA":["uk", "sla", "zle"]}
 
 	print("Translation started.")
 

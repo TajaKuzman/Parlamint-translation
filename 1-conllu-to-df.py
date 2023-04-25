@@ -28,10 +28,6 @@ path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path
 # ------------NO CHANGING OF THE CODE NEEDED FROM NOW ONWARDS--------------
 from knockknock import discord_sender
 
-# Get notified once the code ends
-webhook_url = "https://discord.com/api/webhooks/1078298985346899989/sq3rnJdR91A-0175s4Sb-pdfStNC5dOxivuIjMm_8apLIsn41yT89U-NGc-lKSeqqIAm"
-@discord_sender(webhook_url=webhook_url)
-
 # Create a folder with results for this language, e.g. results/CZ
 os.mkdir("/home/tajak/Parlamint-translation/results/{}".format(lang_code))
 
@@ -60,6 +56,11 @@ for dir1 in os.listdir(path):
 # See how many files we have:
 print("No. of files: {}.".format(len(parl_list)))
 
+
+# Get notified once the code ends
+webhook_url = open("/home/tajak/Parlamint-translation/discord_key.txt", "r").read()
+
+@discord_sender(webhook_url=webhook_url)
 def conllu_to_df(parl_list, file_name_list, extracted_dataframe_path):
 	"""
 	Take the conllu files and extract relevant information. Save everything in a DataFrame.

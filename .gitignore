@@ -73,3 +73,6 @@ results/
 slobench_slen.en.txt
 slobench_slen.sl/slobench_slen.sl.txt
 Testing-MT-models/SloBENCH
+Note-translation/Source-data-TEI
+discord_key.txt
+Note-translation/Final-data-CSV

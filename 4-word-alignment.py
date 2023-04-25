@@ -22,7 +22,7 @@ final_dataframe = "{}/results/{}/ParlaMint-{}-final-dataframe.csv".format(main_p
 from knockknock import discord_sender
 
 # Get notified once the code ends
-webhook_url = "https://discord.com/api/webhooks/1078298985346899989/sq3rnJdR91A-0175s4Sb-pdfStNC5dOxivuIjMm_8apLIsn41yT89U-NGc-lKSeqqIAm"
+webhook_url = open("/home/tajak/Parlamint-translation/discord_key.txt", "r").read()
 @discord_sender(webhook_url=webhook_url)
 
 def tokenize_translation(translated_dataframe_path, translated_tokenized_dataframe_path):
@@ -162,6 +162,8 @@ def alignment_file_to_target_dict(file):
 
 	return aligns_list_target_dict_list
 
+webhook_url = open("/home/tajak/Parlamint-translation/discord_key.txt", "r").read()
+@discord_sender(webhook_url=webhook_url)
 def correct_proper_nouns(translated_tokenized_dataframe_path, final_dataframe, lang_code):
 	"""
 	This function takes the translated text and the source text, aligns words with eflomal and corrects proper nouns.

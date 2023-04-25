@@ -48,9 +48,17 @@ Corpora with more than one language (marked with * in the table above):
 		2. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
 	- if the analysis of most common substitutions reveals that it is better not to do the substitutions:
 		- save the translations without the substitutions as the "new-translations" in the final file (in analyse_results.ipynb)
-		- in 5-create-conllu.py, add the language code to the exceptions in line 107
+		- in 5-create-conllu.py, add the language code to the exceptions in line 108
 5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu.py "IS" > logs/IS/create_conllu.md &`
-6. Send to new tantra: scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/.
+6. If the statistics for the corpus showed in to_conllu.md showed that some files are missing from the df (because they are empty), add the empty files to the final corpus: `CUDA_VISIBLE_DEVICES=2 nohup python 6-add-empty-files.py "SE" > logs/SE/add_missing_files.md &`
+7. Send to new tantra: scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/.
+8. Note translation: `CUDA_VISIBLE_DEVICES=0 nohup python 7-note-translation.py "IS" "is" > logs/IS/translate_notes_final.md &`
+
+If the corpus consists of two languages (indicated by lang code at the end of each file, e.g., `-ru.conllu`), first check if they can be both translated well with the same MT system. In that case, process it as usual. If not:
+- perform the 1. step as usual
+- then separate the df into two dfs in `analyse_results.ipynb` (section Creating 2 datasets in case of bilingual corpora), they will be named for instance `ParlaMint-BE-fr-extracted-source-data.csv` and `ParlaMint-BE-nl-extracted-source-data.csv`
+- continue with next steps, but process each file separately by using "BE-fr" and "BE-nl" as the argument instead of BE
+- if there are any files missing from the df (because they are empty), use the step 6, but here use "BE" (without lang suffix) as the argument, and add this as an exception to line 19 in `6-add-empty-files.py`.
 
 ## Workflow
 
@@ -96,11 +104,70 @@ Some remarks:
 - Stanza does not output "SpaceAfter" information, I added it manually based on the start_char and end_char information
 
 
-## Next steps
-- metadata translation: **we want to translate all the text contents of non-s elements**, but in a lexicon-based approach, so extracting all "Ploskanje" etc., deduplicating, translating, and **returning as a tab-separated dataset - what should the dataset include - source, translation, maybe also tag name, anything else?**, to be applied in the translated resource by Tomaž and Matyaš.
+## Translation of notes
 
-- other possible corrections as part of post-processing:
-	- Danish: "All the models have problems with numbering e.g. § 19, stk. 4 and with punctuation in abbreviations. Could that be corrected in a post process?"
+The notes are taken from the unannotated TEI corpus. The elements that are extracted:
+- < note >, further specified with the "type" attribute
+- < gap >, further specified with the "reason" attribute
+- < head >
+- < vocal >, further specified with the "type" attribute
+- < kinesic >, further specified with the "type" attribute
+- < incident >, further specified with the "type" attribute
+
+In < head > and < note >, the text is not encapsulated by additional tags, while in other tags, the text is encapsulated by < desc > and there could be multiple < desc > tags in the element.
+
+If the note is not in the main language of the corpus (a different language is specified by the "xml:lang" attribute), then we do not translate it.
+
+Example:
+
+```
+<gap reason="foreign">
+	<desc xml:lang="und">Huliniahuanngittunga</desc>
+</gap>
+```
+
+
+Examples:
+```
+ <note type="speaker">The president, Dr. Milan Brglez:</note>
+...
+<note type="vote-ayes">84 voted for the adoption of the measure.</note>
+...
+<note type="vote-noes">2 voted against the adoption of the measure.</note>
+
+ <vocal type="interruption">
+	<desc>sounds from the chamber</desc>
+</vocal>
+...
+<kinesic type="signal">
+	<desc>signal for end of debate</desc>
+</kinesic>
+...
+<incident type="action">
+	<desc>minute of silence</desc>
+</incident>
+
+<vocal type="interruption">
+	<desc xml:lang="sl">oglašanje z dvoraner</desc>
+	<desc xml:lang="en">sounds from the chamber</desc>
+</vocal>¸
+
+
+... I would further state that
+<gap reason="inaudible">
+	<desc>speaker spoke too quietly, not understood</desc>
+</gap>
+and furthermore ...
+
+```
+
+### TO DO:
+- assure that there are no new lines in cell values - narejeno
+- add a column with the country code - narejeno
+- add xml:lang information from the parent element, if it is not present in the note tag - narejeno
+- remove column with index (by that, the header row would also not begin with \t) - narejeno
+- sort the rows - by content? - narejeno
+
 
 ## Sample analysis
 
@@ -196,6 +263,69 @@ Examples of null alignment:
 | 73749 | Besedo ima gospod Jurij Lep .                                                                                                                                                                                                                                                | Mr . Jurij Leprechaun has the word .                                                                                                                                                                                                                                                     | {0: 6, 1: 4, 2: 0, 3: 2, 5: 7}                                                                                                                                                                                                                                                                                     | Issue: index 4: ['Lep', 'lep']            |
 | 82229 | Na predstavitvi svoje kandidature je   dr. Rok Čeferin sicer povedal , da je posamezne medije , ki niso pod okriljem   Vlade , res označil za tovarne laži , a da je to storil pod vplivom jeze in   uporabil izraz , ki ga morda ne bi smel .                               | In the presentation of his candidacy ,   Dr . Roc Čeferin said that he had indeed designated individual media not   under the auspices of the Government as factory lies , but that he had done   so under the influence of anger and used an expression that he might not have   used . | {0: 0, 1: 2, 2: 4, 3: 5, 4: 6, 5: 7,   7: 10, 9: 11, 11: 12, 12: 13, 13: 17, 14: 18, 17: 19, 18: 20, 19: 22, 20: 25,   22: 15, 23: 16, 24: 26, 25: 27, 26: 28, 27: 29, 28: 30, 29: 31, 30: 32, 32:   34, 33: 36, 34: 38, 35: 40, 36: 41, 37: 42, 38: 44, 40: 45, 41: 46, 42: 47,   43: 48, 44: 49, 45: 50, 46: 51} | Issue: index 6: ['Rok', 'Rok']            |
 
+### Errors in SpaceAfter when producing final conllu files
+
+Inspection revealed that the reason for this are errors in the tokenization, produced by Stanza's tokenizer: in a very rare number of sentences (e.g, 7 sentences out of 3.9M), especially if the sentence is long, Stanza's tokenizer makes an error in word tokenization and outputs as one token two words that are separated by spaces.
+
+Example - problematic tokens in ParlaMint-SI:
+```
+('also solidarity', 'also')
+184
+('a public', 'a')
+449
+('Court of', 'Court')
+223
+('internal transport', 'internal')
+151
+('who are', 'who')
+230
+('European Union', 'European')
+379
+('Court of', 'Court')
+225
+```
+
+And the output of the tokenizer that is the reason behind it:
+```
+185	also solidarity	_	_	_	_	184	_	_	start_char=996|end_char=1011
+```
+
+Based on tokenization, we produce a list of tokens and a list of SpaceAfter information of the same length. Then we produce the string of tokenized text by joining tokens in the list of tokens by space (["I", "am", ",", "Taja", "."] -> "I am , Taja ."; list of SpaceAfter information: ["Yes", "No", "Yes", "No", "Last"] -> resulting final string based on this information: "I am, Taja.").
+
+The problem occurs because for alignment, we need tokenized text in a string, not a list of words. That is why we merged the list of tokens into a string in a previous step. And then to get a list of words out of it again for assigning alignment information, proper name substitution, SpaceAfter information to each token, we split the tokenized string into a list again by " " (space). As in the first tokenized list, there occurred tokens which had space inside, the number of tokens in the initial tokenized list and corresponding space_after list is different than the number of tokens when the final list was created by joining the initial list and splitting it again by space.
+
+To sum up, the error occurs due to error in the tokenizer which encoded two words, separated by a space, as one token. However, as this error is very very rare, we left it at it is.
+
+Possible solutions: using spacy tokenizer instead of stanza tokenizer; encoding the initial list of tokens and comparing the lengths for each sentence, and if the lists are not the same, adding an element into the SpaceAfter list so that each element is connected with correct word.
+
+### Report on the translation of notes
+
+The report on the process of translation of notes, based on ParlaMint-SI:
+
+- The processing of notes does not take a lot of time - extraction and translation for ParlaMint-SI (440k notes, after deduplication: 10k notes, 70k words) took around 10-15 minutes.
+
+- Main finding: errors in proper name translation are very common. Tag "note speaker" represents 71% of notes (before the duplication) and most are incorrect.  Examples: "Romana Tomc" -> "Tomc of Romania", "Ljudmila Novak" -> "Human Novak", "Zmago Jelinčič Plemeniti" -> "Flamming Flammers", "Zmago Jelinčič Plemeniti" -> "The Winner of the Welcomes", "Nevenka Ribič" -> "Newenka Fish"
+
+- Errors per tag and tag type (in the parentheses, I added number of occurrences in corpus before duplication so that we have a feeling of the general occurrence of this note in the source corpus) :
+
+	- mostly incorrect tags: note speaker (311,372, bad proper name translation), vocal interruption (2608, bad translations), head chairman (1567; wrong proper names),  note error (234, bad proper names),  incident action (19, bad translations), kinesic slapping (12, bad translations: "tlesk s prsti" -> "finger-toed clap"), gap editorial (7; "nagovor v italijanščini" -> "address in Italian)
+
+	- others are mostly correct (note (without additional type: 63680), gap inaudible (38647), note vote-ayes (5771), note vote-noes (5737), note time (5127), head (without additional type: 1570), head session (1569) , vote answer (802), kinesic signal (672), kinesic gesture (122),  vocal laughter (117),  kinesic applause (95),  incident sound (21), note description (9), note vote (2), kinesic playback (2))
+
+Other findings (less common errors):
+
+- Some translations are bad (maybe also due to the lack of context): "oglašanje iz klopi" -> "bench advertising", "advertising from the hall; "razkuževanje" -> "infection"; "razkuževanje govornice" -> "disinfection of the phone"; "aplavz" -> "let's hear it"; "plosk" -> "flat"
+
+- Some of source notes are bad (spelling mistakes) which results in wrong translations: "izkop mikrofona" -> "microphone dig"; "izlop mikrofona" -> "microphone extrusion"; "znak zakonec razprave" -> "sign of the spouse of the debate" (also "nak za konec razprave", "zank za konec razprave")
+
+Other errors in notes that were identified:
+
+- common MT hallucinations when translating numbers, see the following example for ParlaMint-DK:
+```
+0	note	agendaItem	2017-11-22-0		1	This Regulation shall be binding in its entirety and directly applicable in all Member States.
+1	note	agendaItem	2017-11-22-1		1	This Regulation shall be binding in its entirety and directly applicable in all Member States.
+2	note	agendaItem	2017-11-22-2		1	This Regulation shall be binding in its entirety and directly applicable in all Member States.
+```
 
 ## Information on processing each corpus
 
@@ -224,6 +354,8 @@ Most frequent substitutions:
 | [('Pastuch', 'Pastuchová')]   |       434           |
 | [('Zaoralek', 'Zaorálek')]    |       426           |
 | [('Marks', 'Marksová')]       |       420           |
+
+There is no < head > tag in the corpus.
 
 ### ParlaMint-BG
 
@@ -267,6 +399,8 @@ The processing into the final conll-u files revealed errors (similar to errors i
 - ParlaMint-BG_2018-04-04.seg629.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-04-04.conllu
 - ... (for all sentences, see logs/BG/create_conllu.md)
 
+
+Corpus has no note tags < note >, < head > and < gap >.
 
 ### ParlaMint-DK
 
@@ -337,6 +471,7 @@ The processing into CONLL-u files revealed some errors in translations when unwa
 - ParlaMint-DK_2019-10-10-20191-M6.conllu: ParlaMint-DK_20191010100051.seg3.10
 - ParlaMint-DK_2019-12-13-20191-M37.conllu: ParlaMint-DK_20191213124228.seg250.6
 
+Notes are only encoded as < note > or < head > (no other notes tags were found).
 
 ### ParlaMint-IS
 
@@ -366,7 +501,7 @@ Most frequent substitutions:
 
 No errors occurred in CONLL-u creation.
 
-No errors occurred in CONLL-u creation.
+There are no < gap > and < head > tags in the corpus.
 
 ### ParlaMint-PT
 
@@ -404,9 +539,42 @@ We found 12 errors in sentences (as in ParlaMint-DK and others) due to MT model 
 - ParlaMint-PT_2018-05-04.seg808.s: /home/tajak/Parlamint-translation/Final-data/ParlaMint-PT.conllu/ParlaMint-PT.conllu/2018/ParlaMint-PT_2018-05-04.conllu
 - ... (see all instances in logs/PT/create_conllu.md)
 
+Corpus has no < gap > and < incident > tags.
+
 ### ParlaMint-HR
 
 Most frequent substitutions:
+
+|                                |   substituted_pairs |
+|:-------------------------------|--------------------:|
+| [('Croats', 'Hrvat')]          |      7243           |
+| [('Plenkovic', 'Plenković')]   |      5699           |
+| [('Maric', 'Marić')]           |      5656           |
+| [('Shuker', 'Šuker')]          |      5440           |
+| [('God', 'Bog')]               |      5380           |
+| [('Cain', 'Kajin')]            |      5376           |
+| [('Stazic', 'Stazić')]         |      4819           |
+| [('Grubisic', 'Grubišić')]     |      4669           |
+| [('Boric', 'Borić')]           |      4192           |
+| [('Linic', 'Linić')]           |      3127           |
+| [('Djakic', 'Đakić')]          |      3005           |
+| [('Bacic', 'Bačić')]           |      2920           |
+| [('Bull', 'Bulj')]             |      2898           |
+| [('Milanovic', 'Milanović')]   |      2847           |
+| [('Vuksic', 'Vukšić')]         |      2747           |
+| [('Kovacevic', 'Kovačević')]   |      2430           |
+| [('Hajdukovic', 'Hajduković')] |      2393           |
+| [('Zekanovic', 'Zekanović')]   |      2243           |
+| [('Zeljko', 'Željko')]         |      2136           |
+
+Since the most frequent substitution would introduce errors, we will disable the substitution.
+
+There were 48 errors in final files due to repetitions in MT:
+- ParlaMint-HR_2017-12-13-0.u64797.seg0.71: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HR.conllu/ParlaMint-HR.conllu/2017/ParlaMint-HR_2017-12-13-0.conllu
+- ParlaMint-HR_2018-12-13-0.u122741.seg0.32: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HR.conllu/ParlaMint-HR.conllu/2018/ParlaMint-HR_2018-12-13-0.conllu
+- ... (see logs/HR/create_conllu.md)
+
+There is no < head > tag in TEI files.
 
 ### ParlaMint-IT
 
@@ -442,6 +610,8 @@ The creation of CONLL-u files revealed errors in 11 sentences (due to repetition
 - ParlaMint-IT_2017-01-12-LEG17-Senato-sed-740.ana.seg7.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-IT.conllu/ParlaMint-IT.conllu/2017/ParlaMint-IT_2017-01-12-LEG17-Senato-sed-740.conllu
 - ... (see all in logs/IT/create_conllu.md)
 
+There are no < gap > notes.
+
 ### ParlaMint-AT
 
 |                                                       |   substituted_pairs |
@@ -473,6 +643,8 @@ There were 19 errors in sentences:
 - ParlaMint-AT_2003-06-10-022-XXII-NRSITZ-00020_d2e252.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2003/ParlaMint-AT_2003-06-10-022-XXII-NRSITZ-00020.conllu
 - ParlaMint-AT_2003-12-04-022-XXII-NRSITZ-00041_d2e9147.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2003/ParlaMint-AT_2003-12-04-022-XXII-NRSITZ-00041.conllu
 - ... (see logs/AT/create_conllu.md for all errors)
+
+There were no < incident > and < head > tags in corpus.
 
 ### ParlaMint-SE
 
@@ -592,6 +764,10 @@ Most frequent substitutions:
 
 Interestingly, the Swedish MT model seems to be very prone to changing people's first name into Mr or Mrs. Based on an analysis of some instances of substitution, the changes are correct, so we will use the substitution.
 
+There were no errors with SpaceAfter due to MT repetitions in this corpus :) 
+
+There are no < gap >, < vocal > or < incident > notes.
+
 ### ParlaMint-NL
 
 The following 55 files were revealed to be empty and are not included in the df:
@@ -706,6 +882,39 @@ ParlaMint-NL_2019-06-11-eerstekamer-6.conllu
 
 ParlaMint-NL_2019-05-29-tweedekamer-6.conllu
 
+Most frequent substitutions:
+
+|                                                |   substituted_pairs |
+|:-----------------------------------------------|--------------------:|
+| [('Van', 'van'), ('Dijk', 'dijk')]             |      4531           |
+| [('Van', 'van')]                               |      4324           |
+| [('Van', 'van'), ('Staaij', 'staaij')]         |      3804           |
+| [('Van', 'van'), ('Weyenberg', 'weyenberg')]   |      3775           |
+| [('Bishop', 'bisschop')]                       |      3751           |
+| [('Van', 'van'), ('Meenen', 'meenen')]         |      3063           |
+| [('Van', 'van'), ('Rooijen', 'rooijen')]       |      3048           |
+| [('Van', 'van'), ('Nispen', 'nispen')]         |      3029           |
+| [('Klaver', 'klaver')]                         |      2939           |
+| [('Van', 'van'), ('Raak', 'raak')]             |      2896           |
+| [('Dik', 'Dik-Faber')]                         |      2688           |
+| [('Van', 'van'), ('Toorenburg', 'toorenburg')] |      2661           |
+| [('De', 'de'), ('Vries', 'vries')]             |      2621           |
+| [('Van', 'van'), ('Lee', 'lee')]               |      2361           |
+| [('Van', 'van'), ('Tongeren', 'tongeren')]     |      2320           |
+| [('Van', 'van'), ('Raan', 'raan')]             |      2045           |
+| [('Van', 'van'), ('Haga', 'haga')]             |      1970           |
+| [('De', 'de'), ('Graaf', 'graaf')]             |      1846           |
+| [('Van', 'van'), ('Ojik', 'ojik')]             |      1838           |
+
+As we can see, we cannot use the Dutch lemmas, because they don't capitalize the proper names in the lemmas. So we won't use the substitution in post-processing.
+
+3 errors occured due to repetitions in MT:
+- ParlaMint-NL_2016-10-27-tweedekamer-9.s771: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NL.conllu/ParlaMint-NL.conllu/2016/ParlaMint-NL_2016-10-27-tweedekamer-9.conllu
+- ParlaMint-NL_2014-04-16-tweedekamer-6.s777: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NL.conllu/ParlaMint-NL.conllu/2014/ParlaMint-NL_2014-04-16-tweedekamer-6.conllu
+- ParlaMint-NL_2020-10-08-tweedekamer-4.s2131: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NL.conllu/ParlaMint-NL.conllu/2020/ParlaMint-NL_2020-10-08-tweedekamer-4.conllu
+
+Translation of notes revealed that there are no < gap >, < vocal >, < kinesic > or < incident > notes in ParlaMint-NL (also verified by searching through the files with grep).
+
 ### ParlaMint-NO
 
 The following 38 files were revealed to be empty:
@@ -812,6 +1021,14 @@ Most frequent substitutions:
 
 Since the most frequent substitution (King) is wrong, we won't use the substitutions.
 
+There were 19 errors based on repetition in MT:
+- ParlaMint-NO_2013-06-21.ana.segd581e13177.4: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NO.conllu/ParlaMint-NO.conllu/2013/ParlaMint-NO_2013-06-21.conllu
+- ParlaMint-NO_1998-12-08-2.ana.segd1654e1192.4: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NO.conllu/ParlaMint-NO.conllu/1998/ParlaMint-NO_1998-12-08-2.conllu
+- ParlaMint-NO_2010-03-04.ana.segd1050e1289.5: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NO.conllu/ParlaMint-NO.conllu/2010/ParlaMint-NO_2010-03-04.conllu
+- ... (see logs/NO/create_conllu.md)
+
+Notes are only in < note > and < head > tags.
+
 ### ParlaMint-GR
 
 Most frequent substitutions:
@@ -878,6 +1095,8 @@ There were 14 errors reported, connected to Spaceafter information due to errors
 - ParlaMint-BA_2021-12-14-0.u10932.seg0.5: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2021/ParlaMint-BA_2021-12-14-0.conllu
 - ... (see logs/BA/create_conllu.md)
 
+There are no notes in < head > tags in ParlaMint-BA.
+
 ### ParlaMint-HU
 
 Most frequent substitutions:
@@ -913,6 +1132,8 @@ There were 4 errors in sentences:
 - ParlaMint-HU_2020-06-16.seg57.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2020/ParlaMint-HU_2020-06-16.conllu
 - ParlaMint-HU_2020-12-01.seg106.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2020/ParlaMint-HU_2020-04-07.conllu
 
+There are no notes in < head > and < gap > tags.
+
 ### ParlaMint-TR
 
 Most frequent substitutions:
@@ -940,3 +1161,273 @@ Most frequent substitutions:
 | [('high', 'yüce')]                                     |      2023           |
 
 Since based on NER annotations, we would substitute "President", "Mr.", etc., we will disable substitution.
+
+Turkish has more problems with MT hallucinations than the others!!
+
+There were errors based on spaceafter and repetitions in translations in 51 sentences - there is especially a problem with repetition of "on and on and on" in multiple sentences:
+- "tbmm-2013-05-29sit03spe0065par0090-000060": /home/tajak/Parlamint-translation/Final-data/ParlaMint-TR.conllu/ParlaMint-TR.conllu/2013/ParlaMint-TR_2013-05-29-tbmm-T24.conllu
+- "tbmm-2013-11-14sit03spe0149par0204-000020": /home/tajak/Parlamint-translation/Final-data/ParlaMint-TR.conllu/ParlaMint-TR.conllu/2013/ParlaMint-TR_2013-11-14-tbmm-T24.conllu
+- ... (see all instances in logs/TR/create_conllu.md)
+
+Translation of notes: ParlaMint-TR has not notes in < gap > and < head > tags.
+
+### ParlaMint-RS
+
+Most frequent substitutions:
+
+|                                                        |   substituted_pairs |
+|:-------------------------------------------------------|--------------------:|
+| [('Serbs', 'Srbin')]                                   |      11365          |
+| [('Markovic', 'Marković')]                             |       9612          |
+| [('Nikolic', 'Nikolić')]                               |       9503          |
+| [('Vukic', 'Vučić')]                                   |       6800          |
+| [('Jovanovic', 'Jovanović')]                           |       6666          |
+| [('Arsic', 'Arsić')]                                   |       6348          |
+| [('Krasic', 'Krasić')]                                 |       6239          |
+| [('Martinovic', 'Martinović')]                         |       6045          |
+| [('Seselj', 'Šešelj')]                                 |       5841          |
+| [('Alexander', 'Aleksandar'), ('Vukic', 'Vučić')]      |       5624          |
+| [('Tadic', 'Tadić')]                                   |       5597          |
+| [('Gilas', 'Đilas')]                                   |       5348          |
+| [('Zivkovic', 'Živković')]                             |       4949          |
+| [('Dinkic', 'Dinkić')]                                 |       4351          |
+| [('Zivkovic', 'Živković'), ('Pavicevic', 'Pavićević')] |       4292          |
+| [('Stefanovic', 'Stefanović')]                         |       3997          |
+| [('Batic', 'Batić')]                                   |       3877          |
+| [('Djurisic', 'Đurišić')]                              |       3865          |
+| [('Babic', 'Babić')]                                   |       3733          |
+
+Based on the fact that among most frequent substitutions, we have obvious incorrect substitution for "Serbs", we don't use the substitutions.
+
+There were 35 errors due to repetition in MT:
+- ParlaMint-RS_2013-10-01-0.u23369.seg0.6: /home/tajak/Parlamint-translation/Final-data/ParlaMint-RS.conllu/ParlaMint-RS.conllu/2013/ParlaMint-RS_2013-10-01-0.conllu
+- ParlaMint-RS_2013-10-31-0.u25367.seg0.86: /home/tajak/Parlamint-translation/Final-data/ParlaMint-RS.conllu/ParlaMint-RS.conllu/2013/ParlaMint-RS_2013-10-31-0.conllu
+- ... (see more in logs/RS/create_conllu.md)
+
+### ParlaMint-SI
+
+Most frequent substitutions:
+
+|                              |   substituted_pairs |
+|:-----------------------------|--------------------:|
+| [('Slovenians', 'Slovenec')] |      5204           |
+| [('Weber', 'Veber')]         |      2303           |
+| [('Franz', 'Franc')]         |      2273           |
+| [('Grimes', 'Grims')]        |      2181           |
+| [('Anderlich', 'Anderlič')]  |      2163           |
+| [('Sok', 'sok')]             |      2022           |
+| [('Barovic', 'Barovič')]     |      1462           |
+| [('Joseph', 'Jožef')]        |      1409           |
+| [('Matthew', 'Matej')]       |      1299           |
+| [('Squeakle', 'Cvikl')]      |      1219           |
+| [('Kordish', 'Kordiš')]      |      1204           |
+| [('Mir', 'Miro')]            |      1073           |
+| [('Petty', 'Drobnič')]       |      1039           |
+| [('Saiovic', 'Sajovic')]     |      1031           |
+| [('Jankovic', 'Janković')]   |       990           |
+| [('Bayuk', 'Bajuk')]         |       977           |
+| [('Left', 'Levica')]         |       976           |
+| [('Barovich', 'Barovič')]    |       968           |
+| [('Horvath', 'Horvat')]      |       906           |
+
+As in Serbian, the most frequent substitution ("Slovenes") would introduce errors, so we won't use the substitution.
+
+There were 7 errors due to repetition in MT:
+- ParlaMint-SI_2010-12-02-SDZ5-Izredna-34.ana.seg542.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-SI.conllu/ParlaMint-SI.conllu/2010/ParlaMint-SI_2010-12-02-SDZ5-Izredna-34.conllu
+- ParlaMint-SI_2010-03-04-SDZ5-Redna-14.ana.seg746.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-SI.conllu/ParlaMint-SI.conllu/2010/ParlaMint-SI_2010-03-04-SDZ5-Redna-14.conllu
+- ... (more in log/SI/create_conllu.md)
+
+### ParlaMint-LV
+
+Most frequent substitutions:
+
+|                                                        |   substituted_pairs |
+|:-------------------------------------------------------|--------------------:|
+| [('Julia', 'Jūlija'), ('Stepanenko', 'Stepaņenko')]    |                1392 |
+| [('Zarins', 'Zariņš')]                                 |                1274 |
+| [('Mr', 'kungs')]                                      |                1009 |
+| [('Aldi', 'Aldis'), ('Gobzem', 'Gobzems')]             |                 985 |
+| [('Viktor', 'Viktors'), ('Valain', 'Valainis')]        |                 949 |
+| [('Mrs', 'kundze')]                                    |                 810 |
+| [('John', 'Jānis'), ('Reir', 'Reirs')]                 |                 706 |
+| [('Mr.', 'kungs')]                                     |                 591 |
+| [('Dzintars', 'dzintars')]                             |                 585 |
+| [('Putra', 'putra')]                                   |                 583 |
+| [('John', 'Jānis'), ('Bordan', 'Bordāns')]             |                 582 |
+| [('Sergey', 'Sergejs'), ('Dolgopolov', 'Dolgopolovs')] |                 557 |
+| [('Reira', 'Reirs')]                                   |                 546 |
+| [('Valaiņa', 'Valaiņs')]                               |                 512 |
+| [('Rihard', 'Rihards'), ('Cole', 'kols')]              |                 482 |
+| [('A.', 'a.'), ('Kamiņš', 'kaimiņš')]                  |                 478 |
+| [('Igor', 'Igors'), ('Pimenov', 'Pimenovs')]           |                 467 |
+| [('Viktoras', 'Viktors'), ('Valaiņš', 'Valaiņs')]      |                 412 |
+| [('Stepanenko', 'Stepaņenko')]                         |                 400 |
+
+Since "Mr" and "Mrs" is among the most frequent substitutions, we will disable this process.
+
+There were 5 errors due to repetition in MT:
+- "ParlaMint-LV_2022-09-29-PT13-2410-U18-P1.41" in /home/tajak/Parlamint-translation/Final-data/ParlaMint-LV.conllu/ParlaMint-LV.conllu/2022/ParlaMint-LV_2022-09-29-PT13-2410.conllu
+- ... (see logs/LV/create_conllu.md)
+
+The corpus has only notes in the tag < note >.
+
+### ParlaMint-UA
+
+Most frequent substitutions:
+
+|                                                           |   substituted_pairs |
+|:----------------------------------------------------------|--------------------:|
+| [('President', 'президент')]                              |      5889           |
+| [('Head', 'голово')]                                      |      4213           |
+| [('President', 'президент'), ('Ukraine', 'Україна')]      |      2534           |
+| [('Lazko', 'Ляшко')]                                      |      1623           |
+| [('Head', 'Голово')]                                      |      1410           |
+| [('Prime', 'прем’єрний')]                                 |       991           |
+| [('Krulko', 'Крулько')]                                   |       909           |
+| [('Vladimir', 'Володимир'), ('Vasilovich', 'Васильович')] |       865           |
+| [('Shahov', 'Шахов')]                                     |       828           |
+| [('Putin', 'Путін')]                                      |       780           |
+| [('Volodymyrovich', 'Володимирович')]                     |       737           |
+| [('Vlasenko', 'Власенко')]                                |       725           |
+| [('Irina', 'Ірина')]                                      |       706           |
+| [('God', 'бог')]                                          |       680           |
+| [('Yvchenko', 'Івченко')]                                 |       672           |
+| [('Nina', 'Ніна'), ('Petrovna', 'Петрівна')]              |       649           |
+| [('Ivanovich', 'Іванович')]                               |       642           |
+| [('Odarchenko', 'Одарченко')]                             |       617           |
+| [('Nestor', 'Нестор'), ('Ivanovich', 'Іванович')]         |       612           |
+
+We won't use the substitutions.
+
+There was only 1 error due to repetition in MT:
+- ParlaMint-UA_2020-11-17-m0.u40.p2.s1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-17-m0-uk.conllu
+
+### ParlaMint-ES-GA
+
+Most frequent substitutions:
+
+|                                              |   substituted_pairs |
+|:---------------------------------------------|--------------------:|
+| [('Feijóo', 'feijóo')]                       |                5506 |
+| [('Sánchez', 'sánchez')]                     |                1427 |
+| [('Bará', 'bará')]                           |                1383 |
+| [('Mrs.', 'señor'), ('Prado', 'prado')]      |                1275 |
+| [('Pontón', 'pontón')]                       |                1260 |
+| [('Villares', 'villares')]                   |                1210 |
+| [('Mrs.', 'señor'), ('Pontón', 'pontón')]    |                1149 |
+| [('Tellado', 'tellar')]                      |                1111 |
+| [('Prado', 'prado')]                         |                1036 |
+| [('Rueda', 'rueda')]                         |                 961 |
+| [('Leicega', 'leiceaga')]                    |                 947 |
+| [('Torrado', 'torrar')]                      |                 915 |
+| [('Puy', 'puy')]                             |                 840 |
+| [('Rajoy', 'rajoy')]                         |                 758 |
+| [('Pedro', 'pedro'), ('Sánchez', 'sánchez')] |                 711 |
+| [('Losada', 'losada')]                       |                 694 |
+| [('Mrs.', 'señor'), ('Presas', 'preso')]     |                 615 |
+| [('Mr.', 'señor'), ('Sánchez', 'sánchez')]   |                 611 |
+| [('Solla', 'solla')]                         |                 608 |
+
+As we can see, performing substitutions would not be good, because Mrs. and similar words are annotated as PER, and the lemmas are not capitalized. We disabled this option.
+
+There is 207 errors connected with repetition in MT:
+- ParlaMint-ES-GA_2017-02-21-DSPG017.seg351.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-ES-GA.conllu/ParlaMint-ES-GA.conllu/2017/ParlaMint-ES-GA_2017-02-21-DSPG017.conllu
+- ... (see logs/ES-GA/create_conllu.md)
+
+Example:
+`
+Are, you, going, to, meet, the, Committee, of, Workers, and, Ferroatlantic, Workers, or, not, ?, Ssh, shsh, shsh, shsh, shsh, shsh, shsh, shsh, shsh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh, sh,
+`
+
+### ParlaMint-ES-CT
+
+Most frequent substitutions:
+
+|                                                          |   substituted_pairs |
+|:---------------------------------------------------------|--------------------:|
+| [('Thank', 'gràcies')]                                   |               20426 |
+| [('Torra', 'torra')]                                     |                1815 |
+| [('Thank', 'gracias')]                                   |                1271 |
+| [('Counselor', 'conseller')]                             |                1063 |
+| [('Puigdemont', 'puigdemont')]                           |                 936 |
+| [('Spain', 'españa')]                                    |                 881 |
+| [('President', 'president')]                             |                 866 |
+| [('Aragonès', 'aragonès')]                               |                 768 |
+| [('Junqueras', 'junqueras')]                             |                 474 |
+| [('Carrizosa', 'carrizosa')]                             |                 470 |
+| [('Counselor', 'consellera')]                            |                 460 |
+| [('Quiet', 'silenci')]                                   |                 434 |
+| [('Citizens', 'ciudadanos')]                             |                 423 |
+| [('Iceta', 'iceta')]                                     |                 408 |
+| [('MPs', 'diputats')]                                    |                 376 |
+| [('Pot', 'pot')]                                         |                 373 |
+| [('Arrimadas', 'arrimadas')]                             |                 342 |
+| [('Alejandro', 'alejandro'), ('Fernández', 'fernández')] |                 336 |
+| [('Pedro', 'pedro'), ('Sánchez', 'sánchez')]             |                 326 |
+
+We can see that "Thank", "President", "Spain" and so on would be substituted, so we won't use the substitution.
+
+There are 5 errors due to repetition in MT:
+- ParlaMint-ES-CT_2017-10-27-4402.46.0.0.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-ES-CT.conllu/ParlaMint-ES-CT.conllu/2017/ParlaMint-ES-CT_2017-10-27-4402-ca.conllu
+- ... (see logs/ES-CT/create_conllu.md)
+
+### ParlaMint-PL
+
+Most frequent substitutions:
+
+|                                      |   substituted_pairs |
+|:-------------------------------------|--------------------:|
+| [('God', 'bóg')]                     |      2001           |
+| [('Czerwinski', 'Czerwiński')]       |      1510           |
+| [('Augustine', 'Augustyn')]          |      1132           |
+| [('Kaminski', 'Kamiński')]           |       952           |
+| [('Ziobra', 'Ziobro')]               |       808           |
+| [('Płępek', 'Pępek')]                |       706           |
+| [('Richard', 'Ryszard')]             |       684           |
+| [('Kukiz.15', 'Kukiz')]              |       670           |
+| [('John', 'Jan'), ('Paul', 'Paweł')] |       612           |
+| [('Boris', 'Borys')]                 |       608           |
+| [('Mark', 'Marek')]                  |       565           |
+| [('Left', 'lewica')]                 |       486           |
+| [('Blackbay', 'Czarnobaj')]          |       452           |
+| [('Poles', 'Polek')]                 |       449           |
+| [('Zwierzan', 'Zwiercan')]           |       438           |
+| [('Wind', 'Wiatr')]                  |       414           |
+| [('Jack', 'Jacek')]                  |       390           |
+| [('Michael', 'Michał')]              |       382           |
+| [('Owa', 'Sowa')]                    |       382           |
+
+Ones of the most frequent substitutions are connected with the fact that "God", "Poles" and so on are annotated as a PER, so we won't use substitution.
+
+There are 8 errors due to repetition in MT:
+- seg802630.10: /home/tajak/Parlamint-translation/Final-data/ParlaMint-PL.conllu/ParlaMint-PL.conllu/2020/ParlaMint-PL_2020-12-16-sejm-23-2.conllu
+- ... (see logs/PL/create_conllu.md)
+
+
+### ParlaMint-FR
+
+Most frequent substitutions:
+
+|                                                      |   substituted_pairs |
+|:-----------------------------------------------------|--------------------:|
+| [('Mr', 'Monsieur')]                                 |     71665           |
+| [('Mrs', 'Monsieur')]                                |     46860           |
+| [('Prime', 'premier'), ('Minister', 'ministre')]     |      8962           |
+| [('rapporteur', 'Monsieur')]                         |      8707           |
+| [('floor', 'Monsieur')]                              |      8090           |
+| [('Mr.', 'Monsieur')]                                |      7073           |
+| [('Minister', 'Monsieur')]                           |      6769           |
+| [('Madam', 'Monsieur')]                              |      4096           |
+| [('Minister', 'Monsieur'), ('Monsieur', 'ministre')] |      3777           |
+| [('Mr', 'Monsieur'), ('Eric', 'Éric')]               |      2906           |
+| [('speaker', 'Monsieur')]                            |      2068           |
+| [('Mrs.', 'Monsieur')]                               |      1943           |
+| [('Jean', 'Monsieur'), ('Paul', 'Jean-Paul')]        |      1799           |
+| [('Mr', 'Monsieur'), ('Sebastien', 'Sébastien')]     |      1766           |
+| [('Secretary', 'Monsieur')]                          |      1681           |
+| [('Ms.', 'Monsieur')]                                |      1412           |
+| [('Jean', 'Monsieur'), ('Louis', 'Jean-Louis')]      |      1412           |
+| [('Le', 'le')]                                       |      1318           |
+| [('minister', 'Monsieur')]                           |      1295           |
+
+We can see that NER is bad, so we will disable the substitution of proper names.
