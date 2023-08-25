@@ -1,11 +1,13 @@
 # Machine translating the ParlaMint output
 
+A pipeline for machine translation (using OPUS-MT models) of parliamentary text collections in 30+ languages (ParlaMint corpora). The pipeline includes parsing TEI XLM and CONLL-u files, linguistic processing with the Stanza pipeline, machine translation and word alignment with the Eflomal tool.
+
 Table of contents:
 - [pipeline and code](#pipeline)
 - [workflow in details](#workflow)
 - [translation of notes](#translation-of-notes)
 - [analysis of errors: proper noun substitutions, space_after errors, MT errors in notes](#sample-analysis)
-- [information on processing each corpus](#information-on-processing-each-corpus):
+- [information on processing each corpus](#information-on-processing-each-corpus)
 
 ## Pipeline
 
