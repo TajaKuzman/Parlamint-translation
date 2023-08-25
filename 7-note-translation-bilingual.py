@@ -14,13 +14,16 @@ import numpy as np
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("lang_code", help="lang code used in the files")
-    parser.add_argument("opus_lang_code", help="lang code used by the MT system")
     args = parser.parse_args()
 
 # Define the language code, used in the file names
 #lang_code = "CZ"
 lang_code = args.lang_code
-opus_lang_code = args.opus_lang_code
+
+# Define the lang codes
+lang_code_dict = {"BE": {"nl":"nl", "fr":"fr", "de": "gmw"}}
+
+current_lang_code_dict = lang_code_dict[lang_code]
 
 # Define the path to the Source TEI folder
 path = "/home/tajak/Parlamint-translation/Note-translation/Source-data-TEI/ParlaMint-{}.TEI".format(lang_code)
@@ -28,8 +31,7 @@ path = "/home/tajak/Parlamint-translation/Note-translation/Source-data-TEI/Parla
 # Define final path
 notes_path = "/home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/ParlaMint-{}.notes.translated.tsv".format(lang_code)
 
-temp_path = "/home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/before-sorting/ParlaMint-{}.notes.translated-before-sorting.csv".format(lang_code)
-
+#temp_path = "/home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/before-sorting/ParlaMint-{}.notes.translated-before-sorting.csv".format(lang_code)
 
 def extract_tag(tag, df, content):
 	if tag in ["note", "head"]:
@@ -42,15 +44,6 @@ def extract_tag(tag, df, content):
 			type = ""
 
 			if i.attrs.get('type', 'None') != "None":
-			
-			#if len(list(i.attrs.values())) == 1:
-			#	current_note.append(list(i.attrs.values())[0])
-			#elif len(list(i.attrs.values())) == 0:
-			#	current_note.append("")
-			#else:
-			#	print("Error: there are more than 1 attribute!")
-			#	print(i)
-
 				type = i.get("type")
 
 			elif i.attrs.get('reason', 'None') != "None":
@@ -120,7 +113,7 @@ def extract_tag(tag, df, content):
 # Get notified once the code ends
 webhook_url = open("/home/tajak/Parlamint-translation/discord_key.txt", "r").read()
 @discord_sender(webhook_url=webhook_url)
-def translate_notes(path, lang_code, opus_lang_code, notes_path, temp_path):
+def translate_notes(path, lang_code, current_lang_code_dict, notes_path):
 
 	start_time = time.time()
 	print("Extraction of the notes and translation started.")
@@ -216,25 +209,58 @@ def translate_notes(path, lang_code, opus_lang_code, notes_path, temp_path):
 	print("\n")
 
 	print(df.groupby("tag").type.value_counts().to_markdown())
+	
+	print(df["xml:lang"].value_counts().to_markdown())
 
 	# Define the MT model
 	model = EasyNMT('opus-mt')
 
-	# Create a list of sentences from the df
-	sentence_list = df.content.to_list()
+	# Separate the df into three dfs based on language and translate them separately
+	langs = list(current_lang_code_dict.keys())
+	df1 = df[df["xml:lang"] == langs[0]]
+	df2 = df[df["xml:lang"] == langs[1]]
+	df3 = df[df["xml:lang"] == langs[2]]
+	
+	print("Three dataframes created:\n\n")
+	print(df1.describe(include="all").to_markdown())
+	print("\n\n")
+	print(df2.describe(include="all").to_markdown())
+	print("\n\n")
+	print(df3.describe(include="all").to_markdown())
 
-	print("Translation started.")
+	# Translate each df:
+	def translate(df, opus_lang_code):
+		# Create a list of sentences from the df
+		sentence_list = df.content.to_list()
 
-	#Translate the list of sentences - you need to provide the source language as it is in the name of the model - the opus_lang_code
-	#for opus_lang_code in lang_models_dict[lang_code]:
-	translation_list = model.translate(sentence_list, source_lang = "{}".format(opus_lang_code), target_lang='en')
+		print("Translation started.")
 
-	translation_time = round((time.time() - start_time)/60,2)
+		#Translate the list of sentences - you need to provide the source language as it is in the name of the model - the opus_lang_code
+		#for opus_lang_code in lang_models_dict[lang_code]:
+		translation_list = model.translate(sentence_list, source_lang = "{}".format(opus_lang_code), target_lang='en')
 
-	print("Translation completed. It took {} minutes for {} instances for the entire process of extraction and translation.".format(translation_time, len(sentence_list)))
+		translation_time = round((time.time() - start_time)/60,2)
 
-	# Add the translations to the df
-	df["translation"] = translation_list
+		print("Translation completed. It took {} minutes for {} instances for the entire process of extraction and translation.".format(translation_time, len(sentence_list)))
+
+		# Add the translations to the df
+		df["translation"] = translation_list
+		
+		# Display the df
+		print(df.head().to_markdown())
+		
+		return df
+	
+	# Translate all languages
+	df1 = translate(df1, current_lang_code_dict[langs[0]])
+	df2 = translate(df2, current_lang_code_dict[langs[1]])
+	df3 = translate(df3, current_lang_code_dict[langs[2]])
+	
+	# Merge the datasets
+	df = pd.concat([df1,df2], ignore_index=True)
+	df = pd.concat([df,df3], ignore_index=True)
+	print("The size of the final df:{}".format(df.shape))
+	print(df.describe(include="all").to_markdown())
 
 	#translation shortening of long MT repetition errors: if len (words) of EN sentence is more than 4X len (words) of original sentence, shorten the EN sentence to length 4X original sentence (to the nearest word) - applicable only if len of translation is longer than 6 words (to avoid cases where a couple of words in source language would be translated with a longer sequences in English that are still correct)
 
@@ -271,8 +297,8 @@ def translate_notes(path, lang_code, opus_lang_code, notes_path, temp_path):
 
 	print("\n\n\n")
 
-	# Save the df
-	df.to_csv("{}".format(temp_path), sep="\t", index=False)
+	# Save the temporal df
+	#df.to_csv("{}".format(temp_path), sep="\t", index=False)
 
 	# Sort the values
 	df = df.sort_values(by=["tag", "type"])
@@ -284,4 +310,4 @@ def translate_notes(path, lang_code, opus_lang_code, notes_path, temp_path):
 
 	return df
 
-df = translate_notes(path, lang_code, opus_lang_code, notes_path, temp_path)
+df = translate_notes(path, lang_code, current_lang_code_dict, notes_path)

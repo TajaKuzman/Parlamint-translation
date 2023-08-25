@@ -23,12 +23,12 @@ lang_code = args.lang_code
 opus_lang_code = args.opus_lang_code
 
 # Define the path to the Source TEI folder
-path = "/home/tajak/Parlamint-translation/Note-translation/Source-data-TEI/ParlaMint-{}.TEI".format(lang_code)
+path = "/home/tajak/Parlamint-translation/Note-translation/Source-data-TEI/ParlaMint-{}.TEI.ana".format(lang_code)
 
 # Define final path
-notes_path = "/home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/ParlaMint-{}.notes.translated.tsv".format(lang_code)
+notes_path = "/home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/ParlaMint-{}.notes.translated.ana.tsv".format(lang_code)
 
-temp_path = "/home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/before-sorting/ParlaMint-{}.notes.translated-before-sorting.csv".format(lang_code)
+temp_path = "/home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/before-sorting/ParlaMint-{}.notes.translated-before-sorting.ana.csv".format(lang_code)
 
 
 def extract_tag(tag, df, content):
@@ -168,7 +168,7 @@ def translate_notes(path, lang_code, opus_lang_code, notes_path, temp_path):
 	# Reset index
 	df = df.reset_index(drop=True)
 
-	print("Statistics before dropping duplicates:\n\n\n")
+	print("Statistics before droping duplicates:\n\n\n")
 
 	# Show the results
 	print(df.describe(include="all").to_markdown())

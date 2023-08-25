@@ -1,45 +1,21 @@
 # Machine translating the ParlaMint output
 
 Table of contents:
-- [summary of the tasks](#tasks)
-- [overview of datasets and their status](#datasets)
 - [pipeline and code](#pipeline)
 - [workflow in details](#workflow)
-- [next steps](#next-steps)
-- [analysis of reasons for errors in proper noun substitutions](#sample-analysis)
+- [translation of notes](#translation-of-notes)
+- [analysis of errors: proper noun substitutions, space_after errors, MT errors in notes](#sample-analysis)
 - [information on processing each corpus](#information-on-processing-each-corpus):
-	- [ParlaMint-CZ](#parlamint-cz)
-	- [ParlaMint-HR](#parlamint-hr)
-	- [ParlaMint-BG](#parlamint-bg)
-	- [ParlaMint-DK](#parlamint-dk)
-	- [ParlaMint-IS](#parlamint-is)
-	- [ParlaMint-PT](#parlamint-pt)
-
-## Tasks:
-- analyse various MT models on a sample data (ParlaMint-sample-sentence-tokenized.txt): see [code in Kaggle](https://www.kaggle.com/code/tajakuz/simple-machine-translation-with-various-mt-systems), results in the spreadsheet *ParlaMint_MT_Comparison-all-models.xlsx*
-- extract data to be translated based on the Parlamint format
-- use OPUSMT through EasyNMT to machine translate the output
-- use eftomal to get word alignments (train it with the MT output) and assure that proper names are correctly translated based on the word alignments
-
-## Datasets
-
-Order of corpora to be translated: AT GR NO - (sample being evaluated:) HU TR NL - (evaluate by yourself:) SE NO RS BA
-
-Status of the corpora and sizes are [available here](
-https://docs.google.com/spreadsheets/d/1pfkaBgdacHdaC8-CMVYKze6MLe8EoSZVKs2viP_78fE/edit?usp=sharing).
-
-Corpora with more than one language (marked with * in the table above):
-- Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.
-- ParlaMint-NO (Norwegian) also has two languages in TEI (Bokmal and Nynorsk), but these are are processed with the same model, so they have just one CoNLL-U set.
 
 ## Pipeline
 
-1. Extract info from the source conll-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 nohup python 1-conllu-to-df.py "AT" > logs/AT/to_conllu.md &`
+1. Parse source CONLL-u file: extract info from the source CONLL-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 nohup python 1-conllu-to-df.py "AT" > logs/AT/to_conllu.md &`
 	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
 
-2. Choose the model (compare available models on a sample): 2-choose_MT_model.ipynb
+2. Choose the model (compare available models on a sample): `2-choose_MT_model.ipynb`
+	- The spreadsheet with analyses of samples is available [here](https://docs.google.com/spreadsheets/d/1eeI_ZroO3a4pIb5vl--JW7_UpxANikopkKDOLQ6_1fI/edit?usp=sharing).
 
-3. Translate: `CUDA_VISIBLE_DEVICES=1 nohup python 3-translate.py "DK" "da" > logs/DK/translate.md &` (Provide the lang_code and the lang_code as is used by the OPUS-MT system)
+3. Machine translate: `CUDA_VISIBLE_DEVICES=1 nohup python 3-translate.py "DK" "da" > logs/DK/translate.md &` (Provide the lang_code and the lang_code as is used by the OPUS-MT system)
 	- Output: results/{lang_code}/ParlaMint-{lang_code}-translated.csv
 
 4. Align: `CUDA_VISIBLE_DEVICES=2 nohup python 4-word-alignment.py "IS" > logs/IS/align.md &`:
@@ -48,25 +24,44 @@ Corpora with more than one language (marked with * in the table above):
 		2. corrected text is saved as: results/{lang_code}/ParlaMint-{lang_code}-final-dataframe.csv
 	- if the analysis of most common substitutions reveals that it is better not to do the substitutions:
 		- save the translations without the substitutions as the "new-translations" in the final file (in analyse_results.ipynb)
-		- in 5-create-conllu.py, add the language code to the exceptions in line 108
+		- in 5-create-conllu.py, add the language code to the exceptions in line 108 (add it also to the file  `9-translate-additional-files.py` in lines 681 and 786)
 5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu.py "IS" > logs/IS/create_conllu.md &`
-6. If the statistics for the corpus showed in to_conllu.md showed that some files are missing from the df (because they are empty), add the empty files to the final corpus: `CUDA_VISIBLE_DEVICES=2 nohup python 6-add-empty-files.py "SE" > logs/SE/add_missing_files.md &`
-7. Send to new tantra: scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/.
+6. If the statistics for the corpus in to_conllu.md showed that some files are missing from the df (because they are empty), add the empty files to the final corpus: `CUDA_VISIBLE_DEVICES=2 nohup python 6-add-empty-files.py "SE" > logs/SE/add_missing_files.md &`
+7. Send to partners: `scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/`.
 8. Note translation: `CUDA_VISIBLE_DEVICES=0 nohup python 7-note-translation.py "IS" "is" > logs/IS/translate_notes_final.md &`
+	- This code uses the TEI files. If you want to use TEI.ana files, use the following code:
+`CUDA_VISIBLE_DEVICES=0 nohup python 7-note-translation-TEI.ana.py "IS" "is" > logs/IS/translate_notes_final_ana.md &` (The code saves the notes as: ParlaMint-IS.notes.translated.ana.tsv)
+9. Analyse notes in `8-inspect-and-finalize-notes.ipynb` and delete any notes, written in non-target language.
+10. Send the notes to partners: `scp -r Note-translation/Final-data-CSV/ParlaMint-NL.notes.translated.tsv machine_address:~/Notes-translated`
 
-If the corpus consists of two languages (indicated by lang code at the end of each file, e.g., `-ru.conllu`), first check if they can be both translated well with the same MT system. In that case, process it as usual. If not:
+If the corpus consists of two languages (indicated by lang. code at the end of each file, e.g., `-ru.conllu`), first check if they can be both translated well with the same MT system. In that case, process it as usual. If not:
 - perform the 1. step as usual
 - then separate the df into two dfs in `analyse_results.ipynb` (section Creating 2 datasets in case of bilingual corpora), they will be named for instance `ParlaMint-BE-fr-extracted-source-data.csv` and `ParlaMint-BE-nl-extracted-source-data.csv`
 - continue with next steps, but process each file separately by using "BE-fr" and "BE-nl" as the argument instead of BE
 - if there are any files missing from the df (because they are empty), use the step 6, but here use "BE" (without lang suffix) as the argument, and add this as an exception to line 19 in `6-add-empty-files.py`.
+- for note translation, first add the dictionary of lang and opus codes to line 23 in *7-note-translation-bilingual.py*. Then, use the following code: `CUDA_VISIBLE_DEVICES=2 nohup python 7-note-translation-bilingual.py "BE" > logs/BE/translate_notes_final.md &`
+
+Corpora with more than one language:
+- Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.
+- ParlaMint-NO (Norwegian) also has two languages in TEI (Bokmal and Nynorsk), but these are processed with the same model (because the model performs well on both languages), so they have just one CoNLL-U set. We did the same with Ukrainian and Catalan corpus.
+
+If you need to translate just a couple of additional files:
+1. Rename the folder with all the files in Source-data to ParlaMint-AT.conllu.main. Create a new folder ParlaMint-AT.conllu/ParlaMint-AT.conllu from which we will process additional files (save the files there).
+2. Repeat the steps as when translating the entire corpus with the following code:
+ `CUDA_VISIBLE_DEVICES=1 nohup python 9-translate-additional-files.py "DK" "da" > logs/DK/process_additional_files.md &`
+3. If the statistics for the corpus in process_additional_files.md showed that some files are missing from the df (because they are empty), add the empty files to the final corpus: `CUDA_VISIBLE_DEVICES=2 nohup python 6.2-add-empty-files-additional.py "SE" > logs/SE/add_missing_files.md &`
+4. Send to partners: `scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/`.
+5. We haven't considered translating notes for additional files yet.
+
+The code aligns the words based on the prior file created from the main corpus (which is much larger and thus ensures better alignment). The additional files are saved in the same folder as the original main corpus, so if there were any files with the same name, they overwrite them.
 
 ## Workflow
 
 1. Extract information from the CONLL-U
-2. Translate
+2. Translate with OPUS-MT
 3. Tokenize English translations with Stanza
-4. Word alignment, get information on NE annotations for each translated word from the source annotations
-5. Linguistically process English translation with Stanza (lemmas, POS, ner)
+4. Word alignment with Eflomal, get information on NE annotations for each translated word from the source annotations
+5. Linguistically process English translation with Stanza (lemmas, POS, NER)
 6. Parse CONLL-u file and add additional information (sentence ids, alignments in both directions, source text, SpaceAfter information)
 
 More details:
@@ -77,15 +72,15 @@ More details:
 	- information on the proper nouns: if the word is annotated as a proper noun (has "PER" in ner attribute), take its index, form and lemma and save it into a dictionary for each sentence ({0: (Taje, Taja), 1: (Kuzman, Kuzman)})
 2. Translate
 3. Word alignment:
-	- We apply the stanza tokenization over the translation; use tokenize_no_ssplit to avoid splitting sentences in multiple sentences. Save also information on whether there was initially a space around punctuation (based on start_char and end_char information) which we use at the end to remove spaces around the punctuation in the translation.
+	- We apply the Stanza tokenization over the translation; use tokenize_no_ssplit to avoid splitting sentences in multiple sentences. Save also information on whether there was initially a space around punctuation (based on start_char and end_char information) which we use at the end to remove spaces around the punctuation in the translation.
 	- Perform word alignment.
 	- Save forward and reverse alignment information for each word - they should be connected with the indices of source words as they appear in the source conllu file. The conllu files start counting with 1, while alignment starts with 0, so to get those indices, we will add "1" to each aligned index.
-	- Substitute translated NE words with lemmas based on the annotation to create the new translation. For the words that were substituted, save also a list of the original words (to be added to the conllu).
+	- Substitute translated NE words with lemmas based on the alignment to create the new translation. For the words that were substituted, save also a list of the original words (to be added to the conllu).
 4. Linguistic processing of translated text:
-	- We use Stanza to get POS, lemmas and NER (the 4 tag package: conll03). Send in the "pre-tokenized text" (created in previous steps).
+	- We use Stanza to get POS, lemmas and NER (the 4-tag package: conll03).  We send in the "pre-tokenized text" (created in previous steps).
 	- Transform the result into CONLL-u (which should contain tokens, lemmas, pos). Parse the CONLL-u file and add:
 		1) sentence_id as metadata
-		2) based on alignment, add SpaceAfter information - I add this information only if "SpaceAfter" is "No" (as it is in the original texts)
+		2) based on alignment, add SpaceAfter information - I add this information only if "SpaceAfter" is "No" (as it is in the source CONLL-u files)
 		3) source text ("source")
 		4) original translated text (before improvements - #initial_translation metadata) (used only for testing, won't be added in the final conllu)
 		5) improved translated text (#text metadata): based on SpaceAfter information, remove spaces around punctuation
@@ -94,7 +89,7 @@ More details:
 		8) For the words that were substituted, add the original translation (#Translated metadata) to ["misc"]
 		9) For all words, add information on alignment (#ForwardAlignment and #BackwardAlignment) with the conllu indices of source words (in case of syntactic units, as the alignment is done on subword level, indices point to subwords, not multitokens)
 		19) source word indices as metadata ("source_indices") - used only for testing, won't be added in the final conllu
-	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and ANA file.
+	- Save the file as CONLLU with the same name as the source CONLLU file (so each file will be saved separately). The number of sentences should be the same as in the source CONLLU and TEI.ana file.
 
 This is now implemented, the sample files are:
 - sample file with additional information for debugging purposes (initial translation, source_indices: ["results/CZ-old/final_translated_conllu/sample_with_dev_metadata_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu"](https://github.com/TajaKuzman/Parlamint-translation/blob/master/results/CZ-old/final_translated_conllu/sample_with_dev_metadata_ParlaMint-CZ_2013-11-25-ps2013-001-01-002-002.conllu)
@@ -106,7 +101,7 @@ Some remarks:
 
 ## Translation of notes
 
-The notes are taken from the unannotated TEI corpus. The elements that are extracted:
+The notes are taken from the TEI corpus. The elements that are extracted:
 - < note >, further specified with the "type" attribute
 - < gap >, further specified with the "reason" attribute
 - < head >
@@ -118,7 +113,7 @@ In < head > and < note >, the text is not encapsulated by additional tags, while
 
 If the note is not in the main language of the corpus (a different language is specified by the "xml:lang" attribute), then we do not translate it.
 
-Example:
+Example of note in foreign language:
 
 ```
 <gap reason="foreign">
@@ -127,7 +122,7 @@ Example:
 ```
 
 
-Examples:
+Examples of notes in TEI:
 ```
  <note type="speaker">The president, Dr. Milan Brglez:</note>
 ...
@@ -162,11 +157,6 @@ and furthermore ...
 ```
 
 ### TO DO:
-- assure that there are no new lines in cell values - narejeno
-- add a column with the country code - narejeno
-- add xml:lang information from the parent element, if it is not present in the note tag - narejeno
-- remove column with index (by that, the header row would also not begin with \t) - narejeno
-- sort the rows - by content? - narejeno
 
 
 ## Sample analysis
@@ -302,8 +292,6 @@ Possible solutions: using spacy tokenizer instead of stanza tokenizer; encoding 
 
 The report on the process of translation of notes, based on ParlaMint-SI:
 
-- The processing of notes does not take a lot of time - extraction and translation for ParlaMint-SI (440k notes, after deduplication: 10k notes, 70k words) took around 10-15 minutes.
-
 - Main finding: errors in proper name translation are very common. Tag "note speaker" represents 71% of notes (before the duplication) and most are incorrect.  Examples: "Romana Tomc" -> "Tomc of Romania", "Ljudmila Novak" -> "Human Novak", "Zmago Jelinčič Plemeniti" -> "Flamming Flammers", "Zmago Jelinčič Plemeniti" -> "The Winner of the Welcomes", "Nevenka Ribič" -> "Newenka Fish"
 
 - Errors per tag and tag type (in the parentheses, I added number of occurrences in corpus before duplication so that we have a feeling of the general occurrence of this note in the source corpus) :
@@ -321,6 +309,7 @@ Other findings (less common errors):
 Other errors in notes that were identified:
 
 - common MT hallucinations when translating numbers, see the following example for ParlaMint-DK:
+
 ```
 0	note	agendaItem	2017-11-22-0		1	This Regulation shall be binding in its entirety and directly applicable in all Member States.
 1	note	agendaItem	2017-11-22-1		1	This Regulation shall be binding in its entirety and directly applicable in all Member States.
@@ -387,18 +376,8 @@ As we can see, post-processing in Bulgarian would introduce many errors, because
 
 The processing into the final conll-u files revealed errors (similar to errors in ParlaMint-DK) in translation and spaces between words in following 38 sentences:
 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2017/ParlaMint-BG_2017-07-26.conllu: ParlaMint-BG_2017-07-26.seg1009.1
-- /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2017/ParlaMint-BG_2017-11-08.conllu: ParlaMint-BG_2017-11-08.seg1140.1, ParlaMint-BG_2017-11-08.seg1250.1
-- /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2017/ParlaMint-BG_2017-09-20.conllu: ParlaMint-BG_2017-09-20.seg14.2
-- ParlaMint-BG_2018-07-19.seg746.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-07-19.conllu
-- ParlaMint-BG_2018-10-12.seg204.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-10-12.conllu
-- ParlaMint-BG_2018-04-19.seg252.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-04-19.conllu
-- ParlaMint-BG_2018-03-21.seg385.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-03-21.conllu
-- ParlaMint-BG_2018-07-18.seg780.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-07-18.conllu
-- ParlaMint-BG_2018-10-24.seg922.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-10-24.conllu
-- ParlaMint-BG_2018-07-11.seg873.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-07-11.conllu
-- ParlaMint-BG_2018-04-04.seg629.1 - /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2018/ParlaMint-BG_2018-04-04.conllu
+- /home/tajak/Parlamint-translation/Final-data/ParlaMint-BG.conllu/ParlaMint-BG.conllu/2017/
 - ... (for all sentences, see logs/BG/create_conllu.md)
-
 
 Corpus has no note tags < note >, < head > and < gap >.
 
@@ -429,47 +408,11 @@ Most frequent substitutions:
 | [('Engel', 'Engel-Schmidt')]                             |       285           |
 
 The processing into CONLL-u files revealed some errors in translations when unwanted repetition occurred - this is the case of the following 15 sentences:
-- ParlaMint-DK_2017-10-04-20171-M2.conllu: ParlaMint-DK_20171004130237.seg2.20
-- ParlaMint-DK_2017-05-30-20161-M104.conllu: ParlaMint-DK_20170530131245.seg28.24
-	`The next item is the joint debate on the following motions for resolutions: 8, adopted by a majority (S, DF, V, LA and CF) on Amendment No 8, tabled by the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats), on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Liberal, Democratic and Reformist Group, on behalf of the European Democratic Group. 11-13, adopted by the Committee on Amendment No. 14, adopted by a majority (Committee with the exception of EL and ALT), on Amendment No. 15-17, adopted by the committee, on Amendment No 17. 18. adopted by a majority (Committee with the exception of EL and ALT) on Amendment No 18. 19 and 20, adopted by the Committee, on Amendments Nos 19 and 20. 21, adopted by a majority (S, DF, V, LA and CF), on Amendment No 21, tabled by the Group of the European People's Party (Christian Democrats) and European Democrats (Christian Democrats ) and European Democrats(Christian Democrats) and European Democrats (Christian Democrats) and European Democrats (Christian Democrats) and European Democrats (Christian Democrats) and European Democrats (Christian Democrats) and European Democrats). 22, 26, 27, 29-35 and 37-39, adopted by the Committee, on Amendments Nos. 41. adopted by a majority (S, DF, V, LA and CF) on Amendment No. 42-44, as agreed by the committee, on Amendment No. 47, adopted by a majority (S, DF, V, LA and CF) or on Amendment No 7. 48th meeting of the Committee?`
-- ParlaMint-DK_2018-10-03-20181-M2.conllu: ParlaMint-DK_20181003130302.seg2.9
-- ParlaMint-DK_2016-11-08-20161-M12.conllu: ParlaMint-DK_20161108142038.seg96.5
 - ParlaMint-DK_2016-05-03-20151-M86.conllu: ParlaMint-DK_20160503174318.seg453.10:
 	`That is to say, the rapporteur believes that the people per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per; per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per definition has the right tocitizenship.`
-- ParlaMint-DK_2022-03-16-20211-M75.conllu: ParlaMint-DK_20220316131402.seg27.2
-- ParlaMint-DK_2022-03-01-20211-M69.conllu: ParlaMint-DK_20220301130003.seg1.4
 - ParlaMint-DK_2021-06-03-20201-M128.conllu: ParlaMint-DK_20210603165102.seg595.5:
 	`And as far as starting the fight against knowledge is concerned, Fonsmark has a point, namely that it is wrong to throw knowledge on the dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dang dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d dd `
-- ParlaMint-DK_2015-07-03-20142-M2.conllu: ParlaMint-DK_20150703110004.seg1.5
-- ParlaMint-DK_2020-12-17-20201-M39.conllu: ParlaMint-DK_20201217161351-2.seg600.3
-- ParlaMint-DK_2020-03-13-20191-M76.conllu
-: ParlaMint-DK_20200313122701.seg34.8
-- ParlaMint-DK_2020-04-28-20191-M100.conllu: ParlaMint-DK_20200428165944.seg296.14
-- ParlaMint-DK_2019-10-02-20191-M2.conllu: ParlaMint-DK_20191002130244.seg2.30
-- ParlaMint-DK_2019-10-10-20191-M6.conllu: ParlaMint-DK_20191010100051.seg3.10
-- ParlaMint-DK_2019-12-13-20191-M37.conllu: ParlaMint-DK_20191213124228.seg250.6
-
-
-The processing into CONLL-u files revealed some errors in translations when unwanted repetition occurred - this is the case of the following 15 sentences:
-- ParlaMint-DK_2017-10-04-20171-M2.conllu: ParlaMint-DK_20171004130237.seg2.20
-- ParlaMint-DK_2017-05-30-20161-M104.conllu: ParlaMint-DK_20170530131245.seg28.24
-	`The next item is the joint debate on the following motions for resolutions: 8, adopted by a majority (S, DF, V, LA and CF) on Amendment No 8, tabled by the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Group of the European People's Party (Christian Democrats), on behalf of the Group of the European People's Party (Christian Democrats) and European Democrats, on behalf of the Liberal, Democratic and Reformist Group, on behalf of the European Democratic Group. 11-13, adopted by the Committee on Amendment No. 14, adopted by a majority (Committee with the exception of EL and ALT), on Amendment No. 15-17, adopted by the committee, on Amendment No 17. 18. adopted by a majority (Committee with the exception of EL and ALT) on Amendment No 18. 19 and 20, adopted by the Committee, on Amendments Nos 19 and 20. 21, adopted by a majority (S, DF, V, LA and CF), on Amendment No 21, tabled by the Group of the European People's Party (Christian Democrats) and European Democrats (Christian Democrats ) and European Democrats(Christian Democrats) and European Democrats (Christian Democrats) and European Democrats (Christian Democrats) and European Democrats (Christian Democrats) and European Democrats (Christian Democrats) and European Democrats). 22, 26, 27, 29-35 and 37-39, adopted by the Committee, on Amendments Nos. 41. adopted by a majority (S, DF, V, LA and CF) on Amendment No. 42-44, as agreed by the committee, on Amendment No. 47, adopted by a majority (S, DF, V, LA and CF) or on Amendment No 7. 48th meeting of the Committee?`
-- ParlaMint-DK_2018-10-03-20181-M2.conllu: ParlaMint-DK_20181003130302.seg2.9
-- ParlaMint-DK_2016-11-08-20161-M12.conllu: ParlaMint-DK_20161108142038.seg96.5
-- ParlaMint-DK_2016-05-03-20151-M86.conllu: ParlaMint-DK_20160503174318.seg453.10:
-	`That is to say, the rapporteur believes that the people per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per; per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per person per definition has the right tocitizenship.`
-- ParlaMint-DK_2022-03-16-20211-M75.conllu: ParlaMint-DK_20220316131402.seg27.2
-- ParlaMint-DK_2022-03-01-20211-M69.conllu: ParlaMint-DK_20220301130003.seg1.4
-- ParlaMint-DK_2021-06-03-20201-M128.conllu: ParlaMint-DK_20210603165102.seg595.5:
-	`And as far as starting the fight against knowledge is concerned, Fonsmark has a point, namely that it is wrong to throw knowledge on the dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dang dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung dung d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d dd `
-- ParlaMint-DK_2015-07-03-20142-M2.conllu: ParlaMint-DK_20150703110004.seg1.5
-- ParlaMint-DK_2020-12-17-20201-M39.conllu: ParlaMint-DK_20201217161351-2.seg600.3
-- ParlaMint-DK_2020-03-13-20191-M76.conllu
-: ParlaMint-DK_20200313122701.seg34.8
-- ParlaMint-DK_2020-04-28-20191-M100.conllu: ParlaMint-DK_20200428165944.seg296.14
-- ParlaMint-DK_2019-10-02-20191-M2.conllu: ParlaMint-DK_20191002130244.seg2.30
-- ParlaMint-DK_2019-10-10-20191-M6.conllu: ParlaMint-DK_20191010100051.seg3.10
-- ParlaMint-DK_2019-12-13-20191-M37.conllu: ParlaMint-DK_20191213124228.seg250.6
+- ... (for all sentences, see logs/DK/create_conllu.md)
 
 Notes are only encoded as < note > or < head > (no other notes tags were found).
 
@@ -513,7 +456,6 @@ Most frequent substitutions:
 
 |                                                                       |   substituted_pairs |
 |:----------------------------------------------------------------------|--------------------:|
-| 0                                                                     |              282730 |
 | [('Mr.', 'sr.'), ('President', 'Presidente')]                         |               14470 |
 | [('President', 'Presidente')]                                         |               11686 |
 | [('Minister', 'Ministro')]                                            |                6162 |
@@ -536,7 +478,6 @@ Most frequent substitutions:
 
 We found 12 errors in sentences (as in ParlaMint-DK and others) due to MT model hallucinations:
 - ParlaMint-PT_2017-02-02.seg250.s: /home/tajak/Parlamint-translation/Final-data/ParlaMint-PT.conllu/ParlaMint-PT.conllu/2017/ParlaMint-PT_2017-02-02.conllu
-- ParlaMint-PT_2018-05-04.seg808.s: /home/tajak/Parlamint-translation/Final-data/ParlaMint-PT.conllu/ParlaMint-PT.conllu/2018/ParlaMint-PT_2018-05-04.conllu
 - ... (see all instances in logs/PT/create_conllu.md)
 
 Corpus has no < gap > and < incident > tags.
@@ -571,7 +512,6 @@ Since the most frequent substitution would introduce errors, we will disable the
 
 There were 48 errors in final files due to repetitions in MT:
 - ParlaMint-HR_2017-12-13-0.u64797.seg0.71: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HR.conllu/ParlaMint-HR.conllu/2017/ParlaMint-HR_2017-12-13-0.conllu
-- ParlaMint-HR_2018-12-13-0.u122741.seg0.32: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HR.conllu/ParlaMint-HR.conllu/2018/ParlaMint-HR_2018-12-13-0.conllu
 - ... (see logs/HR/create_conllu.md)
 
 There is no < head > tag in TEI files.
@@ -582,7 +522,6 @@ Most frequent substitutions:
 
 |                                                                     |   substituted_pairs |
 |:--------------------------------------------------------------------|--------------------:|
-| 0                                                                   |         1.24942e+06 |
 | [('FI', 'FI-PdL'), ('XVII', 'diciassettesimo')]                     |      1990           |
 | [('Mario', 'mario')]                                                |      1064           |
 | [('Gentiloni', 'gentiloni')]                                        |       895           |
@@ -607,7 +546,6 @@ As in Portuguese, alignment would introduce more errors than corrections due to 
 
 The creation of CONLL-u files revealed errors in 11 sentences (due to repetitions in translations):
 - ParlaMint-IT_2017-03-16-LEG17-Senato-sed-787.ana.seg18.49: /home/tajak/Parlamint-translation/Final-data/ParlaMint-IT.conllu/ParlaMint-IT.conllu/2017/ParlaMint-IT_2017-03-16-LEG17-Senato-sed-787.conllu
-- ParlaMint-IT_2017-01-12-LEG17-Senato-sed-740.ana.seg7.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-IT.conllu/ParlaMint-IT.conllu/2017/ParlaMint-IT_2017-01-12-LEG17-Senato-sed-740.conllu
 - ... (see all in logs/IT/create_conllu.md)
 
 There are no < gap > notes.
@@ -640,103 +578,11 @@ As in Portuguese and Italian, alignment would introduce more errors than correct
 
 There were 19 errors in sentences:
 - ParlaMint-AT_2013-01-30-024-XXIV-NRSITZ-00187_d2e2125.s3: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2013/ParlaMint-AT_2013-01-30-024-XXIV-NRSITZ-00187.conllu
-- ParlaMint-AT_2003-06-10-022-XXII-NRSITZ-00020_d2e252.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2003/ParlaMint-AT_2003-06-10-022-XXII-NRSITZ-00020.conllu
-- ParlaMint-AT_2003-12-04-022-XXII-NRSITZ-00041_d2e9147.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-AT.conllu/ParlaMint-AT.conllu/2003/ParlaMint-AT_2003-12-04-022-XXII-NRSITZ-00041.conllu
 - ... (see logs/AT/create_conllu.md for all errors)
 
 There were no < incident > and < head > tags in corpus.
 
 ### ParlaMint-SE
-
-The following 9 files were revealed to be empty and are not included in the df:
-
-ParlaMint-SE_2018-08-09-prot-201718--141.conllu
-
-ParlaMint-SE_2018-05-14-prot-201718--110.conllu
-
-ParlaMint-SE_2018-11-27-prot-201819--21.conllu
-
-ParlaMint-SE_2018-11-20-prot-201819--18.conllu
-
-ParlaMint-SE_2018-12-10-prot-201819--25.conllu
-
-ParlaMint-SE_2018-12-13-prot-201819--28.conllu
-
-ParlaMint-SE_2018-11-06-prot-201819--12.conllu
-
-ParlaMint-SE_2018-12-04-prot-201819--23.conllu
-
-ParlaMint-SE_2018-11-13-prot-201819--15.conllu
-
-ParlaMint-SE_2016-10-19-prot-201617--17.conllu
-
-ParlaMint-SE_2016-09-21-prot-201617--6.conllu
-
-ParlaMint-SE_2022-02-28-prot-202122--74.conllu
-
-ParlaMint-SE_2022-04-13-prot-202122--97.conllu
-
-ParlaMint-SE_2022-03-14-prot-202122--80.conllu
-
-ParlaMint-SE_2021-01-04-prot-202021--58.conllu
-
-ParlaMint-SE_2021-11-26-prot-202122--35.conllu
-
-ParlaMint-SE_2021-09-28-prot-202122--11.conllu
-
-ParlaMint-SE_2021-01-05-prot-202021--59.conllu
-
-ParlaMint-SE_2021-07-06-prot-202021--151.conllu
-
-ParlaMint-SE_2021-11-16-prot-202122--28.conllu
-
-ParlaMint-SE_2021-01-07-prot-202021--60.conllu
-
-ParlaMint-SE_2021-06-29-prot-202021--149.conllu
-
-ParlaMint-SE_2021-12-07-prot-202122--40.conllu
-
-ParlaMint-SE_2021-11-04-prot-202122--25.conllu
-
-ParlaMint-SE_2021-08-17-prot-202021--154.conllu
-
-ParlaMint-SE_2021-06-28-prot-202021--148.conllu
-
-ParlaMint-SE_2021-12-20-prot-202122--49.conllu
-
-ParlaMint-SE_2020-04-27-prot-201920--112.conllu
-
-ParlaMint-SE_2020-04-21-prot-201920--108.conllu
-
-ParlaMint-SE_2020-04-07-prot-201920--101.conllu
-
-ParlaMint-SE_2020-05-12-prot-201920--119.conllu
-
-ParlaMint-SE_2020-03-30-prot-201920--96.conllu
-
-ParlaMint-SE_2020-06-29-prot-201920--144.conllu
-
-ParlaMint-SE_2020-03-24-prot-201920--92.conllu
-
-ParlaMint-SE_2020-04-09-prot-201920--103.conllu
-
-ParlaMint-SE_2020-05-19-prot-201920--122.conllu
-
-ParlaMint-SE_2020-03-19-prot-201920--89.conllu
-
-ParlaMint-SE_2020-04-30-prot-201920--115.conllu
-
-ParlaMint-SE_2020-06-30-prot-201920--145.conllu
-
-ParlaMint-SE_2020-05-20-prot-201920--123.conllu
-
-ParlaMint-SE_2020-09-29-prot-202021--16.conllu
-
-ParlaMint-SE_2019-01-14-prot-201819--36.conllu
-
-ParlaMint-SE_2019-01-17-prot-201819--38.conllu
-
-ParlaMint-SE_2019-01-22-prot-201819--41.conllu
 
 Most frequent substitutions:
 
@@ -769,118 +615,6 @@ There were no errors with SpaceAfter due to MT repetitions in this corpus :)
 There are no < gap >, < vocal > or < incident > notes.
 
 ### ParlaMint-NL
-
-The following 55 files were revealed to be empty and are not included in the df:
-
-ParlaMint-NL_2017-03-23-tweedekamer-4.conllu
-
-ParlaMint-NL_2017-03-23-tweedekamer-3.conllu
-
-ParlaMint-NL_2017-10-25-tweedekamer-3.conllu
-
-ParlaMint-NL_2017-09-07-tweedekamer-4.conllu
-
-ParlaMint-NL_2017-10-31-tweedekamer-2.conllu
-
-ParlaMint-NL_2017-03-28-eerstekamer-3.conllu
-
-ParlaMint-NL_2017-03-23-tweedekamer-5.conllu
-
-ParlaMint-NL_2018-10-02-eerstekamer-3.conllu
-
-ParlaMint-NL_2018-06-07-tweedekamer-9.conllu
-
-ParlaMint-NL_2018-09-13-tweedekamer-7.conllu
-
-ParlaMint-NL_2018-01-18-tweedekamer-5.conllu
-
-ParlaMint-NL_2018-09-05-tweedekamer-3.conllu
-
-ParlaMint-NL_2018-10-10-tweedekamer-3.conllu
-
-ParlaMint-NL_2018-12-12-tweedekamer-6.conllu
-
-ParlaMint-NL_2018-06-07-tweedekamer-14.conllu
-
-ParlaMint-NL_2018-06-13-tweedekamer-6.conllu
-
-ParlaMint-NL_2018-04-03-tweedekamer-6.conllu
-
-ParlaMint-NL_2018-06-06-tweedekamer-6.conllu
-
-ParlaMint-NL_2018-11-07-tweedekamer-9.conllu
-
-ParlaMint-NL_2018-06-05-tweedekamer-7.conllu
-
-ParlaMint-NL_2016-04-20-tweedekamer-7.conllu
-
-ParlaMint-NL_2016-12-14-tweedekamer-5.conllu
-
-ParlaMint-NL_2016-01-26-tweedekamer-6.conllu
-
-ParlaMint-NL_2016-03-01-tweedekamer-6.conllu
-
-ParlaMint-NL_2016-01-12-tweedekamer-6.conllu
-
-ParlaMint-NL_2016-09-13-eerstekamer-6.conllu
-
-ParlaMint-NL_2016-01-27-tweedekamer-4.conllu
-
-ParlaMint-NL_2016-11-30-tweedekamer-5.conllu
-
-ParlaMint-NL_2015-06-09-eerstekamer-4.conllu
-
-ParlaMint-NL_2015-11-03-tweedekamer-6.conllu
-
-ParlaMint-NL_2015-09-22-tweedekamer-8.conllu
-
-ParlaMint-NL_2015-06-16-eerstekamer-3.conllu
-
-ParlaMint-NL_2015-01-13-tweedekamer-7.conllu
-
-ParlaMint-NL_2015-06-16-eerstekamer-5.conllu
-
-ParlaMint-NL_2015-11-05-tweedekamer-6.conllu
-
-ParlaMint-NL_2015-05-20-tweedekamer-7.conllu
-
-ParlaMint-NL_2015-08-19-tweedekamer-3.conllu
-
-ParlaMint-NL_2020-05-20-tweedekamer-5.conllu
-
-ParlaMint-NL_2020-05-07-tweedekamer-3.conllu
-
-ParlaMint-NL_2020-09-01-tweedekamer-7.conllu
-
-ParlaMint-NL_2020-01-22-tweedekamer-4.conllu
-
-ParlaMint-NL_2020-09-22-tweedekamer-6.conllu
-
-ParlaMint-NL_2019-07-03-tweedekamer-11.conllu
-
-ParlaMint-NL_2019-06-25-tweedekamer-5.conllu
-
-ParlaMint-NL_2019-06-05-tweedekamer-4.conllu
-
-ParlaMint-NL_2019-06-11-eerstekamer-3.conllu
-
-ParlaMint-NL_2019-06-18-eerstekamer-3.conllu
-
-ParlaMint-NL_2019-03-26-tweedekamer-6.conllu
-
-ParlaMint-NL_2019-03-12-tweedekamer-6.conllu
-
-ParlaMint-NL_2019-07-02-eerstekamer-5.conllu
-
-ParlaMint-NL_2019-06-11-eerstekamer-4.conllu
-
-ParlaMint-NL_2019-02-20-tweedekamer-6.conllu
-
-ParlaMint-NL_2019-06-11-tweedekamer-5.conllu
-
-ParlaMint-NL_2019-06-11-eerstekamer-6.conllu
-
-ParlaMint-NL_2019-05-29-tweedekamer-6.conllu
 
 Most frequent substitutions:
 
@@ -917,84 +651,6 @@ Translation of notes revealed that there are no < gap >, < vocal >, < kinesic > 
 
 ### ParlaMint-NO
 
-The following 38 files were revealed to be empty:
-
-ParlaMint-NO_1998-12-07-lower.conllu
-
-ParlaMint-NO_1998-10-13-lower.conllu
-
-ParlaMint-NO_1999-10-06-lower.conllu
-
-ParlaMint-NO_1999-05-11-lower.conllu
-
-ParlaMint-NO_2003-11-06-lower.conllu
-
-ParlaMint-NO_2003-10-23-lower.conllu
-
-ParlaMint-NO_2004-05-18-lower.conllu
-
-ParlaMint-NO_2004-10-13-lower.conllu
-
-ParlaMint-NO_2005-11-22-lower.conllu
-
-ParlaMint-NO_2005-11-15-lower.conllu
-
-ParlaMint-NO_2005-06-17-lower.conllu
-
-ParlaMint-NO_2005-10-20-lower.conllu
-
-ParlaMint-NO_2005-04-04-lower.conllu
-
-ParlaMint-NO_2005-01-11-lower.conllu
-
-ParlaMint-NO_2008-01-10-lower.conllu
-
-ParlaMint-NO_2008-11-03-lower.conllu
-
-ParlaMint-NO_2009-01-26-lower.conllu
-
-ParlaMint-NO_2000-11-03-lower.conllu
-
-ParlaMint-NO_2000-06-16-lower.conllu
-
-ParlaMint-NO_2000-05-02-lower-2.conllu
-
-ParlaMint-NO_2000-09-28-upper.conllu
-
-ParlaMint-NO_2000-05-30-lower.conllu
-
-ParlaMint-NO_2000-06-09-lower.conllu
-
-ParlaMint-NO_2000-01-20-lower.conllu
-
-ParlaMint-NO_2000-09-28-lower.conllu
-
-ParlaMint-NO_2002-05-30-lower.conllu
-
-ParlaMint-NO_2002-11-19-lower.conllu
-
-ParlaMint-NO_2002-09-30-lower.conllu
-
-ParlaMint-NO_2002-12-13-lower.conllu
-
-ParlaMint-NO_2007-09-28-lower.conllu
-
-ParlaMint-NO_2007-10-09-lower.conllu
-
-ParlaMint-NO_2007-10-23-lower.conllu
-
-ParlaMint-NO_2007-02-13-lower.conllu
-
-ParlaMint-NO_2007-11-20-lower.conllu
-
-ParlaMint-NO_2006-02-09-lower.conllu
-
-ParlaMint-NO_2006-09-29-lower.conllu
-
-ParlaMint-NO_2006-04-04-lower.conllu
-
-ParlaMint-NO_2006-01-10-lower.conllu
-
 Most frequent substitutions:
 
 |                                   |   substituted_pairs |
@@ -1023,11 +679,11 @@ Since the most frequent substitution (King) is wrong, we won't use the substitut
 
 There were 19 errors based on repetition in MT:
 - ParlaMint-NO_2013-06-21.ana.segd581e13177.4: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NO.conllu/ParlaMint-NO.conllu/2013/ParlaMint-NO_2013-06-21.conllu
-- ParlaMint-NO_1998-12-08-2.ana.segd1654e1192.4: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NO.conllu/ParlaMint-NO.conllu/1998/ParlaMint-NO_1998-12-08-2.conllu
-- ParlaMint-NO_2010-03-04.ana.segd1050e1289.5: /home/tajak/Parlamint-translation/Final-data/ParlaMint-NO.conllu/ParlaMint-NO.conllu/2010/ParlaMint-NO_2010-03-04.conllu
 - ... (see logs/NO/create_conllu.md)
 
 Notes are only in < note > and < head > tags.
+
+When translating notes, there were two notes, marked with lang code "en", but that are in Norwegian. So, I did not delete them, I just changed the lang code.
 
 ### ParlaMint-GR
 
@@ -1059,7 +715,6 @@ Like with Bulgarian, we will disable substitution, because otherwise there would
 
 There were 8 sentences with errors due to errors in translation:
 - ParlaMint-GR_2017-06-19-S1-commons.seg309.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-GR.conllu/ParlaMint-GR.conllu/2017/ParlaMint-GR_2017-06-19-S1-commons.conllu
-- ParlaMint-GR_2017-04-24-S1-commons.seg271.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-GR.conllu/ParlaMint-GR.conllu/2017/ParlaMint-GR_2017-04-24-S1-commons.conllu
 - ... (see all instances in logs/GR/create_conllu.md)
 
 ### ParlaMint-BA
@@ -1090,9 +745,6 @@ Most frequent substitutions:
 
 There were 14 errors reported, connected to Spaceafter information due to errors in machine translation:
 - ParlaMint-BA_2013-09-19-0.u16851.seg0.17: home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2013/ParlaMint-BA_2013-09-19-0.conllu
-- ParlaMint-BA_2013-01-31-0.u13389.seg0.9: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2013/ParlaMint-BA_2013-01-31-0.conllu
-- ParlaMint-BA_2017-09-07-0.u19666.seg1.3: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2017/ParlaMint-BA_2017-09-07-0.conllu
-- ParlaMint-BA_2021-12-14-0.u10932.seg0.5: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BA.conllu/ParlaMint-BA.conllu/2021/ParlaMint-BA_2021-12-14-0.conllu
 - ... (see logs/BA/create_conllu.md)
 
 There are no notes in < head > tags in ParlaMint-BA.
@@ -1103,7 +755,6 @@ Most frequent substitutions:
 
 |                                                                |   substituted_pairs |
 |:---------------------------------------------------------------|--------------------:|
-| 0                                                              |         1.44271e+06 |
 | [('Parliament', 'Országgyűlés')]                               |     23746           |
 | [('Viktor', 'Orbán'), ('Orbán', 'Viktor')]                     |      3894           |
 | [('Here', 'parancsol')]                                        |      1543           |
@@ -1162,11 +813,10 @@ Most frequent substitutions:
 
 Since based on NER annotations, we would substitute "President", "Mr.", etc., we will disable substitution.
 
-Turkish has more problems with MT hallucinations than the others!!
+Turkish has more problems with MT hallucinations than the others.
 
 There were errors based on spaceafter and repetitions in translations in 51 sentences - there is especially a problem with repetition of "on and on and on" in multiple sentences:
 - "tbmm-2013-05-29sit03spe0065par0090-000060": /home/tajak/Parlamint-translation/Final-data/ParlaMint-TR.conllu/ParlaMint-TR.conllu/2013/ParlaMint-TR_2013-05-29-tbmm-T24.conllu
-- "tbmm-2013-11-14sit03spe0149par0204-000020": /home/tajak/Parlamint-translation/Final-data/ParlaMint-TR.conllu/ParlaMint-TR.conllu/2013/ParlaMint-TR_2013-11-14-tbmm-T24.conllu
 - ... (see all instances in logs/TR/create_conllu.md)
 
 Translation of notes: ParlaMint-TR has not notes in < gap > and < head > tags.
@@ -1201,7 +851,6 @@ Based on the fact that among most frequent substitutions, we have obvious incorr
 
 There were 35 errors due to repetition in MT:
 - ParlaMint-RS_2013-10-01-0.u23369.seg0.6: /home/tajak/Parlamint-translation/Final-data/ParlaMint-RS.conllu/ParlaMint-RS.conllu/2013/ParlaMint-RS_2013-10-01-0.conllu
-- ParlaMint-RS_2013-10-31-0.u25367.seg0.86: /home/tajak/Parlamint-translation/Final-data/ParlaMint-RS.conllu/ParlaMint-RS.conllu/2013/ParlaMint-RS_2013-10-31-0.conllu
 - ... (see more in logs/RS/create_conllu.md)
 
 ### ParlaMint-SI
@@ -1234,7 +883,6 @@ As in Serbian, the most frequent substitution ("Slovenes") would introduce error
 
 There were 7 errors due to repetition in MT:
 - ParlaMint-SI_2010-12-02-SDZ5-Izredna-34.ana.seg542.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-SI.conllu/ParlaMint-SI.conllu/2010/ParlaMint-SI_2010-12-02-SDZ5-Izredna-34.conllu
-- ParlaMint-SI_2010-03-04-SDZ5-Redna-14.ana.seg746.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-SI.conllu/ParlaMint-SI.conllu/2010/ParlaMint-SI_2010-03-04-SDZ5-Redna-14.conllu
 - ... (more in log/SI/create_conllu.md)
 
 ### ParlaMint-LV
@@ -1330,7 +978,7 @@ Most frequent substitutions:
 
 As we can see, performing substitutions would not be good, because Mrs. and similar words are annotated as PER, and the lemmas are not capitalized. We disabled this option.
 
-There is 207 errors connected with repetition in MT:
+There are 207 errors connected with repetition in MT:
 - ParlaMint-ES-GA_2017-02-21-DSPG017.seg351.s2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-ES-GA.conllu/ParlaMint-ES-GA.conllu/2017/ParlaMint-ES-GA_2017-02-21-DSPG017.conllu
 - ... (see logs/ES-GA/create_conllu.md)
 
@@ -1431,3 +1079,129 @@ Most frequent substitutions:
 | [('minister', 'Monsieur')]                           |      1295           |
 
 We can see that NER is bad, so we will disable the substitution of proper names.
+
+There were no errors due to MT repetition recorded when creating final dfs.
+
+### ParlaMint-BE
+
+The corpus consists of two non-related languages: French and Dutch. So, I separated the dataframe, created from all conllu files, based on the language (indicated as the suffix of conllu files) and from then onwards processed each language as a separate corpus: BE-nl and BE-fr.
+
+Most frequent substitutions in BE-nl:
+
+|                                                    |   substituted_pairs |
+|:---------------------------------------------------|--------------------:|
+| [('De', 'de')]                                     |      1573           |
+| [('Vote', 'Stemming/vote')]                        |      1346           |
+| [('De', 'de'), ('Roover', 'roover')]               |      1040           |
+| [('De', 'de'), ('Block', 'block')]                 |       873           |
+| [('De', 'de'), ('Vriendt', 'vriendt')]             |       683           |
+| [('Van', 'van'), ('Quickenborne', 'quickenborne')] |       665           |
+| [('Van', 'van'), ('Camp', 'camp')]                 |       621           |
+| [('Van', 'van'), ('Hecke', 'hecke')]               |       613           |
+| [('De', 'de'), ('Coninck', 'coninck')]             |       518           |
+| [('Voting', 'Stemming/vote')]                      |       504           |
+| [('De', 'de'), ('Croo', 'croo')]                   |       492           |
+| [('Catherine', 'catherine'), ('Fonck', 'fonck')]   |       476           |
+| [('Van', 'van'), ('Hoof', 'hoof')]                 |       453           |
+| [('Van', 'van'), ('Overtveldt', 'overtveldt')]     |       424           |
+| [('Van', 'van'), ('Rompuy', 'rompuy')]             |       410           |
+| [('Van', 'van'), ('Peteghem', 'peteghem')]         |       383           |
+| [('Van', 'van'), ('Maelen', 'maelen')]             |       378           |
+| [('Pas', 'pas')]                                   |       345           |
+| [('Van', 'van'), ('Bossuyt', 'bossuyt')]           |       327           |
+
+We will disable substitution based on this information (lemmas in lowercase).
+
+In BE-nl, there were 3 errors in production of final files due to repetition in MT:
+- ParlaMint-BE_2021-03-18-definitief-55-plenair-ip093x.s835: /home/tajak/Parlamint-translation/Final-data/ParlaMint-BE.conllu/ParlaMint-BE.conllu/2021/ParlaMint-BE_2021-03-18-definitief-55-plenair-ip093x-nl.conllu
+- ... (see logs/BE-nl/create-conllu.md)
+
+Most frequent substitutions in BE-fr:
+
+|                                                                                          |   substituted_pairs |
+|:-----------------------------------------------------------------------------------------|--------------------:|
+| [('Mr', 'monsieur')]                                                                     |               14350 |
+| [('Minister', 'monsieur')]                                                               |               14107 |
+| [('Mrs', 'madame')]                                                                      |                6845 |
+| [('Mr', 'monsieur'), ('President', 'président')]                                         |                6267 |
+| [('Minister', 'madame'), ('madame', 'ministre')]                                         |                4288 |
+| [('Mr.', 'monsieur')]                                                                    |                4088 |
+| [('Madam', 'madame'), ('President', 'président')]                                        |                3955 |
+| [('Madam', 'madame'), ('Minister', 'ministre')]                                          |                1777 |
+| [('Mr.', 'M')]                                                                           |                1408 |
+| [('Prime', 'monsieur')]                                                                  |                1389 |
+| [('De', 'de')]                                                                           |                1225 |
+| [('Ms.', 'madame')]                                                                      |                1139 |
+| [('Minister', 'monsieur'), ('monsieur', 'ministre')]                                     |                 963 |
+| [('Mrs.', 'madame')]                                                                     |                 919 |
+| [('Madam', 'madame'), ('Chair', 'président')]                                            |                 779 |
+| [('Prime', 'monsieur'), ('Minister', 'le'), ('monsieur', 'premier'), ('le', 'ministre')] |                 692 |
+| [('Mr', 'monsieur'), ('Secretary', 'secrétaire'), ('of', 'de'), ('State', 'état')]       |                 653 |
+| [('Ms', 'madame')]                                                                       |                 558 |
+| [('Mr.', 'monsieur'), ('President', 'président')]                                        |                 513 |
+
+We can see that NER is bad, so we will disable the substitution of proper names.
+
+There was one error in processing due to repetition of the MT output in BE-fr:
+- "ParlaMint-BE_2016-05-11-54-commissie-ic414x.s517": /home/tajak/Parlamint-translation/Final-data/ParlaMint-BE.conllu/ParlaMint-BE.conllu/2016/ParlaMint-BE_2016-05-11-54-commissie-ic414x-fr.conll
+
+### ParlaMint-EE
+
+Most frequent substitutions:
+
+|                                                        |   substituted_pairs |
+|:-------------------------------------------------------|--------------------:|
+| [('Peter', 'Peeter')]                                  |       3168          |
+| [('Ligi', 'ligi')]                                     |       2611          |
+| [('Mikhail', 'Mihhail'), ('Stalnukhin', 'Stalnuhhin')] |       1650          |
+| [('Kruusimäe', 'Kruusi_mägi')]                         |       1356          |
+| [('Chef', 'Kokk')]                                     |       1235          |
+| [('Tiidus', 'Tiit')]                                   |       1109          |
+| [('Helir', 'Helir-Valdor')]                            |       1025          |
+| [('Põllamaas', 'Põllu_aas')]                           |       1002          |
+| [('Ratas', 'ratas')]                                   |        993          |
+| [('Vassilyev', 'Vassiljev')]                           |        925          |
+| [('Hunter', 'Kütt')]                                   |        897          |
+| [('Tuus', 'Tuus-Laul')]                                |        887          |
+| [('Baltic', 'Balticu')]                                |        860          |
+| [('George', 'Jüri')]                                   |        821          |
+| [('Hatter', 'Külliki'), ('Külliki', 'Kübar_sepp')]     |        768          |
+| [('Evgeny', 'Jevgeni')]                                |        759          |
+| [('Mikhail', 'Mihhail')]                               |        699          |
+| [('Echo', 'Kaja')]                                     |        691          |
+| [('Savisaar', 'Savi_saar')]                            |        593          |
+
+Most frequent substitutions include substitutions with words in lower case and lemmas with unusual symbols ('Kruusi_mägi', 'Savi_saar', etc.) which are different than the words in the running text. So, we will disable proper name substitution.
+
+There were 3 errors in creation of the CONLL-u files based on the repetition in the MT:
+- "ParlaMint-EE_2016-03-15_U4-P1.2": /home/tajak/Parlamint-translation/Final-data/ParlaMint-EE.conllu/ParlaMint-EE.conllu/2016/ParlaMint-EE_2016-03-15
+- see more in logs/EE/create_conllu.md
+
+
+### ParlaMint-ES
+
+Most frequent substitutions:
+
+|                              |   substituted_pairs |
+|:-----------------------------|--------------------:|
+| [('Mr', 'Señor')]            |                2815 |
+| [('Mr.', 'Señor')]           |                2417 |
+| [('Mrs.', 'Señora')]         |                1627 |
+| [('Mrs', 'Señora')]          |                1570 |
+| [('Ladies', 'Señorías')]     |                 975 |
+| [('Mr', 'señor')]            |                 964 |
+| [('Mr.', 'señor')]           |                 954 |
+| [('Mrs', 'señora')]          |                 948 |
+| [('Sanchez', 'Sánchez')]     |                 863 |
+| [('Married', 'Casado')]      |                 735 |
+| [('los', 'el')]              |                 486 |
+| [('Citizens', 'Ciudadanos')] |                 372 |
+| [('Churches', 'Iglesias')]   |                 328 |
+| [('la', 'el')]               |                 266 |
+| [('Candaimil', 'Candamil')]  |                 262 |
+| [('Maria', 'María')]         |                 261 |
+| [('Rodriguez', 'Rodríguez')] |                 254 |
+| [('Moro', 'GonzáleZ-moro')]  |                 233 |
+| [('Mrs.', 'señora')]         |                 226 |
+
+Based on this, we will disable proper name correction based on substitutions (we would introduce more errors than solutions).

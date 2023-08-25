@@ -110,13 +110,14 @@ Statistics for tags:
 | incident |    12 |
 
 
-2023-04-25 15:31:36.432598: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+2023-05-12 12:38:56.087182: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2023-04-25 15:31:37.140382: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
-2023-04-25 15:31:37.140481: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
-2023-04-25 15:31:37.140488: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-05-12 12:38:56.714956: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2023-05-12 12:38:56.715034: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-05-12 12:38:56.715040: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
 /home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 512 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
   warnings.warn(
+
 |                                 |   type |
 |:--------------------------------|-------:|
 | ('incident', '')                |      8 |
@@ -135,7 +136,8 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 | ('vocal', 'shouting')           |      1 |
 | ('vocal', 'speaking')           |      1 |
 Translation started.
-Translation completed. It took 1.6 minutes for 2378 instances for the entire process of extraction and translation.
+Translation completed. It took 1.53 minutes for 2378 instances for the entire process of extraction and translation.
+
 |    | tag     | type         | content                                                                                                                            | xml:lang   |   length | translation                                                                                                                               | corpus   |
 |---:|:--------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------|:-----------|---------:|:------------------------------------------------------------------------------------------------------------------------------------------|:---------|
 |  0 | note    | signing      | Þorsteinn V. Einarsson, 10. þm. Reykv. n., og Eva Einarsdóttir, 10. þm. Reykv. s., undirrituðu drengskaparheit að stjórnarskránni. | is         |       18 | Stone of V. Einarsson, 1 0th. Smoke. No., and Eva Einarsdóttir, the 10th. Smoke. As an example, sign your commitment to the constitution. | IS       |
@@ -147,4 +149,4 @@ Translation completed. It took 1.6 minutes for 2378 instances for the entire pro
 
 
 
-The file is saved as /home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/ParlaMint-IS.notes.translated.csv
+The file is saved as /home/tajak/Parlamint-translation/Note-translation/Final-data-CSV/ParlaMint-IS.notes.translated.tsv

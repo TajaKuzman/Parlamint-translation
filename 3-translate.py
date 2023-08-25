@@ -36,6 +36,7 @@ def translate(lang_code, opus_lang_code, extracted_dataframe_path, translated_da
 	- opus_lang_code: the lang code to be used in the OPUS-MT model - use the one that performed the best in the comparison (see function choose_model())
 	"""
 	import pandas as pd
+	import numpy as np
 	import regex as re
 	from easynmt import EasyNMT
 	from IPython.display import display
@@ -66,6 +67,33 @@ def translate(lang_code, opus_lang_code, extracted_dataframe_path, translated_da
 
 	# Add the translations to the df
 	df["translation"] = translation_list
+
+	#translation shortening of long MT repetition errors: if len (words) of EN sentence is more than 4X len (words) of original sentence, shorten the EN sentence to length 4X original sentence (to the nearest word) - applicable only if len of translation is longer than 6 words (to avoid cases where a couple of words in source language would be translated with a longer sequences in English that are still correct)
+
+	# Add translation length
+	df["tran_length"] = df["translation"].str.split().str.len()
+
+	# Add info where tran length is more than 3 times longer than original length
+	df["shorten"] = np.where((df["tran_length"] > 6) & (df["tran_length"] > 4*df["length"]), df["translation"], "no")
+
+	# Shorten translations and substitute the longer translations with them
+	shorten_translation = []
+
+	for i in list(zip(df["translation"], df["shorten"], df["length"])):
+		if i[1] == "no":
+			shorten_translation.append(i[0])
+		else:
+			new_length = 4*i[2]
+			# Shorten too long translations to the length of four times the length of the original sentence
+			new_translation_list = i[0].split()[:new_length]
+			new_translation = " ".join(new_translation_list)
+			shorten_translation.append(new_translation)
+
+	# Substitute previous translations with the new list
+	df["translation"] = shorten_translation
+
+	# Drop the "shorten" and "tran length" columns
+	df = df.drop(columns=["shorten", "tran_length"])
 
 	# Display the df
 	print(df[:3].to_markdown())
