@@ -6,6 +6,7 @@ Table of contents:
 - [pipeline and code](#pipeline)
 - [workflow in details](#workflow)
 - [translation of notes](#translation-of-notes)
+- [list of machine translation models used](#machine-translation-models-used)
 - [analysis of errors: proper noun substitutions, space_after errors, MT errors in notes](#sample-analysis)
 - [information on processing each corpus](#information-on-processing-each-corpus)
 
