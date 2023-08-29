@@ -158,6 +158,50 @@ and furthermore ...
 
 ```
 
+## Machine-translation models used
+
+We used the following models which showed to be the most suitable for each language based on a manual analysis of a translated sample:
+
+| Language | OPUS-MT model |
+|---|---|
+| Bosnian | zls |
+| Bulgarian | bg |
+| Catalan | roa |
+| Czech | cs |
+| Croatian | zls |
+| Danish | da |
+| Dutch | nl |
+| Estonian | et |
+| French | fr |
+| Galician | itc |
+| German | gmw |
+| Greek | grk |
+| Hungarian | hu |
+| Icelandic | is |
+| Italian | it |
+| Latvian | bat |
+| Norwegian | gem |
+| Polish | pl |
+| Portugese | itc |
+| Russian | sla |
+| Serbian | zls |
+| Slovenian | sla |
+| Spanish | roa |
+| Swedish | sv |
+| Turkish | tr |
+| Ukrainian | sla |
+| Basque |  |
+| Finnish |  |
+| Lithuanian |  |
+| Romanian |  |
+
+This lang. code was used in the following code:
+```
+model = EasyNMT('opus-mt')
+
+model.translate(sentence_list, source_lang = "{}".format(opus_lang_code), target_lang='en')
+```
+
 ### TO DO:
 
 
