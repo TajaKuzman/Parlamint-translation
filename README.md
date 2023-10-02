@@ -12,6 +12,7 @@ Table of contents:
 
 ## Pipeline
 
+
 1. Parse source CONLL-u file: extract info from the source CONLL-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 nohup python 1-conllu-to-df.py "AT" > logs/AT/to_conllu.md &`
 	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
 
@@ -31,10 +32,10 @@ Table of contents:
 5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu.py "IS" > logs/IS/create_conllu.md &`
 6. If the statistics for the corpus in to_conllu.md showed that some files are missing from the df (because they are empty), add the empty files to the final corpus: `CUDA_VISIBLE_DEVICES=2 nohup python 6-add-empty-files.py "SE" > logs/SE/add_missing_files.md &`
 7. Send to partners: `scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/`.
-8. Note translation: `CUDA_VISIBLE_DEVICES=0 nohup python 7-note-translation.py "IS" "is" > logs/IS/translate_notes_final.md &`
-	- This code uses the TEI files. If you want to use TEI.ana files, use the following code:
+8. Note translation: for TEI files: `CUDA_VISIBLE_DEVICES=0 nohup python 7-note-translation.py "IS" "is" > logs/IS/translate_notes_final.md &`
+	- If you want to use TEI.ana files, use the following code:
 `CUDA_VISIBLE_DEVICES=0 nohup python 7-note-translation-TEI.ana.py "IS" "is" > logs/IS/translate_notes_final_ana.md &` (The code saves the notes as: ParlaMint-IS.notes.translated.ana.tsv)
-9. Analyse notes in `8-inspect-and-finalize-notes.ipynb` and delete any notes, written in non-target language.
+9. Analyse notes in `8-inspect-and-finalize-notes.ipynb` and delete any notes, written in non-target language. If you saved the file again, inspect the saved file - check whether quotes are still present (that you did not delete them by saving the file too many times.)
 10. Send the notes to partners: `scp -r Note-translation/Final-data-CSV/ParlaMint-NL.notes.translated.tsv machine_address:~/Notes-translated`
 
 If the corpus consists of two languages (indicated by lang. code at the end of each file, e.g., `-ru.conllu`), first check if they can be both translated well with the same MT system. In that case, process it as usual. If not:
@@ -54,7 +55,7 @@ If you need to translate just a couple of additional files:
  `CUDA_VISIBLE_DEVICES=1 nohup python 9-translate-additional-files.py "DK" "da" > logs/DK/process_additional_files.md &`
 3. If the statistics for the corpus in process_additional_files.md showed that some files are missing from the df (because they are empty), add the empty files to the final corpus: `CUDA_VISIBLE_DEVICES=2 nohup python 6.2-add-empty-files-additional.py "SE" > logs/SE/add_missing_files.md &`
 4. Send to partners: `scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/`.
-5. We haven't considered translating notes for additional files yet.
+5. For translating notes, we take the entire corpus (see points 8 and 9 above).
 
 The code aligns the words based on the prior file created from the main corpus (which is much larger and thus ensures better alignment). The additional files are saved in the same folder as the original main corpus, so if there were any files with the same name, they overwrite them.
 
@@ -173,6 +174,7 @@ We used the following models which showed to be the most suitable for each langu
 | Danish | da |
 | Dutch | nl |
 | Estonian | et |
+| Finnish | fi |
 | French | fr |
 | Galician | itc |
 | German | gmw |
@@ -369,29 +371,31 @@ Other errors in notes that were identified:
 
 Most frequent substitutions:
 
-|                               |   substituted_pairs |
-|:------------------------------|--------------------:|
-| [('Faltynek', 'Faltýnek')]    |      2423           |
-| [('Andrei', 'Andrej')]        |      2051           |
-| [('Schiller', 'Schillerová')] |      1902           |
-| [('Pirates', 'pirát')]        |      1289           |
-| [('Richter', 'Richterová')]   |      1210           |
-| [('Laudat', 'Laudát')]        |      1208           |
-| [('Free', 'Volný')]           |      1187           |
-| [('Excellent', 'Výborný')]    |      1086           |
-| [('Austrian', 'Rakušan')]     |       964           |
-| [('Peter', 'Petr')]           |       841           |
-| [('Michalek', 'Michálek')]    |       716           |
-| [('Philip', 'Filip')]         |       633           |
-| [('Mark', 'Marek')]           |       557           |
-| [('Wark', 'Válková')]         |       547           |
-| [('Vera', 'Věra')]            |       438           |
-| [('Kaňkovsky', 'Kaňkovský')]  |       436           |
-| [('Pastuch', 'Pastuchová')]   |       434           |
-| [('Zaoralek', 'Zaorálek')]    |       426           |
-| [('Marks', 'Marksová')]       |       420           |
+|                                 |   substituted_pairs |
+|:--------------------------------|--------------------:|
+| [('Schiller', 'Schillerová')]   |      2486           |
+| [('Faltynek', 'Faltýnek')]      |      2427           |
+| [('Andrei', 'Andrej')]          |      2301           |
+| [('Pirates', 'pirát')]          |      1431           |
+| [('Austrian', 'Rakušan')]       |      1324           |
+| [('Richter', 'Richterová')]     |      1302           |
+| [('Excellent', 'Výborný')]      |      1232           |
+| [('Free', 'Volný')]             |      1228           |
+| [('Laudat', 'Laudát')]          |      1209           |
+| [('Purple', 'Fialův')]          |      1093           |
+| [('Peter', 'Petr')]             |       998           |
+| [('Michalek', 'Michálek')]      |       852           |
+| [('Vildumetz', 'Vildumetzová')] |       750           |
+| [('Philip', 'Filip')]           |       631           |
+| [('Thank', 'děkovat')]          |       615           |
+| [('Mark', 'Marek')]             |       605           |
+| [('Wark', 'Válková')]           |       580           |
+| [('Pastuch', 'Pastuchová')]     |       537           |
+| [('Kaňkovsky', 'Kaňkovský')]    |       472           |
 
 There is no < head > tag in the corpus.
+
+In the linguistic processing and creation of final files, there were 10 errors due to very long sentences (see logs/CZ/to_conllu.md).
 
 ### ParlaMint-BG
 
@@ -830,7 +834,21 @@ There were 4 errors in sentences:
 - ParlaMint-HU_2020-06-16.seg57.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2020/ParlaMint-HU_2020-06-16.conllu
 - ParlaMint-HU_2020-12-01.seg106.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-HU.conllu/ParlaMint-HU.conllu/2020/ParlaMint-HU_2020-04-07.conllu
 
-There are no notes in < head > and < gap > tags.
+There are no notes in < head > and < gap > tags. The notes included 8 foreign languages:
+
+|    |   xml:lang |
+|:---|-----------:|
+| hu |      41989 |
+| de |         18 |
+| bg |          6 |
+| sl |          5 |
+| sk |          2 |
+| uk |          2 |
+| hr |          2 |
+| pl |          1 |
+| ro |          1 |
+
+We removed all instances not in Hungarian language from the translation of notes.
 
 ### ParlaMint-TR
 
@@ -1252,3 +1270,33 @@ Most frequent substitutions:
 | [('Mrs.', 'señora')]         |                 226 |
 
 Based on this, we will disable proper name correction based on substitutions (we would introduce more errors than solutions).
+
+### ParlaMint-FI
+
+Most frequent substitutions:
+
+|                                              |   substituted_pairs |
+|:---------------------------------------------|--------------------:|
+| [('Finland', 'Suomi')]                       |               12643 |
+| [('Finnish', 'Suomi')]                       |                1485 |
+| [('Finland', 'suomi')]                       |                 795 |
+| [('Finland', 'Suomi'), ('Finland', 'Suomi')] |                 537 |
+| [('Estonia', 'Viro')]                        |                 195 |
+| [('there', 'Suomi')]                         |                 193 |
+| [('Denmark', 'Tanska')]                      |                 181 |
+| [('Grahn', 'GrahnLaasonen')]                 |                 173 |
+| [('Mäkisalo', 'Mäkisalo-Ropponen')]          |                 168 |
+| [('Sweden', 'Ruotsi')]                       |                 140 |
+| [('Ohio', 'Ohisalo')]                        |                 124 |
+| [('Orphan', 'Orpo')]                         |                 109 |
+| [('Tiilikainen', 'tiilikainen')]             |                 105 |
+| [('Essayah', 'Essayah.')]                    |                 104 |
+| [('There', 'Suomi')]                         |                  93 |
+| [('Salmon', 'lohi')]                         |                  90 |
+| [('Ruhula', 'Rehula')]                       |                  86 |
+| [('Posti', 'posti')]                         |                  83 |
+| [('Kela', 'kelka')]                          |                  82 |
+
+Based on this, we will disable proper name correction based on substitutions (we would introduce more errors than solutions).
+
+There were no errors in linguistic processing.

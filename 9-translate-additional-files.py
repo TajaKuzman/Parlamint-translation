@@ -678,7 +678,7 @@ print(df[df["substituted_pairs"]!= 0][:2].to_markdown())
 # If the analysis of most common substitutions for this language revealed that it is better not to do the substitutions:
 #		- save the translations without the substitutions as the "new-translations" in the final file (in analyse_results.ipynb)
 
-if lang_code in ["BG", "PT", "IT", "AT", "GR", "HU", "NO", "TR", "NL", "SI", "HR", "RS", "LV", "UA", "ES-GA", "PL", "ES-CT", "FR", "BE-nl", "BE-fr", "EE", "ES"]:
+if lang_code in ["BG", "PT", "IT", "AT", "GR", "HU", "NO", "TR", "NL", "SI", "HR", "RS", "LV", "UA", "ES-GA", "PL", "ES-CT", "FR", "BE-nl", "BE-fr", "EE", "ES", "FI"]:
 	df = pd.read_csv(final_dataframe, sep="\t", index_col = 0, na_filter = False)
 
 	# I will substitute the new_translations with the original ones and use the original translations in the next steps.
@@ -783,7 +783,7 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 
 			# Check whether the word conllu index (word id) is in the substituted_words_list (it is if it was substituted)
 			# If it is, add information on the original translated word - do not do this for Bulgarian, Portuguese and other languages mentioned
-			if lang_code not in ["BG", "PT", "IT", "AT", "GR", "HU", "NO", "TR", "NL", "SI", "HR", "RS", "LV", "UA", "ES-GA", "PL", "ES-CT", "FR", "BE-nl", "BE-fr", "EE", "ES"]:
+			if lang_code not in ["BG", "PT", "IT", "AT", "GR", "HU", "NO", "TR", "NL", "SI", "HR", "RS", "LV", "UA", "ES-GA", "PL", "ES-CT", "FR", "BE-nl", "BE-fr", "EE", "ES", "FI"]:
 				if substituted_words_list[sentence_index].get(word_conllu_index, None) != None:
 					word["misc"]["Translated"] = substituted_words_list[sentence_index][word_conllu_index]
 			
