@@ -47,6 +47,7 @@ If the corpus consists of two languages (indicated by lang. code at the end of e
 
 Corpora with more than one language:
 - Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.
+- ParlaMint-ES-PV (Basque), which has es + eu (Basque). We produce two sets of CONLL-U files for them.
 - ParlaMint-NO (Norwegian) also has two languages in TEI (Bokmal and Nynorsk), but these are processed with the same model (because the model performs well on both languages), so they have just one CoNLL-U set. We did the same with Ukrainian and Catalan corpus.
 
 If you need to translate just a couple of additional files:
@@ -193,8 +194,8 @@ We used the following models which showed to be the most suitable for each langu
 | Swedish | sv |
 | Turkish | tr |
 | Ukrainian | sla |
-| Basque |  |
-| Finnish |  |
+| Basque | eu |
+| Finnish | fi |
 | Lithuanian |  |
 | Romanian |  |
 
@@ -1058,30 +1059,30 @@ Most frequent substitutions:
 
 |                                                          |   substituted_pairs |
 |:---------------------------------------------------------|--------------------:|
-| [('Thank', 'gràcies')]                                   |               20426 |
-| [('Torra', 'torra')]                                     |                1815 |
-| [('Thank', 'gracias')]                                   |                1271 |
-| [('Counselor', 'conseller')]                             |                1063 |
-| [('Puigdemont', 'puigdemont')]                           |                 936 |
-| [('Spain', 'españa')]                                    |                 881 |
-| [('President', 'president')]                             |                 866 |
-| [('Aragonès', 'aragonès')]                               |                 768 |
-| [('Junqueras', 'junqueras')]                             |                 474 |
-| [('Carrizosa', 'carrizosa')]                             |                 470 |
-| [('Counselor', 'consellera')]                            |                 460 |
-| [('Quiet', 'silenci')]                                   |                 434 |
-| [('Citizens', 'ciudadanos')]                             |                 423 |
-| [('Iceta', 'iceta')]                                     |                 408 |
-| [('MPs', 'diputats')]                                    |                 376 |
-| [('Pot', 'pot')]                                         |                 373 |
-| [('Arrimadas', 'arrimadas')]                             |                 342 |
-| [('Alejandro', 'alejandro'), ('Fernández', 'fernández')] |                 336 |
-| [('Pedro', 'pedro'), ('Sánchez', 'sánchez')]             |                 326 |
+| [('Thank', 'gràcies')]                                   |               20459 |
+| [('Torra', 'torra')]                                     |                1792 |
+| [('Thank', 'gracias')]                                   |                1265 |
+| [('Counselor', 'conseller')]                             |                1140 |
+| [('Puigdemont', 'puigdemont')]                           |                 978 |
+| [('Spain', 'españa')]                                    |                 903 |
+| [('President', 'president')]                             |                 865 |
+| [('Aragonès', 'aragonès')]                               |                 722 |
+| [('Carrizosa', 'carrizosa')]                             |                 474 |
+| [('Junqueras', 'junqueras')]                             |                 465 |
+| [('Counselor', 'consellera')]                            |                 461 |
+| [('Citizens', 'ciudadanos')]                             |                 457 |
+| [('Quiet', 'silenci')]                                   |                 454 |
+| [('MPs', 'diputats')]                                    |                 400 |
+| [('Pot', 'pot')]                                         |                 382 |
+| [('Iceta', 'iceta')]                                     |                 380 |
+| [('Pedro', 'pedro'), ('Sánchez', 'sánchez')]             |                 354 |
+| [('Alejandro', 'alejandro'), ('Fernández', 'fernández')] |                 341 |
+| [('Ciutadans', 'ciutadans')]                             |                 309 |
 
 We can see that "Thank", "President", "Spain" and so on would be substituted, so we won't use the substitution.
 
 There are 5 errors due to repetition in MT:
-- ParlaMint-ES-CT_2017-10-27-4402.46.0.0.1: /home/tajak/Parlamint-translation/Final-data/ParlaMint-ES-CT.conllu/ParlaMint-ES-CT.conllu/2017/ParlaMint-ES-CT_2017-10-27-4402-ca.conllu
+- ParlaMint-ES-CT_2018-05-03-0701.189.0.9.2: /home/tajak/Parlamint-translation/Final-data/ParlaMint-ES-CT.conllu/ParlaMint-ES-CT.conllu/2018/ParlaMint-ES-CT_2018-05-03-0701-es.conllu
 - ... (see logs/ES-CT/create_conllu.md)
 
 ### ParlaMint-PL
