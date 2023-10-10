@@ -16,7 +16,7 @@ main_path = "/home/tajak/Parlamint-translation"
 
 path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
 
-if lang_code != "BE":
+if lang_code not in ["BE", "ES-PV"]:
     final_dataframe = "{}/results/{}/ParlaMint-{}-final-dataframe.csv".format(main_path,lang_code, lang_code)
 else:
     final_dataframe = "{}/results/{}/ParlaMint-{}-extracted-source-data.csv".format(main_path, lang_code, lang_code)

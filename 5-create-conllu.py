@@ -105,7 +105,7 @@ def create_conllu(file, lang_code, main_path, final_dataframe, nlp):
 
 			# Check whether the word conllu index (word id) is in the substituted_words_list (it is if it was substituted)
 			# If it is, add information on the original translated word - do not do this for Bulgarian, Portuguese and other languages mentioned
-			if lang_code not in ["BG", "PT", "IT", "AT", "GR", "HU", "NO", "TR", "NL", "SI", "HR", "RS", "LV", "UA", "ES-GA", "PL", "ES-CT", "FR", "BE-nl", "BE-fr", "EE", "ES", "FI"]:
+			if lang_code not in ["BG", "PT", "IT", "AT", "GR", "HU", "NO", "TR", "NL", "SI", "HR", "RS", "LV", "UA", "ES-GA", "PL", "ES-CT", "FR", "BE-nl", "BE-fr", "EE", "ES", "FI", "ES-PV-es", "ES-PV-eu"]:
 				if substituted_words_list[sentence_index].get(word_conllu_index, None) != None:
 					word["misc"]["Translated"] = substituted_words_list[sentence_index][word_conllu_index]
 			

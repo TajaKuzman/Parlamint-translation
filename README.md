@@ -43,7 +43,7 @@ If the corpus consists of two languages (indicated by lang. code at the end of e
 - then separate the df into two dfs in `analyse_results.ipynb` (section Creating 2 datasets in case of bilingual corpora), they will be named for instance `ParlaMint-BE-fr-extracted-source-data.csv` and `ParlaMint-BE-nl-extracted-source-data.csv`
 - continue with next steps, but process each file separately by using "BE-fr" and "BE-nl" as the argument instead of BE
 - if there are any files missing from the df (because they are empty), use the step 6, but here use "BE" (without lang suffix) as the argument, and add this as an exception to line 19 in `6-add-empty-files.py`.
-- for note translation, first add the dictionary of lang and opus codes to line 23 in *7-note-translation-bilingual.py*. Then, use the following code: `CUDA_VISIBLE_DEVICES=2 nohup python 7-note-translation-bilingual.py "BE" > logs/BE/translate_notes_final.md &`
+- for note translation, first add the dictionary of lang and opus codes to line 23 in *7-note-translation-bilingual.py* (case of translation of TEI files). If you are translating from TEI.ana files, start from *7-note-translation-bilingual-TEI-ana-ES_PV.py*. Modify the scripts according to the number of languages you have. Then, use the following code: `CUDA_VISIBLE_DEVICES=2 nohup python 7-note-translation-bilingual.py "BE" > logs/BE/translate_notes_final.md &`
 
 Corpora with more than one language:
 - Parlamint-BE (Belgian), which has nl + fr. This is marked on the segments in the TEI, and we produce two sets of CoNLL-U files for them.
@@ -1301,3 +1301,63 @@ Most frequent substitutions:
 Based on this, we will disable proper name correction based on substitutions (we would introduce more errors than solutions).
 
 There were no errors in linguistic processing.
+
+### ParlaMint-ES-PV
+
+The corpus is bilingual (Spanish - es - and Basque - eu) and we translated both parts separately.
+
+#### ES-PV-es
+
+Most frequent substitutions:
+
+|                                                   |   substituted_pairs |
+|:--------------------------------------------------|--------------------:|
+| [('Government', 'Gobierno')]                      |                1903 |
+| [('government', 'Gobierno')]                      |                 905 |
+| [('Government', 'Gobierno'), ('Basque', 'Vasco')] |                 495 |
+| [('State', 'Estado')]                             |                 425 |
+| [('Mrs', 'Señora')]                               |                 264 |
+| [('Martinez', 'Martínez')]                        |                 214 |
+| [('Red', 'Rojo')]                                 |                 194 |
+| [('Semper', 'Sémper')]                            |                 191 |
+| [('state', 'Estado')]                             |                 187 |
+| [('Parliament', 'Parlamento')]                    |                 161 |
+| [('Hernandez', 'Hernández')]                      |                 159 |
+| [('Telleria', 'Tellería')]                        |                 146 |
+| [('Mr', 'Señor')]                                 |                 131 |
+| [('Country', 'País'), ('Basque', 'Vasco')]        |                 126 |
+| [('andrea', 'andrear')]                           |                 114 |
+| [('sun', 'sol')]                                  |                  98 |
+| [('Mr.', 'Señor')]                                |                  94 |
+| [('Sanchez', 'Sánchez')]                          |                  93 |
+| [('Beltran', 'Beltrán')]                          |                  87 |
+
+Based on this, we will disable proper name correction based on substitutions (we would introduce more errors than solutions).
+
+#### ES-PV-eu
+
+Most frequent substitutions:
+
+|                                               |   substituted_pairs |
+|:----------------------------------------------|--------------------:|
+| [('Socialists', 'sozialista')]                |                 871 |
+| [('Martínnez', 'Martínez')]                   |                 622 |
+| [('Hernandez', 'Hernández')]                  |                 557 |
+| [('Maniro', 'Maneiro')]                       |                 481 |
+| [('Uriart', 'Uriarte')]                       |                 439 |
+| [('Eubertarians', 'Eu'), ('Eu', 'abertzale')] |                 422 |
+| [('Artola', 'Artolazabal')]                   |                 397 |
+| [('Eubertarians', 'Abertzalea')]              |                 358 |
+| [('Pindo', 'Pinedo')]                         |                 326 |
+| [('Mrs', 'andre')]                            |                 299 |
+| [('Aguirre', 'Agirre')]                       |                 252 |
+| [('Corcuera', 'Corcue')]                      |                 223 |
+| [('Abulo', 'Arbulo')]                         |                 221 |
+| [('Martínnez', 'Martínez'), ('Mrs', 'andre')] |                 189 |
+| [('Houseland', 'Etxebarrieta')]               |                 189 |
+| [('Hernandez', 'Hernánde')]                   |                 173 |
+| [('Fernandez', 'Betoño')]                     |                 172 |
+| [('Lopez', 'López')]                          |                 169 |
+| [('Mrs', 'Garrido'), ('Garrido', 'andere')]   |                 168 |
+
+Based on this, we will disable proper name correction based on substitutions (we would introduce more errors than solutions).

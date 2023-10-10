@@ -21,7 +21,8 @@ if __name__ == '__main__':
 lang_code = args.lang_code
 
 # Define the lang codes
-lang_code_dict = {"BE": {"nl":"nl", "fr":"fr", "de": "gmw"}}
+lang_code_dict = {"BE": {"nl":"nl", "fr":"fr", "de": "gmw"},
+				  "ES-PV": {"es":"roa", "eu":"eu"}}
 
 current_lang_code_dict = lang_code_dict[lang_code]
 
