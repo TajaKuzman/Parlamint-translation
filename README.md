@@ -12,6 +12,8 @@ Table of contents:
 
 ## Pipeline
 
+Dependencies: use Python 3.9 and stanza version 1.4.2.
+(on kt-gpu2, use the following environment: `conda activate conda_env_python_9`)
 
 1. Parse source CONLL-u file: extract info from the source CONLL-u files into a dataframe: `CUDA_VISIBLE_DEVICES=1 nohup python 1-conllu-to-df.py "AT" > logs/AT/to_conllu.md &`
 	- output: results/{lang_code}/ParlaMint-{lang_code}-extracted-source-data.csv
@@ -29,7 +31,9 @@ Table of contents:
 	- if the analysis of most common substitutions reveals that it is better not to do the substitutions:
 		- save the translations without the substitutions as the "new-translations" in the final file (in analyse_results.ipynb)
 		- in 5-create-conllu.py, add the language code to the exceptions in line 108 (add it also to the file  `9-translate-additional-files.py` in lines 681 and 786)
+
 5. Linguistically process translation and create final CONLL-u files: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu.py "IS" > logs/IS/create_conllu.md &`
+	- If your processing gets interrupted, run the following code to continue with the files that haven't been processed yet: `CUDA_VISIBLE_DEVICES=2 nohup python 5-create-conllu-interrupted.py "IS" > logs/IS/create_conllu_continued.md &`
 6. If the statistics for the corpus in to_conllu.md showed that some files are missing from the df (because they are empty), add the empty files to the final corpus: `CUDA_VISIBLE_DEVICES=2 nohup python 6-add-empty-files.py "SE" > logs/SE/add_missing_files.md &`
 7. Send to partners: `scp -r Final-data/ParlaMint-IS.conllu/ParlaMint-IS.conllu machine_address:~/`.
 8. Note translation: for TEI files: `CUDA_VISIBLE_DEVICES=0 nohup python 7-note-translation.py "IS" "is" > logs/IS/translate_notes_final.md &`

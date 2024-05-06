@@ -1,5 +1,5 @@
-2023-04-13 09:58:42 WARNING: Can not find mwt: default from official model list. Ignoring it.
-2023-04-13 09:58:43 INFO: Loading these models for language: en (English):
+2024-02-19 15:31:36 WARNING: Can not find mwt: default from official model list. Ignoring it.
+2024-02-19 15:31:37 INFO: Loading these models for language: en (English):
 ========================
 | Processor | Package  |
 ------------------------
@@ -9,4857 +9,4125 @@
 | ner       | conll03  |
 ========================
 
-2023-04-13 09:58:43 INFO: Use device: gpu
-2023-04-13 09:58:43 INFO: Loading: tokenize
-2023-04-13 09:58:43 INFO: Loading: pos
-2023-04-13 09:58:46 INFO: Loading: lemma
-2023-04-13 09:58:46 INFO: Loading: ner
-2023-04-13 09:58:46 INFO: Done loading processors!
+2024-02-19 15:31:37 INFO: Use device: gpu
+2024-02-19 15:31:37 INFO: Loading: tokenize
+2024-02-19 15:31:37 INFO: Loading: pos
+2024-02-19 15:31:39 INFO: Loading: lemma
+2024-02-19 15:31:39 INFO: Loading: ner
+2024-02-19 15:31:40 INFO: Done loading processors!
 Processing started.
-ParlaMint-UA_2013-11-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-22-m0-ru.conllu is saved.
-Current running time: 0.7
-ParlaMint-UA_2013-04-18-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-18-m1-ru.conllu is saved.
-Current running time: 1.31
-ParlaMint-UA_2013-06-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-18-m1-uk.conllu is saved.
-Current running time: 2.0
-ParlaMint-UA_2013-06-20-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-20-m1-ru.conllu is saved.
-Current running time: 2.56
-ParlaMint-UA_2013-05-23-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-23-m1-ru.conllu is saved.
-Current running time: 3.11
-ParlaMint-UA_2013-04-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-19-m0-uk.conllu is saved.
-Current running time: 3.83
-ParlaMint-UA_2013-03-19-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-19-m1-ru.conllu is saved.
-Current running time: 4.37
-ParlaMint-UA_2013-10-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-10-m0-ru.conllu is saved.
-Current running time: 4.93
-ParlaMint-UA_2013-05-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-16-m0-uk.conllu is saved.
-Current running time: 5.63
-ParlaMint-UA_2013-10-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-25-m0-uk.conllu is saved.
-Current running time: 6.33
-ParlaMint-UA_2013-11-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-22-m0-uk.conllu is saved.
-Current running time: 6.89
-ParlaMint-UA_2013-11-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-19-m1-uk.conllu is saved.
-Current running time: 7.55
-ParlaMint-UA_2013-09-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-18-m0-ru.conllu is saved.
-Current running time: 8.11
-ParlaMint-UA_2013-05-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-24-m0-ru.conllu is saved.
-Current running time: 8.66
-ParlaMint-UA_2013-04-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-02-m0-uk.conllu is saved.
-Current running time: 9.32
-ParlaMint-UA_2013-05-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-23-m0-uk.conllu is saved.
-Current running time: 9.98
-ParlaMint-UA_2013-05-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-16-m1-ru.conllu is saved.
-Current running time: 10.54
-ParlaMint-UA_2013-11-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-08-m0-ru.conllu is saved.
-Current running time: 11.1
-ParlaMint-UA_2013-09-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-04-m0-uk.conllu is saved.
-Current running time: 11.75
-ParlaMint-UA_2013-10-22-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-22-m1-ru.conllu is saved.
-Current running time: 12.3
-ParlaMint-UA_2013-10-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-10-m0-uk.conllu is saved.
-Current running time: 12.97
-ParlaMint-UA_2013-09-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-06-m0-ru.conllu is saved.
-Current running time: 13.53
-ParlaMint-UA_2013-05-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-14-m1-ru.conllu is saved.
-Current running time: 14.09
-ParlaMint-UA_2013-10-10-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-10-m1-uk.conllu is saved.
-Current running time: 14.73
-ParlaMint-UA_2013-07-02-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-02-m1-ru.conllu is saved.
-Current running time: 15.3
-ParlaMint-UA_2013-10-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-23-m0-ru.conllu is saved.
-Current running time: 15.86
-ParlaMint-UA_2013-11-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-13-m0-uk.conllu is saved.
-Current running time: 16.43
-ParlaMint-UA_2013-09-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-19-m0-uk.conllu is saved.
-Current running time: 17.14
-ParlaMint-UA_2013-09-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-19-m0-ru.conllu is saved.
-Current running time: 17.69
-ParlaMint-UA_2013-03-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-20-m0-uk.conllu is saved.
-Current running time: 18.32
-ParlaMint-UA_2013-06-18-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-18-m1-ru.conllu is saved.
-Current running time: 18.87
-ParlaMint-UA_2013-06-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-20-m1-uk.conllu is saved.
-Current running time: 19.48
-ParlaMint-UA_2013-09-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-05-m0-uk.conllu is saved.
-Current running time: 20.18
-ParlaMint-UA_2013-07-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-03-m0-uk.conllu is saved.
-Current running time: 20.82
-ParlaMint-UA_2013-09-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-17-m0-ru.conllu is saved.
-Current running time: 21.37
-ParlaMint-UA_2013-03-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-21-m0-uk.conllu is saved.
-Current running time: 22.02
-ParlaMint-UA_2013-10-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-22-m1-uk.conllu is saved.
-Current running time: 22.61
-ParlaMint-UA_2013-10-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-24-m0-ru.conllu is saved.
-Current running time: 23.16
-ParlaMint-UA_2013-06-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-06-m0-uk.conllu is saved.
-Current running time: 23.71
-ParlaMint-UA_2013-03-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-20-m0-ru.conllu is saved.
-Current running time: 24.29
-ParlaMint-UA_2013-07-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-04-m1-uk.conllu is saved.
-Current running time: 25.11
-ParlaMint-UA_2013-11-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-21-m0-uk.conllu is saved.
-Current running time: 25.75
-ParlaMint-UA_2013-06-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-04-m1-ru.conllu is saved.
-Current running time: 26.29
-ParlaMint-UA_2013-05-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-24-m0-uk.conllu is saved.
-Current running time: 27.03
-ParlaMint-UA_2013-05-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-22-m0-ru.conllu is saved.
-Current running time: 27.59
-ParlaMint-UA_2013-05-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-21-m0-ru.conllu is saved.
+ParlaMint-UA_2013-07-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-04-m0.conllu is saved.
+Current running time: 1.43
+ParlaMint-UA_2013-12-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-03-m0.conllu is saved.
+Current running time: 2.76
+ParlaMint-UA_2013-11-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-08-m0.conllu is saved.
+Current running time: 4.16
+ParlaMint-UA_2013-10-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-08-m1.conllu is saved.
+Current running time: 5.48
+ParlaMint-UA_2013-12-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-20-m0.conllu is saved.
+Current running time: 6.78
+ParlaMint-UA_2013-04-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-16-m0.conllu is saved.
+Current running time: 8.16
+ParlaMint-UA_2013-03-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-21-m0.conllu is saved.
+Current running time: 9.5
+ParlaMint-UA_2013-04-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-18-m0.conllu is saved.
+Current running time: 10.85
+ParlaMint-UA_2013-06-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-06-m0.conllu is saved.
+Current running time: 12.08
+ParlaMint-UA_2013-03-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-22-m0.conllu is saved.
+Current running time: 13.46
+ParlaMint-UA_2013-07-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-03-m0.conllu is saved.
+Current running time: 14.76
+ParlaMint-UA_2013-10-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-22-m0.conllu is saved.
+Current running time: 16.07
+ParlaMint-UA_2013-07-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-05-m0.conllu is saved.
+Current running time: 17.43
+ParlaMint-UA_2013-05-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-22-m0.conllu is saved.
+Current running time: 18.8
+ParlaMint-UA_2013-09-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-05-m0.conllu is saved.
+Current running time: 20.17
+ParlaMint-UA_2013-02-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-02-22-m0.conllu is saved.
+Current running time: 21.42
+ParlaMint-UA_2013-04-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-04-m0.conllu is saved.
+Current running time: 22.79
+ParlaMint-UA_2013-10-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-24-m0.conllu is saved.
+Current running time: 24.08
+ParlaMint-UA_2013-07-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-02-m0.conllu is saved.
+Current running time: 25.47
+ParlaMint-UA_2013-10-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-08-m0.conllu is saved.
+Current running time: 26.84
+ParlaMint-UA_2013-04-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-16-m1.conllu is saved.
 Current running time: 28.15
-ParlaMint-UA_2013-05-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-14-m0-uk.conllu is saved.
-Current running time: 28.84
-ParlaMint-UA_2013-10-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-24-m0-uk.conllu is saved.
-Current running time: 29.47
-ParlaMint-UA_2013-04-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-18-m1-uk.conllu is saved.
-Current running time: 30.09
-ParlaMint-UA_2013-10-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-08-m1-uk.conllu is saved.
-Current running time: 30.73
-ParlaMint-UA_2013-12-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-17-m0-uk.conllu is saved.
-Current running time: 31.29
-ParlaMint-UA_2013-12-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-20-m0-uk.conllu is saved.
-Current running time: 31.92
-ParlaMint-UA_2013-12-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-19-m0-uk.conllu is saved.
-Current running time: 32.52
-ParlaMint-UA_2013-07-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-03-m0-ru.conllu is saved.
-Current running time: 33.08
-ParlaMint-UA_2013-06-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-05-m0-ru.conllu is saved.
-Current running time: 33.65
-ParlaMint-UA_2013-03-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-22-m0-ru.conllu is saved.
-Current running time: 34.21
-ParlaMint-UA_2013-11-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-21-m0-ru.conllu is saved.
-Current running time: 34.76
-ParlaMint-UA_2013-05-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-17-m0-ru.conllu is saved.
-Current running time: 35.3
-ParlaMint-UA_2013-01-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-01-11-m0-uk.conllu is saved.
-Current running time: 35.95
-ParlaMint-UA_2013-04-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-02-m1-uk.conllu is saved.
-Current running time: 36.51
-ParlaMint-UA_2013-11-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-20-m0-uk.conllu is saved.
-Current running time: 37.22
-ParlaMint-UA_2013-05-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-15-m0-ru.conllu is saved.
-Current running time: 37.78
-ParlaMint-UA_2013-05-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-23-m0-ru.conllu is saved.
-Current running time: 38.33
-ParlaMint-UA_2013-04-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-16-m1-ru.conllu is saved.
-Current running time: 38.88
-ParlaMint-UA_2013-06-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-21-m0-ru.conllu is saved.
-Current running time: 39.43
-ParlaMint-UA_2013-04-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-04-m0-ru.conllu is saved.
-Current running time: 39.99
-ParlaMint-UA_2013-04-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-17-m0-uk.conllu is saved.
-Current running time: 40.68
-ParlaMint-UA_2013-03-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-19-m1-uk.conllu is saved.
-Current running time: 41.34
-ParlaMint-UA_2013-12-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-03-m0-ru.conllu is saved.
-Current running time: 41.91
-ParlaMint-UA_2013-05-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-21-m0-uk.conllu is saved.
-Current running time: 42.56
-ParlaMint-UA_2013-03-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-19-m0-ru.conllu is saved.
-Current running time: 43.13
-ParlaMint-UA_2013-06-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-04-m0-uk.conllu is saved.
-Current running time: 43.83
-ParlaMint-UA_2013-11-19-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-19-m1-ru.conllu is saved.
-Current running time: 44.38
-ParlaMint-UA_2013-11-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-08-m0-uk.conllu is saved.
-Current running time: 45.1
-ParlaMint-UA_2013-05-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-21-m1-uk.conllu is saved.
-Current running time: 45.74
-ParlaMint-UA_2013-12-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-03-m0-uk.conllu is saved.
-Current running time: 46.38
-ParlaMint-UA_2013-06-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-18-m0-uk.conllu is saved.
-Current running time: 47.08
-ParlaMint-UA_2013-07-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-04-m0-ru.conllu is saved.
-Current running time: 47.65
-ParlaMint-UA_2013-03-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-21-m0-ru.conllu is saved.
-Current running time: 48.21
-ParlaMint-UA_2013-04-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-19-m0-ru.conllu is saved.
-Current running time: 48.77
-ParlaMint-UA_2013-11-05-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-05-m1-ru.conllu is saved.
-Current running time: 49.34
-ParlaMint-UA_2013-06-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-06-m1-uk.conllu is saved.
-Current running time: 49.91
-ParlaMint-UA_2013-11-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-06-m0-uk.conllu is saved.
-Current running time: 50.65
-ParlaMint-UA_2013-05-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-22-m0-uk.conllu is saved.
-Current running time: 51.38
-ParlaMint-UA_2013-12-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-18-m0-uk.conllu is saved.
-Current running time: 51.94
-ParlaMint-UA_2013-09-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-03-m1-ru.conllu is saved.
-Current running time: 52.49
-ParlaMint-UA_2013-05-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-21-m1-ru.conllu is saved.
-Current running time: 53.05
-ParlaMint-UA_2013-06-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-21-m0-uk.conllu is saved.
-Current running time: 53.77
-ParlaMint-UA_2013-07-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-02-m0-uk.conllu is saved.
-Current running time: 54.48
-ParlaMint-UA_2013-03-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-19-m0-uk.conllu is saved.
-Current running time: 55.14
-ParlaMint-UA_2013-09-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-19-m1-uk.conllu is saved.
-Current running time: 55.81
-ParlaMint-UA_2013-09-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-03-m1-uk.conllu is saved.
-Current running time: 56.44
-ParlaMint-UA_2013-04-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-17-m0-ru.conllu is saved.
-Current running time: 57.0
-ParlaMint-UA_2013-01-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-01-10-m0-uk.conllu is saved.
-Current running time: 57.6
-ParlaMint-UA_2013-04-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-18-m0-ru.conllu is saved.
-Current running time: 58.15
-ParlaMint-UA_2013-03-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-21-m1-ru.conllu is saved.
-Current running time: 58.7
-ParlaMint-UA_2013-10-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-09-m0-ru.conllu is saved.
-Current running time: 59.25
-ParlaMint-UA_2013-05-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-16-m0-ru.conllu is saved.
-Current running time: 59.8
-ParlaMint-UA_2013-09-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-20-m0-uk.conllu is saved.
-Current running time: 60.5
-ParlaMint-UA_2013-11-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-05-m1-uk.conllu is saved.
-Current running time: 61.12
-ParlaMint-UA_2013-11-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-05-m0-ru.conllu is saved.
-Current running time: 61.66
-ParlaMint-UA_2013-07-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-05-m0-ru.conllu is saved.
-Current running time: 62.21
-ParlaMint-UA_2013-04-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-16-m1-uk.conllu is saved.
-Current running time: 62.82
-ParlaMint-UA_2013-09-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-05-m1-uk.conllu is saved.
-Current running time: 63.44
-ParlaMint-UA_2013-07-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-04-m1-ru.conllu is saved.
-Current running time: 63.98
-ParlaMint-UA_2013-04-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-18-m0-uk.conllu is saved.
-Current running time: 64.67
-ParlaMint-UA_2013-11-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-21-m1-uk.conllu is saved.
-Current running time: 65.23
-ParlaMint-UA_2013-10-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-09-m0-uk.conllu is saved.
-Current running time: 65.96
-ParlaMint-UA_2013-07-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-03-m1-ru.conllu is saved.
-Current running time: 66.52
-ParlaMint-UA_2013-05-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-23-m1-uk.conllu is saved.
-Current running time: 67.15
-ParlaMint-UA_2013-06-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-19-m0-ru.conllu is saved.
-Current running time: 67.72
-ParlaMint-UA_2013-03-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-21-m1-uk.conllu is saved.
-Current running time: 68.37
-ParlaMint-UA_2013-10-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-08-m0-ru.conllu is saved.
-Current running time: 68.93
-ParlaMint-UA_2013-09-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-05-m0-ru.conllu is saved.
-Current running time: 69.48
-ParlaMint-UA_2013-04-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-04-m0-uk.conllu is saved.
-Current running time: 70.21
-ParlaMint-UA_2013-07-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-02-m0-ru.conllu is saved.
-Current running time: 70.78
-ParlaMint-UA_2013-06-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-05-m0-uk.conllu is saved.
-Current running time: 71.51
-ParlaMint-UA_2013-12-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-04-m0-uk.conllu is saved.
-Current running time: 72.05
-ParlaMint-UA_2013-10-25-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-25-m0-ru.conllu is saved.
-Current running time: 72.6
-ParlaMint-UA_2013-05-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-14-m1-uk.conllu is saved.
-Current running time: 73.23
-ParlaMint-UA_2013-06-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-18-m0-ru.conllu is saved.
-Current running time: 73.77
-ParlaMint-UA_2013-01-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-01-11-m0-ru.conllu is saved.
-Current running time: 74.34
-ParlaMint-UA_2013-11-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-19-m0-uk.conllu is saved.
-Current running time: 75.04
-ParlaMint-UA_2013-04-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-16-m0-ru.conllu is saved.
-Current running time: 75.64
-ParlaMint-UA_2013-06-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-20-m0-uk.conllu is saved.
-Current running time: 76.37
-ParlaMint-UA_2013-12-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-20-m0-ru.conllu is saved.
-Current running time: 76.93
-ParlaMint-UA_2013-09-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-17-m0-uk.conllu is saved.
-Current running time: 77.68
-ParlaMint-UA_2013-11-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-20-m0-ru.conllu is saved.
-Current running time: 78.24
-ParlaMint-UA_2013-09-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-04-m0-ru.conllu is saved.
-Current running time: 78.8
-ParlaMint-UA_2013-11-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-07-m0-uk.conllu is saved.
-Current running time: 79.36
-ParlaMint-UA_2013-07-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-03-m1-uk.conllu is saved.
-Current running time: 79.95
-ParlaMint-UA_2013-03-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-22-m0-uk.conllu is saved.
-Current running time: 80.69
-ParlaMint-UA_2013-10-10-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-10-m1-ru.conllu is saved.
-Current running time: 81.24
-ParlaMint-UA_2013-06-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-04-m1-uk.conllu is saved.
-Current running time: 81.89
-ParlaMint-UA_2013-10-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-22-m0-uk.conllu is saved.
-Current running time: 82.53
-ParlaMint-UA_2013-02-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-02-22-m0-uk.conllu is saved.
-Current running time: 83.11
-ParlaMint-UA_2013-09-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-06-m0-uk.conllu is saved.
-Current running time: 83.83
-ParlaMint-UA_2013-09-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-20-m0-ru.conllu is saved.
-Current running time: 84.38
-ParlaMint-UA_2013-11-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-21-m1-ru.conllu is saved.
-Current running time: 84.92
-ParlaMint-UA_2013-12-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-19-m0-ru.conllu is saved.
-Current running time: 85.46
-ParlaMint-UA_2013-11-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-05-m0-uk.conllu is saved.
-Current running time: 86.14
-ParlaMint-UA_2013-11-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-19-m0-ru.conllu is saved.
-Current running time: 86.7
-ParlaMint-UA_2013-09-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-18-m0-uk.conllu is saved.
-Current running time: 87.41
-ParlaMint-UA_2013-09-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-03-m0-uk.conllu is saved.
-Current running time: 88.08
-ParlaMint-UA_2013-05-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-14-m0-ru.conllu is saved.
-Current running time: 88.64
-ParlaMint-UA_2013-10-24-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-24-m1-ru.conllu is saved.
-Current running time: 89.18
-ParlaMint-UA_2013-10-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-23-m0-uk.conllu is saved.
-Current running time: 89.87
-ParlaMint-UA_2013-05-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-15-m0-uk.conllu is saved.
-Current running time: 90.56
-ParlaMint-UA_2013-09-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-03-m0-ru.conllu is saved.
-Current running time: 91.11
-ParlaMint-UA_2013-11-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-06-m0-ru.conllu is saved.
-Current running time: 91.69
-ParlaMint-UA_2013-05-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-16-m1-uk.conllu is saved.
-Current running time: 92.3
-ParlaMint-UA_2013-07-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-02-m1-uk.conllu is saved.
-Current running time: 93.02
-ParlaMint-UA_2013-10-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-22-m0-ru.conllu is saved.
-Current running time: 93.61
-ParlaMint-UA_2013-10-24-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-24-m1-uk.conllu is saved.
-Current running time: 94.23
-ParlaMint-UA_2013-06-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-19-m0-uk.conllu is saved.
-Current running time: 94.9
-ParlaMint-UA_2013-10-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-08-m0-uk.conllu is saved.
-Current running time: 95.58
-ParlaMint-UA_2013-10-08-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-08-m1-ru.conllu is saved.
-Current running time: 96.12
-ParlaMint-UA_2013-07-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-05-m0-uk.conllu is saved.
-Current running time: 96.82
-ParlaMint-UA_2013-07-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-04-m0-uk.conllu is saved.
-Current running time: 97.51
-ParlaMint-UA_2013-04-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-02-m0-ru.conllu is saved.
-Current running time: 98.12
-ParlaMint-UA_2013-04-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-16-m0-uk.conllu is saved.
-Current running time: 98.8
-ParlaMint-UA_2013-06-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-04-m0-ru.conllu is saved.
-Current running time: 99.34
-ParlaMint-UA_2013-06-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-20-m0-ru.conllu is saved.
-Current running time: 99.89
-ParlaMint-UA_2013-05-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-17-m0-uk.conllu is saved.
-Current running time: 100.63
-ParlaMint-UA_2017-01-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-18-m0-ru.conllu is saved.
-Current running time: 101.19
-ParlaMint-UA_2017-09-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-08-m0-ru.conllu is saved.
-Current running time: 101.74
-ParlaMint-UA_2017-01-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-18-m0-uk.conllu is saved.
-Current running time: 102.38
-ParlaMint-UA_2017-01-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-17-m1-uk.conllu is saved.
-Current running time: 103.03
-ParlaMint-UA_2017-03-23-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-23-m1-ru.conllu is saved.
-Current running time: 103.59
-ParlaMint-UA_2017-12-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-07-m1-uk.conllu is saved.
-Current running time: 104.55
-ParlaMint-UA_2017-11-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-16-m1-uk.conllu is saved.
-Current running time: 105.22
-ParlaMint-UA_2017-06-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-20-m1-uk.conllu is saved.
-Current running time: 105.88
-ParlaMint-UA_2017-03-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-21-m1-uk.conllu is saved.
-Current running time: 106.56
-ParlaMint-UA_2017-03-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-17-m0-uk.conllu is saved.
-Current running time: 107.23
-ParlaMint-UA_2017-06-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-23-m0-uk.conllu is saved.
+ParlaMint-UA_2013-11-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-06-m0.conllu is saved.
+Current running time: 29.54
+ParlaMint-UA_2013-12-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-17-m0.conllu is saved.
+Current running time: 30.76
+ParlaMint-UA_2013-09-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-20-m0.conllu is saved.
+Current running time: 32.14
+ParlaMint-UA_2013-05-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-14-m1.conllu is saved.
+Current running time: 33.45
+ParlaMint-UA_2013-06-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-20-m0.conllu is saved.
+Current running time: 34.8
+ParlaMint-UA_2013-11-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-19-m1.conllu is saved.
+Current running time: 36.1
+ParlaMint-UA_2013-05-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-16-m1.conllu is saved.
+Current running time: 37.39
+ParlaMint-UA_2013-05-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-21-m0.conllu is saved.
+Current running time: 38.71
+ParlaMint-UA_2013-05-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-17-m0.conllu is saved.
+Current running time: 40.11
+ParlaMint-UA_2013-11-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-20-m0.conllu is saved.
+Current running time: 41.49
+ParlaMint-UA_2013-09-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-06-m0.conllu is saved.
+Current running time: 42.9
+ParlaMint-UA_2013-05-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-16-m0.conllu is saved.
+Current running time: 44.3
+ParlaMint-UA_2013-10-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-10-m0.conllu is saved.
+Current running time: 45.68
+ParlaMint-UA_2013-11-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-21-m1.conllu is saved.
+Current running time: 46.92
+ParlaMint-UA_2013-11-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-07-m0.conllu is saved.
+Current running time: 48.16
+ParlaMint-UA_2013-06-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-06-m1.conllu is saved.
+Current running time: 49.39
+ParlaMint-UA_2013-07-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-02-m1.conllu is saved.
+Current running time: 50.78
+ParlaMint-UA_2013-11-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-05-m0.conllu is saved.
+Current running time: 52.14
+ParlaMint-UA_2013-04-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-19-m0.conllu is saved.
+Current running time: 53.55
+ParlaMint-UA_2013-07-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-03-m1.conllu is saved.
+Current running time: 54.8
+ParlaMint-UA_2013-03-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-19-m0.conllu is saved.
+Current running time: 56.12
+ParlaMint-UA_2013-05-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-21-m1.conllu is saved.
+Current running time: 57.43
+ParlaMint-UA_2013-04-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-17-m0.conllu is saved.
+Current running time: 58.8
+ParlaMint-UA_2013-10-10-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-10-m1.conllu is saved.
+Current running time: 60.12
+ParlaMint-UA_2013-05-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-15-m0.conllu is saved.
+Current running time: 61.5
+ParlaMint-UA_2013-06-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-04-m0.conllu is saved.
+Current running time: 62.87
+ParlaMint-UA_2013-10-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-09-m0.conllu is saved.
+Current running time: 64.26
+ParlaMint-UA_2013-04-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-02-m0.conllu is saved.
+Current running time: 65.6
+ParlaMint-UA_2013-10-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-23-m0.conllu is saved.
+Current running time: 66.95
+ParlaMint-UA_2013-06-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-05-m0.conllu is saved.
+Current running time: 68.34
+ParlaMint-UA_2013-06-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-04-m1.conllu is saved.
+Current running time: 69.64
+ParlaMint-UA_2013-06-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-18-m0.conllu is saved.
+Current running time: 70.99
+ParlaMint-UA_2013-11-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-13-m0.conllu is saved.
+Current running time: 72.23
+ParlaMint-UA_2013-09-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-17-m0.conllu is saved.
+Current running time: 73.61
+ParlaMint-UA_2013-09-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-03-m1.conllu is saved.
+Current running time: 74.89
+ParlaMint-UA_2013-11-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-05-m1.conllu is saved.
+Current running time: 76.19
+ParlaMint-UA_2013-10-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-22-m1.conllu is saved.
+Current running time: 77.46
+ParlaMint-UA_2013-03-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-21-m1.conllu is saved.
+Current running time: 78.77
+ParlaMint-UA_2013-11-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-22-m0.conllu is saved.
+Current running time: 79.99
+ParlaMint-UA_2013-09-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-03-m0.conllu is saved.
+Current running time: 81.32
+ParlaMint-UA_2013-11-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-19-m0.conllu is saved.
+Current running time: 82.65
+ParlaMint-UA_2013-09-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-18-m0.conllu is saved.
+Current running time: 84.03
+ParlaMint-UA_2013-12-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-18-m0.conllu is saved.
+Current running time: 85.25
+ParlaMint-UA_2013-09-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-05-m1.conllu is saved.
+Current running time: 86.55
+ParlaMint-UA_2013-12-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-04-m0.conllu is saved.
+Current running time: 87.77
+ParlaMint-UA_2013-03-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-19-m1.conllu is saved.
+Current running time: 89.08
+ParlaMint-UA_2013-06-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-18-m1.conllu is saved.
+Current running time: 90.38
+ParlaMint-UA_2013-07-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-07-04-m1.conllu is saved.
+Current running time: 91.89
+ParlaMint-UA_2013-09-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-19-m1.conllu is saved.
+Current running time: 93.22
+ParlaMint-UA_2013-06-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-21-m0.conllu is saved.
+Current running time: 94.61
+ParlaMint-UA_2013-10-24-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-24-m1.conllu is saved.
+Current running time: 95.9
+ParlaMint-UA_2013-06-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-20-m1.conllu is saved.
+Current running time: 97.18
+ParlaMint-UA_2013-12-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-12-19-m0.conllu is saved.
+Current running time: 98.45
+ParlaMint-UA_2013-09-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-04-m0.conllu is saved.
+Current running time: 99.77
+ParlaMint-UA_2013-05-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-23-m0.conllu is saved.
+Current running time: 101.12
+ParlaMint-UA_2013-10-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-10-25-m0.conllu is saved.
+Current running time: 102.51
+ParlaMint-UA_2013-05-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-24-m0.conllu is saved.
+Current running time: 103.92
+ParlaMint-UA_2013-09-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-09-19-m0.conllu is saved.
+Current running time: 105.29
+ParlaMint-UA_2013-01-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-01-11-m0.conllu is saved.
+Current running time: 106.65
+ParlaMint-UA_2013-03-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-03-20-m0.conllu is saved.
 Current running time: 107.96
-ParlaMint-UA_2017-07-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-13-m1-uk.conllu is saved.
-Current running time: 108.75
-ParlaMint-UA_2017-12-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-21-m0-ru.conllu is saved.
-Current running time: 109.3
-ParlaMint-UA_2017-03-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-16-m0-uk.conllu is saved.
-Current running time: 109.98
-ParlaMint-UA_2017-04-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-12-m0-ru.conllu is saved.
-Current running time: 110.53
-ParlaMint-UA_2017-11-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-16-m0-uk.conllu is saved.
-Current running time: 111.22
-ParlaMint-UA_2017-09-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-07-m1-uk.conllu is saved.
-Current running time: 111.88
-ParlaMint-UA_2017-11-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-09-m0-uk.conllu is saved.
-Current running time: 112.53
-ParlaMint-UA_2017-07-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-03-m0-uk.conllu is saved.
-Current running time: 113.13
-ParlaMint-UA_2017-06-08-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-08-m1-ru.conllu is saved.
-Current running time: 113.68
-ParlaMint-UA_2017-04-11-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-11-m1-uk.conllu is saved.
-Current running time: 114.33
-ParlaMint-UA_2017-02-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-07-m0-uk.conllu is saved.
-Current running time: 115.0
-ParlaMint-UA_2017-07-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-13-m0-uk.conllu is saved.
-Current running time: 115.67
-ParlaMint-UA_2017-04-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-12-m0-uk.conllu is saved.
-Current running time: 116.36
-ParlaMint-UA_2017-12-19-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-19-m1-ru.conllu is saved.
-Current running time: 116.88
-ParlaMint-UA_2017-02-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-21-m1-uk.conllu is saved.
-Current running time: 117.5
-ParlaMint-UA_2017-04-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-04-m0-ru.conllu is saved.
-Current running time: 118.03
-ParlaMint-UA_2017-09-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-07-m0-uk.conllu is saved.
-Current running time: 118.73
-ParlaMint-UA_2017-03-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-21-m0-ru.conllu is saved.
-Current running time: 119.26
-ParlaMint-UA_2017-04-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-04-m1-uk.conllu is saved.
-Current running time: 119.87
-ParlaMint-UA_2017-12-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-05-m1-uk.conllu is saved.
-Current running time: 120.46
-ParlaMint-UA_2017-10-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-17-m0-uk.conllu is saved.
-Current running time: 121.03
-ParlaMint-UA_2017-03-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-24-m0-uk.conllu is saved.
-Current running time: 121.72
-ParlaMint-UA_2017-05-23-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-23-m1-ru.conllu is saved.
-Current running time: 122.25
-ParlaMint-UA_2017-09-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-21-m1-ru.conllu is saved.
-Current running time: 122.78
-ParlaMint-UA_2017-04-13-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-13-m1-ru.conllu is saved.
-Current running time: 123.3
-ParlaMint-UA_2017-02-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-21-m0-uk.conllu is saved.
-Current running time: 124.0
-ParlaMint-UA_2017-12-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-05-m0-uk.conllu is saved.
-Current running time: 124.63
-ParlaMint-UA_2017-03-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-16-m1-ru.conllu is saved.
-Current running time: 125.17
-ParlaMint-UA_2017-01-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-17-m0-uk.conllu is saved.
-Current running time: 125.86
-ParlaMint-UA_2017-10-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-19-m0-uk.conllu is saved.
-Current running time: 126.56
-ParlaMint-UA_2017-12-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-06-m1-uk.conllu is saved.
-Current running time: 127.14
-ParlaMint-UA_2017-10-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-05-m0-uk.conllu is saved.
-Current running time: 127.83
-ParlaMint-UA_2017-05-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-16-m1-uk.conllu is saved.
-Current running time: 128.44
-ParlaMint-UA_2017-03-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-16-m1-uk.conllu is saved.
-Current running time: 129.03
-ParlaMint-UA_2017-06-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-23-m0-ru.conllu is saved.
-Current running time: 129.56
-ParlaMint-UA_2017-11-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-10-m0-ru.conllu is saved.
-Current running time: 130.1
-ParlaMint-UA_2017-02-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-23-m0-ru.conllu is saved.
-Current running time: 130.63
-ParlaMint-UA_2017-04-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-07-m0-ru.conllu is saved.
-Current running time: 131.16
-ParlaMint-UA_2017-09-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-19-m0-uk.conllu is saved.
-Current running time: 131.87
-ParlaMint-UA_2017-04-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-05-m0-ru.conllu is saved.
-Current running time: 132.4
-ParlaMint-UA_2017-06-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-21-m0-ru.conllu is saved.
-Current running time: 132.92
-ParlaMint-UA_2017-04-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-04-m1-ru.conllu is saved.
-Current running time: 133.45
-ParlaMint-UA_2017-05-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-18-m1-uk.conllu is saved.
-Current running time: 134.06
-ParlaMint-UA_2017-04-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-13-m0-ru.conllu is saved.
-Current running time: 134.59
-ParlaMint-UA_2017-11-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-08-m0-uk.conllu is saved.
-Current running time: 135.29
-ParlaMint-UA_2017-03-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-23-m1-uk.conllu is saved.
-Current running time: 135.92
-ParlaMint-UA_2017-10-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-05-m1-uk.conllu is saved.
-Current running time: 136.48
-ParlaMint-UA_2017-03-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-14-m1-ru.conllu is saved.
-Current running time: 137.02
-ParlaMint-UA_2017-03-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-15-m0-uk.conllu is saved.
-Current running time: 137.55
-ParlaMint-UA_2017-04-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-13-m0-uk.conllu is saved.
-Current running time: 138.25
-ParlaMint-UA_2017-04-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-13-m1-uk.conllu is saved.
+ParlaMint-UA_2013-04-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-18-m1.conllu is saved.
+Current running time: 109.24
+ParlaMint-UA_2013-04-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-02-m1.conllu is saved.
+Current running time: 110.49
+ParlaMint-UA_2013-11-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-21-m0.conllu is saved.
+Current running time: 111.82
+ParlaMint-UA_2013-01-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-01-10-m0.conllu is saved.
+Current running time: 113.15
+ParlaMint-UA_2013-05-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-14-m0.conllu is saved.
+Current running time: 114.51
+ParlaMint-UA_2013-06-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-06-19-m0.conllu is saved.
+Current running time: 115.9
+ParlaMint-UA_2013-05-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-05-23-m1.conllu is saved.
+Current running time: 117.19
+ParlaMint-UA_2017-06-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-20-m1.conllu is saved.
+Current running time: 118.5
+ParlaMint-UA_2017-04-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-07-m0.conllu is saved.
+Current running time: 119.9
+ParlaMint-UA_2017-02-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-08-m0.conllu is saved.
+Current running time: 121.2
+ParlaMint-UA_2017-05-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-23-m1.conllu is saved.
+Current running time: 122.52
+ParlaMint-UA_2017-10-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-17-m1.conllu is saved.
+Current running time: 123.84
+ParlaMint-UA_2017-12-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-19-m1.conllu is saved.
+Current running time: 125.14
+ParlaMint-UA_2017-04-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-05-m0.conllu is saved.
+Current running time: 126.52
+ParlaMint-UA_2017-04-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-06-m1.conllu is saved.
+Current running time: 127.84
+ParlaMint-UA_2017-04-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-13-m1.conllu is saved.
+Current running time: 129.17
+ParlaMint-UA_2017-04-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-14-m0.conllu is saved.
+Current running time: 130.55
+ParlaMint-UA_2017-12-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-20-m0.conllu is saved.
+Current running time: 131.93
+ParlaMint-UA_2017-01-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-18-m0.conllu is saved.
+Current running time: 133.27
+ParlaMint-UA_2017-02-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-21-m0.conllu is saved.
+Current running time: 134.69
+ParlaMint-UA_2017-02-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-23-m0.conllu is saved.
+Current running time: 136.12
+ParlaMint-UA_2017-06-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-20-m0.conllu is saved.
+Current running time: 137.5
+ParlaMint-UA_2017-03-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-21-m0.conllu is saved.
 Current running time: 138.88
-ParlaMint-UA_2017-02-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-09-m0-ru.conllu is saved.
-Current running time: 139.42
-ParlaMint-UA_2017-06-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-06-m0-uk.conllu is saved.
-Current running time: 140.15
-ParlaMint-UA_2017-02-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-08-m0-ru.conllu is saved.
-Current running time: 140.7
-ParlaMint-UA_2017-07-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-14-m0-uk.conllu is saved.
-Current running time: 141.39
-ParlaMint-UA_2017-09-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-05-m0-uk.conllu is saved.
-Current running time: 142.09
-ParlaMint-UA_2017-12-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-21-m0-uk.conllu is saved.
-Current running time: 142.74
-ParlaMint-UA_2017-10-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-04-m0-uk.conllu is saved.
-Current running time: 143.42
-ParlaMint-UA_2017-05-25-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-25-m1-ru.conllu is saved.
-Current running time: 143.94
-ParlaMint-UA_2017-07-11-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-11-m1-uk.conllu is saved.
-Current running time: 144.69
-ParlaMint-UA_2017-12-07-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-07-m1-ru.conllu is saved.
-Current running time: 145.21
-ParlaMint-UA_2017-02-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-10-m0-uk.conllu is saved.
-Current running time: 145.91
-ParlaMint-UA_2017-06-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-09-m0-uk.conllu is saved.
-Current running time: 146.6
-ParlaMint-UA_2017-12-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-19-m1-uk.conllu is saved.
-Current running time: 147.2
-ParlaMint-UA_2017-02-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-07-m1-uk.conllu is saved.
-Current running time: 147.81
-ParlaMint-UA_2017-09-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-05-m1-uk.conllu is saved.
+ParlaMint-UA_2017-04-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-11-m0.conllu is saved.
+Current running time: 140.32
+ParlaMint-UA_2017-10-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-17-m0.conllu is saved.
+Current running time: 141.58
+ParlaMint-UA_2017-12-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-22-m0.conllu is saved.
+Current running time: 142.98
+ParlaMint-UA_2017-04-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-06-m0.conllu is saved.
+Current running time: 144.37
+ParlaMint-UA_2017-10-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-04-m0.conllu is saved.
+Current running time: 145.75
+ParlaMint-UA_2017-04-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-13-m0.conllu is saved.
+Current running time: 147.14
+ParlaMint-UA_2017-11-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-07-m1.conllu is saved.
 Current running time: 148.46
-ParlaMint-UA_2017-11-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-10-m0-uk.conllu is saved.
-Current running time: 149.18
-ParlaMint-UA_2017-01-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-20-m0-uk.conllu is saved.
-Current running time: 149.77
-ParlaMint-UA_2017-12-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-22-m0-uk.conllu is saved.
-Current running time: 150.48
-ParlaMint-UA_2017-12-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-21-m1-uk.conllu is saved.
-Current running time: 151.1
-ParlaMint-UA_2017-10-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-20-m0-uk.conllu is saved.
-Current running time: 151.8
-ParlaMint-UA_2017-11-09-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-09-m1-uk.conllu is saved.
-Current running time: 152.41
-ParlaMint-UA_2017-10-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-19-m1-uk.conllu is saved.
-Current running time: 153.04
-ParlaMint-UA_2017-02-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-23-m1-uk.conllu is saved.
-Current running time: 153.66
-ParlaMint-UA_2017-07-11-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-11-m1-ru.conllu is saved.
-Current running time: 154.19
-ParlaMint-UA_2017-10-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-03-m0-uk.conllu is saved.
-Current running time: 155.12
-ParlaMint-UA_2017-06-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-20-m0-uk.conllu is saved.
-Current running time: 155.8
-ParlaMint-UA_2017-10-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-03-m0-ru.conllu is saved.
-Current running time: 156.32
-ParlaMint-UA_2017-02-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-23-m0-uk.conllu is saved.
-Current running time: 157.01
-ParlaMint-UA_2017-11-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-07-m1-uk.conllu is saved.
-Current running time: 157.63
-ParlaMint-UA_2017-06-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-21-m0-uk.conllu is saved.
-Current running time: 158.34
-ParlaMint-UA_2017-04-06-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-06-m1-ru.conllu is saved.
-Current running time: 158.91
-ParlaMint-UA_2017-05-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-17-m0-uk.conllu is saved.
-Current running time: 159.6
-ParlaMint-UA_2017-09-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-21-m1-uk.conllu is saved.
-Current running time: 160.31
-ParlaMint-UA_2017-01-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-19-m1-uk.conllu is saved.
-Current running time: 160.92
-ParlaMint-UA_2017-07-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-12-m0-uk.conllu is saved.
-Current running time: 161.67
-ParlaMint-UA_2017-04-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-14-m0-uk.conllu is saved.
-Current running time: 162.43
-ParlaMint-UA_2017-10-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-18-m0-uk.conllu is saved.
-Current running time: 163.2
-ParlaMint-UA_2017-11-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-07-m0-uk.conllu is saved.
-Current running time: 163.97
-ParlaMint-UA_2017-09-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-20-m0-uk.conllu is saved.
-Current running time: 164.75
-ParlaMint-UA_2017-04-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-14-m0-ru.conllu is saved.
-Current running time: 165.34
-ParlaMint-UA_2017-06-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-07-m0-uk.conllu is saved.
-Current running time: 166.05
-ParlaMint-UA_2017-06-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-07-m0-ru.conllu is saved.
-Current running time: 166.64
-ParlaMint-UA_2017-11-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-15-m0-ru.conllu is saved.
-Current running time: 167.23
-ParlaMint-UA_2017-03-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-22-m0-uk.conllu is saved.
-Current running time: 167.96
-ParlaMint-UA_2017-11-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-14-m1-uk.conllu is saved.
-Current running time: 168.66
-ParlaMint-UA_2017-07-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-11-m0-ru.conllu is saved.
-Current running time: 169.25
-ParlaMint-UA_2017-06-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-08-m0-uk.conllu is saved.
-Current running time: 170.03
-ParlaMint-UA_2017-03-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-14-m0-ru.conllu is saved.
-Current running time: 170.63
-ParlaMint-UA_2017-09-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-19-m1-uk.conllu is saved.
-Current running time: 171.31
-ParlaMint-UA_2017-07-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-11-m0-uk.conllu is saved.
-Current running time: 172.05
-ParlaMint-UA_2017-04-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-06-m0-uk.conllu is saved.
-Current running time: 172.84
-ParlaMint-UA_2017-05-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-18-m0-uk.conllu is saved.
-Current running time: 173.62
-ParlaMint-UA_2017-05-25-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-25-m1-uk.conllu is saved.
-Current running time: 174.32
-ParlaMint-UA_2017-12-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-06-m0-uk.conllu is saved.
-Current running time: 175.12
-ParlaMint-UA_2017-11-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-14-m0-uk.conllu is saved.
-Current running time: 175.9
-ParlaMint-UA_2017-09-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-22-m0-uk.conllu is saved.
-Current running time: 176.73
-ParlaMint-UA_2017-03-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-17-m1-uk.conllu is saved.
-Current running time: 177.39
-ParlaMint-UA_2017-02-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-08-m0-uk.conllu is saved.
-Current running time: 178.06
-ParlaMint-UA_2017-11-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-17-m0-uk.conllu is saved.
-Current running time: 178.76
-ParlaMint-UA_2017-12-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-19-m0-uk.conllu is saved.
-Current running time: 179.43
-ParlaMint-UA_2017-02-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-24-m0-ru.conllu is saved.
-Current running time: 179.96
-ParlaMint-UA_2017-03-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-17-m0-ru.conllu is saved.
-Current running time: 180.51
-ParlaMint-UA_2017-01-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-20-m0-ru.conllu is saved.
-Current running time: 181.05
-ParlaMint-UA_2017-06-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-06-m0-ru.conllu is saved.
-Current running time: 181.57
-ParlaMint-UA_2017-11-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-14-m0-ru.conllu is saved.
-Current running time: 182.12
-ParlaMint-UA_2017-12-06-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-06-m1-ru.conllu is saved.
-Current running time: 182.74
-ParlaMint-UA_2017-09-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-22-m0-ru.conllu is saved.
-Current running time: 183.34
-ParlaMint-UA_2017-05-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-23-m1-uk.conllu is saved.
-Current running time: 184.03
-ParlaMint-UA_2017-04-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-05-m0-uk.conllu is saved.
-Current running time: 184.79
-ParlaMint-UA_2017-04-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-11-m0-ru.conllu is saved.
-Current running time: 185.4
-ParlaMint-UA_2017-02-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-21-m0-ru.conllu is saved.
-Current running time: 186.0
-ParlaMint-UA_2017-12-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-20-m0-uk.conllu is saved.
-Current running time: 186.78
-ParlaMint-UA_2017-05-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-19-m0-uk.conllu is saved.
-Current running time: 187.56
-ParlaMint-UA_2017-05-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-19-m0-ru.conllu is saved.
-Current running time: 188.16
-ParlaMint-UA_2017-03-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-22-m0-ru.conllu is saved.
-Current running time: 188.69
-ParlaMint-UA_2017-03-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-21-m1-ru.conllu is saved.
-Current running time: 189.3
-ParlaMint-UA_2017-04-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-06-m1-uk.conllu is saved.
-Current running time: 189.98
-ParlaMint-UA_2017-07-13-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-13-m1-ru.conllu is saved.
-Current running time: 190.59
-ParlaMint-UA_2017-03-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-14-m0-uk.conllu is saved.
-Current running time: 191.33
-ParlaMint-UA_2017-05-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-26-m0-uk.conllu is saved.
-Current running time: 192.09
-ParlaMint-UA_2017-04-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-04-m0-uk.conllu is saved.
-Current running time: 192.84
-ParlaMint-UA_2017-04-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-07-m0-uk.conllu is saved.
-Current running time: 193.61
-ParlaMint-UA_2017-06-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-22-m1-uk.conllu is saved.
-Current running time: 194.3
-ParlaMint-UA_2017-01-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-19-m0-uk.conllu is saved.
-Current running time: 194.99
-ParlaMint-UA_2017-06-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-08-m1-uk.conllu is saved.
-Current running time: 195.68
-ParlaMint-UA_2017-02-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-24-m0-uk.conllu is saved.
-Current running time: 196.44
-ParlaMint-UA_2017-10-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-19-m0-ru.conllu is saved.
-Current running time: 197.03
-ParlaMint-UA_2017-02-09-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-09-m1-uk.conllu is saved.
-Current running time: 197.74
-ParlaMint-UA_2017-10-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-06-m0-uk.conllu is saved.
-Current running time: 198.4
-ParlaMint-UA_2017-09-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-08-m0-uk.conllu is saved.
-Current running time: 199.18
-ParlaMint-UA_2017-02-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-09-m0-uk.conllu is saved.
+ParlaMint-UA_2017-11-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-14-m0.conllu is saved.
+Current running time: 149.83
+ParlaMint-UA_2017-02-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-07-m1.conllu is saved.
+Current running time: 151.13
+ParlaMint-UA_2017-06-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-06-m0.conllu is saved.
+Current running time: 152.53
+ParlaMint-UA_2017-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-18-m0.conllu is saved.
+Current running time: 153.91
+ParlaMint-UA_2017-02-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-09-m1.conllu is saved.
+Current running time: 155.24
+ParlaMint-UA_2017-03-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-21-m1.conllu is saved.
+Current running time: 156.55
+ParlaMint-UA_2017-05-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-17-m0.conllu is saved.
+Current running time: 157.89
+ParlaMint-UA_2017-05-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-24-m0.conllu is saved.
+Current running time: 159.27
+ParlaMint-UA_2017-06-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-08-m0.conllu is saved.
+Current running time: 160.68
+ParlaMint-UA_2017-04-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-11-m1.conllu is saved.
+Current running time: 162.02
+ParlaMint-UA_2017-03-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-22-m0.conllu is saved.
+Current running time: 163.38
+ParlaMint-UA_2017-02-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-23-m1.conllu is saved.
+Current running time: 164.69
+ParlaMint-UA_2017-03-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-16-m0.conllu is saved.
+Current running time: 166.06
+ParlaMint-UA_2017-10-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-18-m0.conllu is saved.
+Current running time: 167.45
+ParlaMint-UA_2017-10-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-05-m0.conllu is saved.
+Current running time: 168.83
+ParlaMint-UA_2017-07-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-11-m0.conllu is saved.
+Current running time: 170.19
+ParlaMint-UA_2017-12-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-19-m0.conllu is saved.
+Current running time: 171.55
+ParlaMint-UA_2017-06-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-21-m0.conllu is saved.
+Current running time: 172.9
+ParlaMint-UA_2017-01-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-20-m0.conllu is saved.
+Current running time: 174.18
+ParlaMint-UA_2017-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-19-m0.conllu is saved.
+Current running time: 175.58
+ParlaMint-UA_2017-05-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-16-m1.conllu is saved.
+Current running time: 176.88
+ParlaMint-UA_2017-05-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-18-m1.conllu is saved.
+Current running time: 178.21
+ParlaMint-UA_2017-12-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-06-m0.conllu is saved.
+Current running time: 179.59
+ParlaMint-UA_2017-10-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-06-m0.conllu is saved.
+Current running time: 180.88
+ParlaMint-UA_2017-02-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-07-m0.conllu is saved.
+Current running time: 182.26
+ParlaMint-UA_2017-11-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-09-m0.conllu is saved.
+Current running time: 183.58
+ParlaMint-UA_2017-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-07-m0.conllu is saved.
+Current running time: 184.97
+ParlaMint-UA_2017-10-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-20-m0.conllu is saved.
+Current running time: 186.35
+ParlaMint-UA_2017-04-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-12-m0.conllu is saved.
+Current running time: 187.73
+ParlaMint-UA_2017-11-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-14-m1.conllu is saved.
+Current running time: 189.06
+ParlaMint-UA_2017-07-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-11-m1.conllu is saved.
+Current running time: 190.5
+ParlaMint-UA_2017-02-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-10-m0.conllu is saved.
+Current running time: 191.89
+ParlaMint-UA_2017-07-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-13-m1.conllu is saved.
+Current running time: 193.3
+ParlaMint-UA_2017-01-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-17-m0.conllu is saved.
+Current running time: 194.68
+ParlaMint-UA_2017-05-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-23-m0.conllu is saved.
+Current running time: 196.06
+ParlaMint-UA_2017-06-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-22-m1.conllu is saved.
+Current running time: 197.37
+ParlaMint-UA_2017-12-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-21-m1.conllu is saved.
+Current running time: 198.69
+ParlaMint-UA_2017-03-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-15-m0.conllu is saved.
 Current running time: 199.91
-ParlaMint-UA_2017-02-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-22-m0-uk.conllu is saved.
-Current running time: 200.65
-ParlaMint-UA_2017-02-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-07-m0-ru.conllu is saved.
-Current running time: 201.25
-ParlaMint-UA_2017-10-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-17-m1-uk.conllu is saved.
-Current running time: 201.94
-ParlaMint-UA_2017-05-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-16-m0-uk.conllu is saved.
-Current running time: 202.71
-ParlaMint-UA_2017-05-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-25-m0-uk.conllu is saved.
-Current running time: 203.47
-ParlaMint-UA_2017-10-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-04-m0-ru.conllu is saved.
-Current running time: 204.07
-ParlaMint-UA_2017-06-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-20-m0-ru.conllu is saved.
-Current running time: 204.66
-ParlaMint-UA_2017-06-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-22-m0-uk.conllu is saved.
-Current running time: 205.43
-ParlaMint-UA_2017-10-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-18-m0-ru.conllu is saved.
-Current running time: 206.03
-ParlaMint-UA_2017-11-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-15-m0-uk.conllu is saved.
-Current running time: 206.79
-ParlaMint-UA_2017-03-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-23-m0-uk.conllu is saved.
-Current running time: 207.58
-ParlaMint-UA_2017-02-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-21-m1-ru.conllu is saved.
-Current running time: 208.15
-ParlaMint-UA_2017-04-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-11-m0-uk.conllu is saved.
-Current running time: 208.85
-ParlaMint-UA_2017-05-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-24-m0-uk.conllu is saved.
-Current running time: 209.56
-ParlaMint-UA_2017-12-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-07-m0-uk.conllu is saved.
-Current running time: 210.31
-ParlaMint-UA_2017-09-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-21-m0-uk.conllu is saved.
-Current running time: 211.08
-ParlaMint-UA_2017-03-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-21-m0-uk.conllu is saved.
-Current running time: 211.81
-ParlaMint-UA_2017-05-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-23-m0-uk.conllu is saved.
-Current running time: 212.54
-ParlaMint-UA_2017-03-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-14-m1-uk.conllu is saved.
-Current running time: 213.17
-ParlaMint-UA_2018-04-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-03-m0-uk.conllu is saved.
-Current running time: 213.91
-ParlaMint-UA_2018-02-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-09-m0-ru.conllu is saved.
-Current running time: 214.43
-ParlaMint-UA_2018-03-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-14-m0-ru.conllu is saved.
-Current running time: 214.96
-ParlaMint-UA_2018-07-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-04-m0-uk.conllu is saved.
-Current running time: 215.68
-ParlaMint-UA_2018-10-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-19-m0-uk.conllu is saved.
-Current running time: 216.41
-ParlaMint-UA_2018-10-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-04-m0-uk.conllu is saved.
-Current running time: 217.18
-ParlaMint-UA_2018-07-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-11-m0-uk.conllu is saved.
-Current running time: 217.9
-ParlaMint-UA_2018-06-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-22-m0-uk.conllu is saved.
-Current running time: 218.63
-ParlaMint-UA_2018-05-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-18-m0-uk.conllu is saved.
-Current running time: 219.38
-ParlaMint-UA_2018-02-27-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-27-m1-uk.conllu is saved.
-Current running time: 220.01
-ParlaMint-UA_2018-10-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-17-m0-uk.conllu is saved.
-Current running time: 220.78
-ParlaMint-UA_2018-07-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-10-m0-uk.conllu is saved.
-Current running time: 221.47
-ParlaMint-UA_2018-11-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-20-m0-uk.conllu is saved.
-Current running time: 222.18
-ParlaMint-UA_2018-10-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-16-m1-uk.conllu is saved.
-Current running time: 222.8
-ParlaMint-UA_2018-01-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-16-m0-uk.conllu is saved.
-Current running time: 223.58
-ParlaMint-UA_2018-06-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-08-m0-uk.conllu is saved.
-Current running time: 224.32
-ParlaMint-UA_2018-05-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-15-m0-ru.conllu is saved.
-Current running time: 224.84
-ParlaMint-UA_2018-03-01-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-01-m1-uk.conllu is saved.
-Current running time: 225.5
-ParlaMint-UA_2018-04-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-18-m0-uk.conllu is saved.
-Current running time: 226.23
-ParlaMint-UA_2018-10-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-16-m0-ru.conllu is saved.
-Current running time: 226.77
-ParlaMint-UA_2018-07-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-06-m0-uk.conllu is saved.
-Current running time: 227.52
-ParlaMint-UA_2018-12-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-04-m0-uk.conllu is saved.
-Current running time: 228.26
-ParlaMint-UA_2018-04-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-17-m0-uk.conllu is saved.
-Current running time: 229.0
-ParlaMint-UA_2018-02-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-08-m1-uk.conllu is saved.
-Current running time: 229.66
-ParlaMint-UA_2018-02-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-06-m0-uk.conllu is saved.
-Current running time: 230.42
-ParlaMint-UA_2018-04-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-06-m0-uk.conllu is saved.
-Current running time: 231.19
-ParlaMint-UA_2018-03-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-15-m0-ru.conllu is saved.
-Current running time: 231.73
-ParlaMint-UA_2018-09-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-04-m0-uk.conllu is saved.
-Current running time: 232.43
-ParlaMint-UA_2018-09-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-04-m0-ru.conllu is saved.
-Current running time: 232.98
-ParlaMint-UA_2018-03-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-20-m0-uk.conllu is saved.
-Current running time: 233.67
-ParlaMint-UA_2018-10-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-18-m0-uk.conllu is saved.
-Current running time: 234.4
-ParlaMint-UA_2018-05-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-23-m0-uk.conllu is saved.
-Current running time: 235.14
-ParlaMint-UA_2018-05-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-15-m0-uk.conllu is saved.
-Current running time: 235.85
-ParlaMint-UA_2018-09-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-04-m1-uk.conllu is saved.
-Current running time: 236.5
-ParlaMint-UA_2018-03-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-22-m0-uk.conllu is saved.
-Current running time: 237.24
-ParlaMint-UA_2018-04-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-19-m1-uk.conllu is saved.
-Current running time: 237.89
-ParlaMint-UA_2018-11-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-22-m0-uk.conllu is saved.
-Current running time: 238.62
-ParlaMint-UA_2018-11-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-08-m0-uk.conllu is saved.
-Current running time: 239.33
-ParlaMint-UA_2018-02-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-08-m0-uk.conllu is saved.
-Current running time: 240.04
-ParlaMint-UA_2018-11-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-22-m1-uk.conllu is saved.
-Current running time: 240.96
-ParlaMint-UA_2018-04-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-04-m0-uk.conllu is saved.
-Current running time: 241.69
-ParlaMint-UA_2018-09-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-19-m0-uk.conllu is saved.
-Current running time: 242.42
-ParlaMint-UA_2018-05-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-17-m0-uk.conllu is saved.
-Current running time: 243.15
-ParlaMint-UA_2018-10-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-04-m1-uk.conllu is saved.
-Current running time: 243.8
-ParlaMint-UA_2018-09-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-20-m1-uk.conllu is saved.
-Current running time: 244.44
-ParlaMint-UA_2018-10-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-16-m0-uk.conllu is saved.
-Current running time: 245.07
-ParlaMint-UA_2018-02-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-09-m0-uk.conllu is saved.
-Current running time: 245.78
-ParlaMint-UA_2018-11-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-26-m0-uk.conllu is saved.
-Current running time: 246.43
-ParlaMint-UA_2018-04-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-05-m0-uk.conllu is saved.
-Current running time: 247.16
-ParlaMint-UA_2018-03-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-15-m1-uk.conllu is saved.
-Current running time: 247.81
-ParlaMint-UA_2018-04-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-03-m1-uk.conllu is saved.
-Current running time: 248.43
-ParlaMint-UA_2018-12-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-19-m0-uk.conllu is saved.
-Current running time: 249.11
-ParlaMint-UA_2018-07-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-03-m0-uk.conllu is saved.
-Current running time: 249.81
-ParlaMint-UA_2018-03-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-22-m1-uk.conllu is saved.
-Current running time: 250.44
-ParlaMint-UA_2018-10-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-18-m1-uk.conllu is saved.
-Current running time: 251.07
-ParlaMint-UA_2018-05-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-22-m1-uk.conllu is saved.
-Current running time: 251.69
-ParlaMint-UA_2018-09-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-20-m0-uk.conllu is saved.
-Current running time: 252.37
-ParlaMint-UA_2018-01-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-19-m0-uk.conllu is saved.
-Current running time: 253.06
-ParlaMint-UA_2018-02-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-28-m0-uk.conllu is saved.
-Current running time: 253.72
-ParlaMint-UA_2018-06-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-21-m1-uk.conllu is saved.
-Current running time: 254.36
-ParlaMint-UA_2018-06-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-05-m1-uk.conllu is saved.
-Current running time: 254.98
-ParlaMint-UA_2018-12-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-04-m1-uk.conllu is saved.
-Current running time: 255.6
-ParlaMint-UA_2018-11-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-20-m1-uk.conllu is saved.
-Current running time: 256.22
-ParlaMint-UA_2018-10-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-03-m0-uk.conllu is saved.
-Current running time: 256.9
-ParlaMint-UA_2018-02-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-07-m0-uk.conllu is saved.
-Current running time: 257.51
-ParlaMint-UA_2018-10-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-02-m1-uk.conllu is saved.
-Current running time: 258.13
-ParlaMint-UA_2018-07-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-05-m0-uk.conllu is saved.
-Current running time: 258.77
-ParlaMint-UA_2018-06-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-19-m0-uk.conllu is saved.
-Current running time: 259.45
-ParlaMint-UA_2018-09-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-18-m1-uk.conllu is saved.
-Current running time: 260.08
-ParlaMint-UA_2018-02-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-06-m1-uk.conllu is saved.
-Current running time: 260.7
-ParlaMint-UA_2018-12-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-07-m0-uk.conllu is saved.
-Current running time: 261.4
-ParlaMint-UA_2018-06-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-21-m0-ru.conllu is saved.
-Current running time: 261.94
-ParlaMint-UA_2018-06-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-07-m0-uk.conllu is saved.
-Current running time: 262.59
-ParlaMint-UA_2018-12-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-18-m1-uk.conllu is saved.
-Current running time: 263.21
-ParlaMint-UA_2018-11-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-06-m0-uk.conllu is saved.
+ParlaMint-UA_2017-09-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-20-m0.conllu is saved.
+Current running time: 201.32
+ParlaMint-UA_2017-03-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-14-m1.conllu is saved.
+Current running time: 202.62
+ParlaMint-UA_2017-04-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-04-m0.conllu is saved.
+Current running time: 204.0
+ParlaMint-UA_2017-09-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-19-m1.conllu is saved.
+Current running time: 205.33
+ParlaMint-UA_2017-11-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-15-m0.conllu is saved.
+Current running time: 206.71
+ParlaMint-UA_2017-05-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-16-m0.conllu is saved.
+Current running time: 208.1
+ParlaMint-UA_2017-05-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-19-m0.conllu is saved.
+Current running time: 209.5
+ParlaMint-UA_2017-09-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-19-m0.conllu is saved.
+Current running time: 210.91
+ParlaMint-UA_2017-12-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-21-m0.conllu is saved.
+Current running time: 212.26
+ParlaMint-UA_2017-07-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-12-m0.conllu is saved.
+Current running time: 213.61
+ParlaMint-UA_2017-12-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-05-m0.conllu is saved.
+Current running time: 214.94
+ParlaMint-UA_2017-01-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-17-m1.conllu is saved.
+Current running time: 216.26
+ParlaMint-UA_2017-03-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-17-m0.conllu is saved.
+Current running time: 217.59
+ParlaMint-UA_2017-11-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-10-m0.conllu is saved.
+Current running time: 218.99
+ParlaMint-UA_2017-02-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-21-m1.conllu is saved.
+Current running time: 220.3
+ParlaMint-UA_2017-02-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-22-m0.conllu is saved.
+Current running time: 221.65
+ParlaMint-UA_2017-09-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-22-m0.conllu is saved.
+Current running time: 223.08
+ParlaMint-UA_2017-10-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-05-m1.conllu is saved.
+Current running time: 224.34
+ParlaMint-UA_2017-06-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-07-m0.conllu is saved.
+Current running time: 225.68
+ParlaMint-UA_2017-06-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-09-m0.conllu is saved.
+Current running time: 227.06
+ParlaMint-UA_2017-09-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-07-m1.conllu is saved.
+Current running time: 228.38
+ParlaMint-UA_2017-04-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-04-04-m1.conllu is saved.
+Current running time: 229.78
+ParlaMint-UA_2017-07-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-03-m0.conllu is saved.
+Current running time: 231.1
+ParlaMint-UA_2017-05-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-26-m0.conllu is saved.
+Current running time: 232.5
+ParlaMint-UA_2017-09-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-05-m0.conllu is saved.
+Current running time: 233.9
+ParlaMint-UA_2017-03-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-24-m0.conllu is saved.
+Current running time: 235.3
+ParlaMint-UA_2017-05-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-25-m0.conllu is saved.
+Current running time: 236.7
+ParlaMint-UA_2017-03-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-14-m0.conllu is saved.
+Current running time: 238.08
+ParlaMint-UA_2017-09-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-08-m0.conllu is saved.
+Current running time: 239.49
+ParlaMint-UA_2017-02-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-24-m0.conllu is saved.
+Current running time: 240.88
+ParlaMint-UA_2017-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-21-m0.conllu is saved.
+Current running time: 242.28
+ParlaMint-UA_2017-09-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-21-m1.conllu is saved.
+Current running time: 243.6
+ParlaMint-UA_2017-11-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-09-m1.conllu is saved.
+Current running time: 244.91
+ParlaMint-UA_2017-02-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-02-09-m0.conllu is saved.
+Current running time: 246.27
+ParlaMint-UA_2017-07-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-14-m0.conllu is saved.
+Current running time: 247.63
+ParlaMint-UA_2017-12-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-07-m0.conllu is saved.
+Current running time: 249.03
+ParlaMint-UA_2017-01-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-19-m1.conllu is saved.
+Current running time: 250.24
+ParlaMint-UA_2017-06-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-22-m0.conllu is saved.
+Current running time: 251.61
+ParlaMint-UA_2017-10-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-19-m1.conllu is saved.
+Current running time: 252.93
+ParlaMint-UA_2017-06-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-08-m1.conllu is saved.
+Current running time: 254.25
+ParlaMint-UA_2017-12-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-07-m1.conllu is saved.
+Current running time: 255.84
+ParlaMint-UA_2017-11-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-17-m0.conllu is saved.
+Current running time: 257.22
+ParlaMint-UA_2017-12-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-06-m1.conllu is saved.
+Current running time: 258.48
+ParlaMint-UA_2017-03-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-17-m1.conllu is saved.
+Current running time: 259.73
+ParlaMint-UA_2017-11-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-16-m0.conllu is saved.
+Current running time: 261.09
+ParlaMint-UA_2017-11-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-08-m0.conllu is saved.
+Current running time: 262.48
+ParlaMint-UA_2017-07-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-07-13-m0.conllu is saved.
 Current running time: 263.84
-ParlaMint-UA_2018-05-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-16-m0-uk.conllu is saved.
-Current running time: 264.53
-ParlaMint-UA_2018-07-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-03-m1-uk.conllu is saved.
-Current running time: 265.15
-ParlaMint-UA_2018-03-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-02-m0-uk.conllu is saved.
-Current running time: 265.85
-ParlaMint-UA_2018-01-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-16-m1-ru.conllu is saved.
-Current running time: 266.38
-ParlaMint-UA_2018-12-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-05-m0-uk.conllu is saved.
-Current running time: 267.07
-ParlaMint-UA_2018-05-24-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-24-m1-uk.conllu is saved.
-Current running time: 267.71
-ParlaMint-UA_2018-01-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-16-m1-uk.conllu is saved.
-Current running time: 268.35
-ParlaMint-UA_2018-06-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-20-m0-uk.conllu is saved.
-Current running time: 269.05
-ParlaMint-UA_2018-12-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-21-m0-uk.conllu is saved.
-Current running time: 269.74
-ParlaMint-UA_2018-09-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-18-m0-uk.conllu is saved.
-Current running time: 270.44
-ParlaMint-UA_2018-04-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-19-m0-uk.conllu is saved.
-Current running time: 271.11
-ParlaMint-UA_2018-02-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-27-m0-uk.conllu is saved.
-Current running time: 271.82
-ParlaMint-UA_2018-03-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-23-m0-uk.conllu is saved.
-Current running time: 272.55
-ParlaMint-UA_2018-05-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-25-m0-uk.conllu is saved.
-Current running time: 273.28
-ParlaMint-UA_2018-03-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-16-m0-uk.conllu is saved.
-Current running time: 274.0
-ParlaMint-UA_2018-06-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-19-m1-uk.conllu is saved.
-Current running time: 274.65
-ParlaMint-UA_2018-04-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-05-m1-uk.conllu is saved.
-Current running time: 275.28
-ParlaMint-UA_2018-12-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-06-m0-uk.conllu is saved.
-Current running time: 276.05
-ParlaMint-UA_2018-11-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-23-m1-uk.conllu is saved.
-Current running time: 276.67
-ParlaMint-UA_2018-11-22-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-22-m1-ru.conllu is saved.
-Current running time: 277.22
-ParlaMint-UA_2018-06-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-07-m1-uk.conllu is saved.
-Current running time: 277.86
-ParlaMint-UA_2018-06-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-21-m0-uk.conllu is saved.
-Current running time: 278.61
-ParlaMint-UA_2018-10-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-05-m0-uk.conllu is saved.
-Current running time: 279.33
-ParlaMint-UA_2018-09-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-21-m0-uk.conllu is saved.
+ParlaMint-UA_2017-09-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-09-05-m1.conllu is saved.
+Current running time: 265.17
+ParlaMint-UA_2017-03-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-16-m1.conllu is saved.
+Current running time: 266.45
+ParlaMint-UA_2017-11-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-16-m1.conllu is saved.
+Current running time: 267.75
+ParlaMint-UA_2017-03-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-23-m0.conllu is saved.
+Current running time: 269.17
+ParlaMint-UA_2017-06-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-06-23-m0.conllu is saved.
+Current running time: 270.53
+ParlaMint-UA_2017-10-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-10-03-m0.conllu is saved.
+Current running time: 272.15
+ParlaMint-UA_2017-12-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-12-05-m1.conllu is saved.
+Current running time: 273.44
+ParlaMint-UA_2017-03-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-03-23-m1.conllu is saved.
+Current running time: 274.77
+ParlaMint-UA_2017-11-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-11-07-m0.conllu is saved.
+Current running time: 276.15
+ParlaMint-UA_2017-05-25-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-05-25-m1.conllu is saved.
+Current running time: 277.45
+ParlaMint-UA_2017-01-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2017/ParlaMint-UA_2017-01-19-m0.conllu is saved.
+Current running time: 278.76
+ParlaMint-UA_2010-06-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-15-m1.conllu is saved.
 Current running time: 280.07
-ParlaMint-UA_2018-09-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-06-m0-uk.conllu is saved.
-Current running time: 280.79
-ParlaMint-UA_2018-12-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-18-m0-uk.conllu is saved.
-Current running time: 281.51
-ParlaMint-UA_2018-03-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-01-m0-uk.conllu is saved.
-Current running time: 282.22
-ParlaMint-UA_2018-11-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-20-m0-ru.conllu is saved.
-Current running time: 282.77
-ParlaMint-UA_2018-05-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-17-m1-uk.conllu is saved.
-Current running time: 283.41
-ParlaMint-UA_2018-04-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-06-m0-ru.conllu is saved.
-Current running time: 283.97
-ParlaMint-UA_2018-02-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-08-m0-ru.conllu is saved.
-Current running time: 284.52
-ParlaMint-UA_2018-05-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-24-m0-uk.conllu is saved.
-Current running time: 285.26
-ParlaMint-UA_2018-05-22-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-22-m1-ru.conllu is saved.
-Current running time: 285.82
-ParlaMint-UA_2018-09-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-06-m1-uk.conllu is saved.
-Current running time: 286.45
-ParlaMint-UA_2018-04-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-20-m0-uk.conllu is saved.
-Current running time: 287.19
-ParlaMint-UA_2018-06-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-06-m0-uk.conllu is saved.
-Current running time: 287.93
-ParlaMint-UA_2018-03-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-15-m0-uk.conllu is saved.
-Current running time: 288.67
-ParlaMint-UA_2018-07-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-12-m1-uk.conllu is saved.
-Current running time: 289.29
-ParlaMint-UA_2018-04-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-17-m1-uk.conllu is saved.
-Current running time: 289.94
-ParlaMint-UA_2018-11-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-09-m0-uk.conllu is saved.
-Current running time: 290.68
-ParlaMint-UA_2018-07-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-05-m1-uk.conllu is saved.
-Current running time: 291.29
-ParlaMint-UA_2018-07-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-13-m0-uk.conllu is saved.
-Current running time: 291.95
-ParlaMint-UA_2018-03-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-13-m0-uk.conllu is saved.
-Current running time: 292.65
-ParlaMint-UA_2018-09-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-07-m0-uk.conllu is saved.
-Current running time: 293.4
-ParlaMint-UA_2018-03-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-14-m0-uk.conllu is saved.
-Current running time: 294.11
-ParlaMint-UA_2018-03-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-13-m1-uk.conllu is saved.
-Current running time: 294.75
-ParlaMint-UA_2018-05-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-15-m1-uk.conllu is saved.
-Current running time: 295.38
-ParlaMint-UA_2018-01-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-18-m0-uk.conllu is saved.
-Current running time: 296.13
-ParlaMint-UA_2018-11-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-21-m0-uk.conllu is saved.
-Current running time: 296.85
-ParlaMint-UA_2018-11-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-08-m1-uk.conllu is saved.
-Current running time: 297.5
-ParlaMint-UA_2018-07-10-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-10-m1-uk.conllu is saved.
-Current running time: 298.15
-ParlaMint-UA_2018-06-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-05-m0-uk.conllu is saved.
-Current running time: 298.9
-ParlaMint-UA_2018-03-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-21-m0-uk.conllu is saved.
-Current running time: 299.62
-ParlaMint-UA_2018-05-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-22-m0-uk.conllu is saved.
-Current running time: 300.33
-ParlaMint-UA_2018-11-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-23-m0-uk.conllu is saved.
-Current running time: 301.08
-ParlaMint-UA_2018-09-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-05-m0-uk.conllu is saved.
-Current running time: 301.78
-ParlaMint-UA_2018-12-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-20-m1-uk.conllu is saved.
-Current running time: 302.48
-ParlaMint-UA_2018-02-27-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-27-m0-ru.conllu is saved.
-Current running time: 303.03
-ParlaMint-UA_2018-07-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-12-m0-uk.conllu is saved.
-Current running time: 303.78
-ParlaMint-UA_2018-01-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-18-m1-uk.conllu is saved.
-Current running time: 304.45
-ParlaMint-UA_2018-01-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-17-m0-uk.conllu is saved.
-Current running time: 305.22
-ParlaMint-UA_2018-12-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-20-m0-uk.conllu is saved.
+ParlaMint-UA_2010-01-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-19-m1.conllu is saved.
+Current running time: 281.4
+ParlaMint-UA_2010-12-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-24-m0.conllu is saved.
+Current running time: 282.73
+ParlaMint-UA_2010-03-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-04-m0.conllu is saved.
+Current running time: 284.07
+ParlaMint-UA_2010-03-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-05-m0.conllu is saved.
+Current running time: 285.46
+ParlaMint-UA_2010-11-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-16-m1.conllu is saved.
+Current running time: 286.95
+ParlaMint-UA_2010-11-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-30-m0.conllu is saved.
+Current running time: 288.35
+ParlaMint-UA_2010-09-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-21-m1.conllu is saved.
+Current running time: 289.68
+ParlaMint-UA_2010-03-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-30-m0.conllu is saved.
+Current running time: 291.05
+ParlaMint-UA_2010-12-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-23-m0.conllu is saved.
+Current running time: 292.46
+ParlaMint-UA_2010-12-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-17-m0.conllu is saved.
+Current running time: 293.81
+ParlaMint-UA_2010-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-18-m0.conllu is saved.
+Current running time: 295.2
+ParlaMint-UA_2010-10-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-21-m0.conllu is saved.
+Current running time: 296.58
+ParlaMint-UA_2010-03-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-02-m0.conllu is saved.
+Current running time: 297.96
+ParlaMint-UA_2010-02-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-11-m1.conllu is saved.
+Current running time: 299.27
+ParlaMint-UA_2010-05-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-11-m0.conllu is saved.
+Current running time: 300.67
+ParlaMint-UA_2010-01-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-19-m0.conllu is saved.
+Current running time: 302.05
+ParlaMint-UA_2010-01-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-22-m0.conllu is saved.
+Current running time: 303.32
+ParlaMint-UA_2010-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-19-m0.conllu is saved.
+Current running time: 304.7
+ParlaMint-UA_2010-04-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-27-m0.conllu is saved.
 Current running time: 305.97
-ParlaMint-UA_2018-12-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-06-m1-uk.conllu is saved.
-Current running time: 306.68
-ParlaMint-UA_2018-11-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-07-m0-uk.conllu is saved.
-Current running time: 307.48
-ParlaMint-UA_2018-11-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-06-m1-uk.conllu is saved.
-Current running time: 308.2
-ParlaMint-UA_2018-01-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-16-m0-ru.conllu is saved.
-Current running time: 308.79
-ParlaMint-UA_2018-03-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-20-m1-uk.conllu is saved.
-Current running time: 309.48
-ParlaMint-UA_2018-10-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-02-m0-uk.conllu is saved.
-Current running time: 310.27
-ParlaMint-UA_2018-04-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-19-m0-ru.conllu is saved.
-Current running time: 310.84
-ParlaMint-UA_2012-12-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m0-uk.conllu is saved.
-Current running time: 311.42
-ParlaMint-UA_2012-12-12-m2-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m2-ru.conllu is saved.
-Current running time: 312.0
-ParlaMint-UA_2012-12-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m1-uk.conllu is saved.
-Current running time: 312.59
-ParlaMint-UA_2012-12-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-13-m0-uk.conllu is saved.
-Current running time: 313.41
-ParlaMint-UA_2012-12-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-18-m0-ru.conllu is saved.
-Current running time: 313.99
-ParlaMint-UA_2012-12-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-04-m0-uk.conllu is saved.
-Current running time: 314.7
-ParlaMint-UA_2012-12-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-06-m0-ru.conllu is saved.
-Current running time: 315.26
-ParlaMint-UA_2012-12-12-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m2-uk.conllu is saved.
-Current running time: 315.86
-ParlaMint-UA_2012-12-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-04-m0-ru.conllu is saved.
-Current running time: 316.43
-ParlaMint-UA_2012-12-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m1-ru.conllu is saved.
-Current running time: 316.98
-ParlaMint-UA_2012-12-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-18-m0-uk.conllu is saved.
-Current running time: 317.59
-ParlaMint-UA_2012-12-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-13-m0-ru.conllu is saved.
-Current running time: 318.15
-ParlaMint-UA_2012-12-25-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-25-m0-ru.conllu is saved.
-Current running time: 318.69
-ParlaMint-UA_2012-12-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-25-m0-uk.conllu is saved.
-Current running time: 319.3
-ParlaMint-UA_2012-12-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-06-m0-uk.conllu is saved.
-Current running time: 319.92
-ParlaMint-UA_2016-04-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-15-m0-uk.conllu is saved.
-Current running time: 320.63
-ParlaMint-UA_2016-12-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-06-m0-uk.conllu is saved.
-Current running time: 321.34
-ParlaMint-UA_2016-03-29-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-29-m1-ru.conllu is saved.
-Current running time: 321.9
-ParlaMint-UA_2016-07-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-13-m0-uk.conllu is saved.
-Current running time: 322.51
-ParlaMint-UA_2016-02-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-18-m0-ru.conllu is saved.
-Current running time: 323.07
-ParlaMint-UA_2016-10-18-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-18-m1-ru.conllu is saved.
-Current running time: 323.63
-ParlaMint-UA_2016-10-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-05-m0-uk.conllu is saved.
-Current running time: 324.29
-ParlaMint-UA_2016-05-31-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-31-m0-ru.conllu is saved.
-Current running time: 324.84
-ParlaMint-UA_2016-03-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-15-m0-uk.conllu is saved.
-Current running time: 325.47
-ParlaMint-UA_2016-04-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-22-m0-uk.conllu is saved.
-Current running time: 326.18
-ParlaMint-UA_2016-01-28-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-28-m0-ru.conllu is saved.
-Current running time: 326.74
-ParlaMint-UA_2016-05-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-19-m0-ru.conllu is saved.
-Current running time: 327.3
-ParlaMint-UA_2016-02-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-04-m1-uk.conllu is saved.
-Current running time: 327.93
-ParlaMint-UA_2016-11-01-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-01-m1-uk.conllu is saved.
-Current running time: 328.58
-ParlaMint-UA_2016-06-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-15-m0-uk.conllu is saved.
-Current running time: 329.19
-ParlaMint-UA_2016-01-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-26-m0-uk.conllu is saved.
-Current running time: 329.85
-ParlaMint-UA_2016-07-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-05-m0-uk.conllu is saved.
-Current running time: 330.56
-ParlaMint-UA_2016-07-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-15-m0-uk.conllu is saved.
-Current running time: 331.27
-ParlaMint-UA_2016-09-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-20-m1-uk.conllu is saved.
-Current running time: 331.92
-ParlaMint-UA_2016-11-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-01-m0-uk.conllu is saved.
-Current running time: 332.64
-ParlaMint-UA_2016-03-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-16-m0-uk.conllu is saved.
-Current running time: 333.36
-ParlaMint-UA_2016-12-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-06-m0-ru.conllu is saved.
-Current running time: 333.92
-ParlaMint-UA_2016-02-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-03-m0-uk.conllu is saved.
-Current running time: 334.6
-ParlaMint-UA_2016-05-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-12-m1-ru.conllu is saved.
-Current running time: 335.17
-ParlaMint-UA_2016-02-02-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-02-m1-ru.conllu is saved.
-Current running time: 335.73
-ParlaMint-UA_2016-12-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-08-m0-ru.conllu is saved.
-Current running time: 336.3
-ParlaMint-UA_2016-07-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-06-m0-uk.conllu is saved.
-Current running time: 336.86
-ParlaMint-UA_2016-06-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-16-m1-ru.conllu is saved.
-Current running time: 337.41
-ParlaMint-UA_2016-10-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-18-m1-uk.conllu is saved.
-Current running time: 338.06
-ParlaMint-UA_2016-10-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-20-m0-ru.conllu is saved.
-Current running time: 338.62
-ParlaMint-UA_2016-04-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-12-m0-ru.conllu is saved.
-Current running time: 339.19
-ParlaMint-UA_2016-03-29-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-29-m0-ru.conllu is saved.
-Current running time: 339.74
-ParlaMint-UA_2016-01-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-28-m0-uk.conllu is saved.
-Current running time: 340.44
-ParlaMint-UA_2016-12-20-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-20-m1-ru.conllu is saved.
-Current running time: 340.99
-ParlaMint-UA_2016-09-29-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-29-m0-ru.conllu is saved.
-Current running time: 341.55
-ParlaMint-UA_2016-05-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-18-m0-uk.conllu is saved.
-Current running time: 342.2
-ParlaMint-UA_2016-03-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-17-m0-uk.conllu is saved.
-Current running time: 342.84
-ParlaMint-UA_2016-11-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-04-m0-ru.conllu is saved.
-Current running time: 343.4
-ParlaMint-UA_2016-01-28-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-28-m1-uk.conllu is saved.
-Current running time: 344.04
-ParlaMint-UA_2016-09-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-23-m0-uk.conllu is saved.
-Current running time: 344.8
-ParlaMint-UA_2016-06-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-02-m1-uk.conllu is saved.
-Current running time: 345.46
-ParlaMint-UA_2016-07-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-14-m0-ru.conllu is saved.
-Current running time: 346.0
-ParlaMint-UA_2016-03-31-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-31-m1-ru.conllu is saved.
-Current running time: 346.55
-ParlaMint-UA_2016-10-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-06-m0-uk.conllu is saved.
-Current running time: 347.29
-ParlaMint-UA_2016-10-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-19-m0-uk.conllu is saved.
-Current running time: 348.03
-ParlaMint-UA_2016-09-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-22-m0-uk.conllu is saved.
-Current running time: 348.8
-ParlaMint-UA_2016-07-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-13-m0-ru.conllu is saved.
-Current running time: 349.38
-ParlaMint-UA_2016-06-02-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-02-m1-ru.conllu is saved.
-Current running time: 349.95
-ParlaMint-UA_2016-11-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-04-m0-uk.conllu is saved.
-Current running time: 350.73
-ParlaMint-UA_2016-11-15-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-15-m1-ru.conllu is saved.
-Current running time: 351.28
-ParlaMint-UA_2016-11-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-17-m1-uk.conllu is saved.
-Current running time: 351.94
-ParlaMint-UA_2016-12-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-23-m0-uk.conllu is saved.
-Current running time: 352.66
-ParlaMint-UA_2016-02-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-04-m0-ru.conllu is saved.
-Current running time: 353.21
-ParlaMint-UA_2016-05-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-12-m0-uk.conllu is saved.
-Current running time: 353.95
-ParlaMint-UA_2016-10-20-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-20-m1-ru.conllu is saved.
-Current running time: 354.5
-ParlaMint-UA_2016-12-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-20-m0-uk.conllu is saved.
-Current running time: 355.2
-ParlaMint-UA_2016-09-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-06-m0-ru.conllu is saved.
-Current running time: 355.74
-ParlaMint-UA_2016-02-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-18-m1-uk.conllu is saved.
-Current running time: 356.47
-ParlaMint-UA_2016-05-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-11-m0-uk.conllu is saved.
-Current running time: 357.17
-ParlaMint-UA_2016-06-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-02-m0-uk.conllu is saved.
-Current running time: 357.93
-ParlaMint-UA_2016-03-31-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-31-m1-uk.conllu is saved.
-Current running time: 358.58
-ParlaMint-UA_2016-03-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-17-m0-ru.conllu is saved.
-Current running time: 359.14
-ParlaMint-UA_2016-07-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-08-m0-uk.conllu is saved.
-Current running time: 359.69
-ParlaMint-UA_2016-09-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-21-m0-uk.conllu is saved.
-Current running time: 360.46
-ParlaMint-UA_2016-02-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-04-m0-uk.conllu is saved.
-Current running time: 361.16
-ParlaMint-UA_2016-10-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-04-m0-ru.conllu is saved.
-Current running time: 361.72
-ParlaMint-UA_2016-04-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-20-m0-ru.conllu is saved.
-Current running time: 362.28
-ParlaMint-UA_2016-04-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-15-m0-ru.conllu is saved.
-Current running time: 362.83
-ParlaMint-UA_2016-09-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-06-m0-uk.conllu is saved.
-Current running time: 363.51
-ParlaMint-UA_2016-10-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-20-m0-uk.conllu is saved.
-Current running time: 364.21
-ParlaMint-UA_2016-11-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-17-m0-uk.conllu is saved.
-Current running time: 364.91
-ParlaMint-UA_2016-05-19-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-19-m1-ru.conllu is saved.
-Current running time: 365.48
-ParlaMint-UA_2016-06-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-16-m1-uk.conllu is saved.
-Current running time: 366.07
-ParlaMint-UA_2016-02-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-05-m0-ru.conllu is saved.
-Current running time: 366.62
-ParlaMint-UA_2016-09-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-23-m0-ru.conllu is saved.
-Current running time: 367.16
-ParlaMint-UA_2016-01-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-29-m0-uk.conllu is saved.
-Current running time: 367.82
-ParlaMint-UA_2016-12-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-22-m0-uk.conllu is saved.
-Current running time: 368.52
-ParlaMint-UA_2016-10-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-21-m0-uk.conllu is saved.
-Current running time: 369.24
-ParlaMint-UA_2016-04-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-19-m0-ru.conllu is saved.
-Current running time: 369.79
-ParlaMint-UA_2016-02-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-03-m0-ru.conllu is saved.
-Current running time: 370.34
-ParlaMint-UA_2016-10-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-06-m0-ru.conllu is saved.
-Current running time: 370.89
-ParlaMint-UA_2016-07-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-14-m0-uk.conllu is saved.
-Current running time: 371.6
-ParlaMint-UA_2016-05-31-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-31-m0-uk.conllu is saved.
-Current running time: 372.29
-ParlaMint-UA_2016-11-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-15-m0-uk.conllu is saved.
-Current running time: 372.97
-ParlaMint-UA_2016-11-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-18-m0-uk.conllu is saved.
-Current running time: 373.69
-ParlaMint-UA_2016-07-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-07-m1-uk.conllu is saved.
-Current running time: 374.3
-ParlaMint-UA_2016-05-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-12-m1-uk.conllu is saved.
-Current running time: 374.97
-ParlaMint-UA_2016-12-06-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-06-m1-ru.conllu is saved.
-Current running time: 375.52
-ParlaMint-UA_2016-09-06-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-06-m1-ru.conllu is saved.
-Current running time: 376.08
-ParlaMint-UA_2016-01-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-27-m0-uk.conllu is saved.
-Current running time: 376.77
-ParlaMint-UA_2016-05-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-20-m0-ru.conllu is saved.
-Current running time: 377.32
-ParlaMint-UA_2016-06-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-14-m1-ru.conllu is saved.
-Current running time: 377.89
-ParlaMint-UA_2016-02-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-19-m0-uk.conllu is saved.
-Current running time: 378.62
-ParlaMint-UA_2016-03-30-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-30-m0-ru.conllu is saved.
-Current running time: 379.21
-ParlaMint-UA_2016-05-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-17-m1-uk.conllu is saved.
-Current running time: 379.85
-ParlaMint-UA_2016-02-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-04-m1-ru.conllu is saved.
-Current running time: 380.41
-ParlaMint-UA_2016-07-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-12-m1-uk.conllu is saved.
-Current running time: 381.05
-ParlaMint-UA_2016-05-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-13-m0-uk.conllu is saved.
-Current running time: 381.73
-ParlaMint-UA_2016-02-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-19-m0-ru.conllu is saved.
-Current running time: 382.29
-ParlaMint-UA_2016-07-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-14-m1-uk.conllu is saved.
-Current running time: 382.92
-ParlaMint-UA_2016-09-08-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-08-m1-ru.conllu is saved.
-Current running time: 383.47
-ParlaMint-UA_2016-04-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-21-m1-ru.conllu is saved.
-Current running time: 384.04
-ParlaMint-UA_2016-04-01-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-01-m0-ru.conllu is saved.
-Current running time: 384.59
-ParlaMint-UA_2016-10-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-19-m0-ru.conllu is saved.
-Current running time: 385.15
-ParlaMint-UA_2016-05-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-17-m0-uk.conllu is saved.
-Current running time: 385.83
-ParlaMint-UA_2016-12-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-07-m0-ru.conllu is saved.
-Current running time: 386.39
-ParlaMint-UA_2016-11-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-03-m1-uk.conllu is saved.
-Current running time: 387.04
-ParlaMint-UA_2016-06-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-16-m0-uk.conllu is saved.
-Current running time: 387.76
-ParlaMint-UA_2016-03-29-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-29-m1-uk.conllu is saved.
-Current running time: 388.41
-ParlaMint-UA_2016-06-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-28-m0-uk.conllu is saved.
-Current running time: 389.02
-ParlaMint-UA_2016-07-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-07-m0-ru.conllu is saved.
-Current running time: 389.59
-ParlaMint-UA_2016-09-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-08-m1-uk.conllu is saved.
-Current running time: 390.26
-ParlaMint-UA_2016-04-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-22-m0-ru.conllu is saved.
-Current running time: 390.81
-ParlaMint-UA_2016-11-17-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-17-m1-ru.conllu is saved.
-Current running time: 391.36
-ParlaMint-UA_2016-06-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-15-m0-ru.conllu is saved.
-Current running time: 391.92
-ParlaMint-UA_2016-07-07-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-07-m1-ru.conllu is saved.
-Current running time: 392.47
-ParlaMint-UA_2016-02-18-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-18-m1-ru.conllu is saved.
-Current running time: 393.02
-ParlaMint-UA_2016-12-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-09-m0-uk.conllu is saved.
-Current running time: 393.75
-ParlaMint-UA_2016-07-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-12-m0-ru.conllu is saved.
-Current running time: 394.3
-ParlaMint-UA_2016-11-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-15-m0-ru.conllu is saved.
-Current running time: 394.85
-ParlaMint-UA_2016-01-26-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-26-m1-uk.conllu is saved.
-Current running time: 395.48
-ParlaMint-UA_2016-03-31-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-31-m0-uk.conllu is saved.
-Current running time: 396.15
-ParlaMint-UA_2016-06-01-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-01-m0-ru.conllu is saved.
-Current running time: 396.7
-ParlaMint-UA_2016-07-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-14-m1-ru.conllu is saved.
-Current running time: 397.24
-ParlaMint-UA_2016-02-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-05-m0-uk.conllu is saved.
-Current running time: 397.97
-ParlaMint-UA_2016-09-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-29-m0-uk.conllu is saved.
-Current running time: 398.75
-ParlaMint-UA_2016-10-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-04-m1-ru.conllu is saved.
-Current running time: 399.32
-ParlaMint-UA_2016-11-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-18-m0-ru.conllu is saved.
-Current running time: 399.88
-ParlaMint-UA_2016-12-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-09-m0-ru.conllu is saved.
-Current running time: 400.45
-ParlaMint-UA_2016-10-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-07-m0-uk.conllu is saved.
-Current running time: 401.18
-ParlaMint-UA_2016-04-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-19-m0-uk.conllu is saved.
-Current running time: 401.89
-ParlaMint-UA_2016-01-26-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-26-m1-ru.conllu is saved.
-Current running time: 402.44
-ParlaMint-UA_2016-06-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-14-m0-ru.conllu is saved.
-Current running time: 403.0
-ParlaMint-UA_2016-05-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-11-m0-ru.conllu is saved.
-Current running time: 403.55
-ParlaMint-UA_2016-03-15-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-15-m1-ru.conllu is saved.
-Current running time: 404.11
-ParlaMint-UA_2016-04-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-12-m1-ru.conllu is saved.
-Current running time: 404.67
-ParlaMint-UA_2016-01-29-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-29-m0-ru.conllu is saved.
-Current running time: 405.24
-ParlaMint-UA_2016-10-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-06-m1-uk.conllu is saved.
-Current running time: 405.92
-ParlaMint-UA_2016-05-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-10-m0-uk.conllu is saved.
-Current running time: 406.54
-ParlaMint-UA_2016-09-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-21-m0-ru.conllu is saved.
-Current running time: 407.1
-ParlaMint-UA_2016-09-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-08-m0-uk.conllu is saved.
-Current running time: 407.79
-ParlaMint-UA_2016-09-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-20-m0-uk.conllu is saved.
-Current running time: 408.5
-ParlaMint-UA_2016-10-06-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-06-m1-ru.conllu is saved.
-Current running time: 409.07
-ParlaMint-UA_2016-12-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-08-m1-uk.conllu is saved.
-Current running time: 409.72
-ParlaMint-UA_2016-11-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-03-m0-uk.conllu is saved.
-Current running time: 410.46
-ParlaMint-UA_2016-12-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-20-m0-ru.conllu is saved.
-Current running time: 411.03
-ParlaMint-UA_2016-12-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-22-m0-ru.conllu is saved.
-Current running time: 411.58
-ParlaMint-UA_2016-02-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-16-m1-uk.conllu is saved.
-Current running time: 412.29
-ParlaMint-UA_2016-10-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-05-m0-ru.conllu is saved.
-Current running time: 412.84
-ParlaMint-UA_2016-03-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-17-m1-uk.conllu is saved.
-Current running time: 413.46
-ParlaMint-UA_2016-04-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-19-m1-uk.conllu is saved.
-Current running time: 414.09
-ParlaMint-UA_2016-05-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-13-m0-ru.conllu is saved.
-Current running time: 414.66
-ParlaMint-UA_2016-07-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-12-m0-uk.conllu is saved.
-Current running time: 415.37
-ParlaMint-UA_2016-12-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-23-m0-ru.conllu is saved.
-Current running time: 415.94
-ParlaMint-UA_2016-10-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-07-m0-ru.conllu is saved.
-Current running time: 416.5
-ParlaMint-UA_2016-06-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-01-m0-uk.conllu is saved.
-Current running time: 417.2
-ParlaMint-UA_2016-03-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-30-m0-uk.conllu is saved.
-Current running time: 417.88
-ParlaMint-UA_2016-02-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-16-m0-uk.conllu is saved.
-Current running time: 418.57
-ParlaMint-UA_2016-11-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-16-m0-uk.conllu is saved.
-Current running time: 419.27
-ParlaMint-UA_2016-12-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-08-m0-uk.conllu is saved.
-Current running time: 419.98
-ParlaMint-UA_2016-09-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-20-m0-ru.conllu is saved.
-Current running time: 420.54
-ParlaMint-UA_2016-05-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-17-m0-ru.conllu is saved.
-Current running time: 421.1
-ParlaMint-UA_2016-09-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-06-m1-uk.conllu is saved.
-Current running time: 421.77
-ParlaMint-UA_2016-04-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-21-m1-uk.conllu is saved.
-Current running time: 422.4
-ParlaMint-UA_2016-07-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-05-m1-uk.conllu is saved.
-Current running time: 422.95
-ParlaMint-UA_2016-02-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-02-m0-uk.conllu is saved.
-Current running time: 423.62
-ParlaMint-UA_2016-05-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-20-m0-uk.conllu is saved.
-Current running time: 424.35
-ParlaMint-UA_2016-05-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-19-m1-uk.conllu is saved.
-Current running time: 424.98
-ParlaMint-UA_2016-03-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-18-m0-uk.conllu is saved.
-Current running time: 425.69
-ParlaMint-UA_2016-11-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-02-m0-ru.conllu is saved.
-Current running time: 426.24
-ParlaMint-UA_2016-07-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-05-m0-ru.conllu is saved.
-Current running time: 426.8
-ParlaMint-UA_2016-04-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-01-m0-uk.conllu is saved.
-Current running time: 427.5
-ParlaMint-UA_2016-12-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-06-m1-uk.conllu is saved.
-Current running time: 428.16
-ParlaMint-UA_2016-04-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-14-m0-uk.conllu is saved.
-Current running time: 428.9
-ParlaMint-UA_2016-11-01-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-01-m1-ru.conllu is saved.
-Current running time: 429.45
-ParlaMint-UA_2016-06-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-02-m0-ru.conllu is saved.
-Current running time: 430.0
-ParlaMint-UA_2016-02-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-17-m0-uk.conllu is saved.
-Current running time: 430.72
-ParlaMint-UA_2016-06-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-17-m0-uk.conllu is saved.
-Current running time: 431.43
-ParlaMint-UA_2016-11-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-16-m0-ru.conllu is saved.
-Current running time: 431.98
-ParlaMint-UA_2016-11-01-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-01-m0-ru.conllu is saved.
-Current running time: 432.54
-ParlaMint-UA_2016-02-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-18-m0-uk.conllu is saved.
-Current running time: 433.22
-ParlaMint-UA_2016-03-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-29-m0-uk.conllu is saved.
-Current running time: 433.86
-ParlaMint-UA_2016-07-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-15-m0-ru.conllu is saved.
-Current running time: 434.42
-ParlaMint-UA_2016-11-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-17-m0-ru.conllu is saved.
-Current running time: 434.96
-ParlaMint-UA_2016-12-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-22-m1-uk.conllu is saved.
-Current running time: 435.57
-ParlaMint-UA_2016-04-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-12-m1-uk.conllu is saved.
-Current running time: 436.2
-ParlaMint-UA_2016-11-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-02-m0-uk.conllu is saved.
-Current running time: 436.89
-ParlaMint-UA_2016-05-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-19-m0-uk.conllu is saved.
-Current running time: 437.6
-ParlaMint-UA_2016-11-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-15-m1-uk.conllu is saved.
-Current running time: 438.25
-ParlaMint-UA_2016-06-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-14-m0-uk.conllu is saved.
-Current running time: 438.94
-ParlaMint-UA_2016-09-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-22-m0-ru.conllu is saved.
-Current running time: 439.49
-ParlaMint-UA_2016-04-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-21-m0-uk.conllu is saved.
-Current running time: 440.21
-ParlaMint-UA_2016-05-31-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-31-m1-uk.conllu is saved.
-Current running time: 440.85
-ParlaMint-UA_2016-04-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-13-m0-uk.conllu is saved.
-Current running time: 441.51
-ParlaMint-UA_2016-04-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-21-m0-ru.conllu is saved.
-Current running time: 442.08
-ParlaMint-UA_2016-10-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-21-m0-ru.conllu is saved.
-Current running time: 442.65
-ParlaMint-UA_2016-06-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-03-m0-uk.conllu is saved.
-Current running time: 443.38
-ParlaMint-UA_2016-10-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-18-m0-ru.conllu is saved.
-Current running time: 443.93
-ParlaMint-UA_2016-04-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-12-m0-uk.conllu is saved.
-Current running time: 444.62
-ParlaMint-UA_2016-04-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-13-m0-ru.conllu is saved.
-Current running time: 445.18
-ParlaMint-UA_2016-06-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-16-m0-ru.conllu is saved.
+ParlaMint-UA_2010-05-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-20-m0.conllu is saved.
+Current running time: 307.36
+ParlaMint-UA_2010-12-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-23-m1.conllu is saved.
+Current running time: 308.66
+ParlaMint-UA_2010-05-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-20-m1.conllu is saved.
+Current running time: 310.0
+ParlaMint-UA_2010-06-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-01-m0.conllu is saved.
+Current running time: 311.39
+ParlaMint-UA_2010-12-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-21-m1.conllu is saved.
+Current running time: 312.72
+ParlaMint-UA_2010-11-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-02-m0.conllu is saved.
+Current running time: 314.09
+ParlaMint-UA_2010-01-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-20-m0.conllu is saved.
+Current running time: 315.5
+ParlaMint-UA_2010-05-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-12-m0.conllu is saved.
+Current running time: 316.89
+ParlaMint-UA_2010-11-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-02-m1.conllu is saved.
+Current running time: 318.2
+ParlaMint-UA_2010-12-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-22-m0.conllu is saved.
+Current running time: 319.59
+ParlaMint-UA_2010-04-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-16-m0.conllu is saved.
+Current running time: 320.97
+ParlaMint-UA_2010-11-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-17-m0.conllu is saved.
+Current running time: 322.35
+ParlaMint-UA_2010-06-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-18-m0.conllu is saved.
+Current running time: 323.74
+ParlaMint-UA_2010-12-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-15-m0.conllu is saved.
+Current running time: 325.11
+ParlaMint-UA_2010-07-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-07-m1.conllu is saved.
+Current running time: 326.61
+ParlaMint-UA_2010-02-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-12-m0.conllu is saved.
+Current running time: 327.98
+ParlaMint-UA_2010-10-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-06-m0.conllu is saved.
+Current running time: 329.41
+ParlaMint-UA_2010-07-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-06-m0.conllu is saved.
+Current running time: 330.79
+ParlaMint-UA_2010-10-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-05-m0.conllu is saved.
+Current running time: 332.17
+ParlaMint-UA_2010-10-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-22-m0.conllu is saved.
+Current running time: 333.46
+ParlaMint-UA_2010-11-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-18-m1.conllu is saved.
+Current running time: 334.81
+ParlaMint-UA_2010-02-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-02-m0.conllu is saved.
+Current running time: 336.07
+ParlaMint-UA_2010-12-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-21-m0.conllu is saved.
+Current running time: 337.42
+ParlaMint-UA_2010-11-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-18-m0.conllu is saved.
+Current running time: 338.82
+ParlaMint-UA_2010-09-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-22-m0.conllu is saved.
+Current running time: 340.21
+ParlaMint-UA_2010-12-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-14-m1.conllu is saved.
+Current running time: 341.53
+ParlaMint-UA_2010-11-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-04-m1.conllu is saved.
+Current running time: 342.83
+ParlaMint-UA_2010-06-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-01-m1.conllu is saved.
+Current running time: 344.14
+ParlaMint-UA_2010-09-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-08-m0.conllu is saved.
+Current running time: 345.41
+ParlaMint-UA_2010-07-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-08-m1.conllu is saved.
+Current running time: 346.73
+ParlaMint-UA_2010-10-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-08-m0.conllu is saved.
+Current running time: 348.17
+ParlaMint-UA_2010-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-21-m0.conllu is saved.
+Current running time: 349.55
+ParlaMint-UA_2010-03-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-10-m0.conllu is saved.
+Current running time: 350.92
+ParlaMint-UA_2010-02-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-25-m0.conllu is saved.
+Current running time: 352.15
+ParlaMint-UA_2010-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-07-m0.conllu is saved.
+Current running time: 353.52
+ParlaMint-UA_2010-06-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-16-m0.conllu is saved.
+Current running time: 354.9
+ParlaMint-UA_2010-09-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-07-m1.conllu is saved.
+Current running time: 356.18
+ParlaMint-UA_2010-10-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-21-m1.conllu is saved.
+Current running time: 357.5
+ParlaMint-UA_2010-02-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-03-m0.conllu is saved.
+Current running time: 358.99
+ParlaMint-UA_2010-12-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-02-m0.conllu is saved.
+Current running time: 360.38
+ParlaMint-UA_2010-11-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-05-m0.conllu is saved.
+Current running time: 361.77
+ParlaMint-UA_2010-10-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-19-m1.conllu is saved.
+Current running time: 363.07
+ParlaMint-UA_2010-03-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-09-m1.conllu is saved.
+Current running time: 364.37
+ParlaMint-UA_2010-02-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-17-m0.conllu is saved.
+Current running time: 365.74
+ParlaMint-UA_2010-01-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-21-m0.conllu is saved.
+Current running time: 367.12
+ParlaMint-UA_2010-06-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-02-m0.conllu is saved.
+Current running time: 368.48
+ParlaMint-UA_2010-09-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-09-m0.conllu is saved.
+Current running time: 369.87
+ParlaMint-UA_2010-03-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-02-m1.conllu is saved.
+Current running time: 371.2
+ParlaMint-UA_2010-05-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-21-m0.conllu is saved.
+Current running time: 372.59
+ParlaMint-UA_2010-07-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-01-m1.conllu is saved.
+Current running time: 374.2
+ParlaMint-UA_2010-06-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-17-m0.conllu is saved.
+Current running time: 375.58
+ParlaMint-UA_2010-11-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-04-m0.conllu is saved.
+Current running time: 376.96
+ParlaMint-UA_2010-06-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-04-m0.conllu is saved.
+Current running time: 378.37
+ParlaMint-UA_2010-07-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-02-m0.conllu is saved.
+Current running time: 379.74
+ParlaMint-UA_2010-05-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-19-m0.conllu is saved.
+Current running time: 381.11
+ParlaMint-UA_2010-04-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-01-m1.conllu is saved.
+Current running time: 382.41
+ParlaMint-UA_2010-11-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-16-m0.conllu is saved.
+Current running time: 383.82
+ParlaMint-UA_2010-04-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-01-m0.conllu is saved.
+Current running time: 385.2
+ParlaMint-UA_2010-04-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-15-m0.conllu is saved.
+Current running time: 386.58
+ParlaMint-UA_2010-06-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-17-m1.conllu is saved.
+Current running time: 387.91
+ParlaMint-UA_2010-07-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-09-m0.conllu is saved.
+Current running time: 389.3
+ParlaMint-UA_2010-02-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-19-m0.conllu is saved.
+Current running time: 390.69
+ParlaMint-UA_2010-07-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-08-m0.conllu is saved.
+Current running time: 392.07
+ParlaMint-UA_2010-12-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-01-m0.conllu is saved.
+Current running time: 393.41
+ParlaMint-UA_2010-12-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-03-m0.conllu is saved.
+Current running time: 394.81
+ParlaMint-UA_2010-07-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-10-m0.conllu is saved.
+Current running time: 396.6
+ParlaMint-UA_2010-01-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-21-m1.conllu is saved.
+Current running time: 397.93
+ParlaMint-UA_2010-12-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-02-m1.conllu is saved.
+Current running time: 399.26
+ParlaMint-UA_2010-03-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-09-m0.conllu is saved.
+Current running time: 400.64
+ParlaMint-UA_2010-09-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-24-m0.conllu is saved.
+Current running time: 402.04
+ParlaMint-UA_2010-12-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-12-14-m0.conllu is saved.
+Current running time: 403.45
+ParlaMint-UA_2010-06-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-15-m0.conllu is saved.
+Current running time: 404.83
+ParlaMint-UA_2010-07-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-07-m0.conllu is saved.
+Current running time: 406.17
+ParlaMint-UA_2010-06-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-30-m0.conllu is saved.
+Current running time: 407.52
+ParlaMint-UA_2010-05-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-14-m0.conllu is saved.
+Current running time: 408.91
+ParlaMint-UA_2010-03-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-31-m0.conllu is saved.
+Current running time: 410.29
+ParlaMint-UA_2010-06-29-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-29-m1.conllu is saved.
+Current running time: 411.63
+ParlaMint-UA_2010-02-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-10-m0.conllu is saved.
+Current running time: 413.01
+ParlaMint-UA_2010-04-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-15-m1.conllu is saved.
+Current running time: 414.34
+ParlaMint-UA_2010-03-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-04-m1.conllu is saved.
+Current running time: 415.65
+ParlaMint-UA_2010-01-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-28-m0.conllu is saved.
+Current running time: 417.0
+ParlaMint-UA_2010-03-30-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-30-m1.conllu is saved.
+Current running time: 418.32
+ParlaMint-UA_2010-09-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-09-m1.conllu is saved.
+Current running time: 419.65
+ParlaMint-UA_2010-09-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-23-m0.conllu is saved.
+Current running time: 421.04
+ParlaMint-UA_2010-07-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-06-m1.conllu is saved.
+Current running time: 422.5
+ParlaMint-UA_2010-04-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-14-m0.conllu is saved.
+Current running time: 423.85
+ParlaMint-UA_2010-09-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-09-23-m1.conllu is saved.
+Current running time: 425.15
+ParlaMint-UA_2010-05-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-13-m0.conllu is saved.
+Current running time: 426.55
+ParlaMint-UA_2010-02-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-11-m0.conllu is saved.
+Current running time: 427.94
+ParlaMint-UA_2010-01-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-14-m0.conllu is saved.
+Current running time: 429.19
+ParlaMint-UA_2010-03-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-12-m0.conllu is saved.
+Current running time: 430.59
+ParlaMint-UA_2010-07-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-01-m0.conllu is saved.
+Current running time: 431.95
+ParlaMint-UA_2010-06-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-03-m0.conllu is saved.
+Current running time: 433.4
+ParlaMint-UA_2010-01-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-01-13-m0.conllu is saved.
+Current running time: 434.78
+ParlaMint-UA_2010-04-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-04-13-m0.conllu is saved.
+Current running time: 436.17
+ParlaMint-UA_2010-05-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-13-m1.conllu is saved.
+Current running time: 437.48
+ParlaMint-UA_2010-08-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-08-30-m0.conllu is saved.
+Current running time: 438.92
+ParlaMint-UA_2010-06-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-06-29-m0.conllu is saved.
+Current running time: 440.31
+ParlaMint-UA_2010-02-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-18-m1.conllu is saved.
+Current running time: 441.62
+ParlaMint-UA_2010-02-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-09-m0.conllu is saved.
+Current running time: 442.98
+ParlaMint-UA_2010-11-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-11-19-m0.conllu is saved.
+Current running time: 444.38
+ParlaMint-UA_2010-10-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-07-m0.conllu is saved.
 Current running time: 445.75
-ParlaMint-UA_2016-09-22-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-22-m1-ru.conllu is saved.
-Current running time: 446.31
-ParlaMint-UA_2016-03-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-15-m1-uk.conllu is saved.
-Current running time: 446.88
-ParlaMint-UA_2016-10-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-04-m0-uk.conllu is saved.
-Current running time: 447.59
-ParlaMint-UA_2016-03-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-18-m0-ru.conllu is saved.
-Current running time: 448.13
-ParlaMint-UA_2016-06-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-03-m0-ru.conllu is saved.
-Current running time: 448.67
-ParlaMint-UA_2016-01-27-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-27-m0-ru.conllu is saved.
-Current running time: 449.22
-ParlaMint-UA_2016-05-17-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-17-m1-ru.conllu is saved.
-Current running time: 449.78
-ParlaMint-UA_2016-02-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-02-m1-uk.conllu is saved.
-Current running time: 450.4
-ParlaMint-UA_2016-05-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-10-m0-ru.conllu is saved.
-Current running time: 450.95
-ParlaMint-UA_2016-09-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-07-m0-uk.conllu is saved.
-Current running time: 451.66
-ParlaMint-UA_2016-02-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-02-m0-ru.conllu is saved.
-Current running time: 452.22
-ParlaMint-UA_2016-03-31-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-31-m0-ru.conllu is saved.
-Current running time: 452.79
-ParlaMint-UA_2016-05-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-12-m0-ru.conllu is saved.
-Current running time: 453.35
-ParlaMint-UA_2016-09-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-07-m0-ru.conllu is saved.
-Current running time: 453.92
-ParlaMint-UA_2016-10-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-20-m1-uk.conllu is saved.
-Current running time: 454.58
-ParlaMint-UA_2016-05-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-18-m0-ru.conllu is saved.
-Current running time: 455.15
-ParlaMint-UA_2016-12-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-20-m1-uk.conllu is saved.
-Current running time: 456.33
-ParlaMint-UA_2016-01-26-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-26-m0-ru.conllu is saved.
-Current running time: 456.9
-ParlaMint-UA_2016-09-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-09-m0-uk.conllu is saved.
-Current running time: 457.64
-ParlaMint-UA_2016-06-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-14-m1-uk.conllu is saved.
-Current running time: 458.3
-ParlaMint-UA_2016-12-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-07-m0-uk.conllu is saved.
-Current running time: 458.97
-ParlaMint-UA_2016-04-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-20-m0-uk.conllu is saved.
-Current running time: 459.7
-ParlaMint-UA_2016-02-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-17-m0-ru.conllu is saved.
-Current running time: 460.27
-ParlaMint-UA_2016-11-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-03-m0-ru.conllu is saved.
-Current running time: 460.83
-ParlaMint-UA_2016-02-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-16-m0-ru.conllu is saved.
-Current running time: 461.39
-ParlaMint-UA_2016-10-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-18-m0-uk.conllu is saved.
-Current running time: 462.11
-ParlaMint-UA_2016-09-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-09-m0-ru.conllu is saved.
-Current running time: 462.69
-ParlaMint-UA_2016-09-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-22-m1-uk.conllu is saved.
-Current running time: 463.34
-ParlaMint-UA_2016-07-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-07-m0-uk.conllu is saved.
-Current running time: 464.03
-ParlaMint-UA_2016-04-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-14-m0-ru.conllu is saved.
-Current running time: 464.58
-ParlaMint-UA_2016-03-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-16-m0-ru.conllu is saved.
-Current running time: 465.16
-ParlaMint-UA_2016-02-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-16-m1-ru.conllu is saved.
-Current running time: 465.73
-ParlaMint-UA_2016-11-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-03-m1-ru.conllu is saved.
-Current running time: 466.3
-ParlaMint-UA_2016-10-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-04-m1-uk.conllu is saved.
-Current running time: 466.96
-ParlaMint-UA_2016-03-17-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-17-m1-ru.conllu is saved.
-Current running time: 467.53
-ParlaMint-UA_2022-07-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-18-m0-uk.conllu is saved.
-Current running time: 468.21
-ParlaMint-UA_2022-02-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-15-m0-uk.conllu is saved.
-Current running time: 468.96
-ParlaMint-UA_2022-12-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-12-28-m0-uk.conllu is saved.
-Current running time: 469.55
-ParlaMint-UA_2022-05-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-03-m0-uk.conllu is saved.
-Current running time: 470.28
-ParlaMint-UA_2022-05-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-12-m0-uk.conllu is saved.
-Current running time: 470.95
-ParlaMint-UA_2022-03-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-03-24-m0-uk.conllu is saved.
-Current running time: 471.54
-ParlaMint-UA_2022-08-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-08-30-m0-uk.conllu is saved.
-Current running time: 472.23
-ParlaMint-UA_2022-01-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-25-m0-uk.conllu is saved.
-Current running time: 472.99
-ParlaMint-UA_2022-05-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-22-m0-uk.conllu is saved.
-Current running time: 473.63
-ParlaMint-UA_2022-05-31-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-31-m0-uk.conllu is saved.
-Current running time: 474.3
-ParlaMint-UA_2022-12-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-12-13-m0-uk.conllu is saved.
-Current running time: 475.07
-ParlaMint-UA_2022-08-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-08-16-m0-uk.conllu is saved.
-Current running time: 475.74
-ParlaMint-UA_2022-03-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-03-03-m0-uk.conllu is saved.
-Current running time: 476.32
-ParlaMint-UA_2022-09-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-21-m0-uk.conllu is saved.
-Current running time: 477.09
-ParlaMint-UA_2022-06-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-06-20-m0-uk.conllu is saved.
-Current running time: 477.72
-ParlaMint-UA_2022-04-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-04-21-m0-uk.conllu is saved.
-Current running time: 478.42
-ParlaMint-UA_2022-02-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-22-m0-uk.conllu is saved.
-Current running time: 479.06
-ParlaMint-UA_2022-08-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-08-15-m0-uk.conllu is saved.
-Current running time: 479.77
-ParlaMint-UA_2022-02-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-23-m1-uk.conllu is saved.
-Current running time: 480.35
-ParlaMint-UA_2022-02-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-18-m0-uk.conllu is saved.
-Current running time: 481.05
-ParlaMint-UA_2022-09-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-20-m0-uk.conllu is saved.
-Current running time: 481.73
-ParlaMint-UA_2022-10-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-19-m0-uk.conllu is saved.
-Current running time: 482.37
-ParlaMint-UA_2022-11-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-11-16-m0-uk.conllu is saved.
-Current running time: 483.05
-ParlaMint-UA_2022-09-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-07-m0-uk.conllu is saved.
-Current running time: 483.69
-ParlaMint-UA_2022-01-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-28-m0-uk.conllu is saved.
-Current running time: 484.35
-ParlaMint-UA_2022-03-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-03-15-m0-uk.conllu is saved.
-Current running time: 484.9
-ParlaMint-UA_2022-01-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-26-m0-uk.conllu is saved.
-Current running time: 485.57
-ParlaMint-UA_2022-07-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-29-m0-uk.conllu is saved.
-Current running time: 486.25
-ParlaMint-UA_2022-10-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-06-m0-uk.conllu is saved.
-Current running time: 486.96
-ParlaMint-UA_2022-10-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-07-m0-uk.conllu is saved.
-Current running time: 487.78
-ParlaMint-UA_2022-07-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-08-m0-uk.conllu is saved.
-Current running time: 488.45
-ParlaMint-UA_2022-02-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-17-m0-uk.conllu is saved.
-Current running time: 489.19
-ParlaMint-UA_2022-06-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-06-21-m0-uk.conllu is saved.
-Current running time: 489.89
-ParlaMint-UA_2022-07-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-09-m0-uk.conllu is saved.
-Current running time: 490.5
-ParlaMint-UA_2022-07-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-28-m0-uk.conllu is saved.
-Current running time: 491.21
-ParlaMint-UA_2022-10-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-18-m0-uk.conllu is saved.
-Current running time: 491.81
-ParlaMint-UA_2022-07-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-19-m0-uk.conllu is saved.
-Current running time: 492.48
-ParlaMint-UA_2022-02-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-23-m0-uk.conllu is saved.
-Current running time: 493.13
-ParlaMint-UA_2022-02-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-24-m0-uk.conllu is saved.
-Current running time: 493.69
-ParlaMint-UA_2022-11-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-11-04-m0-uk.conllu is saved.
-Current running time: 494.3
-ParlaMint-UA_2022-08-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-08-15-m0-ru.conllu is saved.
-Current running time: 494.84
-ParlaMint-UA_2022-02-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-01-m0-uk.conllu is saved.
-Current running time: 495.55
-ParlaMint-UA_2022-06-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-06-19-m0-uk.conllu is saved.
-Current running time: 496.19
-ParlaMint-UA_2022-12-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-12-01-m0-uk.conllu is saved.
-Current running time: 496.95
-ParlaMint-UA_2022-11-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-11-03-m0-uk.conllu is saved.
-Current running time: 497.7
-ParlaMint-UA_2022-04-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-04-14-m0-uk.conllu is saved.
-Current running time: 498.3
-ParlaMint-UA_2022-09-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-06-m0-uk.conllu is saved.
-Current running time: 499.02
-ParlaMint-UA_2022-07-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-27-m0-uk.conllu is saved.
-Current running time: 499.76
-ParlaMint-UA_2022-06-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-06-20-m0-ru.conllu is saved.
+ParlaMint-UA_2010-03-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-11-m0.conllu is saved.
+Current running time: 447.05
+ParlaMint-UA_2010-02-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-02-18-m0.conllu is saved.
+Current running time: 448.41
+ParlaMint-UA_2010-07-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-07-09-m1.conllu is saved.
+Current running time: 449.69
+ParlaMint-UA_2010-03-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-03-03-m0.conllu is saved.
+Current running time: 451.04
+ParlaMint-UA_2010-10-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-10-07-m1.conllu is saved.
+Current running time: 452.37
+ParlaMint-UA_2010-05-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2010/ParlaMint-UA_2010-05-18-m1.conllu is saved.
+Current running time: 453.69
+ParlaMint-UA_2003-10-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-03-m0.conllu is saved.
+Current running time: 455.08
+ParlaMint-UA_2003-11-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-19-m0.conllu is saved.
+Current running time: 456.48
+ParlaMint-UA_2003-05-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-22-m1.conllu is saved.
+Current running time: 457.8
+ParlaMint-UA_2003-02-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-04-m1.conllu is saved.
+Current running time: 459.14
+ParlaMint-UA_2003-11-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-18-m0.conllu is saved.
+Current running time: 460.52
+ParlaMint-UA_2003-05-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-14-m0.conllu is saved.
+Current running time: 461.9
+ParlaMint-UA_2003-12-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-23-m0.conllu is saved.
+Current running time: 463.12
+ParlaMint-UA_2003-10-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-02-m0.conllu is saved.
+Current running time: 464.48
+ParlaMint-UA_2003-12-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-09-m1.conllu is saved.
+Current running time: 465.81
+ParlaMint-UA_2003-06-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-19-m0.conllu is saved.
+Current running time: 467.16
+ParlaMint-UA_2003-09-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-18-m1.conllu is saved.
+Current running time: 468.49
+ParlaMint-UA_2003-02-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-04-m0.conllu is saved.
+Current running time: 469.88
+ParlaMint-UA_2003-07-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-08-m0.conllu is saved.
+Current running time: 471.26
+ParlaMint-UA_2003-04-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-03-m0.conllu is saved.
+Current running time: 472.66
+ParlaMint-UA_2003-12-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-11-m1.conllu is saved.
+Current running time: 474.0
+ParlaMint-UA_2003-10-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-23-m0.conllu is saved.
+Current running time: 475.31
+ParlaMint-UA_2003-03-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-07-m0.conllu is saved.
+Current running time: 476.73
+ParlaMint-UA_2003-09-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-19-m0.conllu is saved.
+Current running time: 478.16
+ParlaMint-UA_2003-06-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-20-m0.conllu is saved.
+Current running time: 479.58
+ParlaMint-UA_2003-11-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-11-m0.conllu is saved.
+Current running time: 481.01
+ParlaMint-UA_2003-09-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-16-m0.conllu is saved.
+Current running time: 482.44
+ParlaMint-UA_2003-06-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-17-m1.conllu is saved.
+Current running time: 483.78
+ParlaMint-UA_2003-01-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-01-15-m0.conllu is saved.
+Current running time: 485.2
+ParlaMint-UA_2003-02-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-05-m0.conllu is saved.
+Current running time: 486.63
+ParlaMint-UA_2003-04-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-17-m0.conllu is saved.
+Current running time: 487.92
+ParlaMint-UA_2003-04-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-02-m0.conllu is saved.
+Current running time: 489.33
+ParlaMint-UA_2003-07-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-01-m1.conllu is saved.
+Current running time: 490.68
+ParlaMint-UA_2003-02-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-21-m0.conllu is saved.
+Current running time: 492.1
+ParlaMint-UA_2003-02-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-06-m0.conllu is saved.
+Current running time: 493.53
+ParlaMint-UA_2003-05-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-21-m0.conllu is saved.
+Current running time: 494.94
+ParlaMint-UA_2003-06-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-03-m1.conllu is saved.
+Current running time: 496.26
+ParlaMint-UA_2003-06-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-05-m0.conllu is saved.
+Current running time: 497.64
+ParlaMint-UA_2003-09-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-16-m1.conllu is saved.
+Current running time: 498.96
+ParlaMint-UA_2003-06-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-10-m0.conllu is saved.
 Current running time: 500.36
-ParlaMint-UA_2022-04-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-04-01-m0-uk.conllu is saved.
-Current running time: 500.99
-ParlaMint-UA_2022-07-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-01-m0-uk.conllu is saved.
-Current running time: 501.78
-ParlaMint-UA_2022-01-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-27-m0-uk.conllu is saved.
-Current running time: 502.58
-ParlaMint-UA_2022-02-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-16-m0-uk.conllu is saved.
-Current running time: 503.33
-ParlaMint-UA_2022-02-23-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-23-m2-uk.conllu is saved.
-Current running time: 503.9
-ParlaMint-UA_2023-02-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2023/ParlaMint-UA_2023-02-24-m0-uk.conllu is saved.
-Current running time: 504.64
-ParlaMint-UA_2023-01-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2023/ParlaMint-UA_2023-01-12-m0-uk.conllu is saved.
-Current running time: 505.38
-ParlaMint-UA_2023-02-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2023/ParlaMint-UA_2023-02-23-m0-uk.conllu is saved.
-Current running time: 506.14
-ParlaMint-UA_2023-02-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2023/ParlaMint-UA_2023-02-06-m0-uk.conllu is saved.
-Current running time: 506.83
-ParlaMint-UA_2023-01-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2023/ParlaMint-UA_2023-01-19-m0-uk.conllu is saved.
-Current running time: 507.38
-ParlaMint-UA_2023-01-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2023/ParlaMint-UA_2023-01-13-m0-uk.conllu is saved.
-Current running time: 508.1
-ParlaMint-UA_2023-02-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2023/ParlaMint-UA_2023-02-07-m0-uk.conllu is saved.
-Current running time: 508.97
-ParlaMint-UA_2014-06-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-17-m0-uk.conllu is saved.
-Current running time: 509.73
-ParlaMint-UA_2014-06-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-05-m0-ru.conllu is saved.
-Current running time: 510.29
-ParlaMint-UA_2014-07-01-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-01-m1-uk.conllu is saved.
-Current running time: 510.96
-ParlaMint-UA_2014-04-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-08-m0-ru.conllu is saved.
-Current running time: 511.52
-ParlaMint-UA_2014-06-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-17-m0-ru.conllu is saved.
-Current running time: 512.07
-ParlaMint-UA_2014-07-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-03-m1-ru.conllu is saved.
-Current running time: 512.63
-ParlaMint-UA_2014-03-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-17-m0-uk.conllu is saved.
-Current running time: 513.28
-ParlaMint-UA_2014-07-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-22-m1-uk.conllu is saved.
-Current running time: 513.96
-ParlaMint-UA_2014-07-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-04-m0-ru.conllu is saved.
-Current running time: 514.53
-ParlaMint-UA_2014-04-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-18-m0-ru.conllu is saved.
-Current running time: 515.09
-ParlaMint-UA_2014-03-27-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-27-m1-uk.conllu is saved.
-Current running time: 515.76
-ParlaMint-UA_2014-03-25-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-25-m0-ru.conllu is saved.
-Current running time: 516.31
-ParlaMint-UA_2014-06-05-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-05-m1-ru.conllu is saved.
+ParlaMint-UA_2003-11-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-25-m0.conllu is saved.
+Current running time: 501.72
+ParlaMint-UA_2003-03-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-20-m0.conllu is saved.
+Current running time: 503.09
+ParlaMint-UA_2003-05-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-13-m0.conllu is saved.
+Current running time: 504.49
+ParlaMint-UA_2003-02-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-07-m0.conllu is saved.
+Current running time: 505.92
+ParlaMint-UA_2003-03-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-05-m0.conllu is saved.
+Current running time: 507.32
+ParlaMint-UA_2003-12-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-11-m0.conllu is saved.
+Current running time: 508.71
+ParlaMint-UA_2003-09-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-10-m0.conllu is saved.
+Current running time: 510.12
+ParlaMint-UA_2003-11-27-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-27-m1.conllu is saved.
+Current running time: 511.4
+ParlaMint-UA_2003-07-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-02-m0.conllu is saved.
+Current running time: 512.82
+ParlaMint-UA_2003-03-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-04-m0.conllu is saved.
+Current running time: 514.22
+ParlaMint-UA_2003-11-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-04-m0.conllu is saved.
+Current running time: 515.47
+ParlaMint-UA_2003-11-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-26-m0.conllu is saved.
 Current running time: 516.87
-ParlaMint-UA_2014-11-27-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-11-27-m1-uk.conllu is saved.
-Current running time: 517.49
-ParlaMint-UA_2014-10-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-10-07-m0-uk.conllu is saved.
-Current running time: 518.17
-ParlaMint-UA_2014-01-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-01-16-m0-ru.conllu is saved.
-Current running time: 518.71
-ParlaMint-UA_2014-02-27-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-27-m0-ru.conllu is saved.
-Current running time: 519.25
-ParlaMint-UA_2014-06-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-03-m0-ru.conllu is saved.
-Current running time: 519.79
-ParlaMint-UA_2014-02-28-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-28-m0-ru.conllu is saved.
-Current running time: 520.32
-ParlaMint-UA_2014-12-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-12-m0-ru.conllu is saved.
-Current running time: 520.86
-ParlaMint-UA_2014-05-13-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-13-m1-ru.conllu is saved.
-Current running time: 521.39
-ParlaMint-UA_2014-09-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-02-m1-uk.conllu is saved.
-Current running time: 522.01
-ParlaMint-UA_2014-06-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-03-m1-uk.conllu is saved.
-Current running time: 522.63
-ParlaMint-UA_2014-05-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-16-m0-uk.conllu is saved.
-Current running time: 523.39
-ParlaMint-UA_2014-12-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-04-m0-uk.conllu is saved.
-Current running time: 524.0
-ParlaMint-UA_2014-12-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-28-m0-uk.conllu is saved.
-Current running time: 524.68
-ParlaMint-UA_2014-12-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-11-m0-ru.conllu is saved.
-Current running time: 525.21
-ParlaMint-UA_2014-04-10-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-10-m1-uk.conllu is saved.
-Current running time: 525.82
-ParlaMint-UA_2014-06-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-03-m0-uk.conllu is saved.
-Current running time: 526.49
-ParlaMint-UA_2014-09-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-16-m0-uk.conllu is saved.
-Current running time: 527.09
-ParlaMint-UA_2014-02-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-04-m1-uk.conllu is saved.
-Current running time: 527.68
-ParlaMint-UA_2014-06-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-17-m1-uk.conllu is saved.
-Current running time: 528.32
-ParlaMint-UA_2014-09-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-02-m0-uk.conllu is saved.
-Current running time: 528.99
-ParlaMint-UA_2014-05-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-15-m1-uk.conllu is saved.
-Current running time: 529.62
-ParlaMint-UA_2014-12-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-04-m0-ru.conllu is saved.
-Current running time: 530.15
-ParlaMint-UA_2014-12-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-23-m0-ru.conllu is saved.
-Current running time: 530.69
-ParlaMint-UA_2014-06-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-05-m0-uk.conllu is saved.
-Current running time: 531.38
-ParlaMint-UA_2014-03-26-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-26-m0-ru.conllu is saved.
-Current running time: 531.92
-ParlaMint-UA_2014-06-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-04-m0-ru.conllu is saved.
-Current running time: 532.47
-ParlaMint-UA_2014-03-11-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-11-m1-ru.conllu is saved.
-Current running time: 533.0
-ParlaMint-UA_2014-04-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-15-m0-uk.conllu is saved.
-Current running time: 533.66
-ParlaMint-UA_2014-03-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-11-m0-uk.conllu is saved.
-Current running time: 534.31
-ParlaMint-UA_2014-07-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-24-m0-ru.conllu is saved.
-Current running time: 534.84
-ParlaMint-UA_2014-10-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-10-20-m0-ru.conllu is saved.
-Current running time: 535.38
-ParlaMint-UA_2014-04-08-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-08-m1-ru.conllu is saved.
-Current running time: 535.9
-ParlaMint-UA_2014-06-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-20-m0-ru.conllu is saved.
-Current running time: 536.45
-ParlaMint-UA_2014-12-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-09-m0-uk.conllu is saved.
-Current running time: 537.05
-ParlaMint-UA_2014-10-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-10-14-m0-uk.conllu is saved.
-Current running time: 537.69
-ParlaMint-UA_2014-04-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-17-m0-ru.conllu is saved.
-Current running time: 538.23
-ParlaMint-UA_2014-02-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-06-m0-uk.conllu is saved.
-Current running time: 538.78
-ParlaMint-UA_2014-06-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-05-m1-uk.conllu is saved.
-Current running time: 539.39
-ParlaMint-UA_2014-08-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-14-m1-ru.conllu is saved.
-Current running time: 539.92
-ParlaMint-UA_2014-03-11-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-11-m1-uk.conllu is saved.
-Current running time: 540.52
-ParlaMint-UA_2014-04-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-16-m0-uk.conllu is saved.
-Current running time: 541.13
-ParlaMint-UA_2014-04-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-15-m0-ru.conllu is saved.
-Current running time: 541.67
-ParlaMint-UA_2014-07-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-23-m0-uk.conllu is saved.
-Current running time: 542.32
-ParlaMint-UA_2014-01-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-01-28-m0-uk.conllu is saved.
-Current running time: 542.87
-ParlaMint-UA_2014-04-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-24-m0-uk.conllu is saved.
-Current running time: 543.57
-ParlaMint-UA_2014-12-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-23-m0-uk.conllu is saved.
-Current running time: 544.31
-ParlaMint-UA_2014-04-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-08-m1-uk.conllu is saved.
-Current running time: 544.94
-ParlaMint-UA_2014-07-22-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-22-m1-ru.conllu is saved.
-Current running time: 545.47
-ParlaMint-UA_2014-08-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-14-m1-uk.conllu is saved.
-Current running time: 546.12
-ParlaMint-UA_2014-07-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-03-m0-ru.conllu is saved.
-Current running time: 546.68
-ParlaMint-UA_2014-02-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-22-m0-ru.conllu is saved.
-Current running time: 547.23
-ParlaMint-UA_2014-02-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-27-m0-uk.conllu is saved.
-Current running time: 547.95
-ParlaMint-UA_2014-07-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-02-m0-ru.conllu is saved.
-Current running time: 548.51
-ParlaMint-UA_2014-06-17-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-17-m1-ru.conllu is saved.
-Current running time: 549.06
-ParlaMint-UA_2014-08-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-12-m1-uk.conllu is saved.
-Current running time: 549.7
-ParlaMint-UA_2014-02-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-23-m0-ru.conllu is saved.
-Current running time: 550.24
-ParlaMint-UA_2014-02-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-04-m0-uk.conllu is saved.
-Current running time: 550.85
-ParlaMint-UA_2014-04-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-15-m1-uk.conllu is saved.
-Current running time: 551.55
-ParlaMint-UA_2014-04-29-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-29-m0-ru.conllu is saved.
-Current running time: 552.11
-ParlaMint-UA_2014-09-02-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-02-m1-ru.conllu is saved.
-Current running time: 552.65
-ParlaMint-UA_2014-07-01-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-01-m0-ru.conllu is saved.
-Current running time: 553.21
-ParlaMint-UA_2014-01-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-01-16-m0-uk.conllu is saved.
-Current running time: 553.8
-ParlaMint-UA_2014-03-25-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-25-m1-ru.conllu is saved.
-Current running time: 554.37
-ParlaMint-UA_2014-06-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-18-m0-ru.conllu is saved.
-Current running time: 554.94
-ParlaMint-UA_2014-05-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-13-m0-uk.conllu is saved.
-Current running time: 555.65
-ParlaMint-UA_2014-04-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-29-m0-uk.conllu is saved.
-Current running time: 556.38
-ParlaMint-UA_2014-03-25-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-25-m1-uk.conllu is saved.
-Current running time: 556.98
-ParlaMint-UA_2014-03-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-27-m0-uk.conllu is saved.
-Current running time: 557.6
-ParlaMint-UA_2014-01-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-01-15-m0-uk.conllu is saved.
-Current running time: 558.15
-ParlaMint-UA_2014-06-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-18-m0-uk.conllu is saved.
-Current running time: 558.89
-ParlaMint-UA_2014-05-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-20-m1-uk.conllu is saved.
-Current running time: 559.49
-ParlaMint-UA_2014-08-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-12-m0-uk.conllu is saved.
-Current running time: 560.19
-ParlaMint-UA_2014-04-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-10-m0-uk.conllu is saved.
-Current running time: 560.89
-ParlaMint-UA_2014-05-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-13-m1-uk.conllu is saved.
-Current running time: 561.5
-ParlaMint-UA_2014-02-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-20-m0-ru.conllu is saved.
-Current running time: 562.04
-ParlaMint-UA_2014-04-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-17-m0-uk.conllu is saved.
-Current running time: 562.66
-ParlaMint-UA_2014-09-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-16-m1-ru.conllu is saved.
-Current running time: 563.2
-ParlaMint-UA_2014-04-01-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-01-m0-ru.conllu is saved.
-Current running time: 563.73
-ParlaMint-UA_2014-07-24-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-24-m1-uk.conllu is saved.
-Current running time: 564.31
-ParlaMint-UA_2014-05-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-15-m0-uk.conllu is saved.
-Current running time: 564.89
-ParlaMint-UA_2014-09-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-16-m1-uk.conllu is saved.
-Current running time: 565.54
-ParlaMint-UA_2014-08-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-14-m0-uk.conllu is saved.
-Current running time: 566.22
-ParlaMint-UA_2014-10-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-10-07-m0-ru.conllu is saved.
-Current running time: 566.79
-ParlaMint-UA_2014-02-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-24-m0-ru.conllu is saved.
-Current running time: 567.36
-ParlaMint-UA_2014-02-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-05-m0-ru.conllu is saved.
-Current running time: 567.92
-ParlaMint-UA_2014-04-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-11-m0-ru.conllu is saved.
-Current running time: 568.48
-ParlaMint-UA_2014-07-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-01-m0-uk.conllu is saved.
-Current running time: 569.18
-ParlaMint-UA_2014-07-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-24-m0-uk.conllu is saved.
-Current running time: 569.78
-ParlaMint-UA_2014-08-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-14-m0-ru.conllu is saved.
-Current running time: 570.32
-ParlaMint-UA_2014-06-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-07-m0-ru.conllu is saved.
-Current running time: 570.87
-ParlaMint-UA_2014-06-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-06-m0-uk.conllu is saved.
-Current running time: 571.57
-ParlaMint-UA_2014-03-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-14-m0-uk.conllu is saved.
-Current running time: 572.27
-ParlaMint-UA_2014-06-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-06-m0-ru.conllu is saved.
-Current running time: 572.81
-ParlaMint-UA_2014-12-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-11-m0-uk.conllu is saved.
-Current running time: 573.6
-ParlaMint-UA_2014-01-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-01-29-m0-uk.conllu is saved.
-Current running time: 574.15
-ParlaMint-UA_2014-02-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-05-m0-uk.conllu is saved.
-Current running time: 574.75
-ParlaMint-UA_2014-03-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-11-m0-ru.conllu is saved.
-Current running time: 575.29
-ParlaMint-UA_2014-04-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-16-m0-ru.conllu is saved.
-Current running time: 575.84
-ParlaMint-UA_2014-04-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-24-m0-ru.conllu is saved.
-Current running time: 576.41
-ParlaMint-UA_2014-07-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-22-m0-uk.conllu is saved.
-Current running time: 577.17
-ParlaMint-UA_2014-04-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-10-m0-ru.conllu is saved.
-Current running time: 577.74
-ParlaMint-UA_2014-07-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-25-m0-uk.conllu is saved.
-Current running time: 578.48
-ParlaMint-UA_2014-02-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-21-m0-ru.conllu is saved.
-Current running time: 579.03
-ParlaMint-UA_2014-05-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-06-m0-ru.conllu is saved.
-Current running time: 579.57
-ParlaMint-UA_2014-02-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-23-m0-uk.conllu is saved.
-Current running time: 580.3
-ParlaMint-UA_2014-05-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-20-m0-ru.conllu is saved.
-Current running time: 580.86
-ParlaMint-UA_2014-07-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-22-m0-ru.conllu is saved.
-Current running time: 581.43
-ParlaMint-UA_2014-03-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-25-m0-uk.conllu is saved.
-Current running time: 582.18
-ParlaMint-UA_2014-07-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-23-m0-ru.conllu is saved.
-Current running time: 582.74
-ParlaMint-UA_2014-06-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-19-m1-uk.conllu is saved.
-Current running time: 583.4
-ParlaMint-UA_2014-02-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-22-m0-uk.conllu is saved.
-Current running time: 584.15
-ParlaMint-UA_2014-03-27-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-27-m1-ru.conllu is saved.
-Current running time: 584.7
-ParlaMint-UA_2014-02-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-04-m0-ru.conllu is saved.
-Current running time: 585.25
-ParlaMint-UA_2014-02-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-28-m0-uk.conllu is saved.
-Current running time: 586.02
-ParlaMint-UA_2014-05-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-20-m0-uk.conllu is saved.
-Current running time: 586.72
-ParlaMint-UA_2014-06-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-19-m0-uk.conllu is saved.
-Current running time: 587.48
-ParlaMint-UA_2014-03-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-20-m0-uk.conllu is saved.
-Current running time: 588.12
-ParlaMint-UA_2014-08-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-12-m1-ru.conllu is saved.
-Current running time: 588.66
-ParlaMint-UA_2014-03-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-13-m0-ru.conllu is saved.
-Current running time: 589.19
-ParlaMint-UA_2014-05-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-29-m0-uk.conllu is saved.
-Current running time: 589.88
-ParlaMint-UA_2014-04-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-11-m0-uk.conllu is saved.
-Current running time: 590.59
-ParlaMint-UA_2014-05-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-13-m0-ru.conllu is saved.
-Current running time: 591.17
-ParlaMint-UA_2014-06-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-07-m0-uk.conllu is saved.
-Current running time: 591.75
-ParlaMint-UA_2014-03-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-14-m0-ru.conllu is saved.
-Current running time: 592.3
-ParlaMint-UA_2014-03-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-04-m0-uk.conllu is saved.
-Current running time: 593.01
-ParlaMint-UA_2014-08-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-08-12-m0-ru.conllu is saved.
-Current running time: 593.58
-ParlaMint-UA_2014-10-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-10-20-m0-uk.conllu is saved.
-Current running time: 594.25
-ParlaMint-UA_2014-11-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-11-27-m0-uk.conllu is saved.
-Current running time: 594.81
-ParlaMint-UA_2014-01-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-01-14-m0-uk.conllu is saved.
-Current running time: 595.36
-ParlaMint-UA_2014-07-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-02-m0-uk.conllu is saved.
-Current running time: 596.1
-ParlaMint-UA_2014-07-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-03-m0-uk.conllu is saved.
-Current running time: 596.85
-ParlaMint-UA_2014-07-25-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-25-m0-ru.conllu is saved.
-Current running time: 597.47
-ParlaMint-UA_2014-04-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-18-m0-uk.conllu is saved.
-Current running time: 598.19
-ParlaMint-UA_2014-12-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-12-m0-uk.conllu is saved.
-Current running time: 598.95
-ParlaMint-UA_2014-12-25-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-25-m0-ru.conllu is saved.
-Current running time: 599.58
-ParlaMint-UA_2014-02-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-20-m0-uk.conllu is saved.
-Current running time: 600.41
-ParlaMint-UA_2014-07-01-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-01-m1-ru.conllu is saved.
-Current running time: 601.0
-ParlaMint-UA_2014-06-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-03-m1-ru.conllu is saved.
-Current running time: 601.56
-ParlaMint-UA_2014-04-15-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-15-m1-ru.conllu is saved.
-Current running time: 602.11
-ParlaMint-UA_2014-02-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-25-m0-uk.conllu is saved.
-Current running time: 602.79
-ParlaMint-UA_2014-06-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-04-m0-uk.conllu is saved.
-Current running time: 603.5
-ParlaMint-UA_2014-07-24-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-24-m1-ru.conllu is saved.
-Current running time: 604.06
-ParlaMint-UA_2014-12-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-02-m1-uk.conllu is saved.
-Current running time: 604.75
-ParlaMint-UA_2014-02-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-04-m1-ru.conllu is saved.
-Current running time: 605.3
-ParlaMint-UA_2014-03-27-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-27-m0-ru.conllu is saved.
-Current running time: 605.85
-ParlaMint-UA_2014-05-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-06-m0-uk.conllu is saved.
-Current running time: 606.5
-ParlaMint-UA_2014-09-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-16-m0-ru.conllu is saved.
-Current running time: 607.07
-ParlaMint-UA_2014-03-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-26-m0-uk.conllu is saved.
-Current running time: 607.71
-ParlaMint-UA_2014-06-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-20-m0-uk.conllu is saved.
-Current running time: 608.41
-ParlaMint-UA_2014-05-29-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-29-m0-ru.conllu is saved.
-Current running time: 608.97
-ParlaMint-UA_2014-04-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-08-m0-uk.conllu is saved.
-Current running time: 609.61
-ParlaMint-UA_2014-09-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-09-02-m0-ru.conllu is saved.
-Current running time: 610.16
-ParlaMint-UA_2014-12-28-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-28-m0-ru.conllu is saved.
-Current running time: 610.7
-ParlaMint-UA_2014-06-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-19-m0-ru.conllu is saved.
-Current running time: 611.24
-ParlaMint-UA_2014-12-02-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-02-m1-ru.conllu is saved.
-Current running time: 611.78
-ParlaMint-UA_2014-02-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-24-m0-uk.conllu is saved.
-Current running time: 612.4
-ParlaMint-UA_2014-03-28-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-28-m0-ru.conllu is saved.
-Current running time: 612.95
-ParlaMint-UA_2014-05-20-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-20-m1-ru.conllu is saved.
-Current running time: 613.54
-ParlaMint-UA_2014-03-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-28-m0-uk.conllu is saved.
-Current running time: 614.19
-ParlaMint-UA_2014-03-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-20-m0-ru.conllu is saved.
-Current running time: 614.75
-ParlaMint-UA_2014-03-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-15-m0-uk.conllu is saved.
-Current running time: 615.44
-ParlaMint-UA_2014-04-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-09-m0-uk.conllu is saved.
-Current running time: 616.21
-ParlaMint-UA_2014-04-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-09-m0-ru.conllu is saved.
-Current running time: 616.88
-ParlaMint-UA_2014-03-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-13-m0-uk.conllu is saved.
-Current running time: 617.59
-ParlaMint-UA_2014-04-10-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-10-m1-ru.conllu is saved.
-Current running time: 618.15
-ParlaMint-UA_2014-07-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-04-m0-uk.conllu is saved.
-Current running time: 618.87
-ParlaMint-UA_2014-05-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-15-m0-ru.conllu is saved.
-Current running time: 619.42
-ParlaMint-UA_2014-05-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-16-m0-ru.conllu is saved.
-Current running time: 619.98
-ParlaMint-UA_2014-05-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-14-m0-ru.conllu is saved.
-Current running time: 620.54
-ParlaMint-UA_2014-03-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-03-04-m0-ru.conllu is saved.
-Current running time: 621.09
-ParlaMint-UA_2014-04-17-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-17-m1-ru.conllu is saved.
-Current running time: 621.62
-ParlaMint-UA_2014-12-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-25-m0-uk.conllu is saved.
-Current running time: 622.49
-ParlaMint-UA_2014-06-19-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-06-19-m1-ru.conllu is saved.
-Current running time: 623.04
-ParlaMint-UA_2014-04-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-17-m1-uk.conllu is saved.
-Current running time: 623.74
-ParlaMint-UA_2014-07-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-03-m1-uk.conllu is saved.
-Current running time: 624.39
-ParlaMint-UA_2014-12-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-02-m0-uk.conllu is saved.
-Current running time: 624.94
-ParlaMint-UA_2014-12-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-12-09-m0-ru.conllu is saved.
-Current running time: 625.48
-ParlaMint-UA_2014-04-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-04-01-m0-uk.conllu is saved.
-Current running time: 626.14
-ParlaMint-UA_2014-05-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-05-14-m0-uk.conllu is saved.
-Current running time: 626.83
-ParlaMint-UA_2014-02-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-02-21-m0-uk.conllu is saved.
-Current running time: 627.46
-ParlaMint-UA_2014-07-31-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2014/ParlaMint-UA_2014-07-31-m0-uk.conllu is saved.
-Current running time: 628.03
-ParlaMint-UA_2021-03-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-02-m0-uk.conllu is saved.
-Current running time: 628.74
-ParlaMint-UA_2021-07-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-15-m0-uk.conllu is saved.
-Current running time: 629.5
-ParlaMint-UA_2021-06-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-02-m0-ru.conllu is saved.
-Current running time: 630.06
-ParlaMint-UA_2021-11-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-16-m0-uk.conllu is saved.
-Current running time: 630.84
-ParlaMint-UA_2021-04-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-28-m0-uk.conllu is saved.
-Current running time: 631.56
-ParlaMint-UA_2021-03-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-17-m0-uk.conllu is saved.
-Current running time: 632.27
-ParlaMint-UA_2021-04-27-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-27-m1-uk.conllu is saved.
-Current running time: 632.92
-ParlaMint-UA_2021-05-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-20-m0-uk.conllu is saved.
-Current running time: 633.66
-ParlaMint-UA_2021-10-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-07-m0-uk.conllu is saved.
-Current running time: 634.36
-ParlaMint-UA_2021-05-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-19-m0-uk.conllu is saved.
-Current running time: 635.08
-ParlaMint-UA_2021-11-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-05-m0-uk.conllu is saved.
-Current running time: 635.82
-ParlaMint-UA_2021-09-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-22-m0-uk.conllu is saved.
-Current running time: 636.57
-ParlaMint-UA_2021-01-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-01-28-m0-uk.conllu is saved.
-Current running time: 637.34
-ParlaMint-UA_2021-12-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-17-m0-uk.conllu is saved.
-Current running time: 638.04
-ParlaMint-UA_2021-02-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-18-m0-ru.conllu is saved.
-Current running time: 638.59
-ParlaMint-UA_2021-11-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-03-m0-uk.conllu is saved.
-Current running time: 639.31
-ParlaMint-UA_2021-03-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-19-m0-uk.conllu is saved.
-Current running time: 640.01
-ParlaMint-UA_2021-04-29-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-29-m1-uk.conllu is saved.
-Current running time: 640.58
-ParlaMint-UA_2021-06-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-29-m0-uk.conllu is saved.
-Current running time: 641.35
-ParlaMint-UA_2021-12-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-15-m0-uk.conllu is saved.
-Current running time: 642.11
-ParlaMint-UA_2021-05-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-18-m0-uk.conllu is saved.
-Current running time: 642.88
-ParlaMint-UA_2021-10-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-21-m1-uk.conllu is saved.
-Current running time: 643.49
-ParlaMint-UA_2021-05-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-18-m1-uk.conllu is saved.
-Current running time: 644.17
-ParlaMint-UA_2021-12-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-16-m0-uk.conllu is saved.
-Current running time: 644.87
-ParlaMint-UA_2021-08-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-08-23-m0-uk.conllu is saved.
-Current running time: 645.46
-ParlaMint-UA_2021-04-13-m2-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-13-m2-ru.conllu is saved.
-Current running time: 646.0
-ParlaMint-UA_2021-04-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-13-m1-uk.conllu is saved.
-Current running time: 646.6
-ParlaMint-UA_2021-11-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-17-m0-uk.conllu is saved.
-Current running time: 647.31
-ParlaMint-UA_2021-03-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-17-m0-ru.conllu is saved.
-Current running time: 647.85
-ParlaMint-UA_2021-07-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-14-m1-uk.conllu is saved.
-Current running time: 648.4
-ParlaMint-UA_2021-05-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-20-m1-uk.conllu is saved.
-Current running time: 649.04
-ParlaMint-UA_2021-06-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-04-m0-uk.conllu is saved.
-Current running time: 649.79
-ParlaMint-UA_2021-09-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-23-m0-uk.conllu is saved.
-Current running time: 650.52
-ParlaMint-UA_2021-03-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-05-m0-uk.conllu is saved.
-Current running time: 651.24
-ParlaMint-UA_2021-06-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-28-m0-uk.conllu is saved.
-Current running time: 651.87
-ParlaMint-UA_2021-09-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-07-m0-uk.conllu is saved.
-Current running time: 652.61
-ParlaMint-UA_2021-05-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-20-m0-ru.conllu is saved.
-Current running time: 653.19
-ParlaMint-UA_2021-04-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-16-m0-uk.conllu is saved.
-Current running time: 653.83
-ParlaMint-UA_2021-10-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-20-m0-uk.conllu is saved.
-Current running time: 654.59
-ParlaMint-UA_2021-10-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-06-m0-uk.conllu is saved.
-Current running time: 655.36
-ParlaMint-UA_2021-09-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-23-m1-uk.conllu is saved.
-Current running time: 656.02
-ParlaMint-UA_2021-02-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-02-m0-uk.conllu is saved.
-Current running time: 656.82
-ParlaMint-UA_2021-01-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-01-27-m0-uk.conllu is saved.
-Current running time: 657.54
-ParlaMint-UA_2021-04-29-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-29-m2-uk.conllu is saved.
-Current running time: 658.2
-ParlaMint-UA_2021-04-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-29-m0-uk.conllu is saved.
-Current running time: 658.95
-ParlaMint-UA_2021-05-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-21-m0-uk.conllu is saved.
-Current running time: 659.69
-ParlaMint-UA_2021-11-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-02-m1-uk.conllu is saved.
-Current running time: 660.44
-ParlaMint-UA_2021-06-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-30-m0-uk.conllu is saved.
-Current running time: 661.22
-ParlaMint-UA_2021-02-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-16-m0-uk.conllu is saved.
-Current running time: 662.03
-ParlaMint-UA_2021-07-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-15-m1-uk.conllu is saved.
-Current running time: 662.76
-ParlaMint-UA_2021-02-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-17-m0-uk.conllu is saved.
-Current running time: 663.53
-ParlaMint-UA_2021-04-27-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-27-m2-uk.conllu is saved.
-Current running time: 664.25
-ParlaMint-UA_2021-12-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-14-m0-uk.conllu is saved.
-Current running time: 665.1
-ParlaMint-UA_2021-02-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-23-m0-uk.conllu is saved.
-Current running time: 665.77
-ParlaMint-UA_2021-07-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-01-m0-uk.conllu is saved.
-Current running time: 666.59
-ParlaMint-UA_2021-10-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-19-m0-uk.conllu is saved.
-Current running time: 667.63
-ParlaMint-UA_2021-10-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-07-m0-ru.conllu is saved.
-Current running time: 668.26
-ParlaMint-UA_2021-03-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-16-m0-uk.conllu is saved.
-Current running time: 669.09
-ParlaMint-UA_2021-09-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-24-m0-uk.conllu is saved.
-Current running time: 669.86
-ParlaMint-UA_2021-09-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-21-m0-uk.conllu is saved.
-Current running time: 670.69
-ParlaMint-UA_2021-02-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-18-m0-uk.conllu is saved.
-Current running time: 671.5
-ParlaMint-UA_2021-07-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-13-m0-uk.conllu is saved.
-Current running time: 672.35
-ParlaMint-UA_2021-06-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-03-m0-uk.conllu is saved.
-Current running time: 673.21
-ParlaMint-UA_2021-02-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-03-m0-uk.conllu is saved.
-Current running time: 673.99
-ParlaMint-UA_2021-06-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-16-m0-ru.conllu is saved.
-Current running time: 674.62
-ParlaMint-UA_2021-10-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-07-m1-uk.conllu is saved.
-Current running time: 675.28
-ParlaMint-UA_2021-04-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-15-m0-uk.conllu is saved.
-Current running time: 676.1
-ParlaMint-UA_2021-10-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-05-m0-uk.conllu is saved.
-Current running time: 676.83
-ParlaMint-UA_2021-03-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-19-m1-uk.conllu is saved.
-Current running time: 677.46
-ParlaMint-UA_2021-07-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-13-m1-uk.conllu is saved.
-Current running time: 678.21
-ParlaMint-UA_2021-04-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-13-m0-uk.conllu is saved.
-Current running time: 679.02
-ParlaMint-UA_2021-02-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-03-m0-ru.conllu is saved.
-Current running time: 679.64
-ParlaMint-UA_2021-04-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-27-m0-uk.conllu is saved.
-Current running time: 680.44
-ParlaMint-UA_2021-02-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-23-m0-ru.conllu is saved.
-Current running time: 681.06
-ParlaMint-UA_2021-06-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-16-m0-uk.conllu is saved.
-Current running time: 681.84
-ParlaMint-UA_2021-10-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-08-m0-uk.conllu is saved.
-Current running time: 682.63
-ParlaMint-UA_2021-02-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-05-m0-ru.conllu is saved.
-Current running time: 683.25
-ParlaMint-UA_2021-02-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-04-m0-uk.conllu is saved.
-Current running time: 684.06
-ParlaMint-UA_2021-06-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-17-m0-ru.conllu is saved.
-Current running time: 684.68
-ParlaMint-UA_2021-11-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-19-m0-uk.conllu is saved.
-Current running time: 685.41
-ParlaMint-UA_2021-07-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-20-m0-uk.conllu is saved.
-Current running time: 686.09
-ParlaMint-UA_2021-07-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-14-m0-uk.conllu is saved.
-Current running time: 686.88
-ParlaMint-UA_2021-11-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-02-m0-uk.conllu is saved.
-Current running time: 687.72
-ParlaMint-UA_2021-11-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-30-m0-uk.conllu is saved.
-Current running time: 688.55
-ParlaMint-UA_2021-02-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-05-m0-uk.conllu is saved.
-Current running time: 689.37
-ParlaMint-UA_2021-10-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-21-m0-uk.conllu is saved.
-Current running time: 690.25
-ParlaMint-UA_2021-06-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-02-m0-uk.conllu is saved.
-Current running time: 691.05
-ParlaMint-UA_2021-07-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-02-m0-uk.conllu is saved.
-Current running time: 691.8
-ParlaMint-UA_2021-06-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-17-m0-uk.conllu is saved.
-Current running time: 692.64
-ParlaMint-UA_2021-03-19-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-19-m2-uk.conllu is saved.
-Current running time: 693.31
-ParlaMint-UA_2021-12-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-16-m1-uk.conllu is saved.
-Current running time: 693.97
-ParlaMint-UA_2021-03-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-04-m0-uk.conllu is saved.
+ParlaMint-UA_2003-05-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-22-m0.conllu is saved.
+Current running time: 518.26
+ParlaMint-UA_2003-11-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-05-m0.conllu is saved.
+Current running time: 519.55
+ParlaMint-UA_2003-11-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-06-m0.conllu is saved.
+Current running time: 520.82
+ParlaMint-UA_2003-03-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-04-m1.conllu is saved.
+Current running time: 522.17
+ParlaMint-UA_2003-07-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-04-m0.conllu is saved.
+Current running time: 523.59
+ParlaMint-UA_2003-02-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-18-m1.conllu is saved.
+Current running time: 524.93
+ParlaMint-UA_2003-03-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-11-m0.conllu is saved.
+Current running time: 526.38
+ParlaMint-UA_2003-10-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-02-m1.conllu is saved.
+Current running time: 527.69
+ParlaMint-UA_2003-03-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-19-m0.conllu is saved.
+Current running time: 529.12
+ParlaMint-UA_2003-04-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-08-m0.conllu is saved.
+Current running time: 530.54
+ParlaMint-UA_2003-09-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-17-m0.conllu is saved.
+Current running time: 531.99
+ParlaMint-UA_2003-05-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-15-m0.conllu is saved.
+Current running time: 533.42
+ParlaMint-UA_2003-07-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-01-m0.conllu is saved.
+Current running time: 534.9
+ParlaMint-UA_2003-07-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-09-m1.conllu is saved.
+Current running time: 536.31
+ParlaMint-UA_2003-02-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-20-m0.conllu is saved.
+Current running time: 537.74
+ParlaMint-UA_2003-01-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-01-14-m0.conllu is saved.
+Current running time: 539.18
+ParlaMint-UA_2003-05-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-15-m1.conllu is saved.
+Current running time: 540.57
+ParlaMint-UA_2003-09-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-30-m0.conllu is saved.
+Current running time: 542.0
+ParlaMint-UA_2003-07-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-10-m0.conllu is saved.
+Current running time: 543.39
+ParlaMint-UA_2003-03-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-18-m1.conllu is saved.
+Current running time: 544.75
+ParlaMint-UA_2003-03-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-20-m1.conllu is saved.
+Current running time: 546.09
+ParlaMint-UA_2003-09-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-12-m0.conllu is saved.
+Current running time: 547.52
+ParlaMint-UA_2003-11-25-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-25-m1.conllu is saved.
+Current running time: 548.86
+ParlaMint-UA_2003-02-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-18-m0.conllu is saved.
+Current running time: 550.29
+ParlaMint-UA_2003-01-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-01-16-m0.conllu is saved.
+Current running time: 551.72
+ParlaMint-UA_2003-04-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-11-m0.conllu is saved.
+Current running time: 553.15
+ParlaMint-UA_2003-07-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-11-m0.conllu is saved.
+Current running time: 554.56
+ParlaMint-UA_2003-04-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-15-m0.conllu is saved.
+Current running time: 555.95
+ParlaMint-UA_2003-03-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-06-m0.conllu is saved.
+Current running time: 557.36
+ParlaMint-UA_2003-07-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-03-m1.conllu is saved.
+Current running time: 558.62
+ParlaMint-UA_2003-01-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-01-14-m1.conllu is saved.
+Current running time: 559.95
+ParlaMint-UA_2003-01-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-01-17-m0.conllu is saved.
+Current running time: 561.31
+ParlaMint-UA_2003-03-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-18-m0.conllu is saved.
+Current running time: 562.7
+ParlaMint-UA_2003-02-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-06-m1.conllu is saved.
+Current running time: 564.04
+ParlaMint-UA_2003-09-30-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-30-m1.conllu is saved.
+Current running time: 565.39
+ParlaMint-UA_2003-02-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-11-m0.conllu is saved.
+Current running time: 566.81
+ParlaMint-UA_2003-04-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-18-m0.conllu is saved.
+Current running time: 568.27
+ParlaMint-UA_2003-09-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-09-m1.conllu is saved.
+Current running time: 569.64
+ParlaMint-UA_2003-09-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-11-m0.conllu is saved.
+Current running time: 571.01
+ParlaMint-UA_2003-10-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-14-m1.conllu is saved.
+Current running time: 572.35
+ParlaMint-UA_2003-04-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-04-m0.conllu is saved.
+Current running time: 573.81
+ParlaMint-UA_2003-10-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-01-m0.conllu is saved.
+Current running time: 575.26
+ParlaMint-UA_2003-06-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-18-m0.conllu is saved.
+Current running time: 576.69
+ParlaMint-UA_2003-06-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-19-m1.conllu is saved.
+Current running time: 578.15
+ParlaMint-UA_2003-06-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-04-m0.conllu is saved.
+Current running time: 579.59
+ParlaMint-UA_2003-04-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-01-m1.conllu is saved.
+Current running time: 580.94
+ParlaMint-UA_2003-10-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-14-m0.conllu is saved.
+Current running time: 582.37
+ParlaMint-UA_2003-06-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-03-m0.conllu is saved.
+Current running time: 583.82
+ParlaMint-UA_2003-11-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-28-m0.conllu is saved.
+Current running time: 585.26
+ParlaMint-UA_2003-06-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-06-m0.conllu is saved.
+Current running time: 586.66
+ParlaMint-UA_2003-10-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-16-m1.conllu is saved.
+Current running time: 587.96
+ParlaMint-UA_2003-04-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-15-m1.conllu is saved.
+Current running time: 589.3
+ParlaMint-UA_2003-06-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-17-m0.conllu is saved.
+Current running time: 590.73
+ParlaMint-UA_2003-07-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-08-m1.conllu is saved.
+Current running time: 592.06
+ParlaMint-UA_2003-05-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-20-m1.conllu is saved.
+Current running time: 593.38
+ParlaMint-UA_2003-11-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-20-m0.conllu is saved.
+Current running time: 594.78
+ParlaMint-UA_2003-04-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-03-m1.conllu is saved.
+Current running time: 596.12
+ParlaMint-UA_2003-03-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-06-m1.conllu is saved.
+Current running time: 597.45
+ParlaMint-UA_2003-05-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-13-m1.conllu is saved.
+Current running time: 598.8
+ParlaMint-UA_2003-05-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-16-m0.conllu is saved.
+Current running time: 600.22
+ParlaMint-UA_2003-12-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-10-m0.conllu is saved.
+Current running time: 601.62
+ParlaMint-UA_2003-10-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-17-m0.conllu is saved.
+Current running time: 603.06
+ParlaMint-UA_2003-11-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-27-m0.conllu is saved.
+Current running time: 604.48
+ParlaMint-UA_2003-04-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-17-m1.conllu is saved.
+Current running time: 605.79
+ParlaMint-UA_2003-10-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-16-m0.conllu is saved.
+Current running time: 607.06
+ParlaMint-UA_2003-05-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-20-m0.conllu is saved.
+Current running time: 608.46
+ParlaMint-UA_2003-12-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-25-m0.conllu is saved.
+Current running time: 609.7
+ParlaMint-UA_2003-11-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-21-m0.conllu is saved.
+Current running time: 611.11
+ParlaMint-UA_2003-09-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-02-m0.conllu is saved.
+Current running time: 612.37
+ParlaMint-UA_2003-05-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-05-23-m0.conllu is saved.
+Current running time: 613.8
+ParlaMint-UA_2003-12-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-12-m0.conllu is saved.
+Current running time: 615.24
+ParlaMint-UA_2003-10-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-23-m1.conllu is saved.
+Current running time: 616.51
+ParlaMint-UA_2003-03-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-03-21-m0.conllu is saved.
+Current running time: 617.94
+ParlaMint-UA_2003-06-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-06-05-m1.conllu is saved.
+Current running time: 619.26
+ParlaMint-UA_2003-07-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-09-m0.conllu is saved.
+Current running time: 620.67
+ParlaMint-UA_2003-10-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-10-15-m0.conllu is saved.
+Current running time: 622.12
+ParlaMint-UA_2003-07-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-03-m0.conllu is saved.
+Current running time: 623.42
+ParlaMint-UA_2003-11-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-20-m1.conllu is saved.
+Current running time: 624.74
+ParlaMint-UA_2003-02-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-02-20-m1.conllu is saved.
+Current running time: 626.09
+ParlaMint-UA_2003-11-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-07-m0.conllu is saved.
+Current running time: 627.54
+ParlaMint-UA_2003-09-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-11-m1.conllu is saved.
+Current running time: 628.89
+ParlaMint-UA_2003-09-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-09-m0.conllu is saved.
+Current running time: 630.31
+ParlaMint-UA_2003-11-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-11-18-m1.conllu is saved.
+Current running time: 631.63
+ParlaMint-UA_2003-04-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-01-m0.conllu is saved.
+Current running time: 633.07
+ParlaMint-UA_2003-01-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-01-16-m1.conllu is saved.
+Current running time: 634.42
+ParlaMint-UA_2003-12-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-12-09-m0.conllu is saved.
+Current running time: 635.81
+ParlaMint-UA_2003-04-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-04-16-m0.conllu is saved.
+Current running time: 637.21
+ParlaMint-UA_2003-09-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-09-18-m0.conllu is saved.
+Current running time: 638.6
+ParlaMint-UA_2003-07-10-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2003/ParlaMint-UA_2003-07-10-m1.conllu is saved.
+Current running time: 639.95
+ParlaMint-UA_2018-04-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-18-m0.conllu is saved.
+Current running time: 641.34
+ParlaMint-UA_2018-11-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-20-m1.conllu is saved.
+Current running time: 642.69
+ParlaMint-UA_2018-11-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-20-m0.conllu is saved.
+Current running time: 644.07
+ParlaMint-UA_2018-05-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-24-m0.conllu is saved.
+Current running time: 645.49
+ParlaMint-UA_2018-11-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-08-m0.conllu is saved.
+Current running time: 646.89
+ParlaMint-UA_2018-03-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-13-m1.conllu is saved.
+Current running time: 648.21
+ParlaMint-UA_2018-10-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-02-m0.conllu is saved.
+Current running time: 649.61
+ParlaMint-UA_2018-05-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-17-m0.conllu is saved.
+Current running time: 651.01
+ParlaMint-UA_2018-12-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-20-m1.conllu is saved.
+Current running time: 652.37
+ParlaMint-UA_2018-05-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-22-m0.conllu is saved.
+Current running time: 653.77
+ParlaMint-UA_2018-07-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-12-m0.conllu is saved.
+Current running time: 655.19
+ParlaMint-UA_2018-11-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-07-m0.conllu is saved.
+Current running time: 656.61
+ParlaMint-UA_2018-03-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-20-m0.conllu is saved.
+Current running time: 658.01
+ParlaMint-UA_2018-10-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-05-m0.conllu is saved.
+Current running time: 659.44
+ParlaMint-UA_2018-02-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-06-m1.conllu is saved.
+Current running time: 660.8
+ParlaMint-UA_2018-03-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-22-m1.conllu is saved.
+Current running time: 662.15
+ParlaMint-UA_2018-02-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-08-m1.conllu is saved.
+Current running time: 663.49
+ParlaMint-UA_2018-04-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-17-m1.conllu is saved.
+Current running time: 664.84
+ParlaMint-UA_2018-04-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-03-m1.conllu is saved.
+Current running time: 666.19
+ParlaMint-UA_2018-10-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-04-m1.conllu is saved.
+Current running time: 667.54
+ParlaMint-UA_2018-02-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-07-m0.conllu is saved.
+Current running time: 668.87
+ParlaMint-UA_2018-07-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-04-m0.conllu is saved.
+Current running time: 670.27
+ParlaMint-UA_2018-09-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-05-m0.conllu is saved.
+Current running time: 671.65
+ParlaMint-UA_2018-02-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-06-m0.conllu is saved.
+Current running time: 673.07
+ParlaMint-UA_2018-12-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-06-m1.conllu is saved.
+Current running time: 674.38
+ParlaMint-UA_2018-12-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-04-m1.conllu is saved.
+Current running time: 675.7
+ParlaMint-UA_2018-10-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-18-m1.conllu is saved.
+Current running time: 677.03
+ParlaMint-UA_2018-04-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-06-m0.conllu is saved.
+Current running time: 678.41
+ParlaMint-UA_2018-03-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-23-m0.conllu is saved.
+Current running time: 679.81
+ParlaMint-UA_2018-04-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-19-m1.conllu is saved.
+Current running time: 681.13
+ParlaMint-UA_2018-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-07-m0.conllu is saved.
+Current running time: 682.54
+ParlaMint-UA_2018-10-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-16-m1.conllu is saved.
+Current running time: 683.84
+ParlaMint-UA_2018-06-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-07-m1.conllu is saved.
+Current running time: 685.15
+ParlaMint-UA_2018-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-21-m0.conllu is saved.
+Current running time: 686.57
+ParlaMint-UA_2018-09-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-20-m0.conllu is saved.
+Current running time: 687.93
+ParlaMint-UA_2018-04-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-19-m0.conllu is saved.
+Current running time: 689.29
+ParlaMint-UA_2018-09-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-04-m0.conllu is saved.
+Current running time: 690.65
+ParlaMint-UA_2018-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-18-m0.conllu is saved.
+Current running time: 692.05
+ParlaMint-UA_2018-11-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-26-m0.conllu is saved.
+Current running time: 693.38
+ParlaMint-UA_2018-12-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-04-m0.conllu is saved.
 Current running time: 694.75
-ParlaMint-UA_2021-08-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-08-24-m0-uk.conllu is saved.
-Current running time: 695.42
-ParlaMint-UA_2021-11-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-17-m0-ru.conllu is saved.
-Current running time: 696.06
-ParlaMint-UA_2021-08-24-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-08-24-m1-uk.conllu is saved.
-Current running time: 696.69
-ParlaMint-UA_2021-04-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-15-m1-uk.conllu is saved.
-Current running time: 697.53
-ParlaMint-UA_2021-03-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-18-m0-uk.conllu is saved.
-Current running time: 698.38
-ParlaMint-UA_2021-03-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-18-m0-ru.conllu is saved.
-Current running time: 699.0
-ParlaMint-UA_2021-03-30-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-30-m1-uk.conllu is saved.
-Current running time: 699.76
-ParlaMint-UA_2021-09-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-08-m1-uk.conllu is saved.
-Current running time: 700.38
-ParlaMint-UA_2021-09-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-24-m0-ru.conllu is saved.
-Current running time: 700.93
-ParlaMint-UA_2021-02-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-02-19-m0-uk.conllu is saved.
-Current running time: 701.67
-ParlaMint-UA_2021-12-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-17-m1-uk.conllu is saved.
-Current running time: 702.28
-ParlaMint-UA_2021-06-29-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-29-m1-uk.conllu is saved.
-Current running time: 702.99
-ParlaMint-UA_2021-12-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-01-m0-uk.conllu is saved.
-Current running time: 703.78
-ParlaMint-UA_2021-11-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-18-m0-uk.conllu is saved.
-Current running time: 704.5
-ParlaMint-UA_2021-07-01-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-01-m1-uk.conllu is saved.
-Current running time: 705.17
-ParlaMint-UA_2021-06-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-18-m0-uk.conllu is saved.
-Current running time: 705.85
-ParlaMint-UA_2021-09-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-08-m0-uk.conllu is saved.
-Current running time: 706.58
-ParlaMint-UA_2021-10-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-10-22-m0-uk.conllu is saved.
-Current running time: 707.31
-ParlaMint-UA_2021-06-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-15-m0-uk.conllu is saved.
-Current running time: 708.08
-ParlaMint-UA_2021-03-30-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-30-m2-uk.conllu is saved.
-Current running time: 708.7
-ParlaMint-UA_2021-01-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-01-26-m0-uk.conllu is saved.
-Current running time: 709.42
-ParlaMint-UA_2021-09-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-23-m0-ru.conllu is saved.
-Current running time: 709.95
-ParlaMint-UA_2021-09-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-10-m0-uk.conllu is saved.
-Current running time: 710.58
-ParlaMint-UA_2021-01-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-01-29-m0-uk.conllu is saved.
+ParlaMint-UA_2018-04-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-04-m0.conllu is saved.
+Current running time: 696.13
+ParlaMint-UA_2018-05-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-25-m0.conllu is saved.
+Current running time: 697.54
+ParlaMint-UA_2018-11-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-09-m0.conllu is saved.
+Current running time: 698.94
+ParlaMint-UA_2018-10-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-16-m0.conllu is saved.
+Current running time: 700.24
+ParlaMint-UA_2018-04-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-03-m0.conllu is saved.
+Current running time: 701.63
+ParlaMint-UA_2018-07-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-10-m0.conllu is saved.
+Current running time: 702.98
+ParlaMint-UA_2018-02-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-09-m0.conllu is saved.
+Current running time: 704.35
+ParlaMint-UA_2018-02-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-28-m0.conllu is saved.
+Current running time: 705.71
+ParlaMint-UA_2018-10-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-04-m0.conllu is saved.
+Current running time: 707.12
+ParlaMint-UA_2018-09-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-04-m1.conllu is saved.
+Current running time: 708.43
+ParlaMint-UA_2018-10-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-17-m0.conllu is saved.
+Current running time: 709.85
+ParlaMint-UA_2018-05-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-23-m0.conllu is saved.
 Current running time: 711.26
-ParlaMint-UA_2021-09-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-09-m0-uk.conllu is saved.
-Current running time: 712.05
-ParlaMint-UA_2021-03-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-30-m0-uk.conllu is saved.
-Current running time: 712.67
-ParlaMint-UA_2021-09-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-09-09-m0-ru.conllu is saved.
-Current running time: 713.27
-ParlaMint-UA_2021-06-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-01-m0-uk.conllu is saved.
-Current running time: 714.03
-ParlaMint-UA_2021-12-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-03-m0-uk.conllu is saved.
-Current running time: 714.75
-ParlaMint-UA_2021-06-30-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-06-30-m0-ru.conllu is saved.
+ParlaMint-UA_2018-09-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-18-m1.conllu is saved.
+Current running time: 712.58
+ParlaMint-UA_2018-11-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-06-m1.conllu is saved.
+Current running time: 713.91
+ParlaMint-UA_2018-01-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-18-m0.conllu is saved.
 Current running time: 715.32
-ParlaMint-UA_2021-05-18-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-05-18-m1-ru.conllu is saved.
-Current running time: 715.87
-ParlaMint-UA_2021-03-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-03-03-m0-uk.conllu is saved.
-Current running time: 716.6
-ParlaMint-UA_2021-11-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-18-m1-uk.conllu is saved.
-Current running time: 717.18
-ParlaMint-UA_2021-04-13-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-13-m2-uk.conllu is saved.
-Current running time: 717.81
-ParlaMint-UA_2021-11-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-11-04-m0-uk.conllu is saved.
-Current running time: 718.67
-ParlaMint-UA_2021-12-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-12-02-m0-uk.conllu is saved.
-Current running time: 719.47
-ParlaMint-UA_2021-04-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-04-14-m0-uk.conllu is saved.
-Current running time: 720.15
-ParlaMint-UA_2021-07-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2021/ParlaMint-UA_2021-07-16-m0-uk.conllu is saved.
-Current running time: 720.8
-ParlaMint-UA_2015-04-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-23-m1-uk.conllu is saved.
-Current running time: 721.43
-ParlaMint-UA_2015-11-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-04-m0-uk.conllu is saved.
-Current running time: 722.12
-ParlaMint-UA_2015-11-24-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-24-m1-uk.conllu is saved.
-Current running time: 722.75
-ParlaMint-UA_2015-12-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-08-m1-uk.conllu is saved.
-Current running time: 723.35
-ParlaMint-UA_2015-06-30-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-30-m1-ru.conllu is saved.
-Current running time: 723.9
-ParlaMint-UA_2015-01-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-13-m0-ru.conllu is saved.
-Current running time: 724.44
-ParlaMint-UA_2015-04-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-23-m0-uk.conllu is saved.
-Current running time: 725.07
-ParlaMint-UA_2015-04-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-07-m0-ru.conllu is saved.
-Current running time: 725.61
-ParlaMint-UA_2015-01-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-13-m1-uk.conllu is saved.
-Current running time: 726.23
-ParlaMint-UA_2015-04-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-07-m0-uk.conllu is saved.
-Current running time: 726.93
-ParlaMint-UA_2015-02-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-10-m0-ru.conllu is saved.
-Current running time: 727.48
-ParlaMint-UA_2015-02-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-06-m0-ru.conllu is saved.
-Current running time: 728.03
-ParlaMint-UA_2015-02-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-12-m1-ru.conllu is saved.
-Current running time: 728.56
-ParlaMint-UA_2015-09-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-03-m0-ru.conllu is saved.
-Current running time: 729.1
-ParlaMint-UA_2015-05-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-12-m0-uk.conllu is saved.
-Current running time: 729.77
-ParlaMint-UA_2015-12-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-22-m0-uk.conllu is saved.
-Current running time: 730.4
-ParlaMint-UA_2015-01-15-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-15-m1-ru.conllu is saved.
-Current running time: 730.94
-ParlaMint-UA_2015-03-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-17-m0-uk.conllu is saved.
-Current running time: 731.52
-ParlaMint-UA_2015-07-02-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-02-m1-ru.conllu is saved.
-Current running time: 732.07
-ParlaMint-UA_2015-06-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-04-m0-uk.conllu is saved.
-Current running time: 732.75
-ParlaMint-UA_2015-12-10-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-10-m1-uk.conllu is saved.
-Current running time: 733.32
-ParlaMint-UA_2015-03-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-05-m1-uk.conllu is saved.
-Current running time: 733.93
-ParlaMint-UA_2015-09-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-03-m1-ru.conllu is saved.
-Current running time: 734.47
-ParlaMint-UA_2015-06-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-04-m1-uk.conllu is saved.
-Current running time: 735.08
-ParlaMint-UA_2015-09-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-15-m1-uk.conllu is saved.
-Current running time: 735.73
-ParlaMint-UA_2015-03-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-06-m0-ru.conllu is saved.
-Current running time: 736.29
-ParlaMint-UA_2015-04-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-21-m0-uk.conllu is saved.
-Current running time: 736.97
-ParlaMint-UA_2015-11-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-12-m1-ru.conllu is saved.
-Current running time: 737.51
-ParlaMint-UA_2015-09-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-02-m0-ru.conllu is saved.
-Current running time: 738.04
-ParlaMint-UA_2015-04-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-10-m0-uk.conllu is saved.
-Current running time: 738.72
-ParlaMint-UA_2015-06-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-05-m0-ru.conllu is saved.
-Current running time: 739.29
-ParlaMint-UA_2015-05-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-08-m0-uk.conllu is saved.
-Current running time: 739.86
-ParlaMint-UA_2015-07-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-16-m0-uk.conllu is saved.
-Current running time: 740.46
-ParlaMint-UA_2015-05-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-22-m0-ru.conllu is saved.
-Current running time: 741.01
-ParlaMint-UA_2015-04-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-21-m1-uk.conllu is saved.
-Current running time: 741.63
-ParlaMint-UA_2015-07-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-17-m0-ru.conllu is saved.
-Current running time: 742.17
-ParlaMint-UA_2015-10-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-09-m0-uk.conllu is saved.
-Current running time: 742.92
-ParlaMint-UA_2015-05-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-14-m0-uk.conllu is saved.
-Current running time: 743.59
-ParlaMint-UA_2015-11-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-26-m0-uk.conllu is saved.
-Current running time: 744.28
-ParlaMint-UA_2015-09-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-04-m0-ru.conllu is saved.
-Current running time: 744.83
-ParlaMint-UA_2015-09-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-02-m0-uk.conllu is saved.
-Current running time: 745.43
-ParlaMint-UA_2015-11-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-04-m0-ru.conllu is saved.
-Current running time: 745.96
-ParlaMint-UA_2015-11-25-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-25-m0-ru.conllu is saved.
-Current running time: 746.51
-ParlaMint-UA_2015-06-02-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-02-m1-ru.conllu is saved.
-Current running time: 747.05
-ParlaMint-UA_2015-02-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-10-m0-uk.conllu is saved.
-Current running time: 747.71
-ParlaMint-UA_2015-05-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-12-m0-ru.conllu is saved.
-Current running time: 748.26
-ParlaMint-UA_2015-11-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-10-m0-ru.conllu is saved.
-Current running time: 748.8
-ParlaMint-UA_2015-03-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-19-m0-ru.conllu is saved.
-Current running time: 749.34
-ParlaMint-UA_2015-01-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-14-m0-uk.conllu is saved.
-Current running time: 749.99
-ParlaMint-UA_2015-11-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-05-m0-uk.conllu is saved.
-Current running time: 750.66
-ParlaMint-UA_2015-01-13-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-13-m1-ru.conllu is saved.
-Current running time: 751.21
-ParlaMint-UA_2015-10-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-09-m0-ru.conllu is saved.
-Current running time: 751.76
-ParlaMint-UA_2015-02-05-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-05-m1-ru.conllu is saved.
-Current running time: 752.31
-ParlaMint-UA_2015-12-22-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-22-m0-ru.conllu is saved.
-Current running time: 752.86
-ParlaMint-UA_2015-05-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-14-m1-uk.conllu is saved.
-Current running time: 753.49
-ParlaMint-UA_2015-04-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-10-m0-ru.conllu is saved.
-Current running time: 754.04
-ParlaMint-UA_2015-08-31-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-08-31-m0-uk.conllu is saved.
-Current running time: 754.63
-ParlaMint-UA_2015-09-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-18-m0-ru.conllu is saved.
-Current running time: 755.18
-ParlaMint-UA_2015-01-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-13-m0-uk.conllu is saved.
-Current running time: 755.88
-ParlaMint-UA_2015-07-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-14-m1-uk.conllu is saved.
-Current running time: 756.55
-ParlaMint-UA_2015-07-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-15-m0-ru.conllu is saved.
-Current running time: 757.09
-ParlaMint-UA_2015-07-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-02-m0-ru.conllu is saved.
-Current running time: 757.64
-ParlaMint-UA_2015-04-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-21-m0-ru.conllu is saved.
-Current running time: 758.18
-ParlaMint-UA_2015-03-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-18-m0-ru.conllu is saved.
-Current running time: 758.73
-ParlaMint-UA_2015-12-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-11-m0-ru.conllu is saved.
-Current running time: 759.27
-ParlaMint-UA_2015-03-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-05-m0-uk.conllu is saved.
-Current running time: 759.94
-ParlaMint-UA_2015-02-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-03-m1-uk.conllu is saved.
-Current running time: 760.56
-ParlaMint-UA_2015-02-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-12-m1-uk.conllu is saved.
-Current running time: 761.17
-ParlaMint-UA_2015-03-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-04-m0-ru.conllu is saved.
-Current running time: 761.72
-ParlaMint-UA_2015-09-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-16-m0-ru.conllu is saved.
-Current running time: 762.25
-ParlaMint-UA_2015-11-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-13-m0-ru.conllu is saved.
-Current running time: 762.79
-ParlaMint-UA_2015-03-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-17-m0-ru.conllu is saved.
-Current running time: 763.34
-ParlaMint-UA_2015-05-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-19-m0-uk.conllu is saved.
-Current running time: 764.09
-ParlaMint-UA_2015-02-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-13-m0-ru.conllu is saved.
-Current running time: 764.63
-ParlaMint-UA_2015-02-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-11-m0-ru.conllu is saved.
-Current running time: 765.17
-ParlaMint-UA_2015-11-10-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-10-m1-ru.conllu is saved.
-Current running time: 765.71
-ParlaMint-UA_2015-11-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-05-m0-ru.conllu is saved.
-Current running time: 766.26
-ParlaMint-UA_2015-03-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-20-m0-uk.conllu is saved.
-Current running time: 766.95
-ParlaMint-UA_2015-11-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-03-m0-uk.conllu is saved.
-Current running time: 767.58
-ParlaMint-UA_2015-06-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-18-m0-uk.conllu is saved.
-Current running time: 768.37
-ParlaMint-UA_2015-04-07-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-07-m1-ru.conllu is saved.
-Current running time: 768.92
-ParlaMint-UA_2015-11-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-10-m0-uk.conllu is saved.
-Current running time: 769.61
-ParlaMint-UA_2015-10-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-08-m0-uk.conllu is saved.
-Current running time: 770.33
-ParlaMint-UA_2015-10-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-06-m1-uk.conllu is saved.
-Current running time: 770.94
-ParlaMint-UA_2015-11-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-03-m1-ru.conllu is saved.
-Current running time: 771.49
-ParlaMint-UA_2015-06-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-16-m1-uk.conllu is saved.
-Current running time: 772.11
-ParlaMint-UA_2015-05-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-20-m0-uk.conllu is saved.
-Current running time: 772.79
-ParlaMint-UA_2015-07-01-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-01-m0-ru.conllu is saved.
-Current running time: 773.32
-ParlaMint-UA_2015-09-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-18-m0-uk.conllu is saved.
-Current running time: 774.03
-ParlaMint-UA_2015-07-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-15-m0-uk.conllu is saved.
-Current running time: 774.76
-ParlaMint-UA_2015-06-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-16-m0-ru.conllu is saved.
-Current running time: 775.31
-ParlaMint-UA_2015-12-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-17-m0-ru.conllu is saved.
-Current running time: 775.86
-ParlaMint-UA_2015-10-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-08-m0-ru.conllu is saved.
-Current running time: 776.4
-ParlaMint-UA_2015-11-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-06-m0-uk.conllu is saved.
-Current running time: 777.09
-ParlaMint-UA_2015-10-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-06-m0-uk.conllu is saved.
-Current running time: 777.78
-ParlaMint-UA_2015-05-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-14-m0-ru.conllu is saved.
-Current running time: 778.32
-ParlaMint-UA_2015-10-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-07-m0-uk.conllu is saved.
-Current running time: 779.02
-ParlaMint-UA_2015-12-10-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-10-m0-ru.conllu is saved.
-Current running time: 779.58
-ParlaMint-UA_2015-01-27-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-27-m0-ru.conllu is saved.
-Current running time: 780.14
-ParlaMint-UA_2015-12-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-23-m0-uk.conllu is saved.
-Current running time: 780.82
-ParlaMint-UA_2015-01-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-14-m0-ru.conllu is saved.
-Current running time: 781.37
-ParlaMint-UA_2015-02-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-06-m0-uk.conllu is saved.
-Current running time: 782.09
-ParlaMint-UA_2015-03-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-02-m0-ru.conllu is saved.
-Current running time: 782.64
-ParlaMint-UA_2015-11-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-13-m0-uk.conllu is saved.
-Current running time: 783.31
-ParlaMint-UA_2015-01-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-15-m0-uk.conllu is saved.
-Current running time: 783.98
-ParlaMint-UA_2015-01-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-15-m1-uk.conllu is saved.
-Current running time: 784.61
-ParlaMint-UA_2015-11-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-24-m0-ru.conllu is saved.
-Current running time: 785.15
-ParlaMint-UA_2015-12-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-09-m0-ru.conllu is saved.
-Current running time: 785.7
-ParlaMint-UA_2015-05-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-19-m0-ru.conllu is saved.
-Current running time: 786.26
-ParlaMint-UA_2015-06-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-17-m0-ru.conllu is saved.
-Current running time: 786.79
-ParlaMint-UA_2015-03-19-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-19-m1-ru.conllu is saved.
-Current running time: 787.35
-ParlaMint-UA_2015-01-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-15-m0-ru.conllu is saved.
-Current running time: 787.95
-ParlaMint-UA_2015-09-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-17-m0-ru.conllu is saved.
-Current running time: 788.52
-ParlaMint-UA_2015-07-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-14-m0-uk.conllu is saved.
-Current running time: 789.28
-ParlaMint-UA_2015-06-30-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-30-m1-uk.conllu is saved.
-Current running time: 789.92
-ParlaMint-UA_2015-09-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-04-m0-uk.conllu is saved.
-Current running time: 790.61
-ParlaMint-UA_2015-05-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-12-m1-ru.conllu is saved.
-Current running time: 791.16
-ParlaMint-UA_2015-02-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-05-m0-ru.conllu is saved.
-Current running time: 791.72
-ParlaMint-UA_2015-12-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-23-m0-ru.conllu is saved.
-Current running time: 792.28
-ParlaMint-UA_2015-11-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-12-m0-ru.conllu is saved.
-Current running time: 792.84
-ParlaMint-UA_2015-06-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-19-m0-uk.conllu is saved.
-Current running time: 793.61
-ParlaMint-UA_2015-07-14-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-14-m0-ru.conllu is saved.
-Current running time: 794.21
-ParlaMint-UA_2015-09-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-01-m0-uk.conllu is saved.
-Current running time: 794.79
-ParlaMint-UA_2015-01-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-27-m0-uk.conllu is saved.
-Current running time: 795.42
-ParlaMint-UA_2015-06-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-04-m0-ru.conllu is saved.
-Current running time: 795.98
-ParlaMint-UA_2015-07-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-17-m0-uk.conllu is saved.
-Current running time: 796.73
-ParlaMint-UA_2015-06-30-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-30-m0-ru.conllu is saved.
-Current running time: 797.31
-ParlaMint-UA_2015-04-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-24-m0-uk.conllu is saved.
-Current running time: 798.03
-ParlaMint-UA_2015-12-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-24-m0-uk.conllu is saved.
-Current running time: 798.97
-ParlaMint-UA_2015-05-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-12-m1-uk.conllu is saved.
-Current running time: 799.62
-ParlaMint-UA_2015-12-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-08-m0-uk.conllu is saved.
-Current running time: 800.35
-ParlaMint-UA_2015-11-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-06-m0-ru.conllu is saved.
-Current running time: 800.94
-ParlaMint-UA_2015-04-09-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-09-m1-ru.conllu is saved.
-Current running time: 801.51
-ParlaMint-UA_2015-04-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-21-m1-ru.conllu is saved.
-Current running time: 802.08
-ParlaMint-UA_2015-10-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-07-m0-ru.conllu is saved.
-Current running time: 802.66
-ParlaMint-UA_2015-06-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-04-m1-ru.conllu is saved.
-Current running time: 803.24
-ParlaMint-UA_2015-06-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-02-m0-uk.conllu is saved.
-Current running time: 803.94
-ParlaMint-UA_2015-06-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-03-m0-ru.conllu is saved.
-Current running time: 804.53
-ParlaMint-UA_2015-05-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-15-m0-ru.conllu is saved.
-Current running time: 805.09
-ParlaMint-UA_2015-06-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-05-m0-uk.conllu is saved.
-Current running time: 805.8
-ParlaMint-UA_2015-07-16-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-16-m1-ru.conllu is saved.
-Current running time: 806.38
-ParlaMint-UA_2015-07-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-02-m0-uk.conllu is saved.
-Current running time: 807.05
-ParlaMint-UA_2015-06-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-19-m0-ru.conllu is saved.
-Current running time: 807.64
-ParlaMint-UA_2015-03-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-19-m1-uk.conllu is saved.
-Current running time: 808.31
-ParlaMint-UA_2015-11-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-03-m0-ru.conllu is saved.
+ParlaMint-UA_2018-04-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-05-m1.conllu is saved.
+Current running time: 716.63
+ParlaMint-UA_2018-03-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-15-m1.conllu is saved.
+Current running time: 717.96
+ParlaMint-UA_2018-05-24-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-24-m1.conllu is saved.
+Current running time: 719.31
+ParlaMint-UA_2018-06-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-21-m1.conllu is saved.
+Current running time: 720.64
+ParlaMint-UA_2018-11-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-06-m0.conllu is saved.
+Current running time: 721.98
+ParlaMint-UA_2018-03-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-01-m1.conllu is saved.
+Current running time: 723.31
+ParlaMint-UA_2018-04-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-05-m0.conllu is saved.
+Current running time: 724.69
+ParlaMint-UA_2018-03-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-21-m0.conllu is saved.
+Current running time: 726.07
+ParlaMint-UA_2018-09-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-06-m0.conllu is saved.
+Current running time: 727.46
+ParlaMint-UA_2018-05-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-22-m1.conllu is saved.
+Current running time: 728.78
+ParlaMint-UA_2018-10-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-02-m1.conllu is saved.
+Current running time: 730.08
+ParlaMint-UA_2018-11-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-21-m0.conllu is saved.
+Current running time: 731.47
+ParlaMint-UA_2018-03-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-20-m1.conllu is saved.
+Current running time: 732.78
+ParlaMint-UA_2018-06-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-20-m0.conllu is saved.
+Current running time: 734.18
+ParlaMint-UA_2018-03-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-02-m0.conllu is saved.
+Current running time: 735.58
+ParlaMint-UA_2018-07-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-13-m0.conllu is saved.
+Current running time: 736.9
+ParlaMint-UA_2018-12-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-18-m1.conllu is saved.
+Current running time: 738.22
+ParlaMint-UA_2018-02-27-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-27-m1.conllu is saved.
+Current running time: 739.53
+ParlaMint-UA_2018-02-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-27-m0.conllu is saved.
+Current running time: 740.93
+ParlaMint-UA_2018-03-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-14-m0.conllu is saved.
+Current running time: 742.32
+ParlaMint-UA_2018-09-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-06-m1.conllu is saved.
+Current running time: 743.66
+ParlaMint-UA_2018-11-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-22-m1.conllu is saved.
+Current running time: 745.23
+ParlaMint-UA_2018-12-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-18-m0.conllu is saved.
+Current running time: 746.61
+ParlaMint-UA_2018-11-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-23-m0.conllu is saved.
+Current running time: 747.98
+ParlaMint-UA_2018-03-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-22-m0.conllu is saved.
+Current running time: 749.37
+ParlaMint-UA_2018-06-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-07-m0.conllu is saved.
+Current running time: 750.71
+ParlaMint-UA_2018-11-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-23-m1.conllu is saved.
+Current running time: 752.0
+ParlaMint-UA_2018-07-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-03-m0.conllu is saved.
+Current running time: 753.39
+ParlaMint-UA_2018-06-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-06-m0.conllu is saved.
+Current running time: 754.8
+ParlaMint-UA_2018-05-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-15-m0.conllu is saved.
+Current running time: 756.18
+ParlaMint-UA_2018-11-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-08-m1.conllu is saved.
+Current running time: 757.5
+ParlaMint-UA_2018-12-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-05-m0.conllu is saved.
+Current running time: 758.87
+ParlaMint-UA_2018-09-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-20-m1.conllu is saved.
+Current running time: 760.18
+ParlaMint-UA_2018-09-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-18-m0.conllu is saved.
+Current running time: 761.57
+ParlaMint-UA_2018-01-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-16-m0.conllu is saved.
+Current running time: 762.97
+ParlaMint-UA_2018-07-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-11-m0.conllu is saved.
+Current running time: 764.34
+ParlaMint-UA_2018-12-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-07-m0.conllu is saved.
+Current running time: 765.74
+ParlaMint-UA_2018-02-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-02-08-m0.conllu is saved.
+Current running time: 767.11
+ParlaMint-UA_2018-06-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-08-m0.conllu is saved.
+Current running time: 768.5
+ParlaMint-UA_2018-04-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-17-m0.conllu is saved.
+Current running time: 769.88
+ParlaMint-UA_2018-06-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-22-m0.conllu is saved.
+Current running time: 771.27
+ParlaMint-UA_2018-10-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-03-m0.conllu is saved.
+Current running time: 772.63
+ParlaMint-UA_2018-07-10-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-10-m1.conllu is saved.
+Current running time: 773.94
+ParlaMint-UA_2018-01-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-16-m1.conllu is saved.
+Current running time: 775.27
+ParlaMint-UA_2018-03-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-13-m0.conllu is saved.
+Current running time: 776.65
+ParlaMint-UA_2018-03-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-01-m0.conllu is saved.
+Current running time: 778.02
+ParlaMint-UA_2018-06-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-21-m0.conllu is saved.
+Current running time: 779.46
+ParlaMint-UA_2018-01-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-19-m0.conllu is saved.
+Current running time: 780.84
+ParlaMint-UA_2018-06-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-05-m1.conllu is saved.
+Current running time: 782.17
+ParlaMint-UA_2018-12-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-19-m0.conllu is saved.
+Current running time: 783.52
+ParlaMint-UA_2018-01-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-17-m0.conllu is saved.
+Current running time: 784.9
+ParlaMint-UA_2018-07-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-03-m1.conllu is saved.
+Current running time: 786.19
+ParlaMint-UA_2018-01-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-01-18-m1.conllu is saved.
+Current running time: 787.49
+ParlaMint-UA_2018-03-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-16-m0.conllu is saved.
+Current running time: 788.85
+ParlaMint-UA_2018-12-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-06-m0.conllu is saved.
+Current running time: 790.25
+ParlaMint-UA_2018-04-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-04-20-m0.conllu is saved.
+Current running time: 791.63
+ParlaMint-UA_2018-05-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-15-m1.conllu is saved.
+Current running time: 792.93
+ParlaMint-UA_2018-06-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-19-m1.conllu is saved.
+Current running time: 794.22
+ParlaMint-UA_2018-05-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-16-m0.conllu is saved.
+Current running time: 795.59
+ParlaMint-UA_2018-12-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-20-m0.conllu is saved.
+Current running time: 796.92
+ParlaMint-UA_2018-07-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-05-m0.conllu is saved.
+Current running time: 798.22
+ParlaMint-UA_2018-03-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-03-15-m0.conllu is saved.
+Current running time: 799.6
+ParlaMint-UA_2018-07-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-12-m1.conllu is saved.
+Current running time: 800.86
+ParlaMint-UA_2018-07-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-06-m0.conllu is saved.
+Current running time: 802.23
+ParlaMint-UA_2018-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-19-m0.conllu is saved.
+Current running time: 803.58
+ParlaMint-UA_2018-05-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-05-17-m1.conllu is saved.
+Current running time: 804.87
+ParlaMint-UA_2018-09-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-09-19-m0.conllu is saved.
+Current running time: 806.25
+ParlaMint-UA_2018-06-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-05-m0.conllu is saved.
+Current running time: 807.63
+ParlaMint-UA_2018-07-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-07-05-m1.conllu is saved.
 Current running time: 808.89
-ParlaMint-UA_2015-05-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-13-m0-uk.conllu is saved.
-Current running time: 809.59
-ParlaMint-UA_2015-11-26-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-26-m1-uk.conllu is saved.
-Current running time: 810.25
-ParlaMint-UA_2015-03-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-04-m0-uk.conllu is saved.
-Current running time: 810.97
-ParlaMint-UA_2015-03-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-20-m0-ru.conllu is saved.
-Current running time: 811.54
-ParlaMint-UA_2015-02-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-04-m0-ru.conllu is saved.
-Current running time: 812.12
-ParlaMint-UA_2015-04-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-22-m0-uk.conllu is saved.
-Current running time: 812.85
-ParlaMint-UA_2015-07-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-02-m1-uk.conllu is saved.
-Current running time: 813.64
-ParlaMint-UA_2015-11-10-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-10-m1-uk.conllu is saved.
-Current running time: 814.35
-ParlaMint-UA_2015-04-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-08-m0-uk.conllu is saved.
-Current running time: 815.1
-ParlaMint-UA_2015-11-05-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-05-m1-ru.conllu is saved.
-Current running time: 815.71
-ParlaMint-UA_2015-03-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-06-m0-uk.conllu is saved.
-Current running time: 816.41
-ParlaMint-UA_2015-11-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-27-m0-uk.conllu is saved.
-Current running time: 817.19
-ParlaMint-UA_2015-12-22-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-22-m1-uk.conllu is saved.
-Current running time: 817.87
-ParlaMint-UA_2015-02-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-04-m0-uk.conllu is saved.
-Current running time: 818.59
-ParlaMint-UA_2015-05-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-22-m0-uk.conllu is saved.
-Current running time: 819.38
-ParlaMint-UA_2015-09-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-17-m1-uk.conllu is saved.
-Current running time: 820.04
-ParlaMint-UA_2015-05-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-21-m1-uk.conllu is saved.
-Current running time: 820.75
-ParlaMint-UA_2015-07-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-14-m1-ru.conllu is saved.
-Current running time: 821.36
-ParlaMint-UA_2015-06-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-30-m0-uk.conllu is saved.
-Current running time: 822.1
-ParlaMint-UA_2015-06-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-03-m0-uk.conllu is saved.
-Current running time: 822.81
-ParlaMint-UA_2015-12-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-10-m0-uk.conllu is saved.
-Current running time: 823.53
-ParlaMint-UA_2015-04-09-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-09-m0-ru.conllu is saved.
-Current running time: 824.12
-ParlaMint-UA_2015-04-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-09-m0-uk.conllu is saved.
-Current running time: 824.87
-ParlaMint-UA_2015-11-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-12-m0-uk.conllu is saved.
-Current running time: 825.63
-ParlaMint-UA_2015-09-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-15-m0-ru.conllu is saved.
-Current running time: 826.23
-ParlaMint-UA_2015-03-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-03-m0-uk.conllu is saved.
-Current running time: 826.88
-ParlaMint-UA_2015-01-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-16-m0-uk.conllu is saved.
-Current running time: 827.62
-ParlaMint-UA_2015-11-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-11-m0-uk.conllu is saved.
-Current running time: 828.3
-ParlaMint-UA_2015-06-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-16-m0-uk.conllu is saved.
-Current running time: 828.98
-ParlaMint-UA_2015-12-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-08-m0-ru.conllu is saved.
-Current running time: 829.56
-ParlaMint-UA_2015-06-18-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-18-m0-ru.conllu is saved.
-Current running time: 830.11
-ParlaMint-UA_2015-05-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-13-m0-ru.conllu is saved.
+ParlaMint-UA_2018-10-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-10-18-m0.conllu is saved.
+Current running time: 810.29
+ParlaMint-UA_2018-12-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-12-21-m0.conllu is saved.
+Current running time: 811.65
+ParlaMint-UA_2018-11-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-11-22-m0.conllu is saved.
+Current running time: 813.01
+ParlaMint-UA_2018-06-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2018/ParlaMint-UA_2018-06-19-m0.conllu is saved.
+Current running time: 814.37
+ParlaMint-UA_2012-07-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-07-06-m0.conllu is saved.
+Current running time: 815.65
+ParlaMint-UA_2012-07-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-07-05-m1.conllu is saved.
+Current running time: 817.02
+ParlaMint-UA_2012-11-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-11-06-m1.conllu is saved.
+Current running time: 818.33
+ParlaMint-UA_2012-06-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-19-m0.conllu is saved.
+Current running time: 819.68
+ParlaMint-UA_2012-06-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-07-m0.conllu is saved.
+Current running time: 821.02
+ParlaMint-UA_2012-06-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-05-m0.conllu is saved.
+Current running time: 822.37
+ParlaMint-UA_2012-02-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-21-m0.conllu is saved.
+Current running time: 823.72
+ParlaMint-UA_2012-09-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-09-18-m0.conllu is saved.
+Current running time: 825.1
+ParlaMint-UA_2012-03-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-22-m0.conllu is saved.
+Current running time: 826.46
+ParlaMint-UA_2012-11-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-11-06-m0.conllu is saved.
+Current running time: 827.84
+ParlaMint-UA_2012-06-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-19-m1.conllu is saved.
+Current running time: 829.15
+ParlaMint-UA_2012-09-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-09-06-m1.conllu is saved.
 Current running time: 830.67
-ParlaMint-UA_2015-02-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-12-m0-ru.conllu is saved.
-Current running time: 831.22
-ParlaMint-UA_2015-11-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-25-m0-uk.conllu is saved.
-Current running time: 831.86
-ParlaMint-UA_2015-05-21-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-21-m1-ru.conllu is saved.
-Current running time: 832.4
-ParlaMint-UA_2015-02-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-05-m0-uk.conllu is saved.
-Current running time: 833.06
-ParlaMint-UA_2015-09-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-16-m0-uk.conllu is saved.
-Current running time: 833.73
-ParlaMint-UA_2015-12-25-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-25-m0-ru.conllu is saved.
-Current running time: 834.25
-ParlaMint-UA_2015-11-24-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-24-m1-ru.conllu is saved.
-Current running time: 834.78
-ParlaMint-UA_2015-12-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-11-m0-uk.conllu is saved.
-Current running time: 835.37
-ParlaMint-UA_2015-05-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-21-m0-uk.conllu is saved.
-Current running time: 836.05
-ParlaMint-UA_2015-09-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-15-m0-uk.conllu is saved.
-Current running time: 836.7
-ParlaMint-UA_2015-11-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-03-m1-uk.conllu is saved.
-Current running time: 837.32
-ParlaMint-UA_2015-05-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-20-m0-ru.conllu is saved.
-Current running time: 837.86
-ParlaMint-UA_2015-09-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-03-m0-uk.conllu is saved.
-Current running time: 838.5
-ParlaMint-UA_2015-02-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-13-m0-uk.conllu is saved.
-Current running time: 839.22
-ParlaMint-UA_2015-01-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-01-16-m0-ru.conllu is saved.
-Current running time: 839.77
-ParlaMint-UA_2015-02-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-05-m1-uk.conllu is saved.
-Current running time: 840.37
-ParlaMint-UA_2015-08-31-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-08-31-m0-ru.conllu is saved.
-Current running time: 840.91
-ParlaMint-UA_2015-07-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-01-m0-uk.conllu is saved.
-Current running time: 841.61
-ParlaMint-UA_2015-04-08-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-08-m0-ru.conllu is saved.
-Current running time: 842.15
-ParlaMint-UA_2015-10-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-06-m0-ru.conllu is saved.
-Current running time: 842.69
-ParlaMint-UA_2015-02-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-11-m0-uk.conllu is saved.
-Current running time: 843.4
-ParlaMint-UA_2015-11-26-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-26-m1-ru.conllu is saved.
-Current running time: 843.95
-ParlaMint-UA_2015-12-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-24-m0-ru.conllu is saved.
-Current running time: 844.52
-ParlaMint-UA_2015-05-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-21-m0-ru.conllu is saved.
-Current running time: 845.1
-ParlaMint-UA_2015-04-09-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-09-m1-uk.conllu is saved.
-Current running time: 845.79
-ParlaMint-UA_2015-04-23-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-23-m1-ru.conllu is saved.
-Current running time: 846.33
-ParlaMint-UA_2015-03-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-19-m0-uk.conllu is saved.
-Current running time: 846.89
-ParlaMint-UA_2015-11-26-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-26-m0-ru.conllu is saved.
-Current running time: 847.44
-ParlaMint-UA_2015-09-15-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-15-m1-ru.conllu is saved.
-Current running time: 847.98
-ParlaMint-UA_2015-12-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-17-m0-uk.conllu is saved.
-Current running time: 848.66
-ParlaMint-UA_2015-06-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-02-m1-uk.conllu is saved.
-Current running time: 849.27
-ParlaMint-UA_2015-02-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-03-m0-ru.conllu is saved.
-Current running time: 849.8
-ParlaMint-UA_2015-10-08-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-10-08-m1-uk.conllu is saved.
-Current running time: 850.42
-ParlaMint-UA_2015-02-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-03-m0-uk.conllu is saved.
-Current running time: 851.08
-ParlaMint-UA_2015-12-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-25-m0-uk.conllu is saved.
-Current running time: 851.71
-ParlaMint-UA_2015-03-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-05-m0-ru.conllu is saved.
-Current running time: 852.25
-ParlaMint-UA_2015-05-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-05-15-m0-uk.conllu is saved.
-Current running time: 852.95
-ParlaMint-UA_2015-02-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-03-m1-ru.conllu is saved.
-Current running time: 853.49
-ParlaMint-UA_2015-07-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-16-m1-uk.conllu is saved.
-Current running time: 854.17
-ParlaMint-UA_2015-11-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-05-m1-uk.conllu is saved.
-Current running time: 854.81
-ParlaMint-UA_2015-04-24-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-24-m0-ru.conllu is saved.
-Current running time: 855.36
-ParlaMint-UA_2015-03-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-18-m0-uk.conllu is saved.
-Current running time: 856.06
-ParlaMint-UA_2015-04-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-04-07-m1-uk.conllu is saved.
-Current running time: 856.64
-ParlaMint-UA_2015-09-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-17-m0-uk.conllu is saved.
-Current running time: 857.33
-ParlaMint-UA_2015-12-22-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-22-m1-ru.conllu is saved.
-Current running time: 857.86
-ParlaMint-UA_2015-11-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-12-m1-uk.conllu is saved.
-Current running time: 858.48
-ParlaMint-UA_2015-06-02-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-02-m0-ru.conllu is saved.
-Current running time: 859.02
-ParlaMint-UA_2015-03-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-03-02-m0-uk.conllu is saved.
-Current running time: 859.73
-ParlaMint-UA_2015-06-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-06-17-m0-uk.conllu is saved.
-Current running time: 860.43
-ParlaMint-UA_2015-02-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-02-12-m0-uk.conllu is saved.
-Current running time: 861.09
-ParlaMint-UA_2015-12-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-09-m0-uk.conllu is saved.
-Current running time: 861.74
-ParlaMint-UA_2015-11-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-24-m0-uk.conllu is saved.
-Current running time: 862.42
-ParlaMint-UA_2015-09-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-09-03-m1-uk.conllu is saved.
-Current running time: 863.03
-ParlaMint-UA_2015-11-11-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-11-11-m0-ru.conllu is saved.
-Current running time: 863.56
-ParlaMint-UA_2015-07-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-07-03-m0-uk.conllu is saved.
-Current running time: 864.24
-ParlaMint-UA_2015-12-10-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-10-m1-ru.conllu is saved.
-Current running time: 864.77
-ParlaMint-UA_2015-12-08-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2015/ParlaMint-UA_2015-12-08-m1-ru.conllu is saved.
-Current running time: 865.3
-ParlaMint-UA_2020-01-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-01-16-m1-uk.conllu is saved.
-Current running time: 865.92
-ParlaMint-UA_2020-02-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-06-m1-uk.conllu is saved.
-Current running time: 866.65
-ParlaMint-UA_2020-09-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-18-m0-uk.conllu is saved.
-Current running time: 867.33
-ParlaMint-UA_2020-11-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-04-m0-ru.conllu is saved.
-Current running time: 867.87
-ParlaMint-UA_2020-02-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-20-m1-uk.conllu is saved.
-Current running time: 868.47
-ParlaMint-UA_2020-07-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-03-m1-uk.conllu is saved.
-Current running time: 869.13
-ParlaMint-UA_2020-12-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-01-m0-uk.conllu is saved.
-Current running time: 869.82
-ParlaMint-UA_2020-02-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-05-m0-uk.conllu is saved.
-Current running time: 870.5
-ParlaMint-UA_2020-03-05-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-05-m0-ru.conllu is saved.
-Current running time: 871.04
-ParlaMint-UA_2020-05-07-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-05-07-m0-ru.conllu is saved.
-Current running time: 871.57
-ParlaMint-UA_2020-03-30-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-30-m2-uk.conllu is saved.
-Current running time: 872.46
-ParlaMint-UA_2020-07-01-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-01-m0-ru.conllu is saved.
-Current running time: 872.99
-ParlaMint-UA_2020-06-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-02-m0-uk.conllu is saved.
-Current running time: 873.68
-ParlaMint-UA_2020-03-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-17-m0-uk.conllu is saved.
-Current running time: 874.28
-ParlaMint-UA_2020-03-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-03-m0-uk.conllu is saved.
-Current running time: 875.04
-ParlaMint-UA_2020-07-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-03-m0-uk.conllu is saved.
-Current running time: 875.77
-ParlaMint-UA_2020-03-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-30-m0-uk.conllu is saved.
-Current running time: 876.34
-ParlaMint-UA_2020-06-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-05-m0-uk.conllu is saved.
-Current running time: 877.12
-ParlaMint-UA_2020-07-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-15-m0-uk.conllu is saved.
-Current running time: 877.87
-ParlaMint-UA_2020-01-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-01-15-m0-uk.conllu is saved.
-Current running time: 878.64
-ParlaMint-UA_2020-09-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-03-m0-uk.conllu is saved.
-Current running time: 879.4
-ParlaMint-UA_2020-07-14-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-14-m2-uk.conllu is saved.
-Current running time: 879.94
-ParlaMint-UA_2020-05-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-05-13-m1-uk.conllu is saved.
-Current running time: 880.5
-ParlaMint-UA_2020-07-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-14-m1-uk.conllu is saved.
-Current running time: 881.11
-ParlaMint-UA_2020-12-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-03-m0-uk.conllu is saved.
-Current running time: 881.9
-ParlaMint-UA_2020-06-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-03-m0-uk.conllu is saved.
-Current running time: 882.61
-ParlaMint-UA_2020-09-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-02-m0-uk.conllu is saved.
-Current running time: 883.34
-ParlaMint-UA_2020-03-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-04-m0-uk.conllu is saved.
-Current running time: 884.09
-ParlaMint-UA_2020-04-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-04-13-m0-uk.conllu is saved.
-Current running time: 884.73
-ParlaMint-UA_2020-05-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-05-13-m0-uk.conllu is saved.
-Current running time: 885.67
-ParlaMint-UA_2020-02-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-04-m0-ru.conllu is saved.
-Current running time: 886.2
-ParlaMint-UA_2020-02-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-04-m1-uk.conllu is saved.
-Current running time: 886.85
-ParlaMint-UA_2020-02-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-18-m1-uk.conllu is saved.
-Current running time: 887.51
-ParlaMint-UA_2020-03-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-17-m1-uk.conllu is saved.
-Current running time: 888.12
-ParlaMint-UA_2020-07-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-14-m1-ru.conllu is saved.
-Current running time: 888.66
-ParlaMint-UA_2020-12-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-17-m0-uk.conllu is saved.
-Current running time: 889.42
-ParlaMint-UA_2020-06-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-30-m0-uk.conllu is saved.
-Current running time: 890.21
-ParlaMint-UA_2020-06-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-19-m0-uk.conllu is saved.
-Current running time: 890.91
-ParlaMint-UA_2020-09-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-15-m0-uk.conllu is saved.
-Current running time: 891.63
-ParlaMint-UA_2020-07-21-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-21-m0-ru.conllu is saved.
-Current running time: 892.17
-ParlaMint-UA_2020-02-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-18-m0-uk.conllu is saved.
-Current running time: 892.93
-ParlaMint-UA_2020-03-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-04-m1-uk.conllu is saved.
-Current running time: 893.73
-ParlaMint-UA_2020-03-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-06-m0-uk.conllu is saved.
-Current running time: 894.48
-ParlaMint-UA_2020-12-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-18-m0-uk.conllu is saved.
-Current running time: 895.12
-ParlaMint-UA_2020-03-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-05-m1-uk.conllu is saved.
-Current running time: 895.75
-ParlaMint-UA_2020-02-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-06-m0-uk.conllu is saved.
-Current running time: 896.38
-ParlaMint-UA_2020-06-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-03-m0-ru.conllu is saved.
-Current running time: 896.92
-ParlaMint-UA_2020-09-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-30-m0-uk.conllu is saved.
-Current running time: 897.55
-ParlaMint-UA_2020-02-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-07-m0-uk.conllu is saved.
-Current running time: 898.24
-ParlaMint-UA_2020-01-14-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-01-14-m1-ru.conllu is saved.
-Current running time: 898.78
-ParlaMint-UA_2020-06-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-16-m0-uk.conllu is saved.
-Current running time: 899.5
-ParlaMint-UA_2020-07-03-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-03-m1-ru.conllu is saved.
-Current running time: 900.03
-ParlaMint-UA_2020-03-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-03-m1-uk.conllu is saved.
-Current running time: 900.65
-ParlaMint-UA_2020-07-13-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-13-m1-uk.conllu is saved.
-Current running time: 901.2
-ParlaMint-UA_2020-12-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-03-m0-ru.conllu is saved.
-Current running time: 901.74
-ParlaMint-UA_2020-11-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-04-m0-uk.conllu is saved.
-Current running time: 902.41
-ParlaMint-UA_2020-05-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-05-20-m0-uk.conllu is saved.
-Current running time: 903.08
-ParlaMint-UA_2020-01-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-01-17-m0-uk.conllu is saved.
-Current running time: 903.78
-ParlaMint-UA_2020-04-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-04-16-m0-uk.conllu is saved.
-Current running time: 904.36
-ParlaMint-UA_2020-12-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-02-m0-uk.conllu is saved.
-Current running time: 905.04
-ParlaMint-UA_2020-11-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-05-m0-uk.conllu is saved.
-Current running time: 905.75
-ParlaMint-UA_2020-01-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-01-14-m1-uk.conllu is saved.
-Current running time: 906.46
-ParlaMint-UA_2020-09-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-29-m0-uk.conllu is saved.
-Current running time: 907.17
-ParlaMint-UA_2020-06-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-04-m0-uk.conllu is saved.
-Current running time: 907.92
-ParlaMint-UA_2020-05-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-05-07-m0-uk.conllu is saved.
-Current running time: 908.51
-ParlaMint-UA_2020-12-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-16-m0-ru.conllu is saved.
-Current running time: 909.04
-ParlaMint-UA_2020-01-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-01-16-m0-uk.conllu is saved.
-Current running time: 909.75
-ParlaMint-UA_2020-04-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-04-24-m0-uk.conllu is saved.
-Current running time: 910.33
-ParlaMint-UA_2020-07-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-02-m0-uk.conllu is saved.
-Current running time: 911.07
-ParlaMint-UA_2020-07-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-01-m0-uk.conllu is saved.
-Current running time: 911.75
-ParlaMint-UA_2020-11-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-05-m1-uk.conllu is saved.
-Current running time: 912.3
-ParlaMint-UA_2020-11-17-m0-uk.conllu processed and saved.
-Error based on current_space after in sentence TokenList<And, so, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, over, and, metadata={sent_id: "ParlaMint-UA_2020-11-17-m0.u40.p2.s1", source: "І впродовж цього, я переходжу до другого питання, це питання по COVID."}>, sentence index: 544, word and, word index 509.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-17-m0-uk.conllu is saved.
-Current running time: 913.02
-ParlaMint-UA_2020-03-30-m2-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-30-m2-ru.conllu is saved.
-Current running time: 913.55
-ParlaMint-UA_2020-09-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-16-m0-uk.conllu is saved.
-Current running time: 914.22
-ParlaMint-UA_2020-11-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-03-m0-uk.conllu is saved.
-Current running time: 914.91
-ParlaMint-UA_2020-03-30-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-30-m1-uk.conllu is saved.
-Current running time: 915.45
-ParlaMint-UA_2020-12-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-17-m0-ru.conllu is saved.
-Current running time: 915.98
-ParlaMint-UA_2020-02-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-19-m0-uk.conllu is saved.
-Current running time: 916.67
-ParlaMint-UA_2020-12-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-15-m0-uk.conllu is saved.
-Current running time: 917.37
-ParlaMint-UA_2020-07-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-13-m0-uk.conllu is saved.
-Current running time: 918.01
-ParlaMint-UA_2020-08-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-08-25-m0-uk.conllu is saved.
-Current running time: 918.63
-ParlaMint-UA_2020-07-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-16-m1-uk.conllu is saved.
-Current running time: 919.22
-ParlaMint-UA_2020-09-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-04-m0-uk.conllu is saved.
-Current running time: 919.89
-ParlaMint-UA_2020-11-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-11-06-m0-uk.conllu is saved.
-Current running time: 920.58
-ParlaMint-UA_2020-07-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-16-m0-uk.conllu is saved.
-Current running time: 921.3
-ParlaMint-UA_2020-01-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-01-14-m0-uk.conllu is saved.
-Current running time: 921.91
-ParlaMint-UA_2020-05-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-05-20-m0-ru.conllu is saved.
-Current running time: 922.44
-ParlaMint-UA_2020-06-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-18-m0-uk.conllu is saved.
-Current running time: 923.15
-ParlaMint-UA_2020-10-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-10-20-m0-uk.conllu is saved.
-Current running time: 923.79
-ParlaMint-UA_2020-07-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-21-m0-uk.conllu is saved.
-Current running time: 924.51
-ParlaMint-UA_2020-07-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-14-m0-uk.conllu is saved.
-Current running time: 925.19
-ParlaMint-UA_2020-03-05-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-05-m2-uk.conllu is saved.
-Current running time: 925.78
-ParlaMint-UA_2020-03-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-05-m0-uk.conllu is saved.
-Current running time: 926.48
-ParlaMint-UA_2020-02-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-04-m0-uk.conllu is saved.
-Current running time: 927.15
-ParlaMint-UA_2020-09-16-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-16-m0-ru.conllu is saved.
-Current running time: 927.69
-ParlaMint-UA_2020-05-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-05-19-m0-uk.conllu is saved.
-Current running time: 928.4
-ParlaMint-UA_2020-12-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-16-m0-uk.conllu is saved.
-Current running time: 929.07
-ParlaMint-UA_2020-03-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-03-04-m0-ru.conllu is saved.
-Current running time: 929.6
-ParlaMint-UA_2020-02-06-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-06-m1-ru.conllu is saved.
-Current running time: 930.13
-ParlaMint-UA_2020-06-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-06-17-m0-uk.conllu is saved.
-Current running time: 930.8
-ParlaMint-UA_2020-09-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-01-m0-uk.conllu is saved.
-Current running time: 931.47
-ParlaMint-UA_2020-07-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-07-17-m0-uk.conllu is saved.
-Current running time: 932.13
-ParlaMint-UA_2020-02-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-20-m0-uk.conllu is saved.
-Current running time: 932.82
-ParlaMint-UA_2020-04-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-04-30-m0-uk.conllu is saved.
-Current running time: 933.43
-ParlaMint-UA_2020-02-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-02-21-m0-uk.conllu is saved.
-Current running time: 934.13
-ParlaMint-UA_2020-12-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-12-04-m0-uk.conllu is saved.
-Current running time: 934.81
-ParlaMint-UA_2020-09-04-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-04-m0-ru.conllu is saved.
-Current running time: 935.35
-ParlaMint-UA_2020-09-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2020/ParlaMint-UA_2020-09-17-m0-uk.conllu is saved.
-Current running time: 936.04
-ParlaMint-UA_2019-07-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-09-m0-uk.conllu is saved.
+ParlaMint-UA_2012-05-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-24-m0.conllu is saved.
+Current running time: 832.04
+ParlaMint-UA_2012-10-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-10-02-m0.conllu is saved.
+Current running time: 833.42
+ParlaMint-UA_2012-03-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-15-m1.conllu is saved.
+Current running time: 834.72
+ParlaMint-UA_2012-02-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-10-m0.conllu is saved.
+Current running time: 836.11
+ParlaMint-UA_2012-04-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-27-m0.conllu is saved.
+Current running time: 837.36
+ParlaMint-UA_2012-03-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-22-m1.conllu is saved.
+Current running time: 838.66
+ParlaMint-UA_2012-02-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-09-m0.conllu is saved.
+Current running time: 840.07
+ParlaMint-UA_2012-01-10-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-01-10-m1.conllu is saved.
+Current running time: 841.35
+ParlaMint-UA_2012-01-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-01-13-m0.conllu is saved.
+Current running time: 842.67
+ParlaMint-UA_2012-10-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-10-16-m1.conllu is saved.
+Current running time: 844.0
+ParlaMint-UA_2012-04-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-11-m0.conllu is saved.
+Current running time: 845.43
+ParlaMint-UA_2012-01-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-01-10-m0.conllu is saved.
+Current running time: 846.79
+ParlaMint-UA_2012-12-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m1.conllu is saved.
+Current running time: 848.02
+ParlaMint-UA_2012-02-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-23-m1.conllu is saved.
+Current running time: 849.33
+ParlaMint-UA_2012-03-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-23-m0.conllu is saved.
+Current running time: 850.73
+ParlaMint-UA_2012-04-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-12-m1.conllu is saved.
+Current running time: 852.19
+ParlaMint-UA_2012-02-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-09-m1.conllu is saved.
+Current running time: 853.5
+ParlaMint-UA_2012-07-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-07-03-m0.conllu is saved.
+Current running time: 854.87
+ParlaMint-UA_2012-02-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-23-m0.conllu is saved.
+Current running time: 856.22
+ParlaMint-UA_2012-03-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-13-m1.conllu is saved.
+Current running time: 857.52
+ParlaMint-UA_2012-02-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-22-m0.conllu is saved.
+Current running time: 858.85
+ParlaMint-UA_2012-05-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-15-m0.conllu is saved.
+Current running time: 860.21
+ParlaMint-UA_2012-03-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-20-m1.conllu is saved.
+Current running time: 861.5
+ParlaMint-UA_2012-12-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m0.conllu is saved.
+Current running time: 862.71
+ParlaMint-UA_2012-03-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-13-m0.conllu is saved.
+Current running time: 864.07
+ParlaMint-UA_2012-03-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-15-m0.conllu is saved.
+Current running time: 865.42
+ParlaMint-UA_2012-06-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-22-m0.conllu is saved.
+Current running time: 866.8
+ParlaMint-UA_2012-09-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-09-04-m0.conllu is saved.
+Current running time: 868.02
+ParlaMint-UA_2012-04-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-24-m0.conllu is saved.
+Current running time: 869.33
+ParlaMint-UA_2012-06-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-05-m1.conllu is saved.
+Current running time: 870.62
+ParlaMint-UA_2012-05-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-17-m1.conllu is saved.
+Current running time: 872.01
+ParlaMint-UA_2012-06-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-21-m0.conllu is saved.
+Current running time: 873.38
+ParlaMint-UA_2012-06-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-08-m0.conllu is saved.
+Current running time: 874.78
+ParlaMint-UA_2012-11-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-11-20-m1.conllu is saved.
+Current running time: 876.13
+ParlaMint-UA_2012-02-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-07-m1.conllu is saved.
+Current running time: 877.42
+ParlaMint-UA_2012-03-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-16-m0.conllu is saved.
+Current running time: 878.72
+ParlaMint-UA_2012-12-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-06-m0.conllu is saved.
+Current running time: 880.01
+ParlaMint-UA_2012-03-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-21-m0.conllu is saved.
+Current running time: 881.39
+ParlaMint-UA_2012-12-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-18-m0.conllu is saved.
+Current running time: 882.64
+ParlaMint-UA_2012-07-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-07-04-m0.conllu is saved.
+Current running time: 883.98
+ParlaMint-UA_2012-02-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-08-m0.conllu is saved.
+Current running time: 885.34
+ParlaMint-UA_2012-09-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-09-18-m1.conllu is saved.
+Current running time: 886.68
+ParlaMint-UA_2012-05-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-15-m1.conllu is saved.
+Current running time: 888.01
+ParlaMint-UA_2012-09-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-09-06-m0.conllu is saved.
+Current running time: 889.39
+ParlaMint-UA_2012-05-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-22-m0.conllu is saved.
+Current running time: 890.76
+ParlaMint-UA_2012-04-12-m2.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-12-m2.conllu is saved.
+Current running time: 892.12
+ParlaMint-UA_2012-07-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-07-30-m0.conllu is saved.
+Current running time: 893.45
+ParlaMint-UA_2012-12-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-04-m0.conllu is saved.
+Current running time: 894.76
+ParlaMint-UA_2012-06-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-20-m0.conllu is saved.
+Current running time: 896.13
+ParlaMint-UA_2012-12-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-13-m0.conllu is saved.
+Current running time: 897.51
+ParlaMint-UA_2012-07-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-07-05-m0.conllu is saved.
+Current running time: 898.89
+ParlaMint-UA_2012-05-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-23-m0.conllu is saved.
+Current running time: 900.27
+ParlaMint-UA_2012-04-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-13-m0.conllu is saved.
+Current running time: 901.62
+ParlaMint-UA_2012-05-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-16-m0.conllu is saved.
+Current running time: 902.99
+ParlaMint-UA_2012-04-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-10-m0.conllu is saved.
+Current running time: 904.37
+ParlaMint-UA_2012-12-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-25-m0.conllu is saved.
+Current running time: 905.63
+ParlaMint-UA_2012-03-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-20-m0.conllu is saved.
+Current running time: 907.0
+ParlaMint-UA_2012-06-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-07-m1.conllu is saved.
+Current running time: 908.3
+ParlaMint-UA_2012-06-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-21-m1.conllu is saved.
+Current running time: 909.59
+ParlaMint-UA_2012-05-24-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-24-m1.conllu is saved.
+Current running time: 910.91
+ParlaMint-UA_2012-10-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-10-02-m1.conllu is saved.
+Current running time: 912.35
+ParlaMint-UA_2012-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-18-m0.conllu is saved.
+Current running time: 913.76
+ParlaMint-UA_2012-02-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-21-m1.conllu is saved.
+Current running time: 915.07
+ParlaMint-UA_2012-01-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-01-12-m0.conllu is saved.
+Current running time: 916.48
+ParlaMint-UA_2012-10-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-10-16-m0.conllu is saved.
+Current running time: 917.83
+ParlaMint-UA_2012-12-12-m2.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-12-12-m2.conllu is saved.
+Current running time: 919.07
+ParlaMint-UA_2012-01-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-01-11-m0.conllu is saved.
+Current running time: 920.42
+ParlaMint-UA_2012-03-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-03-14-m0.conllu is saved.
+Current running time: 921.78
+ParlaMint-UA_2012-06-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-06-06-m0.conllu is saved.
+Current running time: 923.17
+ParlaMint-UA_2012-05-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-22-m1.conllu is saved.
+Current running time: 924.53
+ParlaMint-UA_2012-04-10-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-10-m1.conllu is saved.
+Current running time: 926.03
+ParlaMint-UA_2012-11-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-11-20-m0.conllu is saved.
+Current running time: 927.4
+ParlaMint-UA_2012-07-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-07-03-m1.conllu is saved.
+Current running time: 928.61
+ParlaMint-UA_2012-05-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-05-17-m0.conllu is saved.
+Current running time: 929.98
+ParlaMint-UA_2012-02-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-02-07-m0.conllu is saved.
+Current running time: 931.34
+ParlaMint-UA_2012-04-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2012/ParlaMint-UA_2012-04-12-m0.conllu is saved.
+Current running time: 932.69
+ParlaMint-UA_2004-05-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-12-m1.conllu is saved.
+Current running time: 934.0
+ParlaMint-UA_2004-11-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-16-m0.conllu is saved.
+Current running time: 935.36
+ParlaMint-UA_2004-03-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-03-m0.conllu is saved.
 Current running time: 936.7
-ParlaMint-UA_2019-07-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-11-m0-uk.conllu is saved.
-Current running time: 937.41
-ParlaMint-UA_2019-05-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-14-m1-uk.conllu is saved.
-Current running time: 938.02
-ParlaMint-UA_2019-01-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-01-16-m0-uk.conllu is saved.
-Current running time: 938.7
-ParlaMint-UA_2019-11-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-14-m0-uk.conllu is saved.
-Current running time: 939.35
-ParlaMint-UA_2019-09-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-11-m0-uk.conllu is saved.
-Current running time: 940.05
-ParlaMint-UA_2019-03-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-13-m0-uk.conllu is saved.
-Current running time: 940.77
-ParlaMint-UA_2019-04-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-26-m0-uk.conllu is saved.
-Current running time: 941.44
-ParlaMint-UA_2019-11-15-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-15-m0-ru.conllu is saved.
-Current running time: 941.97
-ParlaMint-UA_2019-09-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-10-m0-uk.conllu is saved.
-Current running time: 942.63
-ParlaMint-UA_2019-04-09-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-09-m0-uk.conllu is saved.
-Current running time: 943.32
-ParlaMint-UA_2019-05-31-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-31-m0-uk.conllu is saved.
-Current running time: 944.03
-ParlaMint-UA_2019-01-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-01-18-m0-uk.conllu is saved.
-Current running time: 944.71
-ParlaMint-UA_2019-12-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-05-m0-uk.conllu is saved.
-Current running time: 945.35
-ParlaMint-UA_2019-04-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-12-m0-uk.conllu is saved.
-Current running time: 946.03
-ParlaMint-UA_2019-11-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-12-m0-uk.conllu is saved.
-Current running time: 946.71
-ParlaMint-UA_2019-11-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-12-m1-uk.conllu is saved.
-Current running time: 947.31
-ParlaMint-UA_2019-06-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-07-m0-uk.conllu is saved.
-Current running time: 947.99
-ParlaMint-UA_2019-04-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-10-m0-uk.conllu is saved.
-Current running time: 948.71
-ParlaMint-UA_2019-02-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-05-m0-uk.conllu is saved.
-Current running time: 949.39
-ParlaMint-UA_2019-02-08-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-08-m0-uk.conllu is saved.
-Current running time: 950.1
-ParlaMint-UA_2019-11-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-13-m0-uk.conllu is saved.
-Current running time: 950.81
-ParlaMint-UA_2019-12-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-17-m0-uk.conllu is saved.
-Current running time: 951.41
-ParlaMint-UA_2019-04-23-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-23-m0-uk.conllu is saved.
-Current running time: 952.13
-ParlaMint-UA_2019-07-09-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-09-m1-uk.conllu is saved.
-Current running time: 952.77
-ParlaMint-UA_2019-09-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-12-m1-uk.conllu is saved.
-Current running time: 953.45
-ParlaMint-UA_2019-03-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-19-m1-uk.conllu is saved.
-Current running time: 954.09
-ParlaMint-UA_2019-03-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-12-m0-uk.conllu is saved.
-Current running time: 954.74
-ParlaMint-UA_2019-05-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-15-m0-uk.conllu is saved.
-Current running time: 955.42
-ParlaMint-UA_2019-10-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-18-m0-uk.conllu is saved.
-Current running time: 956.14
-ParlaMint-UA_2019-05-28-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-28-m1-uk.conllu is saved.
-Current running time: 956.75
-ParlaMint-UA_2019-02-26-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-26-m1-ru.conllu is saved.
-Current running time: 957.28
-ParlaMint-UA_2019-01-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-01-15-m0-uk.conllu is saved.
-Current running time: 957.88
-ParlaMint-UA_2019-06-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-20-m0-uk.conllu is saved.
-Current running time: 958.54
-ParlaMint-UA_2019-06-04-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-04-m1-ru.conllu is saved.
-Current running time: 959.07
-ParlaMint-UA_2019-10-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-03-m1-uk.conllu is saved.
-Current running time: 959.69
-ParlaMint-UA_2019-10-31-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-31-m1-ru.conllu is saved.
-Current running time: 960.22
-ParlaMint-UA_2019-09-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-20-m0-uk.conllu is saved.
-Current running time: 960.9
-ParlaMint-UA_2019-03-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-19-m0-uk.conllu is saved.
-Current running time: 961.61
-ParlaMint-UA_2019-07-12-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-12-m0-ru.conllu is saved.
-Current running time: 962.14
-ParlaMint-UA_2019-10-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-04-m1-uk.conllu is saved.
-Current running time: 962.75
-ParlaMint-UA_2019-12-06-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-06-m0-ru.conllu is saved.
-Current running time: 963.27
-ParlaMint-UA_2019-10-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-04-m0-uk.conllu is saved.
-Current running time: 963.92
-ParlaMint-UA_2019-12-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-05-m1-uk.conllu is saved.
-Current running time: 964.6
-ParlaMint-UA_2019-05-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-30-m0-uk.conllu is saved.
-Current running time: 965.28
-ParlaMint-UA_2019-11-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-15-m0-uk.conllu is saved.
-Current running time: 966.01
-ParlaMint-UA_2019-03-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-22-m0-uk.conllu is saved.
-Current running time: 966.71
-ParlaMint-UA_2019-12-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-20-m0-ru.conllu is saved.
-Current running time: 967.24
-ParlaMint-UA_2019-04-23-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-23-m1-uk.conllu is saved.
-Current running time: 967.87
-ParlaMint-UA_2019-10-31-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-31-m0-uk.conllu is saved.
-Current running time: 968.52
-ParlaMint-UA_2019-01-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-01-17-m0-uk.conllu is saved.
-Current running time: 969.22
-ParlaMint-UA_2019-11-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-01-m0-uk.conllu is saved.
-Current running time: 969.97
-ParlaMint-UA_2019-05-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-20-m0-uk.conllu is saved.
-Current running time: 970.55
-ParlaMint-UA_2019-10-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-29-m0-uk.conllu is saved.
-Current running time: 971.25
-ParlaMint-UA_2019-10-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-02-m0-uk.conllu is saved.
-Current running time: 971.89
-ParlaMint-UA_2019-12-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-03-m1-uk.conllu is saved.
-Current running time: 972.61
-ParlaMint-UA_2019-05-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-29-m0-uk.conllu is saved.
-Current running time: 973.31
-ParlaMint-UA_2019-07-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-12-m0-uk.conllu is saved.
-Current running time: 974.0
-ParlaMint-UA_2019-09-13-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-13-m0-uk.conllu is saved.
-Current running time: 974.71
-ParlaMint-UA_2019-03-19-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-19-m0-ru.conllu is saved.
-Current running time: 975.24
-ParlaMint-UA_2019-03-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-15-m0-uk.conllu is saved.
-Current running time: 975.94
-ParlaMint-UA_2019-06-06-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-06-m1-uk.conllu is saved.
-Current running time: 976.57
-ParlaMint-UA_2019-06-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-04-m1-uk.conllu is saved.
-Current running time: 977.19
-ParlaMint-UA_2019-03-01-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-01-m0-uk.conllu is saved.
-Current running time: 977.89
-ParlaMint-UA_2019-07-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-02-m1-uk.conllu is saved.
-Current running time: 978.48
-ParlaMint-UA_2019-01-17-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-01-17-m0-ru.conllu is saved.
-Current running time: 979.01
-ParlaMint-UA_2019-04-09-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-09-m1-uk.conllu is saved.
-Current running time: 979.63
-ParlaMint-UA_2019-10-31-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-31-m1-uk.conllu is saved.
-Current running time: 980.29
-ParlaMint-UA_2019-09-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-18-m0-uk.conllu is saved.
-Current running time: 980.94
-ParlaMint-UA_2019-09-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-19-m0-uk.conllu is saved.
-Current running time: 981.61
-ParlaMint-UA_2019-12-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-18-m0-uk.conllu is saved.
-Current running time: 982.29
-ParlaMint-UA_2019-06-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-06-m0-uk.conllu is saved.
-Current running time: 983.0
-ParlaMint-UA_2019-10-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-16-m0-uk.conllu is saved.
-Current running time: 983.68
-ParlaMint-UA_2019-10-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-17-m1-uk.conllu is saved.
-Current running time: 984.3
-ParlaMint-UA_2019-08-29-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-08-29-m1-uk.conllu is saved.
-Current running time: 985.25
-ParlaMint-UA_2019-07-04-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-04-m1-uk.conllu is saved.
-Current running time: 985.85
-ParlaMint-UA_2019-03-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-20-m0-uk.conllu is saved.
-Current running time: 986.57
-ParlaMint-UA_2019-07-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-05-m0-uk.conllu is saved.
-Current running time: 987.23
-ParlaMint-UA_2019-09-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-12-m0-uk.conllu is saved.
-Current running time: 987.91
-ParlaMint-UA_2019-02-07-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-07-m0-uk.conllu is saved.
-Current running time: 988.57
-ParlaMint-UA_2019-04-25-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-25-m0-uk.conllu is saved.
-Current running time: 989.28
-ParlaMint-UA_2019-04-25-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-25-m1-uk.conllu is saved.
-Current running time: 989.91
-ParlaMint-UA_2019-07-10-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-10-m0-uk.conllu is saved.
-Current running time: 990.57
-ParlaMint-UA_2019-05-30-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-30-m1-uk.conllu is saved.
-Current running time: 991.19
-ParlaMint-UA_2019-02-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-06-m0-uk.conllu is saved.
-Current running time: 991.9
-ParlaMint-UA_2019-02-26-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-26-m0-ru.conllu is saved.
-Current running time: 992.46
-ParlaMint-UA_2019-09-03-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-03-m1-uk.conllu is saved.
-Current running time: 993.21
-ParlaMint-UA_2019-04-11-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-11-m1-uk.conllu is saved.
-Current running time: 993.83
-ParlaMint-UA_2019-07-02-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-02-m0-uk.conllu is saved.
-Current running time: 994.47
-ParlaMint-UA_2019-05-16-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-16-m1-uk.conllu is saved.
-Current running time: 995.09
-ParlaMint-UA_2019-10-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-17-m0-uk.conllu is saved.
-Current running time: 995.77
-ParlaMint-UA_2019-02-07-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-07-m1-uk.conllu is saved.
-Current running time: 996.4
-ParlaMint-UA_2019-10-30-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-30-m0-uk.conllu is saved.
-Current running time: 997.07
-ParlaMint-UA_2019-12-05-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-05-m1-ru.conllu is saved.
-Current running time: 997.59
-ParlaMint-UA_2019-03-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-12-m1-uk.conllu is saved.
-Current running time: 998.24
-ParlaMint-UA_2019-06-05-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-05-m0-uk.conllu is saved.
-Current running time: 998.94
-ParlaMint-UA_2019-10-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-15-m1-uk.conllu is saved.
-Current running time: 999.58
-ParlaMint-UA_2019-10-29-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-29-m1-uk.conllu is saved.
-Current running time: 1000.19
-ParlaMint-UA_2019-03-19-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-19-m1-ru.conllu is saved.
-Current running time: 1000.72
-ParlaMint-UA_2019-04-11-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-11-m1-ru.conllu is saved.
-Current running time: 1001.25
-ParlaMint-UA_2019-09-10-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-10-m1-uk.conllu is saved.
-Current running time: 1001.9
-ParlaMint-UA_2019-12-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-03-m0-uk.conllu is saved.
-Current running time: 1002.57
-ParlaMint-UA_2019-12-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-04-m0-uk.conllu is saved.
-Current running time: 1003.22
-ParlaMint-UA_2019-12-12-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-12-m0-uk.conllu is saved.
-Current running time: 1003.87
-ParlaMint-UA_2019-05-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-28-m0-uk.conllu is saved.
-Current running time: 1004.58
-ParlaMint-UA_2019-04-23-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-23-m0-ru.conllu is saved.
-Current running time: 1005.12
-ParlaMint-UA_2019-08-29-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-08-29-m0-uk.conllu is saved.
-Current running time: 1005.68
-ParlaMint-UA_2019-06-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-04-m0-uk.conllu is saved.
-Current running time: 1006.38
-ParlaMint-UA_2019-06-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-20-m0-ru.conllu is saved.
-Current running time: 1006.93
-ParlaMint-UA_2019-12-06-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-06-m0-uk.conllu is saved.
-Current running time: 1007.69
-ParlaMint-UA_2019-03-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-14-m0-uk.conllu is saved.
-Current running time: 1008.39
-ParlaMint-UA_2019-07-11-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-11-m1-uk.conllu is saved.
-Current running time: 1008.97
-ParlaMint-UA_2019-04-24-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-24-m0-uk.conllu is saved.
-Current running time: 1009.69
-ParlaMint-UA_2019-10-02-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-02-m1-uk.conllu is saved.
-Current running time: 1010.31
-ParlaMint-UA_2019-02-26-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-26-m0-uk.conllu is saved.
-Current running time: 1010.95
-ParlaMint-UA_2019-06-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-21-m0-uk.conllu is saved.
-Current running time: 1011.62
-ParlaMint-UA_2019-02-26-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-26-m1-uk.conllu is saved.
-Current running time: 1012.22
-ParlaMint-UA_2019-01-15-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-01-15-m1-uk.conllu is saved.
-Current running time: 1012.83
-ParlaMint-UA_2019-02-27-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-27-m0-uk.conllu is saved.
-Current running time: 1013.48
-ParlaMint-UA_2019-09-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-19-m1-uk.conllu is saved.
-Current running time: 1014.07
-ParlaMint-UA_2019-03-21-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-21-m0-uk.conllu is saved.
-Current running time: 1014.76
-ParlaMint-UA_2019-02-05-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-05-m1-uk.conllu is saved.
-Current running time: 1015.38
-ParlaMint-UA_2019-02-28-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-28-m0-uk.conllu is saved.
-Current running time: 1016.09
-ParlaMint-UA_2019-12-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-19-m0-uk.conllu is saved.
-Current running time: 1016.72
-ParlaMint-UA_2019-12-19-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-19-m1-uk.conllu is saved.
-Current running time: 1017.36
-ParlaMint-UA_2019-07-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-03-m0-uk.conllu is saved.
-Current running time: 1018.03
-ParlaMint-UA_2019-12-20-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-20-m0-uk.conllu is saved.
-Current running time: 1018.73
-ParlaMint-UA_2019-05-17-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-17-m0-uk.conllu is saved.
-Current running time: 1019.43
-ParlaMint-UA_2019-06-18-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-18-m0-uk.conllu is saved.
-Current running time: 1020.03
-ParlaMint-UA_2019-04-11-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-04-11-m0-uk.conllu is saved.
-Current running time: 1020.73
-ParlaMint-UA_2019-06-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-20-m1-uk.conllu is saved.
-Current running time: 1021.32
-ParlaMint-UA_2019-09-20-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-20-m1-uk.conllu is saved.
-Current running time: 1021.98
-ParlaMint-UA_2019-03-21-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-21-m1-uk.conllu is saved.
-Current running time: 1022.63
-ParlaMint-UA_2019-05-14-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-14-m0-uk.conllu is saved.
-Current running time: 1023.31
-ParlaMint-UA_2019-03-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-14-m1-uk.conllu is saved.
-Current running time: 1023.93
-ParlaMint-UA_2019-02-28-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-02-28-m1-uk.conllu is saved.
-Current running time: 1024.55
-ParlaMint-UA_2019-05-22-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-22-m0-uk.conllu is saved.
-Current running time: 1025.18
-ParlaMint-UA_2019-03-12-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-03-12-m1-ru.conllu is saved.
-Current running time: 1025.7
-ParlaMint-UA_2019-09-11-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-11-m1-uk.conllu is saved.
-Current running time: 1026.3
-ParlaMint-UA_2019-09-03-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-03-m0-ru.conllu is saved.
-Current running time: 1026.83
-ParlaMint-UA_2019-06-06-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-06-m1-ru.conllu is saved.
-Current running time: 1027.35
-ParlaMint-UA_2019-09-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-13-m0-ru.conllu is saved.
-Current running time: 1027.88
-ParlaMint-UA_2019-01-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-01-17-m1-uk.conllu is saved.
-Current running time: 1028.5
-ParlaMint-UA_2019-10-15-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-15-m0-uk.conllu is saved.
-Current running time: 1029.09
-ParlaMint-UA_2019-07-04-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-04-m0-uk.conllu is saved.
-Current running time: 1029.75
-ParlaMint-UA_2019-09-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-09-03-m0-uk.conllu is saved.
+ParlaMint-UA_2004-10-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-22-m0.conllu is saved.
+Current running time: 938.07
+ParlaMint-UA_2004-03-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-16-m0.conllu is saved.
+Current running time: 939.46
+ParlaMint-UA_2004-03-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-24-m0.conllu is saved.
+Current running time: 940.82
+ParlaMint-UA_2004-03-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-02-m0.conllu is saved.
+Current running time: 942.19
+ParlaMint-UA_2004-10-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-05-m0.conllu is saved.
+Current running time: 943.57
+ParlaMint-UA_2004-06-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-24-m0.conllu is saved.
+Current running time: 944.97
+ParlaMint-UA_2004-09-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-23-m1.conllu is saved.
+Current running time: 946.27
+ParlaMint-UA_2004-10-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-21-m1.conllu is saved.
+Current running time: 947.58
+ParlaMint-UA_2004-02-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-19-m0.conllu is saved.
+Current running time: 948.95
+ParlaMint-UA_2004-06-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-16-m0.conllu is saved.
+Current running time: 950.36
+ParlaMint-UA_2004-11-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-04-m1.conllu is saved.
+Current running time: 951.66
+ParlaMint-UA_2004-12-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-14-m1.conllu is saved.
+Current running time: 952.96
+ParlaMint-UA_2004-11-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-30-m0.conllu is saved.
+Current running time: 954.29
+ParlaMint-UA_2004-11-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-18-m1.conllu is saved.
+Current running time: 955.59
+ParlaMint-UA_2004-02-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-05-m1.conllu is saved.
+Current running time: 956.9
+ParlaMint-UA_2004-11-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-02-m0.conllu is saved.
+Current running time: 958.26
+ParlaMint-UA_2004-06-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-17-m1.conllu is saved.
+Current running time: 959.57
+ParlaMint-UA_2004-11-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-19-m0.conllu is saved.
+Current running time: 960.92
+ParlaMint-UA_2004-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-19-m0.conllu is saved.
+Current running time: 962.27
+ParlaMint-UA_2004-06-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-25-m0.conllu is saved.
+Current running time: 963.66
+ParlaMint-UA_2004-12-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-22-m0.conllu is saved.
+Current running time: 965.03
+ParlaMint-UA_2004-02-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-17-m1.conllu is saved.
+Current running time: 966.34
+ParlaMint-UA_2004-12-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-07-m0.conllu is saved.
+Current running time: 967.62
+ParlaMint-UA_2004-06-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-29-m0.conllu is saved.
+Current running time: 968.99
+ParlaMint-UA_2004-09-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-22-m0.conllu is saved.
+Current running time: 970.38
+ParlaMint-UA_2004-03-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-25-m0.conllu is saved.
+Current running time: 971.76
+ParlaMint-UA_2004-03-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-04-m1.conllu is saved.
+Current running time: 973.07
+ParlaMint-UA_2004-06-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-30-m0.conllu is saved.
+Current running time: 974.45
+ParlaMint-UA_2004-06-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-01-m0.conllu is saved.
+Current running time: 975.74
+ParlaMint-UA_2004-06-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-08-m0.conllu is saved.
+Current running time: 977.14
+ParlaMint-UA_2004-04-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-06-m0.conllu is saved.
+Current running time: 978.49
+ParlaMint-UA_2004-04-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-08-m0.conllu is saved.
+Current running time: 979.87
+ParlaMint-UA_2004-02-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-19-m1.conllu is saved.
+Current running time: 981.18
+ParlaMint-UA_2004-11-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-27-m0.conllu is saved.
+Current running time: 982.56
+ParlaMint-UA_2004-02-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-18-m0.conllu is saved.
+Current running time: 983.97
+ParlaMint-UA_2004-05-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-12-m0.conllu is saved.
+Current running time: 985.35
+ParlaMint-UA_2004-06-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-18-m0.conllu is saved.
+Current running time: 986.75
+ParlaMint-UA_2004-06-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-02-m0.conllu is saved.
+Current running time: 988.12
+ParlaMint-UA_2004-09-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-24-m0.conllu is saved.
+Current running time: 989.52
+ParlaMint-UA_2004-02-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-20-m0.conllu is saved.
+Current running time: 990.93
+ParlaMint-UA_2004-03-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-05-m0.conllu is saved.
+Current running time: 992.44
+ParlaMint-UA_2004-04-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-20-m0.conllu is saved.
+Current running time: 993.8
+ParlaMint-UA_2004-06-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-15-m0.conllu is saved.
+Current running time: 995.13
+ParlaMint-UA_2004-03-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-23-m0.conllu is saved.
+Current running time: 996.51
+ParlaMint-UA_2004-11-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-03-m0.conllu is saved.
+Current running time: 997.87
+ParlaMint-UA_2004-04-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-08-m1.conllu is saved.
+Current running time: 999.16
+ParlaMint-UA_2004-06-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-03-m1.conllu is saved.
+Current running time: 1000.44
+ParlaMint-UA_2004-06-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-03-m0.conllu is saved.
+Current running time: 1001.78
+ParlaMint-UA_2004-06-29-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-29-m1.conllu is saved.
+Current running time: 1003.12
+ParlaMint-UA_2004-09-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-08-m0.conllu is saved.
+Current running time: 1004.51
+ParlaMint-UA_2004-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-07-m0.conllu is saved.
+Current running time: 1005.82
+ParlaMint-UA_2004-10-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-20-m0.conllu is saved.
+Current running time: 1007.21
+ParlaMint-UA_2004-09-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-14-m0.conllu is saved.
+Current running time: 1008.59
+ParlaMint-UA_2004-03-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-02-m1.conllu is saved.
+Current running time: 1009.91
+ParlaMint-UA_2004-10-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-06-m0.conllu is saved.
+Current running time: 1011.29
+ParlaMint-UA_2004-06-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-04-m0.conllu is saved.
+Current running time: 1012.71
+ParlaMint-UA_2004-03-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-26-m0.conllu is saved.
+Current running time: 1014.12
+ParlaMint-UA_2004-12-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-23-m0.conllu is saved.
+Current running time: 1015.56
+ParlaMint-UA_2004-12-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-01-m0.conllu is saved.
+Current running time: 1016.83
+ParlaMint-UA_2004-03-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-17-m0.conllu is saved.
+Current running time: 1018.23
+ParlaMint-UA_2004-03-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-18-m0.conllu is saved.
+Current running time: 1019.62
+ParlaMint-UA_2004-12-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-21-m1.conllu is saved.
+Current running time: 1020.92
+ParlaMint-UA_2004-03-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-04-m0.conllu is saved.
+Current running time: 1022.3
+ParlaMint-UA_2004-03-25-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-25-m1.conllu is saved.
+Current running time: 1023.82
+ParlaMint-UA_2004-03-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-19-m0.conllu is saved.
+Current running time: 1025.21
+ParlaMint-UA_2004-04-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-23-m0.conllu is saved.
+Current running time: 1026.48
+ParlaMint-UA_2004-06-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-15-m1.conllu is saved.
+Current running time: 1027.79
+ParlaMint-UA_2004-03-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-23-m1.conllu is saved.
+Current running time: 1029.11
+ParlaMint-UA_2004-07-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-07-01-m1.conllu is saved.
 Current running time: 1030.44
-ParlaMint-UA_2019-12-12-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-12-m1-uk.conllu is saved.
-Current running time: 1031.04
-ParlaMint-UA_2019-11-13-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-13-m0-ru.conllu is saved.
-Current running time: 1031.59
-ParlaMint-UA_2019-12-17-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-12-17-m1-uk.conllu is saved.
-Current running time: 1032.14
-ParlaMint-UA_2019-11-14-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-11-14-m1-uk.conllu is saved.
-Current running time: 1032.77
-ParlaMint-UA_2019-10-29-m1-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-29-m1-ru.conllu is saved.
-Current running time: 1033.31
-ParlaMint-UA_2019-05-20-m0-ru.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-20-m0-ru.conllu is saved.
-Current running time: 1033.84
-ParlaMint-UA_2019-06-18-m1-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-18-m1-uk.conllu is saved.
-Current running time: 1034.45
-ParlaMint-UA_2019-07-11-m2-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-07-11-m2-uk.conllu is saved.
-Current running time: 1035.08
-ParlaMint-UA_2019-10-03-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-10-03-m0-uk.conllu is saved.
-Current running time: 1035.75
-ParlaMint-UA_2019-05-16-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-05-16-m0-uk.conllu is saved.
-Current running time: 1036.44
-ParlaMint-UA_2019-06-19-m0-uk.conllu processed and saved.
-Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2019/ParlaMint-UA_2019-06-19-m0-uk.conllu is saved.
-Current running time: 1037.11
-Processing completed. It took 1037.11 minutes.
+ParlaMint-UA_2004-12-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-17-m0.conllu is saved.
+Current running time: 1031.81
+ParlaMint-UA_2004-05-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-11-m0.conllu is saved.
+Current running time: 1033.2
+ParlaMint-UA_2004-12-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-24-m0.conllu is saved.
+Current running time: 1034.59
+ParlaMint-UA_2004-09-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-21-m1.conllu is saved.
+Current running time: 1035.9
+ParlaMint-UA_2004-12-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-08-m0.conllu is saved.
+Current running time: 1037.19
+ParlaMint-UA_2004-05-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-20-m1.conllu is saved.
+Current running time: 1038.41
+ParlaMint-UA_2004-02-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-06-m0.conllu is saved.
+Current running time: 1039.81
+ParlaMint-UA_2004-06-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-01-m1.conllu is saved.
+Current running time: 1041.07
+ParlaMint-UA_2004-10-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-08-m0.conllu is saved.
+Current running time: 1042.5
+ParlaMint-UA_2004-02-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-04-m0.conllu is saved.
+Current running time: 1043.89
+ParlaMint-UA_2004-12-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-02-m0.conllu is saved.
+Current running time: 1045.1
+ParlaMint-UA_2004-04-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-13-m0.conllu is saved.
+Current running time: 1046.5
+ParlaMint-UA_2004-12-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-14-m0.conllu is saved.
+Current running time: 1047.86
+ParlaMint-UA_2004-06-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-23-m0.conllu is saved.
+Current running time: 1049.21
+ParlaMint-UA_2004-05-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-14-m0.conllu is saved.
+Current running time: 1050.6
+ParlaMint-UA_2004-02-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-17-m0.conllu is saved.
+Current running time: 1051.97
+ParlaMint-UA_2004-05-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-18-m1.conllu is saved.
+Current running time: 1053.2
+ParlaMint-UA_2004-12-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-21-m0.conllu is saved.
+Current running time: 1054.53
+ParlaMint-UA_2004-10-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-21-m0.conllu is saved.
+Current running time: 1055.9
+ParlaMint-UA_2004-02-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-05-m0.conllu is saved.
+Current running time: 1057.27
+ParlaMint-UA_2004-06-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-17-m0.conllu is saved.
+Current running time: 1058.68
+ParlaMint-UA_2004-06-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-22-m1.conllu is saved.
+Current running time: 1059.98
+ParlaMint-UA_2004-09-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-09-m0.conllu is saved.
+Current running time: 1061.33
+ParlaMint-UA_2004-04-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-22-m1.conllu is saved.
+Current running time: 1062.56
+ParlaMint-UA_2004-05-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-13-m0.conllu is saved.
+Current running time: 1063.78
+ParlaMint-UA_2004-11-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-09-m0.conllu is saved.
+Current running time: 1065.12
+ParlaMint-UA_2004-03-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-18-m1.conllu is saved.
+Current running time: 1066.4
+ParlaMint-UA_2004-02-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-10-m0.conllu is saved.
+Current running time: 1067.79
+ParlaMint-UA_2004-12-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-04-m0.conllu is saved.
+Current running time: 1069.04
+ParlaMint-UA_2004-07-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-07-01-m0.conllu is saved.
+Current running time: 1070.42
+ParlaMint-UA_2004-06-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-22-m0.conllu is saved.
+Current running time: 1071.82
+ParlaMint-UA_2004-12-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-16-m0.conllu is saved.
+Current running time: 1073.25
+ParlaMint-UA_2004-12-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-03-m0.conllu is saved.
+Current running time: 1074.56
+ParlaMint-UA_2004-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-18-m0.conllu is saved.
+Current running time: 1075.93
+ParlaMint-UA_2004-05-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-11-m1.conllu is saved.
+Current running time: 1077.22
+ParlaMint-UA_2004-02-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-02-03-m0.conllu is saved.
+Current running time: 1078.53
+ParlaMint-UA_2004-10-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-12-m0.conllu is saved.
+Current running time: 1079.86
+ParlaMint-UA_2004-09-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-10-m0.conllu is saved.
+Current running time: 1081.27
+ParlaMint-UA_2004-04-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-09-m0.conllu is saved.
+Current running time: 1082.61
+ParlaMint-UA_2004-11-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-18-m0.conllu is saved.
+Current running time: 1084.0
+ParlaMint-UA_2004-11-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-17-m0.conllu is saved.
+Current running time: 1085.34
+ParlaMint-UA_2004-11-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-05-m0.conllu is saved.
+Current running time: 1086.79
+ParlaMint-UA_2004-11-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-23-m0.conllu is saved.
+Current running time: 1088.1
+ParlaMint-UA_2004-12-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-16-m1.conllu is saved.
+Current running time: 1089.47
+ParlaMint-UA_2004-09-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-09-m1.conllu is saved.
+Current running time: 1090.77
+ParlaMint-UA_2004-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-21-m0.conllu is saved.
+Current running time: 1092.15
+ParlaMint-UA_2004-05-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-21-m0.conllu is saved.
+Current running time: 1093.54
+ParlaMint-UA_2004-10-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-07-m0.conllu is saved.
+Current running time: 1094.96
+ParlaMint-UA_2004-07-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-07-02-m0.conllu is saved.
+Current running time: 1096.21
+ParlaMint-UA_2004-04-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-22-m0.conllu is saved.
+Current running time: 1097.6
+ParlaMint-UA_2004-12-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-03-m1.conllu is saved.
+Current running time: 1098.86
+ParlaMint-UA_2004-11-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-02-m1.conllu is saved.
+Current running time: 1100.18
+ParlaMint-UA_2004-04-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-06-m1.conllu is saved.
+Current running time: 1101.62
+ParlaMint-UA_2004-10-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-05-m1.conllu is saved.
+Current running time: 1102.95
+ParlaMint-UA_2004-05-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-05-20-m0.conllu is saved.
+Current running time: 1104.28
+ParlaMint-UA_2004-11-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-16-m1.conllu is saved.
+Current running time: 1105.61
+ParlaMint-UA_2004-10-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-19-m1.conllu is saved.
+Current running time: 1106.93
+ParlaMint-UA_2004-09-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-09-23-m0.conllu is saved.
+Current running time: 1108.53
+ParlaMint-UA_2004-12-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-12-15-m0.conllu is saved.
+Current running time: 1109.93
+ParlaMint-UA_2004-06-30-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-30-m1.conllu is saved.
+Current running time: 1111.29
+ParlaMint-UA_2004-04-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-21-m0.conllu is saved.
+Current running time: 1112.65
+ParlaMint-UA_2004-04-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-07-m0.conllu is saved.
+Current running time: 1114.09
+ParlaMint-UA_2004-11-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-11-04-m0.conllu is saved.
+Current running time: 1115.49
+ParlaMint-UA_2004-03-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-03-16-m1.conllu is saved.
+Current running time: 1116.82
+ParlaMint-UA_2004-06-24-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-06-24-m1.conllu is saved.
+Current running time: 1118.14
+ParlaMint-UA_2004-04-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-04-20-m1.conllu is saved.
+Current running time: 1119.47
+ParlaMint-UA_2004-10-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2004/ParlaMint-UA_2004-10-07-m1.conllu is saved.
+Current running time: 1120.79
+ParlaMint-UA_2005-04-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-07-m0.conllu is saved.
+Current running time: 1122.17
+ParlaMint-UA_2005-07-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-07-07-m0.conllu is saved.
+Current running time: 1123.5
+ParlaMint-UA_2005-06-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-23-m0.conllu is saved.
+Current running time: 1124.9
+ParlaMint-UA_2005-12-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-13-m1.conllu is saved.
+Current running time: 1126.22
+ParlaMint-UA_2005-01-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-19-m0.conllu is saved.
+Current running time: 1127.61
+ParlaMint-UA_2005-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-19-m0.conllu is saved.
+Current running time: 1129.01
+ParlaMint-UA_2005-11-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-04-m0.conllu is saved.
+Current running time: 1130.42
+ParlaMint-UA_2005-03-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-15-m0.conllu is saved.
+Current running time: 1131.85
+ParlaMint-UA_2005-03-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-03-m0.conllu is saved.
+Current running time: 1133.3
+ParlaMint-UA_2005-07-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-07-06-m1.conllu is saved.
+Current running time: 1134.71
+ParlaMint-UA_2005-03-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-16-m0.conllu is saved.
+Current running time: 1136.1
+ParlaMint-UA_2005-06-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-21-m1.conllu is saved.
+Current running time: 1137.41
+ParlaMint-UA_2005-01-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-11-m1.conllu is saved.
+Current running time: 1138.7
+ParlaMint-UA_2005-10-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-07-m0.conllu is saved.
+Current running time: 1140.14
+ParlaMint-UA_2005-11-29-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-29-m1.conllu is saved.
+Current running time: 1141.44
+ParlaMint-UA_2005-11-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-01-m0.conllu is saved.
+Current running time: 1142.81
+ParlaMint-UA_2005-07-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-07-06-m0.conllu is saved.
+Current running time: 1144.19
+ParlaMint-UA_2005-01-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-12-m1.conllu is saved.
+Current running time: 1145.49
+ParlaMint-UA_2005-11-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-02-m0.conllu is saved.
+Current running time: 1146.89
+ParlaMint-UA_2005-09-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-20-m1.conllu is saved.
+Current running time: 1148.19
+ParlaMint-UA_2005-06-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-15-m0.conllu is saved.
+Current running time: 1149.59
+ParlaMint-UA_2005-02-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-04-m1.conllu is saved.
+Current running time: 1150.82
+ParlaMint-UA_2005-05-31-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-05-31-m1.conllu is saved.
+Current running time: 1152.12
+ParlaMint-UA_2005-05-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-05-31-m0.conllu is saved.
+Current running time: 1153.47
+ParlaMint-UA_2005-03-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-03-m1.conllu is saved.
+Current running time: 1154.78
+ParlaMint-UA_2005-04-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-05-m0.conllu is saved.
+Current running time: 1156.14
+ParlaMint-UA_2005-09-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-22-m0.conllu is saved.
+Current running time: 1157.49
+ParlaMint-UA_2005-12-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-21-m0.conllu is saved.
+Current running time: 1158.86
+ParlaMint-UA_2005-02-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-03-m1.conllu is saved.
+Current running time: 1160.07
+ParlaMint-UA_2005-09-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-08-m0.conllu is saved.
+Current running time: 1161.42
+ParlaMint-UA_2005-04-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-19-m0.conllu is saved.
+Current running time: 1162.7
+ParlaMint-UA_2005-07-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-07-07-m1.conllu is saved.
+Current running time: 1164.13
+ParlaMint-UA_2005-12-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-13-m0.conllu is saved.
+Current running time: 1165.51
+ParlaMint-UA_2005-03-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-04-m0.conllu is saved.
+Current running time: 1166.92
+ParlaMint-UA_2005-02-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-08-m0.conllu is saved.
+Current running time: 1168.25
+ParlaMint-UA_2005-09-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-06-m0.conllu is saved.
+Current running time: 1169.62
+ParlaMint-UA_2005-03-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-17-m0.conllu is saved.
+Current running time: 1170.98
+ParlaMint-UA_2005-09-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-08-m1.conllu is saved.
+Current running time: 1172.29
+ParlaMint-UA_2005-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-07-m0.conllu is saved.
+Current running time: 1173.67
+ParlaMint-UA_2005-10-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-21-m0.conllu is saved.
+Current running time: 1175.06
+ParlaMint-UA_2005-01-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-18-m0.conllu is saved.
+Current running time: 1176.43
+ParlaMint-UA_2005-10-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-06-m0.conllu is saved.
+Current running time: 1177.79
+ParlaMint-UA_2005-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-21-m0.conllu is saved.
+Current running time: 1179.22
+ParlaMint-UA_2005-11-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-08-m0.conllu is saved.
+Current running time: 1180.55
+ParlaMint-UA_2005-04-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-07-m1.conllu is saved.
+Current running time: 1181.8
+ParlaMint-UA_2005-10-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-04-m0.conllu is saved.
+Current running time: 1183.18
+ParlaMint-UA_2005-05-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-05-17-m0.conllu is saved.
+Current running time: 1184.54
+ParlaMint-UA_2005-06-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-02-m1.conllu is saved.
+Current running time: 1185.86
+ParlaMint-UA_2005-10-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-20-m0.conllu is saved.
+Current running time: 1187.26
+ParlaMint-UA_2005-04-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-08-m0.conllu is saved.
+Current running time: 1188.66
+ParlaMint-UA_2005-10-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-04-m1.conllu is saved.
+Current running time: 1189.97
+ParlaMint-UA_2005-01-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-18-m1.conllu is saved.
+Current running time: 1191.27
+ParlaMint-UA_2005-02-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-01-m0.conllu is saved.
+Current running time: 1192.63
+ParlaMint-UA_2005-12-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-22-m0.conllu is saved.
+Current running time: 1193.99
+ParlaMint-UA_2005-09-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-09-m0.conllu is saved.
+Current running time: 1195.38
+ParlaMint-UA_2005-01-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-11-m0.conllu is saved.
+Current running time: 1196.74
+ParlaMint-UA_2005-05-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-05-19-m1.conllu is saved.
+Current running time: 1197.98
+ParlaMint-UA_2005-06-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-22-m0.conllu is saved.
+Current running time: 1199.4
+ParlaMint-UA_2005-09-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-23-m0.conllu is saved.
+Current running time: 1200.82
+ParlaMint-UA_2005-06-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-02-m0.conllu is saved.
+Current running time: 1202.16
+ParlaMint-UA_2005-03-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-17-m1.conllu is saved.
+Current running time: 1203.46
+ParlaMint-UA_2005-06-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-24-m0.conllu is saved.
+Current running time: 1204.86
+ParlaMint-UA_2005-03-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-24-m0.conllu is saved.
+Current running time: 1206.11
+ParlaMint-UA_2005-11-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-17-m0.conllu is saved.
+Current running time: 1207.48
+ParlaMint-UA_2005-07-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-07-05-m1.conllu is saved.
+Current running time: 1208.75
+ParlaMint-UA_2005-12-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-20-m1.conllu is saved.
+Current running time: 1210.06
+ParlaMint-UA_2005-09-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-06-m1.conllu is saved.
+Current running time: 1211.36
+ParlaMint-UA_2005-05-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-05-19-m0.conllu is saved.
+Current running time: 1212.7
+ParlaMint-UA_2005-11-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-18-m0.conllu is saved.
+Current running time: 1214.09
+ParlaMint-UA_2005-02-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-04-m0.conllu is saved.
+Current running time: 1215.53
+ParlaMint-UA_2005-10-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-20-m1.conllu is saved.
+Current running time: 1216.84
+ParlaMint-UA_2005-10-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-11-m0.conllu is saved.
+Current running time: 1218.2
+ParlaMint-UA_2005-12-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-16-m0.conllu is saved.
+Current running time: 1219.58
+ParlaMint-UA_2005-12-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-23-m0.conllu is saved.
+Current running time: 1220.94
+ParlaMint-UA_2005-12-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-02-m0.conllu is saved.
+Current running time: 1222.35
+ParlaMint-UA_2005-11-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-03-m1.conllu is saved.
+Current running time: 1223.65
+ParlaMint-UA_2005-10-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-18-m0.conllu is saved.
+Current running time: 1225.02
+ParlaMint-UA_2005-06-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-14-m1.conllu is saved.
+Current running time: 1226.32
+ParlaMint-UA_2005-11-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-16-m0.conllu is saved.
+Current running time: 1227.71
+ParlaMint-UA_2005-03-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-25-m0.conllu is saved.
+Current running time: 1229.19
+ParlaMint-UA_2005-04-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-05-m1.conllu is saved.
+Current running time: 1230.51
+ParlaMint-UA_2005-11-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-29-m0.conllu is saved.
+Current running time: 1231.91
+ParlaMint-UA_2005-04-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-19-m1.conllu is saved.
+Current running time: 1233.17
+ParlaMint-UA_2005-06-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-23-m1.conllu is saved.
+Current running time: 1234.48
+ParlaMint-UA_2005-07-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-07-05-m0.conllu is saved.
+Current running time: 1235.83
+ParlaMint-UA_2005-10-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-18-m1.conllu is saved.
+Current running time: 1237.13
+ParlaMint-UA_2005-11-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-17-m1.conllu is saved.
+Current running time: 1238.43
+ParlaMint-UA_2005-11-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-01-m1.conllu is saved.
+Current running time: 1239.73
+ParlaMint-UA_2005-05-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-05-20-m0.conllu is saved.
+Current running time: 1241.12
+ParlaMint-UA_2005-12-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-01-m1.conllu is saved.
+Current running time: 1242.41
+ParlaMint-UA_2005-01-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-20-m1.conllu is saved.
+Current running time: 1243.67
+ParlaMint-UA_2005-01-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-23-m0.conllu is saved.
+Current running time: 1244.9
+ParlaMint-UA_2005-09-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-20-m0.conllu is saved.
+Current running time: 1246.24
+ParlaMint-UA_2005-11-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-15-m1.conllu is saved.
+Current running time: 1247.49
+ParlaMint-UA_2005-11-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-03-m0.conllu is saved.
+Current running time: 1248.87
+ParlaMint-UA_2005-12-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-22-m1.conllu is saved.
+Current running time: 1250.19
+ParlaMint-UA_2005-07-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-07-08-m0.conllu is saved.
+Current running time: 1251.57
+ParlaMint-UA_2005-06-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-14-m0.conllu is saved.
+Current running time: 1252.94
+ParlaMint-UA_2005-03-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-18-m0.conllu is saved.
+Current running time: 1254.35
+ParlaMint-UA_2005-03-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-15-m1.conllu is saved.
+Current running time: 1255.66
+ParlaMint-UA_2005-02-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-02-m0.conllu is saved.
+Current running time: 1257.0
+ParlaMint-UA_2005-01-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-13-m1.conllu is saved.
+Current running time: 1258.29
+ParlaMint-UA_2005-02-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-03-m0.conllu is saved.
+Current running time: 1259.62
+ParlaMint-UA_2005-04-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-20-m0.conllu is saved.
+Current running time: 1260.96
+ParlaMint-UA_2005-04-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-22-m0.conllu is saved.
+Current running time: 1262.38
+ParlaMint-UA_2005-11-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-30-m0.conllu is saved.
+Current running time: 1263.78
+ParlaMint-UA_2005-06-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-17-m0.conllu is saved.
+Current running time: 1265.24
+ParlaMint-UA_2005-06-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-21-m0.conllu is saved.
+Current running time: 1266.62
+ParlaMint-UA_2005-03-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-01-m0.conllu is saved.
+Current running time: 1268.0
+ParlaMint-UA_2005-04-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-21-m1.conllu is saved.
+Current running time: 1269.31
+ParlaMint-UA_2005-04-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-12-m0.conllu is saved.
+Current running time: 1270.68
+ParlaMint-UA_2005-02-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-02-01-m1.conllu is saved.
+Current running time: 1271.94
+ParlaMint-UA_2005-06-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-16-m1.conllu is saved.
+Current running time: 1273.25
+ParlaMint-UA_2005-04-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-21-m0.conllu is saved.
+Current running time: 1274.58
+ParlaMint-UA_2005-01-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-12-m0.conllu is saved.
+Current running time: 1275.96
+ParlaMint-UA_2005-12-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-14-m0.conllu is saved.
+Current running time: 1277.39
+ParlaMint-UA_2005-12-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-15-m1.conllu is saved.
+Current running time: 1278.77
+ParlaMint-UA_2005-06-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-16-m0.conllu is saved.
+Current running time: 1280.24
+ParlaMint-UA_2005-01-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-13-m0.conllu is saved.
+Current running time: 1281.74
+ParlaMint-UA_2005-04-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-04-06-m0.conllu is saved.
+Current running time: 1283.25
+ParlaMint-UA_2005-01-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-21-m0.conllu is saved.
+Current running time: 1284.79
+ParlaMint-UA_2005-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-05-18-m0.conllu is saved.
+Current running time: 1286.21
+ParlaMint-UA_2005-06-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-01-m0.conllu is saved.
+Current running time: 1287.67
+ParlaMint-UA_2005-12-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-01-m0.conllu is saved.
+Current running time: 1289.09
+ParlaMint-UA_2005-09-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-22-m1.conllu is saved.
+Current running time: 1290.4
+ParlaMint-UA_2005-01-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-14-m0.conllu is saved.
+Current running time: 1291.8
+ParlaMint-UA_2005-12-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-15-m0.conllu is saved.
+Current running time: 1293.23
+ParlaMint-UA_2005-11-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-11-15-m0.conllu is saved.
+Current running time: 1294.61
+ParlaMint-UA_2005-03-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-03-02-m0.conllu is saved.
+Current running time: 1296.03
+ParlaMint-UA_2005-12-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-20-m0.conllu is saved.
+Current running time: 1297.41
+ParlaMint-UA_2005-09-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-09-13-m0.conllu is saved.
+Current running time: 1298.78
+ParlaMint-UA_2005-06-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-06-03-m0.conllu is saved.
+Current running time: 1300.2
+ParlaMint-UA_2005-01-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-01-20-m0.conllu is saved.
+Current running time: 1301.58
+ParlaMint-UA_2005-12-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-12-06-m0.conllu is saved.
+Current running time: 1302.93
+ParlaMint-UA_2005-10-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-05-m0.conllu is saved.
+Current running time: 1304.36
+ParlaMint-UA_2005-10-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2005/ParlaMint-UA_2005-10-06-m1.conllu is saved.
+Current running time: 1305.68
+ParlaMint-UA_2016-06-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-17-m0.conllu is saved.
+Current running time: 1307.05
+ParlaMint-UA_2016-07-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-14-m0.conllu is saved.
+Current running time: 1308.44
+ParlaMint-UA_2016-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-07-m0.conllu is saved.
+Current running time: 1309.81
+ParlaMint-UA_2016-04-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-12-m0.conllu is saved.
+Current running time: 1311.16
+ParlaMint-UA_2016-11-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-18-m0.conllu is saved.
+Current running time: 1312.54
+ParlaMint-UA_2016-07-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-15-m0.conllu is saved.
+Current running time: 1313.92
+ParlaMint-UA_2016-02-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-17-m0.conllu is saved.
+Current running time: 1315.33
+ParlaMint-UA_2016-05-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-19-m1.conllu is saved.
+Current running time: 1316.65
+ParlaMint-UA_2016-09-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-09-m0.conllu is saved.
+Current running time: 1318.07
+ParlaMint-UA_2016-11-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-17-m0.conllu is saved.
+Current running time: 1319.46
+ParlaMint-UA_2016-09-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-08-m0.conllu is saved.
+Current running time: 1320.84
+ParlaMint-UA_2016-01-28-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-28-m1.conllu is saved.
+Current running time: 1322.15
+ParlaMint-UA_2016-09-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-20-m1.conllu is saved.
+Current running time: 1323.52
+ParlaMint-UA_2016-04-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-19-m0.conllu is saved.
+Current running time: 1324.91
+ParlaMint-UA_2016-02-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-05-m0.conllu is saved.
+Current running time: 1326.38
+ParlaMint-UA_2016-05-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-12-m1.conllu is saved.
+Current running time: 1327.73
+ParlaMint-UA_2016-01-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-28-m0.conllu is saved.
+Current running time: 1329.2
+ParlaMint-UA_2016-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-19-m0.conllu is saved.
+Current running time: 1330.68
+ParlaMint-UA_2016-02-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-16-m1.conllu is saved.
+Current running time: 1332.25
+ParlaMint-UA_2016-09-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-20-m0.conllu is saved.
+Current running time: 1333.79
+ParlaMint-UA_2016-10-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-04-m1.conllu is saved.
+Current running time: 1335.19
+ParlaMint-UA_2016-10-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-18-m0.conllu is saved.
+Current running time: 1336.57
+ParlaMint-UA_2016-11-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-01-m0.conllu is saved.
+Current running time: 1337.95
+ParlaMint-UA_2016-09-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-23-m0.conllu is saved.
+Current running time: 1339.34
+ParlaMint-UA_2016-01-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-27-m0.conllu is saved.
+Current running time: 1340.71
+ParlaMint-UA_2016-02-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-16-m0.conllu is saved.
+Current running time: 1342.13
+ParlaMint-UA_2016-02-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-03-m0.conllu is saved.
+Current running time: 1343.5
+ParlaMint-UA_2016-07-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-12-m0.conllu is saved.
+Current running time: 1344.91
+ParlaMint-UA_2016-12-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-20-m1.conllu is saved.
+Current running time: 1346.77
+ParlaMint-UA_2016-03-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-30-m0.conllu is saved.
+Current running time: 1348.24
+ParlaMint-UA_2016-05-31-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-31-m1.conllu is saved.
+Current running time: 1349.58
+ParlaMint-UA_2016-05-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-20-m0.conllu is saved.
+Current running time: 1351.01
+ParlaMint-UA_2016-09-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-08-m1.conllu is saved.
+Current running time: 1352.35
+ParlaMint-UA_2016-12-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-22-m0.conllu is saved.
+Current running time: 1353.76
+ParlaMint-UA_2016-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-18-m0.conllu is saved.
+Current running time: 1355.12
+ParlaMint-UA_2016-11-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-04-m0.conllu is saved.
+Current running time: 1356.57
+ParlaMint-UA_2016-05-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-11-m0.conllu is saved.
+Current running time: 1357.99
+ParlaMint-UA_2016-04-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-21-m1.conllu is saved.
+Current running time: 1359.36
+ParlaMint-UA_2016-11-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-01-m1.conllu is saved.
+Current running time: 1360.71
+ParlaMint-UA_2016-02-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-18-m0.conllu is saved.
+Current running time: 1362.11
+ParlaMint-UA_2016-06-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-03-m0.conllu is saved.
+Current running time: 1363.54
+ParlaMint-UA_2016-07-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-05-m1.conllu is saved.
+Current running time: 1364.81
+ParlaMint-UA_2016-05-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-19-m0.conllu is saved.
+Current running time: 1366.28
+ParlaMint-UA_2016-10-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-07-m0.conllu is saved.
+Current running time: 1367.76
+ParlaMint-UA_2016-07-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-05-m0.conllu is saved.
+Current running time: 1369.2
+ParlaMint-UA_2016-09-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-06-m1.conllu is saved.
+Current running time: 1370.62
+ParlaMint-UA_2016-05-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-10-m0.conllu is saved.
+Current running time: 1371.99
+ParlaMint-UA_2016-03-29-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-29-m1.conllu is saved.
+Current running time: 1373.33
+ParlaMint-UA_2016-09-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-22-m1.conllu is saved.
+Current running time: 1374.7
+ParlaMint-UA_2016-09-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-29-m0.conllu is saved.
+Current running time: 1376.22
+ParlaMint-UA_2016-03-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-15-m1.conllu is saved.
+Current running time: 1377.57
+ParlaMint-UA_2016-06-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-14-m0.conllu is saved.
+Current running time: 1379.07
+ParlaMint-UA_2016-02-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-19-m0.conllu is saved.
+Current running time: 1380.54
+ParlaMint-UA_2016-03-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-16-m0.conllu is saved.
+Current running time: 1382.13
+ParlaMint-UA_2016-04-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-13-m0.conllu is saved.
+Current running time: 1383.5
+ParlaMint-UA_2016-11-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-15-m1.conllu is saved.
+Current running time: 1384.92
+ParlaMint-UA_2016-12-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-23-m0.conllu is saved.
+Current running time: 1386.43
+ParlaMint-UA_2016-10-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-20-m1.conllu is saved.
+Current running time: 1387.82
+ParlaMint-UA_2016-07-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-12-m1.conllu is saved.
+Current running time: 1389.21
+ParlaMint-UA_2016-05-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-31-m0.conllu is saved.
+Current running time: 1390.73
+ParlaMint-UA_2016-06-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-16-m1.conllu is saved.
+Current running time: 1392.05
+ParlaMint-UA_2016-12-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-07-m0.conllu is saved.
+Current running time: 1393.39
+ParlaMint-UA_2016-03-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-31-m0.conllu is saved.
+Current running time: 1394.75
+ParlaMint-UA_2016-09-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-22-m0.conllu is saved.
+Current running time: 1396.15
+ParlaMint-UA_2016-03-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-17-m1.conllu is saved.
+Current running time: 1397.47
+ParlaMint-UA_2016-11-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-16-m0.conllu is saved.
+Current running time: 1398.86
+ParlaMint-UA_2016-06-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-16-m0.conllu is saved.
+Current running time: 1400.26
+ParlaMint-UA_2016-02-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-04-m0.conllu is saved.
+Current running time: 1401.67
+ParlaMint-UA_2016-02-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-18-m1.conllu is saved.
+Current running time: 1403.06
+ParlaMint-UA_2016-10-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-18-m1.conllu is saved.
+Current running time: 1404.38
+ParlaMint-UA_2016-11-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-03-m0.conllu is saved.
+Current running time: 1405.78
+ParlaMint-UA_2016-12-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-22-m1.conllu is saved.
+Current running time: 1407.09
+ParlaMint-UA_2016-02-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-02-m1.conllu is saved.
+Current running time: 1408.42
+ParlaMint-UA_2016-02-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-04-m1.conllu is saved.
+Current running time: 1409.74
+ParlaMint-UA_2016-12-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-20-m0.conllu is saved.
+Current running time: 1411.1
+ParlaMint-UA_2016-04-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-14-m0.conllu is saved.
+Current running time: 1412.57
+ParlaMint-UA_2016-11-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-02-m0.conllu is saved.
+Current running time: 1413.96
+ParlaMint-UA_2016-07-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-13-m0.conllu is saved.
+Current running time: 1415.25
+ParlaMint-UA_2016-11-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-17-m1.conllu is saved.
+Current running time: 1416.55
+ParlaMint-UA_2016-07-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-08-m0.conllu is saved.
+Current running time: 1417.76
+ParlaMint-UA_2016-10-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-05-m0.conllu is saved.
+Current running time: 1419.15
+ParlaMint-UA_2016-04-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-22-m0.conllu is saved.
+Current running time: 1420.55
+ParlaMint-UA_2016-12-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-08-m1.conllu is saved.
+Current running time: 1421.92
+ParlaMint-UA_2016-10-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-04-m0.conllu is saved.
+Current running time: 1423.32
+ParlaMint-UA_2016-06-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-28-m0.conllu is saved.
+Current running time: 1424.65
+ParlaMint-UA_2016-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-21-m0.conllu is saved.
+Current running time: 1426.08
+ParlaMint-UA_2016-04-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-19-m1.conllu is saved.
+Current running time: 1427.45
+ParlaMint-UA_2016-04-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-12-m1.conllu is saved.
+Current running time: 1428.81
+ParlaMint-UA_2016-01-26-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-26-m1.conllu is saved.
+Current running time: 1430.15
+ParlaMint-UA_2016-12-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-06-m1.conllu is saved.
+Current running time: 1431.51
+ParlaMint-UA_2016-12-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-09-m0.conllu is saved.
+Current running time: 1432.95
+ParlaMint-UA_2016-04-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-15-m0.conllu is saved.
+Current running time: 1434.37
+ParlaMint-UA_2016-04-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-21-m0.conllu is saved.
+Current running time: 1435.78
+ParlaMint-UA_2016-06-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-15-m0.conllu is saved.
+Current running time: 1437.14
+ParlaMint-UA_2016-03-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-18-m0.conllu is saved.
+Current running time: 1438.57
+ParlaMint-UA_2016-11-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-15-m0.conllu is saved.
+Current running time: 1439.95
+ParlaMint-UA_2016-06-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-02-m0.conllu is saved.
+Current running time: 1441.38
+ParlaMint-UA_2016-11-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-11-03-m1.conllu is saved.
+Current running time: 1442.73
+ParlaMint-UA_2016-06-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-02-m1.conllu is saved.
+Current running time: 1444.06
+ParlaMint-UA_2016-07-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-07-m0.conllu is saved.
+Current running time: 1445.44
+ParlaMint-UA_2016-03-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-15-m0.conllu is saved.
+Current running time: 1446.79
+ParlaMint-UA_2016-10-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-06-m1.conllu is saved.
+Current running time: 1448.17
+ParlaMint-UA_2016-01-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-29-m0.conllu is saved.
+Current running time: 1449.58
+ParlaMint-UA_2016-05-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-12-m0.conllu is saved.
+Current running time: 1450.99
+ParlaMint-UA_2016-10-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-21-m0.conllu is saved.
+Current running time: 1452.45
+ParlaMint-UA_2016-03-31-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-31-m1.conllu is saved.
+Current running time: 1453.83
+ParlaMint-UA_2016-05-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-17-m1.conllu is saved.
+Current running time: 1455.24
+ParlaMint-UA_2016-07-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-07-m1.conllu is saved.
+Current running time: 1456.58
+ParlaMint-UA_2016-06-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-01-m0.conllu is saved.
+Current running time: 1458.09
+ParlaMint-UA_2016-10-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-20-m0.conllu is saved.
+Current running time: 1459.55
+ParlaMint-UA_2016-03-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-17-m0.conllu is saved.
+Current running time: 1460.93
+ParlaMint-UA_2016-06-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-06-14-m1.conllu is saved.
+Current running time: 1462.32
+ParlaMint-UA_2016-12-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-08-m0.conllu is saved.
+Current running time: 1463.83
+ParlaMint-UA_2016-07-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-14-m1.conllu is saved.
+Current running time: 1465.16
+ParlaMint-UA_2016-05-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-17-m0.conllu is saved.
+Current running time: 1466.52
+ParlaMint-UA_2016-07-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-07-06-m0.conllu is saved.
+Current running time: 1467.73
+ParlaMint-UA_2016-12-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-06-m0.conllu is saved.
+Current running time: 1469.09
+ParlaMint-UA_2016-10-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-10-06-m0.conllu is saved.
+Current running time: 1470.49
+ParlaMint-UA_2016-01-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-01-26-m0.conllu is saved.
+Current running time: 1471.85
+ParlaMint-UA_2016-05-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-05-13-m0.conllu is saved.
+Current running time: 1473.21
+ParlaMint-UA_2016-04-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-01-m0.conllu is saved.
+Current running time: 1474.6
+ParlaMint-UA_2016-03-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-03-29-m0.conllu is saved.
+Current running time: 1475.92
+ParlaMint-UA_2016-04-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-04-20-m0.conllu is saved.
+Current running time: 1477.29
+ParlaMint-UA_2016-09-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-09-06-m0.conllu is saved.
+Current running time: 1478.65
+ParlaMint-UA_2016-02-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-02-02-m0.conllu is saved.
+Current running time: 1480.03
+ParlaMint-UA_2008-05-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-22-m1.conllu is saved.
+Current running time: 1481.32
+ParlaMint-UA_2008-03-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-21-m0.conllu is saved.
+Current running time: 1482.58
+ParlaMint-UA_2008-09-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-26-m0.conllu is saved.
+Current running time: 1483.91
+ParlaMint-UA_2008-10-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-31-m0.conllu is saved.
+Current running time: 1485.38
+ParlaMint-UA_2008-09-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-23-m0.conllu is saved.
+Current running time: 1486.73
+ParlaMint-UA_2008-10-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-30-m0.conllu is saved.
+Current running time: 1487.96
+ParlaMint-UA_2008-10-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-07-m0.conllu is saved.
+Current running time: 1489.24
+ParlaMint-UA_2008-10-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-07-m1.conllu is saved.
+Current running time: 1490.45
+ParlaMint-UA_2008-05-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-14-m0.conllu is saved.
+Current running time: 1491.66
+ParlaMint-UA_2008-12-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-11-m0.conllu is saved.
+Current running time: 1493.05
+ParlaMint-UA_2008-05-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-21-m0.conllu is saved.
+Current running time: 1494.52
+ParlaMint-UA_2008-10-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-08-m0.conllu is saved.
+Current running time: 1495.74
+ParlaMint-UA_2008-04-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-17-m0.conllu is saved.
+Current running time: 1497.01
+ParlaMint-UA_2008-06-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-05-m0.conllu is saved.
+Current running time: 1498.4
+ParlaMint-UA_2008-11-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-11-13-m0.conllu is saved.
+Current running time: 1499.74
+ParlaMint-UA_2008-12-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-16-m0.conllu is saved.
+Current running time: 1501.22
+ParlaMint-UA_2008-09-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-24-m0.conllu is saved.
+Current running time: 1502.62
+ParlaMint-UA_2008-06-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-03-m1.conllu is saved.
+Current running time: 1503.94
+ParlaMint-UA_2008-06-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-17-m0.conllu is saved.
+Current running time: 1505.27
+ParlaMint-UA_2008-09-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-03-m0.conllu is saved.
+Current running time: 1506.58
+ParlaMint-UA_2008-01-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-01-15-m1.conllu is saved.
+Current running time: 1507.91
+ParlaMint-UA_2008-05-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-16-m0.conllu is saved.
+Current running time: 1509.3
+ParlaMint-UA_2008-04-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-11-m0.conllu is saved.
+Current running time: 1510.67
+ParlaMint-UA_2008-03-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-18-m1.conllu is saved.
+Current running time: 1512.0
+ParlaMint-UA_2008-10-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-24-m0.conllu is saved.
+Current running time: 1513.21
+ParlaMint-UA_2008-10-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-22-m0.conllu is saved.
+Current running time: 1514.43
+ParlaMint-UA_2008-09-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-18-m1.conllu is saved.
+Current running time: 1515.76
+ParlaMint-UA_2008-06-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-18-m0.conllu is saved.
+Current running time: 1517.12
+ParlaMint-UA_2008-06-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-04-m0.conllu is saved.
+Current running time: 1518.52
+ParlaMint-UA_2008-12-25-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-25-m1.conllu is saved.
+Current running time: 1519.88
+ParlaMint-UA_2008-04-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-16-m0.conllu is saved.
+Current running time: 1521.27
+ParlaMint-UA_2008-07-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-07-31-m0.conllu is saved.
+Current running time: 1522.59
+ParlaMint-UA_2008-04-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-01-m0.conllu is saved.
+Current running time: 1523.85
+ParlaMint-UA_2008-07-10-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-07-10-m1.conllu is saved.
+Current running time: 1525.07
+ParlaMint-UA_2008-06-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-17-m1.conllu is saved.
+Current running time: 1526.4
+ParlaMint-UA_2008-10-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-09-m0.conllu is saved.
+Current running time: 1527.62
+ParlaMint-UA_2008-09-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-04-m0.conllu is saved.
+Current running time: 1528.94
+ParlaMint-UA_2008-12-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-19-m0.conllu is saved.
+Current running time: 1530.36
+ParlaMint-UA_2008-09-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-19-m0.conllu is saved.
+Current running time: 1531.73
+ParlaMint-UA_2008-10-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-29-m0.conllu is saved.
+Current running time: 1533.16
+ParlaMint-UA_2008-09-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-16-m0.conllu is saved.
+Current running time: 1534.52
+ParlaMint-UA_2008-05-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-20-m1.conllu is saved.
+Current running time: 1535.84
+ParlaMint-UA_2008-12-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-25-m0.conllu is saved.
+Current running time: 1537.23
+ParlaMint-UA_2008-03-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-20-m0.conllu is saved.
+Current running time: 1538.6
+ParlaMint-UA_2008-10-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-28-m0.conllu is saved.
+Current running time: 1539.83
+ParlaMint-UA_2008-04-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-10-m0.conllu is saved.
+Current running time: 1541.23
+ParlaMint-UA_2008-02-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-02-12-m0.conllu is saved.
+Current running time: 1542.56
+ParlaMint-UA_2008-06-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-03-m0.conllu is saved.
+Current running time: 1543.92
+ParlaMint-UA_2008-09-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-30-m0.conllu is saved.
+Current running time: 1545.32
+ParlaMint-UA_2008-01-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-01-18-m0.conllu is saved.
+Current running time: 1546.6
+ParlaMint-UA_2008-03-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-20-m1.conllu is saved.
+Current running time: 1547.93
+ParlaMint-UA_2008-10-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-03-m0.conllu is saved.
+Current running time: 1549.16
+ParlaMint-UA_2008-09-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-16-m1.conllu is saved.
+Current running time: 1550.44
+ParlaMint-UA_2008-12-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-23-m1.conllu is saved.
+Current running time: 1551.75
+ParlaMint-UA_2008-12-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-24-m0.conllu is saved.
+Current running time: 1553.13
+ParlaMint-UA_2008-12-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-18-m0.conllu is saved.
+Current running time: 1554.54
+ParlaMint-UA_2008-03-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-06-m1.conllu is saved.
+Current running time: 1555.86
+ParlaMint-UA_2008-05-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-13-m0.conllu is saved.
+Current running time: 1557.08
+ParlaMint-UA_2008-04-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-15-m1.conllu is saved.
+Current running time: 1558.39
+ParlaMint-UA_2008-11-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-11-11-m1.conllu is saved.
+Current running time: 1559.62
+ParlaMint-UA_2008-11-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-11-12-m0.conllu is saved.
+Current running time: 1560.96
+ParlaMint-UA_2008-09-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-25-m0.conllu is saved.
+Current running time: 1562.3
+ParlaMint-UA_2008-12-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-04-m0.conllu is saved.
+Current running time: 1563.53
+ParlaMint-UA_2008-11-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-11-20-m0.conllu is saved.
+Current running time: 1564.81
+ParlaMint-UA_2008-11-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-11-18-m0.conllu is saved.
+Current running time: 1566.07
+ParlaMint-UA_2008-10-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-01-m0.conllu is saved.
+Current running time: 1567.41
+ParlaMint-UA_2008-03-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-07-m0.conllu is saved.
+Current running time: 1568.8
+ParlaMint-UA_2008-10-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-21-m0.conllu is saved.
+Current running time: 1570.06
+ParlaMint-UA_2008-07-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-07-11-m0.conllu is saved.
+Current running time: 1571.54
+ParlaMint-UA_2008-10-30-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-30-m1.conllu is saved.
+Current running time: 1572.82
+ParlaMint-UA_2008-09-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-17-m0.conllu is saved.
+Current running time: 1574.13
+ParlaMint-UA_2008-10-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-09-m1.conllu is saved.
+Current running time: 1575.37
+ParlaMint-UA_2008-10-28-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-28-m1.conllu is saved.
+Current running time: 1576.61
+ParlaMint-UA_2008-12-09-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-09-m1.conllu is saved.
+Current running time: 1577.87
+ParlaMint-UA_2008-05-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-23-m0.conllu is saved.
+Current running time: 1579.28
+ParlaMint-UA_2008-12-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-11-m1.conllu is saved.
+Current running time: 1580.64
+ParlaMint-UA_2008-09-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-04-m1.conllu is saved.
+Current running time: 1581.97
+ParlaMint-UA_2008-06-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-05-m1.conllu is saved.
+Current running time: 1583.23
+ParlaMint-UA_2008-12-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-09-m0.conllu is saved.
+Current running time: 1584.46
+ParlaMint-UA_2008-05-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-20-m0.conllu is saved.
+Current running time: 1585.8
+ParlaMint-UA_2008-03-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-19-m0.conllu is saved.
+Current running time: 1587.18
+ParlaMint-UA_2008-09-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-02-m0.conllu is saved.
+Current running time: 1588.57
+ParlaMint-UA_2008-02-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-02-05-m0.conllu is saved.
+Current running time: 1589.83
+ParlaMint-UA_2008-12-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-17-m0.conllu is saved.
+Current running time: 1591.22
+ParlaMint-UA_2008-06-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-19-m0.conllu is saved.
+Current running time: 1592.45
+ParlaMint-UA_2008-12-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-26-m0.conllu is saved.
+Current running time: 1593.9
+ParlaMint-UA_2008-10-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-23-m0.conllu is saved.
+Current running time: 1595.13
+ParlaMint-UA_2008-12-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-18-m1.conllu is saved.
+Current running time: 1596.46
+ParlaMint-UA_2008-06-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-20-m0.conllu is saved.
+Current running time: 1597.69
+ParlaMint-UA_2008-07-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-07-09-m0.conllu is saved.
+Current running time: 1598.95
+ParlaMint-UA_2008-04-08-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-08-m1.conllu is saved.
+Current running time: 1600.27
+ParlaMint-UA_2008-10-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-02-m0.conllu is saved.
+Current running time: 1601.53
+ParlaMint-UA_2008-09-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-05-m0.conllu is saved.
+Current running time: 1602.83
+ParlaMint-UA_2008-07-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-07-08-m0.conllu is saved.
+Current running time: 1604.08
+ParlaMint-UA_2008-03-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-06-m0.conllu is saved.
+Current running time: 1605.32
+ParlaMint-UA_2008-04-10-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-10-m1.conllu is saved.
+Current running time: 1606.65
+ParlaMint-UA_2008-06-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-06-06-m0.conllu is saved.
+Current running time: 1607.89
+ParlaMint-UA_2008-05-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-22-m0.conllu is saved.
+Current running time: 1609.3
+ParlaMint-UA_2008-04-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-15-m0.conllu is saved.
+Current running time: 1610.64
+ParlaMint-UA_2008-04-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-09-m0.conllu is saved.
+Current running time: 1611.95
+ParlaMint-UA_2008-09-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-18-m0.conllu is saved.
+Current running time: 1613.28
+ParlaMint-UA_2008-09-02-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-09-02-m1.conllu is saved.
+Current running time: 1614.73
+ParlaMint-UA_2008-01-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-01-15-m0.conllu is saved.
+Current running time: 1616.12
+ParlaMint-UA_2008-05-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-05-15-m0.conllu is saved.
+Current running time: 1617.35
+ParlaMint-UA_2008-12-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-02-m0.conllu is saved.
+Current running time: 1618.61
+ParlaMint-UA_2008-04-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-08-m0.conllu is saved.
+Current running time: 1619.91
+ParlaMint-UA_2008-03-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-03-18-m0.conllu is saved.
+Current running time: 1621.32
+ParlaMint-UA_2008-07-10-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-07-10-m0.conllu is saved.
+Current running time: 1622.62
+ParlaMint-UA_2008-12-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-23-m0.conllu is saved.
+Current running time: 1624.04
+ParlaMint-UA_2008-10-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-10-23-m1.conllu is saved.
+Current running time: 1625.29
+ParlaMint-UA_2008-04-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-04-18-m0.conllu is saved.
+Current running time: 1626.57
+ParlaMint-UA_2008-12-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-12-m0.conllu is saved.
+Current running time: 1627.99
+ParlaMint-UA_2008-11-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-11-11-m0.conllu is saved.
+Current running time: 1629.28
+ParlaMint-UA_2008-12-26-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2008/ParlaMint-UA_2008-12-26-m1.conllu is saved.
+Current running time: 1630.57
+ParlaMint-UA_2011-10-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-21-m0.conllu is saved.
+Current running time: 1631.96
+ParlaMint-UA_2011-02-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-17-m1.conllu is saved.
+Current running time: 1633.28
+ParlaMint-UA_2011-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-19-m0.conllu is saved.
+Current running time: 1634.66
+ParlaMint-UA_2011-11-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-18-m0.conllu is saved.
+Current running time: 1636.05
+ParlaMint-UA_2011-11-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-02-m0.conllu is saved.
+Current running time: 1637.45
+ParlaMint-UA_2011-06-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-03-m0.conllu is saved.
+Current running time: 1638.86
+ParlaMint-UA_2011-05-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-17-m1.conllu is saved.
+Current running time: 1640.18
+ParlaMint-UA_2011-12-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-22-m1.conllu is saved.
+Current running time: 1641.57
+ParlaMint-UA_2011-09-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-20-m0.conllu is saved.
+Current running time: 1642.94
+ParlaMint-UA_2011-02-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-15-m0.conllu is saved.
+Current running time: 1644.35
+ParlaMint-UA_2011-03-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-18-m0.conllu is saved.
+Current running time: 1645.74
+ParlaMint-UA_2011-03-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-01-m0.conllu is saved.
+Current running time: 1647.15
+ParlaMint-UA_2011-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-21-m0.conllu is saved.
+Current running time: 1648.54
+ParlaMint-UA_2011-05-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-20-m0.conllu is saved.
+Current running time: 1649.92
+ParlaMint-UA_2011-05-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-13-m0.conllu is saved.
+Current running time: 1651.34
+ParlaMint-UA_2011-02-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-02-m0.conllu is saved.
+Current running time: 1652.68
+ParlaMint-UA_2011-03-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-16-m0.conllu is saved.
+Current running time: 1654.08
+ParlaMint-UA_2011-10-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-20-m1.conllu is saved.
+Current running time: 1655.4
+ParlaMint-UA_2011-06-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-02-m0.conllu is saved.
+Current running time: 1656.83
+ParlaMint-UA_2011-05-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-19-m1.conllu is saved.
+Current running time: 1658.14
+ParlaMint-UA_2011-06-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-01-m0.conllu is saved.
+Current running time: 1659.52
+ParlaMint-UA_2011-05-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-18-m0.conllu is saved.
+Current running time: 1660.93
+ParlaMint-UA_2011-07-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-07-05-m1.conllu is saved.
+Current running time: 1662.32
+ParlaMint-UA_2011-11-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-15-m0.conllu is saved.
+Current running time: 1663.7
+ParlaMint-UA_2011-11-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-17-m1.conllu is saved.
+Current running time: 1665.16
+ParlaMint-UA_2011-04-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-07-m0.conllu is saved.
+Current running time: 1666.52
+ParlaMint-UA_2011-09-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-06-m0.conllu is saved.
+Current running time: 1667.88
+ParlaMint-UA_2011-03-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-15-m0.conllu is saved.
+Current running time: 1669.27
+ParlaMint-UA_2011-02-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-01-m1.conllu is saved.
+Current running time: 1670.57
+ParlaMint-UA_2011-05-31-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-31-m1.conllu is saved.
+Current running time: 1671.87
+ParlaMint-UA_2011-02-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-18-m0.conllu is saved.
+Current running time: 1673.25
+ParlaMint-UA_2011-02-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-01-m0.conllu is saved.
+Current running time: 1674.6
+ParlaMint-UA_2011-05-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-31-m0.conllu is saved.
+Current running time: 1675.95
+ParlaMint-UA_2011-03-02-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-02-m0.conllu is saved.
+Current running time: 1677.33
+ParlaMint-UA_2011-03-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-15-m1.conllu is saved.
+Current running time: 1678.65
+ParlaMint-UA_2011-01-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-01-13-m0.conllu is saved.
+Current running time: 1680.02
+ParlaMint-UA_2011-09-22-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-22-m1.conllu is saved.
+Current running time: 1681.35
+ParlaMint-UA_2011-03-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-04-m0.conllu is saved.
+Current running time: 1682.75
+ParlaMint-UA_2011-11-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-01-m0.conllu is saved.
+Current running time: 1684.09
+ParlaMint-UA_2011-01-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-01-14-m0.conllu is saved.
+Current running time: 1685.46
+ParlaMint-UA_2011-07-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-07-07-m1.conllu is saved.
+Current running time: 1687.18
+ParlaMint-UA_2011-05-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-17-m0.conllu is saved.
+Current running time: 1688.55
+ParlaMint-UA_2011-04-21-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-21-m1.conllu is saved.
+Current running time: 1689.88
+ParlaMint-UA_2011-11-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-03-m0.conllu is saved.
+Current running time: 1691.24
+ParlaMint-UA_2011-10-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-06-m0.conllu is saved.
+Current running time: 1692.59
+ParlaMint-UA_2011-12-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-23-m0.conllu is saved.
+Current running time: 1693.96
+ParlaMint-UA_2011-11-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-16-m0.conllu is saved.
+Current running time: 1695.35
+ParlaMint-UA_2011-09-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-09-m0.conllu is saved.
+Current running time: 1696.73
+ParlaMint-UA_2011-10-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-20-m0.conllu is saved.
+Current running time: 1698.09
+ParlaMint-UA_2011-11-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-04-m0.conllu is saved.
+Current running time: 1699.43
+ParlaMint-UA_2011-12-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-20-m0.conllu is saved.
+Current running time: 1700.79
+ParlaMint-UA_2011-12-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-20-m1.conllu is saved.
+Current running time: 1702.06
+ParlaMint-UA_2011-05-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-12-m0.conllu is saved.
+Current running time: 1703.43
+ParlaMint-UA_2011-10-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-04-m0.conllu is saved.
+Current running time: 1704.8
+ParlaMint-UA_2011-03-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-03-m1.conllu is saved.
+Current running time: 1706.13
+ParlaMint-UA_2011-11-03-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-03-m1.conllu is saved.
+Current running time: 1707.44
+ParlaMint-UA_2011-09-20-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-20-m1.conllu is saved.
+Current running time: 1708.73
+ParlaMint-UA_2011-12-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-09-m0.conllu is saved.
+Current running time: 1710.2
+ParlaMint-UA_2011-11-01-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-01-m1.conllu is saved.
+Current running time: 1711.52
+ParlaMint-UA_2011-03-17-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-17-m1.conllu is saved.
+Current running time: 1712.89
+ParlaMint-UA_2011-01-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-01-12-m0.conllu is saved.
+Current running time: 1714.26
+ParlaMint-UA_2011-05-12-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-12-m1.conllu is saved.
+Current running time: 1715.57
+ParlaMint-UA_2011-04-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-05-m0.conllu is saved.
+Current running time: 1716.93
+ParlaMint-UA_2011-12-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-06-m0.conllu is saved.
+Current running time: 1718.18
+ParlaMint-UA_2011-12-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-21-m0.conllu is saved.
+Current running time: 1719.57
+ParlaMint-UA_2011-09-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-22-m0.conllu is saved.
+Current running time: 1720.96
+ParlaMint-UA_2011-06-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-15-m0.conllu is saved.
+Current running time: 1722.35
+ParlaMint-UA_2011-05-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-11-m0.conllu is saved.
+Current running time: 1723.68
+ParlaMint-UA_2011-10-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-05-m0.conllu is saved.
+Current running time: 1725.08
+ParlaMint-UA_2011-04-07-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-07-m1.conllu is saved.
+Current running time: 1726.51
+ParlaMint-UA_2011-10-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-07-m0.conllu is saved.
+Current running time: 1727.91
+ParlaMint-UA_2011-09-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-23-m0.conllu is saved.
+Current running time: 1729.32
+ParlaMint-UA_2011-05-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-05-19-m0.conllu is saved.
+Current running time: 1730.73
+ParlaMint-UA_2011-07-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-07-06-m0.conllu is saved.
+Current running time: 1732.15
+ParlaMint-UA_2011-12-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-22-m0.conllu is saved.
+Current running time: 1733.54
+ParlaMint-UA_2011-11-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-17-m0.conllu is saved.
+Current running time: 1734.94
+ParlaMint-UA_2011-10-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-18-m0.conllu is saved.
+Current running time: 1736.41
+ParlaMint-UA_2011-11-15-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-11-15-m1.conllu is saved.
+Current running time: 1737.92
+ParlaMint-UA_2011-06-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-17-m0.conllu is saved.
+Current running time: 1739.45
+ParlaMint-UA_2011-02-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-03-m0.conllu is saved.
+Current running time: 1740.86
+ParlaMint-UA_2011-06-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-14-m0.conllu is saved.
+Current running time: 1742.26
+ParlaMint-UA_2011-01-13-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-01-13-m1.conllu is saved.
+Current running time: 1743.59
+ParlaMint-UA_2011-09-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-08-m0.conllu is saved.
+Current running time: 1745.0
+ParlaMint-UA_2011-03-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-03-m0.conllu is saved.
+Current running time: 1746.41
+ParlaMint-UA_2011-04-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-06-m0.conllu is saved.
+Current running time: 1747.81
+ParlaMint-UA_2011-10-06-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-06-m1.conllu is saved.
+Current running time: 1749.13
+ParlaMint-UA_2011-06-16-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-16-m1.conllu is saved.
+Current running time: 1750.49
+ParlaMint-UA_2011-10-18-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-18-m1.conllu is saved.
+Current running time: 1751.79
+ParlaMint-UA_2011-06-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-16-m0.conllu is saved.
+Current running time: 1753.17
+ParlaMint-UA_2011-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-09-07-m0.conllu is saved.
+Current running time: 1754.54
+ParlaMint-UA_2011-01-11-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-01-11-m1.conllu is saved.
+Current running time: 1755.81
+ParlaMint-UA_2011-02-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-17-m0.conllu is saved.
+Current running time: 1757.19
+ParlaMint-UA_2011-07-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-07-07-m0.conllu is saved.
+Current running time: 1758.62
+ParlaMint-UA_2011-04-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-19-m0.conllu is saved.
+Current running time: 1759.98
+ParlaMint-UA_2011-03-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-03-17-m0.conllu is saved.
+Current running time: 1761.36
+ParlaMint-UA_2011-12-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-12-07-m0.conllu is saved.
+Current running time: 1762.72
+ParlaMint-UA_2011-02-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-02-04-m0.conllu is saved.
+Current running time: 1764.11
+ParlaMint-UA_2011-04-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-20-m0.conllu is saved.
+Current running time: 1765.48
+ParlaMint-UA_2011-07-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-07-08-m0.conllu is saved.
+Current running time: 1766.87
+ParlaMint-UA_2011-04-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-08-m0.conllu is saved.
+Current running time: 1768.25
+ParlaMint-UA_2011-04-05-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-05-m1.conllu is saved.
+Current running time: 1769.57
+ParlaMint-UA_2011-04-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-21-m0.conllu is saved.
+Current running time: 1770.94
+ParlaMint-UA_2011-10-04-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-10-04-m1.conllu is saved.
+Current running time: 1772.25
+ParlaMint-UA_2011-04-19-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-19-m1.conllu is saved.
+Current running time: 1773.54
+ParlaMint-UA_2011-06-14-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-06-14-m1.conllu is saved.
+Current running time: 1774.86
+ParlaMint-UA_2011-07-05-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-07-05-m0.conllu is saved.
+Current running time: 1776.25
+ParlaMint-UA_2011-04-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-04-22-m0.conllu is saved.
+Current running time: 1777.61
+ParlaMint-UA_2011-01-11-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2011/ParlaMint-UA_2011-01-11-m0.conllu is saved.
+Current running time: 1778.98
+ParlaMint-UA_2022-10-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-19-m0.conllu is saved.
+Current running time: 1780.29
+ParlaMint-UA_2022-07-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-18-m0.conllu is saved.
+Current running time: 1781.61
+ParlaMint-UA_2022-02-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-01-m0.conllu is saved.
+Current running time: 1782.99
+ParlaMint-UA_2022-07-29-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-29-m0.conllu is saved.
+Current running time: 1784.34
+ParlaMint-UA_2022-05-12-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-12-m0.conllu is saved.
+Current running time: 1785.67
+ParlaMint-UA_2022-02-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-15-m0.conllu is saved.
+Current running time: 1787.08
+ParlaMint-UA_2022-02-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-18-m0.conllu is saved.
+Current running time: 1788.43
+ParlaMint-UA_2022-03-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-03-03-m0.conllu is saved.
+Current running time: 1789.66
+ParlaMint-UA_2022-07-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-01-m0.conllu is saved.
+Current running time: 1791.03
+ParlaMint-UA_2022-02-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-22-m0.conllu is saved.
+Current running time: 1792.34
+ParlaMint-UA_2022-04-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-04-21-m0.conllu is saved.
+Current running time: 1793.69
+ParlaMint-UA_2022-06-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-06-20-m0.conllu is saved.
+Current running time: 1794.96
+ParlaMint-UA_2022-09-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-21-m0.conllu is saved.
+Current running time: 1796.37
+ParlaMint-UA_2022-10-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-07-m0.conllu is saved.
+Current running time: 1797.85
+ParlaMint-UA_2022-05-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-03-m0.conllu is saved.
+Current running time: 1799.23
+ParlaMint-UA_2022-10-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-06-m0.conllu is saved.
+Current running time: 1800.61
+ParlaMint-UA_2022-02-23-m1.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-23-m1.conllu is saved.
+Current running time: 1801.85
+ParlaMint-UA_2022-02-23-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-23-m0.conllu is saved.
+Current running time: 1803.16
+ParlaMint-UA_2022-04-14-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-04-14-m0.conllu is saved.
+Current running time: 1804.43
+ParlaMint-UA_2022-09-20-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-20-m0.conllu is saved.
+Current running time: 1805.76
+ParlaMint-UA_2022-05-22-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-22-m0.conllu is saved.
+Current running time: 1807.05
+ParlaMint-UA_2022-07-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-28-m0.conllu is saved.
+Current running time: 1808.43
+ParlaMint-UA_2022-01-25-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-25-m0.conllu is saved.
+Current running time: 1809.83
+ParlaMint-UA_2022-07-08-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-08-m0.conllu is saved.
+Current running time: 1811.17
+ParlaMint-UA_2022-04-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-04-01-m0.conllu is saved.
+Current running time: 1812.41
+ParlaMint-UA_2022-12-13-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-12-13-m0.conllu is saved.
+Current running time: 1813.8
+ParlaMint-UA_2022-08-30-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-08-30-m0.conllu is saved.
+Current running time: 1815.15
+ParlaMint-UA_2022-02-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-24-m0.conllu is saved.
+Current running time: 1816.36
+ParlaMint-UA_2022-08-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-08-15-m0.conllu is saved.
+Current running time: 1817.72
+ParlaMint-UA_2022-09-07-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-07-m0.conllu is saved.
+Current running time: 1819.02
+ParlaMint-UA_2022-06-21-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-06-21-m0.conllu is saved.
+Current running time: 1820.38
+ParlaMint-UA_2022-02-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-16-m0.conllu is saved.
+Current running time: 1821.74
+ParlaMint-UA_2022-12-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-12-28-m0.conllu is saved.
+Current running time: 1822.98
+ParlaMint-UA_2022-07-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-19-m0.conllu is saved.
+Current running time: 1824.31
+ParlaMint-UA_2022-11-03-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-11-03-m0.conllu is saved.
+Current running time: 1825.67
+ParlaMint-UA_2022-02-23-m2.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-23-m2.conllu is saved.
+Current running time: 1826.9
+ParlaMint-UA_2022-01-28-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-28-m0.conllu is saved.
+Current running time: 1828.22
+ParlaMint-UA_2022-01-26-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-26-m0.conllu is saved.
+Current running time: 1829.55
+ParlaMint-UA_2022-08-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-08-16-m0.conllu is saved.
+Current running time: 1830.88
+ParlaMint-UA_2022-01-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-01-27-m0.conllu is saved.
+Current running time: 1832.25
+ParlaMint-UA_2022-07-09-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-09-m0.conllu is saved.
+Current running time: 1833.53
+ParlaMint-UA_2022-07-27-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-07-27-m0.conllu is saved.
+Current running time: 1834.88
+ParlaMint-UA_2022-03-24-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-03-24-m0.conllu is saved.
+Current running time: 1836.13
+ParlaMint-UA_2022-02-17-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-02-17-m0.conllu is saved.
+Current running time: 1837.54
+ParlaMint-UA_2022-05-31-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-05-31-m0.conllu is saved.
+Current running time: 1838.86
+ParlaMint-UA_2022-09-06-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-09-06-m0.conllu is saved.
+Current running time: 1840.22
+ParlaMint-UA_2022-06-19-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-06-19-m0.conllu is saved.
+Current running time: 1841.52
+ParlaMint-UA_2022-12-01-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-12-01-m0.conllu is saved.
+Current running time: 1842.9
+ParlaMint-UA_2022-11-04-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-11-04-m0.conllu is saved.
+Current running time: 1844.18
+ParlaMint-UA_2022-03-15-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-03-15-m0.conllu is saved.
+Current running time: 1845.41
+ParlaMint-UA_2022-11-16-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-11-16-m0.conllu is saved.
+Current running time: 1846.74
+ParlaMint-UA_2022-10-18-m0.conllu processed and saved.
+Final file /home/tajak/Parlamint-translation/Final-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2022/ParlaMint-UA_2022-10-18-m0.conllu is saved.
+Current running time: 1847.99
+Traceback (most recent call last):
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/models/common/doc.py", line 160, in _process_sentences
+    sentence = Sentence(tokens, doc=self)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/models/common/doc.py", line 411, in __init__
+    self._process_tokens(tokens)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/models/common/doc.py", line 433, in _process_tokens
+    self.tokens.append(Token(entry, words=[new_word]))
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/models/common/doc.py", line 700, in __init__
+    raise ValueError('id and text should be included for the token')
+ValueError: id and text should be included for the token
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "5-create-conllu.py", line 196, in <module>
+    produce_final_conllu(lang_code, final_dataframe)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/knockknock/discord_sender.py", line 94, in wrapper_sender
+    raise ex
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/knockknock/discord_sender.py", line 56, in wrapper_sender
+    value = func(*args, **kwargs)
+  File "5-create-conllu.py", line 187, in produce_final_conllu
+    create_conllu(file, lang_code, main_path, final_dataframe, nlp)
+  File "5-create-conllu.py", line 72, in create_conllu
+    doc = nlp(sentence_list)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/pipeline/core.py", line 408, in __call__
+    return self.process(doc, processors)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/pipeline/core.py", line 397, in process
+    doc = process(doc)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/pipeline/tokenize_processor.py", line 78, in process
+    return doc.Document(document, raw_text)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/models/common/doc.py", line 83, in __init__
+    self._process_sentences(sentences, comments)
+  File "/home/tajak/Parlamint-translation/parlamint_env/lib/python3.8/site-packages/stanza/models/common/doc.py", line 162, in _process_sentences
+    raise ValueError("Could not process document at sentence %d: %s" % (sent_idx, str(e))) from e
+ValueError: Could not process document at sentence 272: id and text should be included for the token

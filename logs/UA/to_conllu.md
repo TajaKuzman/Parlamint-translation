@@ -1,31 +1,3 @@
-No. of files: 2182.
-Number of words in the corpora: 18398066
+No. of files: 2407.
+Number of words in the corpora: 41981694
 Dataframe saved as /home/tajak/Parlamint-translation/results/UA/ParlaMint-UA-extracted-source-data.csv
-|        | file_path                                                                                                                       | file                                 | sentence_id                         | text    | tokenized_text   | proper_nouns   |        length |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------|:------------------------------------|:--------|:-----------------|:---------------|--------------:|
-| count  | 1586348                                                                                                                         | 1586348                              | 1586348                             | 1586348 | 1586348          | 1586348        |   1.58635e+06 |
-| unique | 1615                                                                                                                            | 1615                                 | 1586348                             | 1140150 | 1140073          | 88157          | nan           |
-| top    | /home/tajak/Parlamint-translation/Source-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2016/ParlaMint-UA_2016-12-20-m1-uk.conllu | ParlaMint-UA_2016-12-20-m1-uk.conllu | ParlaMint-UA_2013-11-22-m0.u2.p2.s1 | Дякую.  | Дякую .          | {}             | nan           |
-| freq   | 6694                                                                                                                            | 6694                                 | 1                                   | 62743   | 62745            | 1348755        | nan           |
-| mean   | nan                                                                                                                             | nan                                  | nan                                 | nan     | nan              | nan            |  11.5977      |
-| std    | nan                                                                                                                             | nan                                  | nan                                 | nan     | nan              | nan            |  11.2329      |
-| min    | nan                                                                                                                             | nan                                  | nan                                 | nan     | nan              | nan            |   1           |
-| 25%    | nan                                                                                                                             | nan                                  | nan                                 | nan     | nan              | nan            |   3           |
-| 50%    | nan                                                                                                                             | nan                                  | nan                                 | nan     | nan              | nan            |   8           |
-| 75%    | nan                                                                                                                             | nan                                  | nan                                 | nan     | nan              | nan            |  17           |
-| max    | nan                                                                                                                             | nan                                  | nan                                 | nan     | nan              | nan            | 283           |
-
-
-
-
-|    | file_path                                                                                                                       | file                                 | sentence_id                         | text                                                | tokenized_text                                       | proper_nouns   |   length |
-|---:|:--------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------|:------------------------------------|:----------------------------------------------------|:-----------------------------------------------------|:---------------|---------:|
-|  0 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0.u2.p2.s1 | Послухайте!                                         | Послухайте !                                         | {}             |        1 |
-|  1 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0.u2.p2.s2 | Орать вы всегда можете, мы это знаем прекрасно.     | Орать вы всегда можете , мы это знаем прекрасно .    | {}             |        8 |
-|  2 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0.u4.p2.s1 | Орет тут мне на ухо!                                | Орет тут мне на ухо !                                | {}             |        5 |
-|  3 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0-ru.conllu | ParlaMint-UA_2013-11-22-m0.u4.p2.s2 | Что я должен молчать что ли?                        | Что я должен молчать что ли ?                        | {}             |        6 |
-|  4 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-UA.conllu/ParlaMint-UA.conllu/2013/ParlaMint-UA_2013-04-18-m1-ru.conllu | ParlaMint-UA_2013-04-18-m1-ru.conllu | ParlaMint-UA_2013-04-18-m1.u8.p1.s1 | Прошу передать слово Мармазову Евгению Васильевичу. | Прошу передать слово Мармазову Евгению Васильевичу . | {}             |        6 |
-
-
-
-

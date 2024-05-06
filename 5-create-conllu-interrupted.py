@@ -1,12 +1,14 @@
 import argparse
+import os
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("lang_code", help="lang code used in the files")
     args = parser.parse_args()
 
+
 # Define the language code, used in the file names
-#lang_code = "CZ"
+#lang_code = "UA"
 lang_code = args.lang_code
 
 # Main path
@@ -182,7 +184,53 @@ def produce_final_conllu(lang_code, final_dataframe):
 	
 	df = pd.read_csv("{}".format(final_dataframe), sep="\t", index_col=0, na_filter = False)
 
-	# Create a list of files
+	# Extract a list with paths to conllu files and a list with their names
+	file_name_list = []
+	main_path = "/home/tajak/Parlamint-translation"
+	source_path = "{}/Source-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
+
+	for dir1 in os.listdir(source_path):
+		full_path = os.path.join(source_path, dir1)
+		if os.path.isdir(full_path):
+			current = os.listdir(full_path)
+			# Keep only files with parliamentary sessions:
+			for file in current:
+				if "ParlaMint-{}_".format(lang_code) in file:
+					if ".conllu" in file:
+						file_name_list.append(file)
+
+	# See how many files we have:
+	print("Number of files in the source folder: {}".format(len(file_name_list)))
+
+
+	final_path = "{}/Final-data/ParlaMint-{}.conllu/ParlaMint-{}.conllu".format(main_path, lang_code, lang_code)
+	file_name_list_final = []
+
+	for dir1 in os.listdir(final_path):
+		full_path_final = os.path.join(final_path, dir1)
+		if os.path.isdir(full_path_final):
+			current = os.listdir(full_path_final)
+			# Keep only files with parliamentary sessions:
+			for file in current:
+				if "ParlaMint-{}_".format(lang_code) in file:
+					if ".conllu" in file:
+						file_name_list_final.append(file)
+
+	# See how many files we have:
+	print("Number of files in the final folder: {}, number of files that still need to be processed: {}".format(len(file_name_list_final), (len(file_name_list)-len(file_name_list_final))))
+
+	# Create a list of files that haven't been processed yet
+	missing_files = []
+
+	# Inspect which file is not in the final dataframe, print it and print its length (check if it is empty)
+	for i in file_name_list:
+		if i not in file_name_list_final:
+			missing_files.append(i)
+
+	# Print the number of missing files
+	print("Number of missing files: {}".format(len(missing_files)))
+
+	# Process the missing files
 	files = list(df.file.unique())
 	
 	start_time = time.time()
@@ -193,9 +241,10 @@ def produce_final_conllu(lang_code, final_dataframe):
 	nlp = stanza.Pipeline(lang='en', processors="tokenize,mwt,pos,lemma,ner", package={"ner": ["conll03"]}, tokenize_pretokenized=True, download_method=DownloadMethod.REUSE_RESOURCES, use_gpu=True)
 
 	for file in files:
-		create_conllu(file, lang_code, main_path, final_dataframe, nlp)
-		current_end_time = round((time.time() - start_time)/60,2)
-		print("Current running time: {}".format(current_end_time))
+		if file in missing_files:
+			create_conllu(file, lang_code, main_path, final_dataframe, nlp)
+			current_end_time = round((time.time() - start_time)/60,2)
+			print("Current running time: {}".format(current_end_time))
 	
 	end_time = round((time.time() - start_time)/60,2)
 

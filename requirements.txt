@@ -1,0 +1,15 @@
+# You should use Python 3.9, otherwise there are issues with the Stanza library
+beautifulsoup4==4.12.3
+bert_score==0.3.13
+conllu==4.5.3
+Cython==3.0.10
+EasyNMT==2.0.2
+ipython==8.12.3
+knockknock==0.1.8.1
+nltk==3.8.1
+numpy==1.26.4
+pandas==2.2.2
+regex==2023.12.25
+setuptools==68.2.2
+stanza==1.4.2
+torch==2.2.2

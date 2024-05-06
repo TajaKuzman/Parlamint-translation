@@ -1,16 +1,15 @@
-2024-04-15 08:37:05 INFO: Loading these models for language: en (English):
+2023-02-15 08:53:31 INFO: Loading these models for language: en (English):
 ========================
 | Processor | Package  |
 ------------------------
 | tokenize  | combined |
 ========================
 
-2024-04-15 08:37:05 INFO: Use device: gpu
-2024-04-15 08:37:05 INFO: Loading: tokenize
-2024-04-15 08:37:06 INFO: Done loading processors!
-
+2023-02-15 08:53:31 INFO: Use device: gpu
+2023-02-15 08:53:31 INFO: Loading: tokenize
+2023-02-15 08:53:33 INFO: Done loading processors!
 Tokenization of the translation started.
-Tokenization completed. It took 69.49 minutes.
+Tokenization completed. It took 73.73 minutes.
 File saved as /home/tajak/Parlamint-translation/results/DK/ParlaMint-DK-translated-tokenized.csv
 |    | file_path                                                                                                                           | file                                     | sentence_id                        | text                                                                                                                                                                                           | tokenized_text                                                                                                                                                                                       | proper_nouns                                           |   length | translation                                                                                                                                                                                                                          | translation-tokenized                                                                                                                                                                                                                      | space-after-information                                                                                                                                                                                                                                                                                                |
 |---:|:------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------|:-----------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------|---------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -25,17 +24,22 @@ File saved as /home/tajak/Parlamint-translation/results/DK/ParlaMint-DK-translat
 
 Alignment started.
 
+Number of aligned sentences: 1960952
 
 
-
-Alignment started.
-
-Number of aligned sentences: 1978777
-
-
+Issue: index 9: ['Hav', 'Have']
+Issue: index 7: ['Hyllested', 'Hyllested']
+Issue: index 0: ['Heri', 'Heri']
 Issue: index 8: ['Hav', 'Hav']
-Issue: index 561: ['Jensen', 'Jensen']
-Issue: index 578: ['Tørnæs', 'Tørnæs']
+Issue: index 24: ['Frederiksen', 'Frederiksen']
+Issue: index 49: ['Søren', 'Søren']
+Issue: index 24: ['SU', 'SU']
+Issue: index 547: ['Frederiksen', 'Frederiksen']
+Issue: index 576: ['Ulla', 'Ulla']
+Issue: index 55: ['SU', 'SU']
+Issue: index 43: ['SU', 'SU']
+Issue: index 18: ['Danmark', 'Danmark']
+Issue: index 0: ['Heri', 'Heri']
 Issue: index 2: ['Mogens', 'Mogens']
 Issue: index 3: ['Lykketoft', 'Lykketoft']
 Issue: index 9: ['Bertel', 'Bertel']
@@ -110,7 +114,7 @@ Issue: index 222: ['Özlem', 'Özlem']
 Issue: index 223: ['Sara', 'Sara']
 Issue: index 224: ['Cekic', 'Cekic']
 Issue: index 229: ['Trine', 'Trine']
-Issue: index 230: ['Mach', 'Mach']
+Issue: index 230: ['Mach', 'Machen']
 Issue: index 235: ['Finn', 'Finn']
 Issue: index 236: ['Sørensen', 'Sørensen']
 Issue: index 241: ['Christian', 'Christian']
@@ -249,7 +253,7 @@ Issue: index 634: ['Hansen', 'Hansen']
 Issue: index 639: ['Annette', 'Annette']
 Issue: index 640: ['Vilhelmsen', 'Vilhelmsen']
 Issue: index 645: ['Trine', 'Trine']
-Issue: index 646: ['Mach', 'Mach']
+Issue: index 646: ['Mach', 'Machen']
 Issue: index 651: ['Rosa', 'Rosa']
 Issue: index 652: ['Lund', 'Lund']
 Issue: index 657: ['Lars', 'Lars']
@@ -309,7 +313,7 @@ Issue: index 826: ['Ida', 'Ida']
 Issue: index 827: ['Auken', 'Auken']
 Issue: index 832: ['Nadeem', 'Nadeem']
 Issue: index 833: ['Farooq', 'Farooq']
-Issue: index 838: ['Jeppe', 'Jep']
+Issue: index 838: ['Jeppe', 'Jeppe']
 Issue: index 839: ['Mikkelsen', 'Mikkelsen']
 Issue: index 844: ['Steen', 'Steen']
 Issue: index 845: ['Gade', 'Gade']
@@ -368,7 +372,7 @@ Issue: index 993: ['Thomas', 'Thomas']
 Issue: index 994: ['Jensen', 'Jensen']
 Issue: index 999: ['Bjarne', 'Bjarne']
 Issue: index 1000: ['Laustsen', 'Laustsen']
-Issue: index 1005: ['Jeppe', 'Jep']
+Issue: index 1005: ['Jeppe', 'Jeppe']
 Issue: index 1006: ['Bruus', 'Bruus']
 Issue: index 1011: ['Jens', 'Jens']
 Issue: index 1012: ['Joel', 'Joel']
@@ -499,7 +503,7 @@ Issue: index 1384: ['Holger', 'Holger']
 Issue: index 1385: ['K.', 'K.']
 Issue: index 1386: ['Nielsen', 'Nielsen']
 Issue: index 1391: ['Trine', 'Trine']
-Issue: index 1392: ['Mach', 'Mach']
+Issue: index 1392: ['Mach', 'Machen']
 Issue: index 1397: ['Nikolaj', 'Nikolaj']
 Issue: index 1398: ['Villumsen', 'Villumsen']
 Issue: index 1403: ['Jørgen', 'Jørgen']
@@ -613,8 +617,8 @@ Issue: index 1714: ['Borst', 'Borst']
 Issue: index 1715: ['Hansen', 'Hansen']
 Issue: index 1720: ['Helle', 'Helle']
 Issue: index 1721: ['Løvgreen', 'Løvgreen']
-Issue: index 1722: ['Mølvig', 'Mølvig']
-Issue: index 1727: ['Jeppe', 'Jep']
+Issue: index 1722: ['Mølvig', 'Mølvigen']
+Issue: index 1727: ['Jeppe', 'Jeppe']
 Issue: index 1728: ['Mikkelsen', 'Mikkelsen']
 Issue: index 1733: ['Pernille', 'Pernille']
 Issue: index 1734: ['Vigsø', 'Vigsø']
@@ -749,7 +753,7 @@ Issue: index 2127: ['Holm', 'Holm']
 Issue: index 2128: ['Andersen', 'Andersen']
 Issue: index 2133: ['Helle', 'Helle']
 Issue: index 2134: ['Løvgreen', 'Løvgreen']
-Issue: index 2135: ['Mølvig', 'Mølvig']
+Issue: index 2135: ['Mølvig', 'Mølvigen']
 Issue: index 2140: ['Nadeem', 'Nadeem']
 Issue: index 2141: ['Farooq', 'Farooq']
 Issue: index 2146: ['Pernille', 'Pernille']
@@ -799,7 +803,7 @@ Issue: index 2261: ['Mike', 'Mike']
 Issue: index 2262: ['Legarth', 'Legarth']
 Issue: index 2268: ['Helle', 'Helle']
 Issue: index 2269: ['Løvgreen', 'Løvgreen']
-Issue: index 2270: ['Mølvig', 'Mølvig']
+Issue: index 2270: ['Mølvig', 'Mølvigen']
 Issue: index 2276: ['Mike', 'Mike']
 Issue: index 2277: ['Legarth', 'Legarth']
 Issue: index 2292: ['Flemming', 'Flemming']
@@ -1110,7 +1114,7 @@ Issue: index 3181: ['Lisbeth', 'Lisbeth']
 Issue: index 3182: ['Bech', 'Bech']
 Issue: index 3183: ['Poulsen', 'Poulsen']
 Issue: index 3188: ['Trine', 'Trine']
-Issue: index 3189: ['Mach', 'Mach']
+Issue: index 3189: ['Mach', 'Machen']
 Issue: index 3194: ['Frank', 'Frank']
 Issue: index 3195: ['Aaen', 'Aaen']
 Issue: index 3200: ['Stine', 'Stine']
@@ -1178,7 +1182,7 @@ Issue: index 3378: ['Andersen', 'Andersen']
 Issue: index 3383: ['Lotte', 'Lotte']
 Issue: index 3384: ['Rod', 'Rod']
 Issue: index 3389: ['Trine', 'Trine']
-Issue: index 3390: ['Mach', 'Mach']
+Issue: index 3390: ['Mach', 'Machen']
 Issue: index 3395: ['Özlem', 'Özlem']
 Issue: index 3396: ['Sara', 'Sara']
 Issue: index 3397: ['Cekic', 'Cekic']
@@ -1221,7 +1225,7 @@ Issue: index 3497: ['Frank', 'Frank']
 Issue: index 3502: ['Mai', 'Mai']
 Issue: index 3503: ['Mercado', 'Mercado']
 Issue: index 3509: ['Trine', 'Trine']
-Issue: index 3510: ['Mach', 'Mach']
+Issue: index 3510: ['Mach', 'Machen']
 Issue: index 3516: ['Anne-Mette', 'Anne-Mette']
 Issue: index 3517: ['Winther', 'Winther']
 Issue: index 3518: ['Christiansen', 'Christiansen']
@@ -1244,7 +1248,7 @@ Issue: index 3574: ['Orla', 'Orla']
 Issue: index 3575: ['Hav', 'Hav']
 Issue: index 3580: ['Helle', 'Helle']
 Issue: index 3581: ['Løvgreen', 'Løvgreen']
-Issue: index 3582: ['Mølvig', 'Mølvig']
+Issue: index 3582: ['Mølvig', 'Mølvigen']
 Issue: index 3587: ['Marlene', 'Marlene']
 Issue: index 3588: ['Borst', 'Borst']
 Issue: index 3589: ['Hansen', 'Hansen']
@@ -1391,7 +1395,7 @@ Issue: index 4003: ['Andersen', 'Andersen']
 Issue: index 4008: ['Zenia', 'Zenia']
 Issue: index 4009: ['Stampe', 'Stampe']
 Issue: index 4014: ['Trine', 'Trine']
-Issue: index 4015: ['Mach', 'Mach']
+Issue: index 4015: ['Mach', 'Machen']
 Issue: index 4020: ['Holger', 'Holger']
 Issue: index 4021: ['K.', 'K.']
 Issue: index 4022: ['Nielsen', 'Nielsen']
@@ -1458,7 +1462,7 @@ Issue: index 4204: ['Lotte', 'Lotte']
 Issue: index 4205: ['Rod', 'Rod']
 Issue: index 4211: ['Holm', 'Holm']
 Issue: index 4212: ['Andersen', 'Andersen']
-Issue: index 4217: ['Jeppe', 'Jep']
+Issue: index 4217: ['Jeppe', 'Jeppe']
 Issue: index 4218: ['Mikkelsen', 'Mikkelsen']
 Issue: index 4223: ['Annette', 'Annette']
 Issue: index 4224: ['Vilhelmsen', 'Vilhelmsen']
@@ -1523,7 +1527,7 @@ Issue: index 4408: ['Simon', 'Simon']
 Issue: index 4409: ['Kollerup', 'Kollerup']
 Issue: index 4414: ['Helle', 'Helle']
 Issue: index 4415: ['Løvgreen', 'Løvgreen']
-Issue: index 4416: ['Mølvig', 'Mølvig']
+Issue: index 4416: ['Mølvig', 'Mølvigen']
 Issue: index 4421: ['Lone', 'Lone']
 Issue: index 4422: ['Loklindt', 'Loklindt']
 Issue: index 4427: ['Andreas', 'Andreas']
@@ -1595,7 +1599,7 @@ Issue: index 4624: ['Andreas', 'Andreas']
 Issue: index 4625: ['Steenberg', 'Steenberg']
 Issue: index 4630: ['Helle', 'Helle']
 Issue: index 4631: ['Løvgreen', 'Løvgreen']
-Issue: index 4632: ['Mølvig', 'Mølvig']
+Issue: index 4632: ['Mølvig', 'Mølvigen']
 Issue: index 4637: ['Lotte', 'Lotte']
 Issue: index 4638: ['Rod', 'Rod']
 Issue: index 4643: ['Karina', 'Karina']
@@ -1730,7 +1734,7 @@ Issue: index 5028: ['Torben', 'Torben']
 Issue: index 5029: ['Hansen', 'Hansen']
 Issue: index 5034: ['Helle', 'Helle']
 Issue: index 5035: ['Løvgreen', 'Løvgreen']
-Issue: index 5036: ['Mølvig', 'Mølvig']
+Issue: index 5036: ['Mølvig', 'Mølvigen']
 Issue: index 5041: ['Nadeem', 'Nadeem']
 Issue: index 5042: ['Farooq', 'Farooq']
 Issue: index 5047: ['Annette', 'Annette']
@@ -1807,7 +1811,7 @@ Issue: index 5243: ['Rasmus', 'Rasmus']
 Issue: index 5244: ['Prehn', 'Prehn']
 Issue: index 5249: ['Helle', 'Helle']
 Issue: index 5250: ['Løvgreen', 'Løvgreen']
-Issue: index 5251: ['Mølvig', 'Mølvig']
+Issue: index 5251: ['Mølvig', 'Mølvigen']
 Issue: index 5256: ['Lone', 'Lone']
 Issue: index 5257: ['Loklindt', 'Loklindt']
 Issue: index 5262: ['Nadeem', 'Nadeem']
@@ -1859,7 +1863,7 @@ Issue: index 5388: ['Sjúrður', 'Sjúrður']
 Issue: index 5389: ['Skaale', 'Skaale']
 Issue: index 5395: ['Edmund', 'Edmund']
 Issue: index 5396: ['Joensen', 'Joensen']
-Issue: index 5416: ['Troels', 'Troel']
+Issue: index 5416: ['Troels', 'Troels']
 Issue: index 5417: ['Ravn', 'Ravn']
 Issue: index 5422: ['Birthe', 'Birthe']
 Issue: index 5423: ['Rønn', 'Rønn']
@@ -2094,13 +2098,132 @@ Issue: index 6177: ['Josefsen', 'Josefsen']
 Issue: index 6183: ['Karen', 'Karen']
 Issue: index 6184: ['J.', 'J.']
 Issue: index 6185: ['Klint', 'Klint']
+Issue: index 6208: ['Ane', 'Ane']
+Issue: index 6209: ['Halsboe-Jørgensen', 'Halsboe-Jørgensen']
+Issue: index 6215: ['Holm', 'Holm']
+Issue: index 6216: ['Andersen', 'Andersen']
+Issue: index 6221: ['Trine', 'Trine']
+Issue: index 6222: ['Mach', 'Machen']
+Issue: index 6227: ['Peter', 'Peter']
+Issue: index 6228: ['Juel', 'Juel']
+Issue: index 6229: ['Jensen', 'Jensen']
+Issue: index 6234: ['Pia', 'Pia']
+Issue: index 6235: ['Kjærsgaard', 'Kjærsgaard']
+Issue: index 6240: ['Lars', 'Lars']
+Issue: index 6241: ['Barfoed', 'Barfoed']
+Issue: index 6250: ['Jeppe', 'Jeppe']
+Issue: index 6251: ['Bruus', 'Bruus']
+Issue: index 6256: ['Christian', 'Christian']
+Issue: index 6257: ['Juhl', 'Juhl']
+Issue: index 6262: ['Pernille', 'Pernille']
+Issue: index 6263: ['Vigsø', 'Vigsø']
+Issue: index 6264: ['Bagge', 'Bagge']
+Issue: index 6269: ['Karsten', 'Karsten']
+Issue: index 6270: ['Lauritzen', 'Lauritzen']
+Issue: index 6275: ['Mikkel', 'Mikkel']
+Issue: index 6276: ['Dencker', 'Dencker']
+Issue: index 6281: ['Lene', 'Lene']
+Issue: index 6282: ['Espersen', 'Espersen']
+Issue: index 6288: ['Peter', 'Peter']
+Issue: index 6289: ['Juel', 'Juel']
+Issue: index 6290: ['Jensen', 'Jensen']
+Issue: index 6296: ['Ane', 'Ane']
+Issue: index 6297: ['Halsboe-Jørgensen', 'Halsboe-Jørgensen']
+Issue: index 6320: ['Jacob', 'Jacob']
+Issue: index 6321: ['Lund', 'Lund']
+Issue: index 6327: ['Holm', 'Holm']
+Issue: index 6328: ['Andersen', 'Andersen']
+Issue: index 6333: ['Trine', 'Trine']
+Issue: index 6334: ['Mach', 'Machen']
+Issue: index 6339: ['Michael', 'Michael']
+Issue: index 6340: ['Aastrup', 'Aastrup']
+Issue: index 6341: ['Jensen', 'Jensen']
+Issue: index 6346: ['Martin', 'Martin']
+Issue: index 6347: ['Henriksen', 'Henriksen']
+Issue: index 6356: ['Mette', 'Mette']
+Issue: index 6357: ['Reissmann', 'Reissmann']
+Issue: index 6362: ['Nikolaj', 'Nikolaj']
+Issue: index 6363: ['Villumsen', 'Villumsen']
+Issue: index 6368: ['Pernille', 'Pernille']
+Issue: index 6369: ['Vigsø', 'Vigsø']
+Issue: index 6370: ['Bagge', 'Bagge']
+Issue: index 6375: ['Sophie', 'Sophie']
+Issue: index 6376: ['Løhde', 'Løhde']
+Issue: index 6381: ['Lars', 'Lars']
+Issue: index 6382: ['Barfoed', 'Barfoed']
+Issue: index 6388: ['Jacob', 'Jacob']
+Issue: index 6389: ['Lund', 'Lund']
+Issue: index 6395: ['Michael', 'Michael']
+Issue: index 6396: ['Aastrup', 'Aastrup']
+Issue: index 6397: ['Jensen', 'Jensen']
+Issue: index 6425: ['Morten', 'Morten']
+Issue: index 6426: ['Bødskov', 'Bødskov']
+Issue: index 6431: ['Holger', 'Holger']
+Issue: index 6432: ['K.', 'K.']
+Issue: index 6433: ['Nielsen', 'Nielsen']
+Issue: index 6438: ['Jakob', 'Jakob']
+Issue: index 6439: ['Ellemann-Jensen', 'Ellemann-Jensen']
+Issue: index 6448: ['Nikolaj', 'Nikolaj']
+Issue: index 6449: ['Villumsen', 'Villumsen']
+Issue: index 6454: ['Ida', 'Ida']
+Issue: index 6455: ['Auken', 'Auken']
+Issue: index 6460: ['Eva', 'Eva']
+Issue: index 6461: ['Kjer', 'Kjer']
+Issue: index 6462: ['Hansen', 'Hansen']
+Issue: index 6468: ['Jakob', 'Jakob']
+Issue: index 6469: ['Ellemann-Jensen', 'Ellemann-Jensen']
+Issue: index 6475: ['Morten', 'Morten']
+Issue: index 6476: ['Bødskov', 'Bødskov']
+Issue: index 6506: ['Henrik', 'Henrik']
+Issue: index 6507: ['Dam', 'Dam']
+Issue: index 6508: ['Kristensen', 'Kristensen']
+Issue: index 6513: ['Lone', 'Lone']
+Issue: index 6514: ['Loklindt', 'Loklindt']
+Issue: index 6519: ['Jonas', 'Jonas']
+Issue: index 6520: ['Dahl', 'Dahl']
+Issue: index 6525: ['Stine', 'Stine']
+Issue: index 6526: ['Brix', 'Brix']
+Issue: index 6531: ['Kristian', 'Kristian']
+Issue: index 6532: ['Jensen', 'Jensen']
+Issue: index 6537: ['Peter', 'Peter']
+Issue: index 6538: ['Skaarup', 'Skaarup']
+Issue: index 6543: ['Simon', 'Simon']
+Issue: index 6544: ['Emil', 'Emil']
+Issue: index 6545: ['Ammitzbøll', 'Ammitzbøll']
+Issue: index 6550: ['Brian', 'Brian']
+Issue: index 6551: ['Mikkelsen', 'Mikkelsen']
+Issue: index 6557: ['Henrik', 'Henrik']
+Issue: index 6558: ['Dam', 'Dam']
+Issue: index 6559: ['Kristensen', 'Kristensen']
+Issue: index 6565: ['Kristian', 'Kristian']
+Issue: index 6566: ['Jensen', 'Jensen']
+Issue: index 12: ['Tage', 'Tage']
+Issue: index 164: ['Frederiksen', 'Frederiksen']
+Issue: index 227: ['Hans', 'Hans']
+Issue: index 388: ['Olldag', 'Olldag']
+Issue: index 419: ['Jensen', 'Jensen']
+Issue: index 438: ['Lars', 'Lars']
+Issue: index 453: ['Jensen', 'Jensen']
+Issue: index 483: ['Mai', 'Mai']
+Issue: index 484: ['Mercado', 'Mercado']
+Issue: index 489: ['Mai', 'Mai']
+Issue: index 507: ['Marianne', 'Marianne']
+Issue: index 519: ['Marlene', 'Marlene']
+Issue: index 544: ['Scheelsbeck', 'Scheelsbeck']
+Issue: index 550: ['Frederiksen', 'Frederiksen']
+Issue: index 555: ['Mette', 'Mette']
+Issue: index 612: ['Hav', 'Hav']
+Issue: index 624: ['Hvelplund', 'Hvelplund']
+Issue: index 787: ['Søren', 'Søren']
+Issue: index 849: ['Ulla', 'Ulla']
+Issue: index 147: ['Hans', 'Hans']
 Issue: index 10: ['Morten', 'Morten']
 Issue: index 0: ['Mette', 'Mette']
 Issue: index 1: ['Frederiksen', 'Frederiksen']
 Issue: index 529: ['Kofoeds', 'Kofoed']
 Issue: index 629: ['Kofoeds', 'Kofoed']
-Issue: index 22: ['Messerschmidt', 'Messerschmidt']
-Issue: index 81: ['Merete', 'Merete']
+Issue: index 26: ['Søren', 'Søren']
+Issue: index 30: ['Messerschmidt', 'Messerschmidt']
 Issue: index 31: ['Helle', 'Helle']
 Issue: index 32: ['Thorning-Schmidt', 'Thorning-Schmidt']
 Issue: index 37: ['Morten', 'Morten']
@@ -2130,7 +2253,7 @@ Issue: index 96: ['Edda', 'Edda']
 Issue: index 97: ['Antorini', 'Antorini']
 Issue: index 104: ['Nick', 'Nick']
 Issue: index 105: ['Hækkerup', 'Hækkerup']
-Issue: index 117: ['Manu', 'Manu']
+Issue: index 117: ['Manu', 'Manuen']
 Issue: index 118: ['Sareen', 'Sareen']
 Issue: index 123: ['Henrik', 'Henrik']
 Issue: index 124: ['Martin', 'Martin']
@@ -2193,43 +2316,49 @@ Issue: index 1169: ['Holst', 'Holst']
 Issue: index 1180: ['Jørn', 'Jørn']
 Issue: index 1181: ['Neergaard', 'Neergaard']
 Issue: index 1182: ['Larsen', 'Larsen']
-Issue: index 0: ['Kaster', 'Kaste']
-Issue: index 157: ['Messerschmidt', 'Messerschmidt']
-Issue: index 39: ['Thor', 'Thor']
-
-Alignment completed. It took 8.52 minutes.
-
-| substituted_pairs                          |         count |
-|:-------------------------------------------|--------------:|
-| 0                                          |   1.97414e+06 |
-| [('Løjberg', 'Støjberg')]                  | 309           |
-| [('Ellemann', 'Ellemann-Jensen')]          | 180           |
-| [('Jeppe', 'Jep')]                         | 171           |
-| [('Naser', 'Nase')]                        | 160           |
-| [('Hylllested', 'Hyllested')]              | 151           |
-| [('Bille', 'Ammitzbøll-Bille')]            | 131           |
-| [('Mathisen', 'Mathiesen')]                | 117           |
-| [('Blixt', 'Blix')]                        | 114           |
-| [('Skipper', 'Skip')]                      | 107           |
-| [('Engel', 'Engel-Schmidt')]               | 101           |
-| [('Rosenkrantz', 'Rosenkrantz-Theil')]     | 100           |
-| [('Nielsen', 'Schmidt-Nielsen')]           |  95           |
-| [('Liselott', 'Liselot')]                  |  86           |
-| [('Messerschmidt', 'Messerschmide')]       |  82           |
-| [('Britt', 'May-Britten')]                 |  82           |
-| [('Silverhøj', 'Sølvhøj')]                 |  76           |
-| [('Krarup', 'Marie'), ('Marie', 'Krarup')] |  69           |
-| [('Nøjberg', 'Støjberg')]                  |  69           |
-| [('Rohde', 'Roh')]                         |  67           |
+Issue: index 6: ['Hav', 'Hav']
+Issue: index 1: ['Lars', 'Lars']
+Issue: index 12: ['Pernille', 'Pernille']
+Issue: index 10: ['Pernille', 'Pernille']
+Issue: index 1: ['Hav', 'Hav']
+Issue: index 7: ['Tage', 'Tage']
+Issue: index 0: ['Hav', 'Have']
+Issue: index 3: ['Elbæk', 'Elbæk']
+Issue: index 74: ['Mette', 'Mette']
+Issue: index 75: ['Frederiksen', 'Frederiksen']
+Alignment completed. It took 9.4 minutes.
+|                                                          |   substituted_pairs |
+|:---------------------------------------------------------|--------------------:|
+| 0                                                        |         1.93825e+06 |
+| [('Messerschmidt', 'Messerschmide')]                     |       963           |
+| [('Hylllested', 'Hyllested')]                            |       943           |
+| [('Løjberg', 'Støjberg')]                                |       926           |
+| [('Ellemann', 'Ellemann-Jensen')]                        |       803           |
+| [('Rohde', 'Roh')]                                       |       798           |
+| [('Mathisen', 'Mathiesen')]                              |       797           |
+| [('Naser', 'Nase')]                                      |       759           |
+| [('Jeppe', 'Jep')]                                       |       579           |
+| [('Blixt', 'Blix')]                                      |       404           |
+| [('Nielsen', 'Schmidt-Nielsen')]                         |       400           |
+| [('Krarup', 'Marie'), ('Marie', 'Krarup')]               |       398           |
+| [('Britt', 'May-Britt')]                                 |       381           |
+| [('Baker', 'Bager')]                                     |       378           |
+| [('Silverhøj', 'Sølvhøj')]                               |       332           |
+| [('Schmidt', 'Johanne'), ('Nielsen', 'Schmidt-Nielsen')] |       290           |
+| [('Bille', 'Ammitzbøll-Bille')]                          |       288           |
+| [('Rosenkrantz', 'Rosenkrantz-Theil')]                   |       286           |
+| [('Sea', 'Hav')]                                         |       285           |
+| [('Engel', 'Engel-Schmidt')]                             |       285           |
 
 
 
 Number of errors:
-(11, 19)
+(30, 19)
+
 
 
 Example of sentences with substituted words.
-|     | file_path                                                                                                                           | file                                     | sentence_id                         | text                                                                                                                                                                             | tokenized_text                                                                                                                                                                          | proper_nouns                                                                                                                 |   length | translation                                                                                                                                                                 | translation-tokenized                                                                                                                                                           | space-after-information                                                                                                                                                                                                              | fwd_align_dict                                                                                                                                                                                                                                                                                                           | bwd_align_dict                                                                                                                                                                                                                                                                                                 | alignments                                                                                                                                                                                                                                    | new_translations                                                                                                                                                               | substitution_info                                                                                                                                             | substituted_pairs                  | substituted_words   | errors   | source_indices                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|----:|:------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------|:------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|---------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------|:--------------------|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  39 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-DK.conllu/ParlaMint-DK.conllu/2017/ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_20170517130336.seg12.4 | Og som jeg forstår det, kan jeg læse, at hr. Naser Khader fra De Konservative mener, at den skal afskaffes, og det mente den tidligere konservative formand, Lars Barfoed, også. | Og som jeg forstår det , kan jeg læse , at hr. Naser Khader fra De Konservative mener , at den skal afskaffes , og det mente den tidligere konservative formand , Lars Barfoed , også . | {12: ['Naser', 'Nase'], 13: ['Khader', 'Khader'], 32: ['Lars', 'Lars'], 33: ['Barfoed', 'Barfoed']}                          |       30 | And as I understand it, I can read that Mr. Naser Khader of the Conservatives believes that it should be abolished, as did the former Conservative President, Lars Barfoed. | And as I understand it , I can read that Mr. Naser Khader of the Conservatives believes that it should be abolished , as did the former Conservative President , Lars Barfoed . | ['Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Last'] | {1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '8', 8: '7', 9: '9', 10: '11', 11: '12', 12: '13', 13: '14', 14: '15', 15: '16', 16: '17', 17: '18', 18: '20', 19: '21', 20: '22', 21: '23', 22: '23', 23: '24', 24: '25', 25: '27', 26: '28', 27: '29', 28: '30', 29: '31', 30: '32', 31: '33', 32: '34', 33: '37'} | {1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 8: '7', 7: '8', 9: '9', 10: '11', 11: '12', 12: '13', 13: '14', 14: '15', 15: '16', 16: '17', 17: '18', 18: '19', 19: '21', 20: '22', 22: '23', 23: '24', 24: '25', 25: '27', 26: '28', 27: '29', 28: '30', 29: '31', 30: '32', 31: '33', 32: '34', 33: '37'} | {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 7, 7: 6, 8: 8, 10: 9, 11: 10, 12: 11, 13: 12, 14: 13, 15: 14, 16: 15, 17: 16, 18: 17, 20: 18, 21: 19, 22: 21, 23: 22, 24: 23, 26: 24, 27: 25, 28: 26, 29: 27, 30: 28, 31: 29, 32: 30, 33: 31, 36: 32} | And as I understand it , I can read that Mr. Nase Khader of the Conservatives believes that it should be abolished , as did the former Conservative President , Lars Barfoed . | [('Naser', 'Nase'), "No substitution: ('Khader', 'Khader')", "No substitution: ('Lars', 'Lars')", "No substitution: ('Barfoed', 'Barfoed')"]                  | [('Naser', 'Nase')]                | {12: 'Naser'}       | No       | [['Og', 1], ['som', 2], ['jeg', 3], ['forstår', 4], ['det', 5], [',', 6], ['kan', 7], ['jeg', 8], ['læse', 9], [',', 10], ['at', 11], ['hr.', 12], ['Naser', 13], ['Khader', 14], ['fra', 15], ['De', 16], ['Konservative', 17], ['mener', 18], [',', 19], ['at', 20], ['den', 21], ['skal', 22], ['afskaffes', 23], [',', 24], ['og', 25], ['det', 26], ['mente', 27], ['den', 28], ['tidligere', 29], ['konservative', 30], ['formand', 31], [',', 32], ['Lars', 33], ['Barfoed', 34], [',', 35], ['også', 36], ['.', 37]] |
-| 124 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-DK.conllu/ParlaMint-DK.conllu/2017/ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_20170517131505.seg40.7 | Jeg er da glad, hvis man nu vender tilbage til gode gammelkendte stier som Helle Thorning-Schmidt og Bjarne Corydon så lystigt gik ud ad sammen med mange af os andre.           | Jeg er da glad , hvis man nu vender tilbage til gode gammelkendte stier som Helle Thorning-Schmidt og Bjarne Corydon så lystigt gik ud ad sammen med mange af os andre .                | {15: ['Helle', 'Helle'], 16: ['Thorning-Schmidt', 'Thorning-Schmidt'], 18: ['Bjarne', 'Bjarne'], 19: ['Corydon', 'Corydon']} |       30 | I'm glad if you return to good old paths like Helle Thorning-Schmidt and Bjarne Corydon so merry went out with many of us.                                                  | I 'm glad if you return to good old paths like Helle Thorning - Schmidt and Bjarne Corydon so merry went out with many of us .                                                  | ['No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Last']                                           | {1: '1', 2: '2', 3: '4', 4: '6', 5: '7', 6: '9', 7: '11', 8: '12', 9: '13', 10: '14', 11: '15', 12: '16', 13: '16', 14: '16', 15: '17', 16: '18', 17: '19', 18: '20', 19: '21', 20: '22', 21: '23', 22: '24', 23: '27', 24: '28', 25: '29', 26: '30', 27: '32'}                                                          | {1: '1', 2: '2', 3: '3, 4', 4: '6', 5: '7', 6: '9, 10', 7: '11', 8: '12', 9: '13', 10: '14', 11: '15', 12: '16', 13: '17', 16: '18', 17: '19', 18: '20', 19: '21', 20: '22', 21: '23', 22: '24', 23: '27', 24: '28', 25: '29', 26: '30', 27: '32'}                                                             | {0: 0, 1: 1, 2: 2, 3: 2, 5: 3, 6: 4, 8: 5, 9: 5, 10: 6, 11: 7, 12: 8, 13: 9, 14: 10, 15: 11, 16: 12, 17: 15, 18: 16, 19: 17, 20: 18, 21: 19, 22: 20, 23: 21, 26: 22, 27: 23, 28: 24, 29: 25, 31: 26}                                          | I 'm glad if you return to good old paths like Helle Thorning-Schmidt - Schmidt and Bjarne Corydon so merry went out with many of us .                                         | ["No substitution: ('Helle', 'Helle')", ('Thorning', 'Thorning-Schmidt'), "No substitution: ('Bjarne', 'Bjarne')", "No substitution: ('Corydon', 'Corydon')"] | [('Thorning', 'Thorning-Schmidt')] | {13: 'Thorning'}    | No       | [['Jeg', 1], ['er', 2], ['da', 3], ['glad', 4], [',', 5], ['hvis', 6], ['man', 7], ['nu', 8], ['vender', 9], ['tilbage', 10], ['til', 11], ['gode', 12], ['gammelkendte', 13], ['stier', 14], ['som', 15], ['Helle', 16], ['Thorning-Schmidt', 17], ['og', 18], ['Bjarne', 19], ['Corydon', 20], ['så', 21], ['lystigt', 22], ['gik', 23], ['ud', 24], ['ad', 25], ['sammen', 26], ['med', 27], ['mange', 28], ['af', 29], ['os', 30], ['andre', 31], ['.', 32]]                                                             |
+|    | file_path                                                                                                                           | file                                     | sentence_id                         | text                                                                                                                                                                             | tokenized_text                                                                                                                                                                          | proper_nouns                                                                                        |   length | translation                                                                                                                                                                 | translation-tokenized                                                                                                                                                           | space-after-information                                                                                                                                                                                                              | fwd_align_dict                                                                                                                                                                                                                                                                                                           | bwd_align_dict                                                                                                                                                                                                                                                                                                     | alignments                                                                                                                                                                                                                                            | new_translations                                                                                                                                                               | substitution_info                                                                                                                            | substituted_pairs   | substituted_words   | errors   | source_indices                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---:|:------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------|:------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|---------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:--------------------|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 39 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-DK.conllu/ParlaMint-DK.conllu/2017/ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_20170517130336.seg12.4 | Og som jeg forstår det, kan jeg læse, at hr. Naser Khader fra De Konservative mener, at den skal afskaffes, og det mente den tidligere konservative formand, Lars Barfoed, også. | Og som jeg forstår det , kan jeg læse , at hr. Naser Khader fra De Konservative mener , at den skal afskaffes , og det mente den tidligere konservative formand , Lars Barfoed , også . | {12: ['Naser', 'Nase'], 13: ['Khader', 'Khader'], 32: ['Lars', 'Lars'], 33: ['Barfoed', 'Barfoed']} |       30 | And as I understand it, I can read that Mr. Naser Khader of the Conservatives believes that it should be abolished, as did the former Conservative President, Lars Barfoed. | And as I understand it , I can read that Mr. Naser Khader of the Conservatives believes that it should be abolished , as did the former Conservative President , Lars Barfoed . | ['Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'No', 'Last'] | {1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '8', 8: '7', 9: '9', 10: '11', 11: '12', 12: '13', 13: '14', 14: '15', 15: '16', 16: '17', 17: '18', 18: '20', 19: '21', 20: '22', 21: '23', 22: '23', 23: '24', 24: '25', 25: '27', 26: '28', 27: '29', 28: '30', 29: '31', 30: '32', 31: '33', 32: '34', 33: '37'} | {1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 8: '7', 7: '8', 9: '9', 10: '11', 11: '12', 12: '13', 13: '14', 14: '15', 15: '16', 16: '17', 17: '18', 18: '19, 20', 19: '21', 20: '22', 22: '23', 23: '24', 24: '25', 25: '27', 26: '28', 27: '29', 28: '30', 29: '31', 30: '32', 31: '33', 32: '34', 33: '37'} | {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 7, 7: 6, 8: 8, 10: 9, 11: 10, 12: 11, 13: 12, 14: 13, 15: 14, 16: 15, 17: 16, 18: 17, 19: 17, 20: 18, 21: 19, 22: 21, 23: 22, 24: 23, 26: 24, 27: 25, 28: 26, 29: 27, 30: 28, 31: 29, 32: 30, 33: 31, 36: 32} | And as I understand it , I can read that Mr. Nase Khader of the Conservatives believes that it should be abolished , as did the former Conservative President , Lars Barfoed . | [('Naser', 'Nase'), "No substitution: ('Khader', 'Khader')", "No substitution: ('Lars', 'Lars')", "No substitution: ('Barfoed', 'Barfoed')"] | [('Naser', 'Nase')] | {12: 'Naser'}       | No       | [['Og', 1], ['som', 2], ['jeg', 3], ['forstår', 4], ['det', 5], [',', 6], ['kan', 7], ['jeg', 8], ['læse', 9], [',', 10], ['at', 11], ['hr.', 12], ['Naser', 13], ['Khader', 14], ['fra', 15], ['De', 16], ['Konservative', 17], ['mener', 18], [',', 19], ['at', 20], ['den', 21], ['skal', 22], ['afskaffes', 23], [',', 24], ['og', 25], ['det', 26], ['mente', 27], ['den', 28], ['tidligere', 29], ['konservative', 30], ['formand', 31], [',', 32], ['Lars', 33], ['Barfoed', 34], [',', 35], ['også', 36], ['.', 37]] |
+| 54 | /home/tajak/Parlamint-translation/Source-data/ParlaMint-DK.conllu/ParlaMint-DK.conllu/2017/ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_2017-05-17-20161-M98.conllu | ParlaMint-DK_20170517130512.seg18.2 | Nu blev der henvist til hr. Naser Khader, og jeg gik ud fra, at jeg også lidt blev spurgt som konservativ partiformand om, hvor partiet står.                                    | Nu blev der henvist til hr. Naser Khader , og jeg gik ud fra , at jeg også lidt blev spurgt som konservativ partiformand om , hvor partiet står .                                       | {6: ['Naser', 'Nas'], 7: ['Khader', 'Khader']}                                                      |       26 | Now reference was made to Mr. Naser Khader, and I assumed that I was also asked a little as Conservative party chairman where the party stands.                             | Now reference was made to Mr. Naser Khader , and I assumed that I was also asked a little as Conservative party chairman where the party stands .                               | ['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Last']                                  | {1: '1', 2: '4', 3: '2', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 10: '10', 11: '11', 12: '13', 13: '16', 14: '17', 15: '20', 16: '18', 17: '21', 18: '19', 19: '19', 20: '22', 21: '23', 22: '24', 23: '24', 24: '27', 26: '28', 27: '29', 28: '30'}                                                             | {1: '1', 3: '2', 2: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 10: '10', 11: '11', 12: '12, 13, 14', 13: '15', 14: '17', 16: '18', 19: '19', 15: '20', 17: '21', 20: '22', 21: '23', 23: '24', 24: '27', 26: '28', 27: '29', 28: '30'}                                                                           | {0: 0, 1: 2, 3: 1, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10, 11: 11, 12: 11, 13: 11, 14: 12, 16: 13, 17: 15, 18: 18, 19: 14, 20: 16, 21: 19, 22: 20, 23: 22, 26: 23, 27: 25, 28: 26, 29: 27}                                                        | Now reference was made to Mr. Nas Khader , and I assumed that I was also asked a little as Conservative party chairman where the party stands .                                | [('Naser', 'Nas'), "No substitution: ('Khader', 'Khader')"]                                                                                  | [('Naser', 'Nas')]  | {7: 'Naser'}        | No       | [['Nu', 1], ['blev', 2], ['der', 3], ['henvist', 4], ['til', 5], ['hr.', 6], ['Naser', 7], ['Khader', 8], [',', 9], ['og', 10], ['jeg', 11], ['gik', 12], ['ud', 13], ['fra', 14], [',', 15], ['at', 16], ['jeg', 17], ['også', 18], ['lidt', 19], ['blev', 20], ['spurgt', 21], ['som', 22], ['konservativ', 23], ['partiformand', 24], ['om', 25], [',', 26], ['hvor', 27], ['partiet', 28], ['står', 29], ['.', 30]]                                                                                                      |
